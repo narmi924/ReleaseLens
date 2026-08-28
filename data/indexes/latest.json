@@ -2,8 +2,8 @@
   "releases": [
     {
       "channel": "stable",
-      "discoveredAt": "2026-08-28T10:23:59.844Z",
-      "observationId": "claude-code-stable-windows-x64-36b4c5a7168231ce",
+      "discoveredAt": "2026-08-28T22:27:06.192Z",
+      "observationId": "claude-code-stable-windows-x64-ee0156850629f8ac",
       "platform": "windows-x64",
       "productId": "claude-code",
       "schemaVersion": 1,
@@ -18,12 +18,12 @@
         "severity": "minor",
         "status": "DISTRIBUTION_DRIFT"
       },
-      "version": "2.1.250"
+      "version": "2.1.251"
     },
     {
       "channel": "stable",
-      "discoveredAt": "2026-08-28T10:28:45.187Z",
-      "observationId": "codex-stable-windows-x64-49e49109cdac88ee",
+      "discoveredAt": "2026-08-28T22:27:14.052Z",
+      "observationId": "codex-stable-windows-x64-2531db7a4bf19d8e",
       "platform": "windows-x64",
       "productId": "codex",
       "schemaVersion": 1,
@@ -32,23 +32,21 @@
           {
             "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
             "evidenceRefs": [
-              "artifact:codex:unavailable:26.825.4187.0"
+              "artifact:msix:OpenAI.Codex:26.825.4187.0:x64"
             ],
             "message": "Required artifact evidence is missing or did not pass."
           },
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
             "evidenceRefs": [
-              "behavior:codex:2026-08-28T10:28:45.187Z"
+              "behavior:codex:2026-08-28T22:27:14.052Z"
             ],
-            "message": "Required behavior codex-msix-identity is unsupported."
+            "message": "Required behavior codex-msix-identity is fail."
           },
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
-            "evidenceRefs": [
-              "behavior:codex:2026-08-28T10:28:45.187Z"
-            ],
-            "message": "Required behavior codex-backend-version is unsupported."
+            "evidenceRefs": [],
+            "message": "Required behavior codex-backend-version is fail."
           }
         ],
         "severity": "major",

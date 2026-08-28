@@ -126,13 +126,6 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29096"
-        ],
-        "signature": "code:platform-specific|title:feature-request-install-agent-bot-setup|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29108"
         ],
         "signature": "code:read_file|title:read-file-ignores-client-read-text|version:0.55.1",
@@ -147,27 +140,13 @@
       }
     ],
     "details": {
-      "fingerprint": "857a5c6115ea14fda15aa3c7418da7a48e1b381e472ddf83fbd0e9712208908a",
+      "fingerprint": "e2a0be35a42b7a81ed862e4a8674cd4c0ff01a7357db0bd86715e1f77a7952a3",
       "lookbackHours": 72,
       "releaseVersion": "0.57.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-08-26T09:03:30Z",
-        "id": "github-issue:google-gemini/gemini-cli:29096",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29096",
-        "signature": "code:platform-specific|title:feature-request-install-agent-bot-setup|platform:windows",
-        "title": "Feature Request: Install agent bot for setup assistance",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29096"
-      },
       {
         "createdAt": "2026-08-26T22:48:07Z",
         "id": "github-issue:google-gemini/gemini-cli:29100",
@@ -289,10 +268,10 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-28T10:29:26.628Z",
+    "observedAt": "2026-08-28T22:28:12.186Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "9 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-9453f81baba7288c",
   "interfaces": [
