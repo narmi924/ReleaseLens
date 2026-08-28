@@ -5,8 +5,8 @@
 <h1 align="center">ReleaseLens</h1>
 
 <p align="center">
-  Release intelligence and a regression observatory for developer tools.<br>
-  Traceable first-party evidence for one question: “What actually changed?”
+  Know what changed before you update a developer tool.<br>
+  First-party release evidence for Codex, Claude Code, and Gemini CLI.
 </p>
 
 <p align="center">
@@ -23,99 +23,125 @@
   <strong>English</strong> · <a href="./README.zh-CN.md">中文</a>
 </p>
 
-<p align="center">
-  <a href="./docs/architecture.md">Architecture</a> ·
-  <a href="./docs/methodology.md">Methodology</a> ·
-  <a href="./docs/product-profiles.md">Product profiles</a> ·
-  <a href="./docs/data-schema.md">Data schema</a> ·
-  <a href="./docs/local-development.md">Local development</a>
-</p>
-
 ---
 
-ReleaseLens V1.0 is a static, evidence-first release-intelligence product. Its normalized observation history lives in Git; large artifacts are downloaded, verified, inspected or tested, and then discarded within a single observation. It has no database, account system, paid object storage, or always-on backend.
+## What ReleaseLens is for
 
-## What you get
+ReleaseLens is a public release-intelligence observatory for developer tools.
+It watches first-party release surfaces, verifies what it can safely verify,
+and turns a version number into an answer you can inspect:
 
-| Product     | V1 release model                       | Key conclusion                                                                                                                            |
-| ----------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Codex       | Microsoft Store / MSIX                 | Models DisplayCatalog visibility separately from experimental FE3 downloadability; x64 is primary and ARM64 evidence is non-blocking.     |
-| Claude Code | Official native/recommended and WinGet | Compares official or officially recommended distribution surfaces, clearly exposing version drift without changing the developer machine. |
-| Gemini CLI  | npm `latest` / `preview` / `nightly`   | Verifies registry integrity and package contents, recording channel history, interface snapshots, and promotion evidence.                 |
+- What is the current version in each official channel or distribution?
+- Is the release merely visible, or is a verified artifact actually available?
+- What changed between two releases—including command-line interface changes?
+- Is there evidence of a distribution mismatch, a rollout race, or an incident?
+- Which release is the Last Known Good (LKG) within the declared test scope?
 
-Live observation data lives in [`data/`](data/). Test fixtures live only in [`fixtures/`](fixtures/) and never reach production pages or the static API. Research, phase planning, and operator instructions stay in the ignored local `Local/` directory and are not part of the public repository.
+> **ReleaseLens is not a changelog mirror and does not call a release “safe.”**
+> It shows the evidence, the checks that ran, and the limits of those checks so
+> you can decide what to investigate or update.
 
-## From upstream to an understandable conclusion
+## Use it as a visitor
+
+No account, local installation, or API key is needed to use a deployed
+ReleaseLens site.
+
+1. **Start at the dashboard** to see the latest observed state, release
+   verdict, and LKG for each tool.
+2. **Open a tool timeline** to follow its release and channel history.
+3. **Open a release detail** when a version matters; it connects the verdict
+   to source, artifact, interface, behavior, and community evidence.
+4. **Compare two releases** to isolate version, distribution, and CLI-surface
+   differences.
+5. **Review incidents** when a regression or rollout anomaly is being tracked,
+   or subscribe through RSS/Atom and the JSON API for your own monitoring.
+
+## Practical situations
+
+| If you are…                                   | ReleaseLens helps you…                                                                                                                                                   |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Using Codex from the Windows Store            | Distinguish a Store catalog version from a verified downloadable x64 package, while keeping ARM64 rollout evidence visible without blocking the primary result.          |
+| Maintaining Windows machines with Claude Code | See whether the official/native recommendation and WinGet package have drifted before treating them as the same release.                                                 |
+| Trying Gemini CLI `preview` or `nightly`      | Check the channel version, registry integrity, package identity, and recorded CLI-interface changes before moving scripts or documentation forward.                      |
+| Reviewing an upgrade or incident              | Link a concrete version change to first-party provenance, a deterministic verdict, and any related incident rather than relying on a screenshot or an unverified repost. |
+| Building your own release monitor             | Consume versioned JSON, RSS, or Atom instead of scraping the website.                                                                                                    |
+
+## What it watches today
+
+| Product         | First-party release surfaces                                                                             | What the product view makes clear                                                                                                             |
+| --------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Codex**       | Microsoft Store DisplayCatalog, experimental FE3 metadata, and verified MSIX artifacts                   | Catalog visibility versus actual downloadability, x64 primary analysis, ARM64 rollout evidence, artifact identity, and bounded smoke results. |
+| **Claude Code** | Official native/recommended distribution, Windows WinGet metadata, and optional official GitHub metadata | Official distribution state, Windows drift, verified isolated CLI checks, and community context.                                              |
+| **Gemini CLI**  | npm registry `latest`, `preview`, and `nightly` dist-tags                                                | Channel history, SRI integrity, package inspection, CLI snapshots, and promotion evidence.                                                    |
+
+## Read the evidence, not just the verdict
+
+Every release observation separates the evidence that led to its conclusion:
 
 ```text
-first-party upstream
-  -> source adapter -> candidate / SourceEvidence
-  -> temporary artifact lease -> verify -> inspect / smoke
-  -> diff + deterministic verdict + LKG + incident
-  -> canonical Git data -> static JSON API / RSS / Atom / website
+first-party source
+  -> release candidate and source evidence
+  -> temporary verified artifact and safe inspection/smoke
+  -> diff, deterministic verdict, LKG, and incident lifecycle
+  -> static website, versioned JSON API, RSS, and Atom
 ```
 
-Every domain object has a schema version. `SourceEvidence`, `ArtifactEvidence`, `InterfaceEvidence`, `BehaviorEvidence`, `CommunityEvidence`, `ReleaseDiff`, `ReleaseVerdict`, LKG, and Incidents are all inspectable first-class data. Signed runtime download URLs, authentication data, temporary paths, and process state cannot be serialized into `data/` or the public site.
+The site keeps the raw provenance available without making hashes and protocol
+details the primary decision surface. Signed download URLs, credentials,
+temporary paths, and process state are never persisted in public data.
 
-See [architecture](docs/architecture.md) for module boundaries, data flow, and automation; see [methodology](docs/methodology.md) for verdict rules and the declared test scope.
+## Use the data in your own workflow
 
-## Quick start
+After a static-site deployment, the following stable endpoints are available
+from its base URL:
 
-Requirements: Node.js 22+ and pnpm 9+. Do not use these commands to install, downgrade, update, or uninstall an existing Codex, Claude Code, or Gemini CLI installation on your development machine.
+- `/api/v1/index.json` and `/api/v1/products.json` — current public index
+- `/api/v1/products/<product>/latest.json` — latest state for one product
+- `/api/v1/products/<product>/releases/<observation>.json` — one release and
+  its evidence
+- `/api/v1/incidents.json` — tracked incident lifecycle
+- `/rss.xml` and `/atom.xml` — feed-friendly change monitoring
+
+This makes ReleaseLens useful both as a human-readable observatory and as a
+source for an upgrade checklist, an internal dashboard, or a notification
+workflow.
+
+## Run your own observer
+
+This section is for contributors and operators—not required to use the public
+site. It requires Node.js 22+ and pnpm 9+.
 
 ```powershell
 pnpm install --frozen-lockfile
-pnpm rl doctor
-pnpm rl validate-data
-pnpm build
-pnpm e2e
-```
-
-Common observation commands:
-
-```powershell
 pnpm rl discover --all
 pnpm rl observe --all
-pnpm rl observe --product gemini-cli --force
-pnpm rl refresh-community --recent 72h
-pnpm rl build-public
-pnpm rl validate-public
+pnpm build
 ```
 
-`observe` uses only temporary directories, a temporary HOME/profile, and an isolated npm prefix. Only artifacts that pass required verification may be executed. See [local development](docs/local-development.md) for detailed development, test, and cleanup rules.
+Observations use temporary directories, a temporary HOME/profile, and an
+isolated npm prefix. Existing Codex, Claude Code, and Gemini CLI installations
+on the machine are not installed, updated, downgraded, or removed. Large
+artifacts are verified before execution and discarded after the observation.
 
-## Deliverables
+For commands, local test rules, and cleanup, see
+[local development](docs/local-development.md). For data flow and product
+boundaries, see [architecture](docs/architecture.md),
+[methodology](docs/methodology.md), [product profiles](docs/product-profiles.md),
+and the [data schema](docs/data-schema.md).
 
-`pnpm build` produces a static Next.js site and versioned assets. Its primary entry points are:
+## Scope and limits
 
-- `/api/v1/index.json` and `/api/v1/products.json`
-- `/api/v1/products/<product>/latest.json`
-- `/api/v1/products/<product>/releases/<observation>.json`
-- `/api/v1/incidents.json`
-- `/rss.xml` and `/atom.xml`
-
-`apps/web/public/api/` and the feeds are reproducible build output and are not committed to Git. Once deployed, visitors get a browsable ReleaseLens site and can consume the stable JSON and feeds directly. See [data schema](docs/data-schema.md) for endpoint fields, relationships, and safety constraints.
-
-## Deploy to GitHub Pages
-
-The repository contains three GitHub Actions workflows:
-
-- `observe.yml`: runs hourly and manually on a hosted Windows runner under a concurrency guard. It commits only material changes to `data/`, then builds, validates, and publishes Pages.
-- `ci.yml`: cross-platform unit, integration, build, Playwright, isolated tool-smoke, and first-party-source discovery checks.
-- `deploy-pages.yml`: builds and deploys the static export to GitHub Pages on every push to `main`.
-
-For the first deployment, create a public GitHub repository, push `main`, then set **Settings → Pages** to use **GitHub Actions**. The workflow reads GitHub Pages’ official configuration for `base_url` and `base_path`, so project pages, user pages, and configured custom domains work without code changes. The default project-page address is `https://<owner>.github.io/<repository>/`; a separate domain does not exist until you configure one.
-
-No database, object storage, or server is required. Pushing the initial commit triggers CI and one Pages build/deployment. Afterwards, `observe.yml` observes upstream releases every hour on GitHub-hosted Windows runners; only material data changes produce a bot commit and redeployment.
-
-## Important limitations
-
-- `NO_REGRESSION_DETECTED` means only that no regression was detected within ReleaseLens’ declared, executed test scope. It is not a safety, quality, or compatibility guarantee.
-- Microsoft FE3 is an undocumented experimental adapter that may change. DisplayCatalog visibility does not mean an artifact is downloadable; rollout races remain conservative, unverified evidence.
-- The GitHub API, WinGet, and upstream delivery infrastructure may rate-limit or change. Such conditions become structured failure or unsupported evidence; they never produce fabricated success.
-- ReleaseLens does not retain installers, scan for malware, invoke models or APIs, or replace vendor support channels.
-
-See [product profiles](docs/product-profiles.md) for the differences between release surfaces.
+- `NO_REGRESSION_DETECTED` means no regression was detected within the
+  declared, executed test scope. It is not a safety, quality, or compatibility
+  guarantee.
+- Microsoft FE3 is an undocumented experimental adapter. DisplayCatalog
+  visibility does not prove an artifact is downloadable; rollout races remain
+  explicit, conservative evidence.
+- Upstream APIs and delivery infrastructure can rate-limit or change. Those
+  conditions become structured failure or unsupported evidence, never
+  fabricated success.
+- ReleaseLens does not retain installers, scan for malware, invoke models or
+  paid APIs, or replace vendor support channels.
 
 ## License
 

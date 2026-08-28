@@ -5,8 +5,8 @@
 <h1 align="center">ReleaseLens</h1>
 
 <p align="center">
-  面向开发者工具的发布情报与回归观察站。<br>
-  以可追溯的第一方证据，回答「究竟变了什么？」。
+  在更新开发工具前，先弄清楚到底变了什么。<br>
+  为 Codex、Claude Code 与 Gemini CLI 提供可追溯的第一方发布证据。
 </p>
 
 <p align="center">
@@ -23,99 +23,98 @@
   <a href="./README.md">English</a> · <strong>中文</strong>
 </p>
 
-<p align="center">
-  <a href="./docs/architecture.md">架构</a> ·
-  <a href="./docs/methodology.md">方法学</a> ·
-  <a href="./docs/product-profiles.md">产品配置</a> ·
-  <a href="./docs/data-schema.md">数据模式</a> ·
-  <a href="./docs/local-development.md">本地开发</a>
-</p>
-
 ---
 
-ReleaseLens V1.0 是一个静态、证据优先的发布情报产品：规范化观察历史保存在 Git；大制品只在单次观察中临时下载、验证、检查/测试后删除。它没有数据库、账号系统、付费对象存储或常驻后端。
+## 这个项目能做什么
 
-## 你会得到什么
+ReleaseLens 是面向开发者工具的公开发布情报站。它观察第一方发布面，
+在安全可行的范围内验证证据，并把单纯的版本号变成可追溯的结论：
 
-| 产品        | V1 发布模型                               | 关键结论                                                                                                 |
-| ----------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Codex       | Microsoft Store / MSIX                    | DisplayCatalog 的“目录可见”与实验性 FE3 的“可下载”分开建模；x64 是主分析对象，ARM64 是非阻塞的分发证据。 |
-| Claude Code | 官方 native/recommended 与 Windows WinGet | 对比多个官方/官方推荐分发面，明确显示版本漂移，而不擅自更新本机安装。                                    |
-| Gemini CLI  | npm `latest` / `preview` / `nightly`      | 校验 registry integrity 和包内容，记录通道历史、接口快照与通道推进证据。                                 |
+- 各官方通道或分发面的当前版本是什么？
+- 某版本只是“被目录列出”，还是确有已验证的可下载制品？
+- 两个 release 之间改了什么，包括命令行接口的变化？
+- 是否存在分发不一致、灰度 rollout race 或已跟踪的 incident？
+- 在已声明的测试范围内，哪个版本是 Last Known Good（LKG）？
 
-真实观察数据位于 [`data/`](data/)，测试夹具只位于 [`fixtures/`](fixtures/)，永远不会出现在生产页面或静态 API 中。研究材料、阶段计划与操作说明只保留在被忽略的本地 `Local/`，不会进入公开仓库。
+> **ReleaseLens 不是 changelog 镜像，也不会把任何 release 宣称为“安全”。**
+> 它展示证据、实际执行过的检查，以及检查的边界，让你自己决定该调查或升级什么。
 
-## 从上游到可读结论
+## 作为访客如何使用
+
+使用已部署的 ReleaseLens 站点不需要账号、本地安装或 API key。
+
+1. **从 Dashboard 开始**：查看每个工具最近一次观察到的状态、release verdict 与 LKG。
+2. **打开工具时间线**：追踪该工具的 release 与 channel 历史。
+3. **打开 release 详情**：当某个版本与你有关时，查看它的 source、artifact、interface、behavior 与 community evidence。
+4. **比较两个 release**：定位版本、分发面与 CLI 表面的具体差异。
+5. **查看 incidents**：在回归或 rollout 异常被跟踪时了解其进展；也可以通过 RSS/Atom 或 JSON API 接入自己的监控。
+
+## 实际使用场景
+
+| 当你…                                     | ReleaseLens 可以帮你…                                                                                          |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| 通过 Windows Store 使用 Codex             | 区分 Store catalog 版本与已验证的可下载 x64 package；同时展示 ARM64 rollout 证据而不阻塞主结论。               |
+| 维护安装了 Claude Code 的 Windows 设备    | 在把它们当成同一个 release 之前，先看到官方/native recommendation 与 WinGet package 是否出现版本漂移。         |
+| 尝试 Gemini CLI 的 `preview` 或 `nightly` | 在更新脚本或文档前，核对 channel version、registry integrity、package identity 与已记录的 CLI interface 变化。 |
+| 审核一次升级或 incident                   | 将具体版本变化关联到第一方来源、确定性 verdict 与相关 incident，而不是依赖截图或未经验证的转述。               |
+| 构建自己的 release monitor                | 直接消费带版本的 JSON、RSS 或 Atom，而不是抓取网页。                                                           |
+
+## 当前观察哪些发布面
+
+| 产品            | 第一方发布面                                                                      | 产品页会明确告诉你什么                                                                                            |
+| --------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Codex**       | Microsoft Store DisplayCatalog、实验性 FE3 metadata、已验证的 MSIX artifact       | catalog 可见性与实际可下载性的区别、x64 主分析、ARM64 rollout evidence、artifact identity 与有边界的 smoke 结果。 |
+| **Claude Code** | 官方 native/recommended 分发、Windows WinGet metadata、可选的官方 GitHub metadata | 官方分发状态、Windows 版本漂移、经过验证的隔离 CLI 检查与 community context。                                     |
+| **Gemini CLI**  | npm registry 的 `latest`、`preview`、`nightly` dist-tags                          | channel history、SRI integrity、package inspection、CLI snapshots 与 promotion evidence。                         |
+
+## 看证据，而不只看 verdict
+
+每个 release observation 都会分开保留得出结论所需的证据：
 
 ```text
-第一方上游
-  -> source adapter -> candidate / SourceEvidence
-  -> 临时 artifact lease -> verify -> inspect / smoke
-  -> diff + deterministic verdict + LKG + incident
-  -> canonical Git data -> static JSON API / RSS / Atom / website
+第一方 source
+  -> release candidate 与 source evidence
+  -> 临时且经过验证的 artifact 与安全 inspection/smoke
+  -> diff、deterministic verdict、LKG 与 incident lifecycle
+  -> static website、versioned JSON API、RSS 与 Atom
 ```
 
-所有领域对象均有 schema version：`SourceEvidence`、`ArtifactEvidence`、`InterfaceEvidence`、`BehaviorEvidence`、`CommunityEvidence`、`ReleaseDiff`、`ReleaseVerdict`、LKG 与 Incident 都是可查证的一等数据。运行时的签名下载 URL、认证信息、临时路径和进程状态不可序列化到 `data/` 或公共站点。
+站点会保留可展开的原始 provenance，但不会让 hash 与协议细节主导你的决策。
+签名下载 URL、凭据、临时路径与进程状态绝不会写入公开数据。
 
-模块边界、数据流及自动化见 [架构文档](docs/architecture.md)；判定规则和已声明的测试范围见 [方法学](docs/methodology.md)。
+## 把数据接入自己的工作流
 
-## 快速开始
+静态站点部署完成后，以下稳定端点会在其 base URL 下提供：
 
-要求：Node.js 22+ 与 pnpm 9+。不要用这些命令安装、降级、升级或卸载开发机上已有的 Codex、Claude Code 或 Gemini CLI。
+- `/api/v1/index.json` 与 `/api/v1/products.json`：当前公开索引
+- `/api/v1/products/<product>/latest.json`：单个产品的当前状态
+- `/api/v1/products/<product>/releases/<observation>.json`：一个 release 及其证据
+- `/api/v1/incidents.json`：已跟踪的 incident lifecycle
+- `/rss.xml` 与 `/atom.xml`：适合订阅的变更 feed
+
+因此 ReleaseLens 既可作为人可读的观察站，也可作为升级 checklist、内部 dashboard 或通知工作流的数据源。
+
+## 运行自己的 observer
+
+本节面向贡献者与运营者；使用公开站点不需要执行这些命令。要求 Node.js 22+ 与 pnpm 9+：
 
 ```powershell
 pnpm install --frozen-lockfile
-pnpm rl doctor
-pnpm rl validate-data
-pnpm build
-pnpm e2e
-```
-
-常用观察命令：
-
-```powershell
 pnpm rl discover --all
 pnpm rl observe --all
-pnpm rl observe --product gemini-cli --force
-pnpm rl refresh-community --recent 72h
-pnpm rl build-public
-pnpm rl validate-public
+pnpm build
 ```
 
-`observe` 只使用临时目录、临时 HOME/profile 和隔离的 npm prefix；只有通过所需验证的制品才会被执行。详细的本地开发、测试和清理规则见 [本地开发](docs/local-development.md)。
+观察过程只使用临时目录、临时 HOME/profile 与隔离的 npm prefix。它不会安装、更新、降级或卸载机器上已有的 Codex、Claude Code 或 Gemini CLI。大制品会在执行前验证，并在本次观察后删除。
 
-## 最终交付物
+命令、本地测试规则与清理方式见[本地开发](docs/local-development.md)。数据流与产品边界见[架构](docs/architecture.md)、[方法学](docs/methodology.md)、[产品配置](docs/product-profiles.md)与[数据模式](docs/data-schema.md)。
 
-执行 `pnpm build` 会生成静态 Next.js 站点及其版本化资源。核心入口包括：
+## 范围与限制
 
-- `/api/v1/index.json`、`/api/v1/products.json`
-- `/api/v1/products/<product>/latest.json`
-- `/api/v1/products/<product>/releases/<observation>.json`
-- `/api/v1/incidents.json`
-- `/rss.xml` 与 `/atom.xml`
-
-`apps/web/public/api/` 和 Feed 是可再生成的构建输出，不提交到 Git。部署后，访问者得到的是一个可浏览的 ReleaseLens 站点，同时也能直接消费上述稳定 JSON 和 Feed；端点字段、关联和安全限制见 [数据模式](docs/data-schema.md)。
-
-## 部署到 GitHub Pages
-
-仓库包含三项 GitHub Actions：
-
-- `observe.yml`：每小时及手动触发，在 Windows hosted runner 上串行保护地观察；仅当 `data/` 有实质变化时提交，并在这种情况下构建、验证和发布 Pages。
-- `ci.yml`：跨平台单元、集成、构建、Playwright、隔离工具 smoke 和第一方源探测。
-- `deploy-pages.yml`：每次推送 `main` 后构建并部署静态导出到 GitHub Pages。
-
-首次部署只需要：创建公开 GitHub 仓库、推送 `main`、然后在 **Settings → Pages** 将 source 设为 **GitHub Actions**。工作流会从 GitHub Pages 的官方配置读取站点 `base_url` 与 `base_path`，因此项目页、用户页和已配置的自定义域名都无需改代码。默认项目页地址是 `https://<owner>.github.io/<repository>/`；尚未配置自定义域名时，不会凭空拥有独立域名。
-
-无需配置数据库、对象存储或服务器。推送初始提交会触发 CI 与一次 Pages 构建/部署；之后 `observe.yml` 每小时在 GitHub 托管 Windows runner 上观察上游，只有 `data/` 出现实质变化才创建 bot 提交并重新发布站点。
-
-## 重要限制
-
-- `NO_REGRESSION_DETECTED` 仅表示 ReleaseLens 声明的、已运行的验证范围内未检测到回归；不是安全、质量或适配性保证。
-- Microsoft FE3 是未文档化且可能变化的实验适配器。DisplayCatalog 可见不等于制品可下载；任何 rollout race 都会保守地保留为未验证证据。
-- GitHub API、WinGet 及上游发布基础设施可能限流或改变；这些情形会作为结构化的失败/不支持证据呈现，不会伪造成功。
-- ReleaseLens 不保留安装包，不做恶意软件扫描，不调用模型/API，也不替代供应商支持渠道。
-
-各产品的发布面差异见 [产品配置](docs/product-profiles.md)。
+- `NO_REGRESSION_DETECTED` 仅表示在已声明且实际执行的测试范围内没有发现回归；不是安全、质量或兼容性保证。
+- Microsoft FE3 是未文档化的实验性 adapter。DisplayCatalog 可见不代表 artifact 可下载；rollout race 会保留为明确、保守的证据。
+- 上游 API 与分发基础设施可能限流或变化。这些情况会成为结构化的失败或 unsupported evidence，绝不会伪造成功。
+- ReleaseLens 不保留 installer、不做恶意软件扫描、不调用模型或付费 API，也不替代供应商支持渠道。
 
 ## 许可证
 
