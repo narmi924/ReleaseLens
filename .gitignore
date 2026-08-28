@@ -1,0 +1,55 @@
+# JavaScript / TypeScript workspace
+node_modules/
+.pnpm-store/
+*.tsbuildinfo
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+coverage/
+test-results/
+playwright-report/
+blob-report/
+
+# Static application build output
+.next/
+out/
+dist/
+apps/*/.next/
+apps/*/out/
+apps/*/dist/
+apps/web/public/api/
+apps/web/public/rss.xml
+apps/web/public/atom.xml
+packages/*/dist/
+
+# Local runtime state and ephemeral artifact leases
+.cache/
+.tmp/
+tmp/
+temp/
+/artifacts/
+downloads/
+data/.work/
+data/**/*.tmp
+data/**/*.partial
+
+# .NET build outputs
+tools/store-resolver/bin/
+tools/store-resolver/obj/
+
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+.DS_Store
+Thumbs.db
+
+# Private local research, planning, and operator instructions
+
+/Local

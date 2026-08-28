@@ -1,0 +1,139 @@
+name: Observe upstream releases
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Re-run temporary artifact verification even when a candidate fingerprint is unchanged
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: releaselens-observe-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  observe:
+    name: Windows production observation
+    runs-on: windows-latest
+    timeout-minutes: 45
+    outputs:
+      data_changed: ${{ steps.commit.outputs.data_changed }}
+    steps:
+      - name: Check out canonical data
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.9
+
+      - name: Set up Node and pnpm
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install workspace
+        shell: pwsh
+        run: pnpm install --frozen-lockfile
+
+      - name: Observe first-party release state
+        shell: pwsh
+        run: |
+          if ('${{ inputs.force }}' -eq 'true') {
+            pnpm rl observe --all --force
+          } else {
+            pnpm rl observe --all
+          }
+
+      - name: Validate only canonical persisted data
+        shell: pwsh
+        run: pnpm rl validate-data
+
+      - name: Commit meaningful observation changes
+        id: commit
+        shell: pwsh
+        run: |
+          if (git diff --quiet -- data) {
+            Write-Host 'No meaningful canonical data change; no commit created.'
+            'data_changed=false' >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+          git config user.name 'releaselens-bot[bot]'
+          git config user.email 'releaselens-bot[bot]@users.noreply.github.com'
+          git add -- data
+          if (git diff --cached --quiet) {
+            Write-Host 'Only ignored or non-canonical files changed; no commit created.'
+            'data_changed=false' >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+          git commit -m 'data: observe upstream release intelligence'
+          git push
+          'data_changed=true' >> $env:GITHUB_OUTPUT
+
+  publish-pages:
+    name: Publish changed release data
+    needs: observe
+    if: needs.observe.outputs.data_changed == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The preceding job has just pushed a bot commit. Check out the
+          # branch tip rather than this workflow's original event SHA.
+          ref: ${{ github.ref }}
+
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install workspace
+        run: pnpm install --frozen-lockfile
+
+      - name: Build and validate changed static release data
+        run: |
+          pnpm build
+          pnpm rl validate-public
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          RELEASELENS_PUBLIC_BASE_URL: ${{ steps.pages.outputs.base_url }}
+
+      - name: Upload static deployment artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/web/out
+
+  deploy-pages:
+    name: Deploy changed release data
+    needs: publish-pages
+    if: needs.publish-pages.result == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

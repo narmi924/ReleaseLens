@@ -1,0 +1,23 @@
+{
+  "name": "@releaselens/platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@electron/asar": "^3.4.1",
+    "@releaselens/core": "workspace:*",
+    "@xmldom/xmldom": "^0.8.11",
+    "fast-xml-parser": "^5.2.5",
+    "tar": "^7.4.3",
+    "yauzl": "^3.2.0",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/yauzl": "^2.10.3",
+    "@types/yazl": "^2.4.5",
+    "yazl": "^3.3.1"
+  }
+}

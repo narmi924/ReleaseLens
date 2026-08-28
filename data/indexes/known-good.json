@@ -1,0 +1,72 @@
+{
+  "pointers": [
+    {
+      "channel": "stable",
+      "observationId": "claude-code-stable-windows-x64-46b46422599636da",
+      "platform": "windows-x64",
+      "productId": "claude-code",
+      "requirementsSatisfied": [
+        "source:pass",
+        "interface:pass",
+        "behavior:pass",
+        "claude-version:pass",
+        "claude-help:pass"
+      ],
+      "schemaVersion": 1,
+      "selectedAt": "2026-08-28T09:43:23.879Z",
+      "version": "2.1.250"
+    },
+    {
+      "channel": "latest",
+      "observationId": "gemini-cli-latest-node-813aa5567f9d93b9",
+      "platform": "node",
+      "productId": "gemini-cli",
+      "requirementsSatisfied": [
+        "source:pass",
+        "artifact:pass",
+        "interface:pass",
+        "behavior:pass",
+        "gemini-version:pass",
+        "gemini-help:pass"
+      ],
+      "schemaVersion": 1,
+      "selectedAt": "2026-08-28T10:29:16.163Z",
+      "version": "0.57.0"
+    },
+    {
+      "channel": "nightly",
+      "observationId": "gemini-cli-nightly-node-833ca4df53697af3",
+      "platform": "node",
+      "productId": "gemini-cli",
+      "requirementsSatisfied": [
+        "source:pass",
+        "artifact:pass",
+        "interface:pass",
+        "behavior:pass",
+        "gemini-version:pass",
+        "gemini-help:pass"
+      ],
+      "schemaVersion": 1,
+      "selectedAt": "2026-08-28T10:29:16.163Z",
+      "version": "0.59.0-nightly.20260828.g3c311beac"
+    },
+    {
+      "channel": "preview",
+      "observationId": "gemini-cli-preview-node-b0e27a82e4669a47",
+      "platform": "node",
+      "productId": "gemini-cli",
+      "requirementsSatisfied": [
+        "source:pass",
+        "artifact:pass",
+        "interface:pass",
+        "behavior:pass",
+        "gemini-version:pass",
+        "gemini-help:pass"
+      ],
+      "schemaVersion": 1,
+      "selectedAt": "2026-08-28T10:29:16.163Z",
+      "version": "0.58.0-preview.0"
+    }
+  ],
+  "schemaVersion": 1
+}

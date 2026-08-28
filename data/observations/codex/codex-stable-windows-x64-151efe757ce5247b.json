@@ -1,0 +1,139 @@
+{
+  "artifacts": [
+    {
+      "fileName": "unavailable",
+      "format": "unavailable",
+      "id": "artifact:codex:unavailable:26.825.4187.0",
+      "kind": "artifact",
+      "observedAt": "2026-08-28T09:41:12.096Z",
+      "packageVersion": "26.825.4187.0",
+      "sourceHost": "unavailable",
+      "status": "fail",
+      "summary": "Required artifact acquisition or verification did not complete: Artifact Content-Length header exceeds the source maximum length.",
+      "verification": []
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-08-28T09:41:12.096Z",
+      "kind": "behavior",
+      "observedAt": "2026-08-28T09:41:12.096Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-08-28T09:41:12.096Z",
+          "status": "fail",
+          "summary": "Not executed because required artifact acquisition or verification failed: Artifact Content-Length header exceeds the source maximum length.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-08-28T09:41:12.096Z",
+          "status": "fail",
+          "summary": "Not executed because required artifact acquisition or verification failed: Artifact Content-Length header exceeds the source maximum length.",
+          "testId": "codex-backend-version"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-08-28T09:41:12.096Z",
+          "status": "not-applicable",
+          "summary": "Not executed because required artifact acquisition or verification failed: Artifact Content-Length header exceeds the source maximum length.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "fail",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-151efe757ce5247b",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.825.4187.0",
+    "channel": "stable",
+    "discoveredAt": "2026-08-28T09:41:12.096Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.825.4187.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "82476864ba1a78595e3717fbc036313d7878536739a48225f0da49fe37b548f7",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-08-28T09:41:12.408Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.825.4187.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.825.4187.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "9e3d0414-da08-4ad0-9c8b-f00232204d2e"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.825.4187.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-08-28T09:41:12.096Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "pass",
+      "summary": "FE3 resolves x64 package 26.825.4187.0 from the Microsoft delivery host."
+    },
+    {
+      "details": {
+        "buildVersion": "26.825.4187.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-08-28T09:41:12.096Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:codex:unavailable:26.825.4187.0"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-08-28T09:41:12.096Z"
+        ],
+        "message": "Required behavior codex-msix-identity is fail."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-08-28T09:41:12.096Z"
+        ],
+        "message": "Required behavior codex-backend-version is fail."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}

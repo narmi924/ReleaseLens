@@ -1,0 +1,14 @@
+Claude Code 2.3.4
+
+Usage: claude [options] [command]
+
+Commands:
+  doctor                Diagnose this installation
+  update                Check for updates
+
+Options:
+  --version             Print the version
+  --debug [category]    Enable diagnostic output
+
+Environment variables:
+  CLAUDE_CODE_GIT_BASH_PATH configures the Windows shell integration.

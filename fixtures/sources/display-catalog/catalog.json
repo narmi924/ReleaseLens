@@ -1,0 +1,48 @@
+{
+  "Product": {
+    "ProductId": "9PLM9XGG6VKS",
+    "Properties": {
+      "WuCategoryId": "f8c733a8-8fdb-4e11-b14b-catalog-fixture"
+    },
+    "DisplaySkuAvailabilities": [
+      {
+        "Sku": {
+          "Properties": {
+            "Packages": [
+              {
+                "PackageFullName": "OpenAI.Codex_26.99.999.0_x64__2p2nqsd0c76g0",
+                "PackageFamilyName": "OpenAI.Codex_2p2nqsd0c76g0",
+                "PackageId": "old-x64",
+                "ContentId": "old-content",
+                "Architectures": ["x64"],
+                "HashAlgorithm": "SHA256",
+                "Hash": "1111111111111111111111111111111111111111111111111111111111111111",
+                "MaxDownloadSizeInBytes": 100
+              },
+              {
+                "PackageFullName": "OpenAI.Codex_26.100.0.0_x64__2p2nqsd0c76g0",
+                "PackageFamilyName": "OpenAI.Codex_2p2nqsd0c76g0",
+                "PackageId": "new-x64",
+                "ContentId": "new-content",
+                "Architectures": ["x64"],
+                "HashAlgorithm": "SHA256",
+                "Hash": "2222222222222222222222222222222222222222222222222222222222222222",
+                "MaxDownloadSizeInBytes": 200
+              },
+              {
+                "PackageFullName": "OpenAI.Codex_26.100.0.0_arm64__2p2nqsd0c76g0",
+                "PackageFamilyName": "OpenAI.Codex_2p2nqsd0c76g0",
+                "PackageId": "new-arm64",
+                "ContentId": "arm-content",
+                "Architectures": ["arm64"],
+                "HashAlgorithm": "SHA256",
+                "Hash": "3333333333333333333333333333333333333333333333333333333333333333",
+                "MaxDownloadSizeInBytes": 190
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

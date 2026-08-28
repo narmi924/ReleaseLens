@@ -1,0 +1,129 @@
+name: Validate ReleaseLens
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: releaselens-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Quality on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install workspace
+        shell: pwsh
+        run: pnpm install --frozen-lockfile
+
+      - name: Unit, fixture, integration, lint and type checks
+        shell: pwsh
+        run: |
+          pnpm test
+          pnpm lint
+          pnpm typecheck
+          pnpm rl validate-data
+
+      - name: Build static product
+        shell: pwsh
+        run: pnpm build
+
+      - name: Validate static JSON API and feeds
+        shell: pwsh
+        run: pnpm rl validate-public
+
+      - name: Install browser for production-static E2E
+        shell: pwsh
+        run: |
+          if ($env:RUNNER_OS -eq 'Linux') {
+            pnpm exec playwright install --with-deps chromium
+          } else {
+            pnpm exec playwright install chromium
+          }
+
+      - name: Run primary browser flows
+        shell: pwsh
+        run: pnpm e2e
+
+  isolated-live-smoke:
+    name: Isolated ${{ matrix.product }} smoke on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            product: gemini-cli
+          - os: windows-latest
+            product: claude-code
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install workspace
+        shell: pwsh
+        run: pnpm install --frozen-lockfile
+
+      - name: Discover and run verified isolated smoke
+        shell: pwsh
+        run: |
+          pnpm rl discover --product ${{ matrix.product }}
+          pnpm rl observe --product ${{ matrix.product }} --force
+          pnpm rl validate-data
+
+  live-source-discovery:
+    name: Live first-party source discovery
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install workspace
+        shell: pwsh
+        run: pnpm install --frozen-lockfile
+
+      - name: Discover every first-party release source without artifact acquisition
+        shell: pwsh
+        run: pnpm rl discover --all

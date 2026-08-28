@@ -1,0 +1,80 @@
+id: codex
+name: Codex
+releaseModel:
+  versionScheme: quad
+  channels:
+    - stable
+sources:
+  - id: microsoft-store-display-catalog
+    type: microsoft-store-display-catalog
+    required: true
+    config:
+      productId: 9PLM9XGG6VKS
+      packageIdentity: OpenAI.Codex
+      packageFamilyName: OpenAI.Codex_2p2nqsd0c76g0
+      market: US
+      languages:
+        - en-US
+        - en
+        - neutral
+  - id: microsoft-store-fe3
+    type: microsoft-store-fe3-experimental
+    required: true
+    config:
+      primaryArchitecture: x64
+      secondaryArchitecture: arm64
+  - id: codex-rollout-signal
+    type: official-rollout-signal
+    required: false
+    config:
+      url: https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json
+platforms:
+  - id: windows-x64
+    os: windows
+    architecture: x64
+    required: true
+  - id: windows-arm64
+    os: windows
+    architecture: arm64
+    required: false
+inspectors:
+  - id: msix
+    type: msix
+    required: true
+  - id: codex-electron
+    type: codex-electron
+    required: false
+tests:
+  - id: codex-msix-identity
+    level: L1
+    requiredForKnownGood: true
+    requiredCapabilities: []
+  - id: codex-backend-version
+    level: L2
+    requiredForKnownGood: true
+    requiredCapabilities:
+      - shell
+      - windows
+  - id: codex-desktop-start
+    level: L3
+    requiredForKnownGood: false
+    requiredCapabilities:
+      - interactiveGui
+      - windows
+knownGoodPolicy:
+  requiredEvidenceKinds:
+    - source
+    - artifact
+    - behavior
+  requiredBehaviorTests:
+    - codex-msix-identity
+    - codex-backend-version
+  acceptedVerdicts:
+    - NO_REGRESSION_DETECTED
+    - CHANGED
+metadata:
+  sourceAuthority: Microsoft Store infrastructure
+  fe3Stability: experimental-undocumented
+community:
+  repository: openai/codex
+  lookbackHours: 72

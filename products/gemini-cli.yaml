@@ -1,0 +1,61 @@
+id: gemini-cli
+name: Gemini CLI
+releaseModel:
+  versionScheme: semver
+  channels:
+    - latest
+    - preview
+    - nightly
+sources:
+  - id: npm-registry
+    type: npm
+    required: true
+    config:
+      packageName: "@google/gemini-cli"
+      registryUrl: https://registry.npmjs.org
+  - id: github-repository
+    type: github
+    required: false
+    config:
+      repository: google-gemini/gemini-cli
+platforms:
+  - id: node
+    os: cross-platform
+    required: true
+inspectors:
+  - id: npm-package
+    type: npm-package
+    required: true
+  - id: cli
+    type: cli
+    required: true
+tests:
+  - id: gemini-version
+    level: L2
+    requiredForKnownGood: true
+    requiredCapabilities:
+      - shell
+      - node
+  - id: gemini-help
+    level: L2
+    requiredForKnownGood: true
+    requiredCapabilities:
+      - shell
+      - node
+knownGoodPolicy:
+  requiredEvidenceKinds:
+    - source
+    - artifact
+    - interface
+    - behavior
+  requiredBehaviorTests:
+    - gemini-version
+    - gemini-help
+  acceptedVerdicts:
+    - NO_REGRESSION_DETECTED
+    - CHANGED
+metadata:
+  sourceAuthority: npm registry dist-tags and package metadata
+community:
+  repository: google-gemini/gemini-cli
+  lookbackHours: 72

@@ -1,0 +1,19 @@
+Gemini CLI 0.57.0
+
+Usage: gemini [options] [command]
+
+Commands:
+  auth                  Manage authentication
+  config <key>          Read or update configuration
+  extensions            Manage extensions
+
+Options:
+  -v, --version         Output the version number
+  --model <model>       Select the model
+  --approval-mode [mode] Configure approval behavior
+
+Environment:
+  GEMINI_API_KEY can select an authenticated provider.
+
+Configuration:
+  GEMINI_MODEL chooses the default model.

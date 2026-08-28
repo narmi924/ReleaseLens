@@ -1,0 +1,68 @@
+id: claude-code
+name: Claude Code
+releaseModel:
+  versionScheme: semver
+  channels:
+    - stable
+sources:
+  - id: claude-official-release
+    type: claude-official-release
+    required: true
+    config:
+      documentationUrl: https://code.claude.com/docs/en/setup
+      installerUrl: https://claude.ai/install.ps1
+      releaseBaseUrl: https://downloads.claude.ai/claude-code-releases
+  - id: winget
+    type: winget
+    required: true
+    config:
+      packageId: Anthropic.ClaudeCode
+  - id: github-repository
+    type: github
+    required: false
+    config:
+      repository: anthropics/claude-code
+platforms:
+  - id: windows-x64
+    os: windows
+    architecture: x64
+    required: true
+inspectors:
+  - id: installer-script
+    type: installer-script
+    required: false
+  - id: cli
+    type: cli
+    required: true
+tests:
+  - id: claude-version
+    level: L2
+    requiredForKnownGood: true
+    requiredCapabilities:
+      - shell
+  - id: claude-help
+    level: L2
+    requiredForKnownGood: true
+    requiredCapabilities:
+      - shell
+  - id: claude-diagnostics
+    level: L2
+    requiredForKnownGood: false
+    requiredCapabilities:
+      - shell
+knownGoodPolicy:
+  requiredEvidenceKinds:
+    - source
+    - interface
+    - behavior
+  requiredBehaviorTests:
+    - claude-version
+    - claude-help
+  acceptedVerdicts:
+    - NO_REGRESSION_DETECTED
+    - CHANGED
+metadata:
+  sourceAuthority: Anthropic official installation and repository metadata
+community:
+  repository: anthropics/claude-code
+  lookbackHours: 72

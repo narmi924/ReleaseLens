@@ -1,0 +1,3 @@
+# Canonical observations are byte-stable JSON. Keep all tracked text on LF so
+# Windows checkouts cannot invalidate data/ canonicalization.
+* text=auto eol=lf

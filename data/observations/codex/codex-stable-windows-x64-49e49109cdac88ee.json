@@ -1,0 +1,571 @@
+{
+  "artifacts": [
+    {
+      "fileName": "unavailable",
+      "format": "unavailable",
+      "id": "artifact:codex:unavailable:26.825.4187.0",
+      "kind": "artifact",
+      "observedAt": "2026-08-28T10:28:45.187Z",
+      "packageVersion": "26.825.4187.0",
+      "sourceHost": "unavailable",
+      "status": "unsupported",
+      "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+      "verification": []
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-08-28T10:28:45.187Z",
+      "kind": "behavior",
+      "observedAt": "2026-08-28T10:28:45.187Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-08-28T10:28:45.187Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-08-28T10:28:45.187Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-backend-version"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-08-28T10:28:45.187Z",
+          "status": "not-applicable",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "unsupported",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41300"
+        ],
+        "signature": "code:a3c5-ba9bcb64ec4c|title:01a046bf-30da-7520-a3c5-ba9bcb64ec4c",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41301"
+        ],
+        "signature": "code:built-in|title:codex-desktop-built-browser-plugin-unavailable|version:26.825.31414|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41299"
+        ],
+        "signature": "code:codex-cli|title:tui-resumed-threads-ignore-command-collapsing|version:0.150.1|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41310"
+        ],
+        "signature": "code:entire|title:quota-depleted-instantly-reset-unauthorized-anomalous|version:5.6-sol",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41297"
+        ],
+        "signature": "code:even|title:macos-appshot-opens-new-chat-unable|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41306"
+        ],
+        "signature": "code:example|title:pet-can-only-repositioned-once-refreshing|version:10.0.26200.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41293"
+        ],
+        "signature": "code:executable|title:codex-acp-start-under-root-deny|version:262.9437.276|platform:x64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41304"
+        ],
+        "signature": "code:existing|title:windows-existing-text-tasks-fail-start|version:26.825.3734|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41302"
+        ],
+        "signature": "code:expected|title:chatgpt-web-continue-work-nothing-only",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41294"
+        ],
+        "signature": "code:expose|title:feature-request-windows-codex-desktop-expose|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41296"
+        ],
+        "signature": "code:local-only|title:codex-safeguard-false-positive-blocks-authorized|version:26.810.52044|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41312"
+        ],
+        "signature": "code:many-core|title:bug-musl-allocator-causes-futex-storm|version:0.150.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41311"
+        ],
+        "signature": "code:non-existent|title:hallucinating-non-existent-functions|version:0.150.1|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41307"
+        ],
+        "signature": "code:off-screen|title:bug-windows-desktop-codex-chronic-auth|version:26.820.9563.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41298"
+        ],
+        "signature": "code:per-block|title:add-raw-rendered-toggle-tex-fenced|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41305"
+        ],
+        "signature": "code:review-summary|title:windows-desktop-canceled-review-summary-git|version:26.818.8289.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41303"
+        ],
+        "signature": "code:secondary-monitor|title:make-codex-pet-placement-customizable-including|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41295"
+        ],
+        "signature": "code:task-coordination|title:tasks-orchestration-now-broken-connected-remote|version:26.820.71523|platform:windows",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "43a1592048df12f066b2564f992f95e5fba819711561bb0edac1b2a4849910d4",
+      "lookbackHours": 72,
+      "releaseVersion": "26.825.4187.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-08-28T07:32:25Z",
+        "explicitVersion": "262.9437.276",
+        "id": "github-issue:openai/codex:41293",
+        "labels": [
+          "app-server",
+          "bug",
+          "extension",
+          "sandbox"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:executable|title:codex-acp-start-under-root-deny|version:262.9437.276|platform:x64",
+        "title": "Codex ACP fails to start under :root = \"deny\" despite read access to its executable",
+        "url": "https://github.com/openai/codex/issues/41293"
+      },
+      {
+        "createdAt": "2026-08-28T07:35:23Z",
+        "id": "github-issue:openai/codex:41294",
+        "labels": [
+          "app",
+          "app-server",
+          "enhancement",
+          "sandbox",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:expose|title:feature-request-windows-codex-desktop-expose|platform:windows",
+        "title": "[Feature Request][Windows][Codex Desktop] Expose app-server fs/* as scoped non-shell model tools with no visible process fallback",
+        "url": "https://github.com/openai/codex/issues/41294"
+      },
+      {
+        "createdAt": "2026-08-28T08:05:00Z",
+        "explicitVersion": "26.820.71523",
+        "id": "github-issue:openai/codex:41295",
+        "labels": [
+          "app",
+          "bug",
+          "remote",
+          "subagent",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:task-coordination|title:tasks-orchestration-now-broken-connected-remote|version:26.820.71523|platform:windows",
+        "title": "Tasks orchestration is now broken when connected to a remote host",
+        "url": "https://github.com/openai/codex/issues/41295"
+      },
+      {
+        "createdAt": "2026-08-28T08:11:59Z",
+        "explicitVersion": "26.810.52044",
+        "id": "github-issue:openai/codex:41296",
+        "labels": [
+          "app",
+          "bug",
+          "safety-check"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:local-only|title:codex-safeguard-false-positive-blocks-authorized|version:26.810.52044|platform:arm64",
+        "title": "Codex safeguard false positive blocks authorized local-only code repair",
+        "url": "https://github.com/openai/codex/issues/41296"
+      },
+      {
+        "createdAt": "2026-08-28T08:12:40Z",
+        "id": "github-issue:openai/codex:41297",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:even|title:macos-appshot-opens-new-chat-unable|platform:macos",
+        "title": "[macOS] Appshot opens a new chat and fails with “Unable to attach appshot”",
+        "url": "https://github.com/openai/codex/issues/41297"
+      },
+      {
+        "createdAt": "2026-08-28T08:21:31Z",
+        "id": "github-issue:openai/codex:41298",
+        "labels": [
+          "app",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:per-block|title:add-raw-rendered-toggle-tex-fenced|platform:macos",
+        "title": "Add raw/rendered toggle for TeX fenced code blocks in Codex App conversations",
+        "url": "https://github.com/openai/codex/issues/41298"
+      },
+      {
+        "createdAt": "2026-08-28T08:30:01Z",
+        "explicitVersion": "0.150.1",
+        "id": "github-issue:openai/codex:41299",
+        "labels": [
+          "bug",
+          "CLI",
+          "session",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:codex-cli|title:tui-resumed-threads-ignore-command-collapsing|version:0.150.1|platform:linux",
+        "title": "[CLI/TUI] Resumed threads ignore command collapsing and flood the view with historical tool output",
+        "url": "https://github.com/openai/codex/issues/41299"
+      },
+      {
+        "createdAt": "2026-08-28T08:40:31Z",
+        "id": "github-issue:openai/codex:41300",
+        "labels": [
+          "app",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:a3c5-ba9bcb64ec4c|title:01a046bf-30da-7520-a3c5-ba9bcb64ec4c",
+        "title": "01a046bf-30da-7520-a3c5-ba9bcb64ec4c",
+        "url": "https://github.com/openai/codex/issues/41300"
+      },
+      {
+        "createdAt": "2026-08-28T08:40:51Z",
+        "explicitVersion": "26.825.31414",
+        "id": "github-issue:openai/codex:41301",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:built-in|title:codex-desktop-built-browser-plugin-unavailable|version:26.825.31414|platform:windows",
+        "title": "Codex Desktop built-in browser plugin unavailable on Windows – browser opens but no browser-control/CDP tools",
+        "url": "https://github.com/openai/codex/issues/41301"
+      },
+      {
+        "createdAt": "2026-08-28T08:57:40Z",
+        "id": "github-issue:openai/codex:41302",
+        "labels": [
+          "bug",
+          "codex-web"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:expected|title:chatgpt-web-continue-work-nothing-only",
+        "title": "ChatGPT Web: “Continue with Work” does nothing and only resets the handoff countdown",
+        "url": "https://github.com/openai/codex/issues/41302"
+      },
+      {
+        "createdAt": "2026-08-28T09:02:12Z",
+        "id": "github-issue:openai/codex:41303",
+        "labels": [
+          "app",
+          "enhancement",
+          "pets",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:secondary-monitor|title:make-codex-pet-placement-customizable-including|platform:windows",
+        "title": "Make Codex pet placement customizable, including secondary-monitor support",
+        "url": "https://github.com/openai/codex/issues/41303"
+      },
+      {
+        "createdAt": "2026-08-28T09:09:43Z",
+        "explicitVersion": "26.825.3734",
+        "id": "github-issue:openai/codex:41304",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/41304",
+        "signature": "code:existing|title:windows-existing-text-tasks-fail-start|version:26.825.3734|platform:windows",
+        "title": "[Windows][26.825.3734] Existing text tasks fail to start Voice because avatar overlay has no conversation state",
+        "url": "https://github.com/openai/codex/issues/41304"
+      },
+      {
+        "createdAt": "2026-08-28T09:19:24Z",
+        "explicitVersion": "26.818.8289.0",
+        "id": "github-issue:openai/codex:41305",
+        "labels": [
+          "app",
+          "bug",
+          "code-review",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:review-summary|title:windows-desktop-canceled-review-summary-git|version:26.818.8289.0|platform:windows",
+        "title": "[Windows][Desktop 26.818.8289.0] canceled review-summary git diff leaves stale .git/index.lock",
+        "url": "https://github.com/openai/codex/issues/41305"
+      },
+      {
+        "createdAt": "2026-08-28T09:21:48Z",
+        "explicitVersion": "10.0.26200.0",
+        "id": "github-issue:openai/codex:41306",
+        "labels": [
+          "app",
+          "bug",
+          "pets",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:example|title:pet-can-only-repositioned-once-refreshing|version:10.0.26200.0|platform:windows",
+        "title": "Pet can only be repositioned once after refreshing or reselecting it",
+        "url": "https://github.com/openai/codex/issues/41306"
+      },
+      {
+        "createdAt": "2026-08-28T09:44:10Z",
+        "explicitVersion": "26.820.9563.0",
+        "id": "github-issue:openai/codex:41307",
+        "labels": [
+          "app",
+          "auth",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:off-screen|title:bug-windows-desktop-codex-chronic-auth|version:26.820.9563.0|platform:windows",
+        "title": "[Bug][Windows Desktop 26.820.9563.0 / Codex CLI] Chronic Auth De-sync, Infinite Login Loop, and Off-screen Bounds",
+        "url": "https://github.com/openai/codex/issues/41307"
+      },
+      {
+        "createdAt": "2026-08-28T10:11:04Z",
+        "explicitVersion": "5.6-sol",
+        "id": "github-issue:openai/codex:41310",
+        "labels": [
+          "auth",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:entire|title:quota-depleted-instantly-reset-unauthorized-anomalous|version:5.6-sol",
+        "title": "Quota depleted instantly after reset; Unauthorized/Anomalous usage detected (214 rounds on unused models)",
+        "url": "https://github.com/openai/codex/issues/41310"
+      },
+      {
+        "createdAt": "2026-08-28T10:11:15Z",
+        "explicitVersion": "0.150.1",
+        "id": "github-issue:openai/codex:41311",
+        "labels": [
+          "bug",
+          "CLI",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:non-existent|title:hallucinating-non-existent-functions|version:0.150.1|platform:linux",
+        "title": "Hallucinating non-existent functions",
+        "url": "https://github.com/openai/codex/issues/41311"
+      },
+      {
+        "createdAt": "2026-08-28T10:25:21Z",
+        "explicitVersion": "0.150.1",
+        "id": "github-issue:openai/codex:41312",
+        "labels": [
+          "bug",
+          "CLI",
+          "performance",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/41312",
+        "signature": "code:many-core|title:bug-musl-allocator-causes-futex-storm|version:0.150.1|platform:windows",
+        "title": "CLI Bug — musl allocator causes futex storm and TUI unresponsiveness on many-core Linux",
+        "url": "https://github.com/openai/codex/issues/41312"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-08-28T10:28:59.264Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "18 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-434879223c553703",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-49e49109cdac88ee",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.825.4187.0",
+    "channel": "stable",
+    "discoveredAt": "2026-08-28T10:28:45.187Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.825.4187.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "82476864ba1a78595e3717fbc036313d7878536739a48225f0da49fe37b548f7",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-08-28T10:28:45.571Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "arm64",
+        "error": "Experimental FE3 resolver failed for arm64: FE3 did not return an allowed Microsoft delivery URL."
+      },
+      "id": "microsoft-store:fe3:arm64:unavailable",
+      "kind": "source",
+      "observedAt": "2026-08-28T10:28:45.187Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "warning",
+      "summary": "ARM64 remains catalog-only because the optional experimental FE3 resolver did not return a package."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.825.4187.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.825.4187.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "9e3d0414-da08-4ad0-9c8b-f00232204d2e"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.825.4187.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-08-28T10:28:45.187Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "warning",
+      "summary": "FE3 x64 package 26.825.4187.0 is ahead of DisplayCatalog 26.825.3734.0; acquisition is vetoed pending metadata convergence. Official rollout signal reports 26.825.4187.0."
+    },
+    {
+      "details": {
+        "buildVersion": "26.825.4187.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-08-28T10:28:45.187Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:codex:unavailable:26.825.4187.0"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-08-28T10:28:45.187Z"
+        ],
+        "message": "Required behavior codex-msix-identity is unsupported."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-08-28T10:28:45.187Z"
+        ],
+        "message": "Required behavior codex-backend-version is unsupported."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}
