@@ -176,37 +176,16 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:41539"
+          "github-issue:openai/codex:41556"
         ],
-        "signature": "code:auto-update|title:windows-store-auto-update-starts-headless|version:26.825.5331.0|platform:windows",
+        "signature": "code:always_allowed_app_ids|title:windows-desktop-invalid-always-allowed-ids|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41535"
+          "github-issue:openai/codex:41563"
         ],
-        "signature": "code:click-through|title:windows-desktop-pet-becomes-click-through|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:41533"
-        ],
-        "signature": "code:codex-cli|title:hung|version:26.825.5331.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:41538"
-        ],
-        "signature": "code:context-window|title:allow-adaptive-context-window-expansion-based|version:0.90",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:41531"
-        ],
-        "signature": "code:conversation-length|title:chatgpt-work-conversation-length-limit-blocks",
+        "signature": "code:app-server|title:server-external-exec-server-selected-externalsandbox|version:0.144.5|platform:windows",
         "strength": "weak"
       },
       {
@@ -218,37 +197,44 @@
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41542"
+          "github-issue:openai/codex:41560"
         ],
-        "signature": "code:elgato|title:local-elgato-mcp-server-become-available|version:26.825.41651|platform:windows",
+        "signature": "code:emulator|title:chatgpt-desktop-removes-oauth-issuer-required|version:0.147|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41528"
+          "github-issue:openai/codex:41548"
         ],
-        "signature": "code:enters|title:macos-desktop-gets-stuck-behind-opaque|version:26.825.41651|platform:arm64",
+        "signature": "code:english|title:i18n-settings-sidebar-menu-localized-simplified|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41529"
+          "github-issue:openai/codex:41554"
         ],
-        "signature": "code:error|title:chatgpt-work-message-stream-leaves-external",
+        "signature": "code:enter|title:chatgpt-codex-macos-cmd-enter-return|version:26.825.41651|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41537"
+          "github-issue:openai/codex:41559"
         ],
-        "signature": "code:example|title:add-option-disable-automatic-session-titles|version:0.150.1|platform:arm64",
+        "signature": "code:error|title:codex-can-remove-its-own-cwd|version:0.151.0|platform:x64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41536"
+          "github-issue:openai/codex:41550"
         ],
-        "signature": "code:exe|title:windows-first-launch-update-runs-headless|version:26.825.5331.0|platform:windows",
+        "signature": "code:especially|title:chatgpt-add-filters-bulk-chat-management",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41552"
+        ],
+        "signature": "code:existing|title:windows-codex-desktop-creating-removing-local|platform:windows",
         "strength": "weak"
       },
       {
@@ -260,23 +246,23 @@
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41530"
+          "github-issue:openai/codex:41553"
         ],
-        "signature": "code:gpt-5|title:shell-mode-should-only-triggered-typed|version:0.151.0|platform:linux",
+        "signature": "code:gpt-5|title:chatgpt-plus-only-weekly-limit-shown|version:26.825.5331.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41541"
+          "github-issue:openai/codex:41551"
         ],
-        "signature": "code:high-reasoning|title:codex-processes-comparable-token-high-reasoning|version:0.150",
+        "signature": "code:gpt-5|title:windows-desktop-hangs-before-creating-window|version:26.825.5331.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41532"
+          "github-issue:openai/codex:41558"
         ],
-        "signature": "code:host-local|title:remote-mobile-codex-preview-image-video|version:26.820.7780.0|platform:windows",
+        "signature": "code:launch_app|title:windows-computer-use-launch-node-repl|platform:windows",
         "strength": "weak"
       },
       {
@@ -288,16 +274,23 @@
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41534"
+          "github-issue:openai/codex:41557"
         ],
-        "signature": "code:nested-quote|title:windows-nested-quote-corruption-pwsh-command|version:0.148|platform:windows",
+        "signature": "code:process-dead|title:remote-plugin-keeps-removed-mcp-tools|version:0.150.0-alpha.8|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41540"
+          "github-issue:openai/codex:41549"
         ],
-        "signature": "code:node_repl|title:windows-headless-startup-caused-application-protected|version:26.825.5331.0|platform:windows",
+        "signature": "code:remote-control|title:codex-remote-control-reports-connection-errored|version:0.151.0|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41561"
+        ],
+        "signature": "code:user-configurable|title:github-integration-draft-ready-mutations-fail",
         "strength": "weak"
       },
       {
@@ -316,249 +309,13 @@
       }
     ],
     "details": {
-      "fingerprint": "be3e9a8a0cefe94357473fc97570a17be7518e250a39510fd966427e0c61c836",
+      "fingerprint": "66c19484c1674b1ec5d2776b675d53a260777a1fc1801ae7e88b2c5f3bd9609c",
       "lookbackHours": 72,
       "releaseVersion": "26.825.5331.0",
       "source": "official-github-issues"
     },
     "id": "community:codex:official-github",
     "issues": [
-      {
-        "createdAt": "2026-08-29T12:45:47Z",
-        "explicitVersion": "26.825.41651",
-        "id": "github-issue:openai/codex:41528",
-        "labels": [
-          "app",
-          "bug",
-          "remote"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:enters|title:macos-desktop-gets-stuck-behind-opaque|version:26.825.41651|platform:arm64",
-        "title": "macOS desktop gets stuck behind opaque loading/busy overlay while task remains responsive from mobile",
-        "url": "https://github.com/openai/codex/issues/41528"
-      },
-      {
-        "createdAt": "2026-08-29T12:47:21Z",
-        "id": "github-issue:openai/codex:41529",
-        "labels": [
-          "automations",
-          "bug",
-          "codex-web",
-          "connectivity",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:error|title:chatgpt-work-message-stream-leaves-external",
-        "title": "[ChatGPT Work] “Error in message stream” leaves external action outcome ambiguous",
-        "url": "https://github.com/openai/codex/issues/41529"
-      },
-      {
-        "createdAt": "2026-08-29T12:48:55Z",
-        "explicitVersion": "0.151.0",
-        "id": "github-issue:openai/codex:41530",
-        "labels": [
-          "bug",
-          "CLI",
-          "TUI"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:gpt-5|title:shell-mode-should-only-triggered-typed|version:0.151.0|platform:linux",
-        "title": "Shell mode should only be triggered when \"!\" is typed with the cursor at position 0",
-        "url": "https://github.com/openai/codex/issues/41530"
-      },
-      {
-        "createdAt": "2026-08-29T12:54:58Z",
-        "id": "github-issue:openai/codex:41531",
-        "labels": [
-          "codex-web",
-          "context",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:conversation-length|title:chatgpt-work-conversation-length-limit-blocks",
-        "title": "[ChatGPT Work] Conversation-length limit blocks recoverable closeout and handoff",
-        "url": "https://github.com/openai/codex/issues/41531"
-      },
-      {
-        "createdAt": "2026-08-29T13:00:11Z",
-        "explicitVersion": "26.820.7780.0",
-        "id": "github-issue:openai/codex:41532",
-        "labels": [
-          "app",
-          "bug",
-          "remote",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:host-local|title:remote-mobile-codex-preview-image-video|version:26.820.7780.0|platform:windows",
-        "title": "Remote mobile Codex cannot preview image and video artifacts generated on the connected computer",
-        "url": "https://github.com/openai/codex/issues/41532"
-      },
-      {
-        "createdAt": "2026-08-29T13:18:26Z",
-        "explicitVersion": "26.825.5331.0",
-        "id": "github-issue:openai/codex:41533",
-        "labels": [
-          "bug",
-          "CLI",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:codex-cli|title:hung|version:26.825.5331.0|platform:windows",
-        "title": "hung up",
-        "url": "https://github.com/openai/codex/issues/41533"
-      },
-      {
-        "createdAt": "2026-08-29T13:20:26Z",
-        "explicitVersion": "0.148",
-        "id": "github-issue:openai/codex:41534",
-        "labels": [
-          "bug",
-          "CLI",
-          "sandbox",
-          "tool-calls",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:nested-quote|title:windows-nested-quote-corruption-pwsh-command|version:0.148|platform:windows",
-        "title": "Windows: nested-quote corruption in pwsh -Command exec_command (200+ failures across 0.148/0.150) + file-read tool rejects workspace files",
-        "url": "https://github.com/openai/codex/issues/41534"
-      },
-      {
-        "createdAt": "2026-08-29T13:37:13Z",
-        "id": "github-issue:openai/codex:41535",
-        "labels": [
-          "app",
-          "bug",
-          "pets",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:click-through|title:windows-desktop-pet-becomes-click-through|platform:windows",
-        "title": "[Windows] Desktop pet becomes click-through and cannot be dragged",
-        "url": "https://github.com/openai/codex/issues/41535"
-      },
-      {
-        "createdAt": "2026-08-29T13:43:33Z",
-        "explicitVersion": "26.825.5331.0",
-        "id": "github-issue:openai/codex:41536",
-        "labels": [
-          "app",
-          "bug",
-          "performance",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:exe|title:windows-first-launch-update-runs-headless|version:26.825.5331.0|platform:windows",
-        "title": "[Windows][26.825.5331.0] First launch after update runs headless for several minutes before GUI appears",
-        "url": "https://github.com/openai/codex/issues/41536"
-      },
-      {
-        "createdAt": "2026-08-29T13:46:31Z",
-        "explicitVersion": "0.150.1",
-        "id": "github-issue:openai/codex:41537",
-        "labels": [
-          "CLI",
-          "config",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:example|title:add-option-disable-automatic-session-titles|version:0.150.1|platform:arm64",
-        "title": "Add an option to disable automatic session titles",
-        "url": "https://github.com/openai/codex/issues/41537"
-      },
-      {
-        "createdAt": "2026-08-29T14:00:36Z",
-        "explicitVersion": "0.90",
-        "id": "github-issue:openai/codex:41538",
-        "labels": [
-          "app",
-          "CLI",
-          "config",
-          "context",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "resolutionReference": "https://github.com/openai/codex/issues/41538",
-        "signature": "code:context-window|title:allow-adaptive-context-window-expansion-based|version:0.90",
-        "title": "Allow adaptive context-window expansion based on compaction feedback",
-        "url": "https://github.com/openai/codex/issues/41538"
-      },
-      {
-        "createdAt": "2026-08-29T14:17:43Z",
-        "explicitVersion": "26.825.5331.0",
-        "id": "github-issue:openai/codex:41539",
-        "labels": [
-          "app",
-          "bug",
-          "computer-use",
-          "performance",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:auto-update|title:windows-store-auto-update-starts-headless|version:26.825.5331.0|platform:windows",
-        "title": "[Windows][26.825.5331.0] After Store auto-update, app starts headless for ~12 min — update-policy gate + cua_node runtime re-extraction block window creation; main process event loop synchronously blocked",
-        "url": "https://github.com/openai/codex/issues/41539"
-      },
-      {
-        "createdAt": "2026-08-29T14:27:02Z",
-        "explicitVersion": "26.825.5331.0",
-        "id": "github-issue:openai/codex:41540",
-        "labels": [
-          "app",
-          "bug",
-          "computer-use",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:node_repl|title:windows-headless-startup-caused-application-protected|version:26.825.5331.0|platform:windows",
-        "title": "[Windows][26.825.5331.0] Headless startup caused by Application Protected node_repl.exe relocation failure (0x80071770)",
-        "url": "https://github.com/openai/codex/issues/41540"
-      },
-      {
-        "createdAt": "2026-08-29T14:29:31Z",
-        "explicitVersion": "0.150",
-        "id": "github-issue:openai/codex:41541",
-        "labels": [
-          "bug",
-          "CLI",
-          "performance",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:high-reasoning|title:codex-processes-comparable-token-high-reasoning|version:0.150",
-        "title": "Codex 0.150 processes comparable ~32.8M-token high-reasoning workloads ~1.6–1.8x faster in wall-clock time, rapidly depleting Pro weekly quota",
-        "url": "https://github.com/openai/codex/issues/41541"
-      },
-      {
-        "createdAt": "2026-08-29T14:36:03Z",
-        "explicitVersion": "26.825.41651",
-        "id": "github-issue:openai/codex:41542",
-        "labels": [
-          "app",
-          "bug",
-          "mcp",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:elgato|title:local-elgato-mcp-server-become-available|version:26.825.41651|platform:windows",
-        "title": "Local Elgato MCP server does not become available in Codex on Windows",
-        "url": "https://github.com/openai/codex/issues/41542"
-      },
       {
         "createdAt": "2026-08-29T14:55:58Z",
         "id": "github-issue:openai/codex:41543",
@@ -632,13 +389,229 @@
         "signature": "code:expose|title:codex-desktop-expose-stable-semantic-attribute|version:26.825.4187.0|platform:windows",
         "title": "Codex Desktop: expose a stable semantic attribute for transient activity headers",
         "url": "https://github.com/openai/codex/issues/41547"
+      },
+      {
+        "createdAt": "2026-08-29T15:46:03Z",
+        "id": "github-issue:openai/codex:41548",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:english|title:i18n-settings-sidebar-menu-localized-simplified|platform:windows",
+        "title": "[i18n] Settings sidebar menu not localized in Simplified Chinese",
+        "url": "https://github.com/openai/codex/issues/41548"
+      },
+      {
+        "createdAt": "2026-08-29T16:13:18Z",
+        "explicitVersion": "0.151.0",
+        "id": "github-issue:openai/codex:41549",
+        "labels": [
+          "app-server",
+          "bug",
+          "CLI",
+          "connectivity",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:remote-control|title:codex-remote-control-reports-connection-errored|version:0.151.0|platform:arm64",
+        "title": "codex remote-control reports \"connection is errored\" while the app-server remote-control WebSocket is Connected",
+        "url": "https://github.com/openai/codex/issues/41549"
+      },
+      {
+        "createdAt": "2026-08-29T16:25:47Z",
+        "id": "github-issue:openai/codex:41550",
+        "labels": [
+          "codex-web",
+          "enhancement",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:especially|title:chatgpt-add-filters-bulk-chat-management",
+        "title": "[ChatGPT] Add filters for bulk chat management by age and project membership",
+        "url": "https://github.com/openai/codex/issues/41550"
+      },
+      {
+        "createdAt": "2026-08-29T16:47:10Z",
+        "explicitVersion": "26.825.5331.0",
+        "id": "github-issue:openai/codex:41551",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:gpt-5|title:windows-desktop-hangs-before-creating-window|version:26.825.5331.0|platform:windows",
+        "title": "Windows desktop app 26.825.5331.0 hangs before creating a window (MoAppHang 1002)",
+        "url": "https://github.com/openai/codex/issues/41551"
+      },
+      {
+        "createdAt": "2026-08-29T16:50:44Z",
+        "id": "github-issue:openai/codex:41552",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:existing|title:windows-codex-desktop-creating-removing-local|platform:windows",
+        "title": "Windows Codex Desktop: creating and removing local projects fails",
+        "url": "https://github.com/openai/codex/issues/41552"
+      },
+      {
+        "createdAt": "2026-08-29T16:58:23Z",
+        "explicitVersion": "26.825.5331.0",
+        "id": "github-issue:openai/codex:41553",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "CLI",
+          "rate-limits",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:gpt-5|title:chatgpt-plus-only-weekly-limit-shown|version:26.825.5331.0|platform:windows",
+        "title": "ChatGPT Plus: only Weekly limit is shown after the 5-hour limit was reintroduced",
+        "url": "https://github.com/openai/codex/issues/41553"
+      },
+      {
+        "createdAt": "2026-08-29T17:24:06Z",
+        "explicitVersion": "26.825.41651",
+        "id": "github-issue:openai/codex:41554",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:enter|title:chatgpt-codex-macos-cmd-enter-return|version:26.825.41651|platform:arm64",
+        "title": "ChatGPT/Codex MacOS App CMD+Enter/Return key settings DOESN'T WORK",
+        "url": "https://github.com/openai/codex/issues/41554"
+      },
+      {
+        "createdAt": "2026-08-29T17:33:49Z",
+        "id": "github-issue:openai/codex:41556",
+        "labels": [
+          "app",
+          "bug",
+          "config",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:always_allowed_app_ids|title:windows-desktop-invalid-always-allowed-ids|platform:windows",
+        "title": "Windows Desktop: invalid always_allowed_app_ids TOML causes setup loop and unusable UI",
+        "url": "https://github.com/openai/codex/issues/41556"
+      },
+      {
+        "createdAt": "2026-08-29T17:40:02Z",
+        "explicitVersion": "0.150.0-alpha.8",
+        "id": "github-issue:openai/codex:41557",
+        "labels": [
+          "app",
+          "bug",
+          "mcp",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:process-dead|title:remote-plugin-keeps-removed-mcp-tools|version:0.150.0-alpha.8|platform:arm64",
+        "title": "Remote plugin keeps removed MCP tools after cache purge and process-dead restart",
+        "url": "https://github.com/openai/codex/issues/41557"
+      },
+      {
+        "createdAt": "2026-08-29T17:58:50Z",
+        "id": "github-issue:openai/codex:41558",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:launch_app|title:windows-computer-use-launch-node-repl|platform:windows",
+        "title": "Windows Computer Use: launch_app fails with \"node_repl exec context not found\" after healthy read calls",
+        "url": "https://github.com/openai/codex/issues/41558"
+      },
+      {
+        "createdAt": "2026-08-29T18:17:37Z",
+        "explicitVersion": "0.151.0",
+        "id": "github-issue:openai/codex:41559",
+        "labels": [
+          "app-server",
+          "bug",
+          "CLI",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:error|title:codex-can-remove-its-own-cwd|version:0.151.0|platform:x64",
+        "title": "Codex can remove its own cwd which irrevocably breaks the session with Failed to start turn: turn/start failed in TUI: turn/start failed: invalid cwd: No such file or directory (os error 2) (code -32600)",
+        "url": "https://github.com/openai/codex/issues/41559"
+      },
+      {
+        "createdAt": "2026-08-29T18:23:54Z",
+        "explicitVersion": "0.147",
+        "id": "github-issue:openai/codex:41560",
+        "labels": [
+          "auth",
+          "bug",
+          "CLI",
+          "mcp"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:emulator|title:chatgpt-desktop-removes-oauth-issuer-required|version:0.147|platform:arm64",
+        "title": "ChatGPT desktop 0.147 removes the OAuth issuer required by CLI 0.149+",
+        "url": "https://github.com/openai/codex/issues/41560"
+      },
+      {
+        "createdAt": "2026-08-29T18:43:43Z",
+        "id": "github-issue:openai/codex:41561",
+        "labels": [
+          "bug",
+          "codex-web",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:user-configurable|title:github-integration-draft-ready-mutations-fail",
+        "title": "GitHub integration: Draft/Ready mutations fail because connector automatically queries nonexistent Repository.fullDatabaseId, blocking automated PR workflows",
+        "url": "https://github.com/openai/codex/issues/41561"
+      },
+      {
+        "createdAt": "2026-08-29T19:10:20Z",
+        "explicitVersion": "0.144.5",
+        "id": "github-issue:openai/codex:41563",
+        "labels": [
+          "app-server",
+          "bug",
+          "CLI",
+          "sandbox",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:app-server|title:server-external-exec-server-selected-externalsandbox|version:0.144.5|platform:windows",
+        "title": "app-server external exec-server selected with externalSandbox, but model tool execution falls back to app-server host identity",
+        "url": "https://github.com/openai/codex/issues/41563"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-29T15:40:23.317Z",
+    "observedAt": "2026-08-29T19:26:35.151Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "20 recent official GitHub issues observed for openai/codex."
+    "summary": "19 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-3f4bae2c9e8dc79b",
   "interfaces": [],
