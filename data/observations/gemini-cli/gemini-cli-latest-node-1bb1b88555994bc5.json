@@ -98,6 +98,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29128"
+        ],
+        "signature": "code:enables|title:add-agy-docker-sbx",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29109"
         ],
         "signature": "code:error|title:support-oauth-dcr-mcp-servers|version:2.1",
@@ -112,59 +119,20 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29107"
-        ],
-        "signature": "code:expect|title:caller-have-permission-25306-still-persists",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29122"
         ],
         "signature": "code:explicitly-set|title:hooks-migrate-copies-claude-timeout-across|version:0.57.0",
         "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29108"
-        ],
-        "signature": "code:read_file|title:read-file-ignores-client-read-text|version:0.55.1",
-        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "7f4b0f02d3479e75bfd58d6717ee1ebfd8aeb2d57c74fb4b19f141f041e00bb6",
+      "fingerprint": "acf88794cc2d7eb959e105519f822c3a93fbd3a31b7c4cfa4e380010a0faae04",
       "lookbackHours": 72,
       "releaseVersion": "0.57.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-08-27T10:30:05Z",
-        "id": "github-issue:google-gemini/gemini-cli:29107",
-        "labels": [
-          "area/security",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:expect|title:caller-have-permission-25306-still-persists",
-        "title": "\"The caller does not have permission  #25306 - still persists",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29107"
-      },
-      {
-        "createdAt": "2026-08-27T10:35:25Z",
-        "explicitVersion": "0.55.1",
-        "id": "github-issue:google-gemini/gemini-cli:29108",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:read_file|title:read-file-ignores-client-read-text|version:0.55.1",
-        "title": "read_file ignores the client's fs/read_text_file capability, unlike write_file and replace",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29108"
-      },
       {
         "createdAt": "2026-08-27T16:19:38Z",
         "explicitVersion": "2.1",
@@ -245,13 +213,27 @@
         "signature": "code:event_mapping|title:hooks-migrate-event-mapping-key-subagentstop|version:0.57.0",
         "title": "hooks: `migrate`'s EVENT_MAPPING key is `SubAgentStop`, but Claude Code emits `SubagentStop`",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29123"
+      },
+      {
+        "createdAt": "2026-08-29T20:39:48Z",
+        "id": "github-issue:google-gemini/gemini-cli:29128",
+        "labels": [
+          "area/platform",
+          "kind/enhancement",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:enables|title:add-agy-docker-sbx",
+        "title": "Add agy cli to docker sbx",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29128"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-29T11:11:12.065Z",
+    "observedAt": "2026-08-29T22:42:16.972Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-813aa5567f9d93b9",
   "interfaces": [
