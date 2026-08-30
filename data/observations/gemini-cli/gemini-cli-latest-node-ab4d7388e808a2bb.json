@@ -84,20 +84,6 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29112"
-        ],
-        "signature": "code:append-system-prompt|title:feature-request-append-system-prompt-launch",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29111"
-        ],
-        "signature": "code:ejecucion|title:ejecucion-lenta|version:0.57.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29128"
         ],
         "signature": "code:enables|title:add-agy-docker-sbx",
@@ -116,50 +102,30 @@
         ],
         "signature": "code:explicitly-set|title:hooks-migrate-copies-claude-timeout-across|version:0.57.0",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29130"
+        ],
+        "signature": "code:full-file|title:fix-core-getdiffcontextsnippet-produces-full-file|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29133"
+        ],
+        "signature": "code:list-sessions|title:bug-list-sessions-never-marks-current|version:0.57.0|platform:macos",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "32247fe0554bd8720be49393e0ae53bae8ecf6de9743612a7fce354d414af824",
+      "fingerprint": "e980c06880bd935a69019bc929fa3745aa93538b034773f18fb64893bfe87e15",
       "lookbackHours": 72,
       "releaseVersion": "0.57.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-08-27T20:08:33Z",
-        "explicitVersion": "0.57.0",
-        "id": "github-issue:google-gemini/gemini-cli:29111",
-        "labels": [
-          "area/core",
-          "effort/large",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:ejecucion|title:ejecucion-lenta|version:0.57.0|platform:windows",
-        "title": "ejecucion lenta",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29111"
-      },
-      {
-        "createdAt": "2026-08-27T21:52:22Z",
-        "duplicateOf": "labelled-duplicate",
-        "id": "github-issue:google-gemini/gemini-cli:29112",
-        "labels": [
-          "area/agent",
-          "effort/medium",
-          "kind/enhancement",
-          "priority/p3",
-          "status/bot-triaged",
-          "status/possible-duplicate"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:append-system-prompt|title:feature-request-append-system-prompt-launch",
-        "title": "Feature request: append to system prompt at launch (--append-system-prompt / GEMINI_APPEND_SYSTEM_MD) — GEMINI_SYSTEM_MD only replaces",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29112"
-      },
       {
         "createdAt": "2026-08-29T02:09:21Z",
         "explicitVersion": "0.57.0",
@@ -205,10 +171,42 @@
         "signature": "code:enables|title:add-agy-docker-sbx",
         "title": "Add agy cli to docker sbx",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29128"
+      },
+      {
+        "createdAt": "2026-08-30T09:52:35Z",
+        "id": "github-issue:google-gemini/gemini-cli:29130",
+        "labels": [
+          "area/core",
+          "effort/medium",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:full-file|title:fix-core-getdiffcontextsnippet-produces-full-file|platform:windows",
+        "title": "fix(core): getDiffContextSnippet produces full-file diff on CRLF line endings due to unnormalized line breaks",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29130"
+      },
+      {
+        "createdAt": "2026-08-30T10:54:57Z",
+        "explicitVersion": "0.57.0",
+        "id": "github-issue:google-gemini/gemini-cli:29133",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:list-sessions|title:bug-list-sessions-never-marks-current|version:0.57.0|platform:macos",
+        "title": "Bug: --list-sessions never marks the current session, so --delete-session can delete it",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29133"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-30T08:24:04.824Z",
+    "observedAt": "2026-08-30T14:27:30.719Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
