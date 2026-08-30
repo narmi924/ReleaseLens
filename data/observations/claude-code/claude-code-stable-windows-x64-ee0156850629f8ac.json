@@ -76,9 +76,30 @@
     "clusters": [
       {
         "issueIds": [
+          "github-issue:anthropics/claude-code:90662"
+        ],
+        "signature": "code:agent_id|title:bug-pretooluse-posttooluse-inside-running-subagent|version:2.1.251|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:90665"
+        ],
+        "signature": "code:auto-enable|title:feature-request-repo-global-setting-auto",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:anthropics/claude-code:90649"
         ],
         "signature": "code:auto-mode|title:auto-mode-permission-classifier-blocks-kill|version:2.1.231|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:90660"
+        ],
+        "signature": "code:double-confirmation|title:feature-graduated-double-confirmation-wide-scope|version:2.1.234|platform:macos",
         "strength": "weak"
       },
       {
@@ -90,30 +111,9 @@
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90639"
+          "github-issue:anthropics/claude-code:90658"
         ],
-        "signature": "code:environment|title:bug-false-positive-rate-limiting-agent|version:2.1.236|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90644"
-        ],
-        "signature": "code:environment|title:bug-model-incorrectly-switches-opus-flags|version:2.1.246|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90641"
-        ],
-        "signature": "code:environment|title:bug-remote-session-link-unexpectedly-included|version:2.1.251|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90642"
-        ],
-        "signature": "code:error|title:bug-anthropic-api-recurring-failures-every|version:2.1.251|platform:windows",
+        "signature": "code:environment|title:bug-claude-accesses-files-outside-specified|version:2.1.250|platform:linux",
         "strength": "weak"
       },
       {
@@ -121,20 +121,6 @@
           "github-issue:anthropics/claude-code:90651"
         ],
         "signature": "code:error|title:bug-claude-hangs-indefinitely-setting-claude|version:8.8.8.8|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90648"
-        ],
-        "signature": "code:even|title:bug-group-folder-groups-nothing-desktop|version:10.0.26200|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90647"
-        ],
-        "signature": "code:every|title:bug-claude-account-logout-switch-discards|version:2.1.251|platform:arm64",
         "strength": "weak"
       },
       {
@@ -153,13 +139,6 @@
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90646"
-        ],
-        "signature": "code:excessive|title:bug-agent-excessive-token-consumption-simple|version:2.1.236|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:anthropics/claude-code:90654"
         ],
         "signature": "code:existing|title:add-unified-accept-all-reject-all",
@@ -167,9 +146,9 @@
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90643"
+          "github-issue:anthropics/claude-code:90666"
         ],
-        "signature": "code:existing|title:bug-spacebar-mic-hot-key-doesnt|version:1.40609.0|platform:macos",
+        "signature": "code:existing|title:bug-claude-crashing|version:1.40609.0.0|platform:windows",
         "strength": "weak"
       },
       {
@@ -181,9 +160,30 @@
       },
       {
         "issueIds": [
+          "github-issue:anthropics/claude-code:90659"
+        ],
+        "signature": "code:exit|title:backgrounded-bash-commands-can-report-false",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:anthropics/claude-code:90650"
         ],
         "signature": "code:explicit|title:bug-work-completes-delivery-merged-prs|version:5.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:90663"
+        ],
+        "signature": "code:explicitly-provided|title:bug-model-skips-explicitly-provided-reference|version:2.1.251|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:90664"
+        ],
+        "signature": "code:multi-agent|title:feature-request-implement-token-cost-limits|version:2.1.251|platform:macos",
         "strength": "weak"
       },
       {
@@ -195,207 +195,34 @@
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90645"
+          "github-issue:anthropics/claude-code:90661"
         ],
-        "signature": "code:remove-item|title:powershell-safety-guard-spanish-word-del|version:2.1.220|platform:windows",
+        "signature": "code:preview_start|title:preview-start-resolves-claude-launch-json|version:0.0.1|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90638"
+          "github-issue:anthropics/claude-code:90668"
         ],
-        "signature": "code:spawn_task|title:trust-dialog-chip-start-worktree-names|version:2.1.251|platform:windows",
+        "signature": "code:spawn_task|title:spawn-task-chip-runs-spawning-session|version:25.4.0|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90640"
+          "github-issue:anthropics/claude-code:90667"
         ],
-        "signature": "code:tesseract-ocr|title:bug-claude-states-there-official-windows|version:2.1.251|platform:windows",
+        "signature": "code:tax-filing|title:default-cleanupperioddays-silently-permanently-deleted-months",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "ab6b1f4bc210f52730134117e121b07f5e7393979e140262148d55484dcc2b59",
+      "fingerprint": "8ca8ce3b4e03ef6dd31178da019834ba25784438da39d22b760840fb800192e9",
       "lookbackHours": 72,
       "releaseVersion": "2.1.251",
       "source": "official-github-issues"
     },
     "id": "community:claude-code:official-github",
     "issues": [
-      {
-        "createdAt": "2026-08-29T20:43:58Z",
-        "explicitVersion": "2.1.251",
-        "id": "github-issue:anthropics/claude-code:90638",
-        "labels": [
-          "area:agents",
-          "area:desktop",
-          "area:security",
-          "bug",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:spawn_task|title:trust-dialog-chip-start-worktree-names|version:2.1.251|platform:windows",
-        "title": "Trust dialog on a chip's \"Start with worktree\" names the spawn_task cwd, not the worktree the session runs in",
-        "url": "https://github.com/anthropics/claude-code/issues/90638"
-      },
-      {
-        "createdAt": "2026-08-29T21:03:33Z",
-        "explicitVersion": "2.1.236",
-        "id": "github-issue:anthropics/claude-code:90639",
-        "labels": [
-          "area:model",
-          "bug",
-          "needs-repro",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:environment|title:bug-false-positive-rate-limiting-agent|version:2.1.236|platform:macos",
-        "title": "[Bug] False positive rate limiting on agent database queries for analytics",
-        "url": "https://github.com/anthropics/claude-code/issues/90639"
-      },
-      {
-        "createdAt": "2026-08-29T21:05:12Z",
-        "explicitVersion": "2.1.251",
-        "id": "github-issue:anthropics/claude-code:90640",
-        "labels": [
-          "area:model",
-          "bug",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:tesseract-ocr|title:bug-claude-states-there-official-windows|version:2.1.251|platform:windows",
-        "title": "[Bug] Claude states there is no official Windows binary available for tesseract-ocr",
-        "url": "https://github.com/anthropics/claude-code/issues/90640"
-      },
-      {
-        "createdAt": "2026-08-29T21:14:46Z",
-        "explicitVersion": "2.1.251",
-        "id": "github-issue:anthropics/claude-code:90641",
-        "labels": [
-          "bug",
-          "git",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:environment|title:bug-remote-session-link-unexpectedly-included|version:2.1.251|platform:linux",
-        "title": "[Bug] Remote session link unexpectedly included in commit messages and PR descriptions",
-        "url": "https://github.com/anthropics/claude-code/issues/90641"
-      },
-      {
-        "createdAt": "2026-08-29T21:19:51Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "2.1.251",
-        "id": "github-issue:anthropics/claude-code:90642",
-        "labels": [
-          "duplicate"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:error|title:bug-anthropic-api-recurring-failures-every|version:2.1.251|platform:windows",
-        "title": "[Bug] Anthropic API Error: Recurring failures every 10 minutes",
-        "url": "https://github.com/anthropics/claude-code/issues/90642"
-      },
-      {
-        "createdAt": "2026-08-29T21:33:06Z",
-        "explicitVersion": "1.40609.0",
-        "id": "github-issue:anthropics/claude-code:90643",
-        "labels": [
-          "area:tui",
-          "bug",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:existing|title:bug-spacebar-mic-hot-key-doesnt|version:1.40609.0|platform:macos",
-        "title": "[BUG] spacebar for mic hot key doesnt work",
-        "url": "https://github.com/anthropics/claude-code/issues/90643"
-      },
-      {
-        "createdAt": "2026-08-29T21:33:18Z",
-        "explicitVersion": "2.1.246",
-        "id": "github-issue:anthropics/claude-code:90644",
-        "labels": [
-          "area:model",
-          "bug",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:environment|title:bug-model-incorrectly-switches-opus-flags|version:2.1.246|platform:macos",
-        "title": "[Bug] Model incorrectly switches to Opus and flags valid messages during coding",
-        "url": "https://github.com/anthropics/claude-code/issues/90644"
-      },
-      {
-        "createdAt": "2026-08-29T21:34:58Z",
-        "explicitVersion": "2.1.220",
-        "id": "github-issue:anthropics/claude-code:90645",
-        "labels": [
-          "area:sandbox",
-          "bug",
-          "has repro",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:remove-item|title:powershell-safety-guard-spanish-word-del|version:2.1.220|platform:windows",
-        "title": "PowerShell safety guard: Spanish word \"del\" inside a quoted commit message is treated as Remove-Item, then blocks on a quote-split path fragment",
-        "url": "https://github.com/anthropics/claude-code/issues/90645"
-      },
-      {
-        "createdAt": "2026-08-29T21:44:58Z",
-        "explicitVersion": "2.1.236",
-        "id": "github-issue:anthropics/claude-code:90646",
-        "labels": [
-          "area:cost",
-          "bug",
-          "needs-repro",
-          "platform:intellij",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:excessive|title:bug-agent-excessive-token-consumption-simple|version:2.1.236|platform:macos",
-        "title": "[Bug] Agent excessive token consumption on simple tasks",
-        "url": "https://github.com/anthropics/claude-code/issues/90646"
-      },
-      {
-        "createdAt": "2026-08-29T21:50:06Z",
-        "explicitVersion": "2.1.251",
-        "id": "github-issue:anthropics/claude-code:90647",
-        "labels": [
-          "area:auth",
-          "area:mcp",
-          "bug",
-          "has repro",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:every|title:bug-claude-account-logout-switch-discards|version:2.1.251|platform:arm64",
-        "title": "[BUG] Claude account logout/switch discards all MCP OAuth grants (mcpOAuth is stored inside the account credential)",
-        "url": "https://github.com/anthropics/claude-code/issues/90647"
-      },
-      {
-        "createdAt": "2026-08-29T21:58:48Z",
-        "explicitVersion": "10.0.26200",
-        "id": "github-issue:anthropics/claude-code:90648",
-        "labels": [
-          "area:claude-code-web",
-          "area:ui",
-          "bug",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:even|title:bug-group-folder-groups-nothing-desktop|version:10.0.26200|platform:windows",
-        "title": "[BUG] \"Group by: Folder\" groups nothing after desktop profile reset — even brand-new sessions with known cwd land in \"Other\"; creating a manual group silently flips Group by back to Custom groups",
-        "url": "https://github.com/anthropics/claude-code/issues/90648"
-      },
       {
         "createdAt": "2026-08-29T21:58:52Z",
         "explicitVersion": "2.1.231",
@@ -537,10 +364,175 @@
         "signature": "code:existing|title:bug-windows-clipboard-image-paste-broken|version:2.1.251|platform:windows",
         "title": "[BUG] Windows clipboard image paste broken in v2.1.251 — \"no image found in clipboard\"",
         "url": "https://github.com/anthropics/claude-code/issues/90657"
+      },
+      {
+        "createdAt": "2026-08-29T23:32:54Z",
+        "explicitVersion": "2.1.250",
+        "id": "github-issue:anthropics/claude-code:90658",
+        "labels": [
+          "area:permissions",
+          "bug",
+          "needs-repro",
+          "platform:linux"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:environment|title:bug-claude-accesses-files-outside-specified|version:2.1.250|platform:linux",
+        "title": "[Bug] Claude accesses files outside specified project scope in auto mode",
+        "url": "https://github.com/anthropics/claude-code/issues/90658"
+      },
+      {
+        "createdAt": "2026-08-29T23:40:29Z",
+        "id": "github-issue:anthropics/claude-code:90659",
+        "labels": [
+          "area:bash",
+          "bug",
+          "has repro"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:exit|title:backgrounded-bash-commands-can-report-false",
+        "title": "Backgrounded Bash commands can report a false \"exit code 0\" completion when the command actually failed",
+        "url": "https://github.com/anthropics/claude-code/issues/90659"
+      },
+      {
+        "createdAt": "2026-08-29T23:47:12Z",
+        "explicitVersion": "2.1.234",
+        "id": "github-issue:anthropics/claude-code:90660",
+        "labels": [
+          "area:permissions",
+          "area:security",
+          "enhancement",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:double-confirmation|title:feature-graduated-double-confirmation-wide-scope|version:2.1.234|platform:macos",
+        "title": "[FEATURE] Graduated double-confirmation for wide-scope permission grants (e.g., trusting the home directory)",
+        "url": "https://github.com/anthropics/claude-code/issues/90660"
+      },
+      {
+        "createdAt": "2026-08-29T23:57:16Z",
+        "explicitVersion": "0.0.1",
+        "id": "github-issue:anthropics/claude-code:90661",
+        "labels": [
+          "area:agents",
+          "bug",
+          "has repro",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:preview_start|title:preview-start-resolves-claude-launch-json|version:0.0.1|platform:macos",
+        "title": "preview_start resolves .claude/launch.json from the session cwd, not the calling agent's, so concurrent worktree lanes must contend for one config file",
+        "url": "https://github.com/anthropics/claude-code/issues/90661"
+      },
+      {
+        "createdAt": "2026-08-29T23:59:30Z",
+        "explicitVersion": "2.1.251",
+        "id": "github-issue:anthropics/claude-code:90662",
+        "labels": [
+          "area:agents",
+          "area:hooks",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:agent_id|title:bug-pretooluse-posttooluse-inside-running-subagent|version:2.1.251|platform:windows",
+        "title": "[BUG] PreToolUse/PostToolUse inside a running subagent are sometimes reported under a different agent_id that has no SubagentStart, no agent_type, and never gets a SubagentStop",
+        "url": "https://github.com/anthropics/claude-code/issues/90662"
+      },
+      {
+        "createdAt": "2026-08-30T00:07:53Z",
+        "explicitVersion": "2.1.251",
+        "id": "github-issue:anthropics/claude-code:90663",
+        "labels": [
+          "area:model",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:explicitly-provided|title:bug-model-skips-explicitly-provided-reference|version:2.1.251|platform:macos",
+        "title": "[BUG] Model skips explicitly-provided reference files to save context, and drops self-announced follow-ups",
+        "url": "https://github.com/anthropics/claude-code/issues/90663"
+      },
+      {
+        "createdAt": "2026-08-30T00:11:46Z",
+        "explicitVersion": "2.1.251",
+        "id": "github-issue:anthropics/claude-code:90664",
+        "labels": [
+          "area:agents",
+          "area:cost",
+          "enhancement",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:multi-agent|title:feature-request-implement-token-cost-limits|version:2.1.251|platform:macos",
+        "title": "[Feature Request] Implement token/cost limits and agent spawning controls to prevent runaway multi-agent operations",
+        "url": "https://github.com/anthropics/claude-code/issues/90664"
+      },
+      {
+        "createdAt": "2026-08-30T00:39:35Z",
+        "duplicateOf": "labelled-duplicate",
+        "id": "github-issue:anthropics/claude-code:90665",
+        "labels": [
+          "area:desktop",
+          "duplicate",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:auto-enable|title:feature-request-repo-global-setting-auto",
+        "title": "Feature request: repo/global setting to auto-enable \"Auto-fix CI and address comments\" for every PR (incl. gh-created PRs)",
+        "url": "https://github.com/anthropics/claude-code/issues/90665"
+      },
+      {
+        "createdAt": "2026-08-30T00:47:26Z",
+        "duplicateOf": "labelled-duplicate",
+        "explicitVersion": "1.40609.0.0",
+        "id": "github-issue:anthropics/claude-code:90666",
+        "labels": [
+          "area:desktop",
+          "duplicate",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/90666",
+        "signature": "code:existing|title:bug-claude-crashing|version:1.40609.0.0|platform:windows",
+        "title": "[BUG] Claude Code Crashing",
+        "url": "https://github.com/anthropics/claude-code/issues/90666"
+      },
+      {
+        "createdAt": "2026-08-30T00:51:43Z",
+        "id": "github-issue:anthropics/claude-code:90667",
+        "labels": [],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/90667",
+        "signature": "code:tax-filing|title:default-cleanupperioddays-silently-permanently-deleted-months",
+        "title": "Default cleanupPeriodDays=30 silently and permanently deleted months of irreplaceable conversations, twice",
+        "url": "https://github.com/anthropics/claude-code/issues/90667"
+      },
+      {
+        "createdAt": "2026-08-30T01:09:15Z",
+        "explicitVersion": "25.4.0",
+        "id": "github-issue:anthropics/claude-code:90668",
+        "labels": [
+          "area:agents",
+          "area:desktop",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:spawn_task|title:spawn-task-chip-runs-spawning-session|version:25.4.0|platform:macos",
+        "title": "spawn_task chip runs in the spawning session's working tree, not an isolated worktree — while that session is still editing it",
+        "url": "https://github.com/anthropics/claude-code/issues/90668"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-29T22:41:45.325Z",
+    "observedAt": "2026-08-30T01:18:27.852Z",
     "repository": "anthropics/claude-code",
     "status": "pass",
     "summary": "20 recent official GitHub issues observed for anthropics/claude-code."

@@ -176,13 +176,6 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:41563"
-        ],
-        "signature": "code:app-server|title:server-external-exec-server-selected-externalsandbox|version:0.144.5|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:openai/codex:41575"
         ],
         "signature": "code:built-in|title:chatgpt-macos-routes-generic-urls-chrome|version:26.825.41651|platform:arm64",
@@ -190,16 +183,30 @@
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41566"
+          "github-issue:openai/codex:41587"
         ],
-        "signature": "code:emit|title:codex-paginated-rollout-can-emit-duplicate|platform:windows",
+        "signature": "code:codex-cli|title:make-row-inline-diff-preview-limit|version:0.151.0|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41560"
+          "github-issue:openai/codex:41580"
         ],
-        "signature": "code:emulator|title:chatgpt-desktop-removes-oauth-issuer-required|version:0.147|platform:arm64",
+        "signature": "code:cross-host|title:regression-remote-side-can-longer-coordinate|version:0.150.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41585"
+        ],
+        "signature": "code:enough|title:codex-desktop-macos-prompt-submission-hangs|version:26.825.41651|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:41584"
+        ],
+        "signature": "code:entries|title:bulk-project-archive-only-processes-loaded|version:26.825.41651|platform:arm64",
         "strength": "weak"
       },
       {
@@ -207,13 +214,6 @@
           "github-issue:openai/codex:41576"
         ],
         "signature": "code:entry|title:opens-skills-apps-popup-disabled|version:26.825.32147|platform:arm64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:41559"
-        ],
-        "signature": "code:error|title:codex-can-remove-its-own-cwd|version:0.151.0|platform:x64",
         "strength": "weak"
       },
       {
@@ -232,16 +232,16 @@
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41574"
+          "github-issue:openai/codex:41583"
         ],
-        "signature": "code:export|title:copy-export-current-turn-last-turns",
+        "signature": "code:expected|title:windows-constantly-crashing-today-update-feedback|version:26.825.41651|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41564"
+          "github-issue:openai/codex:41574"
         ],
-        "signature": "code:false-positive|title:false-positive-cybersecurity-block-while-implementing|version:0.141.0|platform:linux",
+        "signature": "code:export|title:copy-export-current-turn-last-turns",
         "strength": "weak"
       },
       {
@@ -253,6 +253,13 @@
       },
       {
         "issueIds": [
+          "github-issue:openai/codex:41579"
+        ],
+        "signature": "code:long-running|title:macos-active-task-can-silently-stop|version:151.0.7922.174|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:openai/codex:41572"
         ],
         "signature": "code:system-configured|title:linux-window-controls-ignore-system-configured|version:26.818.41705|platform:linux",
@@ -260,16 +267,16 @@
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41565"
+          "github-issue:openai/codex:41581"
         ],
-        "signature": "code:thread-control|title:desktop-windows-thread-control-send-archive|version:26.818.5345.0|platform:windows",
+        "signature": "code:tool-heavy|title:windows-codex-desktop-closes-during-long|version:26.825.5331.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41561"
+          "github-issue:openai/codex:41582"
         ],
-        "signature": "code:user-configurable|title:github-integration-draft-ready-mutations-fail",
+        "signature": "code:user-message|title:macos-browser-plugin-mention-has-insufficient|version:26.825.32147|platform:arm64",
         "strength": "weak"
       },
       {
@@ -288,124 +295,13 @@
       }
     ],
     "details": {
-      "fingerprint": "7de79268fe0c3346b48e1fb29f26010f0386fe470386b7e769409c2232f8e132",
+      "fingerprint": "c603f85f59226cfc42a49bd13ef2354eb5877c8b2ead91428d9c6d5c1785d8d0",
       "lookbackHours": 72,
       "releaseVersion": "26.825.5331.0",
       "source": "official-github-issues"
     },
     "id": "community:codex:official-github",
     "issues": [
-      {
-        "createdAt": "2026-08-29T18:17:37Z",
-        "explicitVersion": "0.151.0",
-        "id": "github-issue:openai/codex:41559",
-        "labels": [
-          "app-server",
-          "bug",
-          "CLI",
-          "TUI"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "x64",
-        "signature": "code:error|title:codex-can-remove-its-own-cwd|version:0.151.0|platform:x64",
-        "title": "Codex can remove its own cwd which irrevocably breaks the session with Failed to start turn: turn/start failed in TUI: turn/start failed: invalid cwd: No such file or directory (os error 2) (code -32600)",
-        "url": "https://github.com/openai/codex/issues/41559"
-      },
-      {
-        "createdAt": "2026-08-29T18:23:54Z",
-        "explicitVersion": "0.147",
-        "id": "github-issue:openai/codex:41560",
-        "labels": [
-          "auth",
-          "bug",
-          "CLI",
-          "mcp"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:emulator|title:chatgpt-desktop-removes-oauth-issuer-required|version:0.147|platform:arm64",
-        "title": "ChatGPT desktop 0.147 removes the OAuth issuer required by CLI 0.149+",
-        "url": "https://github.com/openai/codex/issues/41560"
-      },
-      {
-        "createdAt": "2026-08-29T18:43:43Z",
-        "id": "github-issue:openai/codex:41561",
-        "labels": [
-          "bug",
-          "codex-web",
-          "tool-calls"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:user-configurable|title:github-integration-draft-ready-mutations-fail",
-        "title": "GitHub integration: Draft/Ready mutations fail because connector automatically queries nonexistent Repository.fullDatabaseId, blocking automated PR workflows",
-        "url": "https://github.com/openai/codex/issues/41561"
-      },
-      {
-        "createdAt": "2026-08-29T19:10:20Z",
-        "explicitVersion": "0.144.5",
-        "id": "github-issue:openai/codex:41563",
-        "labels": [
-          "app-server",
-          "bug",
-          "CLI",
-          "sandbox",
-          "tool-calls",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:app-server|title:server-external-exec-server-selected-externalsandbox|version:0.144.5|platform:windows",
-        "title": "app-server external exec-server selected with externalSandbox, but model tool execution falls back to app-server host identity",
-        "url": "https://github.com/openai/codex/issues/41563"
-      },
-      {
-        "createdAt": "2026-08-29T19:34:06Z",
-        "explicitVersion": "0.141.0",
-        "id": "github-issue:openai/codex:41564",
-        "labels": [
-          "bug",
-          "CLI",
-          "safety-check"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:false-positive|title:false-positive-cybersecurity-block-while-implementing|version:0.141.0|platform:linux",
-        "title": "False-positive cybersecurity block while implementing a local fuzz harness",
-        "url": "https://github.com/openai/codex/issues/41564"
-      },
-      {
-        "createdAt": "2026-08-29T19:50:15Z",
-        "explicitVersion": "26.818.5345.0",
-        "id": "github-issue:openai/codex:41565",
-        "labels": [
-          "app",
-          "bug",
-          "session",
-          "tool-calls",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/41565",
-        "signature": "code:thread-control|title:desktop-windows-thread-control-send-archive|version:26.818.5345.0|platform:windows",
-        "title": "[Desktop][Windows] Thread-control send/archive can hang without an observable result",
-        "url": "https://github.com/openai/codex/issues/41565"
-      },
-      {
-        "createdAt": "2026-08-29T19:56:54Z",
-        "id": "github-issue:openai/codex:41566",
-        "labels": [
-          "app",
-          "bug",
-          "session",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:emit|title:codex-paginated-rollout-can-emit-duplicate|platform:windows",
-        "title": "Codex paginated rollout can emit duplicate ordinal after unfinished turn, permanently freezing thread history projection",
-        "url": "https://github.com/openai/codex/issues/41566"
-      },
       {
         "createdAt": "2026-08-29T20:21:55Z",
         "id": "github-issue:openai/codex:41568",
@@ -544,13 +440,140 @@
         "signature": "code:global-state|title:windows-desktop-intermittently-atomic-global-state|version:26.825.5331.0|platform:windows",
         "title": "Windows Desktop intermittently fails atomic global-state rename with EPERM and leaves large temp files",
         "url": "https://github.com/openai/codex/issues/41578"
+      },
+      {
+        "createdAt": "2026-08-29T22:42:29Z",
+        "explicitVersion": "151.0.7922.174",
+        "id": "github-issue:openai/codex:41579",
+        "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:long-running|title:macos-active-task-can-silently-stop|version:151.0.7922.174|platform:arm64",
+        "title": "[macOS App] Active task can silently stop making progress and remain active across an OS-update reboot",
+        "url": "https://github.com/openai/codex/issues/41579"
+      },
+      {
+        "createdAt": "2026-08-29T23:08:38Z",
+        "explicitVersion": "0.150.1",
+        "id": "github-issue:openai/codex:41580",
+        "labels": [
+          "app",
+          "bug",
+          "CLI",
+          "remote",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:cross-host|title:regression-remote-side-can-longer-coordinate|version:0.150.1|platform:windows",
+        "title": "[Regression] Remote CLI and /side can no longer coordinate Windows Desktop threads; updates break task continuity",
+        "url": "https://github.com/openai/codex/issues/41580"
+      },
+      {
+        "createdAt": "2026-08-29T23:15:11Z",
+        "explicitVersion": "26.825.5331.0",
+        "id": "github-issue:openai/codex:41581",
+        "labels": [
+          "app",
+          "bug",
+          "performance",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:tool-heavy|title:windows-codex-desktop-closes-during-long|version:26.825.5331.0|platform:windows",
+        "title": "[Windows][26.825.5331.0] Codex Desktop closes during long/tool-heavy sessions while CLI remains stable",
+        "url": "https://github.com/openai/codex/issues/41581"
+      },
+      {
+        "createdAt": "2026-08-29T23:35:46Z",
+        "explicitVersion": "26.825.32147",
+        "id": "github-issue:openai/codex:41582",
+        "labels": [
+          "app",
+          "browser",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:user-message|title:macos-browser-plugin-mention-has-insufficient|version:26.825.32147|platform:arm64",
+        "title": "[macOS 26.825.32147] Browser plugin mention has insufficient contrast on black user-message bubble",
+        "url": "https://github.com/openai/codex/issues/41582"
+      },
+      {
+        "createdAt": "2026-08-30T00:09:03Z",
+        "explicitVersion": "26.825.41651",
+        "id": "github-issue:openai/codex:41583",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:expected|title:windows-constantly-crashing-today-update-feedback|version:26.825.41651|platform:windows",
+        "title": "Windows App constantly crashing after today's update (feedback sent)",
+        "url": "https://github.com/openai/codex/issues/41583"
+      },
+      {
+        "createdAt": "2026-08-30T00:30:43Z",
+        "explicitVersion": "26.825.41651",
+        "id": "github-issue:openai/codex:41584",
+        "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:entries|title:bulk-project-archive-only-processes-loaded|version:26.825.41651|platform:arm64",
+        "title": "Bulk project archive only processes loaded tasks; stale entries fail with rollout_not_found",
+        "url": "https://github.com/openai/codex/issues/41584"
+      },
+      {
+        "createdAt": "2026-08-30T00:33:14Z",
+        "explicitVersion": "26.825.41651",
+        "id": "github-issue:openai/codex:41585",
+        "labels": [
+          "app",
+          "bug",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:enough|title:codex-desktop-macos-prompt-submission-hangs|version:26.825.41651|platform:macos",
+        "title": "[Codex Desktop][macOS] Prompt submission hangs when large pasted text becomes an attachment",
+        "url": "https://github.com/openai/codex/issues/41585"
+      },
+      {
+        "createdAt": "2026-08-30T01:16:12Z",
+        "explicitVersion": "0.151.0",
+        "id": "github-issue:openai/codex:41587",
+        "labels": [
+          "bug",
+          "CLI",
+          "config",
+          "enhancement",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:codex-cli|title:make-row-inline-diff-preview-limit|version:0.151.0|platform:linux",
+        "title": "make the 12-row inline diff preview limit configurable",
+        "url": "https://github.com/openai/codex/issues/41587"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-29T22:42:15.515Z",
+    "observedAt": "2026-08-30T01:18:49.460Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "16 recent official GitHub issues observed for openai/codex."
+    "summary": "17 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-3f4bae2c9e8dc79b",
   "interfaces": [],
