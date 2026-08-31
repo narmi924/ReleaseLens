@@ -84,16 +84,24 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29128"
+          "github-issue:google-gemini/gemini-cli:29142"
         ],
-        "signature": "code:enables|title:add-agy-docker-sbx",
+        "signature": "code:bom-encoded|title:isempty-misclassifies-bom-encoded-whitespace-only|version:20.19.0|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29123"
+          "github-issue:google-gemini/gemini-cli:29146",
+          "github-issue:google-gemini/gemini-cli:29147"
         ],
-        "signature": "code:event_mapping|title:hooks-migrate-event-mapping-key-subagentstop|version:0.57.0",
+        "signature": "code:digital-underground-communications|title:geminicli-com-feedback-issue",
+        "strength": "moderate"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29128"
+        ],
+        "signature": "code:enables|title:add-agy-docker-sbx",
         "strength": "weak"
       },
       {
@@ -105,9 +113,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29122"
+          "github-issue:google-gemini/gemini-cli:29145"
         ],
-        "signature": "code:explicitly-set|title:hooks-migrate-copies-claude-timeout-across|version:0.57.0",
+        "signature": "code:expect|title:recalibrate-trick",
         "strength": "weak"
       },
       {
@@ -133,6 +141,20 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29144"
+        ],
+        "signature": "code:non-secret|title:sanitizetoolargs-redacts-non-secret-keys-like|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29141"
+        ],
+        "signature": "code:utf-8|title:devtools-http-stream-corrupts-utf-characters|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29135"
         ],
         "signature": "title:features",
@@ -140,45 +162,13 @@
       }
     ],
     "details": {
-      "fingerprint": "dee66fc57d3e9666524fd3514030c6fabdd12c88703334bcaf4d11642e35ede5",
+      "fingerprint": "8e0a4f4114ce9354199cc34f27f469fc0dc6f1f0b08d5ded259151c49c4e9779",
       "lookbackHours": 72,
       "releaseVersion": "0.57.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-08-29T02:09:21Z",
-        "explicitVersion": "0.57.0",
-        "id": "github-issue:google-gemini/gemini-cli:29122",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:explicitly-set|title:hooks-migrate-copies-claude-timeout-across|version:0.57.0",
-        "title": "hooks: `migrate` copies Claude's `timeout` across a seconds → milliseconds unit change",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29122"
-      },
-      {
-        "createdAt": "2026-08-29T02:09:34Z",
-        "explicitVersion": "0.57.0",
-        "id": "github-issue:google-gemini/gemini-cli:29123",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:event_mapping|title:hooks-migrate-event-mapping-key-subagentstop|version:0.57.0",
-        "title": "hooks: `migrate`'s EVENT_MAPPING key is `SubAgentStop`, but Claude Code emits `SubagentStop`",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29123"
-      },
       {
         "createdAt": "2026-08-29T20:39:48Z",
         "id": "github-issue:google-gemini/gemini-cli:29128",
@@ -269,13 +259,100 @@
         "signature": "code:failed_precondition|title:fixed-failed-precondition-400-user-location|version:127.0.0.1",
         "title": "FIXED: \"FAILED_PRECONDITION (code 400): User location is not supported\" in Google Antigravity / Gemini Subagents",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29140"
+      },
+      {
+        "createdAt": "2026-08-31T09:13:42Z",
+        "explicitVersion": "0.59.0-nightly.20260825.g812f7a2bc",
+        "id": "github-issue:google-gemini/gemini-cli:29141",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:utf-8|title:devtools-http-stream-corrupts-utf-characters|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
+        "title": "DevTools HTTP stream corrupts UTF-8 characters split across chunks",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29141"
+      },
+      {
+        "createdAt": "2026-08-31T09:19:08Z",
+        "explicitVersion": "20.19.0",
+        "id": "github-issue:google-gemini/gemini-cli:29142",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:bom-encoded|title:isempty-misclassifies-bom-encoded-whitespace-only|version:20.19.0|platform:macos",
+        "title": "isEmpty misclassifies BOM-encoded whitespace-only plan files as non-empty",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29142"
+      },
+      {
+        "createdAt": "2026-08-31T10:23:25Z",
+        "explicitVersion": "0.59.0-nightly.20260825.g812f7a2bc",
+        "id": "github-issue:google-gemini/gemini-cli:29144",
+        "labels": [
+          "area/security",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:non-secret|title:sanitizetoolargs-redacts-non-secret-keys-like|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
+        "title": "sanitizeToolArgs redacts non-secret keys like max_tokens and author via substring match",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29144"
+      },
+      {
+        "createdAt": "2026-08-31T12:48:04Z",
+        "id": "github-issue:google-gemini/gemini-cli:29145",
+        "labels": [
+          "area/agent",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:expect|title:recalibrate-trick",
+        "title": "Recalibrate trick",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29145"
+      },
+      {
+        "createdAt": "2026-08-31T12:59:40Z",
+        "id": "github-issue:google-gemini/gemini-cli:29146",
+        "labels": [
+          "area/site",
+          "kind/question",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:digital-underground-communications|title:geminicli-com-feedback-issue",
+        "title": "GeminiCLI.com Feedback: [ISSUE]",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29146"
+      },
+      {
+        "createdAt": "2026-08-31T13:01:56Z",
+        "id": "github-issue:google-gemini/gemini-cli:29147",
+        "labels": [
+          "area/site",
+          "kind/question",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:digital-underground-communications|title:geminicli-com-feedback-issue",
+        "title": "GeminiCLI.com Feedback: [ISSUE]",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29147"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-31T07:05:09.338Z",
+    "observedAt": "2026-08-31T15:11:20.375Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "12 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-ab4d7388e808a2bb",
   "interfaces": [

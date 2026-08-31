@@ -176,147 +176,105 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:41789"
+          "github-issue:openai/codex:41854"
         ],
-        "signature": "code:codex_26|title:bug-windows-desktop-render-persisted-ssh|version:26.825.6671.0|platform:windows",
+        "signature": "code:built-in|title:windows-built-browser-crashes-entire-both|version:26.825.6671.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41786"
+          "github-issue:openai/codex:41850"
         ],
-        "signature": "code:codex_26|title:restarting-codex-will-cause-chat-history|version:26.825.6671.0|platform:windows",
+        "signature": "code:cua_node|title:windows-headless-startup-persists-clean-runtime|version:26.825.6671.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41775"
+          "github-issue:openai/codex:41841"
         ],
-        "signature": "code:conversation_inaccessible|title:remote-windows-task-becomes-conversation-inaccessible|version:26.825.6671.0|platform:windows",
+        "signature": "code:emulator|title:background-terminals-time-out-kill-off|version:0.147.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41788"
+          "github-issue:openai/codex:41843"
         ],
-        "signature": "code:cross-thread|title:possible-cross-thread-recap-contamination|version:0.151.0|platform:linux",
+        "signature": "code:emulator|title:bullshit-safety-checks-prevent-security-audit|version:5.6|platform:x64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41784"
+          "github-issue:openai/codex:41845"
         ],
-        "signature": "code:enable|title:desktop-pet-can-move|version:26.826.12353|platform:windows",
+        "signature": "code:end|title:windows-codex-unexpectedly-closes-end-task|version:26.825.6671.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41782"
+          "github-issue:openai/codex:41855"
         ],
-        "signature": "code:environment|title:pageup-pagedown-reliably-scroll-current-conversation|platform:windows",
+        "signature": "code:entire|title:windows-desktop-duplicate-resolved-project-root|version:26.825.6671.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41777"
+          "github-issue:openai/codex:41859"
         ],
-        "signature": "code:error|title:github-connector-draft-ready-still-broken",
+        "signature": "code:exact|title:windows-desktop-fast-mode-becomes-selected|version:26.825.4187.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41783"
+          "github-issue:openai/codex:41844"
         ],
-        "signature": "code:exe|title:windows-orphaned-git-exe-hung-pre|version:26.825.6671.0|platform:windows",
+        "signature": "code:exact|title:windows-desktop-reproducible-chatgpt-hit-snag|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41779"
+          "github-issue:openai/codex:41847"
         ],
-        "signature": "code:exec_command|title:codex-windows-local-api-launch-rejected|version:26.825.6671.0|platform:windows",
+        "signature": "code:exchange|title:codex-oauth-token-exchange|version:0.151.0|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41778"
+          "github-issue:openai/codex:41851"
         ],
-        "signature": "code:existing-chat|title:existing-chat-heartbeat-run-completes-but|platform:windows",
+        "signature": "code:gpt-5|title:gpt-sol-acknowledged-constraints-reliably-bound|version:5.6",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41776"
+          "github-issue:openai/codex:41856"
         ],
-        "signature": "code:existing|title:windows-codex-desktop-existing-task-retains|platform:windows",
+        "signature": "code:input_image|title:history-notes-forwards-detail-original-selected|version:0.151.0-alpha.7.2|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41772"
+          "github-issue:openai/codex:41842"
         ],
-        "signature": "code:expected|title:unable-open-codex-normally|version:26.825.6671.0|platform:windows",
+        "signature": "code:plugin-provided|title:plugin-skills-resolve-but-absent-autocomplete|version:0.151.0",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41770"
+          "github-issue:openai/codex:41849"
         ],
-        "signature": "code:expected|title:you-close-project-then-reopen-session|version:26.825.51511|platform:windows",
+        "signature": "code:remote-ssh|title:remote-ssh-server-reconnect-leaves-stale|version:26.818.22352-linux-x64|platform:x64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41769"
+          "github-issue:openai/codex:41848"
         ],
-        "signature": "code:external|title:codex-agent-impersonated-another-agent-forged|version:10.0.26200.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:41785"
-        ],
-        "signature": "code:gpt-reserve|title:reset-usage-overwrites-healthy-weekly-quota|version:0.151.0|platform:x64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:41781"
-        ],
-        "signature": "code:group-writable|title:chrome-plugin-reinstall-under-umask-0002|version:26.04|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:41768"
-        ],
-        "signature": "code:long-running|title:linux-desktop-stopped-long-running-goal|version:26.825.51511|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:41774"
-        ],
-        "signature": "code:node_repl|title:windows-start-node-repl-xcodebuildmcp-due|version:26.825.6671.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:41787"
-        ],
-        "signature": "code:over-recruits|title:character-causing-lag-spike-large-use|version:26.825.51511",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:41773"
-        ],
-        "signature": "code:programming-language|title:codex-programming-language-selector-has-cramped",
+        "signature": "title:topic-discussion",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "261d972cf5b0d69d3af14f70b6fe810edf4ccc3e01d6a0d4e0a2a63ec12fa6e2",
+      "fingerprint": "c02bfc7465901b071c47f37e9740ee249441523e4112e29014f2360c791892c4",
       "lookbackHours": 72,
       "releaseVersion": "26.825.6671.0",
       "source": "official-github-issues"
@@ -324,166 +282,53 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-08-31T05:07:14Z",
-        "explicitVersion": "26.825.51511",
-        "id": "github-issue:openai/codex:41768",
-        "labels": [
-          "app",
-          "bug",
-          "computer-use",
-          "performance"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:long-running|title:linux-desktop-stopped-long-running-goal|version:26.825.51511|platform:linux",
-        "title": "Linux desktop: stopped long-running goal leaves trusted-worker.js at sustained high CPU until app restart",
-        "url": "https://github.com/openai/codex/issues/41768"
-      },
-      {
-        "createdAt": "2026-08-31T05:24:43Z",
-        "explicitVersion": "10.0.26200.0",
-        "id": "github-issue:openai/codex:41769",
-        "labels": [
-          "app",
-          "bug",
-          "model-behavior",
-          "safety-check",
-          "subagent",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:external|title:codex-agent-impersonated-another-agent-forged|version:10.0.26200.0|platform:windows",
-        "title": "Codex agent impersonated another agent, forged user approvals, and performed unauthorized external actions (real WhatsApp sends, webhook rotation)",
-        "url": "https://github.com/openai/codex/issues/41769"
-      },
-      {
-        "createdAt": "2026-08-31T05:25:22Z",
-        "explicitVersion": "26.825.51511",
-        "id": "github-issue:openai/codex:41770",
-        "labels": [
-          "app",
-          "bug",
-          "session",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:expected|title:you-close-project-then-reopen-session|version:26.825.51511|platform:windows",
-        "title": "When you close a project and then reopen it, the session can't be viewed.",
-        "url": "https://github.com/openai/codex/issues/41770"
-      },
-      {
-        "createdAt": "2026-08-31T05:26:20Z",
-        "explicitVersion": "26.825.6671.0",
-        "id": "github-issue:openai/codex:41772",
-        "labels": [
-          "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:expected|title:unable-open-codex-normally|version:26.825.6671.0|platform:windows",
-        "title": "Unable to open the codex normally",
-        "url": "https://github.com/openai/codex/issues/41772"
-      },
-      {
-        "createdAt": "2026-08-31T05:46:23Z",
-        "id": "github-issue:openai/codex:41773",
-        "labels": [
-          "app",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:programming-language|title:codex-programming-language-selector-has-cramped",
-        "title": "Codex app: programming-language selector has cramped rows and clipped labels",
-        "url": "https://github.com/openai/codex/issues/41773"
-      },
-      {
-        "createdAt": "2026-08-31T05:51:09Z",
-        "explicitVersion": "26.825.6671.0",
-        "id": "github-issue:openai/codex:41774",
-        "labels": [
-          "app",
-          "app-server",
-          "bug",
-          "computer-use",
-          "mcp",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:node_repl|title:windows-start-node-repl-xcodebuildmcp-due|version:26.825.6671.0|platform:windows",
-        "title": "Windows app cannot start node_repl/xcodebuildmcp due to mixed invalid cwd/runtime paths",
-        "url": "https://github.com/openai/codex/issues/41774"
-      },
-      {
-        "createdAt": "2026-08-31T05:51:09Z",
-        "explicitVersion": "26.825.6671.0",
-        "id": "github-issue:openai/codex:41775",
-        "labels": [
-          "app",
-          "app-server",
-          "bug",
-          "connectivity",
-          "remote",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:conversation_inaccessible|title:remote-windows-task-becomes-conversation-inaccessible|version:26.825.6671.0|platform:windows",
-        "title": "Remote Windows task becomes conversation_inaccessible while host app-server remains alive",
-        "url": "https://github.com/openai/codex/issues/41775"
-      },
-      {
-        "createdAt": "2026-08-31T05:56:16Z",
-        "id": "github-issue:openai/codex:41776",
-        "labels": [
-          "app",
-          "bug",
-          "sandbox",
-          "session",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:existing|title:windows-codex-desktop-existing-task-retains|platform:windows",
-        "title": "[Windows][Codex Desktop] Existing task retains deleted workspace path after project folder is moved",
-        "url": "https://github.com/openai/codex/issues/41776"
-      },
-      {
-        "createdAt": "2026-08-31T06:00:35Z",
-        "id": "github-issue:openai/codex:41777",
+        "createdAt": "2026-08-31T13:44:50Z",
+        "explicitVersion": "0.147.0",
+        "id": "github-issue:openai/codex:41841",
         "labels": [
           "bug",
-          "codex-web",
+          "CLI",
           "tool-calls"
         ],
         "maintainerAcknowledged": false,
-        "signature": "code:error|title:github-connector-draft-ready-still-broken",
-        "title": "[GitHub connector] Draft -> Ready still broken on Aug 31: Repository.fullDatabaseId GraphQL schema error",
-        "url": "https://github.com/openai/codex/issues/41777"
+        "platform": "windows",
+        "signature": "code:emulator|title:background-terminals-time-out-kill-off|version:0.147.0|platform:windows",
+        "title": "background terminals do not time out or kill off when no longer needed",
+        "url": "https://github.com/openai/codex/issues/41841"
       },
       {
-        "createdAt": "2026-08-31T06:00:40Z",
-        "id": "github-issue:openai/codex:41778",
+        "createdAt": "2026-08-31T13:54:28Z",
+        "explicitVersion": "0.151.0",
+        "id": "github-issue:openai/codex:41842",
         "labels": [
-          "app",
-          "automations",
           "bug",
-          "windows-os"
+          "CLI",
+          "skills",
+          "TUI"
         ],
         "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:existing-chat|title:existing-chat-heartbeat-run-completes-but|platform:windows",
-        "title": "Existing-chat heartbeat run completes but Scheduled inbox remains on the previous run",
-        "url": "https://github.com/openai/codex/issues/41778"
+        "signature": "code:plugin-provided|title:plugin-skills-resolve-but-absent-autocomplete|version:0.151.0",
+        "title": "Plugin skills resolve but are absent from $ autocomplete",
+        "url": "https://github.com/openai/codex/issues/41842"
       },
       {
-        "createdAt": "2026-08-31T06:04:11Z",
-        "explicitVersion": "26.825.6671.0",
-        "id": "github-issue:openai/codex:41779",
+        "createdAt": "2026-08-31T13:54:58Z",
+        "explicitVersion": "5.6",
+        "id": "github-issue:openai/codex:41843",
+        "labels": [
+          "bug",
+          "CLI",
+          "safety-check"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:emulator|title:bullshit-safety-checks-prevent-security-audit|version:5.6|platform:x64",
+        "title": "bullshit safety checks prevent security code audit of my app",
+        "url": "https://github.com/openai/codex/issues/41843"
+      },
+      {
+        "createdAt": "2026-08-31T13:56:23Z",
+        "id": "github-issue:openai/codex:41844",
         "labels": [
           "app",
           "bug",
@@ -493,150 +338,168 @@
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:exec_command|title:codex-windows-local-api-launch-rejected|version:26.825.6671.0|platform:windows",
-        "title": "Codex Windows: local API launch rejected with \"blocked by policy\"",
-        "url": "https://github.com/openai/codex/issues/41779"
+        "signature": "code:exact|title:windows-desktop-reproducible-chatgpt-hit-snag|platform:windows",
+        "title": "[Windows Desktop] Reproducible “ChatGPT hit a snag” immediately after a command is stopped at a sandbox/permission boundary",
+        "url": "https://github.com/openai/codex/issues/41844"
       },
       {
-        "createdAt": "2026-08-31T06:07:38Z",
-        "explicitVersion": "26.04",
-        "id": "github-issue:openai/codex:41781",
+        "createdAt": "2026-08-31T13:57:43Z",
+        "explicitVersion": "26.825.6671.0",
+        "id": "github-issue:openai/codex:41845",
         "labels": [
           "app",
+          "browser",
           "bug",
-          "skills"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:group-writable|title:chrome-plugin-reinstall-under-umask-0002|version:26.04|platform:linux",
-        "title": "Chrome plugin reinstall under umask 0002 breaks native host trust validation",
-        "url": "https://github.com/openai/codex/issues/41781"
-      },
-      {
-        "createdAt": "2026-08-31T06:13:22Z",
-        "id": "github-issue:openai/codex:41782",
-        "labels": [
-          "app",
-          "bug",
-          "enhancement",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:environment|title:pageup-pagedown-reliably-scroll-current-conversation|platform:windows",
-        "title": "PageUp / PageDown do not reliably scroll the current conversation in Codex App on Windows",
-        "url": "https://github.com/openai/codex/issues/41782"
+        "signature": "code:end|title:windows-codex-unexpectedly-closes-end-task|version:26.825.6671.0|platform:windows",
+        "title": "Windows — Codex unexpectedly closes at the end of a task, persists after update",
+        "url": "https://github.com/openai/codex/issues/41845"
       },
       {
-        "createdAt": "2026-08-31T06:13:38Z",
+        "createdAt": "2026-08-31T13:58:23Z",
+        "explicitVersion": "0.151.0",
+        "id": "github-issue:openai/codex:41847",
+        "labels": [
+          "auth",
+          "bug",
+          "CLI",
+          "connectivity"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:exchange|title:codex-oauth-token-exchange|version:0.151.0|platform:linux",
+        "title": "Codex CLI 0.151.0 fails at OAuth token exchange.",
+        "url": "https://github.com/openai/codex/issues/41847"
+      },
+      {
+        "createdAt": "2026-08-31T14:17:53Z",
+        "id": "github-issue:openai/codex:41848",
+        "labels": [
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "title:topic-discussion",
+        "title": "Topic Discussion",
+        "url": "https://github.com/openai/codex/issues/41848"
+      },
+      {
+        "createdAt": "2026-08-31T14:19:46Z",
+        "explicitVersion": "26.818.22352-linux-x64",
+        "id": "github-issue:openai/codex:41849",
+        "labels": [
+          "app-server",
+          "bug",
+          "extension",
+          "remote",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:remote-ssh|title:remote-ssh-server-reconnect-leaves-stale|version:26.818.22352-linux-x64|platform:x64",
+        "title": "[VS Code Remote-SSH] Server reconnect leaves stale app-server holding thread writer; new session blocked by “This is open in another app”",
+        "url": "https://github.com/openai/codex/issues/41849"
+      },
+      {
+        "createdAt": "2026-08-31T14:32:28Z",
         "explicitVersion": "26.825.6671.0",
-        "id": "github-issue:openai/codex:41783",
+        "id": "github-issue:openai/codex:41850",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:cua_node|title:windows-headless-startup-persists-clean-runtime|version:26.825.6671.0|platform:windows",
+        "title": "[Windows][26.825.6671.0] Headless startup persists after clean runtime reset; cua_node staging never finalizes",
+        "url": "https://github.com/openai/codex/issues/41850"
+      },
+      {
+        "createdAt": "2026-08-31T14:33:55Z",
+        "explicitVersion": "5.6",
+        "id": "github-issue:openai/codex:41851",
+        "labels": [
+          "bug",
+          "imagen",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/openai/codex/issues/41851",
+        "signature": "code:gpt-5|title:gpt-sol-acknowledged-constraints-reliably-bound|version:5.6",
+        "title": "GPT-5.6 Sol: acknowledged constraints are not reliably bound to subsequent actions",
+        "url": "https://github.com/openai/codex/issues/41851"
+      },
+      {
+        "createdAt": "2026-08-31T14:44:10Z",
+        "explicitVersion": "26.825.6671.0",
+        "id": "github-issue:openai/codex:41854",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:built-in|title:windows-built-browser-crashes-entire-both|version:26.825.6671.0|platform:windows",
+        "title": "[Windows][26.825.6671.0] Built-in Browser crashes entire app in both ChatGPT and Codex modes",
+        "url": "https://github.com/openai/codex/issues/41854"
+      },
+      {
+        "createdAt": "2026-08-31T14:46:01Z",
+        "explicitVersion": "26.825.6671.0",
+        "id": "github-issue:openai/codex:41855",
         "labels": [
           "app",
           "app-server",
           "bug",
-          "tool-calls",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:exe|title:windows-orphaned-git-exe-hung-pre|version:26.825.6671.0|platform:windows",
-        "title": "Windows: orphaned git.exe is hung pre-main in detect_msys_tty/NtQueryObject; the wedged process is a grandchild of the cmd\\git.exe shim and escapes direct-child cleanup",
-        "url": "https://github.com/openai/codex/issues/41783"
+        "resolutionReference": "https://github.com/openai/codex/issues/41855",
+        "signature": "code:entire|title:windows-desktop-duplicate-resolved-project-root|version:26.825.6671.0|platform:windows",
+        "title": "[Windows Desktop] Duplicate resolved project root blocks all local project create/delete operations",
+        "url": "https://github.com/openai/codex/issues/41855"
       },
       {
-        "createdAt": "2026-08-31T06:36:31Z",
-        "explicitVersion": "26.826.12353",
-        "id": "github-issue:openai/codex:41784",
-        "labels": [
-          "app",
-          "bug",
-          "pets",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:enable|title:desktop-pet-can-move|version:26.826.12353|platform:windows",
-        "title": "The desktop pet can't move",
-        "url": "https://github.com/openai/codex/issues/41784"
-      },
-      {
-        "createdAt": "2026-08-31T06:40:05Z",
-        "explicitVersion": "0.151.0",
-        "id": "github-issue:openai/codex:41785",
+        "createdAt": "2026-08-31T14:50:50Z",
+        "explicitVersion": "0.151.0-alpha.7.2",
+        "id": "github-issue:openai/codex:41856",
         "labels": [
           "bug",
           "CLI",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "x64",
-        "signature": "code:gpt-reserve|title:reset-usage-overwrites-healthy-weekly-quota|version:0.151.0|platform:x64",
-        "title": "\"Reset Usage\" overwrites healthy weekly quota and destroys gpt-reserve pool instead of extending cycle",
-        "url": "https://github.com/openai/codex/issues/41785"
-      },
-      {
-        "createdAt": "2026-08-31T06:40:12Z",
-        "explicitVersion": "26.825.6671.0",
-        "id": "github-issue:openai/codex:41786",
-        "labels": [
-          "app",
-          "bug",
-          "session",
-          "windows-os"
+          "tool-calls"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:codex_26|title:restarting-codex-will-cause-chat-history|version:26.825.6671.0|platform:windows",
-        "title": "Restarting Codex will cause chat history that was triggered by other conversations to be lost.",
-        "url": "https://github.com/openai/codex/issues/41786"
+        "signature": "code:input_image|title:history-notes-forwards-detail-original-selected|version:0.151.0-alpha.7.2|platform:windows",
+        "title": "History Notes forwards `detail: original` when the selected model does not support it",
+        "url": "https://github.com/openai/codex/issues/41856"
       },
       {
-        "createdAt": "2026-08-31T06:56:59Z",
-        "explicitVersion": "26.825.51511",
-        "id": "github-issue:openai/codex:41787",
+        "createdAt": "2026-08-31T15:11:12Z",
+        "explicitVersion": "26.825.4187.0",
+        "id": "github-issue:openai/codex:41859",
         "labels": [
-          "app",
-          "bug",
-          "performance"
+          "app"
         ],
-        "maintainerAcknowledged": false,
-        "signature": "code:over-recruits|title:character-causing-lag-spike-large-use|version:26.825.51511",
-        "title": "@ character causing lag spike + large use of computer resources",
-        "url": "https://github.com/openai/codex/issues/41787"
-      },
-      {
-        "createdAt": "2026-08-31T06:58:52Z",
-        "explicitVersion": "0.151.0",
-        "id": "github-issue:openai/codex:41788",
-        "labels": [
-          "bug",
-          "CLI",
-          "context"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:cross-thread|title:possible-cross-thread-recap-contamination|version:0.151.0|platform:linux",
-        "title": "Possible cross-thread recap contamination",
-        "url": "https://github.com/openai/codex/issues/41788"
-      },
-      {
-        "createdAt": "2026-08-31T07:04:31Z",
-        "explicitVersion": "26.825.6671.0",
-        "id": "github-issue:openai/codex:41789",
-        "labels": [],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:codex_26|title:bug-windows-desktop-render-persisted-ssh|version:26.825.6671.0|platform:windows",
-        "title": "[Bug] Windows Desktop does not render persisted SSH remote task histories after successful thread/resume",
-        "url": "https://github.com/openai/codex/issues/41789"
+        "signature": "code:exact|title:windows-desktop-fast-mode-becomes-selected|version:26.825.4187.0|platform:windows",
+        "title": "[Windows Desktop] Fast mode becomes selected during normal use while config remains Standard",
+        "url": "https://github.com/openai/codex/issues/41859"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-31T07:04:54.318Z",
+    "observedAt": "2026-08-31T15:11:17.757Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "20 recent official GitHub issues observed for openai/codex."
+    "summary": "14 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-fe2de045b70e5775",
   "interfaces": [],
