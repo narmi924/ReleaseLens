@@ -76,6 +76,13 @@
     "clusters": [
       {
         "issueIds": [
+          "github-issue:anthropics/claude-code:90858"
+        ],
+        "signature": "code:anthropic-skills|title:bug-claude-skills-anthropic-skills-missing|version:1.40609.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:anthropics/claude-code:90848"
         ],
         "signature": "code:cli-installation|title:doctor-skill-applies-installation-assumptions-run|version:2.1.251|platform:windows",
@@ -90,9 +97,9 @@
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90831"
+          "github-issue:anthropics/claude-code:90853"
         ],
-        "signature": "code:edits|title:bug-cyber-safeguard-false-positive-blocks|version:4.8|platform:linux",
+        "signature": "code:control-enter|title:feature-new-setting-use-control-enter",
         "strength": "weak"
       },
       {
@@ -104,9 +111,30 @@
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90837"
+          "github-issue:anthropics/claude-code:90857"
         ],
-        "signature": "code:email|title:bug-cyber-broad-safeguard-blocks-finding|version:4.8|platform:linux",
+        "signature": "code:error|title:bug-anthropic-api-overly-aggressive-cybersecurity|version:2.1.216|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:90850"
+        ],
+        "signature": "code:error|title:bug-anthropic-api-request-req-011cezhdjbbo7r8k1wzeskrf|version:2.1.240|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:90860"
+        ],
+        "signature": "code:every|title:bug-desktop-windows-requires-authentication-roughly|version:2.1.251|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:90851"
+        ],
+        "signature": "code:exceeds|title:bug-context-window-exceeds-limit-advisor|version:2.1.251|platform:macos",
         "strength": "weak"
       },
       {
@@ -118,93 +146,37 @@
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90833"
+          "github-issue:anthropics/claude-code:90863"
         ],
-        "signature": "code:exclamation|title:bug-cyber-false-positive-halts-routine|version:4.8|platform:linux",
+        "signature": "code:existing|title:feature-add-crypto-payment-specially-monero",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90841"
+          "github-issue:anthropics/claude-code:90859"
         ],
-        "signature": "code:extract|title:bug-cyber-false-positive-during-static|version:4.8|platform:linux",
+        "signature": "code:experience|title:appreciate-you-reaching-out-but-this|version:2.1.251|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90842"
+          "github-issue:anthropics/claude-code:90852"
         ],
-        "signature": "code:extracting|title:bug-cyber-false-positive-while-extracting|version:4.8|platform:linux",
+        "signature": "code:extraction|title:bug-reasoning-extraction-failed-request-req|version:2.1.247|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90829"
+          "github-issue:anthropics/claude-code:90856"
         ],
-        "signature": "code:req_011cepdzjwvk6bmqwnsrpzuy|title:bug-cyber-false-positive-mobile-user|version:4.8|platform:linux",
+        "signature": "code:known_marketplaces|title:removing-marketplace-settings-json-silently-reverted|version:2.1.247|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:90830"
+          "github-issue:anthropics/claude-code:90862"
         ],
-        "signature": "code:req_011cepe2x8qpvjvz8wamvkvn|title:bug-cyber-safeguard-false-positive-during|version:4.8|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90832"
-        ],
-        "signature": "code:req_011cepe6ncbvfmaxmxzjkwu8|title:bug-cyber-safeguard-blocks-system-accent|version:4.8|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90834"
-        ],
-        "signature": "code:req_011cepe9pbxxyjvbnctf9yur|title:bug-cyber-false-positive-mobile-accent|version:4.8|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90835"
-        ],
-        "signature": "code:req_011cepedvo6m4m6yiwtg3ujy|title:bug-cyber-safeguard-triggers-false-positive|version:4.8|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90836"
-        ],
-        "signature": "code:req_011cephpwaz86jrzrz1ztrv3|title:bug-cyber-safeguard-false-positive-during|version:4.8|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90838"
-        ],
-        "signature": "code:req_011ceptnncwtpz42jyquq9bk|title:bug-cyber-false-positive-while-building|version:4.8|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90839"
-        ],
-        "signature": "code:req_011cepztwuagyels5xq4e3cq|title:bug-cyber-safeguard-blocked-locating-retrieving|version:4.8|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90840"
-        ],
-        "signature": "code:req_011cepzurjjyqj95rihuhotj|title:bug-cyber-safeguard-blocks-retrieving-desktop|version:4.8|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:90843"
-        ],
-        "signature": "code:req_011ceq7j6qq1ixkpcuy1yup8|title:bug-cyber-safeguards-block-fixing-honeypot|version:4.8|platform:linux",
+        "signature": "code:per-agent|title:feature-request-per-agent-compaction-thresholds",
         "strength": "weak"
       },
       {
@@ -213,277 +185,44 @@
         ],
         "signature": "code:req_011cesgmcfhx5w33ef7mqhyy|title:bug-cyber-false-positive-generating-documentation|version:4.8|platform:linux",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:90854"
+        ],
+        "signature": "code:req_011cesgnzfpgsuxlnlrx7yvz|title:bug-cyber-false-positive-during-cloud|version:4.8|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:90855"
+        ],
+        "signature": "code:req_011cesnpqkj3bcj21xbqzcfu|title:bug-cyber-safeguard-flags-inspecting-local|version:4.8|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:90861"
+        ],
+        "signature": "title:test",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:90849"
+        ],
+        "signature": "title:withdrawn",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "26c9fc798e7bec89cd2dc61d57d3c99f7fd183e21523e26b5782d23a4d3cd3e5",
+      "fingerprint": "192f2e7c60b7fa12ea692db2ee08cd2d475247c2cc80ec4fb436a748c09c41f4",
       "lookbackHours": 72,
       "releaseVersion": "2.1.251",
       "source": "official-github-issues"
     },
     "id": "community:claude-code:official-github",
     "issues": [
-      {
-        "createdAt": "2026-08-30T21:15:11Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90829",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "duplicate",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:req_011cepdzjwvk6bmqwnsrpzuy|title:bug-cyber-false-positive-mobile-user|version:4.8|platform:linux",
-        "title": "[Bug][cyber] False positive on mobile OS user interface accent styling and media app setup (req_011CePDzJWvK6BMQwNSrpzuY)",
-        "url": "https://github.com/anthropics/claude-code/issues/90829"
-      },
-      {
-        "createdAt": "2026-08-30T21:16:00Z",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90830",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:req_011cepe2x8qpvjvz8wamvkvn|title:bug-cyber-safeguard-false-positive-during|version:4.8|platform:linux",
-        "title": "[Bug][cyber] Safeguard false positive during custom ROM UI dynamic theme accent color work (req_011CePE2x8QpvJVz8WamVkvn)",
-        "url": "https://github.com/anthropics/claude-code/issues/90830"
-      },
-      {
-        "createdAt": "2026-08-30T21:16:58Z",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90831",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:edits|title:bug-cyber-safeguard-false-positive-blocks|version:4.8|platform:linux",
-        "title": "[Bug][cyber] Safeguard false positive blocks routine input validation code edits (req_011CePE3EQCtA6n5B9tguam7)",
-        "url": "https://github.com/anthropics/claude-code/issues/90831"
-      },
-      {
-        "createdAt": "2026-08-30T21:17:44Z",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90832",
-        "labels": [],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:req_011cepe6ncbvfmaxmxzjkwu8|title:bug-cyber-safeguard-blocks-system-accent|version:4.8|platform:linux",
-        "title": "[Bug][cyber] Safeguard blocks system UI accent color customization (req_011CePE6NCbVFMAXMXzjKWu8)",
-        "url": "https://github.com/anthropics/claude-code/issues/90832"
-      },
-      {
-        "createdAt": "2026-08-30T21:18:12Z",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90833",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:exclamation|title:bug-cyber-false-positive-halts-routine|version:4.8|platform:linux",
-        "title": "[Bug][cyber] False positive halts routine unit test refactoring after user venting exclamation (req_011CePE8sJ87bZxriPxDC1xb)",
-        "url": "https://github.com/anthropics/claude-code/issues/90833"
-      },
-      {
-        "createdAt": "2026-08-30T21:18:53Z",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90834",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:req_011cepe9pbxxyjvbnctf9yur|title:bug-cyber-false-positive-mobile-accent|version:4.8|platform:linux",
-        "title": "[Bug][cyber] False positive on mobile OS UI accent color customization (req_011CePE9PBxXYjVbncTF9YUr)",
-        "url": "https://github.com/anthropics/claude-code/issues/90834"
-      },
-      {
-        "createdAt": "2026-08-30T21:19:24Z",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90835",
-        "labels": [],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:req_011cepedvo6m4m6yiwtg3ujy|title:bug-cyber-safeguard-triggers-false-positive|version:4.8|platform:linux",
-        "title": "[Bug][cyber] Safeguard triggers false positive during input sanitization refactoring (req_011CePEDvo6m4M6YiwTG3UJY)",
-        "url": "https://github.com/anthropics/claude-code/issues/90835"
-      },
-      {
-        "createdAt": "2026-08-30T21:19:53Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90836",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "duplicate",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:req_011cephpwaz86jrzrz1ztrv3|title:bug-cyber-safeguard-false-positive-during|version:4.8|platform:linux",
-        "title": "[Bug][cyber] Safeguard false positive during routine input validation code refactoring (req_011CePHPwAZ86JRZRz1zTRv3)",
-        "url": "https://github.com/anthropics/claude-code/issues/90836"
-      },
-      {
-        "createdAt": "2026-08-30T21:20:48Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90837",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "duplicate",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:email|title:bug-cyber-broad-safeguard-blocks-finding|version:4.8|platform:linux",
-        "title": "[Bug][cyber] Broad safeguard blocks finding public contact details and drafting outreach email (req_011CePtYNRPRKCKGneBxkNfd)",
-        "url": "https://github.com/anthropics/claude-code/issues/90837"
-      },
-      {
-        "createdAt": "2026-08-30T21:21:34Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90838",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "duplicate",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:req_011ceptnncwtpz42jyquq9bk|title:bug-cyber-false-positive-while-building|version:4.8|platform:linux",
-        "title": "[Bug][cyber] False positive while building and staging a Go web dashboard binary (req_011CePtnnCWtpz42JyQuq9BK)",
-        "url": "https://github.com/anthropics/claude-code/issues/90838"
-      },
-      {
-        "createdAt": "2026-08-30T21:22:39Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90839",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "duplicate",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:req_011cepztwuagyels5xq4e3cq|title:bug-cyber-safeguard-blocked-locating-retrieving|version:4.8|platform:linux",
-        "title": "[Bug][cyber] Safeguard blocked locating and retrieving a desktop app from a remote session (req_011CePztWUagyeLs5Xq4e3cq)",
-        "url": "https://github.com/anthropics/claude-code/issues/90839"
-      },
-      {
-        "createdAt": "2026-08-30T21:23:24Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90840",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "duplicate",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:req_011cepzurjjyqj95rihuhotj|title:bug-cyber-safeguard-blocks-retrieving-desktop|version:4.8|platform:linux",
-        "title": "[Bug][cyber] Safeguard blocks retrieving desktop application installer from remote session (req_011CePzuRJJyQJ95rihuHoTJ)",
-        "url": "https://github.com/anthropics/claude-code/issues/90840"
-      },
-      {
-        "createdAt": "2026-08-30T21:24:25Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90841",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "duplicate",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:extract|title:bug-cyber-false-positive-during-static|version:4.8|platform:linux",
-        "title": "[Bug][cyber] False positive during static analysis of installer package to extract API endpoints (req_011CeQ1D6zEr4CSEp6ZNcPdn)",
-        "url": "https://github.com/anthropics/claude-code/issues/90841"
-      },
-      {
-        "createdAt": "2026-08-30T21:25:32Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90842",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "duplicate",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:extracting|title:bug-cyber-false-positive-while-extracting|version:4.8|platform:linux",
-        "title": "[Bug][cyber] False positive while extracting service endpoints from desktop application config (req_011CeQ1JyPzpFqFBB7QQfVjU)",
-        "url": "https://github.com/anthropics/claude-code/issues/90842"
-      },
-      {
-        "createdAt": "2026-08-30T21:26:18Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "4.8",
-        "id": "github-issue:anthropics/claude-code:90843",
-        "labels": [
-          "api:anthropic",
-          "area:model",
-          "area:security",
-          "bug",
-          "duplicate",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:req_011ceq7j6qq1ixkpcuy1yup8|title:bug-cyber-safeguards-block-fixing-honeypot|version:4.8|platform:linux",
-        "title": "[Bug][cyber] Safeguards block fixing honeypot database persistence and server config (req_011CeQ7J6qQ1ixkpcuY1yuP8)",
-        "url": "https://github.com/anthropics/claude-code/issues/90843"
-      },
       {
         "createdAt": "2026-08-30T21:26:25Z",
         "explicitVersion": "2.1.247",
@@ -563,10 +302,241 @@
         "signature": "code:cli-installation|title:doctor-skill-applies-installation-assumptions-run|version:2.1.251|platform:windows",
         "title": "/doctor skill applies CLI-installation assumptions when run in Claude Code Desktop (Windows)",
         "url": "https://github.com/anthropics/claude-code/issues/90848"
+      },
+      {
+        "createdAt": "2026-08-30T22:01:36Z",
+        "duplicateOf": "labelled-duplicate",
+        "id": "github-issue:anthropics/claude-code:90849",
+        "labels": [
+          "area:statusline",
+          "duplicate",
+          "enhancement",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/90849",
+        "signature": "title:withdrawn",
+        "title": "Withdrawn",
+        "url": "https://github.com/anthropics/claude-code/issues/90849"
+      },
+      {
+        "createdAt": "2026-08-30T22:09:48Z",
+        "explicitVersion": "2.1.240",
+        "id": "github-issue:anthropics/claude-code:90850",
+        "labels": [
+          "area:core",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:error|title:bug-anthropic-api-request-req-011cezhdjbbo7r8k1wzeskrf|version:2.1.240|platform:macos",
+        "title": "[Bug] Anthropic API Error: Request req_011CeZhDJbBo7R8K1wZEsKrf failed during prompt injection research",
+        "url": "https://github.com/anthropics/claude-code/issues/90850"
+      },
+      {
+        "createdAt": "2026-08-30T22:13:36Z",
+        "explicitVersion": "2.1.251",
+        "id": "github-issue:anthropics/claude-code:90851",
+        "labels": [
+          "area:agents",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:exceeds|title:bug-context-window-exceeds-limit-advisor|version:2.1.251|platform:macos",
+        "title": "[Bug] Context window exceeds limit after advisor completion in subsequent turn",
+        "url": "https://github.com/anthropics/claude-code/issues/90851"
+      },
+      {
+        "createdAt": "2026-08-30T22:26:56Z",
+        "duplicateOf": "labelled-duplicate",
+        "explicitVersion": "2.1.247",
+        "id": "github-issue:anthropics/claude-code:90852",
+        "labels": [
+          "area:tui",
+          "bug",
+          "duplicate",
+          "platform:vscode",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:extraction|title:bug-reasoning-extraction-failed-request-req|version:2.1.247|platform:windows",
+        "title": "[Bug] Reasoning extraction failed: Request ID req_011CeZiYEMqBqdzC3Mt8UXA3",
+        "url": "https://github.com/anthropics/claude-code/issues/90852"
+      },
+      {
+        "createdAt": "2026-08-30T22:36:06Z",
+        "id": "github-issue:anthropics/claude-code:90853",
+        "labels": [
+          "area:tui",
+          "enhancement",
+          "keybindings"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:control-enter|title:feature-new-setting-use-control-enter",
+        "title": "[FEATURE] new setting to use Control-ENTER (instead of ENTER) to submit prompt",
+        "url": "https://github.com/anthropics/claude-code/issues/90853"
+      },
+      {
+        "createdAt": "2026-08-30T22:41:16Z",
+        "duplicateOf": "labelled-duplicate",
+        "explicitVersion": "4.8",
+        "id": "github-issue:anthropics/claude-code:90854",
+        "labels": [
+          "api:anthropic",
+          "area:model",
+          "area:security",
+          "bug",
+          "duplicate",
+          "platform:linux"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:req_011cesgnzfpgsuxlnlrx7yvz|title:bug-cyber-false-positive-during-cloud|version:4.8|platform:linux",
+        "title": "[Bug][cyber] False positive during cloud storage cleanup of processed audio files (req_011CeSgnZfpGSUXLNLRx7yVZ)",
+        "url": "https://github.com/anthropics/claude-code/issues/90854"
+      },
+      {
+        "createdAt": "2026-08-30T22:42:30Z",
+        "duplicateOf": "labelled-duplicate",
+        "explicitVersion": "4.8",
+        "id": "github-issue:anthropics/claude-code:90855",
+        "labels": [
+          "api:anthropic",
+          "area:model",
+          "area:security",
+          "bug",
+          "duplicate",
+          "platform:linux"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:req_011cesnpqkj3bcj21xbqzcfu|title:bug-cyber-safeguard-flags-inspecting-local|version:4.8|platform:linux",
+        "title": "[Bug][cyber] Safeguard flags inspecting local storage files during desktop app token configuration (req_011CeSnpQkJ3Bcj21xBQzcFu)",
+        "url": "https://github.com/anthropics/claude-code/issues/90855"
+      },
+      {
+        "createdAt": "2026-08-30T22:50:05Z",
+        "explicitVersion": "2.1.247",
+        "id": "github-issue:anthropics/claude-code:90856",
+        "labels": [
+          "area:plugins",
+          "bug",
+          "has repro",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:known_marketplaces|title:removing-marketplace-settings-json-silently-reverted|version:2.1.247|platform:macos",
+        "title": "Removing a marketplace from settings.json is silently reverted by known_marketplaces.json",
+        "url": "https://github.com/anthropics/claude-code/issues/90856"
+      },
+      {
+        "createdAt": "2026-08-30T23:03:47Z",
+        "explicitVersion": "2.1.216",
+        "id": "github-issue:anthropics/claude-code:90857",
+        "labels": [
+          "area:model",
+          "bug",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:error|title:bug-anthropic-api-overly-aggressive-cybersecurity|version:2.1.216|platform:windows",
+        "title": "[Bug] Anthropic API Error: Overly aggressive cybersecurity content filtering",
+        "url": "https://github.com/anthropics/claude-code/issues/90857"
+      },
+      {
+        "createdAt": "2026-08-30T23:41:14Z",
+        "explicitVersion": "1.40609.0",
+        "id": "github-issue:anthropics/claude-code:90858",
+        "labels": [
+          "area:plugins",
+          "area:skills",
+          "bug",
+          "has repro",
+          "platform:macos",
+          "regression"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/90858",
+        "signature": "code:anthropic-skills|title:bug-claude-skills-anthropic-skills-missing|version:1.40609.0|platform:windows",
+        "title": "[BUG] claude.ai skills (anthropic-skills:*) missing from new-chat slash-command autocomplete until first message (regression ~Aug 2026)",
+        "url": "https://github.com/anthropics/claude-code/issues/90858"
+      },
+      {
+        "createdAt": "2026-08-30T23:43:34Z",
+        "explicitVersion": "2.1.251",
+        "id": "github-issue:anthropics/claude-code:90859",
+        "labels": [
+          "area:model",
+          "platform:macos",
+          "question"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:experience|title:appreciate-you-reaching-out-but-this|version:2.1.251|platform:macos",
+        "title": "I appreciate you reaching out, but this message appears to be feedback about user experience rather than a specific bug report for Claude Code.\n\nIf you're experiencing a technical issue with Claude Code, please provide:\n\n1. What command or action triggered",
+        "url": "https://github.com/anthropics/claude-code/issues/90859"
+      },
+      {
+        "createdAt": "2026-08-31T00:08:04Z",
+        "explicitVersion": "2.1.251",
+        "id": "github-issue:anthropics/claude-code:90860",
+        "labels": [
+          "area:auth",
+          "area:desktop",
+          "bug",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:every|title:bug-desktop-windows-requires-authentication-roughly|version:2.1.251|platform:windows",
+        "title": "[BUG] Desktop app (Windows) requires re-authentication roughly every 24 hours",
+        "url": "https://github.com/anthropics/claude-code/issues/90860"
+      },
+      {
+        "createdAt": "2026-08-31T00:11:59Z",
+        "id": "github-issue:anthropics/claude-code:90861",
+        "labels": [
+          "invalid"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "title:test",
+        "title": "test",
+        "url": "https://github.com/anthropics/claude-code/issues/90861"
+      },
+      {
+        "createdAt": "2026-08-31T00:38:08Z",
+        "id": "github-issue:anthropics/claude-code:90862",
+        "labels": [
+          "area:agents",
+          "area:core",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:per-agent|title:feature-request-per-agent-compaction-thresholds",
+        "title": "Feature request: per-agent compaction thresholds for Agent-tool subagents",
+        "url": "https://github.com/anthropics/claude-code/issues/90862"
+      },
+      {
+        "createdAt": "2026-08-31T00:39:23Z",
+        "id": "github-issue:anthropics/claude-code:90863",
+        "labels": [
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:existing|title:feature-add-crypto-payment-specially-monero",
+        "title": "[FEATURE] Add Crypto Payment specially Monero Support",
+        "url": "https://github.com/anthropics/claude-code/issues/90863"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-30T21:55:37.509Z",
+    "observedAt": "2026-08-31T00:39:44.227Z",
     "repository": "anthropics/claude-code",
     "status": "pass",
     "summary": "20 recent official GitHub issues observed for anthropics/claude-code."

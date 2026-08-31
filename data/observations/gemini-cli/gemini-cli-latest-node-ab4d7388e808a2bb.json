@@ -98,6 +98,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29136"
+        ],
+        "signature": "code:expect|title:geminicli-com-feedback-issue",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29122"
         ],
         "signature": "code:explicitly-set|title:hooks-migrate-copies-claude-timeout-across|version:0.57.0",
@@ -116,10 +123,17 @@
         ],
         "signature": "code:list-sessions|title:bug-list-sessions-never-marks-current|version:0.57.0|platform:macos",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29135"
+        ],
+        "signature": "title:features",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "e980c06880bd935a69019bc929fa3745aa93538b034773f18fb64893bfe87e15",
+      "fingerprint": "11f6cf089171126f458440ac1cc7d3508f026b373671fb1b560799e7f89c727e",
       "lookbackHours": 72,
       "releaseVersion": "0.57.0",
       "source": "official-github-issues"
@@ -203,13 +217,37 @@
         "signature": "code:list-sessions|title:bug-list-sessions-never-marks-current|version:0.57.0|platform:macos",
         "title": "Bug: --list-sessions never marks the current session, so --delete-session can delete it",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29133"
+      },
+      {
+        "createdAt": "2026-08-30T22:05:22Z",
+        "id": "github-issue:google-gemini/gemini-cli:29135",
+        "labels": [
+          "area/unknown",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "title:features",
+        "title": "Features",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29135"
+      },
+      {
+        "createdAt": "2026-08-30T22:22:30Z",
+        "id": "github-issue:google-gemini/gemini-cli:29136",
+        "labels": [
+          "area/extensions",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:expect|title:geminicli-com-feedback-issue",
+        "title": "GeminiCLI.com Feedback: [ISSUE]",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29136"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-30T14:27:30.719Z",
+    "observedAt": "2026-08-31T00:40:39.032Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-1bb1b88555994bc5",
   "interfaces": [
