@@ -76,141 +76,147 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91061"
+          "github-issue:anthropics/claude-code:91097"
         ],
-        "signature": "code:already-granted|title:bug-unnecessary-permission-prompts-already-granted|version:2.1.220|platform:macos",
+        "signature": "code:claude-vscode|title:feature-let-claude-vscode-editor-open|version:2.1.251|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91065",
-          "github-issue:anthropics/claude-code:91068"
+          "github-issue:anthropics/claude-code:91105"
         ],
-        "signature": "code:entry|title:bug-conversations-created-via-quick-entry|version:1.40609.0|platform:windows",
-        "strength": "moderate"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:91070"
-        ],
-        "signature": "code:environment|title:bug-claude-halting-legitimate-application-development|version:2.1.247|platform:macos",
+        "signature": "code:cross-session|title:bug-cross-session-sendmessage-returns-success|version:2.1.247|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91075"
+          "github-issue:anthropics/claude-code:91106"
         ],
-        "signature": "code:environment|title:desktop-compact-context-indicator-silently-changed|version:2.1.72|platform:windows",
+        "signature": "code:environment|title:bug-subagents-ultracode-mode-ignore-window|version:2.1.251|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91078"
+          "github-issue:anthropics/claude-code:91101"
         ],
-        "signature": "code:erased|title:bug-involuntary-logoff-erased-groups-organization|version:2.1.236|platform:windows",
+        "signature": "code:error|title:bug-anthropic-api-fable-safeguard-triggered|version:2.1.252|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91062"
+          "github-issue:anthropics/claude-code:91088"
         ],
-        "signature": "code:evidence|title:opus-regression-sessions-35m-tokens-zero|version:4.7|platform:windows",
+        "signature": "code:error|title:bug-anthropic-api-req-011cebzhnbdzunppoekm2ib7-false|version:2.1.241|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91067"
+          "github-issue:anthropics/claude-code:91098"
         ],
-        "signature": "code:execution|title:bug-plan-execution-stops-midway-requiring|version:2.1.251|platform:linux",
+        "signature": "code:every|title:bug-config-probe-starts-every-mcp|version:2.0.76|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91073"
+          "github-issue:anthropics/claude-code:91092"
         ],
-        "signature": "code:execution|title:forked-skill-execution-double-orchestrates-agent|version:2.1.251|platform:macos",
+        "signature": "code:every|title:desktop-allow-setting-default-project-folder|version:1.40609.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91059"
+          "github-issue:anthropics/claude-code:91107"
         ],
-        "signature": "code:existing|title:bug-max-20x-subscription-restored-account|version:2.1.251|platform:macos",
+        "signature": "code:excessive|title:bug-subagent-retry-loop-causes-excessive|version:2.1.251|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91072"
+          "github-issue:anthropics/claude-code:91095"
         ],
-        "signature": "code:existing|title:bug-recurring-can-open-this-windows|platform:windows",
+        "signature": "code:executes|title:bug-scheduled-tasks-fire-but-spawned|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91071"
+          "github-issue:anthropics/claude-code:91089"
         ],
-        "signature": "code:existing|title:feature-cowork-scheduled-tasks-support-multiple|version:1.40609.0|platform:windows",
+        "signature": "code:existing|title:bug-claude-crashes-removes-itself-outlook|version:44.314121|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91060"
+          "github-issue:anthropics/claude-code:91091"
         ],
-        "signature": "code:false-positives|title:safespawn-false-positives-per-user-git|version:10.0.26200|platform:windows",
+        "signature": "code:existing|title:bug-claude-degraded-aws-govcloud-more|version:4.5|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91069"
+          "github-issue:anthropics/claude-code:91103"
         ],
-        "signature": "code:five-hour|title:bug-max-20x-five-hour-meter|version:2.1.252|platform:windows",
+        "signature": "code:existing|title:bug-ctrl-shift-tab-partially-intercepted|version:2.1.252|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91074"
+          "github-issue:anthropics/claude-code:91104"
         ],
-        "signature": "code:many-line|title:bug-pasting-many-line-text-crashes|platform:windows",
+        "signature": "code:existing|title:bug-suspeita-corrup-disco|version:26.04|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91077"
+          "github-issue:anthropics/claude-code:91090"
         ],
-        "signature": "code:mid-subagent-spawn|title:bug-windows-desktop-recurring-moapphang-mid|version:40609.0|platform:windows",
+        "signature": "code:existing|title:bug|version:2.1.236|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91063"
+          "github-issue:anthropics/claude-code:91099"
         ],
-        "signature": "code:non-interactive|title:designsync-has-non-interactive-authorization-path|version:2.1.251|platform:macos",
+        "signature": "code:existing|title:bug|version:2.1.252|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91064"
+          "github-issue:anthropics/claude-code:91093"
         ],
-        "signature": "code:server-side|title:bug-attached-folder-silently-dropped-due|version:1.34493.1|platform:windows",
+        "signature": "code:existing|title:feature-add-liveness-progress-signal-background",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91076"
+          "github-issue:anthropics/claude-code:91100"
         ],
-        "signature": "code:session-sticky|title:bug-fable-cyber-safeguard-becomes-session|version:2.1.252|platform:windows",
+        "signature": "code:mid-task|title:model-behavior-direct-questions-must-answered",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:91066"
+          "github-issue:anthropics/claude-code:91102"
         ],
-        "signature": "code:user-typed|title:browser-pane-user-typed-urls-don|version:2.1.246|platform:macos",
+        "signature": "code:scroll-back|title:bug-fullscreen-scroll-back-sticky-last|version:2.1.252|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:91094"
+        ],
+        "signature": "code:slash-command|title:desktop-slash-command-autocomplete-longer-triggers|version:2.1.252|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:91096"
+        ],
+        "signature": "title:setting-default-transcript-view-thinking-new",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "c07e4dc4e3538ce4486fd37f7177009cb89a9bac3dea732cc90431b447326f68",
+      "fingerprint": "5d1fa3464ac5e1ad616104266cd4f1247022e3c2e4482e4f58fdf9b527d4f2aa",
       "lookbackHours": 72,
       "releaseVersion": "2.1.252",
       "source": "official-github-issues"
@@ -218,315 +224,316 @@
     "id": "community:claude-code:official-github",
     "issues": [
       {
-        "createdAt": "2026-08-31T18:58:37Z",
-        "explicitVersion": "2.1.251",
-        "id": "github-issue:anthropics/claude-code:91059",
-        "labels": [
-          "invalid"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "resolutionReference": "https://github.com/anthropics/claude-code/issues/91059",
-        "signature": "code:existing|title:bug-max-20x-subscription-restored-account|version:2.1.251|platform:macos",
-        "title": "[BUG] Max 20x subscription not restored after account hold resolved — ticket #215475553918402 unanswered 2+ weeks",
-        "url": "https://github.com/anthropics/claude-code/issues/91059"
-      },
-      {
-        "createdAt": "2026-08-31T19:07:48Z",
-        "explicitVersion": "10.0.26200",
-        "id": "github-issue:anthropics/claude-code:91060",
-        "labels": [
-          "area:security",
-          "bug",
-          "has repro",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/anthropics/claude-code/issues/91060",
-        "signature": "code:false-positives|title:safespawn-false-positives-per-user-git|version:10.0.26200|platform:windows",
-        "title": "safeSpawn false-positives on per-user Git install when cwd is the user's home directory (Windows)",
-        "url": "https://github.com/anthropics/claude-code/issues/91060"
-      },
-      {
-        "createdAt": "2026-08-31T19:09:57Z",
-        "explicitVersion": "2.1.220",
-        "id": "github-issue:anthropics/claude-code:91061",
-        "labels": [
-          "area:permissions",
-          "bug",
-          "needs-repro",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:already-granted|title:bug-unnecessary-permission-prompts-already-granted|version:2.1.220|platform:macos",
-        "title": "[Bug] Unnecessary permission prompts for already-granted access",
-        "url": "https://github.com/anthropics/claude-code/issues/91061"
-      },
-      {
-        "createdAt": "2026-08-31T19:11:08Z",
-        "explicitVersion": "4.7",
-        "id": "github-issue:anthropics/claude-code:91062",
-        "labels": [
-          "area:agents",
-          "area:model",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:evidence|title:opus-regression-sessions-35m-tokens-zero|version:4.7|platform:windows",
-        "title": "Opus 4.7/4.8 Regression: 26 Sessions, 35M+ Tokens, Zero Shipped Code — Documented Comparison With 4.6",
-        "url": "https://github.com/anthropics/claude-code/issues/91062"
-      },
-      {
-        "createdAt": "2026-08-31T19:12:44Z",
-        "duplicateOf": "#69496",
-        "explicitVersion": "2.1.251",
-        "id": "github-issue:anthropics/claude-code:91063",
-        "labels": [
-          "area:auth",
-          "enhancement"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "resolutionReference": "https://github.com/anthropics/claude-code/issues/91063",
-        "signature": "code:non-interactive|title:designsync-has-non-interactive-authorization-path|version:2.1.251|platform:macos",
-        "title": "DesignSync has no non-interactive authorization path — blocks headless/CI design-system sync",
-        "url": "https://github.com/anthropics/claude-code/issues/91063"
-      },
-      {
-        "createdAt": "2026-08-31T19:18:45Z",
-        "explicitVersion": "1.34493.1",
-        "id": "github-issue:anthropics/claude-code:91064",
-        "labels": [
-          "area:cowork",
-          "area:desktop",
-          "bug",
-          "has repro",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/anthropics/claude-code/issues/91064",
-        "signature": "code:server-side|title:bug-attached-folder-silently-dropped-due|version:1.34493.1|platform:windows",
-        "title": "[BUG] Attached folder silently dropped due to phantom server-side protected root",
-        "url": "https://github.com/anthropics/claude-code/issues/91064"
-      },
-      {
-        "createdAt": "2026-08-31T19:32:35Z",
-        "explicitVersion": "1.40609.0",
-        "id": "github-issue:anthropics/claude-code:91065",
-        "labels": [
-          "invalid"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/anthropics/claude-code/issues/91065",
-        "signature": "code:entry|title:bug-conversations-created-via-quick-entry|version:1.40609.0|platform:windows",
-        "title": "[BUG] Conversations created via Quick Entry permanently ignore profile preferences and styles on BOTH macOS and Windows (v1.40609.0) — memory IS injected; not recoverable in main window or claude.ai web",
-        "url": "https://github.com/anthropics/claude-code/issues/91065"
-      },
-      {
-        "createdAt": "2026-08-31T19:35:46Z",
-        "explicitVersion": "2.1.246",
-        "id": "github-issue:anthropics/claude-code:91066",
-        "labels": [
-          "area:desktop",
-          "bug",
-          "has repro",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:user-typed|title:browser-pane-user-typed-urls-don|version:2.1.246|platform:macos",
-        "title": "Browser pane: user-typed URLs don't load until the session registers the origin via a tool call",
-        "url": "https://github.com/anthropics/claude-code/issues/91066"
-      },
-      {
-        "createdAt": "2026-08-31T19:40:22Z",
-        "explicitVersion": "2.1.251",
-        "id": "github-issue:anthropics/claude-code:91067",
+        "createdAt": "2026-08-31T21:47:28Z",
+        "explicitVersion": "2.1.241",
+        "id": "github-issue:anthropics/claude-code:91088",
         "labels": [
           "area:model",
-          "bug",
-          "platform:linux",
-          "platform:vscode"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:execution|title:bug-plan-execution-stops-midway-requiring|version:2.1.251|platform:linux",
-        "title": "[Bug] Plan execution stops midway requiring manual resume instead of completing all tasks",
-        "url": "https://github.com/anthropics/claude-code/issues/91067"
-      },
-      {
-        "createdAt": "2026-08-31T19:42:03Z",
-        "explicitVersion": "1.40609.0",
-        "id": "github-issue:anthropics/claude-code:91068",
-        "labels": [
-          "invalid"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:entry|title:bug-conversations-created-via-quick-entry|version:1.40609.0|platform:windows",
-        "title": "[BUG] Conversations created via Quick Entry permanently ignore profile preferences and styles on BOTH macOS and Windows (v1.40609.0) — memory IS injected; not recoverable in main window or claude.ai web",
-        "url": "https://github.com/anthropics/claude-code/issues/91068"
-      },
-      {
-        "createdAt": "2026-08-31T19:53:03Z",
-        "explicitVersion": "2.1.252",
-        "id": "github-issue:anthropics/claude-code:91069",
-        "labels": [
-          "area:cost",
-          "bug",
-          "has repro",
-          "platform:wsl"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:five-hour|title:bug-max-20x-five-hour-meter|version:2.1.252|platform:windows",
-        "title": "[BUG] Max 20x five-hour meter reached 100% in 57m with 54-60% less observable traffic per point than prior window",
-        "url": "https://github.com/anthropics/claude-code/issues/91069"
-      },
-      {
-        "createdAt": "2026-08-31T19:54:03Z",
-        "explicitVersion": "2.1.247",
-        "id": "github-issue:anthropics/claude-code:91070",
-        "labels": [
           "bug",
           "needs-info",
           "platform:macos"
         ],
         "maintainerAcknowledged": false,
         "platform": "macos",
-        "signature": "code:environment|title:bug-claude-halting-legitimate-application-development|version:2.1.247|platform:macos",
-        "title": "[Bug] Claude Code halting legitimate application development workflows",
-        "url": "https://github.com/anthropics/claude-code/issues/91070"
+        "signature": "code:error|title:bug-anthropic-api-req-011cebzhnbdzunppoekm2ib7-false|version:2.1.241|platform:macos",
+        "title": "[Bug] Anthropic API Error: req_011CebZHNbDzuNpPoeKm2ib7 false positive",
+        "url": "https://github.com/anthropics/claude-code/issues/91088"
       },
       {
-        "createdAt": "2026-08-31T19:54:45Z",
-        "explicitVersion": "1.40609.0",
-        "id": "github-issue:anthropics/claude-code:91071",
+        "createdAt": "2026-08-31T21:55:44Z",
+        "explicitVersion": "44.314121",
+        "id": "github-issue:anthropics/claude-code:91089",
         "labels": [
-          "area:cowork",
-          "area:routines",
-          "enhancement"
+          "bug"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:existing|title:feature-cowork-scheduled-tasks-support-multiple|version:1.40609.0|platform:windows",
-        "title": "[FEATURE] Cowork scheduled tasks: support multiple run times per day (Custom frequency)",
-        "url": "https://github.com/anthropics/claude-code/issues/91071"
+        "signature": "code:existing|title:bug-claude-crashes-removes-itself-outlook|version:44.314121|platform:windows",
+        "title": "[BUG] Claude crashes, removes itself and my outlook from my tabs? Need to deinstall and reinstall for it to work again. But my Claude Code convo is gone.",
+        "url": "https://github.com/anthropics/claude-code/issues/91089"
       },
       {
-        "createdAt": "2026-08-31T20:03:03Z",
-        "id": "github-issue:anthropics/claude-code:91072",
+        "createdAt": "2026-08-31T21:59:28Z",
+        "explicitVersion": "2.1.236",
+        "id": "github-issue:anthropics/claude-code:91090",
         "labels": [
-          "invalid"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:existing|title:bug-recurring-can-open-this-windows|platform:windows",
-        "title": "[BUG] Recurring \"Can't open this app\" on Windows — MSIX re-registration failure persists across multiple related issues with no official fix",
-        "url": "https://github.com/anthropics/claude-code/issues/91072"
-      },
-      {
-        "createdAt": "2026-08-31T20:06:04Z",
-        "explicitVersion": "2.1.251",
-        "id": "github-issue:anthropics/claude-code:91073",
-        "labels": [
-          "area:agents",
-          "area:cost",
           "area:skills",
+          "bug",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/91090",
+        "signature": "code:existing|title:bug|version:2.1.236|platform:windows",
+        "title": "[BUG]",
+        "url": "https://github.com/anthropics/claude-code/issues/91090"
+      },
+      {
+        "createdAt": "2026-08-31T22:15:43Z",
+        "explicitVersion": "4.5",
+        "id": "github-issue:anthropics/claude-code:91091",
+        "labels": [
+          "api:bedrock",
+          "area:model",
           "bug",
           "platform:macos"
         ],
         "maintainerAcknowledged": false,
         "platform": "macos",
-        "signature": "code:execution|title:forked-skill-execution-double-orchestrates-agent|version:2.1.251|platform:macos",
-        "title": "Forked skill execution double-orchestrates: agent notifications route to parent while fork runs the pipeline; Skill re-invocation re-executes from scratch",
-        "url": "https://github.com/anthropics/claude-code/issues/91073"
+        "signature": "code:existing|title:bug-claude-degraded-aws-govcloud-more|version:4.5|platform:macos",
+        "title": "[BUG] Claude Code degraded in AWS GovCloud (no more Haiku models available)",
+        "url": "https://github.com/anthropics/claude-code/issues/91091"
       },
       {
-        "createdAt": "2026-08-31T20:06:57Z",
-        "id": "github-issue:anthropics/claude-code:91074",
+        "createdAt": "2026-08-31T22:16:22Z",
+        "duplicateOf": "labelled-duplicate",
+        "explicitVersion": "1.40609.0",
+        "id": "github-issue:anthropics/claude-code:91092",
+        "labels": [
+          "area:desktop",
+          "duplicate",
+          "enhancement",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:every|title:desktop-allow-setting-default-project-folder|version:1.40609.0|platform:windows",
+        "title": "[Desktop] Allow setting a default project folder for new sessions",
+        "url": "https://github.com/anthropics/claude-code/issues/91092"
+      },
+      {
+        "createdAt": "2026-08-31T22:18:05Z",
+        "id": "github-issue:anthropics/claude-code:91093",
+        "labels": [
+          "area:agent-view",
+          "area:agents",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:existing|title:feature-add-liveness-progress-signal-background",
+        "title": "[FEATURE] Add liveness/progress signal for background subagents (Task tool)",
+        "url": "https://github.com/anthropics/claude-code/issues/91093"
+      },
+      {
+        "createdAt": "2026-08-31T22:24:38Z",
+        "explicitVersion": "2.1.252",
+        "id": "github-issue:anthropics/claude-code:91094",
+        "labels": [
+          "area:desktop",
+          "area:skills",
+          "bug",
+          "has repro",
+          "platform:macos",
+          "regression"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:slash-command|title:desktop-slash-command-autocomplete-longer-triggers|version:2.1.252|platform:macos",
+        "title": "[Desktop] Slash-command autocomplete no longer triggers mid-message since 1.40609.0 (terminal CLI unaffected)",
+        "url": "https://github.com/anthropics/claude-code/issues/91094"
+      },
+      {
+        "createdAt": "2026-08-31T22:29:27Z",
+        "id": "github-issue:anthropics/claude-code:91095",
+        "labels": [
+          "area:cowork",
+          "area:routines",
+          "bug",
+          "has repro",
+          "platform:windows",
+          "regression"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/91095",
+        "signature": "code:executes|title:bug-scheduled-tasks-fire-but-spawned|platform:windows",
+        "title": "[BUG] Scheduled tasks fire but the spawned session never executes - one run reported SUCCEEDED after 12s having done nothing (recurrence of #65537)",
+        "url": "https://github.com/anthropics/claude-code/issues/91095"
+      },
+      {
+        "createdAt": "2026-08-31T22:34:40Z",
+        "id": "github-issue:anthropics/claude-code:91096",
+        "labels": [
+          "area:ui",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "title:setting-default-transcript-view-thinking-new",
+        "title": "Setting to default the transcript view to \"Thinking\" for new sessions",
+        "url": "https://github.com/anthropics/claude-code/issues/91096"
+      },
+      {
+        "createdAt": "2026-08-31T22:35:27Z",
+        "explicitVersion": "2.1.251",
+        "id": "github-issue:anthropics/claude-code:91097",
+        "labels": [
+          "area:ide",
+          "enhancement",
+          "platform:vscode"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:claude-vscode|title:feature-let-claude-vscode-editor-open|version:2.1.251|platform:windows",
+        "title": "[FEATURE] Let claude-vscode.editor.open target a working directory (git worktrees)",
+        "url": "https://github.com/anthropics/claude-code/issues/91097"
+      },
+      {
+        "createdAt": "2026-08-31T22:49:48Z",
+        "explicitVersion": "2.0.76",
+        "id": "github-issue:anthropics/claude-code:91098",
+        "labels": [
+          "area:ide",
+          "area:mcp",
+          "bug",
+          "has repro",
+          "platform:vscode"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:every|title:bug-config-probe-starts-every-mcp|version:2.0.76|platform:macos",
+        "title": "[BUG] VS Code config probe starts every MCP server (spawnConfigProbe never sets strictMcpConfig)",
+        "url": "https://github.com/anthropics/claude-code/issues/91098"
+      },
+      {
+        "createdAt": "2026-08-31T23:01:32Z",
+        "explicitVersion": "2.1.252",
+        "id": "github-issue:anthropics/claude-code:91099",
+        "labels": [
+          "area:mcp",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:existing|title:bug|version:2.1.252|platform:macos",
+        "title": "[BUG]",
+        "url": "https://github.com/anthropics/claude-code/issues/91099"
+      },
+      {
+        "createdAt": "2026-08-31T23:37:22Z",
+        "id": "github-issue:anthropics/claude-code:91100",
+        "labels": [
+          "area:agents",
+          "area:model",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:mid-task|title:model-behavior-direct-questions-must-answered",
+        "title": "Model behavior: direct questions must be answered before/alongside actions, never replaced by them",
+        "url": "https://github.com/anthropics/claude-code/issues/91100"
+      },
+      {
+        "createdAt": "2026-08-31T23:53:47Z",
+        "explicitVersion": "2.1.252",
+        "id": "github-issue:anthropics/claude-code:91101",
+        "labels": [
+          "area:model",
+          "bug",
+          "needs-repro",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:error|title:bug-anthropic-api-fable-safeguard-triggered|version:2.1.252|platform:windows",
+        "title": "[Bug] Anthropic API Error: Fable Safeguard Triggered Unexpectedly",
+        "url": "https://github.com/anthropics/claude-code/issues/91101"
+      },
+      {
+        "createdAt": "2026-09-01T00:12:28Z",
+        "explicitVersion": "2.1.252",
+        "id": "github-issue:anthropics/claude-code:91102",
         "labels": [
           "area:tui",
           "bug",
-          "platform:wsl"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:many-line|title:bug-pasting-many-line-text-crashes|platform:windows",
-        "title": "[BUG] Pasting many-line text crashes Claude Code + exponential line growth on repeated copy-pasting of multiple lines",
-        "url": "https://github.com/anthropics/claude-code/issues/91074"
-      },
-      {
-        "createdAt": "2026-08-31T20:19:37Z",
-        "explicitVersion": "2.1.72",
-        "id": "github-issue:anthropics/claude-code:91075",
-        "labels": [
-          "area:desktop",
-          "area:ui",
-          "bug",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:environment|title:desktop-compact-context-indicator-silently-changed|version:2.1.72|platform:windows",
-        "title": "Desktop app: compact context indicator silently changed meaning — now tracks plan usage, not context window",
-        "url": "https://github.com/anthropics/claude-code/issues/91075"
-      },
-      {
-        "createdAt": "2026-08-31T20:28:23Z",
-        "explicitVersion": "2.1.252",
-        "id": "github-issue:anthropics/claude-code:91076",
-        "labels": [
-          "bug",
-          "needs-info"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:session-sticky|title:bug-fable-cyber-safeguard-becomes-session|version:2.1.252|platform:windows",
-        "title": "[BUG] Fable 5 [cyber] safeguard becomes session-sticky and blocks unrelated prompts, /feedback, and /doctor",
-        "url": "https://github.com/anthropics/claude-code/issues/91076"
-      },
-      {
-        "createdAt": "2026-08-31T20:37:33Z",
-        "explicitVersion": "40609.0",
-        "id": "github-issue:anthropics/claude-code:91077",
-        "labels": [
-          "area:agents",
-          "area:desktop",
-          "bug",
           "has repro",
-          "platform:windows"
+          "platform:macos",
+          "regression"
         ],
         "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:mid-subagent-spawn|title:bug-windows-desktop-recurring-moapphang-mid|version:40609.0|platform:windows",
-        "title": "[BUG] Windows desktop: recurring MoAppHang mid-subagent-spawn (same Watson bucket across 4 versions); hang wedges MSIX package into \"Can't open this app\" repair loop",
-        "url": "https://github.com/anthropics/claude-code/issues/91077"
+        "platform": "arm64",
+        "signature": "code:scroll-back|title:bug-fullscreen-scroll-back-sticky-last|version:2.1.252|platform:arm64",
+        "title": "[BUG] Fullscreen: scroll-back sticky \"last prompt\" banner never appears since 2.1.247 (scrollRef -> scrollViewport.handle refactor)",
+        "url": "https://github.com/anthropics/claude-code/issues/91102"
       },
       {
-        "createdAt": "2026-08-31T20:45:30Z",
-        "explicitVersion": "2.1.236",
-        "id": "github-issue:anthropics/claude-code:91078",
+        "createdAt": "2026-09-01T00:13:13Z",
+        "duplicateOf": "labelled-duplicate",
+        "explicitVersion": "2.1.252",
+        "id": "github-issue:anthropics/claude-code:91103",
         "labels": [
           "area:ide",
-          "bug",
+          "duplicate",
+          "keybindings",
           "platform:vscode",
           "platform:windows"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:erased|title:bug-involuntary-logoff-erased-groups-organization|version:2.1.236|platform:windows",
-        "title": "[BUG] An involuntary logoff erased my groups organization on claude code, when I was using VS code",
-        "url": "https://github.com/anthropics/claude-code/issues/91078"
+        "signature": "code:existing|title:bug-ctrl-shift-tab-partially-intercepted|version:2.1.252|platform:windows",
+        "title": "[BUG] Ctrl+Shift+Tab is partially intercepted by Claude Code and also triggers Shift+Tab mode switching",
+        "url": "https://github.com/anthropics/claude-code/issues/91103"
+      },
+      {
+        "createdAt": "2026-09-01T00:22:58Z",
+        "explicitVersion": "26.04",
+        "id": "github-issue:anthropics/claude-code:91104",
+        "labels": [
+          "bug",
+          "needs-info",
+          "platform:linux"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:existing|title:bug-suspeita-corrup-disco|version:26.04|platform:linux",
+        "title": "[BUG] Suspeita de corrupção de disco",
+        "url": "https://github.com/anthropics/claude-code/issues/91104"
+      },
+      {
+        "createdAt": "2026-09-01T00:27:42Z",
+        "explicitVersion": "2.1.247",
+        "id": "github-issue:anthropics/claude-code:91105",
+        "labels": [
+          "area:agents",
+          "bug",
+          "has repro",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:cross-session|title:bug-cross-session-sendmessage-returns-success|version:2.1.247|platform:macos",
+        "title": "[BUG] Cross-session SendMessage returns {\"success\":true} for a ListAgents-supplied address that routes nowhere — silent drop, no error",
+        "url": "https://github.com/anthropics/claude-code/issues/91105"
+      },
+      {
+        "createdAt": "2026-09-01T00:38:40Z",
+        "explicitVersion": "2.1.251",
+        "id": "github-issue:anthropics/claude-code:91106",
+        "labels": [
+          "area:agents",
+          "bug",
+          "needs-repro",
+          "platform:linux"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:environment|title:bug-subagents-ultracode-mode-ignore-window|version:2.1.251|platform:linux",
+        "title": "[Bug] Subagents in ultracode mode ignore window size limits",
+        "url": "https://github.com/anthropics/claude-code/issues/91106"
+      },
+      {
+        "createdAt": "2026-09-01T00:39:31Z",
+        "explicitVersion": "2.1.251",
+        "id": "github-issue:anthropics/claude-code:91107",
+        "labels": [],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:excessive|title:bug-subagent-retry-loop-causes-excessive|version:2.1.251|platform:linux",
+        "title": "[Bug] Subagent retry loop causes excessive context accumulation in ultracode mode",
+        "url": "https://github.com/anthropics/claude-code/issues/91107"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-31T20:53:04.796Z",
+    "observedAt": "2026-09-01T00:40:12.974Z",
     "repository": "anthropics/claude-code",
     "status": "pass",
     "summary": "20 recent official GitHub issues observed for anthropics/claude-code."

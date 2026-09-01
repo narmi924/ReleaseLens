@@ -176,70 +176,63 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:41889"
+          "github-issue:openai/codex:41927"
         ],
-        "signature": "code:elevated|title:windows-elevated-sandbox-native-spellchecker-creates|version:0.151.0-alpha.7.1.exe|platform:windows",
+        "signature": "code:active-thread-01a05a07-a62a-7e92-8145-06b98c9efc1f|title:open-issue-active-thread-01a05a07-a62a",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41903"
+          "github-issue:openai/codex:41932"
         ],
-        "signature": "code:endings|title:bundled-browser-chrome-computer-use-skill|version:26.825.6671.0|platform:windows",
+        "signature": "code:active-thread-01a05a1c-430a-7de1-b434-68bc706f305c|title:active-thread-01a05a1c-430a-7de1-b434|version:26.825.4187.0",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41895"
+          "github-issue:openai/codex:41939"
         ],
-        "signature": "code:error|title:stream-disconnected-before-completion-request-cfaf2c7c|version:25.3.0|platform:arm64",
+        "signature": "code:active-thread-01a05a47-d965-76a2-9b9d-97bf710d83b7|title:open-chatgpt",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41904"
+          "github-issue:openai/codex:41943"
         ],
-        "signature": "code:everything|title:save-button-missing-project-settings-chatgpt",
+        "signature": "code:company-managed|title:linux-codex-desktop-updates-repeatedly-change|version:26.825.51511|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41891"
+          "github-issue:openai/codex:41930"
         ],
-        "signature": "code:expected|title:desktop-browser-closing-tab-leaves-media|version:725.721|platform:linux",
+        "signature": "code:english|title:feature-request-chinese-support|version:1.2.56|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41896"
+          "github-issue:openai/codex:41935"
         ],
-        "signature": "code:opt-in|title:make-automatic-conversation-recaps-opt-surface|version:0.151.0",
+        "signature": "code:executable|title:desktop-subagent-capabilities-vary-task-without|version:26.825.6671.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41907"
+          "github-issue:openai/codex:41942"
         ],
-        "signature": "code:per-site|title:codex-desktop-browser-use-retains-inaccessible|version:26.825.6671.0|platform:windows",
+        "signature": "code:execution|title:shell-execution-latency-regressed-11x-between|version:26.825.6671.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:41900"
+          "github-issue:openai/codex:41926"
         ],
-        "signature": "code:preempt_dynamic|title:linux-chatgpt-desktop-streaming-assistant-response|version:26.825.51511|platform:x64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:41905"
-        ],
-        "signature": "code:traffic-light|title:macos-green-traffic-light-fullscreen-control|version:26.826.12353|platform:arm64",
+        "signature": "code:explain|title:allow-local-work-moved-cloud|version:26.825.51511",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "e67c2a7a17009f5f8f2e68628fc5a52171ffddf9815a51d23d34b9198e7e78ad",
+      "fingerprint": "4c7f5eccf9dc48fcc3331c5317605571a53b60e0d19425698a473d67aef0f647",
       "lookbackHours": 72,
       "releaseVersion": "26.825.6671.0",
       "source": "official-github-issues"
@@ -247,147 +240,130 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-08-31T18:03:27Z",
-        "explicitVersion": "0.151.0-alpha.7.1.exe",
-        "id": "github-issue:openai/codex:41889",
+        "createdAt": "2026-08-31T22:47:59Z",
+        "explicitVersion": "26.825.51511",
+        "id": "github-issue:openai/codex:41926",
+        "labels": [
+          "app",
+          "enhancement",
+          "remote",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:explain|title:allow-local-work-moved-cloud|version:26.825.51511",
+        "title": "Allow Local Work to be moved to Cloud",
+        "url": "https://github.com/openai/codex/issues/41926"
+      },
+      {
+        "createdAt": "2026-08-31T22:57:19Z",
+        "id": "github-issue:openai/codex:41927",
         "labels": [
           "app",
           "bug",
-          "sandbox",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:active-thread-01a05a07-a62a-7e92-8145-06b98c9efc1f|title:open-issue-active-thread-01a05a07-a62a",
+        "title": "Open issue:     no-active-thread-01a05a07-a62a-7e92-8145-06b98c9efc1f",
+        "url": "https://github.com/openai/codex/issues/41927"
+      },
+      {
+        "createdAt": "2026-08-31T23:18:45Z",
+        "explicitVersion": "1.2.56",
+        "id": "github-issue:openai/codex:41930",
+        "labels": [
+          "app",
+          "enhancement",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/41889",
-        "signature": "code:elevated|title:windows-elevated-sandbox-native-spellchecker-creates|version:0.151.0-alpha.7.1.exe|platform:windows",
-        "title": "Windows elevated sandbox: native spellchecker creates garbled relative directories, then returns E_ACCESSDENIED",
-        "url": "https://github.com/openai/codex/issues/41889"
+        "signature": "code:english|title:feature-request-chinese-support|version:1.2.56|platform:windows",
+        "title": "Feature Request: Chinese UI support",
+        "url": "https://github.com/openai/codex/issues/41930"
       },
       {
-        "createdAt": "2026-08-31T18:23:47Z",
-        "explicitVersion": "725.721",
-        "id": "github-issue:openai/codex:41891",
+        "createdAt": "2026-08-31T23:27:14Z",
+        "explicitVersion": "26.825.4187.0",
+        "id": "github-issue:openai/codex:41932",
         "labels": [
           "app",
-          "browser",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:active-thread-01a05a1c-430a-7de1-b434-68bc706f305c|title:active-thread-01a05a1c-430a-7de1-b434|version:26.825.4187.0",
+        "title": "no-active-thread-01a05a1c-430a-7de1-b434-68bc706f305c",
+        "url": "https://github.com/openai/codex/issues/41932"
+      },
+      {
+        "createdAt": "2026-08-31T23:40:43Z",
+        "explicitVersion": "26.825.6671.0",
+        "id": "github-issue:openai/codex:41935",
+        "labels": [
+          "app",
+          "enhancement",
+          "subagent"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:executable|title:desktop-subagent-capabilities-vary-task-without|version:26.825.6671.0|platform:windows",
+        "title": "Desktop app: subagent capabilities vary by task without selectable controls or clear UI distinctions",
+        "url": "https://github.com/openai/codex/issues/41935"
+      },
+      {
+        "createdAt": "2026-09-01T00:08:55Z",
+        "id": "github-issue:openai/codex:41939",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:active-thread-01a05a47-d965-76a2-9b9d-97bf710d83b7|title:open-chatgpt",
+        "title": "cannot open chatgpt",
+        "url": "https://github.com/openai/codex/issues/41939"
+      },
+      {
+        "createdAt": "2026-09-01T00:26:10Z",
+        "explicitVersion": "26.825.6671.0",
+        "id": "github-issue:openai/codex:41942",
+        "labels": [
+          "bug",
+          "CLI",
+          "performance",
+          "sandbox",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/41942",
+        "signature": "code:execution|title:shell-execution-latency-regressed-11x-between|version:26.825.6671.0|platform:windows",
+        "title": "Shell execution latency regressed 8-11x between 0.146.0 and 0.151.0-alpha on Windows (1.7s to 18.4s median), measured across 10 months of rollouts",
+        "url": "https://github.com/openai/codex/issues/41942"
+      },
+      {
+        "createdAt": "2026-09-01T00:27:24Z",
+        "explicitVersion": "26.825.51511",
+        "id": "github-issue:openai/codex:41943",
+        "labels": [
+          "app",
           "bug"
         ],
         "maintainerAcknowledged": false,
         "platform": "linux",
-        "signature": "code:expected|title:desktop-browser-closing-tab-leaves-media|version:725.721|platform:linux",
-        "title": "[Desktop][Browser] Closing an in-app tab leaves media running",
-        "url": "https://github.com/openai/codex/issues/41891"
-      },
-      {
-        "createdAt": "2026-08-31T19:04:04Z",
-        "explicitVersion": "25.3.0",
-        "id": "github-issue:openai/codex:41895",
-        "labels": [
-          "app",
-          "bug",
-          "connectivity"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "resolutionReference": "https://github.com/openai/codex/issues/41895",
-        "signature": "code:error|title:stream-disconnected-before-completion-request-cfaf2c7c|version:25.3.0|platform:arm64",
-        "title": "Stream disconnected before completion (request cfaf2c7c)",
-        "url": "https://github.com/openai/codex/issues/41895"
-      },
-      {
-        "createdAt": "2026-08-31T19:04:45Z",
-        "explicitVersion": "0.151.0",
-        "id": "github-issue:openai/codex:41896",
-        "labels": [
-          "CLI",
-          "enhancement",
-          "rate-limits",
-          "TUI"
-        ],
-        "maintainerAcknowledged": false,
-        "resolutionReference": "https://github.com/openai/codex/issues/41896",
-        "signature": "code:opt-in|title:make-automatic-conversation-recaps-opt-surface|version:0.151.0",
-        "title": "Make automatic conversation recaps opt-in and surface their model usage",
-        "url": "https://github.com/openai/codex/issues/41896"
-      },
-      {
-        "createdAt": "2026-08-31T19:28:31Z",
-        "explicitVersion": "26.825.51511",
-        "id": "github-issue:openai/codex:41900",
-        "labels": [
-          "app",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "x64",
-        "signature": "code:preempt_dynamic|title:linux-chatgpt-desktop-streaming-assistant-response|version:26.825.51511|platform:x64",
-        "title": "[Linux][ChatGPT Desktop] Streaming assistant response is anchored mostly above visible conversation viewport",
-        "url": "https://github.com/openai/codex/issues/41900"
-      },
-      {
-        "createdAt": "2026-08-31T20:20:56Z",
-        "explicitVersion": "26.825.6671.0",
-        "id": "github-issue:openai/codex:41903",
-        "labels": [
-          "app",
-          "bug",
-          "skills",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:endings|title:bundled-browser-chrome-computer-use-skill|version:26.825.6671.0|platform:windows",
-        "title": "Bundled Browser, Chrome, and Computer Use SKILL.md files contain mixed line endings in signed Windows AppX",
-        "url": "https://github.com/openai/codex/issues/41903"
-      },
-      {
-        "createdAt": "2026-08-31T20:22:03Z",
-        "id": "github-issue:openai/codex:41904",
-        "labels": [
-          "app",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:everything|title:save-button-missing-project-settings-chatgpt",
-        "title": "Save button is missing in the project settings of a chatgpt project in the new desktop app",
-        "url": "https://github.com/openai/codex/issues/41904"
-      },
-      {
-        "createdAt": "2026-08-31T20:26:49Z",
-        "explicitVersion": "26.826.12353",
-        "id": "github-issue:openai/codex:41905",
-        "labels": [
-          "app",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:traffic-light|title:macos-green-traffic-light-fullscreen-control|version:26.826.12353|platform:arm64",
-        "title": "macOS: green traffic-light fullscreen control intermittently ignores clicks",
-        "url": "https://github.com/openai/codex/issues/41905"
-      },
-      {
-        "createdAt": "2026-08-31T20:39:15Z",
-        "explicitVersion": "26.825.6671.0",
-        "id": "github-issue:openai/codex:41907",
-        "labels": [
-          "app",
-          "browser",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:per-site|title:codex-desktop-browser-use-retains-inaccessible|version:26.825.6671.0|platform:windows",
-        "title": "Codex desktop Browser Use retains inaccessible per-site denial after Approval change and restart",
-        "url": "https://github.com/openai/codex/issues/41907"
+        "signature": "code:company-managed|title:linux-codex-desktop-updates-repeatedly-change|version:26.825.51511|platform:linux",
+        "title": "[Linux] Codex desktop updates repeatedly change the default text/html handler to chatgpt.desktop",
+        "url": "https://github.com/openai/codex/issues/41943"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-08-31T20:53:51.450Z",
+    "observedAt": "2026-09-01T00:41:06.312Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "9 recent official GitHub issues observed for openai/codex."
+    "summary": "8 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-fe2de045b70e5775",
   "interfaces": [],
