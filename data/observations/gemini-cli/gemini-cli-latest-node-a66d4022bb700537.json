@@ -120,6 +120,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29153"
+        ],
+        "signature": "code:exported|title:gemini-hangs-waiting-authentication-subdirectories-macos|version:0.57.0|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29140"
         ],
         "signature": "code:failed_precondition|title:fixed-failed-precondition-400-user-location|version:127.0.0.1",
@@ -162,7 +169,7 @@
       }
     ],
     "details": {
-      "fingerprint": "4cbaedf486efca0921d6d01ac127882d809eb4adae69512e90def2b4dd5d77a7",
+      "fingerprint": "a97e5cdde9750cb9444df185120876b1c23201bbd01e82417a956c20f15bbec0",
       "lookbackHours": 72,
       "releaseVersion": "0.57.0",
       "source": "official-github-issues"
@@ -267,8 +274,11 @@
         "explicitVersion": "0.59.0-nightly.20260825.g812f7a2bc",
         "id": "github-issue:google-gemini/gemini-cli:29144",
         "labels": [
-          "area/security",
-          "status/need-triage"
+          "area/agent",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
         ],
         "maintainerAcknowledged": false,
         "platform": "macos",
@@ -341,20 +351,36 @@
         "id": "github-issue:google-gemini/gemini-cli:29152",
         "labels": [
           "area/core",
-          "status/need-triage"
+          "effort/medium",
+          "kind/bug",
+          "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
         "platform": "linux",
         "signature": "code:user-level|title:user-level-git-config-ignored-pull|version:0.57.0|platform:linux",
         "title": "User-level git config is ignored after pull request #28792",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29152"
+      },
+      {
+        "createdAt": "2026-09-01T11:47:20Z",
+        "explicitVersion": "0.57.0",
+        "id": "github-issue:google-gemini/gemini-cli:29153",
+        "labels": [
+          "area/security",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:exported|title:gemini-hangs-waiting-authentication-subdirectories-macos|version:0.57.0|platform:macos",
+        "title": "Gemini CLI v0.57.0 hangs on \"Waiting for authentication...\" in subdirectories on macOS",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29153"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-01T06:17:29.576Z",
+    "observedAt": "2026-09-01T11:50:03.217Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "12 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "13 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-7905e663186c3f11",
   "interfaces": [
