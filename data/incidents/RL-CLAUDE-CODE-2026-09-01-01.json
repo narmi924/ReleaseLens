@@ -1,0 +1,38 @@
+{
+  "affectedObservations": [
+    "claude-code-stable-windows-x64-c0a0701c663797aa"
+  ],
+  "events": [
+    {
+      "at": "2026-09-01T22:38:47.290Z",
+      "observationId": "claude-code-stable-windows-x64-c0a0701c663797aa",
+      "summary": "Opened from SUSPECTED_REGRESSION evidence for 2.1.258.",
+      "type": "opened"
+    }
+  ],
+  "evidenceRefs": [
+    "community:claude-code:official-github",
+    "github-issue:anthropics/claude-code:91329",
+    "github-issue:anthropics/claude-code:91330",
+    "github-issue:anthropics/claude-code:91333"
+  ],
+  "firstAffectedVersion": "2.1.258",
+  "id": "RL-CLAUDE-CODE-2026-09-01-01",
+  "openedAt": "2026-09-01T22:38:47.290Z",
+  "productId": "claude-code",
+  "regressionSignatures": [
+    {
+      "evidenceRefs": [
+        "community:claude-code:official-github",
+        "github-issue:anthropics/claude-code:91329",
+        "github-issue:anthropics/claude-code:91330",
+        "github-issue:anthropics/claude-code:91333"
+      ],
+      "id": "community:code:europe|title:you-hit-your-session-limit-resets|version:2.1.257|platform:windows",
+      "kind": "community",
+      "summary": "Official GitHub issue cluster: code:europe|title:you-hit-your-session-limit-resets|version:2.1.257|platform:windows"
+    }
+  ],
+  "schemaVersion": 1,
+  "status": "open"
+}

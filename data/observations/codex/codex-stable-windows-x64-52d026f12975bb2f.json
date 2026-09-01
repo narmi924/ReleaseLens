@@ -1,0 +1,485 @@
+{
+  "artifacts": [
+    {
+      "architecture": "x64",
+      "details": {
+        "application": {
+          "entryPoint": "Windows.FullTrustApplication",
+          "executable": "app/ChatGPT.exe",
+          "id": "App"
+        },
+        "blockMap": {
+          "errors": [
+            "Block-map file is missing from archive: app/resources/app.asar.unpacked/node_modules/@worklouder/device-kit-oai/node_modules/@serialport/bindings-cpp/build/Release/bindings.node.",
+            "Block-map file is missing from archive: app/resources/app.asar.unpacked/node_modules/@worklouder/device-kit-oai/node_modules/node-hid/build/Release/HID.node.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/color.cjs.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/index.cjs.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/LICENSE.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/package.json.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/README.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/index.cjs.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/index.d.ts.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/libvips-42.dll.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/libvips-cpp-8.18.3.dll.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/LICENSE.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/package.json.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/README.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/versions.json.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/sharp-win32-x64-0.35.3.node.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas-win32-x64-msvc/icudtl.dat.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas-win32-x64-msvc/package.json.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas-win32-x64-msvc/README.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas/geometry.js.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas/index.d.ts.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas-win32-x64-msvc/skia.win32-x64-msvc.node.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas/js-binding.js.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas/LICENSE.",
+            "1414 additional block-map failure(s) omitted from persisted evidence."
+          ],
+          "status": "fail",
+          "totalFiles": 5968,
+          "verifiedFiles": 4530
+        },
+        "fileCount": 5972,
+        "importantFiles": [
+          "AppxManifest.xml",
+          "AppxBlockMap.xml",
+          "AppxSignature.p7x",
+          "app/ChatGPT.exe"
+        ],
+        "signature": {
+          "status": "unsupported",
+          "summary": "Get-AuthenticodeSignature is unavailable on this runner."
+        },
+        "topLevelDirectories": [
+          "[Content_Types].xml",
+          "app",
+          "AppxBlockMap.xml",
+          "AppxManifest.xml",
+          "AppxMetadata",
+          "AppxSignature.p7x",
+          "assets",
+          "priconfig.xml",
+          "resources.language-is-url.pri",
+          "resources.language-is.pri",
+          "resources.language-ms.pri",
+          "resources.language-no.pri",
+          "resources.pri",
+          "resources.scale-200.pri"
+        ]
+      },
+      "fileName": "OpenAI.Codex_26.831.1445.0_x64__2p2nqsd0c76g0.msix",
+      "format": "msix",
+      "id": "artifact:msix:OpenAI.Codex:26.831.1445.0:x64",
+      "kind": "artifact",
+      "observedAt": "2026-09-01T22:38:52.841Z",
+      "packageIdentity": "OpenAI.Codex",
+      "packageVersion": "26.831.1445.0",
+      "sha256": "dfc147d69fabfedda2bc5c00528b6cf7ae9e9b87454dc955440b736adc0b9708",
+      "sizeBytes": 793487016,
+      "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+      "status": "fail",
+      "summary": "OpenAI.Codex 26.831.1445.0 MSIX failed verification.",
+      "verification": [
+        {
+          "id": "msix-identity",
+          "kind": "verification",
+          "observedAt": "2026-09-01T22:38:52.841Z",
+          "status": "pass",
+          "summary": "MSIX package identity matches the profile."
+        },
+        {
+          "id": "msix-required-file:app/resources/codex.exe",
+          "kind": "verification",
+          "observedAt": "2026-09-01T22:38:52.841Z",
+          "status": "pass",
+          "summary": "Required MSIX file app/resources/codex.exe exists."
+        },
+        {
+          "id": "msix-architecture",
+          "kind": "verification",
+          "observedAt": "2026-09-01T22:38:52.841Z",
+          "status": "pass",
+          "summary": "MSIX processor architecture matches the profile."
+        },
+        {
+          "id": "msix-version",
+          "kind": "verification",
+          "observedAt": "2026-09-01T22:38:52.841Z",
+          "status": "pass",
+          "summary": "MSIX package version matches the resolved moniker."
+        },
+        {
+          "id": "msix-moniker",
+          "kind": "verification",
+          "observedAt": "2026-09-01T22:38:52.841Z",
+          "status": "pass",
+          "summary": "MSIX manifest agrees with the resolved package moniker."
+        },
+        {
+          "id": "msix-entrypoint",
+          "kind": "verification",
+          "observedAt": "2026-09-01T22:38:52.841Z",
+          "status": "pass",
+          "summary": "MSIX application executable app/ChatGPT.exe exists in the package."
+        },
+        {
+          "id": "msix-signature-file",
+          "kind": "verification",
+          "observedAt": "2026-09-01T22:38:52.841Z",
+          "status": "pass",
+          "summary": "MSIX includes AppxSignature.p7x."
+        },
+        {
+          "id": "msix-block-map",
+          "kind": "verification",
+          "observedAt": "2026-09-01T22:38:52.841Z",
+          "status": "fail",
+          "summary": "Block-map file is missing from archive: app/resources/app.asar.unpacked/node_modules/@worklouder/device-kit-oai/node_modules/@serialport/bindings-cpp/build/Release/bindings.node. Block-map file is missing from archive: app/resources/app.asar.unpacked/node_modules/@worklouder/device-kit-oai/node_modules/node-hid/build/Release/HID.node. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/color.cjs. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/index.cjs. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/LICENSE.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/package.json. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/README.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/index.cjs. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/index.d.ts. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/libvips-42.dll. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/libvips-cpp-8.18.3.dll. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/LICENSE. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/package.json. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/README.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/versions.json. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/sharp-win32-x64-0.35.3.node. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas-win32-x64-msvc/icudtl.dat. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas-win32-x64-msvc/package.json. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas-win32-x64-msvc/README.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas/geometry.js. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas/index.d.ts. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas-win32-x64-msvc/skia.win32-x64-msvc.node. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas/js-binding.js. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@napi-rs/canvas/LICENSE. 1414 additional block-map failure(s) omitted from persisted evidence."
+        },
+        {
+          "id": "msix-signature",
+          "kind": "verification",
+          "observedAt": "2026-09-01T22:38:52.841Z",
+          "status": "unsupported",
+          "summary": "Get-AuthenticodeSignature is unavailable on this runner."
+        }
+      ]
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-09-01T22:38:52.841Z",
+      "kind": "behavior",
+      "observedAt": "2026-09-01T22:38:52.841Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-01T22:38:52.841Z",
+          "status": "fail",
+          "summary": "Codex backend was not executed because MSIX verification did not pass.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-01T22:38:52.841Z",
+          "status": "not-applicable",
+          "summary": "Codex desktop startup was not attempted because MSIX verification did not pass.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "fail",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42136"
+        ],
+        "signature": "code:active-thread-01a05ec8-de59-7443-adf9-6fa30f78c50b|title:web-synchronization",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42139"
+        ],
+        "signature": "code:approval_policy|title:messages-heartbeats-approve-new-chats-without|version:0.151.0-alpha.7.2|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42131"
+        ],
+        "signature": "code:cross-task|title:cross-task-delegated-prompt-can-ignored|version:26.825.51511|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42141"
+        ],
+        "signature": "code:edge|title:model-invents-speculative-edge-case-reverses|version:26.825.51511|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42143"
+        ],
+        "signature": "code:enforce|title:enforce-sql-migrations-keep-windows-linux|version:0.152.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42130"
+        ],
+        "signature": "code:enter|title:codex-github-review-repair-task-can|version:26.825.51511|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42138"
+        ],
+        "signature": "code:full-access|title:codex-agent-overrode-full-access-instructions|version:26.825.6671.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42148"
+        ],
+        "signature": "code:known-good|title:linux-crashes-startup-libqxcb-recent-update|version:26.831.20005|platform:x64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42145"
+        ],
+        "signature": "code:model-behavior|title:model-behavior-macos-identical-gpt-sol|version:5.6|platform:macos",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "96e52f3bba48759b624a39a2cacc0db8da3991e40f1c6e3f052611732ab9b847",
+      "lookbackHours": 72,
+      "releaseVersion": "26.831.1445.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-09-01T20:32:41Z",
+        "explicitVersion": "26.825.51511",
+        "id": "github-issue:openai/codex:42130",
+        "labels": [
+          "bug",
+          "code-review",
+          "codex-web"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:enter|title:codex-github-review-repair-task-can|version:26.825.51511|platform:arm64",
+        "title": "Codex GitHub review and repair task can enter an unbounded new-commit loop",
+        "url": "https://github.com/openai/codex/issues/42130"
+      },
+      {
+        "createdAt": "2026-09-01T20:35:19Z",
+        "explicitVersion": "26.825.51511",
+        "id": "github-issue:openai/codex:42131",
+        "labels": [
+          "app",
+          "bug",
+          "context",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "resolutionReference": "https://github.com/openai/codex/issues/42131",
+        "signature": "code:cross-task|title:cross-task-delegated-prompt-can-ignored|version:26.825.51511|platform:arm64",
+        "title": "[App 26.825.51511] Cross-task delegated prompt can be ignored in favor of stale task context",
+        "url": "https://github.com/openai/codex/issues/42131"
+      },
+      {
+        "createdAt": "2026-09-01T21:06:10Z",
+        "id": "github-issue:openai/codex:42136",
+        "labels": [
+          "app",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:active-thread-01a05ec8-de59-7443-adf9-6fa30f78c50b|title:web-synchronization",
+        "title": "Web–app synchronization",
+        "url": "https://github.com/openai/codex/issues/42136"
+      },
+      {
+        "createdAt": "2026-09-01T21:22:45Z",
+        "explicitVersion": "26.825.6671.0",
+        "id": "github-issue:openai/codex:42138",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:full-access|title:codex-agent-overrode-full-access-instructions|version:26.825.6671.0|platform:windows",
+        "title": "Codex App agent overrode full-access instructions, falsely claimed authorization, and left a live newspaper unable to draft",
+        "url": "https://github.com/openai/codex/issues/42138"
+      },
+      {
+        "createdAt": "2026-09-01T21:25:57Z",
+        "explicitVersion": "0.151.0-alpha.7.2",
+        "id": "github-issue:openai/codex:42139",
+        "labels": [
+          "app",
+          "automations",
+          "enhancement",
+          "sandbox"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:approval_policy|title:messages-heartbeats-approve-new-chats-without|version:0.151.0-alpha.7.2|platform:macos",
+        "title": "Messages heartbeats cannot approve new chats without changing permissions globally",
+        "url": "https://github.com/openai/codex/issues/42139"
+      },
+      {
+        "createdAt": "2026-09-01T21:34:58Z",
+        "explicitVersion": "26.825.51511",
+        "id": "github-issue:openai/codex:42141",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:edge|title:model-invents-speculative-edge-case-reverses|version:26.825.51511|platform:windows",
+        "title": "Model invents speculative edge case and reverses recommendation instead of asking",
+        "url": "https://github.com/openai/codex/issues/42141"
+      },
+      {
+        "createdAt": "2026-09-01T21:44:12Z",
+        "explicitVersion": "0.152.0",
+        "id": "github-issue:openai/codex:42143",
+        "labels": [
+          "bug",
+          "CLI",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:enforce|title:enforce-sql-migrations-keep-windows-linux|version:0.152.0|platform:windows",
+        "title": "Enforce LF for SQL migrations to keep Windows and Linux checksums identical",
+        "url": "https://github.com/openai/codex/issues/42143"
+      },
+      {
+        "createdAt": "2026-09-01T22:04:59Z",
+        "explicitVersion": "5.6",
+        "id": "github-issue:openai/codex:42145",
+        "labels": [
+          "app",
+          "bug",
+          "memory",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "resolutionReference": "https://github.com/openai/codex/issues/42145",
+        "signature": "code:model-behavior|title:model-behavior-macos-identical-gpt-sol|version:5.6|platform:macos",
+        "title": "[model-behavior][macOS] Identical GPT-5.6 Sol / Full access sessions inconsistently execute live brokerage orders",
+        "url": "https://github.com/openai/codex/issues/42145"
+      },
+      {
+        "createdAt": "2026-09-01T22:22:50Z",
+        "explicitVersion": "26.831.20005",
+        "id": "github-issue:openai/codex:42148",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:known-good|title:linux-crashes-startup-libqxcb-recent-update|version:26.831.20005|platform:x64",
+        "title": "Linux app crashes on startup in libqxcb after recent update",
+        "url": "https://github.com/openai/codex/issues/42148"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-09-01T22:39:44.004Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "9 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-789a74dc874cf238",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-52d026f12975bb2f",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.831.1445.0",
+    "channel": "stable",
+    "discoveredAt": "2026-09-01T22:38:52.841Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.831.1445.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "e68d98854a0cb80ed2c1c3dc6a32e8c4ccb5508ae97e5ce380c88b1b44b413fd",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-09-01T22:38:52.895Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.831.1445.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.831.1445.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "61d3b005-a777-4dae-a511-472fa0e2cacc"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.831.1445.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-09-01T22:38:52.841Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "pass",
+      "summary": "FE3 resolves x64 package 26.831.1445.0 from the Microsoft delivery host."
+    },
+    {
+      "details": {
+        "buildVersion": "26.831.1445.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-09-01T22:38:52.841Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:msix:OpenAI.Codex:26.831.1445.0:x64"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-01T22:38:52.841Z"
+        ],
+        "message": "Required behavior codex-msix-identity is fail."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [],
+        "message": "Required behavior codex-backend-version is fail."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}

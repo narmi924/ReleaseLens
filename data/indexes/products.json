@@ -26,23 +26,45 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-01T19:57:54.804Z",
-          "observationId": "claude-code-stable-windows-x64-07fb626e04b5bd2b",
+          "discoveredAt": "2026-09-01T22:38:47.290Z",
+          "observationId": "claude-code-stable-windows-x64-c0a0701c663797aa",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "OFFICIAL_DISTRIBUTIONS_DISAGREE",
-                "evidenceRefs": [],
-                "message": "Relevant official distribution channels disagree."
+                "code": "STRONG_OFFICIAL_GITHUB_CLUSTER",
+                "evidenceRefs": [
+                  "community:claude-code:official-github",
+                  "github-issue:anthropics/claude-code:91318",
+                  "github-issue:anthropics/claude-code:91319",
+                  "github-issue:anthropics/claude-code:91320",
+                  "github-issue:anthropics/claude-code:91321",
+                  "github-issue:anthropics/claude-code:91322",
+                  "github-issue:anthropics/claude-code:91323",
+                  "github-issue:anthropics/claude-code:91324",
+                  "github-issue:anthropics/claude-code:91325",
+                  "github-issue:anthropics/claude-code:91326",
+                  "github-issue:anthropics/claude-code:91327",
+                  "github-issue:anthropics/claude-code:91328",
+                  "github-issue:anthropics/claude-code:91329",
+                  "github-issue:anthropics/claude-code:91330",
+                  "github-issue:anthropics/claude-code:91331",
+                  "github-issue:anthropics/claude-code:91332",
+                  "github-issue:anthropics/claude-code:91333",
+                  "github-issue:anthropics/claude-code:91334",
+                  "github-issue:anthropics/claude-code:91335",
+                  "github-issue:anthropics/claude-code:91336",
+                  "github-issue:anthropics/claude-code:91337"
+                ],
+                "message": "A strong official-GitHub issue cluster is associated with this release."
               }
             ],
-            "severity": "minor",
-            "status": "DISTRIBUTION_DRIFT"
+            "severity": "major",
+            "status": "SUSPECTED_REGRESSION"
           },
-          "version": "2.1.257"
+          "version": "2.1.258"
         }
       ],
       "name": "Claude Code"
@@ -56,8 +78,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-01T19:58:07.882Z",
-          "observationId": "codex-stable-windows-x64-789a74dc874cf238",
+          "discoveredAt": "2026-09-01T22:38:52.841Z",
+          "observationId": "codex-stable-windows-x64-52d026f12975bb2f",
           "platform": "windows-x64",
           "productId": "codex",
           "schemaVersion": 1,
@@ -73,7 +95,7 @@
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
                 "evidenceRefs": [
-                  "behavior:codex:2026-09-01T19:58:07.882Z"
+                  "behavior:codex:2026-09-01T22:38:52.841Z"
                 ],
                 "message": "Required behavior codex-msix-identity is fail."
               },
@@ -101,7 +123,7 @@
       "knownGood": [
         {
           "channel": "latest",
-          "observationId": "gemini-cli-latest-node-a66d4022bb700537",
+          "observationId": "gemini-cli-latest-node-66f56a10f42368bd",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -113,12 +135,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-01T06:17:17.975Z",
-          "version": "0.57.0"
+          "selectedAt": "2026-09-01T22:39:45.230Z",
+          "version": "0.58.0"
         },
         {
           "channel": "nightly",
-          "observationId": "gemini-cli-nightly-node-96cbe6e7a74e0828",
+          "observationId": "gemini-cli-nightly-node-95977b4a9770d184",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -130,12 +152,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-01T06:17:17.975Z",
+          "selectedAt": "2026-09-01T22:39:45.230Z",
           "version": "0.59.0-nightly.20260901.g0bd1d4397"
         },
         {
           "channel": "preview",
-          "observationId": "gemini-cli-preview-node-b1bebfeaf5a59d92",
+          "observationId": "gemini-cli-preview-node-0dfc1a92d111daa9",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -147,15 +169,15 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-01T06:17:17.975Z",
-          "version": "0.58.0-preview.0"
+          "selectedAt": "2026-09-01T22:39:45.230Z",
+          "version": "0.59.0-preview.0"
         }
       ],
       "latest": [
         {
           "channel": "latest",
-          "discoveredAt": "2026-09-01T06:17:17.975Z",
-          "observationId": "gemini-cli-latest-node-a66d4022bb700537",
+          "discoveredAt": "2026-09-01T22:39:45.230Z",
+          "observationId": "gemini-cli-latest-node-66f56a10f42368bd",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
@@ -170,12 +192,12 @@
             "severity": "minor",
             "status": "CHANGED"
           },
-          "version": "0.57.0"
+          "version": "0.58.0"
         },
         {
           "channel": "nightly",
-          "discoveredAt": "2026-09-01T06:17:17.975Z",
-          "observationId": "gemini-cli-nightly-node-96cbe6e7a74e0828",
+          "discoveredAt": "2026-09-01T22:39:45.230Z",
+          "observationId": "gemini-cli-nightly-node-95977b4a9770d184",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
@@ -194,8 +216,8 @@
         },
         {
           "channel": "preview",
-          "discoveredAt": "2026-09-01T06:17:17.975Z",
-          "observationId": "gemini-cli-preview-node-b1bebfeaf5a59d92",
+          "discoveredAt": "2026-09-01T22:39:45.230Z",
+          "observationId": "gemini-cli-preview-node-0dfc1a92d111daa9",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
@@ -210,7 +232,7 @@
             "severity": "minor",
             "status": "CHANGED"
           },
-          "version": "0.58.0-preview.0"
+          "version": "0.59.0-preview.0"
         }
       ],
       "name": "Gemini CLI"
