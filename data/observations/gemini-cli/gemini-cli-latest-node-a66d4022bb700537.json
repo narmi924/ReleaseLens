@@ -169,7 +169,7 @@
       }
     ],
     "details": {
-      "fingerprint": "a97e5cdde9750cb9444df185120876b1c23201bbd01e82417a956c20f15bbec0",
+      "fingerprint": "a4d5d1cb6bc5d3e9d4cd695e2437272d3a1e737719b741673ed170e7495e5b4b",
       "lookbackHours": 72,
       "releaseVersion": "0.57.0",
       "source": "official-github-issues"
@@ -367,7 +367,9 @@
         "id": "github-issue:google-gemini/gemini-cli:29153",
         "labels": [
           "area/security",
-          "status/need-triage"
+          "kind/bug",
+          "priority/p1",
+          "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
         "platform": "macos",
@@ -377,7 +379,7 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-01T11:50:03.217Z",
+    "observedAt": "2026-09-01T16:45:12.015Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "13 recent official GitHub issues observed for google-gemini/gemini-cli."
