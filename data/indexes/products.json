@@ -56,8 +56,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-08-30T08:23:01.622Z",
-          "observationId": "codex-stable-windows-x64-6768fbe2d94215e0",
+          "discoveredAt": "2026-09-01T06:16:31.105Z",
+          "observationId": "codex-stable-windows-x64-40dfea5c1dc93d43",
           "platform": "windows-x64",
           "productId": "codex",
           "schemaVersion": 1,
@@ -73,7 +73,7 @@
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
                 "evidenceRefs": [
-                  "behavior:codex:2026-08-30T08:23:01.622Z"
+                  "behavior:codex:2026-09-01T06:16:31.105Z"
                 ],
                 "message": "Required behavior codex-msix-identity is fail."
               },
@@ -101,7 +101,7 @@
       "knownGood": [
         {
           "channel": "latest",
-          "observationId": "gemini-cli-latest-node-7905e663186c3f11",
+          "observationId": "gemini-cli-latest-node-a66d4022bb700537",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -113,12 +113,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-08-31T07:04:55.712Z",
+          "selectedAt": "2026-09-01T06:17:17.975Z",
           "version": "0.57.0"
         },
         {
           "channel": "nightly",
-          "observationId": "gemini-cli-nightly-node-491dd353843adaed",
+          "observationId": "gemini-cli-nightly-node-96cbe6e7a74e0828",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -130,12 +130,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-08-31T07:04:55.712Z",
-          "version": "0.59.0-nightly.20260831.g0bd1d4397"
+          "selectedAt": "2026-09-01T06:17:17.975Z",
+          "version": "0.59.0-nightly.20260901.g0bd1d4397"
         },
         {
           "channel": "preview",
-          "observationId": "gemini-cli-preview-node-eefb5bb5f7ee308b",
+          "observationId": "gemini-cli-preview-node-b1bebfeaf5a59d92",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -147,15 +147,15 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-08-31T07:04:55.712Z",
+          "selectedAt": "2026-09-01T06:17:17.975Z",
           "version": "0.58.0-preview.0"
         }
       ],
       "latest": [
         {
           "channel": "latest",
-          "discoveredAt": "2026-08-31T07:04:55.712Z",
-          "observationId": "gemini-cli-latest-node-7905e663186c3f11",
+          "discoveredAt": "2026-09-01T06:17:17.975Z",
+          "observationId": "gemini-cli-latest-node-a66d4022bb700537",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
@@ -174,8 +174,8 @@
         },
         {
           "channel": "nightly",
-          "discoveredAt": "2026-08-31T07:04:55.712Z",
-          "observationId": "gemini-cli-nightly-node-491dd353843adaed",
+          "discoveredAt": "2026-09-01T06:17:17.975Z",
+          "observationId": "gemini-cli-nightly-node-96cbe6e7a74e0828",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
@@ -190,12 +190,12 @@
             "severity": "minor",
             "status": "CHANGED"
           },
-          "version": "0.59.0-nightly.20260831.g0bd1d4397"
+          "version": "0.59.0-nightly.20260901.g0bd1d4397"
         },
         {
           "channel": "preview",
-          "discoveredAt": "2026-08-31T07:04:55.712Z",
-          "observationId": "gemini-cli-preview-node-eefb5bb5f7ee308b",
+          "discoveredAt": "2026-09-01T06:17:17.975Z",
+          "observationId": "gemini-cli-preview-node-b1bebfeaf5a59d92",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
