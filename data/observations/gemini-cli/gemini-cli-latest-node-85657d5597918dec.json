@@ -91,24 +91,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29146",
-          "github-issue:google-gemini/gemini-cli:29147"
-        ],
-        "signature": "code:digital-underground-communications|title:geminicli-com-feedback-issue",
-        "strength": "moderate"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29164"
         ],
         "signature": "code:expect|title:flash-still-available-model-picker|version:0.58.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29145"
-        ],
-        "signature": "code:expect|title:recalibrate-trick",
         "strength": "weak"
       },
       {
@@ -127,9 +112,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29144"
+          "github-issue:google-gemini/gemini-cli:29167"
         ],
-        "signature": "code:non-secret|title:sanitizetoolargs-redacts-non-secret-keys-like|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
+        "signature": "code:list_background_processes|title:bug-list-background-processes-prints-exit|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
         "strength": "weak"
       },
       {
@@ -141,76 +126,13 @@
       }
     ],
     "details": {
-      "fingerprint": "b72a1d8b932a881c8410f2e2165bd371c2bc152e643d23720a1a529d2053ced9",
+      "fingerprint": "3dad5463259e2c95c7ddd4d2295a5553c761f4dfeecc59d1b4398cfc8060fc1e",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-08-31T10:23:25Z",
-        "explicitVersion": "0.59.0-nightly.20260825.g812f7a2bc",
-        "id": "github-issue:google-gemini/gemini-cli:29144",
-        "labels": [
-          "area/agent",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:non-secret|title:sanitizetoolargs-redacts-non-secret-keys-like|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
-        "title": "sanitizeToolArgs redacts non-secret keys like max_tokens and author via substring match",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29144"
-      },
-      {
-        "createdAt": "2026-08-31T12:48:04Z",
-        "id": "github-issue:google-gemini/gemini-cli:29145",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:expect|title:recalibrate-trick",
-        "title": "Recalibrate trick",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29145"
-      },
-      {
-        "createdAt": "2026-08-31T12:59:40Z",
-        "id": "github-issue:google-gemini/gemini-cli:29146",
-        "labels": [
-          "area/agent",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:digital-underground-communications|title:geminicli-com-feedback-issue",
-        "title": "GeminiCLI.com Feedback: [ISSUE]",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29146"
-      },
-      {
-        "createdAt": "2026-08-31T13:01:56Z",
-        "id": "github-issue:google-gemini/gemini-cli:29147",
-        "labels": [
-          "area/documentation",
-          "effort/small",
-          "kind/question",
-          "priority/p3",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:digital-underground-communications|title:geminicli-com-feedback-issue",
-        "title": "GeminiCLI.com Feedback: [ISSUE]",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29147"
-      },
       {
         "createdAt": "2026-09-01T04:49:40Z",
         "id": "github-issue:google-gemini/gemini-cli:29150",
@@ -286,13 +208,28 @@
         "signature": "code:expect|title:flash-still-available-model-picker|version:0.58.0|platform:windows",
         "title": "3.6 and 3.7 flash still not available in the model picker",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29164"
+      },
+      {
+        "createdAt": "2026-09-02T17:09:27Z",
+        "duplicateOf": "#29043",
+        "explicitVersion": "0.59.0-nightly.20260825.g812f7a2bc",
+        "id": "github-issue:google-gemini/gemini-cli:29167",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:list_background_processes|title:bug-list-background-processes-prints-exit|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
+        "title": "Bug: list_background_processes prints (Exit Code: null) for signal-killed processes",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29167"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-02T11:27:37.113Z",
+    "observedAt": "2026-09-02T19:51:31.955Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "9 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-66f56a10f42368bd",
   "interfaces": [

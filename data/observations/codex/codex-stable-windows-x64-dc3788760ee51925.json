@@ -1,0 +1,397 @@
+{
+  "artifacts": [
+    {
+      "fileName": "unavailable",
+      "format": "unavailable",
+      "id": "artifact:codex:unavailable:26.901.1978.0",
+      "kind": "artifact",
+      "observedAt": "2026-09-02T19:51:03.562Z",
+      "packageVersion": "26.901.1978.0",
+      "sourceHost": "unavailable",
+      "status": "unsupported",
+      "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+      "verification": []
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-09-02T19:51:03.562Z",
+      "kind": "behavior",
+      "observedAt": "2026-09-02T19:51:03.562Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-02T19:51:03.562Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-02T19:51:03.562Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-backend-version"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-02T19:51:03.562Z",
+          "status": "not-applicable",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "unsupported",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42327"
+        ],
+        "signature": "code:all-english|title:recap-came-back-simplified-chinese-all|version:0.152.1|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42339"
+        ],
+        "signature": "code:enough|title:macos-worktreeinclude-causes-worktree-creation-fail|version:26.831.21537|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42329"
+        ],
+        "signature": "code:enterprise|title:enterprise-projects-missing-new-chatgpt-desktop",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42333"
+        ],
+        "signature": "code:every|title:macos-chatgpt-permanently-freezes-startup-crbrowsermain|version:26.901.20858|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42338"
+        ],
+        "signature": "code:example|title:ios-read-aloud-should-support-bluetooth",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42336"
+        ],
+        "signature": "code:exec|title:kling-plugin-oauth-authenticate-remote-chatgpt|version:127.0.0.1",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42340"
+        ],
+        "signature": "code:extension|title:model-picker-removes-amazon-bedrock-model|version:26.825.51511|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42323"
+        ],
+        "signature": "code:long-running|title:windows-codex-chatgpt-desktop-crashes-repeatedly|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42331"
+        ],
+        "signature": "code:wait_threads|title:regression-remote-control-wait-threads-rejects|version:26.831.21537|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42335"
+        ],
+        "signature": "code:workspace-mismatch|title:codex-desktop-false-terminal-workspace-mismatch|version:26.831.21537|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42322"
+        ],
+        "signature": "code:x86_64|title:chatgpt-codex-dropdown-unresponsive-chatgpt-selected|version:26.831.20005|platform:linux",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "6c8d91a924d390a5f9ebe19c0dc138106f9edb69793c1f5f49bfd59df4be8ff6",
+      "lookbackHours": 72,
+      "releaseVersion": "26.901.1978.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-09-02T18:31:58Z",
+        "explicitVersion": "26.831.20005",
+        "id": "github-issue:openai/codex:42322",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:x86_64|title:chatgpt-codex-dropdown-unresponsive-chatgpt-selected|version:26.831.20005|platform:linux",
+        "title": "ChatGPT/Codex dropdown unresponsive when ChatGPT is selected",
+        "url": "https://github.com/openai/codex/issues/42322"
+      },
+      {
+        "createdAt": "2026-09-02T18:33:42Z",
+        "id": "github-issue:openai/codex:42323",
+        "labels": [
+          "app",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/42323",
+        "signature": "code:long-running|title:windows-codex-chatgpt-desktop-crashes-repeatedly|platform:windows",
+        "title": "Windows 11: Codex in ChatGPT desktop app crashes repeatedly after recent update during long-running tasks",
+        "url": "https://github.com/openai/codex/issues/42323"
+      },
+      {
+        "createdAt": "2026-09-02T18:51:59Z",
+        "explicitVersion": "0.152.1",
+        "id": "github-issue:openai/codex:42327",
+        "labels": [
+          "bug",
+          "CLI",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:all-english|title:recap-came-back-simplified-chinese-all|version:0.152.1|platform:arm64",
+        "title": "Recap came back in Simplified Chinese for an all-English conversation",
+        "url": "https://github.com/openai/codex/issues/42327"
+      },
+      {
+        "createdAt": "2026-09-02T18:53:57Z",
+        "id": "github-issue:openai/codex:42329",
+        "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:enterprise|title:enterprise-projects-missing-new-chatgpt-desktop",
+        "title": "Enterprise Projects missing from new ChatGPT desktop app but visible in Web and ChatGPT Classic",
+        "url": "https://github.com/openai/codex/issues/42329"
+      },
+      {
+        "createdAt": "2026-09-02T19:08:34Z",
+        "explicitVersion": "26.831.21537",
+        "id": "github-issue:openai/codex:42331",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:wait_threads|title:regression-remote-control-wait-threads-rejects|version:26.831.21537|platform:windows",
+        "title": "[Regression][Remote Control] wait_threads rejects valid hostId until host discovery rehydrates the route",
+        "url": "https://github.com/openai/codex/issues/42331"
+      },
+      {
+        "createdAt": "2026-09-02T19:14:56Z",
+        "explicitVersion": "26.901.20858",
+        "id": "github-issue:openai/codex:42333",
+        "labels": [
+          "app",
+          "bug",
+          "performance",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:every|title:macos-chatgpt-permanently-freezes-startup-crbrowsermain|version:26.901.20858|platform:arm64",
+        "title": "[macOS] ChatGPT 26.901.20858 permanently freezes at startup with CrBrowserMain at 100% CPU",
+        "url": "https://github.com/openai/codex/issues/42333"
+      },
+      {
+        "createdAt": "2026-09-02T19:26:39Z",
+        "explicitVersion": "26.831.21537",
+        "id": "github-issue:openai/codex:42335",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:workspace-mismatch|title:codex-desktop-false-terminal-workspace-mismatch|version:26.831.21537|platform:arm64",
+        "title": "Codex Desktop: false terminal workspace-mismatch warning for equivalent paths ending in `/.`",
+        "url": "https://github.com/openai/codex/issues/42335"
+      },
+      {
+        "createdAt": "2026-09-02T19:29:57Z",
+        "explicitVersion": "127.0.0.1",
+        "id": "github-issue:openai/codex:42336",
+        "labels": [
+          "auth",
+          "codex-web",
+          "connectivity",
+          "enhancement",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:exec|title:kling-plugin-oauth-authenticate-remote-chatgpt|version:127.0.0.1",
+        "title": "Kling CLI plugin OAuth cannot authenticate in remote ChatGPT Work runtime",
+        "url": "https://github.com/openai/codex/issues/42336"
+      },
+      {
+        "createdAt": "2026-09-02T19:34:23Z",
+        "id": "github-issue:openai/codex:42338",
+        "labels": [
+          "enhancement",
+          "iOS"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:example|title:ios-read-aloud-should-support-bluetooth",
+        "title": "[iOS] Read Aloud should support Bluetooth car audio and background playback",
+        "url": "https://github.com/openai/codex/issues/42338"
+      },
+      {
+        "createdAt": "2026-09-02T19:43:00Z",
+        "explicitVersion": "26.831.21537",
+        "id": "github-issue:openai/codex:42339",
+        "labels": [
+          "app",
+          "bug",
+          "performance"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:enough|title:macos-worktreeinclude-causes-worktree-creation-fail|version:26.831.21537|platform:windows",
+        "title": "[macOS] .worktreeinclude causes worktree creation to fail with \"Invalid string length\" in repositories with large ignored trees",
+        "url": "https://github.com/openai/codex/issues/42339"
+      },
+      {
+        "createdAt": "2026-09-02T19:46:15Z",
+        "explicitVersion": "26.825.51511",
+        "id": "github-issue:openai/codex:42340",
+        "labels": [
+          "aws-bedrock",
+          "bug",
+          "extension"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:extension|title:model-picker-removes-amazon-bedrock-model|version:26.825.51511|platform:linux",
+        "title": "Model picker removes Amazon Bedrock model prefix and breaks thread",
+        "url": "https://github.com/openai/codex/issues/42340"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-09-02T19:51:30.755Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "11 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-149ccfd9b8e35511",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-dc3788760ee51925",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.901.1978.0",
+    "channel": "stable",
+    "discoveredAt": "2026-09-02T19:51:03.562Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.901.1978.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "30f809bce220e9b4e04a4db078a47e7869d7b626d4d9566a4fa586d96febf2de",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-09-02T19:51:03.616Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.901.1978.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.901.1978.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "abe95a1e-0381-42ef-94b2-569582a0ba32"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.901.1978.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-09-02T19:51:03.562Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "warning",
+      "summary": "FE3 x64 package 26.901.1978.0 is ahead of DisplayCatalog 26.831.2377.0; acquisition is vetoed pending metadata convergence. Official rollout signal reports 26.901.1978.0."
+    },
+    {
+      "details": {
+        "buildVersion": "26.901.1978.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-09-02T19:51:03.562Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:codex:unavailable:26.901.1978.0"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-02T19:51:03.562Z"
+        ],
+        "message": "Required behavior codex-msix-identity is unsupported."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-02T19:51:03.562Z"
+        ],
+        "message": "Required behavior codex-backend-version is unsupported."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}
