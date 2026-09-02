@@ -34,35 +34,13 @@
           "verdict": {
             "reasons": [
               {
-                "code": "STRONG_OFFICIAL_GITHUB_CLUSTER",
-                "evidenceRefs": [
-                  "community:claude-code:official-github",
-                  "github-issue:anthropics/claude-code:91318",
-                  "github-issue:anthropics/claude-code:91319",
-                  "github-issue:anthropics/claude-code:91320",
-                  "github-issue:anthropics/claude-code:91321",
-                  "github-issue:anthropics/claude-code:91322",
-                  "github-issue:anthropics/claude-code:91323",
-                  "github-issue:anthropics/claude-code:91324",
-                  "github-issue:anthropics/claude-code:91325",
-                  "github-issue:anthropics/claude-code:91326",
-                  "github-issue:anthropics/claude-code:91327",
-                  "github-issue:anthropics/claude-code:91328",
-                  "github-issue:anthropics/claude-code:91329",
-                  "github-issue:anthropics/claude-code:91330",
-                  "github-issue:anthropics/claude-code:91331",
-                  "github-issue:anthropics/claude-code:91332",
-                  "github-issue:anthropics/claude-code:91333",
-                  "github-issue:anthropics/claude-code:91334",
-                  "github-issue:anthropics/claude-code:91335",
-                  "github-issue:anthropics/claude-code:91336",
-                  "github-issue:anthropics/claude-code:91337"
-                ],
-                "message": "A strong official-GitHub issue cluster is associated with this release."
+                "code": "OFFICIAL_DISTRIBUTIONS_DISAGREE",
+                "evidenceRefs": [],
+                "message": "Relevant official distribution channels disagree."
               }
             ],
-            "severity": "major",
-            "status": "SUSPECTED_REGRESSION"
+            "severity": "minor",
+            "status": "DISTRIBUTION_DRIFT"
           },
           "version": "2.1.258"
         }

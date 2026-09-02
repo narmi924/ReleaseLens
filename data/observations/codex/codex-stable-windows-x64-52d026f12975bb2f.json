@@ -176,51 +176,79 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:42136"
+          "github-issue:openai/codex:42157"
         ],
-        "signature": "code:active-thread-01a05ec8-de59-7443-adf9-6fa30f78c50b|title:web-synchronization",
+        "signature": "code:codex-cli|title:windows-update-resume-duplicates-rollout-ordinal|version:26.831.1445.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42139"
+          "github-issue:openai/codex:42154"
         ],
-        "signature": "code:approval_policy|title:messages-heartbeats-approve-new-chats-without|version:0.151.0-alpha.7.2|platform:macos",
+        "signature": "code:codex-created|title:windows-codex-created-node-modules-junctions|version:26.825.6671.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42131"
+          "github-issue:openai/codex:42158"
         ],
-        "signature": "code:cross-task|title:cross-task-delegated-prompt-can-ignored|version:26.825.51511|platform:arm64",
+        "signature": "code:e31f-7693-a6af-0b68538fa8f0|title:phone-session-wiped-out-computer-session|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42141"
+          "github-issue:openai/codex:42160"
         ],
-        "signature": "code:edge|title:model-invents-speculative-edge-case-reverses|version:26.825.51511|platform:windows",
+        "signature": "code:ehigh|title:quota-acting-odd|version:0.125.1|platform:x64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42143"
+          "github-issue:openai/codex:42162"
         ],
-        "signature": "code:enforce|title:enforce-sql-migrations-keep-windows-linux|version:0.152.0|platform:windows",
+        "signature": "code:empty|title:windows-rtl-window-controls-positioned-incorrectly|version:26.825.51511|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42130"
+          "github-issue:openai/codex:42152"
         ],
-        "signature": "code:enter|title:codex-github-review-repair-task-can|version:26.825.51511|platform:arm64",
+        "signature": "code:especially|title:would-like-able-open-multiple-thread",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42138"
+          "github-issue:openai/codex:42155"
         ],
-        "signature": "code:full-access|title:codex-agent-overrode-full-access-instructions|version:26.825.6671.0|platform:windows",
+        "signature": "code:experience|title:chatgpt-ios-repeatedly-opens-remote-setup|version:1.2026.230",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42156"
+        ],
+        "signature": "code:expose|title:github-connector-can-create-issues-but",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42159"
+        ],
+        "signature": "code:follow-up|title:codex-mobile-remote-loses-multiple-queued|version:10.0.26200|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42153"
+        ],
+        "signature": "code:gpt-5|title:desktop-manual-switch-gpt-luna-usage|version:5.6",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42163"
+        ],
+        "signature": "code:gpt-5|title:side-panics-fork-occurs-during-tool|version:0.151.0|platform:arm64",
         "strength": "weak"
       },
       {
@@ -239,121 +267,13 @@
       }
     ],
     "details": {
-      "fingerprint": "96e52f3bba48759b624a39a2cacc0db8da3991e40f1c6e3f052611732ab9b847",
+      "fingerprint": "6fe9fc21a3e1d5d03ddeb2ce074bccee07fd570a81174ad7e846ecbcd78c27aa",
       "lookbackHours": 72,
       "releaseVersion": "26.831.1445.0",
       "source": "official-github-issues"
     },
     "id": "community:codex:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-01T20:32:41Z",
-        "explicitVersion": "26.825.51511",
-        "id": "github-issue:openai/codex:42130",
-        "labels": [
-          "bug",
-          "code-review",
-          "codex-web"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:enter|title:codex-github-review-repair-task-can|version:26.825.51511|platform:arm64",
-        "title": "Codex GitHub review and repair task can enter an unbounded new-commit loop",
-        "url": "https://github.com/openai/codex/issues/42130"
-      },
-      {
-        "createdAt": "2026-09-01T20:35:19Z",
-        "explicitVersion": "26.825.51511",
-        "id": "github-issue:openai/codex:42131",
-        "labels": [
-          "app",
-          "bug",
-          "context",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "resolutionReference": "https://github.com/openai/codex/issues/42131",
-        "signature": "code:cross-task|title:cross-task-delegated-prompt-can-ignored|version:26.825.51511|platform:arm64",
-        "title": "[App 26.825.51511] Cross-task delegated prompt can be ignored in favor of stale task context",
-        "url": "https://github.com/openai/codex/issues/42131"
-      },
-      {
-        "createdAt": "2026-09-01T21:06:10Z",
-        "id": "github-issue:openai/codex:42136",
-        "labels": [
-          "app",
-          "bug",
-          "session",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:active-thread-01a05ec8-de59-7443-adf9-6fa30f78c50b|title:web-synchronization",
-        "title": "Web–app synchronization",
-        "url": "https://github.com/openai/codex/issues/42136"
-      },
-      {
-        "createdAt": "2026-09-01T21:22:45Z",
-        "explicitVersion": "26.825.6671.0",
-        "id": "github-issue:openai/codex:42138",
-        "labels": [
-          "app",
-          "bug",
-          "model-behavior"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:full-access|title:codex-agent-overrode-full-access-instructions|version:26.825.6671.0|platform:windows",
-        "title": "Codex App agent overrode full-access instructions, falsely claimed authorization, and left a live newspaper unable to draft",
-        "url": "https://github.com/openai/codex/issues/42138"
-      },
-      {
-        "createdAt": "2026-09-01T21:25:57Z",
-        "explicitVersion": "0.151.0-alpha.7.2",
-        "id": "github-issue:openai/codex:42139",
-        "labels": [
-          "app",
-          "automations",
-          "enhancement",
-          "sandbox"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:approval_policy|title:messages-heartbeats-approve-new-chats-without|version:0.151.0-alpha.7.2|platform:macos",
-        "title": "Messages heartbeats cannot approve new chats without changing permissions globally",
-        "url": "https://github.com/openai/codex/issues/42139"
-      },
-      {
-        "createdAt": "2026-09-01T21:34:58Z",
-        "explicitVersion": "26.825.51511",
-        "id": "github-issue:openai/codex:42141",
-        "labels": [
-          "app",
-          "bug",
-          "model-behavior"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:edge|title:model-invents-speculative-edge-case-reverses|version:26.825.51511|platform:windows",
-        "title": "Model invents speculative edge case and reverses recommendation instead of asking",
-        "url": "https://github.com/openai/codex/issues/42141"
-      },
-      {
-        "createdAt": "2026-09-01T21:44:12Z",
-        "explicitVersion": "0.152.0",
-        "id": "github-issue:openai/codex:42143",
-        "labels": [
-          "bug",
-          "CLI",
-          "session",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:enforce|title:enforce-sql-migrations-keep-windows-linux|version:0.152.0|platform:windows",
-        "title": "Enforce LF for SQL migrations to keep Windows and Linux checksums identical",
-        "url": "https://github.com/openai/codex/issues/42143"
-      },
       {
         "createdAt": "2026-09-01T22:04:59Z",
         "explicitVersion": "5.6",
@@ -384,13 +304,172 @@
         "signature": "code:known-good|title:linux-crashes-startup-libqxcb-recent-update|version:26.831.20005|platform:x64",
         "title": "Linux app crashes on startup in libqxcb after recent update",
         "url": "https://github.com/openai/codex/issues/42148"
+      },
+      {
+        "createdAt": "2026-09-01T23:06:31Z",
+        "id": "github-issue:openai/codex:42152",
+        "labels": [
+          "app",
+          "enhancement",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:especially|title:would-like-able-open-multiple-thread",
+        "title": "I would like to be able to open multiple thread tabs in the Codex App.",
+        "url": "https://github.com/openai/codex/issues/42152"
+      },
+      {
+        "createdAt": "2026-09-01T23:49:08Z",
+        "explicitVersion": "5.6",
+        "id": "github-issue:openai/codex:42153",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:gpt-5|title:desktop-manual-switch-gpt-luna-usage|version:5.6",
+        "title": "[Desktop] Manual switch to GPT-5.6 Luna after usage exhaustion shows an active model, but every prompt remains blocked",
+        "url": "https://github.com/openai/codex/issues/42153"
+      },
+      {
+        "createdAt": "2026-09-01T23:55:45Z",
+        "explicitVersion": "26.825.6671.0",
+        "id": "github-issue:openai/codex:42154",
+        "labels": [
+          "app",
+          "bug",
+          "performance",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:codex-created|title:windows-codex-created-node-modules-junctions|version:26.825.6671.0|platform:windows",
+        "title": "Windows: Codex-created node_modules junctions in OneDrive folders trigger severe handle leak",
+        "url": "https://github.com/openai/codex/issues/42154"
+      },
+      {
+        "createdAt": "2026-09-02T00:06:17Z",
+        "explicitVersion": "1.2026.230",
+        "id": "github-issue:openai/codex:42155",
+        "labels": [
+          "bug",
+          "iOS",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:experience|title:chatgpt-ios-repeatedly-opens-remote-setup|version:1.2026.230",
+        "title": "ChatGPT iOS 1.2026.230 repeatedly opens Remote Setup on app launch",
+        "url": "https://github.com/openai/codex/issues/42155"
+      },
+      {
+        "createdAt": "2026-09-02T00:07:44Z",
+        "id": "github-issue:openai/codex:42156",
+        "labels": [
+          "codex-web",
+          "enhancement",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:expose|title:github-connector-can-create-issues-but",
+        "title": "GitHub Connector can create issues but cannot permanently delete them",
+        "url": "https://github.com/openai/codex/issues/42156"
+      },
+      {
+        "createdAt": "2026-09-02T00:30:41Z",
+        "explicitVersion": "26.831.1445.0",
+        "id": "github-issue:openai/codex:42157",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:codex-cli|title:windows-update-resume-duplicates-rollout-ordinal|version:26.831.1445.0|platform:windows",
+        "title": "[Windows][26.831.1445.0] App update/resume duplicates a rollout ordinal and hides later task history",
+        "url": "https://github.com/openai/codex/issues/42157"
+      },
+      {
+        "createdAt": "2026-09-02T00:30:45Z",
+        "id": "github-issue:openai/codex:42158",
+        "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:e31f-7693-a6af-0b68538fa8f0|title:phone-session-wiped-out-computer-session|platform:macos",
+        "title": "Phone session wiped out computer session",
+        "url": "https://github.com/openai/codex/issues/42158"
+      },
+      {
+        "createdAt": "2026-09-02T00:32:26Z",
+        "explicitVersion": "10.0.26200",
+        "id": "github-issue:openai/codex:42159",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:follow-up|title:codex-mobile-remote-loses-multiple-queued|version:10.0.26200|platform:windows",
+        "title": "Codex Mobile Remote loses multiple queued prompts after VPN reconnect",
+        "url": "https://github.com/openai/codex/issues/42159"
+      },
+      {
+        "createdAt": "2026-09-02T00:38:28Z",
+        "explicitVersion": "0.125.1",
+        "id": "github-issue:openai/codex:42160",
+        "labels": [
+          "bug",
+          "CLI",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:ehigh|title:quota-acting-odd|version:0.125.1|platform:x64",
+        "title": "Quota acting odd",
+        "url": "https://github.com/openai/codex/issues/42160"
+      },
+      {
+        "createdAt": "2026-09-02T00:53:32Z",
+        "explicitVersion": "26.825.51511",
+        "id": "github-issue:openai/codex:42162",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:empty|title:windows-rtl-window-controls-positioned-incorrectly|version:26.825.51511|platform:windows",
+        "title": "[Windows][RTL] Window controls are positioned incorrectly when Windows display language is Hebrew",
+        "url": "https://github.com/openai/codex/issues/42162"
+      },
+      {
+        "createdAt": "2026-09-02T01:04:35Z",
+        "explicitVersion": "0.151.0",
+        "id": "github-issue:openai/codex:42163",
+        "labels": [
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:gpt-5|title:side-panics-fork-occurs-during-tool|version:0.151.0|platform:arm64",
+        "title": "`/side` panics when fork occurs during a tool call",
+        "url": "https://github.com/openai/codex/issues/42163"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-01T22:39:44.004Z",
+    "observedAt": "2026-09-02T01:05:03.409Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "9 recent official GitHub issues observed for openai/codex."
+    "summary": "13 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-789a74dc874cf238",
   "interfaces": [],

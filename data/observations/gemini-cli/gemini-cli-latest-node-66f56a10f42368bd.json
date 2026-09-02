@@ -106,6 +106,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29164"
+        ],
+        "signature": "code:expect|title:flash-still-available-model-picker|version:0.58.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29145"
         ],
         "signature": "code:expect|title:recalibrate-trick",
@@ -138,38 +145,16 @@
         ],
         "signature": "code:user-level|title:user-level-git-config-ignored-pull|version:0.57.0|platform:linux",
         "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29141"
-        ],
-        "signature": "code:utf-8|title:devtools-http-stream-corrupts-utf-characters|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
-        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "aca6aee2bd99f0be288f25142d07277b218b42264b81dd724952b815349d6ef1",
+      "fingerprint": "6c17f1b11c1894c6e3e59be890ece173c2ed8aa90a29f72b38e9fde8418a8281",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-08-31T09:13:42Z",
-        "explicitVersion": "0.59.0-nightly.20260825.g812f7a2bc",
-        "id": "github-issue:google-gemini/gemini-cli:29141",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:utf-8|title:devtools-http-stream-corrupts-utf-characters|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
-        "title": "DevTools HTTP stream corrupts UTF-8 characters split across chunks",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29141"
-      },
       {
         "createdAt": "2026-08-31T09:19:08Z",
         "explicitVersion": "20.19.0",
@@ -306,10 +291,27 @@
         "signature": "code:exported|title:critical-hallucination-agent-injects-colloquial-conversation|version:0.56.0|platform:macos",
         "title": "Critical Hallucination: Agent injects colloquial conversation into output and falsely attributes it to user prompt",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29157"
+      },
+      {
+        "createdAt": "2026-09-02T00:00:05Z",
+        "explicitVersion": "0.58.0",
+        "id": "github-issue:google-gemini/gemini-cli:29164",
+        "labels": [
+          "area/core",
+          "effort/medium",
+          "kind/bug",
+          "priority/p1",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:expect|title:flash-still-available-model-picker|version:0.58.0|platform:windows",
+        "title": "3.6 and 3.7 flash still not available in the model picker",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29164"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-01T22:39:58.045Z",
+    "observedAt": "2026-09-02T01:05:05.341Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "10 recent official GitHub issues observed for google-gemini/gemini-cli."
