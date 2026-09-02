@@ -26,8 +26,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-01T22:38:47.290Z",
-          "observationId": "claude-code-stable-windows-x64-c0a0701c663797aa",
+          "discoveredAt": "2026-09-02T22:42:20.532Z",
+          "observationId": "claude-code-stable-windows-x64-9c04178d11270832",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
@@ -42,7 +42,7 @@
             "severity": "minor",
             "status": "DISTRIBUTION_DRIFT"
           },
-          "version": "2.1.258"
+          "version": "2.1.259"
         }
       ],
       "name": "Claude Code"
@@ -56,8 +56,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-02T19:51:03.562Z",
-          "observationId": "codex-stable-windows-x64-dc3788760ee51925",
+          "discoveredAt": "2026-09-02T22:42:28.445Z",
+          "observationId": "codex-stable-windows-x64-d6a2ca7513b1c9c0",
           "platform": "windows-x64",
           "productId": "codex",
           "schemaVersion": 1,
@@ -66,23 +66,21 @@
               {
                 "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
                 "evidenceRefs": [
-                  "artifact:codex:unavailable:26.901.1978.0"
+                  "artifact:msix:OpenAI.Codex:26.901.1978.0:x64"
                 ],
                 "message": "Required artifact evidence is missing or did not pass."
               },
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
                 "evidenceRefs": [
-                  "behavior:codex:2026-09-02T19:51:03.562Z"
+                  "behavior:codex:2026-09-02T22:42:28.445Z"
                 ],
-                "message": "Required behavior codex-msix-identity is unsupported."
+                "message": "Required behavior codex-msix-identity is fail."
               },
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
-                "evidenceRefs": [
-                  "behavior:codex:2026-09-02T19:51:03.562Z"
-                ],
-                "message": "Required behavior codex-backend-version is unsupported."
+                "evidenceRefs": [],
+                "message": "Required behavior codex-backend-version is fail."
               }
             ],
             "severity": "major",

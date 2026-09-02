@@ -84,13 +84,6 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29150"
-        ],
-        "signature": "code:case-sensitivity|title:bug-skillmanager-precedence-active-state-tracking|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29164"
         ],
         "signature": "code:expect|title:flash-still-available-model-picker|version:0.58.0|platform:windows",
@@ -126,26 +119,13 @@
       }
     ],
     "details": {
-      "fingerprint": "3dad5463259e2c95c7ddd4d2295a5553c761f4dfeecc59d1b4398cfc8060fc1e",
+      "fingerprint": "a3c129731e63c149dfc2920391fede828de0b31b5b2b8353c585d625f66f3635",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-01T04:49:40Z",
-        "id": "github-issue:google-gemini/gemini-cli:29150",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:case-sensitivity|title:bug-skillmanager-precedence-active-state-tracking|platform:windows",
-        "title": "[Bug] SkillManager precedence and active state tracking fails due to case-sensitivity mismatch",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29150"
-      },
       {
         "createdAt": "2026-09-01T06:05:49Z",
         "explicitVersion": "0.57.0",
@@ -226,10 +206,10 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-02T19:51:31.955Z",
+    "observedAt": "2026-09-02T22:43:27.504Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-66f56a10f42368bd",
   "interfaces": [
