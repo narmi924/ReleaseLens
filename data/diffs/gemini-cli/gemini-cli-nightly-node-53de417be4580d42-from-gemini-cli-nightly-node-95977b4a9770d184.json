@@ -1,0 +1,65 @@
+{
+  "artifactChanges": [
+    {
+      "after": "b2bfee636e27788bc0dbcd8bd8b016f7a5f0549d9f81038d7ab56afbff06c0e2",
+      "before": "e00285d266c391e941f36bc54621c267a418bba1752ff8056c07578196238139",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@google/gemini-cli:unknown.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 24833635,
+      "before": 24826451,
+      "material": false,
+      "summary": "Artifact size changed for npm-tgz:@google/gemini-cli:unknown.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "gemini-cli-nightly-node-95977b4a9770d184",
+  "createdAt": "2026-09-02T05:55:27.487Z",
+  "diffId": "gemini-cli-nightly-node-53de417be4580d42-from-gemini-cli-nightly-node-95977b4a9770d184",
+  "distributionChanges": [
+    {
+      "after": "0.59.0-nightly.20260902.g4963a4456",
+      "before": "0.59.0-nightly.20260901.g0bd1d4397",
+      "material": true,
+      "summary": "Distribution state npm-registry:nightly: 0.59.0-nightly.20260901.g0bd1d4397 → 0.59.0-nightly.20260902.g4963a4456.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "0.59.0-nightly.20260902.g4963a4456",
+      "before": "0.59.0-nightly.20260901.g0bd1d4397",
+      "material": true,
+      "summary": "Distribution state npm-registry: 0.59.0-nightly.20260901.g0bd1d4397 → 0.59.0-nightly.20260902.g4963a4456.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "b2bfee636e27788bc0dbcd8bd8b016f7a5f0549d9f81038d7ab56afbff06c0e2",
+      "before": "e00285d266c391e941f36bc54621c267a418bba1752ff8056c07578196238139",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@google/gemini-cli:unknown.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "0.59.0-nightly.20260902.g4963a4456",
+      "before": "0.59.0-nightly.20260901.g0bd1d4397",
+      "material": true,
+      "summary": "Distribution state npm-registry:nightly: 0.59.0-nightly.20260901.g0bd1d4397 → 0.59.0-nightly.20260902.g4963a4456.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "0.59.0-nightly.20260902.g4963a4456",
+      "before": "0.59.0-nightly.20260901.g0bd1d4397",
+      "material": true,
+      "summary": "Distribution state npm-registry: 0.59.0-nightly.20260901.g0bd1d4397 → 0.59.0-nightly.20260902.g4963a4456.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "gemini-cli-nightly-node-53de417be4580d42",
+  "productId": "gemini-cli",
+  "schemaVersion": 1
+}
