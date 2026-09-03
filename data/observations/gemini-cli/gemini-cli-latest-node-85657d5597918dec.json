@@ -98,13 +98,6 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29153"
-        ],
-        "signature": "code:exported|title:gemini-hangs-waiting-authentication-subdirectories-macos|version:0.57.0|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29167"
         ],
         "signature": "code:list_background_processes|title:bug-list-background-processes-prints-exit|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
@@ -112,52 +105,27 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29152"
+          "github-issue:google-gemini/gemini-cli:29174"
         ],
-        "signature": "code:user-level|title:user-level-git-config-ignored-pull|version:0.57.0|platform:linux",
+        "signature": "code:nightly-release|title:nightly-failed-2026",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29175"
+        ],
+        "signature": "code:path-separator|title:bug-tildeifypath-treats-sibling-home-directories|version:0.59.0-nightly.20260825.g812f7a2bc|platform:windows",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "a3c129731e63c149dfc2920391fede828de0b31b5b2b8353c585d625f66f3635",
+      "fingerprint": "5f452582b043c225d7a33d2c48da7b5dba7aad01db7c8f275ee8139932c6e73c",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-01T06:05:49Z",
-        "explicitVersion": "0.57.0",
-        "id": "github-issue:google-gemini/gemini-cli:29152",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "kind/bug",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:user-level|title:user-level-git-config-ignored-pull|version:0.57.0|platform:linux",
-        "title": "User-level git config is ignored after pull request #28792",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29152"
-      },
-      {
-        "createdAt": "2026-09-01T11:47:20Z",
-        "explicitVersion": "0.57.0",
-        "id": "github-issue:google-gemini/gemini-cli:29153",
-        "labels": [
-          "area/security",
-          "kind/bug",
-          "priority/p1",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:exported|title:gemini-hangs-waiting-authentication-subdirectories-macos|version:0.57.0|platform:macos",
-        "title": "Gemini CLI v0.57.0 hangs on \"Waiting for authentication...\" in subdirectories on macOS",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29153"
-      },
       {
         "createdAt": "2026-09-01T18:58:21Z",
         "explicitVersion": "0.56.0",
@@ -203,10 +171,40 @@
         "signature": "code:list_background_processes|title:bug-list-background-processes-prints-exit|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
         "title": "Bug: list_background_processes prints (Exit Code: null) for signal-killed processes",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29167"
+      },
+      {
+        "createdAt": "2026-09-03T01:25:52Z",
+        "id": "github-issue:google-gemini/gemini-cli:29174",
+        "labels": [
+          "area/non-interactive",
+          "effort/medium",
+          "kind/bug",
+          "priority/p1",
+          "release-failure",
+          "status/manual-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:nightly-release|title:nightly-failed-2026",
+        "title": "Nightly Release Failed for  on 2026-09-03",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29174"
+      },
+      {
+        "createdAt": "2026-09-03T04:36:26Z",
+        "explicitVersion": "0.59.0-nightly.20260825.g812f7a2bc",
+        "id": "github-issue:google-gemini/gemini-cli:29175",
+        "labels": [
+          "area/core",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:path-separator|title:bug-tildeifypath-treats-sibling-home-directories|version:0.59.0-nightly.20260825.g812f7a2bc|platform:windows",
+        "title": "Bug: tildeifyPath treats sibling home directories as the current home (missing path-separator bound)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29175"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-02T22:43:27.504Z",
+    "observedAt": "2026-09-03T05:54:06.412Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
