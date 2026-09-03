@@ -84,23 +84,9 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29164"
-        ],
-        "signature": "code:expect|title:flash-still-available-model-picker|version:0.58.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29182"
         ],
         "signature": "code:gemini-cli|title:gemini-hangs-retry-backoff-play-googleapis|version:0.58.0|platform:arm64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29167"
-        ],
-        "signature": "code:list_background_processes|title:bug-list-background-processes-prints-exit|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
         "strength": "weak"
       },
       {
@@ -133,45 +119,13 @@
       }
     ],
     "details": {
-      "fingerprint": "f924ea2fe3027546810ae388a62ed45b12babc53312d99fffb311e494a13227c",
+      "fingerprint": "35afabd3ad2d6272fae97992d2b790b99ab287e53b921c7c8a848515c4e63a07",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-02T00:00:05Z",
-        "explicitVersion": "0.58.0",
-        "id": "github-issue:google-gemini/gemini-cli:29164",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "kind/bug",
-          "priority/p1",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:expect|title:flash-still-available-model-picker|version:0.58.0|platform:windows",
-        "title": "3.6 and 3.7 flash still not available in the model picker",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29164"
-      },
-      {
-        "createdAt": "2026-09-02T17:09:27Z",
-        "duplicateOf": "#29043",
-        "explicitVersion": "0.59.0-nightly.20260825.g812f7a2bc",
-        "id": "github-issue:google-gemini/gemini-cli:29167",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:list_background_processes|title:bug-list-background-processes-prints-exit|version:0.59.0-nightly.20260825.g812f7a2bc|platform:macos",
-        "title": "Bug: list_background_processes prints (Exit Code: null) for signal-killed processes",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29167"
-      },
       {
         "createdAt": "2026-09-03T01:25:52Z",
         "id": "github-issue:google-gemini/gemini-cli:29174",
@@ -253,10 +207,10 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-03T11:23:58.693Z",
+    "observedAt": "2026-09-03T16:32:04.370Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-66f56a10f42368bd",
   "interfaces": [
