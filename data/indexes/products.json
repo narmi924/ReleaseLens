@@ -56,8 +56,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-02T22:42:28.445Z",
-          "observationId": "codex-stable-windows-x64-d6a2ca7513b1c9c0",
+          "discoveredAt": "2026-09-03T19:55:19.655Z",
+          "observationId": "codex-stable-windows-x64-a5963a98582c7bb4",
           "platform": "windows-x64",
           "productId": "codex",
           "schemaVersion": 1,
@@ -66,14 +66,14 @@
               {
                 "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
                 "evidenceRefs": [
-                  "artifact:msix:OpenAI.Codex:26.901.1978.0:x64"
+                  "artifact:msix:OpenAI.Codex:26.901.2854.0:x64"
                 ],
                 "message": "Required artifact evidence is missing or did not pass."
               },
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
                 "evidenceRefs": [
-                  "behavior:codex:2026-09-02T22:42:28.445Z"
+                  "behavior:codex:2026-09-03T19:55:19.655Z"
                 ],
                 "message": "Required behavior codex-msix-identity is fail."
               },
@@ -86,7 +86,7 @@
             "severity": "major",
             "status": "UNVERIFIED"
           },
-          "version": "26.901.1978.0"
+          "version": "26.901.2854.0"
         }
       ],
       "name": "Codex"

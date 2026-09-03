@@ -84,6 +84,20 @@
     "clusters": [
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29191"
+        ],
+        "signature": "code:encoded|title:path-traversal-checkpoint-delete-load-tag",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29183"
+        ],
+        "signature": "code:explore|title:proposal-explore-interoperability-conventions-coding",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29182"
         ],
         "signature": "code:gemini-cli|title:gemini-hangs-retry-backoff-play-googleapis|version:0.58.0|platform:arm64",
@@ -98,16 +112,16 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29183"
+          "github-issue:google-gemini/gemini-cli:29175"
         ],
-        "signature": "code:opinionated-ts|title:proposal-collaborate-open-interoperability-specification-assisted",
+        "signature": "code:path-separator|title:bug-tildeifypath-treats-sibling-home-directories|version:0.59.0-nightly.20260825.g812f7a2bc|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29175"
+          "github-issue:google-gemini/gemini-cli:29189"
         ],
-        "signature": "code:path-separator|title:bug-tildeifypath-treats-sibling-home-directories|version:0.59.0-nightly.20260825.g812f7a2bc|platform:windows",
+        "signature": "code:read-only|title:security-git-diff-output-bypasses-permission|version:0.58.0|platform:windows",
         "strength": "weak"
       },
       {
@@ -119,7 +133,7 @@
       }
     ],
     "details": {
-      "fingerprint": "35afabd3ad2d6272fae97992d2b790b99ab287e53b921c7c8a848515c4e63a07",
+      "fingerprint": "c25d2649be18248737996783987df5a6ebb7a0c9adc694c1507ce736ef1cd055",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
@@ -201,16 +215,43 @@
           "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
-        "signature": "code:opinionated-ts|title:proposal-collaborate-open-interoperability-specification-assisted",
-        "title": "Proposal: collaborate on an open interoperability specification for AI-assisted development",
+        "signature": "code:explore|title:proposal-explore-interoperability-conventions-coding",
+        "title": "Proposal: explore interoperability conventions for AI coding",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29183"
+      },
+      {
+        "createdAt": "2026-09-03T17:08:17Z",
+        "explicitVersion": "0.58.0",
+        "id": "github-issue:google-gemini/gemini-cli:29189",
+        "labels": [
+          "area/security",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:read-only|title:security-git-diff-output-bypasses-permission|version:0.58.0|platform:windows",
+        "title": "Security: `git diff --output` bypasses permission prompt, silently overwrites arbitrary files",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29189"
+      },
+      {
+        "createdAt": "2026-09-03T19:29:20Z",
+        "id": "github-issue:google-gemini/gemini-cli:29191",
+        "labels": [
+          "area/security",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29191",
+        "signature": "code:encoded|title:path-traversal-checkpoint-delete-load-tag",
+        "title": "Path traversal in checkpoint delete/load: a ../ tag deletes files outside the checkpoints directory (legacy raw path)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29191"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-03T16:32:04.370Z",
+    "observedAt": "2026-09-03T19:56:11.643Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-66f56a10f42368bd",
   "interfaces": [
