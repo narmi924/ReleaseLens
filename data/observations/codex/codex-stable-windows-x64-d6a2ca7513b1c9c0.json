@@ -176,77 +176,70 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:42367"
+          "github-issue:openai/codex:42400"
         ],
-        "signature": "code:code-mode|title:mode-exec-results-honour-script-max|version:0.137.0-alpha.4",
+        "signature": "code:app-server|title:server-expose-custom-threadstore-injection",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42359"
+          "github-issue:openai/codex:42390"
         ],
-        "signature": "code:codex-runtimes|title:macos-bundled-libreofficedev-registers-launch-services|version:26.810.52044|platform:arm64",
+        "signature": "code:codex-app|title:https-github-com-openai-codex-issues",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42362"
+          "github-issue:openai/codex:42393"
         ],
-        "signature": "code:effort|title:chatgpt-atlas-thinking-effort-resets-instant|platform:windows",
+        "signature": "code:error|title:remote-compaction|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42371"
+          "github-issue:openai/codex:42398"
         ],
-        "signature": "code:emulator|title:unable-locate-git-hub-directory|version:0.152.1|platform:windows",
+        "signature": "code:exec|title:codex-exec-outer-read-only-sandbox|version:0.151.0|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42368"
+          "github-issue:openai/codex:42389"
         ],
-        "signature": "code:explicit|title:reasoning-items-replayed-explicit-encrypted-content|version:0.152.1|platform:arm64",
+        "signature": "code:exposed|title:conversation-recap-language-incorrectly-inferred-timezone|version:26.825.6671.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42361"
+          "github-issue:openai/codex:42387"
         ],
-        "signature": "code:extension|title:show-subagent-model-type-tooltip-hovering|version:5.6",
+        "signature": "code:mid-turn|title:codex-desktop-chat-history-stops-rendering|version:0.150.0-alpha.8|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42376"
+          "github-issue:openai/codex:42394"
         ],
-        "signature": "code:function_call_output|title:scheduled-tasks-fail-custom-responses-providers|version:26.901.20858",
+        "signature": "code:rich-text|title:spreadsheetfile-render-multiplies-imported-rich-text|version:26.831.21537|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42365"
+          "github-issue:openai/codex:42382"
         ],
-        "signature": "code:update_plan|title:document-update-plan-default-off-change|version:0.152.0",
+        "signature": "code:task-status|title:restore-manual-dragging-floating-task-status|version:26.901.1978.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42360"
+          "github-issue:openai/codex:42396"
         ],
-        "signature": "code:user-attachments|title:swapping-between-chatgpt-codex-desktop|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:42363"
-        ],
-        "signature": "code:user-authorized|title:injected-system-guidance-obstructs-user-authorized",
+        "signature": "code:vercel-plugin|title:keep-curated-vercel-plugin-sync-vercel|version:0.21.4|platform:macos",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "9e39e9be627fd7810d83552a875c4a55c92af73a5339006113d9f702e60cf9f7",
+      "fingerprint": "c7777ae3cfa80dcea9a5f43eabef61cb90330c08fbf59632cf7aeaba5c8e27eb",
       "lookbackHours": 72,
       "releaseVersion": "26.901.1978.0",
       "source": "official-github-issues"
@@ -254,160 +247,144 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-02T21:03:28Z",
-        "explicitVersion": "26.810.52044",
-        "id": "github-issue:openai/codex:42359",
+        "createdAt": "2026-09-02T23:12:56Z",
+        "explicitVersion": "26.901.1978.0",
+        "id": "github-issue:openai/codex:42382",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/42382",
+        "signature": "code:task-status|title:restore-manual-dragging-floating-task-status|version:26.901.1978.0|platform:windows",
+        "title": "Restore manual dragging for the floating task-status indicator",
+        "url": "https://github.com/openai/codex/issues/42382"
+      },
+      {
+        "createdAt": "2026-09-02T23:47:43Z",
+        "explicitVersion": "0.150.0-alpha.8",
+        "id": "github-issue:openai/codex:42387",
+        "labels": [
+          "app",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/42387",
+        "signature": "code:mid-turn|title:codex-desktop-chat-history-stops-rendering|version:0.150.0-alpha.8|platform:windows",
+        "title": "Codex Desktop: chat history stops rendering after crash mid-turn (projection cursor never follows rollout file rotation)",
+        "url": "https://github.com/openai/codex/issues/42387"
+      },
+      {
+        "createdAt": "2026-09-02T23:53:24Z",
+        "explicitVersion": "26.825.6671.0",
+        "id": "github-issue:openai/codex:42389",
+        "labels": [
+          "app",
+          "bug",
+          "context",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:exposed|title:conversation-recap-language-incorrectly-inferred-timezone|version:26.825.6671.0|platform:windows",
+        "title": "Conversation recap language is incorrectly inferred from timezone",
+        "url": "https://github.com/openai/codex/issues/42389"
+      },
+      {
+        "createdAt": "2026-09-02T23:55:05Z",
+        "id": "github-issue:openai/codex:42390",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:codex-app|title:https-github-com-openai-codex-issues",
+        "title": "https://github.com/openai/codex/issues/new?template=1-codex-app.yml&steps=Feedback%20ID%3A%20no-active-thread-01a06486-6ff5-7553-b185-69d32001ca1e",
+        "url": "https://github.com/openai/codex/issues/42390"
+      },
+      {
+        "createdAt": "2026-09-03T00:15:22Z",
+        "id": "github-issue:openai/codex:42393",
+        "labels": [
+          "app",
+          "bug",
+          "context"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:error|title:remote-compaction|platform:arm64",
+        "title": "Remote compaction v2 fails",
+        "url": "https://github.com/openai/codex/issues/42393"
+      },
+      {
+        "createdAt": "2026-09-03T00:16:44Z",
+        "explicitVersion": "26.831.21537",
+        "id": "github-issue:openai/codex:42394",
         "labels": [
           "app",
           "bug"
         ],
         "maintainerAcknowledged": false,
         "platform": "arm64",
-        "signature": "code:codex-runtimes|title:macos-bundled-libreofficedev-registers-launch-services|version:26.810.52044|platform:arm64",
-        "title": "macOS: bundled LibreOfficeDev.app registers with Launch Services, claiming Owner rank on ODF types and appearing in Open With",
-        "url": "https://github.com/openai/codex/issues/42359"
+        "signature": "code:rich-text|title:spreadsheetfile-render-multiplies-imported-rich-text|version:26.831.21537|platform:arm64",
+        "title": "SpreadsheetFile.render() multiplies imported rich-text font sizes by 100 before XLSX export",
+        "url": "https://github.com/openai/codex/issues/42394"
       },
       {
-        "createdAt": "2026-09-02T21:04:32Z",
-        "id": "github-issue:openai/codex:42360",
+        "createdAt": "2026-09-03T00:19:44Z",
+        "explicitVersion": "0.21.4",
+        "id": "github-issue:openai/codex:42396",
         "labels": [
           "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:user-attachments|title:swapping-between-chatgpt-codex-desktop|platform:windows",
-        "title": "Swapping between chatgpt and codex on desktop app",
-        "url": "https://github.com/openai/codex/issues/42360"
-      },
-      {
-        "createdAt": "2026-09-02T21:07:10Z",
-        "explicitVersion": "5.6",
-        "id": "github-issue:openai/codex:42361",
-        "labels": [
           "enhancement",
-          "extension",
-          "subagent"
+          "skills"
         ],
         "maintainerAcknowledged": false,
-        "signature": "code:extension|title:show-subagent-model-type-tooltip-hovering|version:5.6",
-        "title": "Show subagent model/type tooltip when hovering agent pills in the IDE extension (QoL Feature)",
-        "url": "https://github.com/openai/codex/issues/42361"
+        "platform": "macos",
+        "signature": "code:vercel-plugin|title:keep-curated-vercel-plugin-sync-vercel|version:0.21.4|platform:macos",
+        "title": "Keep the curated Vercel plugin in sync with vercel/vercel-plugin",
+        "url": "https://github.com/openai/codex/issues/42396"
       },
       {
-        "createdAt": "2026-09-02T21:09:49Z",
-        "id": "github-issue:openai/codex:42362",
+        "createdAt": "2026-09-03T00:33:15Z",
+        "explicitVersion": "0.151.0",
+        "id": "github-issue:openai/codex:42398",
         "labels": [
-          "app",
-          "browser",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:effort|title:chatgpt-atlas-thinking-effort-resets-instant|platform:windows",
-        "title": "ChatGPT Atlas: Thinking effort resets to Instant while web retains Medium/High",
-        "url": "https://github.com/openai/codex/issues/42362"
-      },
-      {
-        "createdAt": "2026-09-02T21:12:43Z",
-        "id": "github-issue:openai/codex:42363",
-        "labels": [
-          "bug",
-          "model-behavior",
-          "safety-check"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:user-authorized|title:injected-system-guidance-obstructs-user-authorized",
-        "title": "Injected system guidance obstructs user-authorized workflows",
-        "url": "https://github.com/openai/codex/issues/42363"
-      },
-      {
-        "createdAt": "2026-09-02T21:22:07Z",
-        "explicitVersion": "0.152.0",
-        "id": "github-issue:openai/codex:42365",
-        "labels": [
-          "CLI",
-          "config",
-          "documentation",
-          "plan"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:update_plan|title:document-update-plan-default-off-change|version:0.152.0",
-        "title": "Document the `update_plan` default-off change, configuration/migration, and future",
-        "url": "https://github.com/openai/codex/issues/42365"
-      },
-      {
-        "createdAt": "2026-09-02T21:24:00Z",
-        "explicitVersion": "0.137.0-alpha.4",
-        "id": "github-issue:openai/codex:42367",
-        "labels": [
-          "azure",
+          "app-server",
           "bug",
           "CLI",
-          "context",
-          "performance",
-          "tool-calls"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:code-mode|title:mode-exec-results-honour-script-max|version:0.137.0-alpha.4",
-        "title": "[code-mode] `exec` results honour the script's `max_output_tokens` with no upper bound — one 497 KB shell result reached the model as ~138K tokens (function mode clamps to the model's truncation policy)",
-        "url": "https://github.com/openai/codex/issues/42367"
-      },
-      {
-        "createdAt": "2026-09-02T21:24:20Z",
-        "explicitVersion": "0.152.1",
-        "id": "github-issue:openai/codex:42368",
-        "labels": [
-          "bug",
-          "CLI",
-          "custom-model"
+          "exec",
+          "sandbox"
         ],
         "maintainerAcknowledged": false,
         "platform": "arm64",
-        "resolutionReference": "https://github.com/openai/codex/issues/42368",
-        "signature": "code:explicit|title:reasoning-items-replayed-explicit-encrypted-content|version:0.152.1|platform:arm64",
-        "title": "Reasoning items are replayed with an explicit \"encrypted_content\": null, which the Responses schema does not permit",
-        "url": "https://github.com/openai/codex/issues/42368"
+        "signature": "code:exec|title:codex-exec-outer-read-only-sandbox|version:0.151.0|platform:arm64",
+        "title": "codex exec fails in an outer read-only sandbox because installation_id requires write access",
+        "url": "https://github.com/openai/codex/issues/42398"
       },
       {
-        "createdAt": "2026-09-02T21:46:03Z",
-        "explicitVersion": "0.152.1",
-        "id": "github-issue:openai/codex:42371",
+        "createdAt": "2026-09-03T00:45:31Z",
+        "id": "github-issue:openai/codex:42400",
         "labels": [
-          "bug",
-          "CLI",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:emulator|title:unable-locate-git-hub-directory|version:0.152.1|platform:windows",
-        "title": "Unable to locate git hub directory",
-        "url": "https://github.com/openai/codex/issues/42371"
-      },
-      {
-        "createdAt": "2026-09-02T22:30:14Z",
-        "explicitVersion": "26.901.20858",
-        "id": "github-issue:openai/codex:42376",
-        "labels": [
-          "app",
           "app-server",
-          "automations",
-          "bug",
-          "custom-model"
+          "enhancement"
         ],
         "maintainerAcknowledged": false,
-        "signature": "code:function_call_output|title:scheduled-tasks-fail-custom-responses-providers|version:26.901.20858",
-        "title": "Scheduled tasks fail with custom Responses providers when standalone function_call_output omits call_id",
-        "url": "https://github.com/openai/codex/issues/42376"
+        "signature": "code:app-server|title:server-expose-custom-threadstore-injection",
+        "title": "[app-server] Expose custom ThreadStore injection",
+        "url": "https://github.com/openai/codex/issues/42400"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-02T22:43:26.007Z",
+    "observedAt": "2026-09-03T01:10:36.062Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "10 recent official GitHub issues observed for openai/codex."
+    "summary": "9 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-dc3788760ee51925",
   "interfaces": [],
