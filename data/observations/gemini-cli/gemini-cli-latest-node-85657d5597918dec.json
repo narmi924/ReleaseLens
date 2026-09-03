@@ -91,9 +91,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29157"
+          "github-issue:google-gemini/gemini-cli:29182"
         ],
-        "signature": "code:exported|title:critical-hallucination-agent-injects-colloquial-conversation|version:0.56.0|platform:macos",
+        "signature": "code:gemini-cli|title:gemini-hangs-retry-backoff-play-googleapis|version:0.58.0|platform:arm64",
         "strength": "weak"
       },
       {
@@ -112,34 +112,34 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29183"
+        ],
+        "signature": "code:opinionated-ts|title:proposal-collaborate-open-interoperability-specification-assisted",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29175"
         ],
         "signature": "code:path-separator|title:bug-tildeifypath-treats-sibling-home-directories|version:0.59.0-nightly.20260825.g812f7a2bc|platform:windows",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29176"
+        ],
+        "signature": "code:user-attachments|title:asks-github-credentials-input-stuck-frozen|version:56.0",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "5f452582b043c225d7a33d2c48da7b5dba7aad01db7c8f275ee8139932c6e73c",
+      "fingerprint": "f924ea2fe3027546810ae388a62ed45b12babc53312d99fffb311e494a13227c",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-01T18:58:21Z",
-        "explicitVersion": "0.56.0",
-        "id": "github-issue:google-gemini/gemini-cli:29157",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:exported|title:critical-hallucination-agent-injects-colloquial-conversation|version:0.56.0|platform:macos",
-        "title": "Critical Hallucination: Agent injects colloquial conversation into output and falsely attributes it to user prompt",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29157"
-      },
       {
         "createdAt": "2026-09-02T00:00:05Z",
         "explicitVersion": "0.58.0",
@@ -194,20 +194,69 @@
         "id": "github-issue:google-gemini/gemini-cli:29175",
         "labels": [
           "area/core",
-          "status/need-triage"
+          "effort/small",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
         "signature": "code:path-separator|title:bug-tildeifypath-treats-sibling-home-directories|version:0.59.0-nightly.20260825.g812f7a2bc|platform:windows",
         "title": "Bug: tildeifyPath treats sibling home directories as the current home (missing path-separator bound)",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29175"
+      },
+      {
+        "createdAt": "2026-09-03T06:05:34Z",
+        "explicitVersion": "56.0",
+        "id": "github-issue:google-gemini/gemini-cli:29176",
+        "labels": [
+          "area/core",
+          "effort/medium",
+          "kind/bug",
+          "priority/p1",
+          "status/manual-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29176",
+        "signature": "code:user-attachments|title:asks-github-credentials-input-stuck-frozen|version:56.0",
+        "title": "Asks for github credentials in input and stuck. Frozen terminal",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29176"
+      },
+      {
+        "createdAt": "2026-09-03T09:27:43Z",
+        "explicitVersion": "0.58.0",
+        "id": "github-issue:google-gemini/gemini-cli:29182",
+        "labels": [
+          "area/enterprise",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29182",
+        "signature": "code:gemini-cli|title:gemini-hangs-retry-backoff-play-googleapis|version:0.58.0|platform:arm64",
+        "title": "gemini-cli 0.58.0 hangs (retry-backoff) when play.googleapis.com is unreachable but the API endpoint is reachable; usageStatisticsEnabled:false does not stop the call",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29182"
+      },
+      {
+        "createdAt": "2026-09-03T10:03:20Z",
+        "id": "github-issue:google-gemini/gemini-cli:29183",
+        "labels": [
+          "area/agent",
+          "kind/enhancement",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:opinionated-ts|title:proposal-collaborate-open-interoperability-specification-assisted",
+        "title": "Proposal: collaborate on an open interoperability specification for AI-assisted development",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29183"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-03T05:54:06.412Z",
+    "observedAt": "2026-09-03T11:23:58.693Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-66f56a10f42368bd",
   "interfaces": [
