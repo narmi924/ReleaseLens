@@ -1,0 +1,74 @@
+{
+  "artifactChanges": [
+    {
+      "before": {
+        "sha256": "d38ffea42d90d3cf4f57fa1a29c563ed17c643f19d3664080895384e9f3bdb8a",
+        "sizeBytes": 796367946
+      },
+      "material": true,
+      "summary": "Artifact removed: msix:OpenAI.Codex:x64.",
+      "type": "artifact-removed"
+    },
+    {
+      "after": {},
+      "material": true,
+      "summary": "Artifact added: unavailable:unknown:unknown.",
+      "type": "artifact-added"
+    }
+  ],
+  "behaviorChanges": [
+    {
+      "after": "unsupported",
+      "before": "fail",
+      "material": false,
+      "summary": "Behavior codex-msix-identity: fail → unsupported.",
+      "type": "behavior-status-changed"
+    },
+    {
+      "after": "unsupported",
+      "material": false,
+      "summary": "Behavior test added: codex-backend-version.",
+      "type": "behavior-test-added"
+    }
+  ],
+  "comparedWith": "codex-stable-windows-x64-74b685fe03e85232",
+  "createdAt": "2026-09-04T22:24:35.218Z",
+  "diffId": "codex-stable-windows-x64-c8e33172a2f53ce9-from-codex-stable-windows-x64-74b685fe03e85232",
+  "distributionChanges": [
+    {
+      "after": "26.901.5003.0",
+      "before": "26.901.4073.0",
+      "material": true,
+      "summary": "Distribution state microsoft-store-rollout-signal:build: 26.901.4073.0 → 26.901.5003.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "before": {
+        "sha256": "d38ffea42d90d3cf4f57fa1a29c563ed17c643f19d3664080895384e9f3bdb8a",
+        "sizeBytes": 796367946
+      },
+      "material": true,
+      "summary": "Artifact removed: msix:OpenAI.Codex:x64.",
+      "type": "artifact-removed"
+    },
+    {
+      "after": {},
+      "material": true,
+      "summary": "Artifact added: unavailable:unknown:unknown.",
+      "type": "artifact-added"
+    },
+    {
+      "after": "26.901.5003.0",
+      "before": "26.901.4073.0",
+      "material": true,
+      "summary": "Distribution state microsoft-store-rollout-signal:build: 26.901.4073.0 → 26.901.5003.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "codex-stable-windows-x64-c8e33172a2f53ce9",
+  "productId": "codex",
+  "schemaVersion": 1
+}

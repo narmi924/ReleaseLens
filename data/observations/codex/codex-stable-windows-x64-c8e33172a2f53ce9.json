@@ -1,0 +1,534 @@
+{
+  "artifacts": [
+    {
+      "fileName": "unavailable",
+      "format": "unavailable",
+      "id": "artifact:codex:unavailable:26.901.5003.0",
+      "kind": "artifact",
+      "observedAt": "2026-09-04T22:24:35.218Z",
+      "packageVersion": "26.901.5003.0",
+      "sourceHost": "unavailable",
+      "status": "unsupported",
+      "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+      "verification": []
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-09-04T22:24:35.218Z",
+      "kind": "behavior",
+      "observedAt": "2026-09-04T22:24:35.218Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-04T22:24:35.218Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-04T22:24:35.218Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-backend-version"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-04T22:24:35.218Z",
+          "status": "not-applicable",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "unsupported",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42861"
+        ],
+        "signature": "code:aa1e-4346aa5f23a2|title:01a06564-8a30-7b21-aa1e-4346aa5f23a2",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42860"
+        ],
+        "signature": "code:active-thread-01a06e60-c427-7a83-90a1-885616daf563|title:macos-chat-bar-keeps-disappearing|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42857"
+        ],
+        "signature": "code:back-and-forth|title:linux-pets-floating-desktop-pet-jitters|version:26.901.31953|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42873"
+        ],
+        "signature": "code:denied-read|title:macos-let-sandboxed-codex-doctor-collect|version:0.152.0|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42868"
+        ],
+        "signature": "code:emulator|title:astra-showing-codex-linux-reliably|version:0.153.3|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42859"
+        ],
+        "signature": "code:enabled|title:macos-connected-linux-host-has-discoverable|version:26.901.31953|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42862"
+        ],
+        "signature": "code:environment|title:windows-voice-orb-snaps-fixed-position|version:26.901.4073.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42866"
+        ],
+        "signature": "code:even|title:codex-refusing-making-security-audit-plan|version:26.901.22334|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42865"
+        ],
+        "signature": "code:example|title:chat-history-display-stale-both-codex|version:26.903.11726|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42867"
+        ],
+        "signature": "code:existing|title:windows-all-projects-disappeared-update-threads|version:26.901.31953|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42869"
+        ],
+        "signature": "code:explicit|title:desktop-user-reports-missing-implement-plan|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42855"
+        ],
+        "signature": "code:extension|title:cursor-windows-codex-new-codex-agent|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42871"
+        ],
+        "signature": "code:gpt-5|title:hanyy07|version:5.2|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42872"
+        ],
+        "signature": "code:gpt-5|title:odex-doctor|version:5.2",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42856"
+        ],
+        "signature": "code:new-task|title:windows-desktop-ctrl-running-task-opens|version:26.901.4073.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42864"
+        ],
+        "signature": "code:unified_exec|title:codex-unified-exec-drops-structured-command|version:0.153.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42858"
+        ],
+        "signature": "code:website-building|title:website-building-request-silently-triggers-source",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "787895ce509491d8abb696bf6858bb83a463ae0ab6aae8b50abbc6bea05c2ab4",
+      "lookbackHours": 72,
+      "releaseVersion": "26.901.5003.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-09-04T21:19:04Z",
+        "id": "github-issue:openai/codex:42855",
+        "labels": [
+          "bug",
+          "extension",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:extension|title:cursor-windows-codex-new-codex-agent|platform:windows",
+        "title": "Cursor on Windows: `Codex: New Codex Agent` fails with `command 'chatgpt.newCodexPanel' not found` after update",
+        "url": "https://github.com/openai/codex/issues/42855"
+      },
+      {
+        "createdAt": "2026-09-04T21:22:17Z",
+        "explicitVersion": "26.901.4073.0",
+        "id": "github-issue:openai/codex:42856",
+        "labels": [
+          "app",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:new-task|title:windows-desktop-ctrl-running-task-opens|version:26.901.4073.0|platform:windows",
+        "title": "Windows desktop: Ctrl+N from a running task opens the new-task screen in an unrelated project",
+        "url": "https://github.com/openai/codex/issues/42856"
+      },
+      {
+        "createdAt": "2026-09-04T21:30:16Z",
+        "explicitVersion": "26.901.31953",
+        "id": "github-issue:openai/codex:42857",
+        "labels": [
+          "app",
+          "bug",
+          "pets"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:back-and-forth|title:linux-pets-floating-desktop-pet-jitters|version:26.901.31953|platform:linux",
+        "title": "[Linux][Pets] Floating desktop pet jitters and jumps during rapid back-and-forth dragging",
+        "url": "https://github.com/openai/codex/issues/42857"
+      },
+      {
+        "createdAt": "2026-09-04T21:34:48Z",
+        "id": "github-issue:openai/codex:42858",
+        "labels": [
+          "app",
+          "bug",
+          "safety-check",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:website-building|title:website-building-request-silently-triggers-source",
+        "title": "Website-building request silently triggers source upload and deployment through Sites skill",
+        "url": "https://github.com/openai/codex/issues/42858"
+      },
+      {
+        "createdAt": "2026-09-04T21:39:37Z",
+        "explicitVersion": "26.901.31953",
+        "id": "github-issue:openai/codex:42859",
+        "labels": [
+          "app",
+          "bug",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:enabled|title:macos-connected-linux-host-has-discoverable|version:26.901.31953|platform:arm64",
+        "title": "macOS: Connected Linux host has no discoverable way to start a remote task",
+        "url": "https://github.com/openai/codex/issues/42859"
+      },
+      {
+        "createdAt": "2026-09-04T21:44:48Z",
+        "id": "github-issue:openai/codex:42860",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:active-thread-01a06e60-c427-7a83-90a1-885616daf563|title:macos-chat-bar-keeps-disappearing|platform:macos",
+        "title": "[macOS][Chat Bar] Keeps disappearing",
+        "url": "https://github.com/openai/codex/issues/42860"
+      },
+      {
+        "createdAt": "2026-09-04T21:45:06Z",
+        "id": "github-issue:openai/codex:42861",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:aa1e-4346aa5f23a2|title:01a06564-8a30-7b21-aa1e-4346aa5f23a2",
+        "title": "01a06564-8a30-7b21-aa1e-4346aa5f23a2",
+        "url": "https://github.com/openai/codex/issues/42861"
+      },
+      {
+        "createdAt": "2026-09-04T21:47:38Z",
+        "explicitVersion": "26.901.4073.0",
+        "id": "github-issue:openai/codex:42862",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/42862",
+        "signature": "code:environment|title:windows-voice-orb-snaps-fixed-position|version:26.901.4073.0|platform:windows",
+        "title": "Windows voice orb snaps to a fixed position, cannot be dragged, and desktop/taskbar clicks stop working",
+        "url": "https://github.com/openai/codex/issues/42862"
+      },
+      {
+        "createdAt": "2026-09-04T21:53:21Z",
+        "explicitVersion": "0.153.0",
+        "id": "github-issue:openai/codex:42864",
+        "labels": [
+          "bug",
+          "CLI",
+          "exec",
+          "hooks",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:unified_exec|title:codex-unified-exec-drops-structured-command|version:0.153.0|platform:windows",
+        "title": "Codex CLI 0.153.0: unified_exec drops structured command outcomes from rollouts and PostToolUse",
+        "url": "https://github.com/openai/codex/issues/42864"
+      },
+      {
+        "createdAt": "2026-09-04T21:53:41Z",
+        "explicitVersion": "26.903.11726",
+        "id": "github-issue:openai/codex:42865",
+        "labels": [
+          "app",
+          "bug",
+          "extension",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:example|title:chat-history-display-stale-both-codex|version:26.903.11726|platform:windows",
+        "title": "Chat history display is stale in both Codex VS Code and ChatGPT app",
+        "url": "https://github.com/openai/codex/issues/42865"
+      },
+      {
+        "createdAt": "2026-09-04T21:53:50Z",
+        "explicitVersion": "26.901.22334",
+        "id": "github-issue:openai/codex:42866",
+        "labels": [
+          "app",
+          "auth",
+          "bug",
+          "safety-check"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:even|title:codex-refusing-making-security-audit-plan|version:26.901.22334|platform:windows",
+        "title": "Codex refusing for making me a security audit plan even tho I am already signed up for chatgpt.com/cyber months ago.",
+        "url": "https://github.com/openai/codex/issues/42866"
+      },
+      {
+        "createdAt": "2026-09-04T21:57:53Z",
+        "explicitVersion": "26.901.31953",
+        "id": "github-issue:openai/codex:42867",
+        "labels": [
+          "app",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/42867",
+        "signature": "code:existing|title:windows-all-projects-disappeared-update-threads|version:26.901.31953|platform:windows",
+        "title": "[Windows][26.901.31953] All Projects disappeared after update, threads moved to Recents — incomplete project assignment migration",
+        "url": "https://github.com/openai/codex/issues/42867"
+      },
+      {
+        "createdAt": "2026-09-04T22:09:13Z",
+        "explicitVersion": "0.153.3",
+        "id": "github-issue:openai/codex:42868",
+        "labels": [
+          "app",
+          "bug",
+          "CLI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:emulator|title:astra-showing-codex-linux-reliably|version:0.153.3|platform:windows",
+        "title": "Astra not showing on Codex Linux reliably",
+        "url": "https://github.com/openai/codex/issues/42868"
+      },
+      {
+        "createdAt": "2026-09-04T22:11:13Z",
+        "id": "github-issue:openai/codex:42869",
+        "labels": [
+          "app",
+          "bug",
+          "plan"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:explicit|title:desktop-user-reports-missing-implement-plan|platform:macos",
+        "title": "Desktop: user reports missing Implement plan action after completed plan",
+        "url": "https://github.com/openai/codex/issues/42869"
+      },
+      {
+        "createdAt": "2026-09-04T22:12:11Z",
+        "explicitVersion": "5.2",
+        "id": "github-issue:openai/codex:42871",
+        "labels": [
+          "bug",
+          "CLI",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:gpt-5|title:hanyy07|version:5.2|platform:windows",
+        "title": "Hanyy07",
+        "url": "https://github.com/openai/codex/issues/42871"
+      },
+      {
+        "createdAt": "2026-09-04T22:12:47Z",
+        "explicitVersion": "5.2",
+        "id": "github-issue:openai/codex:42872",
+        "labels": [
+          "bug",
+          "CLI"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:gpt-5|title:odex-doctor|version:5.2",
+        "title": "odex doctor",
+        "url": "https://github.com/openai/codex/issues/42872"
+      },
+      {
+        "createdAt": "2026-09-04T22:13:50Z",
+        "explicitVersion": "0.152.0",
+        "id": "github-issue:openai/codex:42873",
+        "labels": [
+          "app-server",
+          "CLI",
+          "enhancement",
+          "sandbox"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "resolutionReference": "https://github.com/openai/codex/issues/42873",
+        "signature": "code:denied-read|title:macos-let-sandboxed-codex-doctor-collect|version:0.152.0|platform:arm64",
+        "title": "macOS: let sandboxed codex doctor collect security history through an authorized host diagnostic",
+        "url": "https://github.com/openai/codex/issues/42873"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-09-04T22:25:07.405Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "17 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-74b685fe03e85232",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-c8e33172a2f53ce9",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.901.5003.0",
+    "channel": "stable",
+    "discoveredAt": "2026-09-04T22:24:35.218Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.901.5003.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "00a5fadba687ad2a657995f79b9eff05dde99317db39eff8288f0c244cfbb5c8",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-09-04T22:24:35.265Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.901.5003.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.901.5003.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "0642e504-d101-491f-b461-3412bbb6d6ab"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.901.5003.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-09-04T22:24:35.218Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "warning",
+      "summary": "FE3 x64 package 26.901.5003.0 is ahead of DisplayCatalog 26.901.4073.0; acquisition is vetoed pending metadata convergence. Official rollout signal reports 26.901.5003.0."
+    },
+    {
+      "details": {
+        "buildVersion": "26.901.5003.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-09-04T22:24:35.218Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:codex:unavailable:26.901.5003.0"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-04T22:24:35.218Z"
+        ],
+        "message": "Required behavior codex-msix-identity is unsupported."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-04T22:24:35.218Z"
+        ],
+        "message": "Required behavior codex-backend-version is unsupported."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}

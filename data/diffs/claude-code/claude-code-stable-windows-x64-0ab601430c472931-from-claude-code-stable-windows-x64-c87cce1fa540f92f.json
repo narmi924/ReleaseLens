@@ -1,0 +1,77 @@
+{
+  "artifactChanges": [
+    {
+      "after": "f2f5d1a155167488aeb32cd263e15436253c7b1681ae147c9e73e4d6bbc3c852",
+      "before": "ab5fe6cb800a9faf3df1cc0f6bcb71f097296b302a16b576ca906446a22fea71",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 218728608,
+      "before": 217771680,
+      "material": false,
+      "summary": "Artifact size changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "claude-code-stable-windows-x64-c87cce1fa540f92f",
+  "createdAt": "2026-09-04T22:24:28.487Z",
+  "diffId": "claude-code-stable-windows-x64-0ab601430c472931-from-claude-code-stable-windows-x64-c87cce1fa540f92f",
+  "distributionChanges": [
+    {
+      "after": "2.1.261",
+      "before": "2.1.260",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.260 → 2.1.261.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": {
+        "native": "2.1.261",
+        "winget": "2.1.258"
+      },
+      "before": {
+        "native": "2.1.261",
+        "winget": "2.1.258"
+      },
+      "material": true,
+      "summary": "Claude Code native 2.1.261 and WinGet 2.1.258 disagree.",
+      "type": "distribution-drift"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "f2f5d1a155167488aeb32cd263e15436253c7b1681ae147c9e73e4d6bbc3c852",
+      "before": "ab5fe6cb800a9faf3df1cc0f6bcb71f097296b302a16b576ca906446a22fea71",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "2.1.261",
+      "before": "2.1.260",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.260 → 2.1.261.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": {
+        "native": "2.1.261",
+        "winget": "2.1.258"
+      },
+      "before": {
+        "native": "2.1.261",
+        "winget": "2.1.258"
+      },
+      "material": true,
+      "summary": "Claude Code native 2.1.261 and WinGet 2.1.258 disagree.",
+      "type": "distribution-drift"
+    }
+  ],
+  "observationId": "claude-code-stable-windows-x64-0ab601430c472931",
+  "productId": "claude-code",
+  "schemaVersion": 1
+}
