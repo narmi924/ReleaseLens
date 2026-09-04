@@ -84,13 +84,6 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29194"
-        ],
-        "signature": "code:corrupt-shaped|title:corrupt-shaped-checkpoint-crashes-resume-non",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29197"
         ],
         "signature": "code:each|title:toml-command-interpolation-stuck-infinite-loop|version:0.58.0|platform:linux",
@@ -119,6 +112,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29213"
+        ],
+        "signature": "code:gemini-2|title:unexpected-model-resolution-gemini-mapped-gemini|version:0.58.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29204"
         ],
         "signature": "code:json-encoded|title:mcp-prompt-responses-submitted-json-encoded",
@@ -133,29 +133,13 @@
       }
     ],
     "details": {
-      "fingerprint": "f3f1797d885b665d99cdd98ebae6c9be1c011171c567a4df31f274a9d898c71a",
+      "fingerprint": "6ceaf91ef0daa68652d04a29eeb3cd30b94de45d37d57d7b44d6a3a999daa230",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-03T20:11:24Z",
-        "id": "github-issue:google-gemini/gemini-cli:29194",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:corrupt-shaped|title:corrupt-shaped-checkpoint-crashes-resume-non",
-        "title": "Corrupt-shaped checkpoint crashes resume: non-array history passes through loadCheckpoint and throws TypeError",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29194"
-      },
       {
         "createdAt": "2026-09-04T02:17:56Z",
         "explicitVersion": "0.58.0",
@@ -253,10 +237,25 @@
         "signature": "code:edit|title:corrupt-agents-json-valid-json-wrong",
         "title": "Corrupt agents.json (valid JSON, wrong shape) crashes acknowledgment",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29207"
+      },
+      {
+        "createdAt": "2026-09-04T17:46:41Z",
+        "explicitVersion": "0.58.0",
+        "id": "github-issue:google-gemini/gemini-cli:29213",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29213",
+        "signature": "code:gemini-2|title:unexpected-model-resolution-gemini-mapped-gemini|version:0.58.0|platform:linux",
+        "title": "Unexpected model resolution: gemini-2.5-flash is mapped to gemini-3.5-flash",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29213"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-04T16:28:07.872Z",
+    "observedAt": "2026-09-04T19:41:09.651Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
