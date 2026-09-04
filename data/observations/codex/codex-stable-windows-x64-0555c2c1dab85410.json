@@ -176,16 +176,30 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:42622"
+          "github-issue:openai/codex:42642"
         ],
-        "signature": "code:app-server|title:codex-server-support-durable-input-requests|version:0.148.0",
+        "signature": "code:a888-e7c64ee96445|title:failure-sending-feedback|version:26.825.32147|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42611"
+          "github-issue:openai/codex:42633"
         ],
-        "signature": "code:auto-compaction|title:auto-compaction-replays-already-answered-user|version:0.153.0|platform:windows",
+        "signature": "code:active-thread-01a0698e-3bed-77b1-9a7d-e768dae6b951|title:cursor-window-disappears-first-input-chat|version:26.901.22334",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42643"
+        ],
+        "signature": "code:app-server|title:macos-commentary-progress-messages-render-twice|version:26.901.20858|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42629"
+        ],
+        "signature": "code:app-server|title:native-windows-server-daemon-service-enable|platform:windows",
         "strength": "weak"
       },
       {
@@ -197,48 +211,37 @@
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42613",
-          "github-issue:openai/codex:42614",
-          "github-issue:openai/codex:42615",
-          "github-issue:openai/codex:42616",
-          "github-issue:openai/codex:42617"
+          "github-issue:openai/codex:42628"
         ],
-        "signature": "code:each|title:macos-archived-cloud-chats-have-permanent|version:26.901.22334|platform:macos",
-        "strength": "strong"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:42625"
-        ],
-        "signature": "code:editor|title:macos-desktop-renderer-freezes-100-cpu|version:26.901.20858|platform:arm64",
+        "signature": "code:codex-cli|title:macos-desktop-unified-thread-catalog-retains|version:26.901.22334|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42621"
+          "github-issue:openai/codex:42630"
         ],
-        "signature": "code:elevated|title:windows-elevated-sandbox-has-profile-backed|version:26.831.21537|platform:windows",
+        "signature": "code:each|title:desktop-freezes-near-100-cpu-unbounded|version:26.901.22334|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42610"
+          "github-issue:openai/codex:42636"
         ],
-        "signature": "code:enter|title:feature-request-enter-immediately-steer-queued",
+        "signature": "code:especially|title:paired-iphone-remote-optionally-follow-active",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42620"
+          "github-issue:openai/codex:42645"
         ],
-        "signature": "code:entitlement|title:activate-grant",
+        "signature": "code:exe|title:windows-desktop-start-bundled-codex-exe|version:26.901.2854.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42618"
+          "github-issue:openai/codex:42637"
         ],
-        "signature": "code:error|title:macos-chrome-native-host-operation-permitted|version:26.6.2|platform:arm64",
+        "signature": "code:explicit|title:codex-desktop-developer-instruction-can-override|version:26.901.22334|platform:windows",
         "strength": "weak"
       },
       {
@@ -250,236 +253,27 @@
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42612"
+          "github-issue:openai/codex:42635"
         ],
-        "signature": "code:service_tier|title:custom-agent-service-tier-fast-ignored|version:0.153.0|platform:windows",
+        "signature": "code:gpt-5|title:codex-claimed-invalid-incomplete-patch-was|version:0.146.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:42608"
+          "github-issue:openai/codex:42644"
         ],
-        "signature": "title:withdrawn",
+        "signature": "code:local-only|title:linux-new-chat-creates-local-only|version:26.901.20858|platform:x64",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "62814e2731a1096611fac221811c4c02258dfe1fa58bd054e352471ee490f660",
+      "fingerprint": "2b49652312b823c87d210f5067a3cc620573bc1ea1151fbf2a49e3818c800181",
       "lookbackHours": 72,
       "releaseVersion": "26.901.2854.0",
       "source": "official-github-issues"
     },
     "id": "community:codex:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-03T20:25:26Z",
-        "id": "github-issue:openai/codex:42608",
-        "labels": [
-          "app",
-          "bug",
-          "config",
-          "safety-check",
-          "skills",
-          "subagent",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "resolutionReference": "https://github.com/openai/codex/issues/42608",
-        "signature": "title:withdrawn",
-        "title": "Withdrawn",
-        "url": "https://github.com/openai/codex/issues/42608"
-      },
-      {
-        "createdAt": "2026-09-03T20:38:07Z",
-        "id": "github-issue:openai/codex:42610",
-        "labels": [
-          "app",
-          "enhancement"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:enter|title:feature-request-enter-immediately-steer-queued",
-        "title": "Feature request: Enter to immediately steer a queued message",
-        "url": "https://github.com/openai/codex/issues/42610"
-      },
-      {
-        "createdAt": "2026-09-03T20:58:03Z",
-        "explicitVersion": "0.153.0",
-        "id": "github-issue:openai/codex:42611",
-        "labels": [
-          "bug",
-          "CLI",
-          "context",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:auto-compaction|title:auto-compaction-replays-already-answered-user|version:0.153.0|platform:windows",
-        "title": "[CLI] Auto-compaction replays an already-answered user message as a new turn",
-        "url": "https://github.com/openai/codex/issues/42611"
-      },
-      {
-        "createdAt": "2026-09-03T20:58:57Z",
-        "explicitVersion": "0.153.0",
-        "id": "github-issue:openai/codex:42612",
-        "labels": [
-          "bug",
-          "CLI",
-          "config",
-          "subagent"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:service_tier|title:custom-agent-service-tier-fast-ignored|version:0.153.0|platform:windows",
-        "title": "[CLI] Custom agent service_tier = \"fast\" is ignored when the parent runs Standard",
-        "url": "https://github.com/openai/codex/issues/42612"
-      },
-      {
-        "createdAt": "2026-09-03T21:07:27Z",
-        "explicitVersion": "26.901.22334",
-        "id": "github-issue:openai/codex:42613",
-        "labels": [
-          "app",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:each|title:macos-archived-cloud-chats-have-permanent|version:26.901.22334|platform:macos",
-        "title": "[macOS] Archived cloud chats have no permanent delete action in ChatGPT/Codex desktop app",
-        "url": "https://github.com/openai/codex/issues/42613"
-      },
-      {
-        "createdAt": "2026-09-03T21:07:44Z",
-        "explicitVersion": "26.901.22334",
-        "id": "github-issue:openai/codex:42614",
-        "labels": [
-          "app",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "resolutionReference": "https://github.com/openai/codex/issues/42614",
-        "signature": "code:each|title:macos-archived-cloud-chats-have-permanent|version:26.901.22334|platform:macos",
-        "title": "[macOS] Archived cloud chats have no permanent delete action in ChatGPT/Codex desktop app",
-        "url": "https://github.com/openai/codex/issues/42614"
-      },
-      {
-        "createdAt": "2026-09-03T21:07:58Z",
-        "explicitVersion": "26.901.22334",
-        "id": "github-issue:openai/codex:42615",
-        "labels": [
-          "app",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "resolutionReference": "https://github.com/openai/codex/issues/42615",
-        "signature": "code:each|title:macos-archived-cloud-chats-have-permanent|version:26.901.22334|platform:macos",
-        "title": "[macOS] Archived cloud chats have no permanent delete action in ChatGPT/Codex desktop app",
-        "url": "https://github.com/openai/codex/issues/42615"
-      },
-      {
-        "createdAt": "2026-09-03T21:08:32Z",
-        "explicitVersion": "26.901.22334",
-        "id": "github-issue:openai/codex:42616",
-        "labels": [
-          "app",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "resolutionReference": "https://github.com/openai/codex/issues/42616",
-        "signature": "code:each|title:macos-archived-cloud-chats-have-permanent|version:26.901.22334|platform:macos",
-        "title": "[macOS] Archived cloud chats have no permanent delete action in ChatGPT/Codex desktop app",
-        "url": "https://github.com/openai/codex/issues/42616"
-      },
-      {
-        "createdAt": "2026-09-03T21:08:55Z",
-        "explicitVersion": "26.901.22334",
-        "id": "github-issue:openai/codex:42617",
-        "labels": [
-          "app",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "resolutionReference": "https://github.com/openai/codex/issues/42617",
-        "signature": "code:each|title:macos-archived-cloud-chats-have-permanent|version:26.901.22334|platform:macos",
-        "title": "[macOS] Archived cloud chats have no permanent delete action in ChatGPT/Codex desktop app",
-        "url": "https://github.com/openai/codex/issues/42617"
-      },
-      {
-        "createdAt": "2026-09-03T21:14:04Z",
-        "explicitVersion": "26.6.2",
-        "id": "github-issue:openai/codex:42618",
-        "labels": [],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:error|title:macos-chrome-native-host-operation-permitted|version:26.6.2|platform:arm64",
-        "title": "macOS 26.6.2: Chrome native host fails with `Operation not permitted (os error 1)` despite valid signature",
-        "url": "https://github.com/openai/codex/issues/42618"
-      },
-      {
-        "createdAt": "2026-09-03T21:33:39Z",
-        "id": "github-issue:openai/codex:42620",
-        "labels": [
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:entitlement|title:activate-grant",
-        "title": "Cannot activate grant",
-        "url": "https://github.com/openai/codex/issues/42620"
-      },
-      {
-        "createdAt": "2026-09-03T21:47:07Z",
-        "explicitVersion": "26.831.21537",
-        "id": "github-issue:openai/codex:42621",
-        "labels": [
-          "app",
-          "auth",
-          "bug",
-          "sandbox",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:elevated|title:windows-elevated-sandbox-has-profile-backed|version:26.831.21537|platform:windows",
-        "title": "Windows] Elevated sandbox has no profile-backed credential context, causing SEC_E_NO_CREDENTIALS for private Git",
-        "url": "https://github.com/openai/codex/issues/42621"
-      },
-      {
-        "createdAt": "2026-09-03T21:50:22Z",
-        "explicitVersion": "0.148.0",
-        "id": "github-issue:openai/codex:42622",
-        "labels": [
-          "app-server",
-          "CLI",
-          "enhancement"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:app-server|title:codex-server-support-durable-input-requests|version:0.148.0",
-        "title": "[Codex App Server] Support durable input requests across restarts",
-        "url": "https://github.com/openai/codex/issues/42622"
-      },
-      {
-        "createdAt": "2026-09-03T22:26:29Z",
-        "explicitVersion": "26.901.20858",
-        "id": "github-issue:openai/codex:42625",
-        "labels": [
-          "app",
-          "bug",
-          "performance"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:editor|title:macos-desktop-renderer-freezes-100-cpu|version:26.901.20858|platform:arm64",
-        "title": "[macOS][Desktop 26.901.20858] Renderer freezes at 100% CPU restoring a Go file editor tab: catastrophic backtracking in bundled shiki Go grammar (fixed in @shikijs/langs 4.0.2)",
-        "url": "https://github.com/openai/codex/issues/42625"
-      },
       {
         "createdAt": "2026-09-03T22:27:59Z",
         "id": "github-issue:openai/codex:42626",
@@ -509,13 +303,175 @@
         "signature": "code:codex-cli|title:cybersecurity-warnings-forth-mud-work|version:0.153.1|platform:x64",
         "title": "\"Cybersecurity\" warnings for my C/FORTH MUD work",
         "url": "https://github.com/openai/codex/issues/42627"
+      },
+      {
+        "createdAt": "2026-09-03T22:43:18Z",
+        "explicitVersion": "26.901.22334",
+        "id": "github-issue:openai/codex:42628",
+        "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:codex-cli|title:macos-desktop-unified-thread-catalog-retains|version:26.901.22334|platform:arm64",
+        "title": "[macOS Desktop] Unified thread catalog retains deleted cloud chats and missing local rollouts",
+        "url": "https://github.com/openai/codex/issues/42628"
+      },
+      {
+        "createdAt": "2026-09-03T22:43:45Z",
+        "id": "github-issue:openai/codex:42629",
+        "labels": [
+          "app-server",
+          "CLI",
+          "enhancement",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:app-server|title:native-windows-server-daemon-service-enable|platform:windows",
+        "title": "Native Windows app-server daemon/service to enable CLI “proxy” terminal attachment (no WSL)",
+        "url": "https://github.com/openai/codex/issues/42629"
+      },
+      {
+        "createdAt": "2026-09-03T22:51:34Z",
+        "explicitVersion": "26.901.22334",
+        "id": "github-issue:openai/codex:42630",
+        "labels": [
+          "app",
+          "bug",
+          "performance"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:each|title:desktop-freezes-near-100-cpu-unbounded|version:26.901.22334|platform:arm64",
+        "title": "Desktop freezes near 100% CPU: unbounded Markdown parsing of 24.8M-character task previews for sidebar titles",
+        "url": "https://github.com/openai/codex/issues/42630"
+      },
+      {
+        "createdAt": "2026-09-03T23:18:50Z",
+        "explicitVersion": "26.901.22334",
+        "id": "github-issue:openai/codex:42633",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:active-thread-01a0698e-3bed-77b1-9a7d-e768dae6b951|title:cursor-window-disappears-first-input-chat|version:26.901.22334",
+        "title": "cursor window disappears after first input in chat/work",
+        "url": "https://github.com/openai/codex/issues/42633"
+      },
+      {
+        "createdAt": "2026-09-03T23:38:20Z",
+        "explicitVersion": "0.146.0",
+        "id": "github-issue:openai/codex:42635",
+        "labels": [
+          "bug",
+          "CLI",
+          "connectivity",
+          "model-behavior",
+          "tool-calls",
+          "TUI",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:gpt-5|title:codex-claimed-invalid-incomplete-patch-was|version:0.146.0|platform:windows",
+        "title": "Codex claimed an invalid and incomplete patch was a complete implementation before requesting approval",
+        "url": "https://github.com/openai/codex/issues/42635"
+      },
+      {
+        "createdAt": "2026-09-03T23:49:33Z",
+        "id": "github-issue:openai/codex:42636",
+        "labels": [
+          "enhancement",
+          "iOS",
+          "remote",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:especially|title:paired-iphone-remote-optionally-follow-active",
+        "title": "Paired iPhone Remote: optionally follow the active desktop Codex task for Voice",
+        "url": "https://github.com/openai/codex/issues/42636"
+      },
+      {
+        "createdAt": "2026-09-03T23:59:26Z",
+        "explicitVersion": "26.901.22334",
+        "id": "github-issue:openai/codex:42637",
+        "labels": [],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:explicit|title:codex-desktop-developer-instruction-can-override|version:26.901.22334|platform:windows",
+        "title": "Codex Desktop developer instruction can override repository orchestration and block explicit visible-task workflows",
+        "url": "https://github.com/openai/codex/issues/42637"
+      },
+      {
+        "createdAt": "2026-09-04T00:53:15Z",
+        "explicitVersion": "26.825.32147",
+        "id": "github-issue:openai/codex:42642",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:a888-e7c64ee96445|title:failure-sending-feedback|version:26.825.32147|platform:arm64",
+        "title": "Failure when sending feedback",
+        "url": "https://github.com/openai/codex/issues/42642"
+      },
+      {
+        "createdAt": "2026-09-04T00:54:56Z",
+        "explicitVersion": "26.901.20858",
+        "id": "github-issue:openai/codex:42643",
+        "labels": [
+          "app",
+          "app-server",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:app-server|title:macos-commentary-progress-messages-render-twice|version:26.901.20858|platform:arm64",
+        "title": "[macOS App] Commentary progress messages render twice while final answers render once",
+        "url": "https://github.com/openai/codex/issues/42643"
+      },
+      {
+        "createdAt": "2026-09-04T00:59:54Z",
+        "explicitVersion": "26.901.20858",
+        "id": "github-issue:openai/codex:42644",
+        "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:local-only|title:linux-new-chat-creates-local-only|version:26.901.20858|platform:x64",
+        "title": "Linux 26.901.20858: “New chat” creates a local-only conversation while branching creates a cloud Chat; Chat/Work selector appears missing",
+        "url": "https://github.com/openai/codex/issues/42644"
+      },
+      {
+        "createdAt": "2026-09-04T01:00:50Z",
+        "explicitVersion": "26.901.2854.0",
+        "id": "github-issue:openai/codex:42645",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:exe|title:windows-desktop-start-bundled-codex-exe|version:26.901.2854.0|platform:windows",
+        "title": "[Windows 26.901.2854.0] Desktop fails to start: bundled codex.exe exists but returns Access denied (Attributes: Archive only)",
+        "url": "https://github.com/openai/codex/issues/42645"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-03T22:39:39.334Z",
+    "observedAt": "2026-09-04T01:03:19.245Z",
     "repository": "openai/codex",
-    "status": "warning",
-    "summary": "16 recent official GitHub issues observed for openai/codex; 1 strong cluster(s)."
+    "status": "pass",
+    "summary": "13 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-a5963a98582c7bb4",
   "interfaces": [],
