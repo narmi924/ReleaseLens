@@ -98,9 +98,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29191"
+          "github-issue:google-gemini/gemini-cli:29207"
         ],
-        "signature": "code:encoded|title:path-traversal-checkpoint-delete-load-tag",
+        "signature": "code:edit|title:corrupt-agents-json-valid-json-wrong",
         "strength": "weak"
       },
       {
@@ -119,92 +119,27 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29183"
+          "github-issue:google-gemini/gemini-cli:29204"
         ],
-        "signature": "code:explore|title:proposal-explore-interoperability-conventions-coding",
+        "signature": "code:json-encoded|title:mcp-prompt-responses-submitted-json-encoded",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29182"
+          "github-issue:google-gemini/gemini-cli:29202"
         ],
-        "signature": "code:gemini-cli|title:gemini-hangs-retry-backoff-play-googleapis|version:0.58.0|platform:arm64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29189"
-        ],
-        "signature": "code:read-only|title:security-git-diff-output-bypasses-permission|version:0.58.0|platform:windows",
+        "signature": "code:shell-wrapper|title:policy-bypass-shell-wrapper-flags-skip|platform:windows",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "e01137d53a372e942f5931584fb37995b7c1c23eec5b23527215c4ad0a281635",
+      "fingerprint": "3521a5e5710ed78143789fe9744ceca35516af5f33d263a5b65c20c34e6ad9f3",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-03T09:27:43Z",
-        "explicitVersion": "0.58.0",
-        "id": "github-issue:google-gemini/gemini-cli:29182",
-        "labels": [
-          "area/enterprise",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29182",
-        "signature": "code:gemini-cli|title:gemini-hangs-retry-backoff-play-googleapis|version:0.58.0|platform:arm64",
-        "title": "gemini-cli 0.58.0 hangs (retry-backoff) when play.googleapis.com is unreachable but the API endpoint is reachable; usageStatisticsEnabled:false does not stop the call",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29182"
-      },
-      {
-        "createdAt": "2026-09-03T10:03:20Z",
-        "id": "github-issue:google-gemini/gemini-cli:29183",
-        "labels": [
-          "area/agent",
-          "kind/enhancement",
-          "priority/p3",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:explore|title:proposal-explore-interoperability-conventions-coding",
-        "title": "Proposal: explore interoperability conventions for AI coding",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29183"
-      },
-      {
-        "createdAt": "2026-09-03T17:08:17Z",
-        "explicitVersion": "0.58.0",
-        "id": "github-issue:google-gemini/gemini-cli:29189",
-        "labels": [
-          "area/security",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:read-only|title:security-git-diff-output-bypasses-permission|version:0.58.0|platform:windows",
-        "title": "Security: `git diff --output` bypasses permission prompt, silently overwrites arbitrary files",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29189"
-      },
-      {
-        "createdAt": "2026-09-03T19:29:20Z",
-        "id": "github-issue:google-gemini/gemini-cli:29191",
-        "labels": [
-          "area/security",
-          "kind/bug",
-          "priority/p1",
-          "status/manual-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29191",
-        "signature": "code:encoded|title:path-traversal-checkpoint-delete-load-tag",
-        "title": "Path traversal in checkpoint delete/load: a ../ tag deletes files outside the checkpoints directory (legacy raw path)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29191"
-      },
       {
         "createdAt": "2026-09-03T20:11:24Z",
         "id": "github-issue:google-gemini/gemini-cli:29194",
@@ -226,11 +161,11 @@
         "explicitVersion": "0.58.0",
         "id": "github-issue:google-gemini/gemini-cli:29197",
         "labels": [
-          "area/core",
+          "area/security",
           "effort/medium",
           "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
+          "priority/p1",
+          "status/manual-triage",
           "status/need-information"
         ],
         "maintainerAcknowledged": false,
@@ -244,8 +179,10 @@
         "explicitVersion": "0.58.0",
         "id": "github-issue:google-gemini/gemini-cli:29198",
         "labels": [
-          "area/agent",
-          "status/need-triage"
+          "area/core",
+          "kind/bug",
+          "priority/p1",
+          "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
         "platform": "linux",
@@ -257,7 +194,7 @@
         "createdAt": "2026-09-04T03:24:01Z",
         "id": "github-issue:google-gemini/gemini-cli:29199",
         "labels": [
-          "area/enterprise",
+          "area/non-interactive",
           "kind/bug",
           "priority/p2",
           "status/manual-triage",
@@ -267,13 +204,60 @@
         "signature": "code:enforce|title:mcp-runtime-policy-normalize-names-enforce",
         "title": "MCP runtime policy does not normalize names or enforce an empty allowlist",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29199"
+      },
+      {
+        "createdAt": "2026-09-04T06:56:40Z",
+        "id": "github-issue:google-gemini/gemini-cli:29202",
+        "labels": [
+          "area/enterprise",
+          "kind/bug",
+          "priority/p2",
+          "status/manual-triage",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:shell-wrapper|title:policy-bypass-shell-wrapper-flags-skip|platform:windows",
+        "title": "Policy bypass: shell-wrapper flags skip inner command re-check",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29202"
+      },
+      {
+        "createdAt": "2026-09-04T07:02:49Z",
+        "id": "github-issue:google-gemini/gemini-cli:29204",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:json-encoded|title:mcp-prompt-responses-submitted-json-encoded",
+        "title": "MCP prompt responses are submitted as JSON-encoded text",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29204"
+      },
+      {
+        "createdAt": "2026-09-04T08:57:46Z",
+        "id": "github-issue:google-gemini/gemini-cli:29207",
+        "labels": [
+          "area/agent",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:edit|title:corrupt-agents-json-valid-json-wrong",
+        "title": "Corrupt agents.json (valid JSON, wrong shape) crashes acknowledgment",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29207"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-04T06:00:44.338Z",
+    "observedAt": "2026-09-04T11:28:00.084Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-85657d5597918dec",
   "interfaces": [

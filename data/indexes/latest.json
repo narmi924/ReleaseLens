@@ -22,8 +22,8 @@
     },
     {
       "channel": "stable",
-      "discoveredAt": "2026-09-04T05:59:23.114Z",
-      "observationId": "codex-stable-windows-x64-a44d2a674731c97d",
+      "discoveredAt": "2026-09-04T11:26:53.907Z",
+      "observationId": "codex-stable-windows-x64-74b685fe03e85232",
       "platform": "windows-x64",
       "productId": "codex",
       "schemaVersion": 1,
@@ -32,14 +32,14 @@
           {
             "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
             "evidenceRefs": [
-              "artifact:msix:OpenAI.Codex:26.901.2854.0:x64"
+              "artifact:msix:OpenAI.Codex:26.901.4073.0:x64"
             ],
             "message": "Required artifact evidence is missing or did not pass."
           },
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
             "evidenceRefs": [
-              "behavior:codex:2026-09-04T05:59:23.114Z"
+              "behavior:codex:2026-09-04T11:26:53.907Z"
             ],
             "message": "Required behavior codex-msix-identity is fail."
           },
@@ -52,7 +52,7 @@
         "severity": "major",
         "status": "UNVERIFIED"
       },
-      "version": "26.901.2854.0"
+      "version": "26.901.4073.0"
     },
     {
       "channel": "latest",
