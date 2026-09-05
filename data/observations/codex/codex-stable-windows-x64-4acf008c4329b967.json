@@ -1,0 +1,563 @@
+{
+  "artifacts": [
+    {
+      "fileName": "unavailable",
+      "format": "unavailable",
+      "id": "artifact:codex:unavailable:26.901.5280.0",
+      "kind": "artifact",
+      "observedAt": "2026-09-05T05:50:27.960Z",
+      "packageVersion": "26.901.5280.0",
+      "sourceHost": "unavailable",
+      "status": "unsupported",
+      "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+      "verification": []
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-09-05T05:50:27.960Z",
+      "kind": "behavior",
+      "observedAt": "2026-09-05T05:50:27.960Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-05T05:50:27.960Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-05T05:50:27.960Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-backend-version"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-05T05:50:27.960Z",
+          "status": "not-applicable",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "unsupported",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42925"
+        ],
+        "signature": "code:allow_local_binding|title:allow-local-binding-cover-ipv4-mapped|version:0.149.0|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42927"
+        ],
+        "signature": "code:built-in|title:windows-pet-responds-hover-but-clicked|version:26.901.4073.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42922"
+        ],
+        "signature": "code:codex-context-aware|title:feature-request-bring-codex-context-aware",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42923"
+        ],
+        "signature": "code:dual-monitor|title:windows-pets-pet-gets-stuck-secondary|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42919"
+        ],
+        "signature": "code:environment|title:android-remote-project-list-differs-desktop|version:26.901.41600",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42936"
+        ],
+        "signature": "code:error|title:connection-failed-sending-request|version:26.901.31953|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42935"
+        ],
+        "signature": "code:existing|title:desktop-subagent-sends-progress-historical-unrelated|version:0.153.0-alpha.5|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42928"
+        ],
+        "signature": "code:extension|title:macos-websocket-closes-before-response-completed|version:26.901.31953|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42929"
+        ],
+        "signature": "code:full-screen|title:codex-full-screen-image-preview-partially|version:26.901.20858",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42930"
+        ],
+        "signature": "code:get-appxpackage|title:windows-astra-user-request-visible-missing|version:26.901.5003.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42937"
+        ],
+        "signature": "code:gpt-5|title:gpt-high-peak-capability-but-lower|version:5.6|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42934"
+        ],
+        "signature": "code:gpt-6|title:macos-gpt-astra-selection-contradicts-assistant|version:26.901.41600|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42924"
+        ],
+        "signature": "code:node_repl|title:windows-computer-use-initialization-wsl-workspace|version:26.901.5003.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42921"
+        ],
+        "signature": "code:opt-in|title:add-checkpointed-continuation-context-boundaries|version:1.96.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42920"
+        ],
+        "signature": "code:project-trust|title:android-remote-start-project-chats-generated|version:26.901.41600|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42918"
+        ],
+        "signature": "code:reminder_threshold_tokens|title:overriding-reminder-threshold-tokens-silently-drops|version:0.153.1|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42932"
+        ],
+        "signature": "code:site-safety|title:macos-browser-use-www-pixiv-net|version:26.901.41123|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:42926"
+        ],
+        "signature": "code:status-item|title:macos-beachballs-status-item-scene-creation|version:26.901.41123|platform:arm64",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "efe130efe68092c99177e32bdcf73320cdbc4b88f8efd0538a507bf590a823fc",
+      "lookbackHours": 72,
+      "releaseVersion": "26.901.5280.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-09-05T03:34:15Z",
+        "explicitVersion": "0.153.1",
+        "id": "github-issue:openai/codex:42918",
+        "labels": [
+          "bug",
+          "CLI",
+          "config",
+          "context"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:reminder_threshold_tokens|title:overriding-reminder-threshold-tokens-silently-drops|version:0.153.1|platform:arm64",
+        "title": "Overriding reminder_threshold_tokens silently drops model-provided handoff guidance and fallback",
+        "url": "https://github.com/openai/codex/issues/42918"
+      },
+      {
+        "createdAt": "2026-09-05T03:37:22Z",
+        "explicitVersion": "26.901.41600",
+        "id": "github-issue:openai/codex:42919",
+        "labels": [
+          "app-server",
+          "bug",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:environment|title:android-remote-project-list-differs-desktop|version:26.901.41600",
+        "title": "Android Remote project list differs from Desktop: stale folders remain and a saved project is missing",
+        "url": "https://github.com/openai/codex/issues/42919"
+      },
+      {
+        "createdAt": "2026-09-05T03:39:00Z",
+        "explicitVersion": "26.901.41600",
+        "id": "github-issue:openai/codex:42920",
+        "labels": [
+          "app",
+          "bug",
+          "remote",
+          "sandbox"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "resolutionReference": "https://github.com/openai/codex/issues/42920",
+        "signature": "code:project-trust|title:android-remote-start-project-chats-generated|version:26.901.41600|platform:macos",
+        "title": "Android Remote cannot start “No project” chats: generated directory fails project-trust validation on Debian",
+        "url": "https://github.com/openai/codex/issues/42920"
+      },
+      {
+        "createdAt": "2026-09-05T03:44:47Z",
+        "explicitVersion": "1.96.0",
+        "id": "github-issue:openai/codex:42921",
+        "labels": [
+          "CLI",
+          "context",
+          "enhancement",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:opt-in|title:add-checkpointed-continuation-context-boundaries|version:1.96.0|platform:windows",
+        "title": "CLI: add checkpointed continuation at context boundaries",
+        "url": "https://github.com/openai/codex/issues/42921"
+      },
+      {
+        "createdAt": "2026-09-05T03:44:55Z",
+        "id": "github-issue:openai/codex:42922",
+        "labels": [
+          "enhancement",
+          "iOS",
+          "remote",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:codex-context-aware|title:feature-request-bring-codex-context-aware",
+        "title": "[Feature Request] Bring Codex-context-aware Quick Chat and “Add to Task” workflow to mobile Remote",
+        "url": "https://github.com/openai/codex/issues/42922"
+      },
+      {
+        "createdAt": "2026-09-05T03:46:16Z",
+        "id": "github-issue:openai/codex:42923",
+        "labels": [
+          "app",
+          "bug",
+          "pets",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:dual-monitor|title:windows-pets-pet-gets-stuck-secondary|platform:windows",
+        "title": "[Windows][Pets] Pet gets stuck on secondary monitor and cannot be dragged back",
+        "url": "https://github.com/openai/codex/issues/42923"
+      },
+      {
+        "createdAt": "2026-09-05T03:59:50Z",
+        "explicitVersion": "26.901.5003.0",
+        "id": "github-issue:openai/codex:42924",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:node_repl|title:windows-computer-use-initialization-wsl-workspace|version:26.901.5003.0|platform:windows",
+        "title": "Windows app: Computer Use initialization fails for a WSL workspace with “sandboxCwd is not a local file URI”",
+        "url": "https://github.com/openai/codex/issues/42924"
+      },
+      {
+        "createdAt": "2026-09-05T04:25:38Z",
+        "explicitVersion": "0.149.0",
+        "id": "github-issue:openai/codex:42925",
+        "labels": [
+          "bug",
+          "CLI",
+          "connectivity",
+          "sandbox"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:allow_local_binding|title:allow-local-binding-cover-ipv4-mapped|version:0.149.0|platform:arm64",
+        "title": "[CLI] allow_local_binding does not cover IPv4-mapped IPv6 loopback connections",
+        "url": "https://github.com/openai/codex/issues/42925"
+      },
+      {
+        "createdAt": "2026-09-05T04:28:41Z",
+        "explicitVersion": "26.901.41123",
+        "id": "github-issue:openai/codex:42926",
+        "labels": [
+          "app",
+          "bug",
+          "performance"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:status-item|title:macos-beachballs-status-item-scene-creation|version:26.901.41123|platform:arm64",
+        "title": "macOS app beachballs in status-item scene creation after Control Center reports mismatched pid version",
+        "url": "https://github.com/openai/codex/issues/42926"
+      },
+      {
+        "createdAt": "2026-09-05T04:39:08Z",
+        "explicitVersion": "26.901.4073.0",
+        "id": "github-issue:openai/codex:42927",
+        "labels": [
+          "app",
+          "bug",
+          "pets",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:built-in|title:windows-pet-responds-hover-but-clicked|version:26.901.4073.0|platform:windows",
+        "title": "[Windows][26.901.4073.0] Pet responds to hover but cannot be clicked or dragged, including built-in pets",
+        "url": "https://github.com/openai/codex/issues/42927"
+      },
+      {
+        "createdAt": "2026-09-05T04:42:24Z",
+        "explicitVersion": "26.901.31953",
+        "id": "github-issue:openai/codex:42928",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:extension|title:macos-websocket-closes-before-response-completed|version:26.901.31953|platform:macos",
+        "title": "[macOS app] WebSocket closes before response.completed during an active Codex task; Reconnecting 5/5",
+        "url": "https://github.com/openai/codex/issues/42928"
+      },
+      {
+        "createdAt": "2026-09-05T04:56:50Z",
+        "explicitVersion": "26.901.20858",
+        "id": "github-issue:openai/codex:42929",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:full-screen|title:codex-full-screen-image-preview-partially|version:26.901.20858",
+        "title": "[Codex App] Full-screen image preview is partially covered by the chat composer",
+        "url": "https://github.com/openai/codex/issues/42929"
+      },
+      {
+        "createdAt": "2026-09-05T05:09:31Z",
+        "explicitVersion": "26.901.5003.0",
+        "id": "github-issue:openai/codex:42930",
+        "labels": [
+          "app",
+          "bug",
+          "context",
+          "model-behavior",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:get-appxpackage|title:windows-astra-user-request-visible-missing|version:26.901.5003.0|platform:windows",
+        "title": "[Windows App][Astra] Latest user request visible in UI is missing from rollout after interrupted turns and compaction",
+        "url": "https://github.com/openai/codex/issues/42930"
+      },
+      {
+        "createdAt": "2026-09-05T05:27:48Z",
+        "explicitVersion": "26.901.41123",
+        "id": "github-issue:openai/codex:42932",
+        "labels": [
+          "app",
+          "browser",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:site-safety|title:macos-browser-use-www-pixiv-net|version:26.901.41123|platform:arm64",
+        "title": "[macOS][Browser Use] www.pixiv.net blocked by site-safety policy despite explicit permission",
+        "url": "https://github.com/openai/codex/issues/42932"
+      },
+      {
+        "createdAt": "2026-09-05T05:33:37Z",
+        "explicitVersion": "26.901.41600",
+        "id": "github-issue:openai/codex:42934",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:gpt-6|title:macos-gpt-astra-selection-contradicts-assistant|version:26.901.41600|platform:arm64",
+        "title": "[macOS app] GPT-6 Astra selection contradicts assistant response claiming GPT-5",
+        "url": "https://github.com/openai/codex/issues/42934"
+      },
+      {
+        "createdAt": "2026-09-05T05:44:15Z",
+        "explicitVersion": "0.153.0-alpha.5",
+        "id": "github-issue:openai/codex:42935",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior",
+          "subagent"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:existing|title:desktop-subagent-sends-progress-historical-unrelated|version:0.153.0-alpha.5|platform:macos",
+        "title": "Desktop subagent sends progress to historical unrelated task and parent confuses relayed task identity",
+        "url": "https://github.com/openai/codex/issues/42935"
+      },
+      {
+        "createdAt": "2026-09-05T05:45:20Z",
+        "explicitVersion": "26.901.31953",
+        "id": "github-issue:openai/codex:42936",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:error|title:connection-failed-sending-request|version:26.901.31953|platform:arm64",
+        "title": "Connection failed: error sending request",
+        "url": "https://github.com/openai/codex/issues/42936"
+      },
+      {
+        "createdAt": "2026-09-05T05:50:23Z",
+        "explicitVersion": "5.6",
+        "id": "github-issue:openai/codex:42937",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/42937",
+        "signature": "code:gpt-5|title:gpt-high-peak-capability-but-lower|version:5.6|platform:windows",
+        "title": "GPT-5.6: high peak capability, but lower autonomous completion and higher supervision burden",
+        "url": "https://github.com/openai/codex/issues/42937"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-09-05T05:51:03.123Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "18 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-9cf71edaaca0ad00",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-4acf008c4329b967",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.901.5280.0",
+    "channel": "stable",
+    "discoveredAt": "2026-09-05T05:50:27.960Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.901.5280.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "8c3c355e96d5e73029fd0a4870fcd2f6178b133cf59599cccb8791c97fdc2f49",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-09-05T05:50:27.999Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.901.5280.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.901.5280.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "e7e7c85d-976d-477a-8d1f-88befbbd5a33"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.901.5280.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-09-05T05:50:27.960Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "warning",
+      "summary": "FE3 x64 package 26.901.5280.0 is ahead of DisplayCatalog 26.901.5003.0; acquisition is vetoed pending metadata convergence. Official rollout signal reports 26.901.5280.0."
+    },
+    {
+      "details": {
+        "buildVersion": "26.901.5280.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-09-05T05:50:27.960Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:codex:unavailable:26.901.5280.0"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-05T05:50:27.960Z"
+        ],
+        "message": "Required behavior codex-msix-identity is unsupported."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-05T05:50:27.960Z"
+        ],
+        "message": "Required behavior codex-backend-version is unsupported."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}
