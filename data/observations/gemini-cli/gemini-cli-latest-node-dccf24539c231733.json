@@ -91,13 +91,6 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29199"
-        ],
-        "signature": "code:enforce|title:mcp-runtime-policy-normalize-names-enforce",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29213"
         ],
         "signature": "code:gemini-2|title:unexpected-model-resolution-gemini-mapped-gemini|version:0.58.0|platform:linux",
@@ -119,29 +112,13 @@
       }
     ],
     "details": {
-      "fingerprint": "c773ca551dd60ed2e0c4fe1fbe6b19c8b22a7fa81a59156838cebaa3fc73d322",
+      "fingerprint": "aa9463fe6406666f27a2d5585cbbf6096e9b84e4b008133d6bc54732300d1b25",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-04T03:24:01Z",
-        "id": "github-issue:google-gemini/gemini-cli:29199",
-        "labels": [
-          "area/non-interactive",
-          "effort/medium",
-          "kind/bug",
-          "priority/p2",
-          "status/manual-triage",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:enforce|title:mcp-runtime-policy-normalize-names-enforce",
-        "title": "MCP runtime policy does not normalize names or enforce an empty allowlist",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29199"
-      },
       {
         "createdAt": "2026-09-04T06:56:40Z",
         "id": "github-issue:google-gemini/gemini-cli:29202",
@@ -208,10 +185,10 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-05T05:51:19.707Z",
+    "observedAt": "2026-09-05T10:43:36.409Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "4 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-38b690926d1f7391",
   "interfaces": [
