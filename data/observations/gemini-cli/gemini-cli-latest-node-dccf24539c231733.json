@@ -116,39 +116,16 @@
         ],
         "signature": "code:json-encoded|title:mcp-prompt-responses-submitted-json-encoded",
         "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29202"
-        ],
-        "signature": "code:shell-wrapper|title:policy-bypass-shell-wrapper-flags-skip|platform:windows",
-        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "58cf780c981afe468fa032676880d6c5254a3e6d09dc7d69f2750190855ec7f8",
+      "fingerprint": "50e431cce55bd70186ce27c3517033d8bdf36af0f3c0b45de3a362bfaf4cf0d7",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-04T06:56:40Z",
-        "id": "github-issue:google-gemini/gemini-cli:29202",
-        "labels": [
-          "area/enterprise",
-          "kind/bug",
-          "priority/p2",
-          "status/manual-triage",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:shell-wrapper|title:policy-bypass-shell-wrapper-flags-skip|platform:windows",
-        "title": "Policy bypass: shell-wrapper flags skip inner command re-check",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29202"
-      },
       {
         "createdAt": "2026-09-04T07:02:49Z",
         "id": "github-issue:google-gemini/gemini-cli:29204",
@@ -185,10 +162,11 @@
         "explicitVersion": "0.58.0",
         "id": "github-issue:google-gemini/gemini-cli:29213",
         "labels": [
-          "area/agent",
+          "area/core",
           "kind/bug",
-          "priority/p1",
-          "status/bot-triaged"
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
         ],
         "maintainerAcknowledged": false,
         "platform": "linux",
@@ -229,10 +207,10 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-05T21:20:17.697Z",
+    "observedAt": "2026-09-05T23:58:43.351Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-38b690926d1f7391",
   "interfaces": [
