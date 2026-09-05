@@ -84,9 +84,23 @@
     "clusters": [
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29221"
+        ],
+        "signature": "code:blaat_a4-din|title:leeres-blaat-din",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29207"
         ],
         "signature": "code:edit|title:corrupt-agents-json-valid-json-wrong",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29220"
+        ],
+        "signature": "code:eine|title:wahrnehmung-schwankung-spannung-kontrast-gegenspieler-auff",
         "strength": "weak"
       },
       {
@@ -112,7 +126,7 @@
       }
     ],
     "details": {
-      "fingerprint": "aa9463fe6406666f27a2d5585cbbf6096e9b84e4b008133d6bc54732300d1b25",
+      "fingerprint": "e8f4907cb7e314e15d771dabf0ce153ad7d4b8f85dc885259e40b4d1c26b488f",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
@@ -182,13 +196,37 @@
         "signature": "code:gemini-2|title:unexpected-model-resolution-gemini-mapped-gemini|version:0.58.0|platform:linux",
         "title": "Unexpected model resolution: gemini-2.5-flash is mapped to gemini-3.5-flash",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29213"
+      },
+      {
+        "createdAt": "2026-09-05T12:49:50Z",
+        "id": "github-issue:google-gemini/gemini-cli:29220",
+        "labels": [
+          "area/unknown",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:eine|title:wahrnehmung-schwankung-spannung-kontrast-gegenspieler-auff",
+        "title": "𓂀 = Wahrnehmung 👁️ ⌁ = Schwankung ⟁ = Spannung ☍ = Kontrast / Gegenspieler ⟡ = auffälliger Punkt ◌ = unklar / offen ᛟ = Zustand / Kern ⚚ = Beobachtung / Versorgung  Eine zufällige SYM-GLYPH-Kette wäre dann:  𓂀 ⌁ ⟁ ◌ ⟡ ☍ ᛟ ⚚",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29220"
+      },
+      {
+        "createdAt": "2026-09-05T13:07:30Z",
+        "id": "github-issue:google-gemini/gemini-cli:29221",
+        "labels": [
+          "area/unknown",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:blaat_a4-din|title:leeres-blaat-din",
+        "title": "Leeres.blaat_A4-DIN",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29221"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-05T10:43:36.409Z",
+    "observedAt": "2026-09-05T13:54:44.103Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "4 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-38b690926d1f7391",
   "interfaces": [
