@@ -76,65 +76,44 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92345"
+          "github-issue:anthropics/claude-code:92363"
         ],
-        "signature": "code:0x80073cf9|title:bug-stray-priconfig-xml-desktop-msix|version:10.0.26100|platform:windows",
+        "signature": "code:entire|title:bug-rejected-turn-leaves-entire-session",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92347"
+          "github-issue:anthropics/claude-code:92360"
         ],
-        "signature": "code:earlier|title:bug-summarize-here-silently-drops-earlier|version:2.1.246|platform:windows",
+        "signature": "code:entire|title:voice-dictation-permanently-freezes-tui-main|version:2.1.226|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92355"
+          "github-issue:anthropics/claude-code:92364"
         ],
-        "signature": "code:effectively|title:appreciate-you-reaching-out-but-this",
+        "signature": "code:environment|title:bug-agent-ignoring-memory-context-performing|version:2.1.261|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92353"
+          "github-issue:anthropics/claude-code:92367"
         ],
-        "signature": "code:environment|title:bug-userpromptsubmit-hook-registered-valid-but|version:2.1.261|platform:windows",
+        "signature": "code:error|title:bug-anthropic-api-incorrect-safeguard-flag|version:2.1.261|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92344"
+          "github-issue:anthropics/claude-code:92373"
         ],
-        "signature": "code:environment|title:bug-windows-cmd-terminal-opens-duplicate|version:2.1.261|platform:windows",
+        "signature": "code:error|title:bug-anthropic-api-model-switching-opus|version:2.1.234|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92341"
+          "github-issue:anthropics/claude-code:92370"
         ],
-        "signature": "code:etc|title:feature-request-add-session-management-controls|version:2.1.261|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:92342"
-        ],
-        "signature": "code:event|title:feature-request-hook-that-fires-session|version:2.55.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:92349"
-        ],
-        "signature": "code:every|title:bug-ultracode-removes-proportionality-use-workflow|version:2.1.260|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:92354"
-        ],
-        "signature": "code:every|title:plugin-cache-new-dir-inherits-previous|version:2.1.261|platform:arm64",
+        "signature": "code:every|title:claude-chrome-all-sites-blocked-site|version:23.3.0|platform:macos",
         "strength": "weak"
       },
       {
@@ -146,30 +125,16 @@
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92348"
+          "github-issue:anthropics/claude-code:92369"
         ],
-        "signature": "code:exactly|title:prompt-suggestion-should-steer-toward-right",
+        "signature": "code:executes|title:bug-session-resumes-executes-further-tool|version:2.1.260|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92350"
+          "github-issue:anthropics/claude-code:92361"
         ],
-        "signature": "code:existing|title:bug-permissions-silently-drops-existing-rules|version:2.1.261|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:92352"
-        ],
-        "signature": "code:existing|title:bug-weighted-behavior-training-overrides-rules|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:92343"
-        ],
-        "signature": "code:existing|title:bug|platform:macos",
+        "signature": "code:execution|title:bug-claude-prioritizes-tool-execution-even|version:2.1.261|platform:macos",
         "strength": "weak"
       },
       {
@@ -188,6 +153,20 @@
       },
       {
         "issueIds": [
+          "github-issue:anthropics/claude-code:92371"
+        ],
+        "signature": "code:expires|title:bug-session-expires-too-quickly-low|version:2.1.261|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:92375"
+        ],
+        "signature": "code:explain|title:bug-false-positive-safety-flag-git|version:2.1.251|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:anthropics/claude-code:92357"
         ],
         "signature": "code:expose|title:scheduled-tasks-expose-per-task-directory",
@@ -195,278 +174,55 @@
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92340"
+          "github-issue:anthropics/claude-code:92374"
         ],
-        "signature": "code:multi-step|title:bug-claude-lacks-reasoning-multi-step|version:2.1.261|platform:macos",
+        "signature": "code:extension|title:chat-list-ordering-destroyed-batch-mtime|version:2.1.261|platform:x64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92351"
+          "github-issue:anthropics/claude-code:92365"
         ],
-        "signature": "code:password-handling|title:password-handling-guardrail-applies-uniformly-ignoring",
+        "signature": "code:non-string|title:non-string-entry-sandbox-filesystem-denyread|version:2.1.261|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92346"
+          "github-issue:anthropics/claude-code:92372"
         ],
-        "signature": "code:system-reminder|title:system-reminder-wrapper-claude-memory-uses",
+        "signature": "code:opt-in|title:feature-request-opt-local-bridge-scheduled|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:92366"
+        ],
+        "signature": "code:permission-approval|title:voice-dictation-should-keep-recording-through",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:92362"
+        ],
+        "signature": "code:self-built|title:self-built-feature-future-proof",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:92368"
+        ],
+        "signature": "code:tool-call|title:bug-opening-text-turn-tool-call|version:2.1.219|platform:macos",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "d32f24659813599743a8e31746ff38f3cdcff24340020cb0905b429b46da1946",
+      "fingerprint": "f937d8b0dcfe0f2998bc89b1594729413d27b886e7d69f95c049a199340f1b6d",
       "lookbackHours": 72,
       "releaseVersion": "2.1.261",
       "source": "official-github-issues"
     },
     "id": "community:claude-code:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-05T15:10:14Z",
-        "explicitVersion": "2.1.261",
-        "id": "github-issue:anthropics/claude-code:92340",
-        "labels": [
-          "area:model",
-          "bug",
-          "needs-repro",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:multi-step|title:bug-claude-lacks-reasoning-multi-step|version:2.1.261|platform:macos",
-        "title": "[Bug] Claude Code lacks reasoning for multi-step function implementations",
-        "url": "https://github.com/anthropics/claude-code/issues/92340"
-      },
-      {
-        "createdAt": "2026-09-05T15:15:57Z",
-        "explicitVersion": "2.1.261",
-        "id": "github-issue:anthropics/claude-code:92341",
-        "labels": [
-          "area:cli",
-          "area:tui",
-          "enhancement",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:etc|title:feature-request-add-session-management-controls|version:2.1.261|platform:macos",
-        "title": "[Feature Request] Add session management controls: immediate deletion, pinning, and TUI dashboard",
-        "url": "https://github.com/anthropics/claude-code/issues/92341"
-      },
-      {
-        "createdAt": "2026-09-05T15:18:49Z",
-        "explicitVersion": "2.55.0",
-        "id": "github-issue:anthropics/claude-code:92342",
-        "labels": [
-          "area:hooks",
-          "enhancement",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:event|title:feature-request-hook-that-fires-session|version:2.55.0|platform:windows",
-        "title": "Feature request: a hook that fires after a session releases its worktree, so cleanup can succeed",
-        "url": "https://github.com/anthropics/claude-code/issues/92342"
-      },
-      {
-        "createdAt": "2026-09-05T15:26:18Z",
-        "id": "github-issue:anthropics/claude-code:92343",
-        "labels": [
-          "invalid"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:existing|title:bug|platform:macos",
-        "title": "[BUG]",
-        "url": "https://github.com/anthropics/claude-code/issues/92343"
-      },
-      {
-        "createdAt": "2026-09-05T15:36:16Z",
-        "explicitVersion": "2.1.261",
-        "id": "github-issue:anthropics/claude-code:92344",
-        "labels": [
-          "area:tui",
-          "bug",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:environment|title:bug-windows-cmd-terminal-opens-duplicate|version:2.1.261|platform:windows",
-        "title": "[Bug] Windows CMD terminal opens duplicate tabs when clicking links",
-        "url": "https://github.com/anthropics/claude-code/issues/92344"
-      },
-      {
-        "createdAt": "2026-09-05T15:41:52Z",
-        "explicitVersion": "10.0.26100",
-        "id": "github-issue:anthropics/claude-code:92345",
-        "labels": [
-          "area:cowork",
-          "area:desktop",
-          "area:installation",
-          "bug",
-          "has repro",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:0x80073cf9|title:bug-stray-priconfig-xml-desktop-msix|version:10.0.26100|platform:windows",
-        "title": "[BUG] Stray priconfig.xml in Desktop MSIX breaks installation with 0x80073CF9",
-        "url": "https://github.com/anthropics/claude-code/issues/92345"
-      },
-      {
-        "createdAt": "2026-09-05T15:43:59Z",
-        "id": "github-issue:anthropics/claude-code:92346",
-        "labels": [
-          "area:core",
-          "area:security",
-          "enhancement"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:system-reminder|title:system-reminder-wrapper-claude-memory-uses",
-        "title": "System-reminder wrapper for CLAUDE.md/MEMORY.md uses injection-shaped language (\"OVERRIDE any default behavior... MUST follow exactly as written\")",
-        "url": "https://github.com/anthropics/claude-code/issues/92346"
-      },
-      {
-        "createdAt": "2026-09-05T15:59:10Z",
-        "explicitVersion": "2.1.246",
-        "id": "github-issue:anthropics/claude-code:92347",
-        "labels": [
-          "area:core",
-          "bug",
-          "data-loss",
-          "has repro",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:earlier|title:bug-summarize-here-silently-drops-earlier|version:2.1.246|platform:windows",
-        "title": "[Bug] \"Summarize up to here\" silently drops earlier compact summaries located after the anchor - permanent context loss",
-        "url": "https://github.com/anthropics/claude-code/issues/92347"
-      },
-      {
-        "createdAt": "2026-09-05T16:01:51Z",
-        "id": "github-issue:anthropics/claude-code:92348",
-        "labels": [
-          "area:desktop",
-          "area:tui",
-          "enhancement",
-          "user-experience"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:exactly|title:prompt-suggestion-should-steer-toward-right",
-        "title": "The prompt suggestion should steer toward the right next action, not the most predictable one",
-        "url": "https://github.com/anthropics/claude-code/issues/92348"
-      },
-      {
-        "createdAt": "2026-09-05T16:07:25Z",
-        "explicitVersion": "2.1.260",
-        "id": "github-issue:anthropics/claude-code:92349",
-        "labels": [
-          "area:agents",
-          "area:cost",
-          "bug",
-          "has repro",
-          "platform:macos",
-          "regression"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:every|title:bug-ultracode-removes-proportionality-use-workflow|version:2.1.260|platform:macos",
-        "title": "[BUG] Ultracode removes proportionality: \"use the Workflow tool on every substantive task; token cost is not a constraint\" turns a settings audit into 325 agents and a design task into 16, re-reading what the main loop already read, on a sticky effort setting the user cannot see",
-        "url": "https://github.com/anthropics/claude-code/issues/92349"
-      },
-      {
-        "createdAt": "2026-09-05T16:07:40Z",
-        "explicitVersion": "2.1.261",
-        "id": "github-issue:anthropics/claude-code:92350",
-        "labels": [
-          "area:permissions",
-          "bug",
-          "data-loss"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:existing|title:bug-permissions-silently-drops-existing-rules|version:2.1.261|platform:macos",
-        "title": "[BUG] /permissions silently drops existing rules with lowercase tool names when adding a new rule",
-        "url": "https://github.com/anthropics/claude-code/issues/92350"
-      },
-      {
-        "createdAt": "2026-09-05T16:17:59Z",
-        "id": "github-issue:anthropics/claude-code:92351",
-        "labels": [
-          "area:model",
-          "area:security",
-          "enhancement"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:password-handling|title:password-handling-guardrail-applies-uniformly-ignoring",
-        "title": "Password-handling guardrail applies uniformly, ignoring low-stakes dev context, and can contradict itself",
-        "url": "https://github.com/anthropics/claude-code/issues/92351"
-      },
-      {
-        "createdAt": "2026-09-05T16:18:09Z",
-        "id": "github-issue:anthropics/claude-code:92352",
-        "labels": [
-          "area:hooks",
-          "area:model",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:existing|title:bug-weighted-behavior-training-overrides-rules|platform:macos",
-        "title": "[BUG] Weighted Behavior Training Overrides Rules",
-        "url": "https://github.com/anthropics/claude-code/issues/92352"
-      },
-      {
-        "createdAt": "2026-09-05T16:21:59Z",
-        "explicitVersion": "2.1.261",
-        "id": "github-issue:anthropics/claude-code:92353",
-        "labels": [
-          "area:hooks",
-          "bug",
-          "has repro",
-          "platform:windows",
-          "regression"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:environment|title:bug-userpromptsubmit-hook-registered-valid-but|version:2.1.261|platform:windows",
-        "title": "[BUG] UserPromptSubmit hook registered and valid but never invoked on real prompt submission (Git Bash CLI, Windows, v2.1.261) — possible regression of #17277",
-        "url": "https://github.com/anthropics/claude-code/issues/92353"
-      },
-      {
-        "createdAt": "2026-09-05T16:23:44Z",
-        "explicitVersion": "2.1.261",
-        "id": "github-issue:anthropics/claude-code:92354",
-        "labels": [
-          "area:plugins",
-          "bug",
-          "has repro",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:every|title:plugin-cache-new-dir-inherits-previous|version:2.1.261|platform:arm64",
-        "title": "Plugin cache: a new version dir inherits the previous one's untracked files, replicating them forever",
-        "url": "https://github.com/anthropics/claude-code/issues/92354"
-      },
-      {
-        "createdAt": "2026-09-05T16:24:29Z",
-        "id": "github-issue:anthropics/claude-code:92355",
-        "labels": [
-          "area:cost",
-          "bug",
-          "needs-info",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "resolutionReference": "https://github.com/anthropics/claude-code/issues/92355",
-        "signature": "code:effectively|title:appreciate-you-reaching-out-but-this",
-        "title": "I appreciate you reaching out, but this message doesn't contain a specific technical bug report or feature request that I can convert into a GitHub issue title.\n\nTo help address your concerns effectively, please provide:\n\n1. **Specific problem**: What exac",
-        "url": "https://github.com/anthropics/claude-code/issues/92355"
-      },
       {
         "createdAt": "2026-09-05T16:25:12Z",
         "explicitVersion": "2.1.252",
@@ -528,10 +284,257 @@
         "signature": "code:existing|title:bug|version:2.1.183|platform:windows",
         "title": "[BUG]",
         "url": "https://github.com/anthropics/claude-code/issues/92359"
+      },
+      {
+        "createdAt": "2026-09-05T17:04:45Z",
+        "explicitVersion": "2.1.226",
+        "id": "github-issue:anthropics/claude-code:92360",
+        "labels": [
+          "area:tui",
+          "bug",
+          "has repro",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:entire|title:voice-dictation-permanently-freezes-tui-main|version:2.1.226|platform:arm64",
+        "title": "Voice dictation permanently freezes TUI: main thread blocked in synchronous CoreAudio call (AudioUnitSetProperty) while opening microphone",
+        "url": "https://github.com/anthropics/claude-code/issues/92360"
+      },
+      {
+        "createdAt": "2026-09-05T17:44:29Z",
+        "explicitVersion": "2.1.261",
+        "id": "github-issue:anthropics/claude-code:92361",
+        "labels": [
+          "area:model",
+          "area:tools",
+          "bug",
+          "needs-repro",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:execution|title:bug-claude-prioritizes-tool-execution-even|version:2.1.261|platform:macos",
+        "title": "[Bug] Claude prioritizes tool execution even though it is explicit in the  acknowledgment that the tools cannot be trusted.",
+        "url": "https://github.com/anthropics/claude-code/issues/92361"
+      },
+      {
+        "createdAt": "2026-09-05T17:52:21Z",
+        "id": "github-issue:anthropics/claude-code:92362",
+        "labels": [
+          "area:cowork",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:self-built|title:self-built-feature-future-proof",
+        "title": "[self-built FEATURE - is it future proof?]",
+        "url": "https://github.com/anthropics/claude-code/issues/92362"
+      },
+      {
+        "createdAt": "2026-09-05T17:53:52Z",
+        "id": "github-issue:anthropics/claude-code:92363",
+        "labels": [
+          "area:model",
+          "bug",
+          "platform:vscode"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:entire|title:bug-rejected-turn-leaves-entire-session",
+        "title": "[BUG] Rejected turn leaves entire session stuck in refusal loop, even for trivial prompts like \"hola\"",
+        "url": "https://github.com/anthropics/claude-code/issues/92363"
+      },
+      {
+        "createdAt": "2026-09-05T17:55:52Z",
+        "explicitVersion": "2.1.261",
+        "id": "github-issue:anthropics/claude-code:92364",
+        "labels": [
+          "area:model",
+          "bug",
+          "memory",
+          "needs-repro",
+          "platform:vscode",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:environment|title:bug-agent-ignoring-memory-context-performing|version:2.1.261|platform:windows",
+        "title": "[Bug] Agent ignoring memory context and performing unintended actions beyond scope",
+        "url": "https://github.com/anthropics/claude-code/issues/92364"
+      },
+      {
+        "createdAt": "2026-09-05T18:02:20Z",
+        "explicitVersion": "2.1.261",
+        "id": "github-issue:anthropics/claude-code:92365",
+        "labels": [
+          "area:permissions",
+          "area:sandbox",
+          "area:security",
+          "bug",
+          "has repro",
+          "platform:wsl"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:non-string|title:non-string-entry-sandbox-filesystem-denyread|version:2.1.261|platform:linux",
+        "title": "A non-string entry in sandbox.filesystem.denyRead/denyWrite silently disables permissions.deny and PreToolUse hooks (2.1.261)",
+        "url": "https://github.com/anthropics/claude-code/issues/92365"
+      },
+      {
+        "createdAt": "2026-09-05T18:10:09Z",
+        "id": "github-issue:anthropics/claude-code:92366",
+        "labels": [
+          "area:ide",
+          "enhancement",
+          "platform:vscode"
+        ],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/92366",
+        "signature": "code:permission-approval|title:voice-dictation-should-keep-recording-through",
+        "title": "Voice dictation should keep recording through permission-approval and diff-review confirmation dialogs",
+        "url": "https://github.com/anthropics/claude-code/issues/92366"
+      },
+      {
+        "createdAt": "2026-09-05T18:16:20Z",
+        "explicitVersion": "2.1.261",
+        "id": "github-issue:anthropics/claude-code:92367",
+        "labels": [
+          "area:model",
+          "bug",
+          "needs-repro",
+          "platform:linux"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:error|title:bug-anthropic-api-incorrect-safeguard-flag|version:2.1.261|platform:linux",
+        "title": "[Bug] Anthropic API Error: Incorrect Safeguard Flag on Non-Cybersecurity Content",
+        "url": "https://github.com/anthropics/claude-code/issues/92367"
+      },
+      {
+        "createdAt": "2026-09-05T18:18:31Z",
+        "explicitVersion": "2.1.219",
+        "id": "github-issue:anthropics/claude-code:92368",
+        "labels": [
+          "area:tui",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:tool-call|title:bug-opening-text-turn-tool-call|version:2.1.219|platform:macos",
+        "title": "[BUG] Opening text of the turn after a tool-call rejection is dropped from display AND the session transcript (model/user conversation diverges)",
+        "url": "https://github.com/anthropics/claude-code/issues/92368"
+      },
+      {
+        "createdAt": "2026-09-05T18:31:40Z",
+        "explicitVersion": "2.1.260",
+        "id": "github-issue:anthropics/claude-code:92369",
+        "labels": [
+          "area:core",
+          "area:desktop",
+          "area:security",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:executes|title:bug-session-resumes-executes-further-tool|version:2.1.260|platform:macos",
+        "title": "[BUG] Session resumes and executes further tool calls after a hard trust-safety block, via background-task completion notification",
+        "url": "https://github.com/anthropics/claude-code/issues/92369"
+      },
+      {
+        "createdAt": "2026-09-05T18:35:41Z",
+        "explicitVersion": "23.3.0",
+        "id": "github-issue:anthropics/claude-code:92370",
+        "labels": [
+          "area:chrome",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:every|title:claude-chrome-all-sites-blocked-site|version:23.3.0|platform:macos",
+        "title": "Claude in Chrome: all sites blocked by site permissions, persists across full reinstall",
+        "url": "https://github.com/anthropics/claude-code/issues/92370"
+      },
+      {
+        "createdAt": "2026-09-05T18:46:01Z",
+        "explicitVersion": "2.1.261",
+        "id": "github-issue:anthropics/claude-code:92371",
+        "labels": [
+          "area:auth",
+          "bug",
+          "platform:linux"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:expires|title:bug-session-expires-too-quickly-low|version:2.1.261|platform:linux",
+        "title": "[Bug] Session expires too quickly with low priority requests",
+        "url": "https://github.com/anthropics/claude-code/issues/92371"
+      },
+      {
+        "createdAt": "2026-09-05T18:47:23Z",
+        "id": "github-issue:anthropics/claude-code:92372",
+        "labels": [
+          "area:mcp",
+          "area:routines",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:opt-in|title:feature-request-opt-local-bridge-scheduled|platform:macos",
+        "title": "Feature request: opt-in local bridge so scheduled cloud agents (routines) can use local MCP servers",
+        "url": "https://github.com/anthropics/claude-code/issues/92372"
+      },
+      {
+        "createdAt": "2026-09-05T18:56:48Z",
+        "explicitVersion": "2.1.234",
+        "id": "github-issue:anthropics/claude-code:92373",
+        "labels": [
+          "area:model",
+          "bug",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:error|title:bug-anthropic-api-model-switching-opus|version:2.1.234|platform:windows",
+        "title": "[Bug] Anthropic API Error: Model switching to Opus 5 causing degraded code quality",
+        "url": "https://github.com/anthropics/claude-code/issues/92373"
+      },
+      {
+        "createdAt": "2026-09-05T18:59:52Z",
+        "explicitVersion": "2.1.261",
+        "id": "github-issue:anthropics/claude-code:92374",
+        "labels": [
+          "area:vscode",
+          "bug",
+          "has repro",
+          "platform:linux",
+          "platform:vscode"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:extension|title:chat-list-ordering-destroyed-batch-mtime|version:2.1.261|platform:x64",
+        "title": "Chat list ordering destroyed by batch mtime restamping of old transcripts",
+        "url": "https://github.com/anthropics/claude-code/issues/92374"
+      },
+      {
+        "createdAt": "2026-09-05T19:03:46Z",
+        "explicitVersion": "2.1.251",
+        "id": "github-issue:anthropics/claude-code:92375",
+        "labels": [
+          "area:model",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:explain|title:bug-false-positive-safety-flag-git|version:2.1.251|platform:macos",
+        "title": "[Bug] False Positive Safety Flag on Git Workflow Discussion",
+        "url": "https://github.com/anthropics/claude-code/issues/92375"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-05T16:52:10.770Z",
+    "observedAt": "2026-09-05T19:05:55.476Z",
     "repository": "anthropics/claude-code",
     "status": "pass",
     "summary": "20 recent official GitHub issues observed for anthropics/claude-code."
