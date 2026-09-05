@@ -126,7 +126,7 @@
       }
     ],
     "details": {
-      "fingerprint": "e8f4907cb7e314e15d771dabf0ce153ad7d4b8f85dc885259e40b4d1c26b488f",
+      "fingerprint": "9a4c9bfd23ef4a61997c4cd716a5a602dc22fab1e387126d439bc54870074d50",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
@@ -202,7 +202,10 @@
         "id": "github-issue:google-gemini/gemini-cli:29220",
         "labels": [
           "area/unknown",
-          "status/need-triage"
+          "kind/question",
+          "priority/unknown",
+          "status/bot-triaged",
+          "status/need-information"
         ],
         "maintainerAcknowledged": false,
         "signature": "code:eine|title:wahrnehmung-schwankung-spannung-kontrast-gegenspieler-auff",
@@ -214,7 +217,10 @@
         "id": "github-issue:google-gemini/gemini-cli:29221",
         "labels": [
           "area/unknown",
-          "status/need-triage"
+          "kind/bug",
+          "priority/p3",
+          "status/bot-triaged",
+          "status/need-information"
         ],
         "maintainerAcknowledged": false,
         "signature": "code:blaat_a4-din|title:leeres-blaat-din",
@@ -223,7 +229,7 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-05T13:54:44.103Z",
+    "observedAt": "2026-09-05T16:52:33.780Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
