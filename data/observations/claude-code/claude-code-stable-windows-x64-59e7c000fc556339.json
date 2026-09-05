@@ -1,0 +1,729 @@
+{
+  "artifacts": [
+    {
+      "architecture": "x64",
+      "fileName": "claude-2.1.261-win32-x64.exe",
+      "format": "windows-exe",
+      "id": "artifact:claude-native:2.1.261",
+      "kind": "artifact",
+      "observedAt": "2026-09-05T01:03:14.087Z",
+      "packageIdentity": "Anthropic.ClaudeCode",
+      "packageVersion": "2.1.261",
+      "sha256": "f2f5d1a155167488aeb32cd263e15436253c7b1681ae147c9e73e4d6bbc3c852",
+      "sizeBytes": 218728608,
+      "sourceHost": "downloads.claude.ai",
+      "status": "pass",
+      "summary": "Claude Code native 2.1.261 executable matched the official release manifest SHA-256.",
+      "verification": [
+        {
+          "id": "claude-manifest-sha256",
+          "kind": "verification",
+          "observedAt": "2026-09-05T01:03:14.087Z",
+          "status": "pass",
+          "summary": "Downloaded native executable matches Anthropic's manifest SHA-256."
+        }
+      ]
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:claude-code:2026-09-05T01:03:14.087Z",
+      "kind": "behavior",
+      "observedAt": "2026-09-05T01:03:14.087Z",
+      "results": [
+        {
+          "durationMs": 1311,
+          "exitCode": 0,
+          "startedAt": "2026-09-05T01:03:14.087Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "claude-version completed.",
+          "testId": "claude-version"
+        },
+        {
+          "durationMs": 222,
+          "exitCode": 0,
+          "startedAt": "2026-09-05T01:03:14.087Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "claude-help completed.",
+          "testId": "claude-help"
+        },
+        {
+          "durationMs": 1237,
+          "exitCode": 0,
+          "startedAt": "2026-09-05T01:03:14.087Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "claude-diagnostics completed.",
+          "testId": "claude-diagnostics"
+        }
+      ],
+      "status": "pass",
+      "summary": "claude-code behavior suite produced 3 passing result(s)."
+    }
+  ],
+  "comparedWith": "claude-code-stable-windows-x64-0ab601430c472931",
+  "interfaces": [
+    {
+      "cliName": "claude",
+      "commands": [
+        {
+          "name": "agents",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage background agents"
+        },
+        {
+          "name": "attach",
+          "options": [],
+          "subcommands": [],
+          "summary": "Open a background session in this"
+        },
+        {
+          "name": "auth",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage authentication"
+        },
+        {
+          "name": "auto-mode",
+          "options": [],
+          "subcommands": [],
+          "summary": "Inspect or reset auto mode classifier"
+        },
+        {
+          "name": "available",
+          "options": [],
+          "subcommands": []
+        },
+        {
+          "name": "configuration",
+          "options": [],
+          "subcommands": []
+        },
+        {
+          "name": "doctor",
+          "options": [],
+          "subcommands": [],
+          "summary": "Check the health of your Claude Code"
+        },
+        {
+          "name": "findings",
+          "options": [],
+          "subcommands": []
+        },
+        {
+          "name": "gateway",
+          "options": [],
+          "subcommands": [],
+          "summary": "Run the enterprise auth/telemetry"
+        },
+        {
+          "name": "lists",
+          "options": [],
+          "subcommands": []
+        },
+        {
+          "name": "logs",
+          "options": [],
+          "subcommands": [],
+          "summary": "Print a background session's recent"
+        },
+        {
+          "name": "mcp",
+          "options": [],
+          "subcommands": [],
+          "summary": "Configure and manage MCP servers"
+        },
+        {
+          "name": "project",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage Claude Code project state"
+        },
+        {
+          "name": "rm",
+          "options": [],
+          "subcommands": [],
+          "summary": "Delete a background session, and its"
+        },
+        {
+          "name": "setup-token",
+          "options": [],
+          "subcommands": [],
+          "summary": "Set up a long-lived authentication token"
+        }
+      ],
+      "configKeys": [
+        "CLAUDE",
+        "JSON",
+        "MCP"
+      ],
+      "details": {
+        "globalOptions": [
+          {
+            "names": [
+              "--add-dir"
+            ],
+            "valueHint": "<directories...>"
+          },
+          {
+            "names": [
+              "--add-dir",
+              "--append-system-prompt",
+              "-file"
+            ]
+          },
+          {
+            "names": [
+              "--agent"
+            ],
+            "valueHint": "<agent>"
+          },
+          {
+            "names": [
+              "--agents"
+            ],
+            "valueHint": "<json>"
+          },
+          {
+            "names": [
+              "--agents",
+              "--plugin-dir",
+              "--settings"
+            ]
+          },
+          {
+            "names": [
+              "--allow-dangerously-skip-permissions"
+            ],
+            "valueHint": "E"
+          },
+          {
+            "names": [
+              "--allowed-tools",
+              "--allowedTools"
+            ],
+            "valueHint": "<tools...>"
+          },
+          {
+            "names": [
+              "--append-system-prompt"
+            ],
+            "valueHint": "<prompt>"
+          },
+          {
+            "names": [
+              "--append-system-prompt",
+              "--system-prompt"
+            ]
+          },
+          {
+            "names": [
+              "--autocompact"
+            ],
+            "valueHint": "<auto|tokens>"
+          },
+          {
+            "names": [
+              "--ax-screen-reader"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--background",
+              "--bg"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--bare"
+            ],
+            "valueHint": "M"
+          },
+          {
+            "names": [
+              "--betas"
+            ],
+            "valueHint": "<betas...>"
+          },
+          {
+            "names": [
+              "--brief"
+            ],
+            "valueHint": "E"
+          },
+          {
+            "names": [
+              "--chrome"
+            ],
+            "valueHint": "E"
+          },
+          {
+            "names": [
+              "--cloud"
+            ],
+            "valueHint": "[description|session_id|url]"
+          },
+          {
+            "names": [
+              "--continue",
+              "--resume"
+            ]
+          },
+          {
+            "names": [
+              "--continue",
+              "-c"
+            ],
+            "valueHint": "C"
+          },
+          {
+            "names": [
+              "--dangerously-skip-permissions"
+            ],
+            "valueHint": "B"
+          },
+          {
+            "names": [
+              "--debug-file"
+            ],
+            "valueHint": "<path>"
+          },
+          {
+            "names": [
+              "--debug",
+              "-d"
+            ],
+            "valueHint": "[filter]"
+          },
+          {
+            "names": [
+              "--disable-slash-commands"
+            ],
+            "valueHint": "D"
+          },
+          {
+            "names": [
+              "--disallowed-tools",
+              "--disallowedTools"
+            ],
+            "valueHint": "<tools...>"
+          },
+          {
+            "names": [
+              "--effort"
+            ],
+            "valueHint": "<level>"
+          },
+          {
+            "names": [
+              "--environment"
+            ],
+            "valueHint": "<environment_id>"
+          },
+          {
+            "names": [
+              "--exclude-dynamic-system-prompt-sections"
+            ]
+          },
+          {
+            "names": [
+              "--fallback-model"
+            ],
+            "valueHint": "<model>"
+          },
+          {
+            "names": [
+              "--file"
+            ],
+            "valueHint": "<specs...>"
+          },
+          {
+            "names": [
+              "--fork-session"
+            ],
+            "valueHint": "W"
+          },
+          {
+            "names": [
+              "--forward-subagent-text"
+            ],
+            "valueHint": "F"
+          },
+          {
+            "names": [
+              "--from-pr"
+            ],
+            "valueHint": "[value]"
+          },
+          {
+            "names": [
+              "--help",
+              "-h"
+            ],
+            "valueHint": "D"
+          },
+          {
+            "names": [
+              "--ide"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--include-hook-events"
+            ],
+            "valueHint": "I"
+          },
+          {
+            "names": [
+              "--include-partial-messages"
+            ],
+            "valueHint": "I"
+          },
+          {
+            "names": [
+              "--input-format"
+            ]
+          },
+          {
+            "names": [
+              "--input-format",
+              "--print"
+            ],
+            "valueHint": "<format>"
+          },
+          {
+            "names": [
+              "--json-schema"
+            ],
+            "valueHint": "<schema>"
+          },
+          {
+            "names": [
+              "--max-budget-usd"
+            ],
+            "valueHint": "<amount>"
+          },
+          {
+            "names": [
+              "--mcp-config"
+            ]
+          },
+          {
+            "names": [
+              "--mcp-config",
+              "--strict-mcp-config"
+            ],
+            "valueHint": "O"
+          },
+          {
+            "names": [
+              "--model"
+            ],
+            "valueHint": "<model>"
+          },
+          {
+            "names": [
+              "--name",
+              "-n"
+            ],
+            "valueHint": "<name>"
+          },
+          {
+            "names": [
+              "--no-chrome"
+            ],
+            "valueHint": "D"
+          },
+          {
+            "names": [
+              "--no-session-persistence"
+            ],
+            "valueHint": "D"
+          },
+          {
+            "names": [
+              "--output-format"
+            ]
+          },
+          {
+            "names": [
+              "--output-format",
+              "--print"
+            ]
+          },
+          {
+            "names": [
+              "--permission-mode"
+            ],
+            "valueHint": "<mode>"
+          },
+          {
+            "names": [
+              "--permission-prompt-tool"
+            ]
+          },
+          {
+            "names": [
+              "--permission-prompts"
+            ],
+            "valueHint": "<target>"
+          },
+          {
+            "names": [
+              "--plugin-dir"
+            ],
+            "valueHint": "<path>"
+          },
+          {
+            "names": [
+              "--plugin-url"
+            ],
+            "valueHint": "<url>"
+          },
+          {
+            "names": [
+              "--print"
+            ]
+          },
+          {
+            "names": [
+              "--print",
+              "-p"
+            ],
+            "valueHint": "P"
+          },
+          {
+            "names": [
+              "--prompt-suggestions"
+            ],
+            "valueHint": "[value]"
+          },
+          {
+            "names": [
+              "--remote-control"
+            ],
+            "valueHint": "[name]"
+          },
+          {
+            "names": [
+              "--remote-control-session-name-prefix"
+            ],
+            "valueHint": "<prefix>"
+          },
+          {
+            "names": [
+              "--replay-user-messages"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--restricted"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--resume"
+            ],
+            "valueHint": "<session-id>"
+          },
+          {
+            "names": [
+              "--resume",
+              "-r"
+            ],
+            "valueHint": "[value]"
+          },
+          {
+            "names": [
+              "--safe-mode"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--session-id"
+            ],
+            "valueHint": "<uuid>"
+          },
+          {
+            "names": [
+              "--setting-sources"
+            ],
+            "valueHint": "<sources>"
+          },
+          {
+            "names": [
+              "--settings"
+            ]
+          },
+          {
+            "names": [
+              "--strict-mcp-config"
+            ]
+          },
+          {
+            "names": [
+              "--system-prompt"
+            ]
+          },
+          {
+            "names": [
+              "--system-prompt-snapshot"
+            ],
+            "valueHint": "<on|off>"
+          },
+          {
+            "names": [
+              "--system-prompt",
+              "-file"
+            ]
+          },
+          {
+            "names": [
+              "--teleport"
+            ],
+            "valueHint": "[session]"
+          },
+          {
+            "names": [
+              "--tmux"
+            ],
+            "valueHint": "C"
+          },
+          {
+            "names": [
+              "--tools"
+            ]
+          },
+          {
+            "names": [
+              "--verbose"
+            ],
+            "valueHint": "O"
+          },
+          {
+            "names": [
+              "--version",
+              "-v"
+            ],
+            "valueHint": "O"
+          },
+          {
+            "names": [
+              "--worktree"
+            ]
+          },
+          {
+            "names": [
+              "--worktree",
+              "-w"
+            ],
+            "valueHint": "[name]"
+          },
+          {
+            "names": [
+              "-p"
+            ]
+          }
+        ]
+      },
+      "environmentKeys": [],
+      "id": "interface:claude:818d70e52b92",
+      "kind": "interface",
+      "observedAt": "2026-09-05T01:03:14.087Z",
+      "reportedVersion": "2.1.261",
+      "snapshotHash": "818d70e52b92290cee602b0233de5ffc0bf194cf50ee39885a00ef06b0a0cb71",
+      "status": "pass",
+      "summary": "Normalized claude CLI interface with 15 top-level commands and 78 global options."
+    }
+  ],
+  "observationId": "claude-code-stable-windows-x64-59e7c000fc556339",
+  "product": {
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "release": {
+    "canonicalVersion": "2.1.261",
+    "channel": "stable",
+    "discoveredAt": "2026-09-05T01:03:14.087Z",
+    "platform": "windows-x64",
+    "sourceVersion": "2.1.261"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "checksum": "f2f5d1a155167488aeb32cd263e15436253c7b1681ae147c9e73e4d6bbc3c852",
+        "installScriptSha256": "cd17c6b555f761d60373659824bf805e1510538226e4c7028e19d7494937a333",
+        "platform": "win32-x64",
+        "version": "2.1.261"
+      },
+      "fingerprint": "e474b3348e9bbdaf6978519e5da15723d820aa6487500386cc559e4e108b0d60",
+      "id": "claude-native:release:2.1.261",
+      "kind": "source",
+      "observedAt": "2026-09-05T01:03:14.087Z",
+      "sourceId": "claude-native",
+      "sourceType": "claude-native-release",
+      "sourceUrl": "https://downloads.claude.ai/claude-code-releases/2.1.261/manifest.json",
+      "status": "pass",
+      "summary": "Anthropic's native Windows win32-x64 release is 2.1.261 with a manifest SHA-256."
+    },
+    {
+      "details": {
+        "required": false
+      },
+      "id": "source:claude-code:github-repository:failure",
+      "kind": "source",
+      "observedAt": "2026-09-05T01:03:14.087Z",
+      "sourceId": "github-repository",
+      "sourceType": "first-party-source-adapter",
+      "status": "fail",
+      "summary": "First-party source github-repository could not be observed: HTTP 403 while reading https://api.github.com/repos/anthropics/claude-code/releases?per_page=12."
+    },
+    {
+      "details": {
+        "discoveryMethod": "winget-client",
+        "installers": [],
+        "packageId": "Anthropic.ClaudeCode",
+        "version": "2.1.258"
+      },
+      "fingerprint": "fa561a774184a2f412b98f68f02f5867de7b37f9f74b6f79dda54ea1d2f21fbd",
+      "id": "winget:manifest:2.1.258",
+      "kind": "source",
+      "observedAt": "2026-09-05T01:03:14.230Z",
+      "sourceId": "winget",
+      "sourceType": "winget-client-index",
+      "sourceUrl": "https://github.com/microsoft/winget-pkgs/tree/master/manifests/a/Anthropic/ClaudeCode",
+      "status": "pass",
+      "summary": "Read-only WinGet client reports Anthropic.ClaudeCode at 2.1.258 after the GitHub API rate limit was reached."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "OFFICIAL_DISTRIBUTIONS_DISAGREE",
+        "evidenceRefs": [],
+        "message": "Relevant official distribution channels disagree."
+      }
+    ],
+    "severity": "minor",
+    "status": "DISTRIBUTION_DRIFT"
+  }
+}
