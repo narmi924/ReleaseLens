@@ -116,10 +116,17 @@
         ],
         "signature": "code:gemini-cli|title:npm-install-google-gemini-preview",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29228"
+        ],
+        "signature": "code:mcp-server|title:geminicli-com-feedback-issue",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "b9f42c20d27b014d9164e7814a366572a73606291e36bf519ef4b65bdb620a47",
+      "fingerprint": "5614a9baacf838736794938ded061832177e9fb8701d9b8fbada4141d3019c9e",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
@@ -204,13 +211,28 @@
         "signature": "code:editor|title:bug-numeric-settings-editor-saves-overflow|version:20.19.0|platform:arm64",
         "title": "Bug: numeric settings editor saves overflow values as null",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29226"
+      },
+      {
+        "createdAt": "2026-09-06T18:17:28Z",
+        "id": "github-issue:google-gemini/gemini-cli:29228",
+        "labels": [
+          "area/extensions",
+          "effort/small",
+          "kind/question",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:mcp-server|title:geminicli-com-feedback-issue",
+        "title": "GeminiCLI.com Feedback: [ISSUE]",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29228"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-06T09:30:48.594Z",
+    "observedAt": "2026-09-06T19:17:05.907Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-dccf24539c231733",
   "interfaces": [

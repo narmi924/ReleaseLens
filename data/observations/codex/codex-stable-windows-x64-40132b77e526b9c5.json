@@ -176,16 +176,9 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:43235"
+          "github-issue:openai/codex:43256"
         ],
-        "signature": "code:application-supplied|title:codex-desktop-attributes-automatically-supplied-agents|version:26.901.6511.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:43241"
-        ],
-        "signature": "code:browser-use|title:browser-use-blocks-explicitly-authorized-user|version:1.8.0|platform:windows",
+        "signature": "code:app-server|title:server-linux-remote-control-bursts-000|version:0.153.4|platform:macos",
         "strength": "weak"
       },
       {
@@ -197,58 +190,65 @@
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43245"
+          "github-issue:openai/codex:43259"
         ],
-        "signature": "code:chrome-like|title:feature-request-chrome-like-full-page|platform:windows",
+        "signature": "code:enterprise|title:computer-use-windows|version:26.901.6511.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43247"
+          "github-issue:openai/codex:43263"
         ],
-        "signature": "code:codex-cli|title:this-content-can-shown|version:0.153.4|platform:x64",
+        "signature": "code:entirely|title:windows-intermittent-blank-startup-main-dom|version:26.901.6511.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43231"
+          "github-issue:openai/codex:43264"
         ],
-        "signature": "code:enter|title:closed-local-relay-enter-handling-established|version:0.153.4|platform:linux",
+        "signature": "code:environment|title:ios-remote-shows-internal-chatgpt-project|version:26.901.31953",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43236"
+          "github-issue:openai/codex:43266"
         ],
-        "signature": "code:error|title:windows-desktop-update-progress-repeatedly-stalls|version:26.901.31953|platform:windows",
+        "signature": "code:example|title:chatgtp-work-says-that-can-open",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43234"
+          "github-issue:openai/codex:43267"
         ],
-        "signature": "code:evidence-based|title:curated-marketplace-review-request-review|version:0.1.0",
+        "signature": "code:expected|title:assistant-replies-missing-desktop-history-using|version:26.901.41600|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43238"
+          "github-issue:openai/codex:43260"
         ],
-        "signature": "code:exit|title:allow-custom-launcher-names-exit-resume|version:0.153.4",
+        "signature": "code:explorer|title:windows-folder-links-codex-force-file|version:26.901.6511.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43239"
+          "github-issue:openai/codex:43258"
         ],
-        "signature": "code:explicitly|title:android-remote-verify-trust-new-linked|version:0.153.4|platform:windows",
+        "signature": "code:export|title:add-supported-profile-backup-export-restore|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43237"
+          "github-issue:openai/codex:43254"
         ],
-        "signature": "code:gpt-6|title:gpt-astra-rejects-invalid-prompt-isolated|version:0.153.4|platform:macos",
+        "signature": "code:expose|title:expose-fail-closed-pre-delivery-hook",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:43255"
+        ],
+        "signature": "code:helper_unknown_error|title:windows-computer-use-initialize-helper-unknown|version:26.901.51231|platform:windows",
         "strength": "weak"
       },
       {
@@ -260,288 +260,41 @@
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43243"
+          "github-issue:openai/codex:43262"
         ],
-        "signature": "code:remote-project|title:remote-project-folder-binding-stored-paths",
+        "signature": "code:long-running|title:recovered-long-running-codex-thread-missing|version:26.904.11930|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43240"
+          "github-issue:openai/codex:43268"
         ],
-        "signature": "code:remote-ssh|title:remote-ssh-load-works|version:26.901.22334|platform:windows",
+        "signature": "code:tool-free|title:verifiable-tool-free-single-request-mode|version:0.151.0-alpha.7.1|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43246"
+          "github-issue:openai/codex:43252"
         ],
-        "signature": "code:user-attachments|title:white-window",
+        "signature": "code:usage-limited|title:codex-desktop-heartbeat-keeps-waking-usage|version:26.901.5003.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43232"
+          "github-issue:openai/codex:43251"
         ],
-        "signature": "code:user-configurable|title:user-configurable-rolling-context-limit|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:43233"
-        ],
-        "signature": "code:x86_64|title:information-panels-top-input-bar-covers|version:26.820.60940|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:43242"
-        ],
-        "signature": "title:remote-project-folder-binding-stored-paths",
+        "signature": "title:resume-should-show-summary-this-conversation",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "401c1f1de0b131ce7dfc7ff8fcd64a55310717433c81c54a2b54b4328dbbf66b",
+      "fingerprint": "cf5a2e0359bb5d13ef1dd20140f8ed9c9a30bd7a53cf48d441950a4df1b5e1af",
       "lookbackHours": 72,
       "releaseVersion": "26.901.6511.0",
       "source": "official-github-issues"
     },
     "id": "community:codex:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-06T14:12:29Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:43231",
-        "labels": [
-          "bug",
-          "CLI",
-          "rate-limits",
-          "TUI"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "resolutionReference": "https://github.com/openai/codex/issues/43231",
-        "signature": "code:enter|title:closed-local-relay-enter-handling-established|version:0.153.4|platform:linux",
-        "title": "Closed: local relay Enter handling, not established as an OpenAI Codex bug",
-        "url": "https://github.com/openai/codex/issues/43231"
-      },
-      {
-        "createdAt": "2026-09-06T14:13:49Z",
-        "id": "github-issue:openai/codex:43232",
-        "labels": [
-          "context",
-          "enhancement"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "resolutionReference": "https://github.com/openai/codex/issues/43232",
-        "signature": "code:user-configurable|title:user-configurable-rolling-context-limit|platform:macos",
-        "title": "User-configurable rolling context limit",
-        "url": "https://github.com/openai/codex/issues/43232"
-      },
-      {
-        "createdAt": "2026-09-06T14:18:57Z",
-        "explicitVersion": "26.820.60940",
-        "id": "github-issue:openai/codex:43233",
-        "labels": [
-          "app",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:x86_64|title:information-panels-top-input-bar-covers|version:26.820.60940|platform:linux",
-        "title": "Information panels on top of input bar covers  most recent output of agent",
-        "url": "https://github.com/openai/codex/issues/43233"
-      },
-      {
-        "createdAt": "2026-09-06T14:46:53Z",
-        "explicitVersion": "0.1.0",
-        "id": "github-issue:openai/codex:43234",
-        "labels": [
-          "CLI",
-          "code-review",
-          "enhancement",
-          "skills"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:evidence-based|title:curated-marketplace-review-request-review|version:0.1.0",
-        "title": "Curated marketplace review request: Review PR",
-        "url": "https://github.com/openai/codex/issues/43234"
-      },
-      {
-        "createdAt": "2026-09-06T14:54:22Z",
-        "explicitVersion": "26.901.6511.0",
-        "id": "github-issue:openai/codex:43235",
-        "labels": [
-          "app",
-          "bug",
-          "model-behavior"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:application-supplied|title:codex-desktop-attributes-automatically-supplied-agents|version:26.901.6511.0|platform:windows",
-        "title": "Codex desktop attributes automatically supplied AGENTS.md updates to the user",
-        "url": "https://github.com/openai/codex/issues/43235"
-      },
-      {
-        "createdAt": "2026-09-06T15:12:40Z",
-        "explicitVersion": "26.901.31953",
-        "id": "github-issue:openai/codex:43236",
-        "labels": [
-          "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/43236",
-        "signature": "code:error|title:windows-desktop-update-progress-repeatedly-stalls|version:26.901.31953|platform:windows",
-        "title": "[Windows][26.901.31953] Desktop update progress repeatedly stalls at 41% with no error",
-        "url": "https://github.com/openai/codex/issues/43236"
-      },
-      {
-        "createdAt": "2026-09-06T15:13:26Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:43237",
-        "labels": [
-          "bug",
-          "CLI",
-          "model-behavior"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:gpt-6|title:gpt-astra-rejects-invalid-prompt-isolated|version:0.153.4|platform:macos",
-        "title": "GPT-6 Astra rejects `hi` with invalid_prompt: isolated CLI and minimal backend reproduction across Linux/macOS",
-        "url": "https://github.com/openai/codex/issues/43237"
-      },
-      {
-        "createdAt": "2026-09-06T15:26:08Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:43238",
-        "labels": [
-          "CLI",
-          "enhancement",
-          "TUI"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:exit|title:allow-custom-launcher-names-exit-resume|version:0.153.4",
-        "title": "Allow custom launcher names in exit resume hints",
-        "url": "https://github.com/openai/codex/issues/43238"
-      },
-      {
-        "createdAt": "2026-09-06T15:29:22Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:43239",
-        "labels": [
-          "app-server",
-          "bug",
-          "remote"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:explicitly|title:android-remote-verify-trust-new-linked|version:0.153.4|platform:windows",
-        "title": "Android Remote cannot verify trust for a new linked worktree of an already trusted Linux repository",
-        "url": "https://github.com/openai/codex/issues/43239"
-      },
-      {
-        "createdAt": "2026-09-06T15:40:36Z",
-        "explicitVersion": "26.901.22334",
-        "id": "github-issue:openai/codex:43240",
-        "labels": [
-          "bug",
-          "extension",
-          "remote",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:remote-ssh|title:remote-ssh-load-works|version:26.901.22334|platform:windows",
-        "title": "[VS Code Remote-SSH] 26.901.22334 fails to load; 26.825.51511 works",
-        "url": "https://github.com/openai/codex/issues/43240"
-      },
-      {
-        "createdAt": "2026-09-06T15:45:34Z",
-        "explicitVersion": "1.8.0",
-        "id": "github-issue:openai/codex:43241",
-        "labels": [
-          "app",
-          "browser",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:browser-use|title:browser-use-blocks-explicitly-authorized-user|version:1.8.0|platform:windows",
-        "title": "Browser-use blocks an explicitly authorized, user-owned Naver Blog page",
-        "url": "https://github.com/openai/codex/issues/43241"
-      },
-      {
-        "createdAt": "2026-09-06T15:55:47Z",
-        "id": "github-issue:openai/codex:43242",
-        "labels": [
-          "bug",
-          "remote"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "title:remote-project-folder-binding-stored-paths",
-        "title": "Remote project folder binding fails when stored paths contain doubled separators",
-        "url": "https://github.com/openai/codex/issues/43242"
-      },
-      {
-        "createdAt": "2026-09-06T15:57:31Z",
-        "id": "github-issue:openai/codex:43243",
-        "labels": [
-          "bug",
-          "remote",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:remote-project|title:remote-project-folder-binding-stored-paths",
-        "title": "Remote project folder binding fails when stored paths contain doubled separators",
-        "url": "https://github.com/openai/codex/issues/43243"
-      },
-      {
-        "createdAt": "2026-09-06T16:06:42Z",
-        "id": "github-issue:openai/codex:43245",
-        "labels": [
-          "app",
-          "browser",
-          "enhancement"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:chrome-like|title:feature-request-chrome-like-full-page|platform:windows",
-        "title": "Feature request: Chrome-like full-page translation in the Codex in-app browser",
-        "url": "https://github.com/openai/codex/issues/43245"
-      },
-      {
-        "createdAt": "2026-09-06T16:21:17Z",
-        "id": "github-issue:openai/codex:43246",
-        "labels": [
-          "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:user-attachments|title:white-window",
-        "title": "White window",
-        "url": "https://github.com/openai/codex/issues/43246"
-      },
-      {
-        "createdAt": "2026-09-06T16:27:45Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:43247",
-        "labels": [
-          "bug",
-          "CLI",
-          "safety-check"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "x64",
-        "signature": "code:codex-cli|title:this-content-can-shown|version:0.153.4|platform:x64",
-        "title": "This content can't be shown",
-        "url": "https://github.com/openai/codex/issues/43247"
-      },
       {
         "createdAt": "2026-09-06T16:44:37Z",
         "id": "github-issue:openai/codex:43249",
@@ -572,13 +325,232 @@
         "signature": "code:built-in|title:built-imagegen-immediately-returns-http-404|version:26.901.51231|platform:arm64",
         "title": "Built-in imagegen immediately returns HTTP 404 for both text-only and reference-image requests",
         "url": "https://github.com/openai/codex/issues/43250"
+      },
+      {
+        "createdAt": "2026-09-06T17:13:40Z",
+        "id": "github-issue:openai/codex:43251",
+        "labels": [
+          "CLI",
+          "enhancement",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "title:resume-should-show-summary-this-conversation",
+        "title": "resume should show a summary for this conversation instead of the specific message",
+        "url": "https://github.com/openai/codex/issues/43251"
+      },
+      {
+        "createdAt": "2026-09-06T17:16:18Z",
+        "explicitVersion": "26.901.5003.0",
+        "id": "github-issue:openai/codex:43252",
+        "labels": [
+          "app",
+          "automations",
+          "bug",
+          "rate-limits",
+          "subagent",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:usage-limited|title:codex-desktop-heartbeat-keeps-waking-usage|version:26.901.5003.0|platform:windows",
+        "title": "[Codex Desktop] Heartbeat keeps waking a usage-limited thread after child agents fail",
+        "url": "https://github.com/openai/codex/issues/43252"
+      },
+      {
+        "createdAt": "2026-09-06T17:40:31Z",
+        "id": "github-issue:openai/codex:43254",
+        "labels": [
+          "app",
+          "enhancement",
+          "hooks"
+        ],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/openai/codex/issues/43254",
+        "signature": "code:expose|title:expose-fail-closed-pre-delivery-hook",
+        "title": "Expose a fail-closed pre-delivery hook that can hold normal Codex responses before rendering",
+        "url": "https://github.com/openai/codex/issues/43254"
+      },
+      {
+        "createdAt": "2026-09-06T17:48:19Z",
+        "explicitVersion": "26.901.51231",
+        "id": "github-issue:openai/codex:43255",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:helper_unknown_error|title:windows-computer-use-initialize-helper-unknown|version:26.901.51231|platform:windows",
+        "title": "Windows Computer Use fails to initialize: helper_unknown_error: setup refresh had errors",
+        "url": "https://github.com/openai/codex/issues/43255"
+      },
+      {
+        "createdAt": "2026-09-06T17:51:13Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:43256",
+        "labels": [
+          "app-server",
+          "bug",
+          "CLI",
+          "performance",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "resolutionReference": "https://github.com/openai/codex/issues/43256",
+        "signature": "code:app-server|title:server-linux-remote-control-bursts-000|version:0.153.4|platform:macos",
+        "title": "app-server (Linux, remote-control): bursts of ~3,000 unreaped git child processes exhaust the user's pids.max and kill every process on the host, including Codex's own tool calls",
+        "url": "https://github.com/openai/codex/issues/43256"
+      },
+      {
+        "createdAt": "2026-09-06T18:02:19Z",
+        "id": "github-issue:openai/codex:43258",
+        "labels": [
+          "app",
+          "enhancement",
+          "sandbox",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:export|title:add-supported-profile-backup-export-restore|platform:windows",
+        "title": "Add supported profile backup/export and restore across machines without breaking the Windows sandbox",
+        "url": "https://github.com/openai/codex/issues/43258"
+      },
+      {
+        "createdAt": "2026-09-06T18:11:03Z",
+        "explicitVersion": "26.901.6511.0",
+        "id": "github-issue:openai/codex:43259",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:enterprise|title:computer-use-windows|version:26.901.6511.0|platform:windows",
+        "title": "Computer Use on Windows Fails.",
+        "url": "https://github.com/openai/codex/issues/43259"
+      },
+      {
+        "createdAt": "2026-09-06T18:12:01Z",
+        "explicitVersion": "26.901.6511.0",
+        "id": "github-issue:openai/codex:43260",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/43260",
+        "signature": "code:explorer|title:windows-folder-links-codex-force-file|version:26.901.6511.0|platform:windows",
+        "title": "Windows: folder links in Codex force File Explorer's left navigation pane/tree open despite saved preferences",
+        "url": "https://github.com/openai/codex/issues/43260"
+      },
+      {
+        "createdAt": "2026-09-06T18:34:20Z",
+        "explicitVersion": "26.904.11930",
+        "id": "github-issue:openai/codex:43262",
+        "labels": [
+          "app",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:long-running|title:recovered-long-running-codex-thread-missing|version:26.904.11930|platform:windows",
+        "title": "I recovered a long-running Codex thread with missing history | Chat History is not beeing Displayed",
+        "url": "https://github.com/openai/codex/issues/43262"
+      },
+      {
+        "createdAt": "2026-09-06T18:35:32Z",
+        "explicitVersion": "26.901.6511.0",
+        "id": "github-issue:openai/codex:43263",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/43263",
+        "signature": "code:entirely|title:windows-intermittent-blank-startup-main-dom|version:26.901.6511.0|platform:windows",
+        "title": "[Windows app] Intermittent blank startup on 26.901.6511.0: main UI DOM absent, Page.reload recovers, GPU/occlusion flags ineffective",
+        "url": "https://github.com/openai/codex/issues/43263"
+      },
+      {
+        "createdAt": "2026-09-06T18:36:38Z",
+        "explicitVersion": "26.901.31953",
+        "id": "github-issue:openai/codex:43264",
+        "labels": [
+          "bug",
+          "iOS",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:environment|title:ios-remote-shows-internal-chatgpt-project|version:26.901.31953",
+        "title": "iOS Remote shows internal ChatGPT project folder IDs and omits saved desktop projects",
+        "url": "https://github.com/openai/codex/issues/43264"
+      },
+      {
+        "createdAt": "2026-09-06T18:46:18Z",
+        "id": "github-issue:openai/codex:43266",
+        "labels": [
+          "app",
+          "browser",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:example|title:chatgtp-work-says-that-can-open",
+        "title": "ChatGTP Work says that it can't open and use the in app browser. It can only use the cloud browser.",
+        "url": "https://github.com/openai/codex/issues/43266"
+      },
+      {
+        "createdAt": "2026-09-06T18:50:21Z",
+        "explicitVersion": "26.901.41600",
+        "id": "github-issue:openai/codex:43267",
+        "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:expected|title:assistant-replies-missing-desktop-history-using|version:26.901.41600|platform:arm64",
+        "title": "Assistant replies missing from desktop history after using voice mode on mobile",
+        "url": "https://github.com/openai/codex/issues/43267"
+      },
+      {
+        "createdAt": "2026-09-06T19:10:21Z",
+        "explicitVersion": "0.151.0-alpha.7.1",
+        "id": "github-issue:openai/codex:43268",
+        "labels": [
+          "CLI",
+          "enhancement",
+          "exec",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "resolutionReference": "https://github.com/openai/codex/issues/43268",
+        "signature": "code:tool-free|title:verifiable-tool-free-single-request-mode|version:0.151.0-alpha.7.1|platform:macos",
+        "title": "Verifiable tool-free single-request mode with offline invocation plan and usage ceiling",
+        "url": "https://github.com/openai/codex/issues/43268"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-06T17:08:19.291Z",
+    "observedAt": "2026-09-06T19:16:37.000Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "18 recent official GitHub issues observed for openai/codex."
+    "summary": "16 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-e43d715a6f07144c",
   "interfaces": [],
