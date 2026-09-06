@@ -8,7 +8,7 @@
       "knownGood": [
         {
           "channel": "stable",
-          "observationId": "claude-code-stable-windows-x64-46b46422599636da",
+          "observationId": "claude-code-stable-windows-x64-cc64ef6f288b40d5",
           "platform": "windows-x64",
           "productId": "claude-code",
           "requirementsSatisfied": [
@@ -19,28 +19,28 @@
             "claude-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-08-28T09:43:23.879Z",
-          "version": "2.1.250"
+          "selectedAt": "2026-09-06T09:30:17.382Z",
+          "version": "2.1.263"
         }
       ],
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-06T04:47:46.371Z",
-          "observationId": "claude-code-stable-windows-x64-e2989ab6ceef3ead",
+          "discoveredAt": "2026-09-06T09:30:17.382Z",
+          "observationId": "claude-code-stable-windows-x64-cc64ef6f288b40d5",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "OFFICIAL_DISTRIBUTIONS_DISAGREE",
+                "code": "MATERIAL_EVIDENCE_CHANGED",
                 "evidenceRefs": [],
-                "message": "Relevant official distribution channels disagree."
+                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
               }
             ],
             "severity": "minor",
-            "status": "DISTRIBUTION_DRIFT"
+            "status": "CHANGED"
           },
           "version": "2.1.263"
         }

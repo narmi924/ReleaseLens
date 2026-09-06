@@ -91,9 +91,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29207"
+          "github-issue:google-gemini/gemini-cli:29226"
         ],
-        "signature": "code:edit|title:corrupt-agents-json-valid-json-wrong",
+        "signature": "code:editor|title:bug-numeric-settings-editor-saves-overflow|version:20.19.0|platform:arm64",
         "strength": "weak"
       },
       {
@@ -112,51 +112,20 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29204"
+          "github-issue:google-gemini/gemini-cli:29224"
         ],
-        "signature": "code:json-encoded|title:mcp-prompt-responses-submitted-json-encoded",
+        "signature": "code:gemini-cli|title:npm-install-google-gemini-preview",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "e2baaa2157f867cbac715f87f914e5eeecdcb4e7b1eadd02fcc6ede2ac266317",
+      "fingerprint": "b9f42c20d27b014d9164e7814a366572a73606291e36bf519ef4b65bdb620a47",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-04T07:02:49Z",
-        "id": "github-issue:google-gemini/gemini-cli:29204",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:json-encoded|title:mcp-prompt-responses-submitted-json-encoded",
-        "title": "MCP prompt responses are submitted as JSON-encoded text",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29204"
-      },
-      {
-        "createdAt": "2026-09-04T08:57:46Z",
-        "id": "github-issue:google-gemini/gemini-cli:29207",
-        "labels": [
-          "area/agent",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:edit|title:corrupt-agents-json-valid-json-wrong",
-        "title": "Corrupt agents.json (valid JSON, wrong shape) crashes acknowledgment",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29207"
-      },
       {
         "createdAt": "2026-09-04T17:46:41Z",
         "explicitVersion": "0.58.0",
@@ -204,10 +173,41 @@
         "signature": "code:blaat_a4-din|title:leeres-blaat-din",
         "title": "Leeres.blaat_A4-DIN",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29221"
+      },
+      {
+        "createdAt": "2026-09-06T05:18:09Z",
+        "id": "github-issue:google-gemini/gemini-cli:29224",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "kind/question",
+          "priority/p3",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:gemini-cli|title:npm-install-google-gemini-preview",
+        "title": "npm install -g @google/gemini-cli@preview",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29224"
+      },
+      {
+        "createdAt": "2026-09-06T07:36:38Z",
+        "explicitVersion": "20.19.0",
+        "id": "github-issue:google-gemini/gemini-cli:29226",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:editor|title:bug-numeric-settings-editor-saves-overflow|version:20.19.0|platform:arm64",
+        "title": "Bug: numeric settings editor saves overflow values as null",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29226"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-06T04:48:54.883Z",
+    "observedAt": "2026-09-06T09:30:48.594Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
