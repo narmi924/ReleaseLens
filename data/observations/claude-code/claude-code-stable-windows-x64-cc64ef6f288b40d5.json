@@ -76,45 +76,25 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92542"
+          "github-issue:anthropics/claude-code:92554"
         ],
-        "signature": "code:each|title:bug-bash-deny-rules-bypassed-any|version:2.1.258|platform:linux",
+        "signature": "code:allowlist-based|title:allowlist-based-tool-selection-cap-context|version:10.1",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92540"
+          "github-issue:anthropics/claude-code:92563"
         ],
-        "signature": "code:each|title:feature-request-allow-claude-cloud-sessions",
+        "signature": "code:background-task|title:completed-background-task-notification-appended-session|version:2.1.263|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92549"
+          "github-issue:anthropics/claude-code:92566",
+          "github-issue:anthropics/claude-code:92567"
         ],
-        "signature": "code:ecu|title:appreciate-you-sharing-this-but-need|version:2.1.263|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:92536"
-        ],
-        "signature": "code:effort|title:bug-token-consumption-without-result-completion|version:2.1.261|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:92546"
-        ],
-        "signature": "code:endings|title:workflow-tool-rejects-ordinary-crlf-line|version:2.1.226|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:anthropics/claude-code:92547"
-        ],
-        "signature": "code:environment|title:bug-request-falsely-flagged-invalid|version:2.1.263|platform:linux",
-        "strength": "weak"
+        "signature": "code:claude-fable-5|title:claude-fable-repeatedly-delivers-incomplete-structured|platform:linux",
+        "strength": "moderate"
       },
       {
         "issueIds": [
@@ -139,353 +119,104 @@
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92538"
+          "github-issue:anthropics/claude-code:92565"
         ],
-        "signature": "code:environment|title:you-hit-your-session-limit-resets|version:2.1.263|platform:macos",
+        "signature": "code:error|title:bug-anthropic-api-sonnet-cyber-safeguards|version:2.1.261|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92543"
+          "github-issue:anthropics/claude-code:92568"
         ],
-        "signature": "code:exe|title:bug-windows-bash-tool-commands-silently|version:2.1.263|platform:windows",
+        "signature": "code:error|title:bug-anthropic-api-sonnet-cyber-safeguards|version:2.1.263|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92535"
+          "github-issue:anthropics/claude-code:92569"
         ],
-        "signature": "code:existing|title:desktop-thinking-blocks-show-only-vague|platform:macos",
+        "signature": "code:every|title:claude-desktop-segfaults-launch-ubuntu-glib|version:26.04.1",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92537"
+          "github-issue:anthropics/claude-code:92557"
         ],
-        "signature": "code:existing|title:feature-add-some-visual-distinction-between",
+        "signature": "code:exceptions|title:feature-request-add-content-policy-exceptions|version:2.1.229|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92545"
+          "github-issue:anthropics/claude-code:92558"
         ],
-        "signature": "code:existing|title:feature-configurable-slash-command-trigger-prefix",
+        "signature": "code:existing|title:bug-mobile-stays-stuck-running-state|version:1.260902.20|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92541"
+          "github-issue:anthropics/claude-code:92556"
         ],
-        "signature": "code:explicit|title:bug-explicit-read-edit-deny-validateinput|version:2.1.263|platform:arm64",
+        "signature": "code:existing|title:bug|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92544"
+          "github-issue:anthropics/claude-code:92560"
         ],
-        "signature": "code:low-priority|title:bug-low-priority-usage-consumes-token|version:2.1.263|platform:windows",
+        "signature": "code:existing|title:feature-let-existing-cowork-session-assigned",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92534"
+          "github-issue:anthropics/claude-code:92564"
         ],
-        "signature": "code:provider-scoped|title:feature-request-implement-provider-scoped-circuit|version:2.1.263|platform:windows",
+        "signature": "code:exists|title:bug-desktop-preview-reports-couldn-find|version:1.46388.4|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92539"
+          "github-issue:anthropics/claude-code:92570"
         ],
-        "signature": "code:remove-item|title:windows-remove-item-guard-blocks-any|version:10.0.22631|platform:windows",
+        "signature": "code:expected|title:clicking-context-ring-should-show-context|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92550"
+          "github-issue:anthropics/claude-code:92555"
         ],
-        "signature": "code:self-contained|title:artifact-republished-stale-data-payload-while",
+        "signature": "code:explicit|title:bug-claude-following-explicit-instructions-making|version:2.1.260|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:anthropics/claude-code:92548"
+          "github-issue:anthropics/claude-code:92561"
         ],
-        "signature": "code:self-hosted|title:remote-daemons-never-chat-processes-outlive|version:2.1.263|platform:windows",
+        "signature": "code:faible-5|title:feature-request-reconsider-flagging-disabling-claude|version:2.1.236|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:92559"
+        ],
+        "signature": "code:real-but-inapplicable|title:model-model-defends-insecure-hkdf-pattern|version:2.1.263",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:92562"
+        ],
+        "signature": "code:tool-call|title:bug-large-bash-tool-call-payloads|version:8.2|platform:windows",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "a81156b486ddfd9c8f7303e3b075972d9585ca36ae4dd354732d8f17c7e49618",
+      "fingerprint": "157dccb3158afa836ffcc3ce1bc23b4f32c05f66d3919bdd0be8f1078d7cae46",
       "lookbackHours": 72,
       "releaseVersion": "2.1.263",
       "source": "official-github-issues"
     },
     "id": "community:claude-code:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-06T19:06:26Z",
-        "explicitVersion": "2.1.263",
-        "id": "github-issue:anthropics/claude-code:92534",
-        "labels": [
-          "area:agents",
-          "enhancement",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/anthropics/claude-code/issues/92534",
-        "signature": "code:provider-scoped|title:feature-request-implement-provider-scoped-circuit|version:2.1.263|platform:windows",
-        "title": "[Feature Request] Implement provider-scoped circuit breaker for shared 429 rate-limit coordination across subagents",
-        "url": "https://github.com/anthropics/claude-code/issues/92534"
-      },
-      {
-        "createdAt": "2026-09-06T19:12:17Z",
-        "id": "github-issue:anthropics/claude-code:92535",
-        "labels": [
-          "area:desktop",
-          "enhancement",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:existing|title:desktop-thinking-blocks-show-only-vague|platform:macos",
-        "title": "[Desktop App] Thinking blocks show only vague 1-line summaries instead of detailed reasoning",
-        "url": "https://github.com/anthropics/claude-code/issues/92535"
-      },
-      {
-        "createdAt": "2026-09-06T19:13:09Z",
-        "explicitVersion": "2.1.261",
-        "id": "github-issue:anthropics/claude-code:92536",
-        "labels": [
-          "area:cost",
-          "area:model",
-          "bug",
-          "needs-repro",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:effort|title:bug-token-consumption-without-result-completion|version:2.1.261|platform:macos",
-        "title": "[Bug] Token consumption without result completion on model context limit",
-        "url": "https://github.com/anthropics/claude-code/issues/92536"
-      },
-      {
-        "createdAt": "2026-09-06T19:15:05Z",
-        "id": "github-issue:anthropics/claude-code:92537",
-        "labels": [
-          "area:tui",
-          "area:ui",
-          "enhancement"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:existing|title:feature-add-some-visual-distinction-between",
-        "title": "[FEATURE] Add some visual distinction between human and agent messages",
-        "url": "https://github.com/anthropics/claude-code/issues/92537"
-      },
-      {
-        "createdAt": "2026-09-06T19:16:02Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "2.1.263",
-        "id": "github-issue:anthropics/claude-code:92538",
-        "labels": [
-          "area:cost",
-          "bug",
-          "duplicate",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:environment|title:you-hit-your-session-limit-resets|version:2.1.263|platform:macos",
-        "title": "You've hit your session limit · resets 4am (Asia/Calcutta)",
-        "url": "https://github.com/anthropics/claude-code/issues/92538"
-      },
-      {
-        "createdAt": "2026-09-06T19:24:56Z",
-        "explicitVersion": "10.0.22631",
-        "id": "github-issue:anthropics/claude-code:92539",
-        "labels": [
-          "area:sandbox",
-          "bug",
-          "has repro",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:remove-item|title:windows-remove-item-guard-blocks-any|version:10.0.22631|platform:windows",
-        "title": "Windows: Remove-Item guard blocks any command containing a path with a space",
-        "url": "https://github.com/anthropics/claude-code/issues/92539"
-      },
-      {
-        "createdAt": "2026-09-06T19:29:21Z",
-        "id": "github-issue:anthropics/claude-code:92540",
-        "labels": [
-          "area:claude-code-web",
-          "area:cowork",
-          "enhancement"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:each|title:feature-request-allow-claude-cloud-sessions",
-        "title": "Feature request: allow Claude Code cloud sessions to communicate with each other via SendMessage (like local/RC sessions)",
-        "url": "https://github.com/anthropics/claude-code/issues/92540"
-      },
-      {
-        "createdAt": "2026-09-06T19:32:19Z",
-        "explicitVersion": "2.1.263",
-        "id": "github-issue:anthropics/claude-code:92541",
-        "labels": [
-          "area:permissions",
-          "area:tools",
-          "bug",
-          "platform:macos"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "resolutionReference": "https://github.com/anthropics/claude-code/issues/92541",
-        "signature": "code:explicit|title:bug-explicit-read-edit-deny-validateinput|version:2.1.263|platform:arm64",
-        "title": "[BUG] Explicit Read/Edit deny in validateInput omits permission_denials and tool_result_meta in headless mode",
-        "url": "https://github.com/anthropics/claude-code/issues/92541"
-      },
-      {
-        "createdAt": "2026-09-06T19:37:44Z",
-        "explicitVersion": "2.1.258",
-        "id": "github-issue:anthropics/claude-code:92542",
-        "labels": [
-          "area:bash",
-          "area:permissions",
-          "area:security",
-          "bug",
-          "has repro",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "resolutionReference": "https://github.com/anthropics/claude-code/issues/92542",
-        "signature": "code:each|title:bug-bash-deny-rules-bypassed-any|version:2.1.258|platform:linux",
-        "title": "[BUG] Bash deny rules bypassed by any wrapper program outside ax()'s 8-item unwrap list",
-        "url": "https://github.com/anthropics/claude-code/issues/92542"
-      },
-      {
-        "createdAt": "2026-09-06T19:43:06Z",
-        "explicitVersion": "2.1.263",
-        "id": "github-issue:anthropics/claude-code:92543",
-        "labels": [
-          "area:bash",
-          "bug",
-          "has repro",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:exe|title:bug-windows-bash-tool-commands-silently|version:2.1.263|platform:windows",
-        "title": "[BUG] Windows: Bash tool commands are silently truncated at ~8,181 chars of the bash.exe -c argument, and every \\\\ is halved",
-        "url": "https://github.com/anthropics/claude-code/issues/92543"
-      },
-      {
-        "createdAt": "2026-09-06T19:46:32Z",
-        "explicitVersion": "2.1.263",
-        "id": "github-issue:anthropics/claude-code:92544",
-        "labels": [
-          "area:cost",
-          "bug",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:low-priority|title:bug-low-priority-usage-consumes-token|version:2.1.263|platform:windows",
-        "title": "[Bug] Low-priority usage consumes token quota disproportionately fast",
-        "url": "https://github.com/anthropics/claude-code/issues/92544"
-      },
-      {
-        "createdAt": "2026-09-06T20:00:20Z",
-        "id": "github-issue:anthropics/claude-code:92545",
-        "labels": [
-          "area:cli",
-          "enhancement"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:existing|title:feature-configurable-slash-command-trigger-prefix",
-        "title": "[FEATURE] Configurable slash command trigger prefix",
-        "url": "https://github.com/anthropics/claude-code/issues/92545"
-      },
-      {
-        "createdAt": "2026-09-06T20:06:33Z",
-        "duplicateOf": "labelled-duplicate",
-        "explicitVersion": "2.1.226",
-        "id": "github-issue:anthropics/claude-code:92546",
-        "labels": [
-          "bug",
-          "duplicate",
-          "platform:windows"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:endings|title:workflow-tool-rejects-ordinary-crlf-line|version:2.1.226|platform:windows",
-        "title": "Workflow tool rejects ordinary CRLF line endings as \"hidden control characters\"",
-        "url": "https://github.com/anthropics/claude-code/issues/92546"
-      },
-      {
-        "createdAt": "2026-09-06T20:18:28Z",
-        "explicitVersion": "2.1.263",
-        "id": "github-issue:anthropics/claude-code:92547",
-        "labels": [
-          "area:model",
-          "bug",
-          "needs-info",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:environment|title:bug-request-falsely-flagged-invalid|version:2.1.263|platform:linux",
-        "title": "[Bug] Request falsely flagged as invalid",
-        "url": "https://github.com/anthropics/claude-code/issues/92547"
-      },
-      {
-        "createdAt": "2026-09-06T20:19:28Z",
-        "explicitVersion": "2.1.263",
-        "id": "github-issue:anthropics/claude-code:92548",
-        "labels": [
-          "area:self-hosted-environments",
-          "bug",
-          "has repro",
-          "perf:memory",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:self-hosted|title:remote-daemons-never-chat-processes-outlive|version:2.1.263|platform:windows",
-        "title": "Remote daemons never release chat processes and outlive their clients (self-hosted, ~300MB/chat, two hard outages)",
-        "url": "https://github.com/anthropics/claude-code/issues/92548"
-      },
-      {
-        "createdAt": "2026-09-06T20:20:03Z",
-        "explicitVersion": "2.1.263",
-        "id": "github-issue:anthropics/claude-code:92549",
-        "labels": [
-          "area:model",
-          "bug",
-          "platform:linux"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:ecu|title:appreciate-you-sharing-this-but-need|version:2.1.263|platform:linux",
-        "title": "I appreciate you sharing this, but I need to clarify: this appears to be about Fable (a programming language) and vehicle ECU parameters, which is unrelated to Claude Code (Anthropic's CLI tool for coding with Claude).\n\nIf you're experiencing an issue with",
-        "url": "https://github.com/anthropics/claude-code/issues/92549"
-      },
-      {
-        "createdAt": "2026-09-06T21:06:51Z",
-        "id": "github-issue:anthropics/claude-code:92550",
-        "labels": [
-          "area:claude-code-web",
-          "area:tools",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "resolutionReference": "https://github.com/anthropics/claude-code/issues/92550",
-        "signature": "code:self-contained|title:artifact-republished-stale-data-payload-while",
-        "title": "Artifact republished with stale data payload while template stays current (repeated 3x)",
-        "url": "https://github.com/anthropics/claude-code/issues/92550"
-      },
       {
         "createdAt": "2026-09-06T21:07:21Z",
         "explicitVersion": "2.1.261",
@@ -533,10 +264,274 @@
         "signature": "code:environment|title:feature-request-reduce-false-positive-content|version:2.1.263|platform:macos",
         "title": "[Feature Request] Reduce false positive content policy flagging for routine code operations",
         "url": "https://github.com/anthropics/claude-code/issues/92553"
+      },
+      {
+        "createdAt": "2026-09-06T21:39:01Z",
+        "explicitVersion": "10.1",
+        "id": "github-issue:anthropics/claude-code:92554",
+        "labels": [
+          "area:cost",
+          "area:tools",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:allowlist-based|title:allowlist-based-tool-selection-cap-context|version:10.1",
+        "title": "Allowlist-based tool selection to cap context overhead as built-in tools grow (alt. to #66073 / #54716)",
+        "url": "https://github.com/anthropics/claude-code/issues/92554"
+      },
+      {
+        "createdAt": "2026-09-06T21:43:49Z",
+        "explicitVersion": "2.1.260",
+        "id": "github-issue:anthropics/claude-code:92555",
+        "labels": [
+          "area:model",
+          "bug",
+          "needs-repro",
+          "platform:intellij",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:explicit|title:bug-claude-following-explicit-instructions-making|version:2.1.260|platform:windows",
+        "title": "[Bug] Claude Code not following explicit instructions and making incorrect assumptions",
+        "url": "https://github.com/anthropics/claude-code/issues/92555"
+      },
+      {
+        "createdAt": "2026-09-06T21:52:09Z",
+        "id": "github-issue:anthropics/claude-code:92556",
+        "labels": [
+          "area:model",
+          "bug",
+          "needs-repro",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/92556",
+        "signature": "code:existing|title:bug|platform:windows",
+        "title": "[BUG]",
+        "url": "https://github.com/anthropics/claude-code/issues/92556"
+      },
+      {
+        "createdAt": "2026-09-06T21:56:10Z",
+        "explicitVersion": "2.1.229",
+        "id": "github-issue:anthropics/claude-code:92557",
+        "labels": [
+          "area:model",
+          "enhancement",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:exceptions|title:feature-request-add-content-policy-exceptions|version:2.1.229|platform:windows",
+        "title": "[Feature Request] Add content policy exceptions for game development use cases",
+        "url": "https://github.com/anthropics/claude-code/issues/92557"
+      },
+      {
+        "createdAt": "2026-09-06T22:11:14Z",
+        "explicitVersion": "1.260902.20",
+        "id": "github-issue:anthropics/claude-code:92558",
+        "labels": [
+          "area:ui",
+          "bug",
+          "platform:ios",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:existing|title:bug-mobile-stays-stuck-running-state|version:1.260902.20|platform:macos",
+        "title": "[BUG] Mobile app stays stuck in running state after immediate cancellation, while terminal task continues to completion",
+        "url": "https://github.com/anthropics/claude-code/issues/92558"
+      },
+      {
+        "createdAt": "2026-09-06T22:25:36Z",
+        "explicitVersion": "2.1.263",
+        "id": "github-issue:anthropics/claude-code:92559",
+        "labels": [
+          "area:model",
+          "area:security",
+          "bug",
+          "model",
+          "platform:linux"
+        ],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/92559",
+        "signature": "code:real-but-inapplicable|title:model-model-defends-insecure-hkdf-pattern|version:2.1.263",
+        "title": "[MODEL] Model defends an insecure HKDF pattern with a real-but-inapplicable RFC citation, and does not correct it when challenged",
+        "url": "https://github.com/anthropics/claude-code/issues/92559"
+      },
+      {
+        "createdAt": "2026-09-06T22:43:28Z",
+        "id": "github-issue:anthropics/claude-code:92560",
+        "labels": [
+          "area:api",
+          "area:cowork",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:existing|title:feature-let-existing-cowork-session-assigned",
+        "title": "[FEATURE] Let an existing Cowork session be assigned/moved to a project (API silently ignores chat_project_id on PUT)",
+        "url": "https://github.com/anthropics/claude-code/issues/92560"
+      },
+      {
+        "createdAt": "2026-09-06T22:47:22Z",
+        "explicitVersion": "2.1.236",
+        "id": "github-issue:anthropics/claude-code:92561",
+        "labels": [
+          "area:api",
+          "enhancement",
+          "external"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:faible-5|title:feature-request-reconsider-flagging-disabling-claude|version:2.1.236|platform:macos",
+        "title": "[Feature Request] Reconsider flagging and disabling Claude models during debugging work",
+        "url": "https://github.com/anthropics/claude-code/issues/92561"
+      },
+      {
+        "createdAt": "2026-09-06T22:49:38Z",
+        "explicitVersion": "8.2",
+        "id": "github-issue:anthropics/claude-code:92562",
+        "labels": [
+          "area:cost",
+          "area:desktop",
+          "area:ui",
+          "bug",
+          "platform:windows",
+          "user-experience"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:tool-call|title:bug-large-bash-tool-call-payloads|version:8.2|platform:windows",
+        "title": "[BUG] Large Bash tool-call payloads are not shown in the UI, so quota is consumed with no visible cause",
+        "url": "https://github.com/anthropics/claude-code/issues/92562"
+      },
+      {
+        "createdAt": "2026-09-06T23:05:27Z",
+        "explicitVersion": "2.1.263",
+        "id": "github-issue:anthropics/claude-code:92563",
+        "labels": [
+          "area:agents",
+          "area:core",
+          "bug",
+          "has repro",
+          "platform:wsl"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:background-task|title:completed-background-task-notification-appended-session|version:2.1.263|platform:windows",
+        "title": "Completed background-task notification is appended to the session but never triggers an assistant turn; session idles until user input",
+        "url": "https://github.com/anthropics/claude-code/issues/92563"
+      },
+      {
+        "createdAt": "2026-09-06T23:09:05Z",
+        "explicitVersion": "1.46388.4",
+        "id": "github-issue:anthropics/claude-code:92564",
+        "labels": [
+          "invalid"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:exists|title:bug-desktop-preview-reports-couldn-find|version:1.46388.4|platform:windows",
+        "title": "[BUG] Desktop preview reports 'Couldn't find this file' for a file the agent just wrote (exists on disk)",
+        "url": "https://github.com/anthropics/claude-code/issues/92564"
+      },
+      {
+        "createdAt": "2026-09-06T23:19:09Z",
+        "duplicateOf": "labelled-duplicate",
+        "explicitVersion": "2.1.261",
+        "id": "github-issue:anthropics/claude-code:92565",
+        "labels": [
+          "api:anthropic",
+          "area:model",
+          "area:security",
+          "bug",
+          "duplicate",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:error|title:bug-anthropic-api-sonnet-cyber-safeguards|version:2.1.261|platform:windows",
+        "title": "[Bug] Anthropic API Error: Sonnet 5 Cyber Safeguards Blocking Legitimate Code Analysis",
+        "url": "https://github.com/anthropics/claude-code/issues/92565"
+      },
+      {
+        "createdAt": "2026-09-06T23:36:10Z",
+        "id": "github-issue:anthropics/claude-code:92566",
+        "labels": [
+          "area:model",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/92566",
+        "signature": "code:claude-fable-5|title:claude-fable-repeatedly-delivers-incomplete-structured|platform:linux",
+        "title": "claude-fable-5: repeatedly delivers incomplete structured work despite specs being available in-context",
+        "url": "https://github.com/anthropics/claude-code/issues/92566"
+      },
+      {
+        "createdAt": "2026-09-06T23:38:02Z",
+        "id": "github-issue:anthropics/claude-code:92567",
+        "labels": [
+          "area:model",
+          "bug",
+          "platform:linux"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/92567",
+        "signature": "code:claude-fable-5|title:claude-fable-repeatedly-delivers-incomplete-structured|platform:linux",
+        "title": "claude-fable-5: repeatedly delivers incomplete structured work despite specs being available in-context",
+        "url": "https://github.com/anthropics/claude-code/issues/92567"
+      },
+      {
+        "createdAt": "2026-09-06T23:38:33Z",
+        "duplicateOf": "labelled-duplicate",
+        "explicitVersion": "2.1.263",
+        "id": "github-issue:anthropics/claude-code:92568",
+        "labels": [
+          "api:anthropic",
+          "area:model",
+          "area:security",
+          "bug",
+          "duplicate",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:error|title:bug-anthropic-api-sonnet-cyber-safeguards|version:2.1.263|platform:windows",
+        "title": "[Bug] Anthropic API Error: Sonnet 5 Cyber Safeguards Blocking Legitimate Code Review",
+        "url": "https://github.com/anthropics/claude-code/issues/92568"
+      },
+      {
+        "createdAt": "2026-09-06T23:54:27Z",
+        "explicitVersion": "26.04.1",
+        "id": "github-issue:anthropics/claude-code:92569",
+        "labels": [
+          "invalid"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:every|title:claude-desktop-segfaults-launch-ubuntu-glib|version:26.04.1",
+        "title": "Claude Desktop segfaults on launch on Ubuntu 26.04.1 (glib 2.88 / GDBus regression, introduced between 1.34493.1 and 1.37937.0)",
+        "url": "https://github.com/anthropics/claude-code/issues/92569"
+      },
+      {
+        "createdAt": "2026-09-06T23:58:38Z",
+        "id": "github-issue:anthropics/claude-code:92570",
+        "labels": [
+          "area:tui",
+          "enhancement",
+          "user-experience"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:expected|title:clicking-context-ring-should-show-context|platform:macos",
+        "title": "Clicking context ring should show context breakdown, not trigger /compact",
+        "url": "https://github.com/anthropics/claude-code/issues/92570"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-06T21:27:56.911Z",
+    "observedAt": "2026-09-07T00:00:18.206Z",
     "repository": "anthropics/claude-code",
     "status": "pass",
     "summary": "20 recent official GitHub issues observed for anthropics/claude-code."
