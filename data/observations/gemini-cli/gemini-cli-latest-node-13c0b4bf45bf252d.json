@@ -84,13 +84,6 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29221"
-        ],
-        "signature": "code:blaat_a4-din|title:leeres-blaat-din",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29226"
         ],
         "signature": "code:editor|title:bug-numeric-settings-editor-saves-overflow|version:20.19.0|platform:arm64",
@@ -101,13 +94,6 @@
           "github-issue:google-gemini/gemini-cli:29234"
         ],
         "signature": "code:edits|title:acp-marks-edits-existing-empty-files|version:0.60.0-nightly.20260901.g0bd1d4397|platform:arm64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29220"
-        ],
-        "signature": "code:eine|title:wahrnehmung-schwankung-spannung-kontrast-gegenspieler-auff",
         "strength": "weak"
       },
       {
@@ -137,45 +123,30 @@
         ],
         "signature": "code:mcp-server|title:geminicli-com-feedback-issue",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29238"
+        ],
+        "signature": "code:pre-flight|title:feature-request-interactive-clarification-questions-pre",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29240"
+        ],
+        "signature": "code:string-gemini-extension|title:geminicli-com-feedback-usestring-string-gemini|version:1.0.1",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "0028b3f980b37aca4db19fe55493042d67894d7f0acb89c3e246306e06519a0c",
+      "fingerprint": "c1724dba087d69e8acfbe88dddf09ebbcb1b9c9b7cbd81b22bec8f34fc6a251f",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-05T12:49:50Z",
-        "id": "github-issue:google-gemini/gemini-cli:29220",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "kind/question",
-          "priority/p3",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:eine|title:wahrnehmung-schwankung-spannung-kontrast-gegenspieler-auff",
-        "title": "𓂀 = Wahrnehmung 👁️ ⌁ = Schwankung ⟁ = Spannung ☍ = Kontrast / Gegenspieler ⟡ = auffälliger Punkt ◌ = unklar / offen ᛟ = Zustand / Kern ⚚ = Beobachtung / Versorgung  Eine zufällige SYM-GLYPH-Kette wäre dann:  𓂀 ⌁ ⟁ ◌ ⟡ ☍ ᛟ ⚚",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29220"
-      },
-      {
-        "createdAt": "2026-09-05T13:07:30Z",
-        "id": "github-issue:google-gemini/gemini-cli:29221",
-        "labels": [
-          "area/documentation",
-          "kind/bug",
-          "priority/p3",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:blaat_a4-din|title:leeres-blaat-din",
-        "title": "Leeres.blaat_A4-DIN",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29221"
-      },
       {
         "createdAt": "2026-09-06T05:18:09Z",
         "id": "github-issue:google-gemini/gemini-cli:29224",
@@ -265,10 +236,38 @@
         "signature": "code:error|title:api-400-request-contains-invalid-argument|version:0.58.0|platform:macos",
         "title": "API error 400 Request contains an invalid argument.",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29235"
+      },
+      {
+        "createdAt": "2026-09-07T15:48:59Z",
+        "id": "github-issue:google-gemini/gemini-cli:29238",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:pre-flight|title:feature-request-interactive-clarification-questions-pre",
+        "title": "[Feature Request]: Interactive clarification questions & pre-flight GitHub review gate",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29238"
+      },
+      {
+        "createdAt": "2026-09-07T18:07:26Z",
+        "duplicateOf": "labelled-duplicate",
+        "explicitVersion": "1.0.1",
+        "id": "github-issue:google-gemini/gemini-cli:29240",
+        "labels": [
+          "area/extensions",
+          "effort/medium",
+          "status/bot-triaged",
+          "status/possible-duplicate"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:string-gemini-extension|title:geminicli-com-feedback-usestring-string-gemini|version:1.0.1",
+        "title": "GeminiCLI.com Feedback: `usestring/string-gemini-extension` not indexed in the Extensions Gallery after 12 daily crawls",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29240"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-07T10:27:38.573Z",
+    "observedAt": "2026-09-07T20:38:36.149Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
