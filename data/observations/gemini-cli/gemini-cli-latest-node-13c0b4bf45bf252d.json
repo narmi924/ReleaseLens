@@ -112,6 +112,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29235"
+        ],
+        "signature": "code:error|title:api-400-request-contains-invalid-argument|version:0.58.0|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29232"
         ],
         "signature": "code:gemini-cli|title:google-great-company-but-gemini|version:3.8-flash",
@@ -133,7 +140,7 @@
       }
     ],
     "details": {
-      "fingerprint": "60e91549842dbdd2e839f4cf4a309a0222d5d38b309076f47ed736686d63903d",
+      "fingerprint": "0028b3f980b37aca4db19fe55493042d67894d7f0acb89c3e246306e06519a0c",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
@@ -242,13 +249,29 @@
         "signature": "code:edits|title:acp-marks-edits-existing-empty-files|version:0.60.0-nightly.20260901.g0bd1d4397|platform:arm64",
         "title": "ACP marks edits to existing empty files as additions",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29234"
+      },
+      {
+        "createdAt": "2026-09-07T08:44:18Z",
+        "explicitVersion": "0.58.0",
+        "id": "github-issue:google-gemini/gemini-cli:29235",
+        "labels": [
+          "area/agent",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:error|title:api-400-request-contains-invalid-argument|version:0.58.0|platform:macos",
+        "title": "API error 400 Request contains an invalid argument.",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29235"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-07T04:52:02.661Z",
+    "observedAt": "2026-09-07T10:27:38.573Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-cfb01efd213f5b79",
   "interfaces": [
