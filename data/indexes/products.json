@@ -26,23 +26,23 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-07T23:33:51.274Z",
-          "observationId": "claude-code-stable-windows-x64-7b28dfdae7437094",
+          "discoveredAt": "2026-09-08T21:55:03.654Z",
+          "observationId": "claude-code-stable-windows-x64-3a07caeb2bf54688",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "REQUIRED_SCOPE_PASSED",
+                "code": "OFFICIAL_DISTRIBUTIONS_DISAGREE",
                 "evidenceRefs": [],
-                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
+                "message": "Relevant official distribution channels disagree."
               }
             ],
-            "severity": "info",
-            "status": "NO_REGRESSION_DETECTED"
+            "severity": "minor",
+            "status": "DISTRIBUTION_DRIFT"
           },
-          "version": "2.1.263"
+          "version": "2.1.265"
         }
       ],
       "name": "Claude Code"
@@ -101,7 +101,7 @@
       "knownGood": [
         {
           "channel": "latest",
-          "observationId": "gemini-cli-latest-node-7a29b7218ef4feac",
+          "observationId": "gemini-cli-latest-node-42dd0b04e0d3dc72",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -113,12 +113,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-08T04:47:50.180Z",
-          "version": "0.58.0"
+          "selectedAt": "2026-09-08T21:55:39.116Z",
+          "version": "0.59.0"
         },
         {
           "channel": "nightly",
-          "observationId": "gemini-cli-nightly-node-4b6e11a9e2b6aad0",
+          "observationId": "gemini-cli-nightly-node-d2705063fe56b721",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -130,12 +130,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-08T04:47:50.180Z",
+          "selectedAt": "2026-09-08T21:55:39.116Z",
           "version": "0.60.0-nightly.20260908.g85aca163f"
         },
         {
           "channel": "preview",
-          "observationId": "gemini-cli-preview-node-587aa419d0c75fca",
+          "observationId": "gemini-cli-preview-node-38d06b98b99ae430",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -147,15 +147,15 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-08T04:47:50.180Z",
-          "version": "0.59.0-preview.0"
+          "selectedAt": "2026-09-08T21:55:39.116Z",
+          "version": "0.60.0-preview.0"
         }
       ],
       "latest": [
         {
           "channel": "latest",
-          "discoveredAt": "2026-09-08T04:47:50.180Z",
-          "observationId": "gemini-cli-latest-node-7a29b7218ef4feac",
+          "discoveredAt": "2026-09-08T21:55:39.116Z",
+          "observationId": "gemini-cli-latest-node-42dd0b04e0d3dc72",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
@@ -170,12 +170,12 @@
             "severity": "minor",
             "status": "CHANGED"
           },
-          "version": "0.58.0"
+          "version": "0.59.0"
         },
         {
           "channel": "nightly",
-          "discoveredAt": "2026-09-08T04:47:50.180Z",
-          "observationId": "gemini-cli-nightly-node-4b6e11a9e2b6aad0",
+          "discoveredAt": "2026-09-08T21:55:39.116Z",
+          "observationId": "gemini-cli-nightly-node-d2705063fe56b721",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
@@ -194,8 +194,8 @@
         },
         {
           "channel": "preview",
-          "discoveredAt": "2026-09-08T04:47:50.180Z",
-          "observationId": "gemini-cli-preview-node-587aa419d0c75fca",
+          "discoveredAt": "2026-09-08T21:55:39.116Z",
+          "observationId": "gemini-cli-preview-node-38d06b98b99ae430",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
@@ -210,7 +210,7 @@
             "severity": "minor",
             "status": "CHANGED"
           },
-          "version": "0.59.0-preview.0"
+          "version": "0.60.0-preview.0"
         }
       ],
       "name": "Gemini CLI"

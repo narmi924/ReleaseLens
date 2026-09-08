@@ -1,0 +1,79 @@
+{
+  "artifactChanges": [
+    {
+      "after": "95d4081ff682dafbbb1e9daffc2742d12e6c95812f2d2ab623379002d9e64a43",
+      "before": "bab723106219e7bbd99aad8f886e6abfa2078beaed07c0d9ae15568fd805e8b9",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@google/gemini-cli:unknown.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 20753165,
+      "before": 20730040,
+      "material": false,
+      "summary": "Artifact size changed for npm-tgz:@google/gemini-cli:unknown.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "gemini-cli-preview-node-587aa419d0c75fca",
+  "createdAt": "2026-09-08T21:55:39.116Z",
+  "diffId": "gemini-cli-preview-node-38d06b98b99ae430-from-gemini-cli-preview-node-587aa419d0c75fca",
+  "distributionChanges": [
+    {
+      "after": "0.59.0",
+      "before": "0.58.0",
+      "material": true,
+      "summary": "Distribution state npm-registry:latest: 0.58.0 → 0.59.0.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "0.60.0-preview.0",
+      "before": "0.59.0-preview.0",
+      "material": true,
+      "summary": "Distribution state npm-registry:preview: 0.59.0-preview.0 → 0.60.0-preview.0.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "0.60.0-preview.0",
+      "before": "0.59.0-preview.0",
+      "material": true,
+      "summary": "Distribution state npm-registry: 0.59.0-preview.0 → 0.60.0-preview.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "95d4081ff682dafbbb1e9daffc2742d12e6c95812f2d2ab623379002d9e64a43",
+      "before": "bab723106219e7bbd99aad8f886e6abfa2078beaed07c0d9ae15568fd805e8b9",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@google/gemini-cli:unknown.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "0.59.0",
+      "before": "0.58.0",
+      "material": true,
+      "summary": "Distribution state npm-registry:latest: 0.58.0 → 0.59.0.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "0.60.0-preview.0",
+      "before": "0.59.0-preview.0",
+      "material": true,
+      "summary": "Distribution state npm-registry:preview: 0.59.0-preview.0 → 0.60.0-preview.0.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "0.60.0-preview.0",
+      "before": "0.59.0-preview.0",
+      "material": true,
+      "summary": "Distribution state npm-registry: 0.59.0-preview.0 → 0.60.0-preview.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "gemini-cli-preview-node-38d06b98b99ae430",
+  "productId": "gemini-cli",
+  "schemaVersion": 1
+}
