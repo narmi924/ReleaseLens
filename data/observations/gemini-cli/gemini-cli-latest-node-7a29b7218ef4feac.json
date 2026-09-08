@@ -112,13 +112,6 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29228"
-        ],
-        "signature": "code:mcp-server|title:geminicli-com-feedback-issue",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29238"
         ],
         "signature": "code:pre-flight|title:feature-request-interactive-clarification-questions-pre",
@@ -133,28 +126,13 @@
       }
     ],
     "details": {
-      "fingerprint": "719ab47a4fc3003786b01ee03321e3d8bfe82a107cea9954e634500cac4c703c",
+      "fingerprint": "a7ba6b69a450acd3c00ad605fcaa9fc986741f8f506a137e250105b2615af1a0",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-06T18:17:28Z",
-        "id": "github-issue:google-gemini/gemini-cli:29228",
-        "labels": [
-          "area/extensions",
-          "effort/small",
-          "kind/question",
-          "priority/p3",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:mcp-server|title:geminicli-com-feedback-issue",
-        "title": "GeminiCLI.com Feedback: [ISSUE]",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29228"
-      },
       {
         "createdAt": "2026-09-07T00:09:15Z",
         "explicitVersion": "3.8-flash",
@@ -245,10 +223,10 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-08T14:38:13.661Z",
+    "observedAt": "2026-09-08T18:46:37.035Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-2a88884cd8a011fe",
   "interfaces": [
