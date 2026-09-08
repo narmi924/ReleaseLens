@@ -105,16 +105,16 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29232"
+          "github-issue:google-gemini/gemini-cli:29245"
         ],
-        "signature": "code:gemini-cli|title:google-great-company-but-gemini|version:3.8-flash",
+        "signature": "code:expect|title:geminicli-com-feedback-issue",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29224"
+          "github-issue:google-gemini/gemini-cli:29232"
         ],
-        "signature": "code:gemini-cli|title:npm-install-google-gemini-preview",
+        "signature": "code:gemini-cli|title:google-great-company-but-gemini|version:3.8-flash",
         "strength": "weak"
       },
       {
@@ -140,29 +140,13 @@
       }
     ],
     "details": {
-      "fingerprint": "c1724dba087d69e8acfbe88dddf09ebbcb1b9c9b7cbd81b22bec8f34fc6a251f",
+      "fingerprint": "6598892b4e40e52255acb8488d2953ed21b003297904a4748703ae727d37f918",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-06T05:18:09Z",
-        "id": "github-issue:google-gemini/gemini-cli:29224",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "kind/question",
-          "priority/p3",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:gemini-cli|title:npm-install-google-gemini-preview",
-        "title": "npm install -g @google/gemini-cli@preview",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29224"
-      },
       {
         "createdAt": "2026-09-06T07:36:38Z",
         "explicitVersion": "20.19.0",
@@ -264,10 +248,25 @@
         "signature": "code:string-gemini-extension|title:geminicli-com-feedback-usestring-string-gemini|version:1.0.1",
         "title": "GeminiCLI.com Feedback: `usestring/string-gemini-extension` not indexed in the Extensions Gallery after 12 daily crawls",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29240"
+      },
+      {
+        "createdAt": "2026-09-08T07:56:25Z",
+        "id": "github-issue:google-gemini/gemini-cli:29245",
+        "labels": [
+          "area/site",
+          "effort/small",
+          "kind/question",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:expect|title:geminicli-com-feedback-issue",
+        "title": "GeminiCLI.com Feedback: [ISSUE]",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29245"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-08T04:48:02.677Z",
+    "observedAt": "2026-09-08T09:48:30.977Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
