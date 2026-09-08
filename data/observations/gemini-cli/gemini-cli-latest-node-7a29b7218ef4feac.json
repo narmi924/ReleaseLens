@@ -84,13 +84,6 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29226"
-        ],
-        "signature": "code:editor|title:bug-numeric-settings-editor-saves-overflow|version:20.19.0|platform:arm64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29234"
         ],
         "signature": "code:edits|title:acp-marks-edits-existing-empty-files|version:0.60.0-nightly.20260901.g0bd1d4397|platform:arm64",
@@ -140,28 +133,13 @@
       }
     ],
     "details": {
-      "fingerprint": "6598892b4e40e52255acb8488d2953ed21b003297904a4748703ae727d37f918",
+      "fingerprint": "719ab47a4fc3003786b01ee03321e3d8bfe82a107cea9954e634500cac4c703c",
       "lookbackHours": 72,
       "releaseVersion": "0.58.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-06T07:36:38Z",
-        "explicitVersion": "20.19.0",
-        "id": "github-issue:google-gemini/gemini-cli:29226",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:editor|title:bug-numeric-settings-editor-saves-overflow|version:20.19.0|platform:arm64",
-        "title": "Bug: numeric settings editor saves overflow values as null",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29226"
-      },
       {
         "createdAt": "2026-09-06T18:17:28Z",
         "id": "github-issue:google-gemini/gemini-cli:29228",
@@ -253,11 +231,12 @@
         "createdAt": "2026-09-08T07:56:25Z",
         "id": "github-issue:google-gemini/gemini-cli:29245",
         "labels": [
-          "area/site",
+          "area/core",
           "effort/small",
           "kind/question",
           "priority/p3",
-          "status/bot-triaged"
+          "status/bot-triaged",
+          "status/need-information"
         ],
         "maintainerAcknowledged": false,
         "signature": "code:expect|title:geminicli-com-feedback-issue",
@@ -266,10 +245,10 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-08T09:48:30.977Z",
+    "observedAt": "2026-09-08T14:38:13.661Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-2a88884cd8a011fe",
   "interfaces": [
