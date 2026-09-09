@@ -1,0 +1,382 @@
+{
+  "artifacts": [
+    {
+      "fileName": "unavailable",
+      "format": "unavailable",
+      "id": "artifact:codex:unavailable:26.903.8094.0",
+      "kind": "artifact",
+      "observedAt": "2026-09-09T06:03:53.453Z",
+      "packageVersion": "26.903.8094.0",
+      "sourceHost": "unavailable",
+      "status": "unsupported",
+      "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+      "verification": []
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-09-09T06:03:53.453Z",
+      "kind": "behavior",
+      "observedAt": "2026-09-09T06:03:53.453Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-09T06:03:53.453Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-09T06:03:53.453Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-backend-version"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-09T06:03:53.453Z",
+          "status": "not-applicable",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "unsupported",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44063"
+        ],
+        "signature": "code:codex-cli|title:tui-linux-ssh-disconnect-leaves-idle|version:0.153.4|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44069"
+        ],
+        "signature": "code:deny_read_acl_state|title:windows-sandbox-parsing-deny-read-acl|version:29.3876012|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44065"
+        ],
+        "signature": "code:each|title:allow-searching-plugins-developer-publisher-name",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44057"
+        ],
+        "signature": "code:environment|title:pressing-page-page-down-input-box|version:26.901.51231|platform:x64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44064"
+        ],
+        "signature": "code:environment|title:windows-personal-plus-account-has-work|version:26.901.6511.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44071"
+        ],
+        "signature": "code:exact|title:windows-desktop-local-markdown-preview-shows|version:26.901.4073.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44059"
+        ],
+        "signature": "code:experience|title:windows-voice-started-chat-silently-routed|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44058"
+        ],
+        "signature": "code:gpt-6-astra|title:astra-needs-told-continue-far-too|version:0.153.4|platform:x64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44054"
+        ],
+        "signature": "code:long-running|title:windows-desktop-recent-history-unreadable-restart|version:26.903.8094.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44052"
+        ],
+        "signature": "code:user-attachments|title:design-issue-dark-grey-show-more|version:26.901.51231|platform:windows",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "434acd3404a9830227670576ff8fd741fb2aaf1e4b1bbd0823015871bb723002",
+      "lookbackHours": 72,
+      "releaseVersion": "26.903.8094.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-09-09T04:33:48Z",
+        "explicitVersion": "26.901.51231",
+        "id": "github-issue:openai/codex:44052",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:user-attachments|title:design-issue-dark-grey-show-more|version:26.901.51231|platform:windows",
+        "title": "UI/Design issue - Dark grey \"show more\" button is almost invisible against black background",
+        "url": "https://github.com/openai/codex/issues/44052"
+      },
+      {
+        "createdAt": "2026-09-09T04:40:35Z",
+        "explicitVersion": "26.903.8094.0",
+        "id": "github-issue:openai/codex:44054",
+        "labels": [
+          "app",
+          "bug",
+          "context",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:long-running|title:windows-desktop-recent-history-unreadable-restart|version:26.903.8094.0|platform:windows",
+        "title": "[Windows Desktop 26.903.8094 / 0.153.4] Recent history unreadable after restart while canonical transcript advances",
+        "url": "https://github.com/openai/codex/issues/44054"
+      },
+      {
+        "createdAt": "2026-09-09T05:02:03Z",
+        "explicitVersion": "26.901.51231",
+        "id": "github-issue:openai/codex:44057",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:environment|title:pressing-page-page-down-input-box|version:26.901.51231|platform:x64",
+        "title": "Pressing Page Up and Page Down in the input box causes the interface to shift horizontally",
+        "url": "https://github.com/openai/codex/issues/44057"
+      },
+      {
+        "createdAt": "2026-09-09T05:03:33Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:44058",
+        "labels": [
+          "bug",
+          "CLI",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:gpt-6-astra|title:astra-needs-told-continue-far-too|version:0.153.4|platform:x64",
+        "title": "Astra needs to be told to continue far too often",
+        "url": "https://github.com/openai/codex/issues/44058"
+      },
+      {
+        "createdAt": "2026-09-09T05:05:17Z",
+        "id": "github-issue:openai/codex:44059",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:experience|title:windows-voice-started-chat-silently-routed|platform:windows",
+        "title": "[Windows] Voice started from Chat is silently routed to Work",
+        "url": "https://github.com/openai/codex/issues/44059"
+      },
+      {
+        "createdAt": "2026-09-09T05:28:19Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:44063",
+        "labels": [
+          "bug",
+          "CLI",
+          "remote",
+          "session",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:codex-cli|title:tui-linux-ssh-disconnect-leaves-idle|version:0.153.4|platform:windows",
+        "title": "[CLI][TUI][Linux] SSH disconnect leaves idle TUI holding the thread writer   lock; resume fails with \"already has an active writer\" until the old process is killed",
+        "url": "https://github.com/openai/codex/issues/44063"
+      },
+      {
+        "createdAt": "2026-09-09T05:30:22Z",
+        "explicitVersion": "26.901.6511.0",
+        "id": "github-issue:openai/codex:44064",
+        "labels": [
+          "app",
+          "auth",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:environment|title:windows-personal-plus-account-has-work|version:26.901.6511.0|platform:windows",
+        "title": "[Windows] Personal Plus account has Work/Codex access on web/CLI but desktop app incorrectly says “Contact your admin”",
+        "url": "https://github.com/openai/codex/issues/44064"
+      },
+      {
+        "createdAt": "2026-09-09T05:34:16Z",
+        "id": "github-issue:openai/codex:44065",
+        "labels": [
+          "app",
+          "enhancement",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:each|title:allow-searching-plugins-developer-publisher-name",
+        "title": "Allow searching plugins by developer or publisher name",
+        "url": "https://github.com/openai/codex/issues/44065"
+      },
+      {
+        "createdAt": "2026-09-09T05:56:07Z",
+        "explicitVersion": "29.3876012",
+        "id": "github-issue:openai/codex:44069",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:deny_read_acl_state|title:windows-sandbox-parsing-deny-read-acl|version:29.3876012|platform:windows",
+        "title": "Windows sandbox fails parsing deny_read_acl_state.json containing 22 NUL bytes",
+        "url": "https://github.com/openai/codex/issues/44069"
+      },
+      {
+        "createdAt": "2026-09-09T05:59:48Z",
+        "explicitVersion": "26.901.4073.0",
+        "id": "github-issue:openai/codex:44071",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:exact|title:windows-desktop-local-markdown-preview-shows|version:26.901.4073.0|platform:windows",
+        "title": "Windows desktop app local Markdown preview shows LaTeX math as raw text",
+        "url": "https://github.com/openai/codex/issues/44071"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-09-09T06:04:20.062Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "10 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-40132b77e526b9c5",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-3306bf1586a1087b",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.903.8094.0",
+    "channel": "stable",
+    "discoveredAt": "2026-09-09T06:03:53.453Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.903.8094.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "9256db8909ec0216bc1aa90160705ec85fedd4deccaeb60a356a6b3f9003fa5f",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-09-09T06:03:53.534Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.903.8094.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "13edfe2a-b545-4212-bfb9-b0b85d64e277"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-09-09T06:03:53.453Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "warning",
+      "summary": "FE3 x64 package 26.903.8094.0 is ahead of DisplayCatalog 26.901.6511.0; acquisition is vetoed pending metadata convergence. Official rollout signal reports 26.903.8094.0."
+    },
+    {
+      "details": {
+        "buildVersion": "26.903.8094.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-09-09T06:03:53.453Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:codex:unavailable:26.903.8094.0"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-09T06:03:53.453Z"
+        ],
+        "message": "Required behavior codex-msix-identity is unsupported."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-09T06:03:53.453Z"
+        ],
+        "message": "Required behavior codex-backend-version is unsupported."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}
