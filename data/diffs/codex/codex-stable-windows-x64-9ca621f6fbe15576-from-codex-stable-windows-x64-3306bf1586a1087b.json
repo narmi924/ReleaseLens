@@ -1,0 +1,72 @@
+{
+  "artifactChanges": [
+    {
+      "before": {},
+      "material": true,
+      "summary": "Artifact removed: unavailable:unknown:unknown.",
+      "type": "artifact-removed"
+    },
+    {
+      "after": {
+        "sha256": "f8a845dd58f177fbcd71b01c7831d742fc90855e4b207ee2d8ce3ab5f9bcc30f",
+        "sizeBytes": 769792128
+      },
+      "material": true,
+      "summary": "Artifact added: msix:OpenAI.Codex:x64.",
+      "type": "artifact-added"
+    }
+  ],
+  "behaviorChanges": [
+    {
+      "after": "fail",
+      "before": "unsupported",
+      "material": true,
+      "summary": "Behavior codex-msix-identity: unsupported → fail.",
+      "type": "behavior-status-changed"
+    },
+    {
+      "before": "unsupported",
+      "material": true,
+      "summary": "Behavior test removed: codex-backend-version.",
+      "type": "behavior-test-removed"
+    }
+  ],
+  "comparedWith": "codex-stable-windows-x64-3306bf1586a1087b",
+  "createdAt": "2026-09-09T11:32:14.266Z",
+  "diffId": "codex-stable-windows-x64-9ca621f6fbe15576-from-codex-stable-windows-x64-3306bf1586a1087b",
+  "distributionChanges": [],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "before": {},
+      "material": true,
+      "summary": "Artifact removed: unavailable:unknown:unknown.",
+      "type": "artifact-removed"
+    },
+    {
+      "after": {
+        "sha256": "f8a845dd58f177fbcd71b01c7831d742fc90855e4b207ee2d8ce3ab5f9bcc30f",
+        "sizeBytes": 769792128
+      },
+      "material": true,
+      "summary": "Artifact added: msix:OpenAI.Codex:x64.",
+      "type": "artifact-added"
+    },
+    {
+      "after": "fail",
+      "before": "unsupported",
+      "material": true,
+      "summary": "Behavior codex-msix-identity: unsupported → fail.",
+      "type": "behavior-status-changed"
+    },
+    {
+      "before": "unsupported",
+      "material": true,
+      "summary": "Behavior test removed: codex-backend-version.",
+      "type": "behavior-test-removed"
+    }
+  ],
+  "observationId": "codex-stable-windows-x64-9ca621f6fbe15576",
+  "productId": "codex",
+  "schemaVersion": 1
+}

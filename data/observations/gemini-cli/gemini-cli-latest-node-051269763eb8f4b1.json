@@ -91,14 +91,14 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29245"
+          "github-issue:google-gemini/gemini-cli:29264"
         ],
-        "signature": "code:expect|title:geminicli-com-feedback-issue",
+        "signature": "code:execution|title:fix-agent-prevent-session-context-poisoning",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "1dbc5123d7e328cf2011b734558b9d1e418bf390dc03306843ca7d8fc940781f",
+      "fingerprint": "67e925de25a1af1cefea9baf575f26078fa8fa6db500e4512c8a76ad17fa74fd",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
@@ -106,38 +106,39 @@
     "id": "community:gemini-cli:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-08T07:56:25Z",
-        "id": "github-issue:google-gemini/gemini-cli:29245",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "kind/question",
-          "priority/p3",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:expect|title:geminicli-com-feedback-issue",
-        "title": "GeminiCLI.com Feedback: [ISSUE]",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29245"
-      },
-      {
         "createdAt": "2026-09-08T23:12:30Z",
         "explicitVersion": "0.59.0",
         "id": "github-issue:google-gemini/gemini-cli:29257",
         "labels": [
           "area/agent",
-          "status/need-triage"
+          "kind/bug",
+          "priority/p1",
+          "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
         "platform": "arm64",
         "signature": "code:cli_help|title:subagent-hangs-exactly-minutes-any-meta|version:0.59.0|platform:arm64",
         "title": "cli_help subagent hangs for exactly 3 minutes on any CLI meta-question (unbounded thinkingBudget, no per-turn timeout)",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29257"
+      },
+      {
+        "createdAt": "2026-09-09T07:06:06Z",
+        "id": "github-issue:google-gemini/gemini-cli:29264",
+        "labels": [
+          "area/agent",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:execution|title:fix-agent-prevent-session-context-poisoning",
+        "title": "fix(agent): prevent session context poisoning and infinite loops on interrupted turns",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29264"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-09T06:04:32.496Z",
+    "observedAt": "2026-09-09T11:33:01.097Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "2 recent official GitHub issues observed for google-gemini/gemini-cli."
