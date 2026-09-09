@@ -176,113 +176,77 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:43871"
+          "github-issue:openai/codex:43944"
         ],
-        "signature": "code:a6c2-cc4979e4d603|title:windows-tool-approval-appears-misinterpret-utc|version:26.905.11957|platform:windows",
+        "signature": "code:app-server|title:chatgpt-desktop-codex-server-task-messaging|version:26.901.51231|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43866"
+          "github-issue:openai/codex:43938"
         ],
-        "signature": "code:agent-created|title:agent-created-chrome-tab-closes-turn|version:26.901.51231|platform:arm64",
+        "signature": "code:enterprise|title:codex-tool-ipc-decoding-failure|version:26.901.51231|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43872"
+          "github-issue:openai/codex:43935"
         ],
-        "signature": "code:d130-7ed2-a92a-362f888a6b18|title:codex-chat-threads-keep-deleting-partial|version:26.901.51231|platform:arm64",
+        "signature": "code:environment|title:windows-reopened-task-shows-older-history|version:26.901.6511.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43868"
+          "github-issue:openai/codex:43940"
         ],
-        "signature": "code:each|title:add-smart-model-picker-option-that|version:5.6",
+        "signature": "code:extension|title:chatgpt-needs-dubious-access-other-data|version:26.901.51231|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43867"
+          "github-issue:openai/codex:43932"
         ],
-        "signature": "code:enabled|title:function-health-plugin-installs-but-connector|version:26.901.51231|platform:arm64",
+        "signature": "code:extension|title:fog-randomly-appears-top-prompt-box|version:26.901.22334|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43880"
+          "github-issue:openai/codex:43941"
         ],
-        "signature": "code:environment|title:codex-windows-native-computer-use-stops|version:26.901.6511.0|platform:windows",
+        "signature": "code:external|title:linux-hyprland-chatgpt-desktop-becomes-default|version:26.901.51231|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43883"
+          "github-issue:openai/codex:43945"
         ],
-        "signature": "code:environment|title:title-macos-codex-identical-safety-finding|version:26.901.51231|platform:macos",
+        "signature": "code:get-appxpackage|title:windows-chrome-browsing-history-import-make|version:26.901.6511.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43877"
+          "github-issue:openai/codex:43931"
         ],
-        "signature": "code:especially|title:codex-agent-used-reset-token-while|version:26.901.51231|platform:macos",
+        "signature": "code:local-file|title:desktop-work-local-file-access-execution|version:26.6.2|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43869"
+          "github-issue:openai/codex:43946"
         ],
-        "signature": "code:extension|title:macos-golden-gate-beta-computer-browser|version:26.901.51231|platform:arm64",
+        "signature": "code:long-running|title:codex-desktop-windows|version:26.901.51231|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:43875"
+          "github-issue:openai/codex:43933"
         ],
-        "signature": "code:extra|title:add-extra-automatic-reload-like-toggle|platform:windows",
+        "signature": "code:model-scoped|title:feature-request-support-model-scoped-configuration|version:5.6-sol",
         "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:43874"
-        ],
-        "signature": "code:gpt-6-astra|title:cybersecurity-false-positive-blocks-shogi-review|version:0.153.4|platform:x64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:43882"
-        ],
-        "signature": "code:long-running|title:long-running-codex-task-ends-progress|version:26.901.6511.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:43885"
-        ],
-        "signature": "code:post-recovery|title:codex-desktop-loses-completed-post-recovery|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:43881"
-        ],
-        "signature": "code:read-only|title:windows-read-only-get-content-rejected|version:0.153.4|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:43878",
-          "github-issue:openai/codex:43879"
-        ],
-        "signature": "code:read-only|title:windows-sandbox-nested-read-only-temp|version:0.153.4|platform:windows",
-        "strength": "moderate"
       }
     ],
     "details": {
-      "fingerprint": "6f6fb659270be7280fceb21ad0ee4de454db199ce388e0934351fc4e84e9d777",
+      "fingerprint": "a59518b858e4db2b1f1d75b75efcf83167812363dba56ec8b9e36bd0df825230",
       "lookbackHours": 72,
       "releaseVersion": "26.901.6511.0",
       "source": "official-github-issues"
@@ -290,9 +254,84 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-08T17:29:34Z",
+        "createdAt": "2026-09-08T22:14:49Z",
+        "explicitVersion": "26.6.2",
+        "id": "github-issue:openai/codex:43931",
+        "labels": [
+          "app",
+          "enhancement",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:local-file|title:desktop-work-local-file-access-execution|version:26.6.2|platform:arm64",
+        "title": "Desktop Work local-file access: execution mode and guidance unclear",
+        "url": "https://github.com/openai/codex/issues/43931"
+      },
+      {
+        "createdAt": "2026-09-08T22:17:21Z",
+        "explicitVersion": "26.901.22334",
+        "id": "github-issue:openai/codex:43932",
+        "labels": [
+          "bug",
+          "extension"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:extension|title:fog-randomly-appears-top-prompt-box|version:26.901.22334|platform:linux",
+        "title": "Fog randomly appears at the top of the prompt box",
+        "url": "https://github.com/openai/codex/issues/43932"
+      },
+      {
+        "createdAt": "2026-09-08T22:21:01Z",
+        "explicitVersion": "5.6-sol",
+        "id": "github-issue:openai/codex:43933",
+        "labels": [
+          "CLI",
+          "config",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:model-scoped|title:feature-request-support-model-scoped-configuration|version:5.6-sol",
+        "title": "Feature request: Support model-scoped configuration overrides",
+        "url": "https://github.com/openai/codex/issues/43933"
+      },
+      {
+        "createdAt": "2026-09-08T22:26:14Z",
+        "explicitVersion": "26.901.6511.0",
+        "id": "github-issue:openai/codex:43935",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:environment|title:windows-reopened-task-shows-older-history|version:26.901.6511.0|platform:windows",
+        "title": "[Windows 26.901.6511.0] Reopened task shows older history although recent final answers remain persisted",
+        "url": "https://github.com/openai/codex/issues/43935"
+      },
+      {
+        "createdAt": "2026-09-08T22:48:13Z",
         "explicitVersion": "26.901.51231",
-        "id": "github-issue:openai/codex:43866",
+        "id": "github-issue:openai/codex:43938",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:enterprise|title:codex-tool-ipc-decoding-failure|version:26.901.51231|platform:linux",
+        "title": "Codex tool IPC decoding failure",
+        "url": "https://github.com/openai/codex/issues/43938"
+      },
+      {
+        "createdAt": "2026-09-08T22:53:52Z",
+        "explicitVersion": "26.901.51231",
+        "id": "github-issue:openai/codex:43940",
         "labels": [
           "app",
           "browser",
@@ -300,254 +339,80 @@
         ],
         "maintainerAcknowledged": false,
         "platform": "arm64",
-        "signature": "code:agent-created|title:agent-created-chrome-tab-closes-turn|version:26.901.51231|platform:arm64",
-        "title": "Agent-created Chrome tab closes at turn boundaries and loses workflow state",
-        "url": "https://github.com/openai/codex/issues/43866"
+        "signature": "code:extension|title:chatgpt-needs-dubious-access-other-data|version:26.901.51231|platform:arm64",
+        "title": "ChatGPT needs dubious access to other's app data while using Chrome extension",
+        "url": "https://github.com/openai/codex/issues/43940"
       },
       {
-        "createdAt": "2026-09-08T17:31:32Z",
+        "createdAt": "2026-09-08T23:30:47Z",
         "explicitVersion": "26.901.51231",
-        "id": "github-issue:openai/codex:43867",
+        "id": "github-issue:openai/codex:43941",
         "labels": [
           "app",
-          "bug",
-          "skills"
+          "bug"
         ],
         "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:enabled|title:function-health-plugin-installs-but-connector|version:26.901.51231|platform:arm64",
-        "title": "Function Health plugin installs, but connector record is missing and cannot be connected",
-        "url": "https://github.com/openai/codex/issues/43867"
+        "platform": "linux",
+        "resolutionReference": "https://github.com/openai/codex/issues/43941",
+        "signature": "code:external|title:linux-hyprland-chatgpt-desktop-becomes-default|version:26.901.51231|platform:linux",
+        "title": "[Linux/Hyprland] ChatGPT Desktop becomes the default HTTP/HTTPS browser after installation",
+        "url": "https://github.com/openai/codex/issues/43941"
       },
       {
-        "createdAt": "2026-09-08T17:35:46Z",
-        "explicitVersion": "5.6",
-        "id": "github-issue:openai/codex:43868",
+        "createdAt": "2026-09-08T23:45:42Z",
+        "explicitVersion": "26.901.51231",
+        "id": "github-issue:openai/codex:43944",
         "labels": [
           "app",
-          "enhancement"
+          "app-server",
+          "azure",
+          "bug"
         ],
         "maintainerAcknowledged": false,
-        "signature": "code:each|title:add-smart-model-picker-option-that|version:5.6",
-        "title": "Add a Smart model picker option that automatically routes each task to the right Codex model",
-        "url": "https://github.com/openai/codex/issues/43868"
+        "platform": "macos",
+        "signature": "code:app-server|title:chatgpt-desktop-codex-server-task-messaging|version:26.901.51231|platform:macos",
+        "title": "ChatGPT desktop app / Codex app-server task messaging",
+        "url": "https://github.com/openai/codex/issues/43944"
       },
       {
-        "createdAt": "2026-09-08T17:39:07Z",
-        "explicitVersion": "26.901.51231",
-        "id": "github-issue:openai/codex:43869",
+        "createdAt": "2026-09-08T23:58:02Z",
+        "explicitVersion": "26.901.6511.0",
+        "id": "github-issue:openai/codex:43945",
         "labels": [
           "app",
           "browser",
           "bug",
-          "computer-use"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "resolutionReference": "https://github.com/openai/codex/issues/43869",
-        "signature": "code:extension|title:macos-golden-gate-beta-computer-browser|version:26.901.51231|platform:arm64",
-        "title": "macOS 27 Golden Gate beta: computer/browser control stops when locked, with no apparent permission request",
-        "url": "https://github.com/openai/codex/issues/43869"
-      },
-      {
-        "createdAt": "2026-09-08T17:43:26Z",
-        "explicitVersion": "26.905.11957",
-        "id": "github-issue:openai/codex:43871",
-        "labels": [
-          "app",
-          "bug",
-          "sandbox",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:a6c2-cc4979e4d603|title:windows-tool-approval-appears-misinterpret-utc|version:26.905.11957|platform:windows",
-        "title": "Windows: Tool approval appears to misinterpret UTC deadline, prematurely rejecting an authorized command",
-        "url": "https://github.com/openai/codex/issues/43871"
+        "signature": "code:get-appxpackage|title:windows-chrome-browsing-history-import-make|version:26.901.6511.0|platform:windows",
+        "title": "Windows: Chrome browsing history import fails with “Make sure Chrome is fully closed” despite unlocked, readable history databases",
+        "url": "https://github.com/openai/codex/issues/43945"
       },
       {
-        "createdAt": "2026-09-08T17:48:09Z",
+        "createdAt": "2026-09-09T00:00:53Z",
         "explicitVersion": "26.901.51231",
-        "id": "github-issue:openai/codex:43872",
+        "id": "github-issue:openai/codex:43946",
         "labels": [
           "app",
           "bug",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:d130-7ed2-a92a-362f888a6b18|title:codex-chat-threads-keep-deleting-partial|version:26.901.51231|platform:arm64",
-        "title": "Codex chat threads keep deleting partial history",
-        "url": "https://github.com/openai/codex/issues/43872"
-      },
-      {
-        "createdAt": "2026-09-08T17:56:03Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:43874",
-        "labels": [
-          "bug",
-          "CLI",
-          "code-review",
-          "safety-check"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "x64",
-        "signature": "code:gpt-6-astra|title:cybersecurity-false-positive-blocks-shogi-review|version:0.153.4|platform:x64",
-        "title": "Cybersecurity false positive blocks shogi code review after Daybreak activation",
-        "url": "https://github.com/openai/codex/issues/43874"
-      },
-      {
-        "createdAt": "2026-09-08T18:04:01Z",
-        "id": "github-issue:openai/codex:43875",
-        "labels": [
-          "app",
-          "enhancement",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:extra|title:add-extra-automatic-reload-like-toggle|platform:windows",
-        "title": "Add an extra Automatic reload-like toggle that automatically uses one of your banked resets the moment the weekly usage limit is hit.",
-        "url": "https://github.com/openai/codex/issues/43875"
-      },
-      {
-        "createdAt": "2026-09-08T18:04:57Z",
-        "explicitVersion": "26.901.51231",
-        "id": "github-issue:openai/codex:43877",
-        "labels": [
-          "app",
-          "bug",
-          "model-behavior",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:especially|title:codex-agent-used-reset-token-while|version:26.901.51231|platform:macos",
-        "title": "Codex agent used a reset token while I had 100% usage remaining",
-        "url": "https://github.com/openai/codex/issues/43877"
-      },
-      {
-        "createdAt": "2026-09-08T18:07:42Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:43878",
-        "labels": [
-          "app",
-          "bug",
-          "CLI",
-          "sandbox",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/43878",
-        "signature": "code:read-only|title:windows-sandbox-nested-read-only-temp|version:0.153.4|platform:windows",
-        "title": "Windows sandbox: nested read-only Temp rule selected, but enforcement unverified (CLI 0.153.4)",
-        "url": "https://github.com/openai/codex/issues/43878"
-      },
-      {
-        "createdAt": "2026-09-08T18:08:25Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:43879",
-        "labels": [
-          "app",
-          "bug",
-          "CLI",
-          "sandbox",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:read-only|title:windows-sandbox-nested-read-only-temp|version:0.153.4|platform:windows",
-        "title": "Windows sandbox: nested read-only Temp rule selected, but enforcement unverified (CLI 0.153.4)",
-        "url": "https://github.com/openai/codex/issues/43879"
-      },
-      {
-        "createdAt": "2026-09-08T18:20:13Z",
-        "explicitVersion": "26.901.6511.0",
-        "id": "github-issue:openai/codex:43880",
-        "labels": [
-          "app",
-          "bug",
-          "computer-use",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:environment|title:codex-windows-native-computer-use-stops|version:26.901.6511.0|platform:windows",
-        "title": "Codex on Windows: Native Computer Use stops because it cannot determine Chrome’s current URL",
-        "url": "https://github.com/openai/codex/issues/43880"
-      },
-      {
-        "createdAt": "2026-09-08T18:27:49Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:43881",
-        "labels": [
-          "bug",
-          "CLI",
-          "exec",
-          "sandbox",
-          "tool-calls",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:read-only|title:windows-read-only-get-content-rejected|version:0.153.4|platform:windows",
-        "title": "Windows CLI 0.153.4: read-only Get-Content rejected by policy without rule attribution",
-        "url": "https://github.com/openai/codex/issues/43881"
-      },
-      {
-        "createdAt": "2026-09-08T18:30:03Z",
-        "explicitVersion": "26.901.6511.0",
-        "id": "github-issue:openai/codex:43882",
-        "labels": [
-          "app",
-          "bug",
-          "model-behavior"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:long-running|title:long-running-codex-task-ends-progress|version:26.901.6511.0|platform:windows",
-        "title": "Long-running Codex task ends after progress update instead of continuing to completion",
-        "url": "https://github.com/openai/codex/issues/43882"
-      },
-      {
-        "createdAt": "2026-09-08T18:36:06Z",
-        "explicitVersion": "26.901.51231",
-        "id": "github-issue:openai/codex:43883",
-        "labels": [
-          "app",
-          "bug",
-          "safety-check",
-          "subagent"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "resolutionReference": "https://github.com/openai/codex/issues/43883",
-        "signature": "code:environment|title:title-macos-codex-identical-safety-finding|version:26.901.51231|platform:macos",
-        "title": "Title: macOS Codex: identical safety finding repeatedly returns after acknowledgement and restart; delegated agents also blocked",
-        "url": "https://github.com/openai/codex/issues/43883"
-      },
-      {
-        "createdAt": "2026-09-08T18:42:54Z",
-        "id": "github-issue:openai/codex:43885",
-        "labels": [
-          "app",
-          "bug",
+          "remote",
           "session",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:post-recovery|title:codex-desktop-loses-completed-post-recovery|platform:windows",
-        "title": "Codex Desktop loses completed post-recovery conversation after restart and restores stale interrupted checkpoint",
-        "url": "https://github.com/openai/codex/issues/43885"
+        "signature": "code:long-running|title:codex-desktop-windows|version:26.901.51231|platform:windows",
+        "title": "Codex desktop on Windows",
+        "url": "https://github.com/openai/codex/issues/43946"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-08T18:46:34.543Z",
+    "observedAt": "2026-09-09T00:20:13.694Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "16 recent official GitHub issues observed for openai/codex."
+    "summary": "10 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-e43d715a6f07144c",
   "interfaces": [],
