@@ -175,126 +175,84 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:44189"
+          "github-issue:openai/codex:44287"
         ],
-        "signature": "code:app-initial-cadb12d4a15e|title:desktop-plugin-toggle-shows-ordinary-success|version:26.901.51231|platform:macos",
+        "signature": "code:advice-on-prompting|title:invalid-prompt-your-prompt-was-flagged|version:0.153.4|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44184"
+          "github-issue:openai/codex:44272"
         ],
-        "signature": "code:cdxb-44184|title:cdxb-44184-desktop-restores-invalid-astra|platform:macos",
+        "signature": "code:b8ed-74f2-ad0b-819e04947853|title:little-while-ago-raised-weekly-usage|version:26.901.51231|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44182"
+          "github-issue:openai/codex:44278"
         ],
-        "signature": "code:codex_26|title:codex-desktop-wsl2-malformed-project-paths|version:26.903.8094.0|platform:windows",
+        "signature": "code:effectively|title:usage-randomly-reaches-persists-then-ignores|version:26.903.61454|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44188"
+          "github-issue:openai/codex:44282"
         ],
-        "signature": "code:connection-state|title:desktop-plugin-oauth-reconciliation-can-uninstall|version:26.901.51231|platform:macos",
+        "signature": "code:error|title:pull-request-incorrectly-marked-previously-reviewed|version:26.903.61454|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44187"
+          "github-issue:openai/codex:44274"
         ],
-        "signature": "code:effects|title:bundled-skill-helpers-need-preflight-validation|version:0.153.4",
+        "signature": "code:exact|title:pro-20x-sep-weekly-quota-jumped|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44191"
+          "github-issue:openai/codex:44271"
         ],
-        "signature": "code:enterprise|title:codex-scanned-unsafe-untrusted-paths-find|version:0.153.4|platform:x64",
+        "signature": "code:exhaustion|title:windows-codex-work-causes-ntfc-ntfs|version:26.903.8094.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44185"
+          "github-issue:openai/codex:44275"
         ],
-        "signature": "code:error|title:codex-desktop-windows-sandbox-accounts-stuck|version:26.814.5517.0|platform:windows",
+        "signature": "code:explicitly|title:explicitly-selected-profile-model-overridden-workspace|version:0.153.4|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44196"
+          "github-issue:openai/codex:44269"
         ],
-        "signature": "code:error|title:windows-desktop-local-automations-stall-renderer|version:26.901.6511.0|platform:windows",
+        "signature": "code:intralynked-agents|title:projects-containers-disappeared|version:26.903.61454|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44193"
+          "github-issue:openai/codex:44280"
         ],
-        "signature": "code:explicitly|title:macos-desktop-explicitly-allowed-unix-http|version:0.153.4|platform:macos",
+        "signature": "code:long-running|title:long-running-chat-stopped-precaution-reopening|version:0.153.4|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44186"
+          "github-issue:openai/codex:44270"
         ],
-        "signature": "code:exposes|title:windows-computer-use-exposes-only-browser|version:26.903.61454|platform:windows",
+        "signature": "code:multi_agent|title:multi-agent-usage-hint-renders-invalid|version:0.153.4|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44190"
+          "github-issue:openai/codex:44279"
         ],
-        "signature": "code:gpt-5|title:gpt-sol-degraded-gpt-got-released|version:5.6|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44179"
-        ],
-        "signature": "code:heartbeat-attached|title:windows-activity-view-hides-heartbeat-attached|version:26.901.6511.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44180"
-        ],
-        "signature": "code:line-number|title:codex-desktop-native-source-line-numbers|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44195"
-        ],
-        "signature": "code:project-trust|title:windows-android-remote-project-tasks-ignore|version:26.903.8094.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44197"
-        ],
-        "signature": "code:read-only|title:windows-sandbox-read-only-command-times|version:0.146.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44192"
-        ],
-        "signature": "code:user-facing|title:bundled-visualize-skill-unconditionally-conflicts-host|version:1.0.29",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44194"
-        ],
-        "signature": "code:x86_64|title:voice-mode-open-codex-desktop|version:24.6.0|platform:macos",
+        "signature": "code:resumed-session|title:safety-check-false-positive-depends-accumulated|version:0.151.0|platform:windows",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "a3ec8bd21013dee6b049b9466aca4eed240d3e9e47acd0123c3bd29c4cf4164f",
+      "fingerprint": "e05323f8d165344f6438ba4bdc2ccae4f9afc503b9c865f0b0c85513c04a98c6",
       "lookbackHours": 72,
       "releaseVersion": "26.903.8094.0",
       "source": "official-github-issues"
@@ -302,277 +260,181 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-09T15:40:42Z",
-        "explicitVersion": "26.901.6511.0",
-        "id": "github-issue:openai/codex:44179",
-        "labels": [
-          "app",
-          "automations",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:heartbeat-attached|title:windows-activity-view-hides-heartbeat-attached|version:26.901.6511.0|platform:windows",
-        "title": "[P2][Windows][26.901.6511.0] Activity View hides heartbeat-attached chats with new ordinary messages",
-        "url": "https://github.com/openai/codex/issues/44179"
-      },
-      {
-        "createdAt": "2026-09-09T15:44:37Z",
-        "id": "github-issue:openai/codex:44180",
-        "labels": [
-          "app",
-          "code-review",
-          "enhancement"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:line-number|title:codex-desktop-native-source-line-numbers|platform:macos",
-        "title": "Codex desktop: native source line numbers with syntax highlighting in chat code blocks and diffs",
-        "url": "https://github.com/openai/codex/issues/44180"
-      },
-      {
-        "createdAt": "2026-09-09T15:52:18Z",
-        "explicitVersion": "26.903.8094.0",
-        "id": "github-issue:openai/codex:44182",
-        "labels": [
-          "app",
-          "bug",
-          "tool-calls",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:codex_26|title:codex-desktop-wsl2-malformed-project-paths|version:26.903.8094.0|platform:windows",
-        "title": "Codex Desktop WSL2: malformed project paths, rejected Linux symlinks, and pasted images inaccessible to image tool",
-        "url": "https://github.com/openai/codex/issues/44182"
-      },
-      {
-        "createdAt": "2026-09-09T15:54:34Z",
-        "id": "github-issue:openai/codex:44184",
-        "labels": [
-          "app",
-          "bug",
-          "config"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:cdxb-44184|title:cdxb-44184-desktop-restores-invalid-astra|platform:macos",
-        "title": "CDXB-44184: Desktop restores invalid Astra reasoning effort",
-        "url": "https://github.com/openai/codex/issues/44184"
-      },
-      {
-        "createdAt": "2026-09-09T16:05:14Z",
-        "explicitVersion": "26.814.5517.0",
-        "id": "github-issue:openai/codex:44185",
-        "labels": [
-          "app",
-          "bug",
-          "sandbox",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:error|title:codex-desktop-windows-sandbox-accounts-stuck|version:26.814.5517.0|platform:windows",
-        "title": "Codex Desktop Windows: Sandbox Accounts Stuck in PasswordExpired State Causing CreateProcessWithLogonW Error 1907",
-        "url": "https://github.com/openai/codex/issues/44185"
-      },
-      {
-        "createdAt": "2026-09-09T16:11:22Z",
+        "createdAt": "2026-09-09T18:38:09Z",
         "explicitVersion": "26.903.61454",
-        "id": "github-issue:openai/codex:44186",
-        "labels": [
-          "app",
-          "bug",
-          "computer-use",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:exposes|title:windows-computer-use-exposes-only-browser|version:26.903.61454|platform:windows",
-        "title": "Windows Computer Use exposes only browser surface; `sky` service is not configured",
-        "url": "https://github.com/openai/codex/issues/44186"
-      },
-      {
-        "createdAt": "2026-09-09T16:11:33Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:44187",
-        "labels": [
-          "bug",
-          "imagen",
-          "skills"
-        ],
-        "maintainerAcknowledged": false,
-        "resolutionReference": "https://github.com/openai/codex/issues/44187",
-        "signature": "code:effects|title:bundled-skill-helpers-need-preflight-validation|version:0.153.4",
-        "title": "Bundled skill helpers need preflight validation before installation and image API side effects",
-        "url": "https://github.com/openai/codex/issues/44187"
-      },
-      {
-        "createdAt": "2026-09-09T16:11:47Z",
-        "explicitVersion": "26.901.51231",
-        "id": "github-issue:openai/codex:44188",
-        "labels": [
-          "app",
-          "auth",
-          "bug",
-          "skills"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:connection-state|title:desktop-plugin-oauth-reconciliation-can-uninstall|version:26.901.51231|platform:macos",
-        "title": "Desktop plugin OAuth reconciliation can uninstall after a connection-state query error",
-        "url": "https://github.com/openai/codex/issues/44188"
-      },
-      {
-        "createdAt": "2026-09-09T16:12:02Z",
-        "explicitVersion": "26.901.51231",
-        "id": "github-issue:openai/codex:44189",
+        "id": "github-issue:openai/codex:44269",
         "labels": [
           "app",
           "app-server",
           "bug",
-          "skills"
+          "windows-os"
         ],
         "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:app-initial-cadb12d4a15e|title:desktop-plugin-toggle-shows-ordinary-success|version:26.901.51231|platform:macos",
-        "title": "Desktop plugin toggle shows ordinary success when config/batchWrite returns okOverridden",
-        "url": "https://github.com/openai/codex/issues/44189"
+        "platform": "windows",
+        "signature": "code:intralynked-agents|title:projects-containers-disappeared|version:26.903.61454|platform:windows",
+        "title": "Projects containers disappeared",
+        "url": "https://github.com/openai/codex/issues/44269"
       },
       {
-        "createdAt": "2026-09-09T16:12:36Z",
-        "explicitVersion": "5.6",
-        "id": "github-issue:openai/codex:44190",
-        "labels": [
-          "app",
-          "bug",
-          "model-behavior",
-          "performance"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:gpt-5|title:gpt-sol-degraded-gpt-got-released|version:5.6|platform:macos",
-        "title": "GPT-5.6 SOL degraded  when  GPT-6 got released",
-        "url": "https://github.com/openai/codex/issues/44190"
-      },
-      {
-        "createdAt": "2026-09-09T16:14:23Z",
+        "createdAt": "2026-09-09T18:39:34Z",
         "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:44191",
+        "id": "github-issue:openai/codex:44270",
         "labels": [
           "bug",
           "CLI",
-          "model-behavior"
+          "subagent"
         ],
         "maintainerAcknowledged": false,
-        "platform": "x64",
-        "signature": "code:enterprise|title:codex-scanned-unsafe-untrusted-paths-find|version:0.153.4|platform:x64",
-        "title": "codex scanned unsafe / untrusted paths to find AGENTS.md",
-        "url": "https://github.com/openai/codex/issues/44191"
+        "platform": "linux",
+        "signature": "code:multi_agent|title:multi-agent-usage-hint-renders-invalid|version:0.153.4|platform:linux",
+        "title": "multi_agent.usage_hint renders an invalid collaboration spawn recipient",
+        "url": "https://github.com/openai/codex/issues/44270"
       },
       {
-        "createdAt": "2026-09-09T16:14:52Z",
-        "explicitVersion": "1.0.29",
-        "id": "github-issue:openai/codex:44192",
-        "labels": [
-          "context",
-          "enhancement",
-          "skills"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:user-facing|title:bundled-visualize-skill-unconditionally-conflicts-host|version:1.0.29",
-        "title": "Bundled visualize skill unconditionally conflicts with host progress and compaction contracts",
-        "url": "https://github.com/openai/codex/issues/44192"
-      },
-      {
-        "createdAt": "2026-09-09T16:15:00Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:44193",
-        "labels": [
-          "app",
-          "bug",
-          "config",
-          "sandbox"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:explicitly|title:macos-desktop-explicitly-allowed-unix-http|version:0.153.4|platform:macos",
-        "title": "macOS desktop / CLI 0.153.4: explicitly allowed Unix HTTP destination returns blocked-by-allowlist; how to verify effective policy?",
-        "url": "https://github.com/openai/codex/issues/44193"
-      },
-      {
-        "createdAt": "2026-09-09T16:17:29Z",
-        "explicitVersion": "24.6.0",
-        "id": "github-issue:openai/codex:44194",
-        "labels": [
-          "app",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:x86_64|title:voice-mode-open-codex-desktop|version:24.6.0|platform:macos",
-        "title": "Voice mode fails to open in the Codex desktop app",
-        "url": "https://github.com/openai/codex/issues/44194"
-      },
-      {
-        "createdAt": "2026-09-09T16:19:52Z",
+        "createdAt": "2026-09-09T18:39:41Z",
         "explicitVersion": "26.903.8094.0",
-        "id": "github-issue:openai/codex:44195",
+        "id": "github-issue:openai/codex:44271",
         "labels": [
           "app",
           "bug",
-          "config",
-          "remote",
+          "performance",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:project-trust|title:windows-android-remote-project-tasks-ignore|version:26.903.8094.0|platform:windows",
-        "title": "[Windows / Android Remote] No project tasks ignore configured D: workspace root and fail project-trust verification",
-        "url": "https://github.com/openai/codex/issues/44195"
+        "signature": "code:exhaustion|title:windows-codex-work-causes-ntfc-ntfs|version:26.903.8094.0|platform:windows",
+        "title": "Windows Codex Work causes NtFC/ntfs.sys nonpaged pool leak and system RAM exhaustion",
+        "url": "https://github.com/openai/codex/issues/44271"
       },
       {
-        "createdAt": "2026-09-09T16:22:48Z",
-        "explicitVersion": "26.901.6511.0",
-        "id": "github-issue:openai/codex:44196",
+        "createdAt": "2026-09-09T18:40:34Z",
+        "explicitVersion": "26.901.51231",
+        "id": "github-issue:openai/codex:44272",
         "labels": [
           "app",
-          "automations",
           "bug",
-          "windows-os"
+          "rate-limits"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/44196",
-        "signature": "code:error|title:windows-desktop-local-automations-stall-renderer|version:26.901.6511.0|platform:windows",
-        "title": "[Windows Desktop] Local automations stall: renderer capability true, main scheduler false, no reconciliation after a lost update",
-        "url": "https://github.com/openai/codex/issues/44196"
+        "signature": "code:b8ed-74f2-ad0b-819e04947853|title:little-while-ago-raised-weekly-usage|version:26.901.51231|platform:windows",
+        "title": "A little while ago, I raised the weekly usage by 50%, then took it back.",
+        "url": "https://github.com/openai/codex/issues/44272"
       },
       {
-        "createdAt": "2026-09-09T16:40:29Z",
-        "explicitVersion": "0.146.0",
-        "id": "github-issue:openai/codex:44197",
+        "createdAt": "2026-09-09T18:42:23Z",
+        "id": "github-issue:openai/codex:44274",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:exact|title:pro-20x-sep-weekly-quota-jumped|platform:macos",
+        "title": "[Pro 20x][Sep 9] Weekly quota jumped ~3% → 30% → 3%; Full reset attempt did not restore allowance",
+        "url": "https://github.com/openai/codex/issues/44274"
+      },
+      {
+        "createdAt": "2026-09-09T18:47:40Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:44275",
         "labels": [
           "bug",
           "CLI",
-          "sandbox",
-          "tool-calls",
+          "config"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:explicitly|title:explicitly-selected-profile-model-overridden-workspace|version:0.153.4|platform:arm64",
+        "title": "Explicitly selected profile model is overridden by workspace new-thread defaults",
+        "url": "https://github.com/openai/codex/issues/44275"
+      },
+      {
+        "createdAt": "2026-09-09T19:03:29Z",
+        "explicitVersion": "26.903.61454",
+        "id": "github-issue:openai/codex:44278",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "resolutionReference": "https://github.com/openai/codex/issues/44278",
+        "signature": "code:effectively|title:usage-randomly-reaches-persists-then-ignores|version:26.903.61454|platform:arm64",
+        "title": "Usage randomly reaches 0, persists, then ignores reset an hour after usage, reverting back to previous usage",
+        "url": "https://github.com/openai/codex/issues/44278"
+      },
+      {
+        "createdAt": "2026-09-09T19:10:48Z",
+        "explicitVersion": "0.151.0",
+        "id": "github-issue:openai/codex:44279",
+        "labels": [
+          "bug",
+          "CLI",
+          "safety-check",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:resumed-session|title:safety-check-false-positive-depends-accumulated|version:0.151.0|platform:windows",
+        "title": "Safety check false positive depends on accumulated resumed-session context",
+        "url": "https://github.com/openai/codex/issues/44279"
+      },
+      {
+        "createdAt": "2026-09-09T19:16:40Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:44280",
+        "labels": [
+          "bug",
+          "CLI",
+          "safety-check",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:long-running|title:long-running-chat-stopped-precaution-reopening|version:0.153.4|platform:arm64",
+        "title": "Long-running chat stopped “as a precaution”; reopening only offers another chat or a new chat",
+        "url": "https://github.com/openai/codex/issues/44280"
+      },
+      {
+        "createdAt": "2026-09-09T19:21:26Z",
+        "explicitVersion": "26.903.61454",
+        "id": "github-issue:openai/codex:44282",
+        "labels": [
+          "app",
+          "bug",
+          "code-review"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:error|title:pull-request-incorrectly-marked-previously-reviewed|version:26.903.61454|platform:windows",
+        "title": "Pull Request incorrectly marked as “Previously reviewed”",
+        "url": "https://github.com/openai/codex/issues/44282"
+      },
+      {
+        "createdAt": "2026-09-09T19:48:47Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:44287",
+        "labels": [
+          "bug",
+          "CLI",
+          "model-behavior",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/44197",
-        "signature": "code:read-only|title:windows-sandbox-read-only-command-times|version:0.146.0|platform:windows",
-        "title": "Windows sandbox 0.146.0: read-only command times out without output; child observed suspended",
-        "url": "https://github.com/openai/codex/issues/44197"
+        "signature": "code:advice-on-prompting|title:invalid-prompt-your-prompt-was-flagged|version:0.153.4|platform:windows",
+        "title": "■ Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt: https://platform.openai.com/docs/guides/reasoning#advice-on-prompting",
+        "url": "https://github.com/openai/codex/issues/44287"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-09T16:44:31.480Z",
+    "observedAt": "2026-09-09T19:50:50.398Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "17 recent official GitHub issues observed for openai/codex."
+    "summary": "11 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-3306bf1586a1087b",
   "interfaces": [],

@@ -95,10 +95,17 @@
         ],
         "signature": "code:execution|title:fix-agent-prevent-session-context-poisoning",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29267"
+        ],
+        "signature": "code:gemini-cli|title:stuck-auth-loop-submit-this-but|version:0.59.0|platform:linux",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "67e925de25a1af1cefea9baf575f26078fa8fa6db500e4512c8a76ad17fa74fd",
+      "fingerprint": "333d06893aadee566fe55ddefdbbe666e6a2ec6bfbba5375d1c6b43b25a373ab",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
@@ -135,13 +142,29 @@
         "signature": "code:execution|title:fix-agent-prevent-session-context-poisoning",
         "title": "fix(agent): prevent session context poisoning and infinite loops on interrupted turns",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29264"
+      },
+      {
+        "createdAt": "2026-09-09T17:27:18Z",
+        "explicitVersion": "0.59.0",
+        "id": "github-issue:google-gemini/gemini-cli:29267",
+        "labels": [
+          "area/security",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:gemini-cli|title:stuck-auth-loop-submit-this-but|version:0.59.0|platform:linux",
+        "title": "stuck in auth loop , to submit this but due to again and again login not working on temp. basis chose second option. I am a pro member and tried agy recently , needed something to daiy drive , installed gemini-cli and this happening.",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29267"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-09T11:33:01.097Z",
+    "observedAt": "2026-09-09T19:50:52.248Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "2 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "3 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-fbf96c6b3c5dea82",
   "interfaces": [
