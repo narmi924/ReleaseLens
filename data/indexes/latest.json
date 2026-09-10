@@ -22,8 +22,8 @@
     },
     {
       "channel": "stable",
-      "discoveredAt": "2026-09-10T06:03:15.747Z",
-      "observationId": "codex-stable-windows-x64-06312d2ff6dd1a89",
+      "discoveredAt": "2026-09-10T11:28:45.057Z",
+      "observationId": "codex-stable-windows-x64-bac26a8883d9977a",
       "platform": "windows-x64",
       "productId": "codex",
       "schemaVersion": 1,
@@ -32,14 +32,14 @@
           {
             "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
             "evidenceRefs": [
-              "artifact:msix:OpenAI.Codex:26.903.8094.0:x64"
+              "artifact:msix:OpenAI.Codex:26.903.9818.0:x64"
             ],
             "message": "Required artifact evidence is missing or did not pass."
           },
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
             "evidenceRefs": [
-              "behavior:codex:2026-09-10T06:03:15.747Z"
+              "behavior:codex:2026-09-10T11:28:45.057Z"
             ],
             "message": "Required behavior codex-msix-identity is fail."
           },
@@ -52,65 +52,65 @@
         "severity": "major",
         "status": "UNVERIFIED"
       },
-      "version": "26.903.8094.0"
+      "version": "26.903.9818.0"
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-09-10T06:03:52.831Z",
-      "observationId": "gemini-cli-latest-node-d0ed8291a2846fa7",
+      "discoveredAt": "2026-09-10T11:29:34.524Z",
+      "observationId": "gemini-cli-latest-node-26c22c421acb5d38",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
       "verdict": {
         "reasons": [
           {
-            "code": "MATERIAL_EVIDENCE_CHANGED",
+            "code": "REQUIRED_SCOPE_PASSED",
             "evidenceRefs": [],
-            "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+            "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
           }
         ],
-        "severity": "minor",
-        "status": "CHANGED"
+        "severity": "info",
+        "status": "NO_REGRESSION_DETECTED"
       },
       "version": "0.59.0"
     },
     {
       "channel": "nightly",
-      "discoveredAt": "2026-09-10T06:03:52.831Z",
-      "observationId": "gemini-cli-nightly-node-d2bd756efc714350",
+      "discoveredAt": "2026-09-10T11:29:34.524Z",
+      "observationId": "gemini-cli-nightly-node-b9a50ffc5f7d1619",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
       "verdict": {
         "reasons": [
           {
-            "code": "MATERIAL_EVIDENCE_CHANGED",
+            "code": "REQUIRED_SCOPE_PASSED",
             "evidenceRefs": [],
-            "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+            "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
           }
         ],
-        "severity": "minor",
-        "status": "CHANGED"
+        "severity": "info",
+        "status": "NO_REGRESSION_DETECTED"
       },
       "version": "0.61.0-nightly.20260910.ged2ac40df"
     },
     {
       "channel": "preview",
-      "discoveredAt": "2026-09-10T06:03:52.831Z",
-      "observationId": "gemini-cli-preview-node-8b37a27f2a19374b",
+      "discoveredAt": "2026-09-10T11:29:34.524Z",
+      "observationId": "gemini-cli-preview-node-f5609583281ea2a3",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
       "verdict": {
         "reasons": [
           {
-            "code": "MATERIAL_EVIDENCE_CHANGED",
+            "code": "REQUIRED_SCOPE_PASSED",
             "evidenceRefs": [],
-            "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+            "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
           }
         ],
-        "severity": "minor",
-        "status": "CHANGED"
+        "severity": "info",
+        "status": "NO_REGRESSION_DETECTED"
       },
       "version": "0.60.0-preview.0"
     }

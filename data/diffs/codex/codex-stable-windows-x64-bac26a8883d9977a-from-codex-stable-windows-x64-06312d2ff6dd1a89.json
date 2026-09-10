@@ -1,0 +1,36 @@
+{
+  "artifactChanges": [
+    {
+      "after": "1dfca68619d2f6cf92557a68f9268da2600aafed31a9e8faad7e0ac551e22420",
+      "before": "f8a845dd58f177fbcd71b01c7831d742fc90855e4b207ee2d8ce3ab5f9bcc30f",
+      "material": true,
+      "summary": "Artifact bytes changed for msix:OpenAI.Codex:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 769755225,
+      "before": 769792128,
+      "material": false,
+      "summary": "Artifact size changed for msix:OpenAI.Codex:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "codex-stable-windows-x64-06312d2ff6dd1a89",
+  "createdAt": "2026-09-10T11:28:45.057Z",
+  "diffId": "codex-stable-windows-x64-bac26a8883d9977a-from-codex-stable-windows-x64-06312d2ff6dd1a89",
+  "distributionChanges": [],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "1dfca68619d2f6cf92557a68f9268da2600aafed31a9e8faad7e0ac551e22420",
+      "before": "f8a845dd58f177fbcd71b01c7831d742fc90855e4b207ee2d8ce3ab5f9bcc30f",
+      "material": true,
+      "summary": "Artifact bytes changed for msix:OpenAI.Codex:x64.",
+      "type": "artifact-sha256-changed"
+    }
+  ],
+  "observationId": "codex-stable-windows-x64-bac26a8883d9977a",
+  "productId": "codex",
+  "schemaVersion": 1
+}
