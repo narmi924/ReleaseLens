@@ -175,77 +175,84 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:44621"
+          "github-issue:openai/codex:44652"
         ],
-        "signature": "code:admin-enforced|title:browser-use-control-chrome-admin-enforced|version:26.903.61454|platform:macos",
+        "signature": "code:app-access|title:macos-native-computer-use-unavailable-cua|version:26.903.71938|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44625"
+          "github-issue:openai/codex:44642"
         ],
-        "signature": "code:environment|title:codex-status-updates-overwrite-transcript-inside|version:0.153.4|platform:macos",
+        "signature": "code:client-side|title:android-remote-clipboard-images-rejected-despite|version:1.2026.251",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44627"
+          "github-issue:openai/codex:44660"
         ],
-        "signature": "code:error|title:codex-browser-annotation-doesn-work-looking",
+        "signature": "code:codex-cli|title:offer-delete-agents-view-delete-confirmation|version:0.154.0",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44608"
+          "github-issue:openai/codex:44640"
         ],
-        "signature": "code:error|title:network-long-project-chat-windows-browser|platform:windows",
+        "signature": "code:effects|title:sparkle-effects-make-terminal-update-difficult",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44610"
+          "github-issue:openai/codex:44644"
         ],
-        "signature": "code:exec|title:codex-exec-switch-disable-file-watcher|version:9.5|platform:macos",
+        "signature": "code:environment|title:ctrl-tries-paste-image-instead-text|version:0.154.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44623"
+          "github-issue:openai/codex:44657"
         ],
-        "signature": "code:execution|title:critical-windows-recurring-local-execution-failure|version:30.1|platform:windows",
+        "signature": "code:errors|title:deleted-chatgpt-conversation-remains-desktop-sidebar|version:26.903.71938|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44612"
+          "github-issue:openai/codex:44653"
         ],
-        "signature": "code:explicit|title:codex-stops-working-wsl-update-wsl|version:0.153.2|platform:windows",
+        "signature": "code:every|title:deploying-astra",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44614"
+          "github-issue:openai/codex:44645"
         ],
-        "signature": "code:false-positive|title:repeated-false-positive-cybersecurity-blocks|version:0.153.4|platform:windows",
+        "signature": "code:exit|title:voice-exit-leaves-hidden-overlay-owning|version:26.903.9818.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44624"
+          "github-issue:openai/codex:44648"
         ],
-        "signature": "code:long-thread|title:codex-long-thread-compaction-404s-backend|platform:macos",
+        "signature": "code:expose|title:async-questions-remain-pending-answers-normal|version:0.154.0|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44609"
+          "github-issue:openai/codex:44647"
         ],
-        "signature": "code:thread_settings_applied|title:rollout-writer-reuses-previous-ordinal-thread|version:26.903.9818.0|platform:windows",
+        "signature": "code:gpt-5|title:conversation-interrupted|version:0.153.4|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44649"
+        ],
+        "signature": "code:gpt-6|title:gpt-consistently-returns-invalid-prompt-across",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "a6cdd89d8f587f6645c02be9539320545a45160d28690b3c8f14f0884ce20a62",
+      "fingerprint": "17c06d8928fa209eb4901f51dce4aeea60c1d1ba629f1fc347efb69e6d21e276",
       "lookbackHours": 72,
       "releaseVersion": "26.903.9818.0",
       "source": "official-github-issues"
@@ -253,162 +260,174 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-10T18:12:25Z",
-        "id": "github-issue:openai/codex:44608",
-        "labels": [
-          "app",
-          "bug",
-          "connectivity",
-          "performance"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:error|title:network-long-project-chat-windows-browser|platform:windows",
-        "title": "Network error in long project chat in Windows app and browser",
-        "url": "https://github.com/openai/codex/issues/44608"
-      },
-      {
-        "createdAt": "2026-09-10T18:20:02Z",
-        "explicitVersion": "26.903.9818.0",
-        "id": "github-issue:openai/codex:44609",
-        "labels": [
-          "app",
-          "bug",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:thread_settings_applied|title:rollout-writer-reuses-previous-ordinal-thread|version:26.903.9818.0|platform:windows",
-        "title": "Rollout writer reuses the previous ordinal when `thread_settings_applied` follows a non-durable `token_count`, permanently stalling that thread's durable history projection",
-        "url": "https://github.com/openai/codex/issues/44609"
-      },
-      {
-        "createdAt": "2026-09-10T18:22:08Z",
-        "explicitVersion": "9.5",
-        "id": "github-issue:openai/codex:44610",
+        "createdAt": "2026-09-10T21:16:37Z",
+        "id": "github-issue:openai/codex:44640",
         "labels": [
           "CLI",
           "enhancement",
-          "exec",
-          "performance"
+          "TUI"
         ],
         "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:exec|title:codex-exec-switch-disable-file-watcher|version:9.5|platform:macos",
-        "title": "codex exec: a switch to disable the file watcher for one-shot headless runs",
-        "url": "https://github.com/openai/codex/issues/44610"
+        "signature": "code:effects|title:sparkle-effects-make-terminal-update-difficult",
+        "title": "Sparkle effects make terminal update, difficult to track agent progress. Can we disable the sparkle effects?",
+        "url": "https://github.com/openai/codex/issues/44640"
       },
       {
-        "createdAt": "2026-09-10T18:31:27Z",
-        "explicitVersion": "0.153.2",
-        "id": "github-issue:openai/codex:44612",
+        "createdAt": "2026-09-10T21:25:38Z",
+        "explicitVersion": "1.2026.251",
+        "id": "github-issue:openai/codex:44642",
         "labels": [
           "bug",
-          "windows-os"
+          "remote"
         ],
         "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/44612",
-        "signature": "code:explicit|title:codex-stops-working-wsl-update-wsl|version:0.153.2|platform:windows",
-        "title": "Codex stops working in WSL after update; WSL repeatedly restarts",
-        "url": "https://github.com/openai/codex/issues/44612"
+        "signature": "code:client-side|title:android-remote-clipboard-images-rejected-despite|version:1.2026.251",
+        "title": "[Android Remote] Clipboard images are rejected despite advertised image MIME support",
+        "url": "https://github.com/openai/codex/issues/44642"
       },
       {
-        "createdAt": "2026-09-10T18:33:36Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:44614",
-        "labels": [
-          "bug",
-          "CLI",
-          "code-review",
-          "safety-check"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:false-positive|title:repeated-false-positive-cybersecurity-blocks|version:0.153.4|platform:windows",
-        "title": "Repeated false-positive cybersecurity blocks",
-        "url": "https://github.com/openai/codex/issues/44614"
-      },
-      {
-        "createdAt": "2026-09-10T19:02:50Z",
-        "explicitVersion": "26.903.61454",
-        "id": "github-issue:openai/codex:44621",
-        "labels": [
-          "app",
-          "browser",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:admin-enforced|title:browser-use-control-chrome-admin-enforced|version:26.903.61454|platform:macos",
-        "title": "Browser Use cannot control Chrome: admin-enforced policy verification fails",
-        "url": "https://github.com/openai/codex/issues/44621"
-      },
-      {
-        "createdAt": "2026-09-10T19:19:41Z",
-        "explicitVersion": "30.1",
-        "id": "github-issue:openai/codex:44623",
-        "labels": [
-          "app",
-          "bug",
-          "tool-calls",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:execution|title:critical-windows-recurring-local-execution-failure|version:30.1|platform:windows",
-        "title": "[Critical][Windows] Recurring local execution failure: PowerShell/CMD never return, Node kernel times out; coding tasks blocked",
-        "url": "https://github.com/openai/codex/issues/44623"
-      },
-      {
-        "createdAt": "2026-09-10T19:20:05Z",
-        "id": "github-issue:openai/codex:44624",
-        "labels": [
-          "app",
-          "bug",
-          "connectivity",
-          "context"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:long-thread|title:codex-long-thread-compaction-404s-backend|platform:macos",
-        "title": "Codex long-thread compaction 404s on `/backend-api/codex/responses/compactsvg` and traps conversation",
-        "url": "https://github.com/openai/codex/issues/44624"
-      },
-      {
-        "createdAt": "2026-09-10T19:21:37Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:44625",
+        "createdAt": "2026-09-10T21:27:10Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:44644",
         "labels": [
           "bug",
           "CLI",
           "TUI"
         ],
         "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:environment|title:codex-status-updates-overwrite-transcript-inside|version:0.153.4|platform:macos",
-        "title": "Codex 0.153.4: status updates overwrite transcript inside tmux; SIGWINCH restores display",
-        "url": "https://github.com/openai/codex/issues/44625"
+        "platform": "windows",
+        "signature": "code:environment|title:ctrl-tries-paste-image-instead-text|version:0.154.0|platform:windows",
+        "title": "Ctrl+V tries to paste an image instead of text in Ghostty",
+        "url": "https://github.com/openai/codex/issues/44644"
       },
       {
-        "createdAt": "2026-09-10T19:40:14Z",
-        "id": "github-issue:openai/codex:44627",
+        "createdAt": "2026-09-10T21:28:27Z",
+        "explicitVersion": "26.903.9818.0",
+        "id": "github-issue:openai/codex:44645",
         "labels": [
           "app",
-          "browser",
-          "bug"
+          "app-server",
+          "bug",
+          "windows-os"
         ],
         "maintainerAcknowledged": false,
-        "signature": "code:error|title:codex-browser-annotation-doesn-work-looking",
-        "title": "Codex in-browser annotation doesn't work when looking at Phoenix apps under localhost using their live reload iframe",
-        "url": "https://github.com/openai/codex/issues/44627"
+        "platform": "windows",
+        "signature": "code:exit|title:voice-exit-leaves-hidden-overlay-owning|version:26.903.9818.0|platform:windows",
+        "title": "Voice exit leaves hidden overlay owning the thread; primary UI remains thinking",
+        "url": "https://github.com/openai/codex/issues/44645"
+      },
+      {
+        "createdAt": "2026-09-10T21:33:15Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:44647",
+        "labels": [
+          "bug",
+          "CLI",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:gpt-5|title:conversation-interrupted|version:0.153.4|platform:windows",
+        "title": "Conversation interrupted",
+        "url": "https://github.com/openai/codex/issues/44647"
+      },
+      {
+        "createdAt": "2026-09-10T21:34:38Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:44648",
+        "labels": [
+          "bug",
+          "CLI",
+          "tool-calls",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "resolutionReference": "https://github.com/openai/codex/issues/44648",
+        "signature": "code:expose|title:async-questions-remain-pending-answers-normal|version:0.154.0|platform:macos",
+        "title": "CLI async questions remain pending after answers in normal chat; expose resolve/withdraw lifecycle",
+        "url": "https://github.com/openai/codex/issues/44648"
+      },
+      {
+        "createdAt": "2026-09-10T21:39:31Z",
+        "id": "github-issue:openai/codex:44649",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:gpt-6|title:gpt-consistently-returns-invalid-prompt-across",
+        "title": "GPT-6 consistently returns “Invalid prompt” across conversations and clients, while other models work",
+        "url": "https://github.com/openai/codex/issues/44649"
+      },
+      {
+        "createdAt": "2026-09-10T21:42:56Z",
+        "duplicateOf": "#44632",
+        "explicitVersion": "26.903.71938",
+        "id": "github-issue:openai/codex:44652",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/44652",
+        "signature": "code:app-access|title:macos-native-computer-use-unavailable-cua|version:26.903.71938|platform:windows",
+        "title": "macOS: native Computer Use unavailable; cua.getApp is not a function (26.903.71938)",
+        "url": "https://github.com/openai/codex/issues/44652"
+      },
+      {
+        "createdAt": "2026-09-10T21:48:43Z",
+        "id": "github-issue:openai/codex:44653",
+        "labels": [
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:every|title:deploying-astra",
+        "title": "After deploying ASTRA",
+        "url": "https://github.com/openai/codex/issues/44653"
+      },
+      {
+        "createdAt": "2026-09-10T22:08:00Z",
+        "explicitVersion": "26.903.71938",
+        "id": "github-issue:openai/codex:44657",
+        "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "resolutionReference": "https://github.com/openai/codex/issues/44657",
+        "signature": "code:errors|title:deleted-chatgpt-conversation-remains-desktop-sidebar|version:26.903.71938|platform:arm64",
+        "title": "Deleted ChatGPT conversation remains in desktop sidebar; archive and delete return errors",
+        "url": "https://github.com/openai/codex/issues/44657"
+      },
+      {
+        "createdAt": "2026-09-10T22:32:21Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:44660",
+        "labels": [
+          "CLI",
+          "enhancement",
+          "session",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:codex-cli|title:offer-delete-agents-view-delete-confirmation|version:0.154.0",
+        "title": "CLI: offer “Delete and go to Agents view” in /delete confirmation",
+        "url": "https://github.com/openai/codex/issues/44660"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-10T19:47:10.948Z",
+    "observedAt": "2026-09-10T22:40:58.681Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "10 recent official GitHub issues observed for openai/codex."
+    "summary": "11 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-06312d2ff6dd1a89",
   "interfaces": [],
