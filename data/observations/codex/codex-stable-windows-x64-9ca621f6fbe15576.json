@@ -175,112 +175,91 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:44315"
+          "github-issue:openai/codex:44345"
         ],
-        "signature": "code:app-server|title:codex-desktop-server-crashes-repeatedly-0xc0000005|version:26.903.8094.0|platform:windows",
+        "signature": "code:account-wide|title:chatgpt-projects-add-account-wide-inventory|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44310"
+          "github-issue:openai/codex:44358"
         ],
-        "signature": "code:disable-gpu-compositing|title:windows-chatgpt-codex-turns-black-hovering|version:26.903.61454|platform:windows",
+        "signature": "code:app-server|title:macos-remote-control-websocket-returns-503|version:26.903.61454|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44312"
+          "github-issue:openai/codex:44361"
         ],
-        "signature": "code:emulator|title:codex-link-work|version:1.0.27",
+        "signature": "code:codex_home|title:codex-another-host-can-delete-running|version:0.153.4|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44313"
+          "github-issue:openai/codex:44343"
         ],
-        "signature": "code:enabled|title:linux-remote-control-websocket-repeatedly-returns|version:44.0.0|platform:linux",
+        "signature": "code:conversation_deleted|title:deleted-conversations-remain-sidebar-removed-archived|version:26.903.61454|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44317"
+          "github-issue:openai/codex:44353"
         ],
-        "signature": "code:endpoint|title:webull-mcp-authentication-oauth-authorization-endpoint|version:0.153.4|platform:arm64",
+        "signature": "code:emulator|title:voice-clicked-shuts-down-thread|version:26.903.61454",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44316"
+          "github-issue:openai/codex:44347"
         ],
-        "signature": "code:errored|title:macos-remote-control-pairs-successfully-but|version:0.153.4|platform:arm64",
+        "signature": "code:every|title:integrated-browser-toolbar-reset-every-task|version:26.903.61454|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44321"
+          "github-issue:openai/codex:44348"
         ],
-        "signature": "code:every|title:codex-desktop-regression-local-scheduled-task|version:26.901.51231|platform:windows",
+        "signature": "code:execution|title:prolonged-execution-difficulty-completing-implementation|version:26.903.8094.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44306"
+          "github-issue:openai/codex:44342"
         ],
-        "signature": "code:exact|title:chatgpt-web-429-recovery-can-lose|platform:windows",
+        "signature": "code:existing-chat|title:windows-desktop-existing-chat-sends-indefinitely|version:26.903.8094.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44308"
+          "github-issue:openai/codex:44357"
         ],
-        "signature": "code:exhausted|title:agent-plugin-mcp-tools-silently-hidden|version:26.903.61454|platform:arm64",
+        "signature": "code:full-access|title:full-access-profile-switch-retains-managed|version:0.154.0|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44304"
+          "github-issue:openai/codex:44355"
         ],
-        "signature": "code:expected|title:codex-recognize-expected-proc-mount-failure|version:0.153.4",
+        "signature": "code:misalignment_policy_violation|title:misalignment-policy-violation-false-positive-permanently|version:0.153.4|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44303"
+          "github-issue:openai/codex:44351"
         ],
-        "signature": "code:extension|title:add-safari-support-codex-browser-extension|version:16.4|platform:macos",
+        "signature": "code:multi-agent|title:multi-agent-completed-agent-remains-resident|version:0.153.4|platform:x64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44302"
+          "github-issue:openai/codex:44356"
         ],
-        "signature": "code:gpt-6|title:macos-gpt-astra-ultra-false-cybersecurity|version:26.903.61454|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44309"
-        ],
-        "signature": "code:helper_unknown_error|title:helper-unknown-setup-refresh-had-errors|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44319"
-        ],
-        "signature": "code:human-approval|title:windows-desktop-visible-human-approval-prompt|version:26.901.6511.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44305"
-        ],
-        "signature": "code:multi-million-token|title:codex-tool-loop-causes-context-snowballing|version:11.4",
+        "signature": "code:reset-date|title:work-pro-windows-web-weekly-quota|platform:windows",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "44d0ca125b1e0c11be6b84ab01a03ecee5b30bbba578caf65efe83024d054925",
+      "fingerprint": "fd5ad9f973108a37e7532402f233ed37eff307a7c5426d0604e7dc87fccdfe45",
       "lookbackHours": 72,
       "releaseVersion": "26.903.8094.0",
       "source": "official-github-issues"
@@ -288,245 +267,190 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-09T20:59:59Z",
+        "createdAt": "2026-09-10T00:02:11Z",
+        "explicitVersion": "26.903.8094.0",
+        "id": "github-issue:openai/codex:44342",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:existing-chat|title:windows-desktop-existing-chat-sends-indefinitely|version:26.903.8094.0|platform:windows",
+        "title": "Windows desktop: existing-chat sends indefinitely blocked by loading-local-config / pending codex-home; main-window reload recovers, normal restart can recur",
+        "url": "https://github.com/openai/codex/issues/44342"
+      },
+      {
+        "createdAt": "2026-09-10T00:06:57Z",
         "explicitVersion": "26.903.61454",
-        "id": "github-issue:openai/codex:44302",
+        "id": "github-issue:openai/codex:44343",
         "labels": [
           "app",
           "bug",
-          "rate-limits",
-          "safety-check"
+          "session"
         ],
         "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:gpt-6|title:macos-gpt-astra-ultra-false-cybersecurity|version:26.903.61454|platform:macos",
-        "title": "[macOS][GPT-6 Astra Ultra] False cybersecurity block interrupted authorized QA task after consuming 6% of weekly quota",
-        "url": "https://github.com/openai/codex/issues/44302"
+        "platform": "arm64",
+        "signature": "code:conversation_deleted|title:deleted-conversations-remain-sidebar-removed-archived|version:26.903.61454|platform:arm64",
+        "title": "Deleted conversations remain in sidebar and cannot be removed or archived – HTTP 404 conversation_deleted",
+        "url": "https://github.com/openai/codex/issues/44343"
       },
       {
-        "createdAt": "2026-09-09T21:02:48Z",
-        "explicitVersion": "16.4",
-        "id": "github-issue:openai/codex:44303",
+        "createdAt": "2026-09-10T00:14:08Z",
+        "id": "github-issue:openai/codex:44345",
         "labels": [
-          "app",
-          "browser",
           "enhancement"
         ],
         "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:extension|title:add-safari-support-codex-browser-extension|version:16.4|platform:macos",
-        "title": "Add Safari support to the Codex browser extension on macOS",
-        "url": "https://github.com/openai/codex/issues/44303"
+        "platform": "linux",
+        "signature": "code:account-wide|title:chatgpt-projects-add-account-wide-inventory|platform:linux",
+        "title": "[ChatGPT Projects] Add account-wide inventory, cross-Project search, and read-only assistant access",
+        "url": "https://github.com/openai/codex/issues/44345"
       },
       {
-        "createdAt": "2026-09-09T21:11:23Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:44304",
+        "createdAt": "2026-09-10T00:16:19Z",
+        "explicitVersion": "26.903.61454",
+        "id": "github-issue:openai/codex:44347",
         "labels": [
+          "app",
+          "browser",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:every|title:integrated-browser-toolbar-reset-every-task|version:26.903.61454|platform:arm64",
+        "title": "Integrated Browser Toolbar reset after every task",
+        "url": "https://github.com/openai/codex/issues/44347"
+      },
+      {
+        "createdAt": "2026-09-10T00:26:10Z",
+        "explicitVersion": "26.903.8094.0",
+        "id": "github-issue:openai/codex:44348",
+        "labels": [
+          "bug",
+          "CLI",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:execution|title:prolonged-execution-difficulty-completing-implementation|version:26.903.8094.0|platform:windows",
+        "title": "Prolonged execution and difficulty completing implementation",
+        "url": "https://github.com/openai/codex/issues/44348"
+      },
+      {
+        "createdAt": "2026-09-10T00:32:15Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:44351",
+        "labels": [
+          "bug",
+          "CLI",
+          "subagent"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:multi-agent|title:multi-agent-completed-agent-remains-resident|version:0.153.4|platform:x64",
+        "title": "Multi-agent v2: completed agent remains resident and prevents replacement spawn after follow-up turns",
+        "url": "https://github.com/openai/codex/issues/44351"
+      },
+      {
+        "createdAt": "2026-09-10T00:49:04Z",
+        "explicitVersion": "26.903.61454",
+        "id": "github-issue:openai/codex:44353",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:emulator|title:voice-clicked-shuts-down-thread|version:26.903.61454",
+        "title": "voice fails when clicked and shuts down thread",
+        "url": "https://github.com/openai/codex/issues/44353"
+      },
+      {
+        "createdAt": "2026-09-10T00:58:06Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:44355",
+        "labels": [
+          "bug",
+          "CLI",
+          "safety-check",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:misalignment_policy_violation|title:misalignment-policy-violation-false-positive-permanently|version:0.153.4|platform:arm64",
+        "title": "misalignment_policy_violation false positive permanently bricked a legitimate 10M-token CI thread",
+        "url": "https://github.com/openai/codex/issues/44355"
+      },
+      {
+        "createdAt": "2026-09-10T00:59:16Z",
+        "id": "github-issue:openai/codex:44356",
+        "labels": [
+          "bug",
+          "codex-web",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:reset-date|title:work-pro-windows-web-weekly-quota|platform:windows",
+        "title": "[Work][Pro][Windows/Web] Weekly quota ~40%→0% interrupted active task, then recovered to 43% with reset-date change",
+        "url": "https://github.com/openai/codex/issues/44356"
+      },
+      {
+        "createdAt": "2026-09-10T00:59:36Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:44357",
+        "labels": [
+          "app-server",
           "bug",
           "CLI",
           "sandbox"
         ],
         "maintainerAcknowledged": false,
-        "signature": "code:expected|title:codex-recognize-expected-proc-mount-failure|version:0.153.4",
-        "title": "Codex 0.153.4 fails to recognize the expected /proc mount failure when using bubblewrap 0.12.0",
-        "url": "https://github.com/openai/codex/issues/44304"
+        "platform": "arm64",
+        "signature": "code:full-access|title:full-access-profile-switch-retains-managed|version:0.154.0|platform:arm64",
+        "title": "Full-access profile switch retains managed proxy but drops named-profile domain allowlist",
+        "url": "https://github.com/openai/codex/issues/44357"
       },
       {
-        "createdAt": "2026-09-09T21:21:27Z",
-        "explicitVersion": "11.4",
-        "id": "github-issue:openai/codex:44305",
-        "labels": [
-          "bug",
-          "CLI",
-          "context",
-          "model-behavior",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:multi-million-token|title:codex-tool-loop-causes-context-snowballing|version:11.4",
-        "title": "Codex tool loop causes context snowballing and multi-million-token input amplification",
-        "url": "https://github.com/openai/codex/issues/44305"
-      },
-      {
-        "createdAt": "2026-09-09T21:28:10Z",
-        "id": "github-issue:openai/codex:44306",
-        "labels": [
-          "bug",
-          "rate-limits",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:exact|title:chatgpt-web-429-recovery-can-lose|platform:windows",
-        "title": "[ChatGPT Web] 429 recovery can lose exact /c/<id> binding and land on new/wrong conversation",
-        "url": "https://github.com/openai/codex/issues/44306"
-      },
-      {
-        "createdAt": "2026-09-09T21:34:27Z",
+        "createdAt": "2026-09-10T01:02:06Z",
         "explicitVersion": "26.903.61454",
-        "id": "github-issue:openai/codex:44308",
+        "id": "github-issue:openai/codex:44358",
         "labels": [
           "app",
           "bug",
-          "mcp",
-          "skills"
+          "connectivity",
+          "remote"
         ],
         "maintainerAcknowledged": false,
         "platform": "arm64",
-        "signature": "code:exhausted|title:agent-plugin-mcp-tools-silently-hidden|version:26.903.61454|platform:arm64",
-        "title": "Agent Plugin MCP tools are silently hidden after the global schema budget is exhausted",
-        "url": "https://github.com/openai/codex/issues/44308"
+        "signature": "code:app-server|title:macos-remote-control-websocket-returns-503|version:26.903.61454|platform:arm64",
+        "title": "macOS 27: Remote Control WebSocket returns 503 through GRU on home network and cellular hotspot",
+        "url": "https://github.com/openai/codex/issues/44358"
       },
       {
-        "createdAt": "2026-09-09T21:37:35Z",
-        "id": "github-issue:openai/codex:44309",
-        "labels": [
-          "app",
-          "bug",
-          "tool-calls",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:helper_unknown_error|title:helper-unknown-setup-refresh-had-errors|platform:windows",
-        "title": "helper_unknown_error: setup refresh had errors",
-        "url": "https://github.com/openai/codex/issues/44309"
-      },
-      {
-        "createdAt": "2026-09-09T21:41:58Z",
-        "explicitVersion": "26.903.61454",
-        "id": "github-issue:openai/codex:44310",
-        "labels": [
-          "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:disable-gpu-compositing|title:windows-chatgpt-codex-turns-black-hovering|version:26.903.61454|platform:windows",
-        "title": "Windows ChatGPT/Codex app UI turns black when hovering menu — fixed by --disable-gpu-compositing",
-        "url": "https://github.com/openai/codex/issues/44310"
-      },
-      {
-        "createdAt": "2026-09-09T21:55:03Z",
-        "explicitVersion": "1.0.27",
-        "id": "github-issue:openai/codex:44312",
+        "createdAt": "2026-09-10T01:08:04Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:44361",
         "labels": [
           "bug",
           "CLI",
-          "TUI"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:emulator|title:codex-link-work|version:1.0.27",
-        "title": "codex cli link does not work",
-        "url": "https://github.com/openai/codex/issues/44312"
-      },
-      {
-        "createdAt": "2026-09-09T22:02:09Z",
-        "explicitVersion": "44.0.0",
-        "id": "github-issue:openai/codex:44313",
-        "labels": [
-          "app-server",
-          "bug",
-          "CLI",
-          "connectivity",
-          "remote"
+          "remote",
+          "sandbox"
         ],
         "maintainerAcknowledged": false,
         "platform": "linux",
-        "signature": "code:enabled|title:linux-remote-control-websocket-repeatedly-returns|version:44.0.0|platform:linux",
-        "title": "[Linux][Remote Control] WebSocket repeatedly returns HTTP 503 upstream connection termination",
-        "url": "https://github.com/openai/codex/issues/44313"
-      },
-      {
-        "createdAt": "2026-09-09T22:09:08Z",
-        "explicitVersion": "26.903.8094.0",
-        "id": "github-issue:openai/codex:44315",
-        "labels": [
-          "app",
-          "app-server",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/44315",
-        "signature": "code:app-server|title:codex-desktop-server-crashes-repeatedly-0xc0000005|version:26.903.8094.0|platform:windows",
-        "title": "Codex desktop app-server crashes repeatedly with 0xC0000005",
-        "url": "https://github.com/openai/codex/issues/44315"
-      },
-      {
-        "createdAt": "2026-09-09T22:17:43Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:44316",
-        "labels": [
-          "app",
-          "bug",
-          "connectivity",
-          "remote"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:errored|title:macos-remote-control-pairs-successfully-but|version:0.153.4|platform:arm64",
-        "title": "macOS Remote Control pairs successfully but host stays Offline — WebSocket handshake HTTP 503 (CLI 0.153.4)",
-        "url": "https://github.com/openai/codex/issues/44316"
-      },
-      {
-        "createdAt": "2026-09-09T22:18:39Z",
-        "explicitVersion": "0.153.4",
-        "id": "github-issue:openai/codex:44317",
-        "labels": [
-          "auth",
-          "bug",
-          "CLI",
-          "mcp"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:endpoint|title:webull-mcp-authentication-oauth-authorization-endpoint|version:0.153.4|platform:arm64",
-        "title": "Webull MCP authentication - OAuth authorization endpoint origin does not match the authorization server origin without issuer-bound callbacks",
-        "url": "https://github.com/openai/codex/issues/44317"
-      },
-      {
-        "createdAt": "2026-09-09T22:27:04Z",
-        "explicitVersion": "26.901.6511.0",
-        "id": "github-issue:openai/codex:44319",
-        "labels": [
-          "app",
-          "bug",
-          "sandbox",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:human-approval|title:windows-desktop-visible-human-approval-prompt|version:26.901.6511.0|platform:windows",
-        "title": "Windows Desktop: no visible human-approval prompt for require_escalated read; execution reports CodexSandboxOffline",
-        "url": "https://github.com/openai/codex/issues/44319"
-      },
-      {
-        "createdAt": "2026-09-09T22:30:01Z",
-        "explicitVersion": "26.901.51231",
-        "id": "github-issue:openai/codex:44321",
-        "labels": [
-          "app",
-          "automations",
-          "bug",
-          "sandbox",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:every|title:codex-desktop-regression-local-scheduled-task|version:26.901.51231|platform:windows",
-        "title": "Codex Desktop regression: local scheduled task now requires filesystem approval on every run",
-        "url": "https://github.com/openai/codex/issues/44321"
+        "signature": "code:codex_home|title:codex-another-host-can-delete-running|version:0.153.4|platform:linux",
+        "title": "codex --version on another host can delete a running server’s sandbox helpers when CODEX_HOME is on GPFS",
+        "url": "https://github.com/openai/codex/issues/44361"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-09T22:37:07.057Z",
+    "observedAt": "2026-09-10T01:09:27.097Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "15 recent official GitHub issues observed for openai/codex."
+    "summary": "12 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-3306bf1586a1087b",
   "interfaces": [],
