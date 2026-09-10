@@ -175,105 +175,77 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:44568"
+          "github-issue:openai/codex:44621"
         ],
-        "signature": "code:active-thread-01a08c09-55f0-7ee1-8cc1-b0cf6b87a209|title:creating-cloud-project-creates-local-project|version:26.903.71938|platform:arm64",
+        "signature": "code:admin-enforced|title:browser-use-control-chrome-admin-enforced|version:26.903.61454|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44573"
+          "github-issue:openai/codex:44625"
         ],
-        "signature": "code:app-server|title:remote-ssh-repeatedly-reconnects-resume-create|version:26.903.9818.0|platform:windows",
+        "signature": "code:environment|title:codex-status-updates-overwrite-transcript-inside|version:0.153.4|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44559"
+          "github-issue:openai/codex:44627"
         ],
-        "signature": "code:context_management|title:feature-context-management-experimental-mode-causes|version:26.903.9818.0|platform:windows",
+        "signature": "code:error|title:codex-browser-annotation-doesn-work-looking",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44561"
+          "github-issue:openai/codex:44608"
         ],
-        "signature": "code:effect|title:turn-off-whimsy-effect-astra-stars|version:0.154.0",
+        "signature": "code:error|title:network-long-project-chat-windows-browser|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44577"
+          "github-issue:openai/codex:44610"
         ],
-        "signature": "code:emulator|title:unexpected-status-401-unauthorized-you-authorized|version:0.154.0|platform:arm64",
+        "signature": "code:exec|title:codex-exec-switch-disable-file-watcher|version:9.5|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44566"
+          "github-issue:openai/codex:44623"
         ],
-        "signature": "code:enabled|title:unexpected-401-unauthorized-only-daybreak-blue|version:26.903.61454|platform:arm64",
+        "signature": "code:execution|title:critical-windows-recurring-local-execution-failure|version:30.1|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44567"
+          "github-issue:openai/codex:44612"
         ],
-        "signature": "code:environment|title:multiple-repository-windows-restore-same-conversation|version:26.903.71938|platform:windows",
+        "signature": "code:explicit|title:codex-stops-working-wsl-update-wsl|version:0.153.2|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44565"
+          "github-issue:openai/codex:44614"
         ],
-        "signature": "code:error|title:bug-selected-model-capacity-windows|version:5.6-sol|platform:windows",
+        "signature": "code:false-positive|title:repeated-false-positive-cybersecurity-blocks|version:0.153.4|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44558"
+          "github-issue:openai/codex:44624"
         ],
-        "signature": "code:every|title:selected-model-capacity-every-model-despite|version:0.154.0|platform:linux",
+        "signature": "code:long-thread|title:codex-long-thread-compaction-404s-backend|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44563"
+          "github-issue:openai/codex:44609"
         ],
-        "signature": "code:example|title:api-quickstart-remote-mcp-example-uses",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44576"
-        ],
-        "signature": "code:execpolicy|title:execpolicy-support-scoped-wildcards-approved-swift|version:0.154.0|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44560"
-        ],
-        "signature": "code:gpt-5|title:unexpected-status-404-found-model-gpt|version:5.5",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44562"
-        ],
-        "signature": "code:integrity_check|title:desktop-thread-history-projection-stalls-ordinal|version:26.903.61454|platform:arm64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44572"
-        ],
-        "signature": "code:third-party|title:windows-desktop-crashes-third-party-oauth|version:26.903.8094.0|platform:windows",
+        "signature": "code:thread_settings_applied|title:rollout-writer-reuses-previous-ordinal-thread|version:26.903.9818.0|platform:windows",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "d41258048e0477d001f43fe5b8d9465f3e57371affe647598954ff9170af200c",
+      "fingerprint": "a6cdd89d8f587f6645c02be9539320545a45160d28690b3c8f14f0884ce20a62",
       "lookbackHours": 72,
       "releaseVersion": "26.903.9818.0",
       "source": "official-github-issues"
@@ -281,223 +253,162 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-10T15:28:46Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:44558",
+        "createdAt": "2026-09-10T18:12:25Z",
+        "id": "github-issue:openai/codex:44608",
         "labels": [
           "app",
           "bug",
-          "CLI",
-          "rate-limits"
+          "connectivity",
+          "performance"
         ],
         "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:every|title:selected-model-capacity-every-model-despite|version:0.154.0|platform:linux",
-        "title": "Selected model is at capacity on every model despite available usage quota",
-        "url": "https://github.com/openai/codex/issues/44558"
+        "platform": "windows",
+        "signature": "code:error|title:network-long-project-chat-windows-browser|platform:windows",
+        "title": "Network error in long project chat in Windows app and browser",
+        "url": "https://github.com/openai/codex/issues/44608"
       },
       {
-        "createdAt": "2026-09-10T15:29:02Z",
+        "createdAt": "2026-09-10T18:20:02Z",
         "explicitVersion": "26.903.9818.0",
-        "id": "github-issue:openai/codex:44559",
+        "id": "github-issue:openai/codex:44609",
         "labels": [
-          "browser",
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:thread_settings_applied|title:rollout-writer-reuses-previous-ordinal-thread|version:26.903.9818.0|platform:windows",
+        "title": "Rollout writer reuses the previous ordinal when `thread_settings_applied` follows a non-durable `token_count`, permanently stalling that thread's durable history projection",
+        "url": "https://github.com/openai/codex/issues/44609"
+      },
+      {
+        "createdAt": "2026-09-10T18:22:08Z",
+        "explicitVersion": "9.5",
+        "id": "github-issue:openai/codex:44610",
+        "labels": [
+          "CLI",
+          "enhancement",
+          "exec",
+          "performance"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:exec|title:codex-exec-switch-disable-file-watcher|version:9.5|platform:macos",
+        "title": "codex exec: a switch to disable the file watcher for one-shot headless runs",
+        "url": "https://github.com/openai/codex/issues/44610"
+      },
+      {
+        "createdAt": "2026-09-10T18:31:27Z",
+        "explicitVersion": "0.153.2",
+        "id": "github-issue:openai/codex:44612",
+        "labels": [
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/44612",
+        "signature": "code:explicit|title:codex-stops-working-wsl-update-wsl|version:0.153.2|platform:windows",
+        "title": "Codex stops working in WSL after update; WSL repeatedly restarts",
+        "url": "https://github.com/openai/codex/issues/44612"
+      },
+      {
+        "createdAt": "2026-09-10T18:33:36Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:44614",
+        "labels": [
           "bug",
           "CLI",
-          "config",
-          "context",
+          "code-review",
+          "safety-check"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:false-positive|title:repeated-false-positive-cybersecurity-blocks|version:0.153.4|platform:windows",
+        "title": "Repeated false-positive cybersecurity blocks",
+        "url": "https://github.com/openai/codex/issues/44614"
+      },
+      {
+        "createdAt": "2026-09-10T19:02:50Z",
+        "explicitVersion": "26.903.61454",
+        "id": "github-issue:openai/codex:44621",
+        "labels": [
+          "app",
+          "browser",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:admin-enforced|title:browser-use-control-chrome-admin-enforced|version:26.903.61454|platform:macos",
+        "title": "Browser Use cannot control Chrome: admin-enforced policy verification fails",
+        "url": "https://github.com/openai/codex/issues/44621"
+      },
+      {
+        "createdAt": "2026-09-10T19:19:41Z",
+        "explicitVersion": "30.1",
+        "id": "github-issue:openai/codex:44623",
+        "labels": [
+          "app",
+          "bug",
           "tool-calls",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:context_management|title:feature-context-management-experimental-mode-causes|version:26.903.9818.0|platform:windows",
-        "title": "Feature context_management.experimental_mode causes node_repl to fail",
-        "url": "https://github.com/openai/codex/issues/44559"
+        "signature": "code:execution|title:critical-windows-recurring-local-execution-failure|version:30.1|platform:windows",
+        "title": "[Critical][Windows] Recurring local execution failure: PowerShell/CMD never return, Node kernel times out; coding tasks blocked",
+        "url": "https://github.com/openai/codex/issues/44623"
       },
       {
-        "createdAt": "2026-09-10T15:38:52Z",
-        "explicitVersion": "5.5",
-        "id": "github-issue:openai/codex:44560",
+        "createdAt": "2026-09-10T19:20:05Z",
+        "id": "github-issue:openai/codex:44624",
         "labels": [
           "app",
-          "bug",
-          "connectivity"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:gpt-5|title:unexpected-status-404-found-model-gpt|version:5.5",
-        "title": "unexpected status 404 Not Found: The model `gpt-5.5` does not exist or you do not have access to it",
-        "url": "https://github.com/openai/codex/issues/44560"
-      },
-      {
-        "createdAt": "2026-09-10T15:40:12Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:44561",
-        "labels": [
-          "CLI",
-          "config",
-          "enhancement",
-          "TUI"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:effect|title:turn-off-whimsy-effect-astra-stars|version:0.154.0",
-        "title": "Turn off whimsy effect (astra stars) by default",
-        "url": "https://github.com/openai/codex/issues/44561"
-      },
-      {
-        "createdAt": "2026-09-10T15:43:11Z",
-        "explicitVersion": "26.903.61454",
-        "id": "github-issue:openai/codex:44562",
-        "labels": [
-          "app",
-          "bug",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:integrity_check|title:desktop-thread-history-projection-stalls-ordinal|version:26.903.61454|platform:arm64",
-        "title": "Desktop thread history projection stalls on ordinal mismatch and hides later turns",
-        "url": "https://github.com/openai/codex/issues/44562"
-      },
-      {
-        "createdAt": "2026-09-10T15:46:41Z",
-        "id": "github-issue:openai/codex:44563",
-        "labels": [
-          "documentation",
-          "mcp"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:example|title:api-quickstart-remote-mcp-example-uses",
-        "title": "API quickstart remote MCP example uses a retired endpoint that returns 404",
-        "url": "https://github.com/openai/codex/issues/44563"
-      },
-      {
-        "createdAt": "2026-09-10T15:54:25Z",
-        "explicitVersion": "5.6-sol",
-        "id": "github-issue:openai/codex:44565",
-        "labels": [
           "bug",
           "connectivity",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:error|title:bug-selected-model-capacity-windows|version:5.6-sol|platform:windows",
-        "title": "[Bug] Selected model is at capacity error on Windows 10",
-        "url": "https://github.com/openai/codex/issues/44565"
-      },
-      {
-        "createdAt": "2026-09-10T15:58:57Z",
-        "explicitVersion": "26.903.61454",
-        "id": "github-issue:openai/codex:44566",
-        "labels": [
-          "app",
-          "auth",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:enabled|title:unexpected-401-unauthorized-only-daybreak-blue|version:26.903.61454|platform:arm64",
-        "title": "Unexpected 401 Unauthorized - Only on daybreak blue - when account is authorized",
-        "url": "https://github.com/openai/codex/issues/44566"
-      },
-      {
-        "createdAt": "2026-09-10T15:59:02Z",
-        "explicitVersion": "26.903.71938",
-        "id": "github-issue:openai/codex:44567",
-        "labels": [
-          "bug",
-          "extension",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/44567",
-        "signature": "code:environment|title:multiple-repository-windows-restore-same-conversation|version:26.903.71938|platform:windows",
-        "title": "VS Code: multiple repository windows restore the same conversation after reconnect",
-        "url": "https://github.com/openai/codex/issues/44567"
-      },
-      {
-        "createdAt": "2026-09-10T15:59:07Z",
-        "explicitVersion": "26.903.71938",
-        "id": "github-issue:openai/codex:44568",
-        "labels": [
-          "app",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:active-thread-01a08c09-55f0-7ee1-8cc1-b0cf6b87a209|title:creating-cloud-project-creates-local-project|version:26.903.71938|platform:arm64",
-        "title": "Creating a Cloud Project creates a local project",
-        "url": "https://github.com/openai/codex/issues/44568"
-      },
-      {
-        "createdAt": "2026-09-10T16:03:25Z",
-        "explicitVersion": "26.903.8094.0",
-        "id": "github-issue:openai/codex:44572",
-        "labels": [
-          "app",
-          "browser",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:third-party|title:windows-desktop-crashes-third-party-oauth|version:26.903.8094.0|platform:windows",
-        "title": "[Windows Desktop] App crashes after third-party OAuth callback in the in-app browser (Naver and Google)",
-        "url": "https://github.com/openai/codex/issues/44572"
-      },
-      {
-        "createdAt": "2026-09-10T16:16:52Z",
-        "explicitVersion": "26.903.9818.0",
-        "id": "github-issue:openai/codex:44573",
-        "labels": [
-          "app",
-          "app-server",
-          "bug",
-          "connectivity",
-          "remote"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:app-server|title:remote-ssh-repeatedly-reconnects-resume-create|version:26.903.9818.0|platform:windows",
-        "title": "Remote SSH repeatedly reconnects and fails to resume or create chats after app-server/proxy state diverges",
-        "url": "https://github.com/openai/codex/issues/44573"
-      },
-      {
-        "createdAt": "2026-09-10T16:23:49Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:44576",
-        "labels": [
-          "CLI",
-          "enhancement",
-          "sandbox"
+          "context"
         ],
         "maintainerAcknowledged": false,
         "platform": "macos",
-        "signature": "code:execpolicy|title:execpolicy-support-scoped-wildcards-approved-swift|version:0.154.0|platform:macos",
-        "title": "execpolicy: support scoped wildcards for approved swift test commands with output redirection",
-        "url": "https://github.com/openai/codex/issues/44576"
+        "signature": "code:long-thread|title:codex-long-thread-compaction-404s-backend|platform:macos",
+        "title": "Codex long-thread compaction 404s on `/backend-api/codex/responses/compactsvg` and traps conversation",
+        "url": "https://github.com/openai/codex/issues/44624"
       },
       {
-        "createdAt": "2026-09-10T16:30:32Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:44577",
+        "createdAt": "2026-09-10T19:21:37Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:44625",
         "labels": [
+          "bug",
+          "CLI",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:environment|title:codex-status-updates-overwrite-transcript-inside|version:0.153.4|platform:macos",
+        "title": "Codex 0.153.4: status updates overwrite transcript inside tmux; SIGWINCH restores display",
+        "url": "https://github.com/openai/codex/issues/44625"
+      },
+      {
+        "createdAt": "2026-09-10T19:40:14Z",
+        "id": "github-issue:openai/codex:44627",
+        "labels": [
+          "app",
+          "browser",
           "bug"
         ],
         "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:emulator|title:unexpected-status-401-unauthorized-you-authorized|version:0.154.0|platform:arm64",
-        "title": "unexpected status 401 Unauthorized: You are not authorized to access this model",
-        "url": "https://github.com/openai/codex/issues/44577"
+        "signature": "code:error|title:codex-browser-annotation-doesn-work-looking",
+        "title": "Codex in-browser annotation doesn't work when looking at Phoenix apps under localhost using their live reload iframe",
+        "url": "https://github.com/openai/codex/issues/44627"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-10T16:31:02.586Z",
+    "observedAt": "2026-09-10T19:47:10.948Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "14 recent official GitHub issues observed for openai/codex."
+    "summary": "10 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-06312d2ff6dd1a89",
   "interfaces": [],
