@@ -84,13 +84,6 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29257"
-        ],
-        "signature": "code:cli_help|title:subagent-hangs-exactly-minutes-any-meta|version:0.59.0|platform:arm64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29275"
         ],
         "signature": "code:error|title:possible-bug-gemini-throws-401-unauthenticated",
@@ -112,6 +105,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29279"
+        ],
+        "signature": "code:exported|title:oauth-login-deprecated-individual-google-accounts|version:0.59.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29267"
         ],
         "signature": "code:gemini-cli|title:stuck-auth-loop-submit-this-but|version:0.59.0|platform:linux",
@@ -119,29 +119,13 @@
       }
     ],
     "details": {
-      "fingerprint": "442469b68752bb4f0ada8bb20eadf9e3f8be1fcaf2454f227b4020a9af039137",
+      "fingerprint": "9077c946086403c15700d8f4fe2717b7550bfa123909c49db68759769e6c4d24",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-08T23:12:30Z",
-        "explicitVersion": "0.59.0",
-        "id": "github-issue:google-gemini/gemini-cli:29257",
-        "labels": [
-          "area/agent",
-          "kind/bug",
-          "priority/p1",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:cli_help|title:subagent-hangs-exactly-minutes-any-meta|version:0.59.0|platform:arm64",
-        "title": "cli_help subagent hangs for exactly 3 minutes on any CLI meta-question (unbounded thinkingBudget, no per-turn timeout)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29257"
-      },
       {
         "createdAt": "2026-09-09T07:06:06Z",
         "id": "github-issue:google-gemini/gemini-cli:29264",
@@ -205,10 +189,27 @@
         "signature": "code:error|title:possible-bug-gemini-throws-401-unauthenticated",
         "title": "Possible Bug? Gemini CLI throws 401 UNAUTHENTICATED error mid-session",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29275"
+      },
+      {
+        "createdAt": "2026-09-10T15:11:28Z",
+        "explicitVersion": "0.59.0",
+        "id": "github-issue:google-gemini/gemini-cli:29279",
+        "labels": [
+          "area/security",
+          "kind/bug",
+          "priority/p1",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29279",
+        "signature": "code:exported|title:oauth-login-deprecated-individual-google-accounts|version:0.59.0|platform:linux",
+        "title": "OAuth login deprecated for individual Google accounts",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29279"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-10T11:29:46.565Z",
+    "observedAt": "2026-09-10T16:31:04.424Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
