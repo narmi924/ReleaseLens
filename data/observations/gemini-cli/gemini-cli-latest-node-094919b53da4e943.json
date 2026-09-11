@@ -105,16 +105,16 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29279"
+          "github-issue:google-gemini/gemini-cli:29290"
         ],
-        "signature": "code:exported|title:oauth-login-deprecated-individual-google-accounts|version:0.59.0|platform:linux",
+        "signature": "code:expected|title:nested-gitignore-patterns-only-trailing-slash|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29267"
+          "github-issue:google-gemini/gemini-cli:29279"
         ],
-        "signature": "code:gemini-cli|title:stuck-auth-loop-submit-this-but|version:0.59.0|platform:linux",
+        "signature": "code:exported|title:oauth-login-deprecated-individual-google-accounts|version:0.59.0|platform:linux",
         "strength": "weak"
       },
       {
@@ -126,29 +126,13 @@
       }
     ],
     "details": {
-      "fingerprint": "1a364af5dd3d2023e4c0ec91e874f8cbd97e2ecaf2373f9387508021590b7a59",
+      "fingerprint": "f468828bf1df2ac92ec6a98b5e3bf6ddd7b558d98fd5dc41cf13c6f501e6824e",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-09T17:27:18Z",
-        "explicitVersion": "0.59.0",
-        "id": "github-issue:google-gemini/gemini-cli:29267",
-        "labels": [
-          "area/security",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:gemini-cli|title:stuck-auth-loop-submit-this-but|version:0.59.0|platform:linux",
-        "title": "stuck in auth loop , to submit this but due to again and again login not working on temp. basis choose second option. I am a pro member and tried agy recently , needed something to daiy drive , installed gemini-cli and this happening.",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29267"
-      },
       {
         "createdAt": "2026-09-10T04:31:42Z",
         "explicitVersion": "0.61.0-nightly.20260908.gc647533d6",
@@ -230,10 +214,24 @@
         "signature": "code:agent-generated|title:acp-session-file-written-agent-generated|version:0.59.0|platform:windows",
         "title": "ACP: session file written with agent-generated sessionId instead of the client-established one — session/load fails with \"Invalid session identifier\" (Zed as ACP client)",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29288"
+      },
+      {
+        "createdAt": "2026-09-11T20:35:20Z",
+        "id": "github-issue:google-gemini/gemini-cli:29290",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:expected|title:nested-gitignore-patterns-only-trailing-slash|platform:linux",
+        "title": "Nested .gitignore: patterns with only a trailing slash (e.g. build/) are anchored instead of matching at any depth",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29290"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-11T19:50:18.051Z",
+    "observedAt": "2026-09-11T22:39:56.673Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
