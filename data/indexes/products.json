@@ -26,23 +26,23 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-11T06:05:19.421Z",
-          "observationId": "claude-code-stable-windows-x64-f769624348022343",
+          "discoveredAt": "2026-09-11T19:48:21.740Z",
+          "observationId": "claude-code-stable-windows-x64-f1de91e679e299bc",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "MATERIAL_EVIDENCE_CHANGED",
+                "code": "OFFICIAL_DISTRIBUTIONS_DISAGREE",
                 "evidenceRefs": [],
-                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+                "message": "Relevant official distribution channels disagree."
               }
             ],
             "severity": "minor",
-            "status": "CHANGED"
+            "status": "DISTRIBUTION_DRIFT"
           },
-          "version": "2.1.268"
+          "version": "2.1.269"
         }
       ],
       "name": "Claude Code"
@@ -56,8 +56,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-11T16:34:51.530Z",
-          "observationId": "codex-stable-windows-x64-c0a59320c733213d",
+          "discoveredAt": "2026-09-11T19:48:35.488Z",
+          "observationId": "codex-stable-windows-x64-7a4aa2f59dd26c53",
           "platform": "windows-x64",
           "productId": "codex",
           "schemaVersion": 1,
@@ -73,7 +73,7 @@
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
                 "evidenceRefs": [
-                  "behavior:codex:2026-09-11T16:34:51.530Z"
+                  "behavior:codex:2026-09-11T19:48:35.488Z"
                 ],
                 "message": "Required behavior codex-msix-identity is fail."
               },
