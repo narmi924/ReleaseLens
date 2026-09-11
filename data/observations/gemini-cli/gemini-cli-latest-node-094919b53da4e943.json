@@ -84,6 +84,13 @@
     "clusters": [
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29288"
+        ],
+        "signature": "code:agent-generated|title:acp-session-file-written-agent-generated|version:0.59.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29275"
         ],
         "signature": "code:error|title:possible-bug-gemini-throws-401-unauthenticated",
@@ -119,7 +126,7 @@
       }
     ],
     "details": {
-      "fingerprint": "e90e7c0fbbb16d5626763de6eb2937a29177b5b4dd3ede9275052496d27ca765",
+      "fingerprint": "c1d3b69def4ea2ea795ecd28c4d3eb6119eb62e9f46084cef109fbcd98c4d04b",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
@@ -206,13 +213,29 @@
         "signature": "code:neuforge-pay|title:feature-suggestion-optional-token-metering-paid|version:0.05",
         "title": "Feature Suggestion: Optional token metering & paid API key support via `neuforge-pay`",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29284"
+      },
+      {
+        "createdAt": "2026-09-11T13:00:54Z",
+        "explicitVersion": "0.59.0",
+        "id": "github-issue:google-gemini/gemini-cli:29288",
+        "labels": [
+          "area/non-interactive",
+          "kind/bug",
+          "priority/p1",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:agent-generated|title:acp-session-file-written-agent-generated|version:0.59.0|platform:windows",
+        "title": "ACP: session file written with agent-generated sessionId instead of the client-established one — session/load fails with \"Invalid session identifier\" (Zed as ACP client)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29288"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-11T11:30:58.183Z",
+    "observedAt": "2026-09-11T16:35:41.530Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-26c22c421acb5d38",
   "interfaces": [
