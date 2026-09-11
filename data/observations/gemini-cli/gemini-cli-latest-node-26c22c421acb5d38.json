@@ -116,10 +116,17 @@
         ],
         "signature": "code:gemini-cli|title:stuck-auth-loop-submit-this-but|version:0.59.0|platform:linux",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29284"
+        ],
+        "signature": "code:neuforge-pay|title:feature-suggestion-optional-token-metering-paid|version:0.05",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "ab94e2a0c6f04275d3b5ed382be73243308b30a57f921b3d58f72930c9d5a4e3",
+      "fingerprint": "b70bc08aa21650db48593b667ad1d84cdfd610876bcf4ea37938d486154ac416",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
@@ -206,13 +213,28 @@
         "signature": "code:exported|title:oauth-login-deprecated-individual-google-accounts|version:0.59.0|platform:linux",
         "title": "OAuth login deprecated for individual Google accounts",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29279"
+      },
+      {
+        "createdAt": "2026-09-10T23:40:51Z",
+        "explicitVersion": "0.05",
+        "id": "github-issue:google-gemini/gemini-cli:29284",
+        "labels": [
+          "area/enterprise",
+          "kind/enhancement",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:neuforge-pay|title:feature-suggestion-optional-token-metering-paid|version:0.05",
+        "title": "Feature Suggestion: Optional token metering & paid API key support via `neuforge-pay`",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29284"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-10T22:41:00.497Z",
+    "observedAt": "2026-09-11T01:12:01.015Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-d0ed8291a2846fa7",
   "interfaces": [
