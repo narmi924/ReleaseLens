@@ -91,13 +91,6 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29275"
-        ],
-        "signature": "code:error|title:possible-bug-gemini-throws-401-unauthenticated",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29296"
         ],
         "signature": "code:expandabletext|title:expandabletext-can-drop-emoji-truncation-boundary|version:0.61.0-nightly.20260908.gc647533d6",
@@ -119,6 +112,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29297"
+        ],
+        "signature": "code:github-contributions-style|title:feature-stats-heatmap-calendar-heatmap-daily",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29284"
         ],
         "signature": "code:neuforge-pay|title:feature-suggestion-optional-token-metering-paid|version:0.05",
@@ -130,31 +130,23 @@
         ],
         "signature": "code:sub-agent|title:bug-aggressive-terminal-flickering-tearing-during",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29298"
+        ],
+        "signature": "code:unassign-inactive-assignees|title:workflow-unassign-inactive-assignees-daily-syntaxerror",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "a85ed1f5ece7ccc50d9b3376aec1e2a626a45c90c15ea809c4c7a24c4c315caa",
+      "fingerprint": "32be7765954b1aa3cfb0a1dea389fae3e66293e82980aaaf1032994757b40b5d",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-10T11:02:06Z",
-        "id": "github-issue:google-gemini/gemini-cli:29275",
-        "labels": [
-          "area/agent",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:error|title:possible-bug-gemini-throws-401-unauthenticated",
-        "title": "Possible Bug? Gemini CLI throws 401 UNAUTHENTICATED error mid-session",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29275"
-      },
       {
         "createdAt": "2026-09-10T15:11:28Z",
         "explicitVersion": "0.59.0",
@@ -240,19 +232,45 @@
         "id": "github-issue:google-gemini/gemini-cli:29296",
         "labels": [
           "area/core",
-          "status/need-triage"
+          "effort/small",
+          "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
         "signature": "code:expandabletext|title:expandabletext-can-drop-emoji-truncation-boundary|version:0.61.0-nightly.20260908.gc647533d6",
         "title": "ExpandableText can drop an emoji at a truncation boundary",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29296"
+      },
+      {
+        "createdAt": "2026-09-12T14:19:35Z",
+        "id": "github-issue:google-gemini/gemini-cli:29297",
+        "labels": [
+          "area/core",
+          "effort/medium",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:github-contributions-style|title:feature-stats-heatmap-calendar-heatmap-daily",
+        "title": "Feature: /stats heatmap — calendar heatmap of daily token usage",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29297"
+      },
+      {
+        "createdAt": "2026-09-12T15:44:42Z",
+        "id": "github-issue:google-gemini/gemini-cli:29298",
+        "labels": [
+          "area/platform",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:unassign-inactive-assignees|title:workflow-unassign-inactive-assignees-daily-syntaxerror",
+        "title": "ci(workflow): unassign-inactive-assignees fails daily with SyntaxError: Illegal continue statement",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29298"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-12T14:13:25.740Z",
+    "observedAt": "2026-09-12T17:16:24.589Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-094919b53da4e943",
   "interfaces": [
