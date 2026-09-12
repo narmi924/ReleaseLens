@@ -175,63 +175,126 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:44950"
+          "github-issue:openai/codex:44980"
         ],
-        "signature": "code:app-server|title:remote-ssh-reports-socket-hang-remote|version:0.154.0|platform:windows",
+        "signature": "code:authoritative-data|title:codex-desktop-repeated-authoritative-data-misclassification|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44949"
+          "github-issue:openai/codex:44978"
         ],
-        "signature": "code:codex-cli|title:codex-rejects-docx-attachments-unknown-file|version:0.152.1|platform:windows",
+        "signature": "code:codex-cli|title:unable-use-gpt-astra-codex|version:0.154.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44937"
+          "github-issue:openai/codex:44971"
         ],
-        "signature": "code:efficiency|title:very-low-work-efficiency-repeated-excuses",
+        "signature": "code:emitted|title:inline-fenced-markdown-blocks-render-inconsistently|version:26.908.4834.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44941"
+          "github-issue:openai/codex:44977"
         ],
-        "signature": "code:emulator|title:weekly-usage-meter-showed-remaining-then|version:0.154.0|platform:arm64",
+        "signature": "code:environment|title:chatgpt-ios-remote-display-input-prompt|version:26.6.2|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44947"
+          "github-issue:openai/codex:44965"
         ],
-        "signature": "code:error|title:old-codex-chats-open-desktop-update|version:26.6.2|platform:macos",
+        "signature": "code:environment|title:codex-windows-repeated-daybreak-notices-obscure|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44936"
+          "github-issue:openai/codex:44972"
         ],
-        "signature": "code:error|title:potentially-dangerous-misalignment-astra-attempted-deceive|version:26.903.71938",
+        "signature": "code:exclusively|title:profile-most-used-reasoning-shows-max|version:26.903.71938|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44940"
+          "github-issue:openai/codex:44967"
         ],
-        "signature": "code:plug-in|title:locked-use-still-macos-refreshing-authorization|version:26.6.2|platform:arm64",
+        "signature": "code:exhaustion|title:linux-desktop-sigsegv-immediately-following-inotify|version:26.908.40834|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44943"
+          "github-issue:openai/codex:44982"
         ],
-        "signature": "code:site-safety|title:windows-browser-use-taobao-blocked-site|version:26.903.8094.0|platform:windows",
+        "signature": "code:extension|title:codex-generates-image-chat-window-turns|version:26.908.40401|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44968"
+        ],
+        "signature": "code:extension|title:codex-gpt-sol-medium-corrupted-outputs|version:5.6|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44966"
+        ],
+        "signature": "code:extension|title:codex-ide-usage-request",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44979"
+        ],
+        "signature": "code:markdown-escaped|title:pasted-terminal-output-markdown-escaped-before|version:26.903.71938|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44974"
+        ],
+        "signature": "code:non-converging|title:harness-false-completion-non-converging-financial|version:0.154.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44964"
+        ],
+        "signature": "code:non-trivial|title:managed-requirements-toml-prompt-forbidden-rules|version:26.908.40834|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44981"
+        ],
+        "signature": "code:paginated_threads|title:codex-older-conversations-remote-linux-fail|version:26.908.4834.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44973"
+        ],
+        "signature": "code:software-development|title:codex-suddenly-refuses-previously-supported-changes|version:26.905.11957|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44975"
+        ],
+        "signature": "code:upper-right|title:start-temporary-chat|version:26.901.51231|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:44963"
+        ],
+        "signature": "code:user-reported|title:windows-desktop-scheduled-tasks-wake-acknowledge|version:49.702|platform:windows",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "77d84ecedf5c9e89ddc1352f03d397e4fb631089960613099ea38401a9e78b3a",
+      "fingerprint": "6ce375b84daaeeb9e28fffbe11fa96bdb45aa9dbda9b435e665092c23d743eb6",
       "lookbackHours": 72,
       "releaseVersion": "26.908.4834.0",
       "source": "official-github-issues"
@@ -239,131 +302,267 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-11T23:32:59Z",
-        "explicitVersion": "26.903.71938",
-        "id": "github-issue:openai/codex:44936",
+        "createdAt": "2026-09-12T02:55:45Z",
+        "explicitVersion": "49.702",
+        "id": "github-issue:openai/codex:44963",
         "labels": [
           "app",
-          "bug",
-          "model-behavior"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:error|title:potentially-dangerous-misalignment-astra-attempted-deceive|version:26.903.71938",
-        "title": "Potentially dangerous misalignment- Astra attempted to deceive by obfuscating a connector request after previously repeated denial of similar access and discussions about boundaries",
-        "url": "https://github.com/openai/codex/issues/44936"
-      },
-      {
-        "createdAt": "2026-09-11T23:34:07Z",
-        "id": "github-issue:openai/codex:44937",
-        "labels": [
-          "bug",
-          "model-behavior"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:efficiency|title:very-low-work-efficiency-repeated-excuses",
-        "title": "Very low work efficiency: repeated excuses and self-defense instead of completing tasks",
-        "url": "https://github.com/openai/codex/issues/44937"
-      },
-      {
-        "createdAt": "2026-09-11T23:52:03Z",
-        "explicitVersion": "26.6.2",
-        "id": "github-issue:openai/codex:44940",
-        "labels": [
-          "app",
-          "bug",
-          "computer-use"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:plug-in|title:locked-use-still-macos-refreshing-authorization|version:26.6.2|platform:arm64",
-        "title": "Locked use still fails on macOS 26.6.2 after refreshing authorization plug-in to build 1000968",
-        "url": "https://github.com/openai/codex/issues/44940"
-      },
-      {
-        "createdAt": "2026-09-12T00:05:55Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:44941",
-        "labels": [
-          "app",
-          "bug",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:emulator|title:weekly-usage-meter-showed-remaining-then|version:0.154.0|platform:arm64",
-        "title": "Weekly usage meter showed 25% remaining, then unexpectedly reached the limit",
-        "url": "https://github.com/openai/codex/issues/44941"
-      },
-      {
-        "createdAt": "2026-09-12T00:09:08Z",
-        "explicitVersion": "26.903.8094.0",
-        "id": "github-issue:openai/codex:44943",
-        "labels": [
-          "app",
-          "browser",
+          "automations",
           "bug",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:site-safety|title:windows-browser-use-taobao-blocked-site|version:26.903.8094.0|platform:windows",
-        "title": "[Windows][Browser Use] Taobao blocked by site-safety policy despite explicit Always allow permission",
-        "url": "https://github.com/openai/codex/issues/44943"
+        "resolutionReference": "https://github.com/openai/codex/issues/44963",
+        "signature": "code:user-reported|title:windows-desktop-scheduled-tasks-wake-acknowledge|version:49.702|platform:windows",
+        "title": "[Windows Desktop] Scheduled tasks wake, acknowledge or report status, then stop without completing assigned work",
+        "url": "https://github.com/openai/codex/issues/44963"
       },
       {
-        "createdAt": "2026-09-12T00:27:06Z",
-        "explicitVersion": "26.6.2",
-        "id": "github-issue:openai/codex:44947",
+        "createdAt": "2026-09-12T03:11:12Z",
+        "explicitVersion": "26.908.40834",
+        "id": "github-issue:openai/codex:44964",
+        "labels": [
+          "app",
+          "bug",
+          "config",
+          "sandbox"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "resolutionReference": "https://github.com/openai/codex/issues/44964",
+        "signature": "code:non-trivial|title:managed-requirements-toml-prompt-forbidden-rules|version:26.908.40834|platform:arm64",
+        "title": "Managed requirements.toml prompt/forbidden rules do not fire for non-trivial or nested shell scripts; agent's default zsh -c style bypasses an admin rm rule",
+        "url": "https://github.com/openai/codex/issues/44964"
+      },
+      {
+        "createdAt": "2026-09-12T03:32:42Z",
+        "id": "github-issue:openai/codex:44965",
+        "labels": [
+          "app",
+          "bug",
+          "safety-check",
+          "subagent",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:environment|title:codex-windows-repeated-daybreak-notices-obscure|platform:windows",
+        "title": "[Codex App / Windows] Repeated Daybreak notices obscure progress; delegated local validation terminated by safety check",
+        "url": "https://github.com/openai/codex/issues/44965"
+      },
+      {
+        "createdAt": "2026-09-12T03:58:45Z",
+        "id": "github-issue:openai/codex:44966",
+        "labels": [
+          "enhancement",
+          "extension",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extension|title:codex-ide-usage-request",
+        "title": "Codex IDE Usage Request",
+        "url": "https://github.com/openai/codex/issues/44966"
+      },
+      {
+        "createdAt": "2026-09-12T04:00:01Z",
+        "explicitVersion": "26.908.40834",
+        "id": "github-issue:openai/codex:44967",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:exhaustion|title:linux-desktop-sigsegv-immediately-following-inotify|version:26.908.40834|platform:linux",
+        "title": "Linux desktop 26.908.40834: SIGSEGV immediately following inotify watcher exhaustion",
+        "url": "https://github.com/openai/codex/issues/44967"
+      },
+      {
+        "createdAt": "2026-09-12T04:10:56Z",
+        "explicitVersion": "5.6",
+        "id": "github-issue:openai/codex:44968",
+        "labels": [
+          "bug",
+          "extension",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:extension|title:codex-gpt-sol-medium-corrupted-outputs|version:5.6|platform:arm64",
+        "title": "Codex GPT Sol 5.6 Medium | Corrupted Outputs",
+        "url": "https://github.com/openai/codex/issues/44968"
+      },
+      {
+        "createdAt": "2026-09-12T04:32:51Z",
+        "explicitVersion": "26.908.4834.0",
+        "id": "github-issue:openai/codex:44971",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:emitted|title:inline-fenced-markdown-blocks-render-inconsistently|version:26.908.4834.0|platform:windows",
+        "title": "Inline fenced Markdown blocks render inconsistently between Codex Desktop tasks",
+        "url": "https://github.com/openai/codex/issues/44971"
+      },
+      {
+        "createdAt": "2026-09-12T04:35:31Z",
+        "explicitVersion": "26.903.71938",
+        "id": "github-issue:openai/codex:44972",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:exclusively|title:profile-most-used-reasoning-shows-max|version:26.903.71938|platform:arm64",
+        "title": "Profile “Most used reasoning” shows Max despite exclusively using Ultra",
+        "url": "https://github.com/openai/codex/issues/44972"
+      },
+      {
+        "createdAt": "2026-09-12T04:54:19Z",
+        "explicitVersion": "26.905.11957",
+        "id": "github-issue:openai/codex:44973",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:software-development|title:codex-suddenly-refuses-previously-supported-changes|version:26.905.11957|platform:windows",
+        "title": "Codex App suddenly refuses previously supported code changes after recent update — possible safety false positive/regression",
+        "url": "https://github.com/openai/codex/issues/44973"
+      },
+      {
+        "createdAt": "2026-09-12T04:59:14Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:44974",
+        "labels": [
+          "bug",
+          "model-behavior",
+          "subagent"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:non-converging|title:harness-false-completion-non-converging-financial|version:0.154.0|platform:linux",
+        "title": "[Harness] False completion and non-converging financial audit after ~8h / 3 quota resets (GPT-6 Astra)",
+        "url": "https://github.com/openai/codex/issues/44974"
+      },
+      {
+        "createdAt": "2026-09-12T04:59:49Z",
+        "explicitVersion": "26.901.51231",
+        "id": "github-issue:openai/codex:44975",
         "labels": [
           "app",
           "bug",
           "session"
         ],
         "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:error|title:old-codex-chats-open-desktop-update|version:26.6.2|platform:macos",
-        "title": "Old Codex chats cannot open after desktop app update",
-        "url": "https://github.com/openai/codex/issues/44947"
+        "platform": "arm64",
+        "signature": "code:upper-right|title:start-temporary-chat|version:26.901.51231|platform:arm64",
+        "title": "Cannot start Temporary Chat from App",
+        "url": "https://github.com/openai/codex/issues/44975"
       },
       {
-        "createdAt": "2026-09-12T00:35:15Z",
-        "explicitVersion": "0.152.1",
-        "id": "github-issue:openai/codex:44949",
+        "createdAt": "2026-09-12T05:04:23Z",
+        "explicitVersion": "26.6.2",
+        "id": "github-issue:openai/codex:44977",
         "labels": [
-          "app-server",
+          "automations",
           "bug",
-          "CLI",
-          "windows-os"
+          "iOS",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:environment|title:chatgpt-ios-remote-display-input-prompt|version:26.6.2|platform:macos",
+        "title": "ChatGPT iOS Remote does not display the input prompt delivered by a scheduled automation",
+        "url": "https://github.com/openai/codex/issues/44977"
+      },
+      {
+        "createdAt": "2026-09-12T05:18:40Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:44978",
+        "labels": [
+          "bug",
+          "CLI"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:codex-cli|title:codex-rejects-docx-attachments-unknown-file|version:0.152.1|platform:windows",
-        "title": "Codex CLI rejects DOCX attachments with unknown file variant",
-        "url": "https://github.com/openai/codex/issues/44949"
+        "signature": "code:codex-cli|title:unable-use-gpt-astra-codex|version:0.154.0|platform:windows",
+        "title": "unable to use gpt astra in codex cli",
+        "url": "https://github.com/openai/codex/issues/44978"
       },
       {
-        "createdAt": "2026-09-12T00:50:08Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:44950",
+        "createdAt": "2026-09-12T05:30:28Z",
+        "explicitVersion": "26.903.71938",
+        "id": "github-issue:openai/codex:44979",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:markdown-escaped|title:pasted-terminal-output-markdown-escaped-before|version:26.903.71938|platform:macos",
+        "title": "Pasted terminal output is Markdown-escaped before reaching the Codex model",
+        "url": "https://github.com/openai/codex/issues/44979"
+      },
+      {
+        "createdAt": "2026-09-12T05:31:49Z",
+        "id": "github-issue:openai/codex:44980",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:authoritative-data|title:codex-desktop-repeated-authoritative-data-misclassification|platform:windows",
+        "title": "[Codex desktop] Repeated authoritative-data misclassification caused excessive usage consumption",
+        "url": "https://github.com/openai/codex/issues/44980"
+      },
+      {
+        "createdAt": "2026-09-12T05:38:32Z",
+        "explicitVersion": "26.908.4834.0",
+        "id": "github-issue:openai/codex:44981",
         "labels": [
           "app",
           "app-server",
           "bug",
-          "connectivity",
           "remote"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:app-server|title:remote-ssh-reports-socket-hang-remote|version:0.154.0|platform:windows",
-        "title": "Remote SSH reports `socket hang up` when remote app-server cannot initialize SQLite state on NFS CODEX_HOME",
-        "url": "https://github.com/openai/codex/issues/44950"
+        "resolutionReference": "https://github.com/openai/codex/issues/44981",
+        "signature": "code:paginated_threads|title:codex-older-conversations-remote-linux-fail|version:26.908.4834.0|platform:windows",
+        "title": "Codex app: older conversations on remote Linux fail with `paginated_threads is not supported yet`",
+        "url": "https://github.com/openai/codex/issues/44981"
+      },
+      {
+        "createdAt": "2026-09-12T05:52:58Z",
+        "explicitVersion": "26.908.40401",
+        "id": "github-issue:openai/codex:44982",
+        "labels": [
+          "bug",
+          "extension",
+          "imagen"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:extension|title:codex-generates-image-chat-window-turns|version:26.908.40401|platform:macos",
+        "title": "After codex generates an image, the chat window turns white when the image is clicked",
+        "url": "https://github.com/openai/codex/issues/44982"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-12T01:13:54.257Z",
+    "observedAt": "2026-09-12T05:54:14.895Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "8 recent official GitHub issues observed for openai/codex."
+    "summary": "17 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-7a4aa2f59dd26c53",
   "interfaces": [],
