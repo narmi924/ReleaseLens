@@ -175,91 +175,63 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:44917"
+          "github-issue:openai/codex:44950"
         ],
-        "signature": "code:app-server|title:codex-server-leaks-unified-computer-use|version:7.2.3|platform:windows",
+        "signature": "code:app-server|title:remote-ssh-reports-socket-hang-remote|version:0.154.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44916"
+          "github-issue:openai/codex:44949"
         ],
-        "signature": "code:enabled|title:windows-desktop-local-projects-indistinguishable-regular|version:26.903.71938|platform:windows",
+        "signature": "code:codex-cli|title:codex-rejects-docx-attachments-unknown-file|version:0.152.1|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44923"
+          "github-issue:openai/codex:44937"
         ],
-        "signature": "code:esc|title:macos-browser-webauthn-passkey-dialog-leaks|version:26.903.71938|platform:arm64",
+        "signature": "code:efficiency|title:very-low-work-efficiency-repeated-excuses",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44914"
+          "github-issue:openai/codex:44941"
         ],
-        "signature": "code:exact|title:chatgpt-windows-desktop-repeatedly-crashes-during|version:26.903.9818.0|platform:windows",
+        "signature": "code:emulator|title:weekly-usage-meter-showed-remaining-then|version:0.154.0|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44926"
+          "github-issue:openai/codex:44947"
         ],
-        "signature": "code:example|title:codex-desktop-windows-czech-voice-input|version:26.903.9818.0|platform:windows",
+        "signature": "code:error|title:old-codex-chats-open-desktop-update|version:26.6.2|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44919"
+          "github-issue:openai/codex:44936"
         ],
-        "signature": "code:executable|title:windows-desktop-duplicate-ordinal-hides-persisted|version:26.903.9818.0|platform:windows",
+        "signature": "code:error|title:potentially-dangerous-misalignment-astra-attempted-deceive|version:26.903.71938",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44920"
+          "github-issue:openai/codex:44940"
         ],
-        "signature": "code:expected|title:astra-cost-makes-absolutely-unusable|version:26.903.71938",
+        "signature": "code:plug-in|title:locked-use-still-macos-refreshing-authorization|version:26.6.2|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:44927"
+          "github-issue:openai/codex:44943"
         ],
-        "signature": "code:mcp__cua_repl|title:lightroom-classic-panels-missing-screenshots-computer|version:26.903.71938|platform:arm64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44918"
-        ],
-        "signature": "code:project-root|title:windows-wsl-independent-failures-linux-helper|version:26.903.9818.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44913"
-        ],
-        "signature": "code:source-patch|title:windows-defender-repeatedly-blocks-codex-source|version:26.903.71938|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44912"
-        ],
-        "signature": "code:task-scoped|title:codex-desktop-support-task-scoped-named",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:44929"
-        ],
-        "signature": "code:user-reported|title:codex-chatgpt-android-skill-references-show",
+        "signature": "code:site-safety|title:windows-browser-use-taobao-blocked-site|version:26.903.8094.0|platform:windows",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "02e7c8907ab472cc9e9edd99d7ceefcfe8e6386c8fce913f5a90854b1a3e0851",
+      "fingerprint": "77d84ecedf5c9e89ddc1352f03d397e4fb631089960613099ea38401a9e78b3a",
       "lookbackHours": 72,
       "releaseVersion": "26.908.4834.0",
       "source": "official-github-issues"
@@ -267,165 +239,35 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-11T21:12:38Z",
-        "id": "github-issue:openai/codex:44912",
-        "labels": [
-          "app",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:task-scoped|title:codex-desktop-support-task-scoped-named",
-        "title": "Codex Desktop: support task-scoped named values with explicit model visibility",
-        "url": "https://github.com/openai/codex/issues/44912"
-      },
-      {
-        "createdAt": "2026-09-11T21:27:41Z",
+        "createdAt": "2026-09-11T23:32:59Z",
         "explicitVersion": "26.903.71938",
-        "id": "github-issue:openai/codex:44913",
+        "id": "github-issue:openai/codex:44936",
         "labels": [
           "app",
           "bug",
-          "tool-calls",
-          "windows-os"
+          "model-behavior"
         ],
         "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:source-patch|title:windows-defender-repeatedly-blocks-codex-source|version:26.903.71938|platform:windows",
-        "title": "Windows Defender repeatedly blocks Codex source-patch command (Trojan:Win32/Commando.A!ml)",
-        "url": "https://github.com/openai/codex/issues/44913"
+        "signature": "code:error|title:potentially-dangerous-misalignment-astra-attempted-deceive|version:26.903.71938",
+        "title": "Potentially dangerous misalignment- Astra attempted to deceive by obfuscating a connector request after previously repeated denial of similar access and discussions about boundaries",
+        "url": "https://github.com/openai/codex/issues/44936"
       },
       {
-        "createdAt": "2026-09-11T21:31:52Z",
-        "explicitVersion": "26.903.9818.0",
-        "id": "github-issue:openai/codex:44914",
+        "createdAt": "2026-09-11T23:34:07Z",
+        "id": "github-issue:openai/codex:44937",
         "labels": [
-          "app",
           "bug",
-          "performance",
-          "windows-os"
+          "model-behavior"
         ],
         "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:exact|title:chatgpt-windows-desktop-repeatedly-crashes-during|version:26.903.9818.0|platform:windows",
-        "title": "ChatGPT Windows desktop app repeatedly crashes during Work tasks — build 26.903.9818.0",
-        "url": "https://github.com/openai/codex/issues/44914"
+        "signature": "code:efficiency|title:very-low-work-efficiency-repeated-excuses",
+        "title": "Very low work efficiency: repeated excuses and self-defense instead of completing tasks",
+        "url": "https://github.com/openai/codex/issues/44937"
       },
       {
-        "createdAt": "2026-09-11T21:40:25Z",
-        "explicitVersion": "26.903.71938",
-        "id": "github-issue:openai/codex:44916",
-        "labels": [
-          "app",
-          "bug",
-          "session",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:enabled|title:windows-desktop-local-projects-indistinguishable-regular|version:26.903.71938|platform:windows",
-        "title": "Windows Desktop: Local Projects indistinguishable from regular Projects; Chat operations fail silently",
-        "url": "https://github.com/openai/codex/issues/44916"
-      },
-      {
-        "createdAt": "2026-09-11T21:43:44Z",
-        "explicitVersion": "7.2.3",
-        "id": "github-issue:openai/codex:44917",
-        "labels": [
-          "app",
-          "app-server",
-          "bug",
-          "computer-use",
-          "performance"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:app-server|title:codex-server-leaks-unified-computer-use|version:7.2.3|platform:windows",
-        "title": "Codex app-server leaks unified-computer-use node helper processes, exhausting per-user io_uring budget",
-        "url": "https://github.com/openai/codex/issues/44917"
-      },
-      {
-        "createdAt": "2026-09-11T21:44:57Z",
-        "explicitVersion": "26.903.9818.0",
-        "id": "github-issue:openai/codex:44918",
-        "labels": [
-          "app",
-          "app-server",
-          "bug",
-          "session",
-          "tool-calls",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:project-root|title:windows-wsl-independent-failures-linux-helper|version:26.903.9818.0|platform:windows",
-        "title": "Windows + WSL: independent failures in Linux helper isolation, project-root RPC conversion, and persisted thread cwd",
-        "url": "https://github.com/openai/codex/issues/44918"
-      },
-      {
-        "createdAt": "2026-09-11T21:54:12Z",
-        "explicitVersion": "26.903.9818.0",
-        "id": "github-issue:openai/codex:44919",
-        "labels": [
-          "app",
-          "bug",
-          "session",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:executable|title:windows-desktop-duplicate-ordinal-hides-persisted|version:26.903.9818.0|platform:windows",
-        "title": "Windows Desktop: duplicate ordinal hides persisted tail; native projection recovery succeeds but loaded history stays stale",
-        "url": "https://github.com/openai/codex/issues/44919"
-      },
-      {
-        "createdAt": "2026-09-11T21:56:53Z",
-        "explicitVersion": "26.903.71938",
-        "id": "github-issue:openai/codex:44920",
-        "labels": [
-          "app",
-          "bug",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:expected|title:astra-cost-makes-absolutely-unusable|version:26.903.71938",
-        "title": "Astra cost makes it absolutely unusable",
-        "url": "https://github.com/openai/codex/issues/44920"
-      },
-      {
-        "createdAt": "2026-09-11T22:03:31Z",
-        "explicitVersion": "26.903.71938",
-        "id": "github-issue:openai/codex:44923",
-        "labels": [
-          "app",
-          "browser",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:esc|title:macos-browser-webauthn-passkey-dialog-leaks|version:26.903.71938|platform:arm64",
-        "title": "[macOS] In-app browser WebAuthn/passkey dialog leaks into other threads and cannot be dismissed (Close/Cancel/Esc ignored) — only app restart clears it",
-        "url": "https://github.com/openai/codex/issues/44923"
-      },
-      {
-        "createdAt": "2026-09-11T22:13:45Z",
-        "explicitVersion": "26.903.9818.0",
-        "id": "github-issue:openai/codex:44926",
-        "labels": [
-          "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:example|title:codex-desktop-windows-czech-voice-input|version:26.903.9818.0|platform:windows",
-        "title": "Codex desktop on Windows: Czech voice input intermittently transcribed into unrelated languages/scripts",
-        "url": "https://github.com/openai/codex/issues/44926"
-      },
-      {
-        "createdAt": "2026-09-11T22:14:29Z",
-        "explicitVersion": "26.903.71938",
-        "id": "github-issue:openai/codex:44927",
+        "createdAt": "2026-09-11T23:52:03Z",
+        "explicitVersion": "26.6.2",
+        "id": "github-issue:openai/codex:44940",
         "labels": [
           "app",
           "bug",
@@ -433,28 +275,95 @@
         ],
         "maintainerAcknowledged": false,
         "platform": "arm64",
-        "signature": "code:mcp__cua_repl|title:lightroom-classic-panels-missing-screenshots-computer|version:26.903.71938|platform:arm64",
-        "title": "Lightroom Classic panels missing from screenshots in Computer Use",
-        "url": "https://github.com/openai/codex/issues/44927"
+        "signature": "code:plug-in|title:locked-use-still-macos-refreshing-authorization|version:26.6.2|platform:arm64",
+        "title": "Locked use still fails on macOS 26.6.2 after refreshing authorization plug-in to build 1000968",
+        "url": "https://github.com/openai/codex/issues/44940"
       },
       {
-        "createdAt": "2026-09-11T22:28:32Z",
-        "id": "github-issue:openai/codex:44929",
+        "createdAt": "2026-09-12T00:05:55Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:44941",
         "labels": [
+          "app",
           "bug",
-          "skills"
+          "rate-limits"
         ],
         "maintainerAcknowledged": false,
-        "signature": "code:user-reported|title:codex-chatgpt-android-skill-references-show",
-        "title": "Codex in ChatGPT Android: skill references show SKILL.md and cannot be opened",
-        "url": "https://github.com/openai/codex/issues/44929"
+        "platform": "arm64",
+        "signature": "code:emulator|title:weekly-usage-meter-showed-remaining-then|version:0.154.0|platform:arm64",
+        "title": "Weekly usage meter showed 25% remaining, then unexpectedly reached the limit",
+        "url": "https://github.com/openai/codex/issues/44941"
+      },
+      {
+        "createdAt": "2026-09-12T00:09:08Z",
+        "explicitVersion": "26.903.8094.0",
+        "id": "github-issue:openai/codex:44943",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:site-safety|title:windows-browser-use-taobao-blocked-site|version:26.903.8094.0|platform:windows",
+        "title": "[Windows][Browser Use] Taobao blocked by site-safety policy despite explicit Always allow permission",
+        "url": "https://github.com/openai/codex/issues/44943"
+      },
+      {
+        "createdAt": "2026-09-12T00:27:06Z",
+        "explicitVersion": "26.6.2",
+        "id": "github-issue:openai/codex:44947",
+        "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:error|title:old-codex-chats-open-desktop-update|version:26.6.2|platform:macos",
+        "title": "Old Codex chats cannot open after desktop app update",
+        "url": "https://github.com/openai/codex/issues/44947"
+      },
+      {
+        "createdAt": "2026-09-12T00:35:15Z",
+        "explicitVersion": "0.152.1",
+        "id": "github-issue:openai/codex:44949",
+        "labels": [
+          "app-server",
+          "bug",
+          "CLI",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:codex-cli|title:codex-rejects-docx-attachments-unknown-file|version:0.152.1|platform:windows",
+        "title": "Codex CLI rejects DOCX attachments with unknown file variant",
+        "url": "https://github.com/openai/codex/issues/44949"
+      },
+      {
+        "createdAt": "2026-09-12T00:50:08Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:44950",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "connectivity",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:app-server|title:remote-ssh-reports-socket-hang-remote|version:0.154.0|platform:windows",
+        "title": "Remote SSH reports `socket hang up` when remote app-server cannot initialize SQLite state on NFS CODEX_HOME",
+        "url": "https://github.com/openai/codex/issues/44950"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-11T22:39:54.579Z",
+    "observedAt": "2026-09-12T01:13:54.257Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "12 recent official GitHub issues observed for openai/codex."
+    "summary": "8 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-7a4aa2f59dd26c53",
   "interfaces": [],
