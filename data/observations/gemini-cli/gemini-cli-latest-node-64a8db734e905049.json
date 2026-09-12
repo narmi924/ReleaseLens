@@ -98,6 +98,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29296"
+        ],
+        "signature": "code:expandabletext|title:expandabletext-can-drop-emoji-truncation-boundary|version:0.61.0-nightly.20260908.gc647533d6",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29290"
         ],
         "signature": "code:expected|title:nested-gitignore-patterns-only-trailing-slash|platform:linux",
@@ -116,10 +123,17 @@
         ],
         "signature": "code:neuforge-pay|title:feature-suggestion-optional-token-metering-paid|version:0.05",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29295"
+        ],
+        "signature": "code:sub-agent|title:bug-aggressive-terminal-flickering-tearing-during",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "7d7f05ad69eb99d067a2567f64df32c19d1742696122dd5fe8e26234b92893cc",
+      "fingerprint": "a85ed1f5ece7ccc50d9b3376aec1e2a626a45c90c15ea809c4c7a24c4c315caa",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
@@ -203,13 +217,42 @@
         "signature": "code:expected|title:nested-gitignore-patterns-only-trailing-slash|platform:linux",
         "title": "Nested .gitignore: patterns with only a trailing slash (e.g. build/) are anchored instead of matching at any depth",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29290"
+      },
+      {
+        "createdAt": "2026-09-12T10:59:25Z",
+        "id": "github-issue:google-gemini/gemini-cli:29295",
+        "labels": [
+          "area/core",
+          "effort/medium",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:sub-agent|title:bug-aggressive-terminal-flickering-tearing-during",
+        "title": "bug(cli): aggressive terminal flickering/tearing during user typing and spinner animations",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29295"
+      },
+      {
+        "createdAt": "2026-09-12T13:43:55Z",
+        "explicitVersion": "0.61.0-nightly.20260908.gc647533d6",
+        "id": "github-issue:google-gemini/gemini-cli:29296",
+        "labels": [
+          "area/core",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:expandabletext|title:expandabletext-can-drop-emoji-truncation-boundary|version:0.61.0-nightly.20260908.gc647533d6",
+        "title": "ExpandableText can drop an emoji at a truncation boundary",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29296"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-12T05:54:31.374Z",
+    "observedAt": "2026-09-12T14:13:25.740Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-094919b53da4e943",
   "interfaces": [
