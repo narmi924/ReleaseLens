@@ -147,7 +147,7 @@
       }
     ],
     "details": {
-      "fingerprint": "d53eb8ff6911d710fa3a15a1f690e888fab52edb4fa29374f475da10a6155f32",
+      "fingerprint": "0524852dde1b1e643c8066a0176698cfec5ec17fb5c4429a75e8ae64cd695a3b",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
@@ -206,6 +206,7 @@
         "labels": [
           "area/core",
           "effort/medium",
+          "effort/small",
           "kind/bug",
           "priority/p2",
           "status/bot-triaged",
@@ -222,6 +223,7 @@
         "id": "github-issue:google-gemini/gemini-cli:29296",
         "labels": [
           "area/core",
+          "effort/medium",
           "effort/small",
           "status/bot-triaged"
         ],
@@ -261,7 +263,8 @@
         "id": "github-issue:google-gemini/gemini-cli:29301",
         "labels": [
           "area/core",
-          "status/need-triage"
+          "effort/small",
+          "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
         "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29301",
@@ -284,7 +287,7 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-13T06:17:04.149Z",
+    "observedAt": "2026-09-13T12:06:38.937Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "9 recent official GitHub issues observed for google-gemini/gemini-cli."
