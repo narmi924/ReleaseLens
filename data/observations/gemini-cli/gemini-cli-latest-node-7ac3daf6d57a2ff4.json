@@ -84,9 +84,37 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29288"
+          "github-issue:google-gemini/gemini-cli:29315"
         ],
-        "signature": "code:agent-generated|title:acp-session-file-written-agent-generated|version:0.59.0|platform:windows",
+        "signature": "code:a2a-server|title:bug-a2a-server-express-json-registered",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29317"
+        ],
+        "signature": "code:a2a-server|title:bug-a2a-server-logger-ignores-log",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29310"
+        ],
+        "signature": "code:auto_edit|title:bug-core-yolo-auto-edit-skips",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29305"
+        ],
+        "signature": "code:client-initiated|title:bug-core-client-initiated-tool-calls|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29313"
+        ],
+        "signature": "code:double-invokes|title:bug-nested-setstate-useinputhistorystore-breaks-strictmode",
         "strength": "weak"
       },
       {
@@ -105,158 +133,76 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29296"
+          "github-issue:google-gemini/gemini-cli:29316"
         ],
-        "signature": "code:expandabletext|title:expandabletext-can-drop-emoji-truncation-boundary|version:0.61.0-nightly.20260908.gc647533d6",
+        "signature": "code:env|title:bug-sdk-agentshelloptions-env-timeoutseconds-silently",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29290"
+          "github-issue:google-gemini/gemini-cli:29306"
         ],
-        "signature": "code:expected|title:nested-gitignore-patterns-only-trailing-slash|platform:linux",
+        "signature": "code:external|title:bug-core-external-safety-checker-inherits|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29297"
+          "github-issue:google-gemini/gemini-cli:29307"
         ],
-        "signature": "code:github-contributions-style|title:feature-stats-heatmap-calendar-heatmap-daily",
+        "signature": "code:non-atomic|title:bug-non-atomic-state-json-write",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29284"
+          "github-issue:google-gemini/gemini-cli:29311"
         ],
-        "signature": "code:neuforge-pay|title:feature-suggestion-optional-token-metering-paid|version:0.05",
+        "signature": "code:permission-checks|title:bug-core-insecure-user-workspace-policy",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29295"
+          "github-issue:google-gemini/gemini-cli:29314"
         ],
-        "signature": "code:sub-agent|title:bug-aggressive-terminal-flickering-tearing-during",
+        "signature": "code:prompt-processors|title:bug-shellprocessor-ignores-abort-signal-hung",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29298"
+          "github-issue:google-gemini/gemini-cli:29309"
         ],
-        "signature": "code:unassign-inactive-assignees|title:workflow-unassign-inactive-assignees-daily-syntaxerror",
+        "signature": "code:sandbox_expansion_required|title:bug-core-unbounded-execute-recursion-sandbox",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29312"
+        ],
+        "signature": "code:silent-empty|title:bug-readstdin-500ms-silent-empty-plus|version:0.8",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29308"
+        ],
+        "signature": "code:tool-call|title:bug-sdk-unguarded-json-parse-tool",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29318"
+        ],
+        "signature": "code:workspace-trust|title:bug-glob-fallback-parses-llm-text",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "0524852dde1b1e643c8066a0176698cfec5ec17fb5c4429a75e8ae64cd695a3b",
+      "fingerprint": "c5766c5ce5d341c5152825fd4883cdbfa899c638be7505f18e6d646f80c18427",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-10T23:40:51Z",
-        "explicitVersion": "0.05",
-        "id": "github-issue:google-gemini/gemini-cli:29284",
-        "labels": [
-          "area/enterprise",
-          "kind/enhancement",
-          "priority/p3",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:neuforge-pay|title:feature-suggestion-optional-token-metering-paid|version:0.05",
-        "title": "Feature Suggestion: Optional token metering & paid API key support via `neuforge-pay`",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29284"
-      },
-      {
-        "createdAt": "2026-09-11T13:00:54Z",
-        "explicitVersion": "0.59.0",
-        "id": "github-issue:google-gemini/gemini-cli:29288",
-        "labels": [
-          "area/non-interactive",
-          "effort/medium",
-          "kind/bug",
-          "priority/p1",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:agent-generated|title:acp-session-file-written-agent-generated|version:0.59.0|platform:windows",
-        "title": "ACP: session file written with agent-generated sessionId instead of the client-established one — session/load fails with \"Invalid session identifier\" (Zed as ACP client)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29288"
-      },
-      {
-        "createdAt": "2026-09-11T20:35:20Z",
-        "id": "github-issue:google-gemini/gemini-cli:29290",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:expected|title:nested-gitignore-patterns-only-trailing-slash|platform:linux",
-        "title": "Nested .gitignore: patterns with only a trailing slash (e.g. build/) are anchored instead of matching at any depth",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29290"
-      },
-      {
-        "createdAt": "2026-09-12T10:59:25Z",
-        "id": "github-issue:google-gemini/gemini-cli:29295",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:sub-agent|title:bug-aggressive-terminal-flickering-tearing-during",
-        "title": "bug(cli): aggressive terminal flickering/tearing during user typing and spinner animations",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29295"
-      },
-      {
-        "createdAt": "2026-09-12T13:43:55Z",
-        "explicitVersion": "0.61.0-nightly.20260908.gc647533d6",
-        "id": "github-issue:google-gemini/gemini-cli:29296",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "effort/small",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:expandabletext|title:expandabletext-can-drop-emoji-truncation-boundary|version:0.61.0-nightly.20260908.gc647533d6",
-        "title": "ExpandableText can drop an emoji at a truncation boundary",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29296"
-      },
-      {
-        "createdAt": "2026-09-12T14:19:35Z",
-        "id": "github-issue:google-gemini/gemini-cli:29297",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:github-contributions-style|title:feature-stats-heatmap-calendar-heatmap-daily",
-        "title": "Feature: /stats heatmap — calendar heatmap of daily token usage",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29297"
-      },
-      {
-        "createdAt": "2026-09-12T15:44:42Z",
-        "id": "github-issue:google-gemini/gemini-cli:29298",
-        "labels": [
-          "area/platform",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:unassign-inactive-assignees|title:workflow-unassign-inactive-assignees-daily-syntaxerror",
-        "title": "ci(workflow): unassign-inactive-assignees fails daily with SyntaxError: Illegal continue statement",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29298"
-      },
       {
         "createdAt": "2026-09-13T04:45:35Z",
         "explicitVersion": "0.61.0-nightly.20260908.gc647533d6",
@@ -278,19 +224,207 @@
         "id": "github-issue:google-gemini/gemini-cli:29302",
         "labels": [
           "area/core",
-          "status/need-triage"
+          "effort/small",
+          "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
         "signature": "code:entry|title:reverse-search-highlights-wrong-substring-history|version:0.61.0-nightly.20260908.gc647533d6",
         "title": "Reverse search highlights the wrong substring when a history entry contains a character whose lowercase form is longer (e.g. İ)",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29302"
+      },
+      {
+        "createdAt": "2026-09-13T12:56:28Z",
+        "id": "github-issue:google-gemini/gemini-cli:29305",
+        "labels": [
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:client-initiated|title:bug-core-client-initiated-tool-calls|platform:windows",
+        "title": "bug(core): client-initiated tool calls silently bypass ASK_USER confirmation (scheduler/policy.ts)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29305"
+      },
+      {
+        "createdAt": "2026-09-13T12:56:43Z",
+        "id": "github-issue:google-gemini/gemini-cli:29306",
+        "labels": [
+          "area/security",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:external|title:bug-core-external-safety-checker-inherits|platform:windows",
+        "title": "bug(core): external safety checker inherits full env and unbounded stdout (checker-runner.ts)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29306"
+      },
+      {
+        "createdAt": "2026-09-13T12:56:43Z",
+        "id": "github-issue:google-gemini/gemini-cli:29307",
+        "labels": [
+          "area/core",
+          "effort/medium",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:non-atomic|title:bug-non-atomic-state-json-write",
+        "title": "bug(cli): non-atomic state.json write can corrupt and silently wipe persistent state",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29307"
+      },
+      {
+        "createdAt": "2026-09-13T12:56:43Z",
+        "id": "github-issue:google-gemini/gemini-cli:29308",
+        "labels": [
+          "area/non-interactive",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:tool-call|title:bug-sdk-unguarded-json-parse-tool",
+        "title": "bug(sdk): unguarded JSON.parse on tool-call args kills sendStream (session.ts)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29308"
+      },
+      {
+        "createdAt": "2026-09-13T13:07:16Z",
+        "id": "github-issue:google-gemini/gemini-cli:29309",
+        "labels": [
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:sandbox_expansion_required|title:bug-core-unbounded-execute-recursion-sandbox",
+        "title": "bug(core): unbounded _execute recursion on sandbox_expansion_required can loop forever (scheduler.ts)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29309"
+      },
+      {
+        "createdAt": "2026-09-13T13:07:18Z",
+        "id": "github-issue:google-gemini/gemini-cli:29310",
+        "labels": [
+          "area/security",
+          "kind/bug",
+          "status/manual-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:auto_edit|title:bug-core-yolo-auto-edit-skips",
+        "title": "bug(core): YOLO/AUTO_EDIT skips redirection downgrade, auto-allows obfuscated shell (policy-engine.ts)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29310"
+      },
+      {
+        "createdAt": "2026-09-13T13:07:20Z",
+        "id": "github-issue:google-gemini/gemini-cli:29311",
+        "labels": [
+          "area/enterprise",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:permission-checks|title:bug-core-insecure-user-workspace-policy",
+        "title": "bug(core): insecure user/workspace policy dirs skip permission checks (policy/config.ts)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29311"
+      },
+      {
+        "createdAt": "2026-09-13T13:07:23Z",
+        "explicitVersion": "0.8",
+        "id": "github-issue:google-gemini/gemini-cli:29312",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:silent-empty|title:bug-readstdin-500ms-silent-empty-plus|version:0.8",
+        "title": "bug(cli): readStdin 500ms silent-empty plus destroy() breaks stdin reuse",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29312"
+      },
+      {
+        "createdAt": "2026-09-13T13:07:25Z",
+        "id": "github-issue:google-gemini/gemini-cli:29313",
+        "labels": [
+          "area/core",
+          "effort/medium",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:double-invokes|title:bug-nested-setstate-useinputhistorystore-breaks-strictmode",
+        "title": "bug(cli): nested setState in useInputHistoryStore breaks StrictMode history",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29313"
+      },
+      {
+        "createdAt": "2026-09-13T13:07:38Z",
+        "id": "github-issue:google-gemini/gemini-cli:29314",
+        "labels": [
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:prompt-processors|title:bug-shellprocessor-ignores-abort-signal-hung",
+        "title": "bug(cli): ShellProcessor ignores abort signal, hung custom command blocks prompt pipeline",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29314"
+      },
+      {
+        "createdAt": "2026-09-13T13:07:41Z",
+        "id": "github-issue:google-gemini/gemini-cli:29315",
+        "labels": [
+          "area/agent",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:a2a-server|title:bug-a2a-server-express-json-registered",
+        "title": "bug(a2a-server): express.json registered after A2A routes, req.body undefined",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29315"
+      },
+      {
+        "createdAt": "2026-09-13T13:07:44Z",
+        "id": "github-issue:google-gemini/gemini-cli:29316",
+        "labels": [
+          "area/agent",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:env|title:bug-sdk-agentshelloptions-env-timeoutseconds-silently",
+        "title": "bug(sdk): AgentShellOptions env/timeoutSeconds silently ignored (shell.ts)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29316"
+      },
+      {
+        "createdAt": "2026-09-13T13:07:49Z",
+        "id": "github-issue:google-gemini/gemini-cli:29317",
+        "labels": [
+          "area/security",
+          "kind/bug",
+          "priority/p1",
+          "status/manual-triage",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:a2a-server|title:bug-a2a-server-logger-ignores-log",
+        "title": "bug(a2a-server): logger ignores LOG_LEVEL and logs request bodies without redaction",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29317"
+      },
+      {
+        "createdAt": "2026-09-13T13:07:52Z",
+        "id": "github-issue:google-gemini/gemini-cli:29318",
+        "labels": [
+          "area/agent",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:workspace-trust|title:bug-glob-fallback-parses-llm-text",
+        "title": "bug(cli): @ glob fallback parses LLM text and takes only first match",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29318"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-13T12:06:38.937Z",
+    "observedAt": "2026-09-13T16:25:42.583Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "9 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "16 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-f3dc5798ce1210dc",
   "interfaces": [
