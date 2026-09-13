@@ -196,7 +196,7 @@
       }
     ],
     "details": {
-      "fingerprint": "f29e6685b81a3980d57ca933660c825def4aa0ecf8504c549f192b0a92e5d583",
+      "fingerprint": "2779cb1a19c82598e68caa6ab465d76e857546aea19b38cfbcfcf159f9405935",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
@@ -249,7 +249,10 @@
         "id": "github-issue:google-gemini/gemini-cli:29306",
         "labels": [
           "area/security",
-          "status/need-triage"
+          "kind/bug",
+          "priority/p2",
+          "status/manual-triage",
+          "status/need-information"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
@@ -263,6 +266,8 @@
         "labels": [
           "area/core",
           "effort/medium",
+          "kind/bug",
+          "priority/p1",
           "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
@@ -287,7 +292,12 @@
         "createdAt": "2026-09-13T13:07:16Z",
         "id": "github-issue:google-gemini/gemini-cli:29309",
         "labels": [
-          "status/need-triage"
+          "area/core",
+          "effort/medium",
+          "kind/bug",
+          "priority/p2",
+          "status/manual-triage",
+          "status/need-information"
         ],
         "maintainerAcknowledged": false,
         "signature": "code:sandbox_expansion_required|title:bug-core-unbounded-execute-recursion-sandbox",
@@ -300,6 +310,7 @@
         "labels": [
           "area/security",
           "kind/bug",
+          "priority/p1",
           "status/manual-triage"
         ],
         "maintainerAcknowledged": false,
@@ -429,7 +440,7 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-13T19:32:03.328Z",
+    "observedAt": "2026-09-13T22:28:28.015Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "16 recent official GitHub issues observed for google-gemini/gemini-cli."
