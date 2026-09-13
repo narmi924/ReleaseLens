@@ -196,7 +196,7 @@
       }
     ],
     "details": {
-      "fingerprint": "c5766c5ce5d341c5152825fd4883cdbfa899c638be7505f18e6d646f80c18427",
+      "fingerprint": "f29e6685b81a3980d57ca933660c825def4aa0ecf8504c549f192b0a92e5d583",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
@@ -312,7 +312,10 @@
         "id": "github-issue:google-gemini/gemini-cli:29311",
         "labels": [
           "area/enterprise",
-          "status/need-triage"
+          "kind/bug",
+          "priority/p2",
+          "status/manual-triage",
+          "status/need-information"
         ],
         "maintainerAcknowledged": false,
         "signature": "code:permission-checks|title:bug-core-insecure-user-workspace-policy",
@@ -326,6 +329,8 @@
         "labels": [
           "area/core",
           "effort/small",
+          "kind/bug",
+          "priority/p2",
           "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
@@ -353,7 +358,10 @@
         "createdAt": "2026-09-13T13:07:38Z",
         "id": "github-issue:google-gemini/gemini-cli:29314",
         "labels": [
-          "status/need-triage"
+          "area/cli",
+          "kind/bug",
+          "priority/p1",
+          "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
         "signature": "code:prompt-processors|title:bug-shellprocessor-ignores-abort-signal-hung",
@@ -408,7 +416,7 @@
         "createdAt": "2026-09-13T13:07:52Z",
         "id": "github-issue:google-gemini/gemini-cli:29318",
         "labels": [
-          "area/agent",
+          "area/cli",
           "kind/bug",
           "priority/p2",
           "status/bot-triaged",
@@ -421,7 +429,7 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-13T16:25:42.583Z",
+    "observedAt": "2026-09-13T19:32:03.328Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "16 recent official GitHub issues observed for google-gemini/gemini-cli."
