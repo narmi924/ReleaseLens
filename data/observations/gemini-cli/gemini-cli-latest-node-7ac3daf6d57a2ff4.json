@@ -196,7 +196,7 @@
       }
     ],
     "details": {
-      "fingerprint": "2779cb1a19c82598e68caa6ab465d76e857546aea19b38cfbcfcf159f9405935",
+      "fingerprint": "9424647cf206ee0c3867226e01af93ea9cfee2f2264ca04d93fc077821e2a289",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
@@ -236,7 +236,11 @@
         "createdAt": "2026-09-13T12:56:28Z",
         "id": "github-issue:google-gemini/gemini-cli:29305",
         "labels": [
-          "status/need-triage"
+          "area/security",
+          "kind/bug",
+          "priority/p2",
+          "status/manual-triage",
+          "status/need-information"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
@@ -281,7 +285,10 @@
         "labels": [
           "area/non-interactive",
           "effort/small",
-          "status/bot-triaged"
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
         ],
         "maintainerAcknowledged": false,
         "signature": "code:tool-call|title:bug-sdk-unguarded-json-parse-tool",
@@ -427,7 +434,7 @@
         "createdAt": "2026-09-13T13:07:52Z",
         "id": "github-issue:google-gemini/gemini-cli:29318",
         "labels": [
-          "area/cli",
+          "area/core",
           "kind/bug",
           "priority/p2",
           "status/bot-triaged",
@@ -440,7 +447,7 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-13T22:28:28.015Z",
+    "observedAt": "2026-09-14T01:12:38.206Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "16 recent official GitHub issues observed for google-gemini/gemini-cli."
