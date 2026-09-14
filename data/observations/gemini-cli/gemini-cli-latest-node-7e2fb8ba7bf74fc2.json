@@ -98,13 +98,6 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29310"
-        ],
-        "signature": "code:auto_edit|title:bug-core-yolo-auto-edit-skips",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29313"
         ],
         "signature": "code:double-invokes|title:bug-nested-setstate-useinputhistorystore-breaks-strictmode",
@@ -133,51 +126,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29306"
-        ],
-        "signature": "code:external|title:bug-core-external-safety-checker-inherits|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29307"
-        ],
-        "signature": "code:non-atomic|title:bug-non-atomic-state-json-write",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29311"
-        ],
-        "signature": "code:permission-checks|title:bug-core-insecure-user-workspace-policy",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29314"
         ],
         "signature": "code:prompt-processors|title:bug-shellprocessor-ignores-abort-signal-hung",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29309"
-        ],
-        "signature": "code:sandbox_expansion_required|title:bug-core-unbounded-execute-recursion-sandbox",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29312"
-        ],
-        "signature": "code:silent-empty|title:bug-readstdin-500ms-silent-empty-plus|version:0.8",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29308"
-        ],
-        "signature": "code:tool-call|title:bug-sdk-unguarded-json-parse-tool",
         "strength": "weak"
       },
       {
@@ -189,121 +140,13 @@
       }
     ],
     "details": {
-      "fingerprint": "c9345af7151c3bae4f706ef499daebfd2a1fab7470bab486a178cf792d783722",
+      "fingerprint": "58cb2ba12d8bd411136608ad36502422d3305ce1a3ab38a965cc36b2f7e2295a",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-13T12:56:43Z",
-        "id": "github-issue:google-gemini/gemini-cli:29306",
-        "labels": [
-          "area/security",
-          "kind/bug",
-          "priority/p2",
-          "status/manual-triage",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:external|title:bug-core-external-safety-checker-inherits|platform:windows",
-        "title": "bug(core): external safety checker inherits full env and unbounded stdout (checker-runner.ts)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29306"
-      },
-      {
-        "createdAt": "2026-09-13T12:56:43Z",
-        "id": "github-issue:google-gemini/gemini-cli:29307",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "kind/bug",
-          "priority/p1",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:non-atomic|title:bug-non-atomic-state-json-write",
-        "title": "bug(cli): non-atomic state.json write can corrupt and silently wipe persistent state",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29307"
-      },
-      {
-        "createdAt": "2026-09-13T12:56:43Z",
-        "id": "github-issue:google-gemini/gemini-cli:29308",
-        "labels": [
-          "area/non-interactive",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:tool-call|title:bug-sdk-unguarded-json-parse-tool",
-        "title": "bug(sdk): unguarded JSON.parse on tool-call args kills sendStream (session.ts)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29308"
-      },
-      {
-        "createdAt": "2026-09-13T13:07:16Z",
-        "id": "github-issue:google-gemini/gemini-cli:29309",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "kind/bug",
-          "priority/p2",
-          "status/manual-triage",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:sandbox_expansion_required|title:bug-core-unbounded-execute-recursion-sandbox",
-        "title": "bug(core): unbounded _execute recursion on sandbox_expansion_required can loop forever (scheduler.ts)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29309"
-      },
-      {
-        "createdAt": "2026-09-13T13:07:18Z",
-        "id": "github-issue:google-gemini/gemini-cli:29310",
-        "labels": [
-          "area/security",
-          "kind/bug",
-          "priority/p1",
-          "status/manual-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:auto_edit|title:bug-core-yolo-auto-edit-skips",
-        "title": "bug(core): YOLO/AUTO_EDIT skips redirection downgrade, auto-allows obfuscated shell (policy-engine.ts)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29310"
-      },
-      {
-        "createdAt": "2026-09-13T13:07:20Z",
-        "id": "github-issue:google-gemini/gemini-cli:29311",
-        "labels": [
-          "area/enterprise",
-          "kind/bug",
-          "priority/p2",
-          "status/manual-triage",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:permission-checks|title:bug-core-insecure-user-workspace-policy",
-        "title": "bug(core): insecure user/workspace policy dirs skip permission checks (policy/config.ts)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29311"
-      },
-      {
-        "createdAt": "2026-09-13T13:07:23Z",
-        "explicitVersion": "0.8",
-        "id": "github-issue:google-gemini/gemini-cli:29312",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:silent-empty|title:bug-readstdin-500ms-silent-empty-plus|version:0.8",
-        "title": "bug(cli): readStdin 500ms silent-empty plus destroy() breaks stdin reuse",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29312"
-      },
       {
         "createdAt": "2026-09-13T13:07:25Z",
         "id": "github-issue:google-gemini/gemini-cli:29313",
@@ -428,10 +271,10 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-14T14:12:27.407Z",
+    "observedAt": "2026-09-14T19:27:52.856Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "15 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-7ac3daf6d57a2ff4",
   "interfaces": [
