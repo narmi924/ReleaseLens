@@ -26,8 +26,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-12T22:22:49.691Z",
-          "observationId": "claude-code-stable-windows-x64-6b779cc3b596e646",
+          "discoveredAt": "2026-09-14T23:11:46.051Z",
+          "observationId": "claude-code-stable-windows-x64-fd6663f9dad5d5a2",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
@@ -42,7 +42,7 @@
             "severity": "minor",
             "status": "DISTRIBUTION_DRIFT"
           },
-          "version": "2.1.270"
+          "version": "2.1.271"
         }
       ],
       "name": "Claude Code"
@@ -56,8 +56,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-14T19:27:06.357Z",
-          "observationId": "codex-stable-windows-x64-23fa40ed2cb31215",
+          "discoveredAt": "2026-09-14T23:11:52.206Z",
+          "observationId": "codex-stable-windows-x64-ec4e47238c05c34b",
           "platform": "windows-x64",
           "productId": "codex",
           "schemaVersion": 1,
@@ -66,27 +66,29 @@
               {
                 "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
                 "evidenceRefs": [
-                  "artifact:msix:OpenAI.Codex:26.908.4834.0:x64"
+                  "artifact:codex:unavailable:26.908.9136.0"
                 ],
                 "message": "Required artifact evidence is missing or did not pass."
               },
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
                 "evidenceRefs": [
-                  "behavior:codex:2026-09-14T19:27:06.357Z"
+                  "behavior:codex:2026-09-14T23:11:52.206Z"
                 ],
-                "message": "Required behavior codex-msix-identity is fail."
+                "message": "Required behavior codex-msix-identity is unsupported."
               },
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
-                "evidenceRefs": [],
-                "message": "Required behavior codex-backend-version is fail."
+                "evidenceRefs": [
+                  "behavior:codex:2026-09-14T23:11:52.206Z"
+                ],
+                "message": "Required behavior codex-backend-version is unsupported."
               }
             ],
             "severity": "major",
             "status": "UNVERIFIED"
           },
-          "version": "26.908.4834.0"
+          "version": "26.908.9136.0"
         }
       ],
       "name": "Codex"

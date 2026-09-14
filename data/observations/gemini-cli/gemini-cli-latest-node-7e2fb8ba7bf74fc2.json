@@ -84,23 +84,9 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29315"
-        ],
-        "signature": "code:a2a-server|title:bug-a2a-server-express-json-registered",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29317"
         ],
         "signature": "code:a2a-server|title:bug-a2a-server-logger-ignores-log",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29313"
-        ],
-        "signature": "code:double-invokes|title:bug-nested-setstate-useinputhistorystore-breaks-strictmode",
         "strength": "weak"
       },
       {
@@ -126,13 +112,6 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29314"
-        ],
-        "signature": "code:prompt-processors|title:bug-shellprocessor-ignores-abort-signal-hung",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29318"
         ],
         "signature": "code:workspace-trust|title:bug-glob-fallback-parses-llm-text",
@@ -140,59 +119,13 @@
       }
     ],
     "details": {
-      "fingerprint": "58cb2ba12d8bd411136608ad36502422d3305ce1a3ab38a965cc36b2f7e2295a",
+      "fingerprint": "0950367487c597054e702bc9cfda0f98a37987d0eccb1f28736b4bed476bcbd0",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-13T13:07:25Z",
-        "id": "github-issue:google-gemini/gemini-cli:29313",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:double-invokes|title:bug-nested-setstate-useinputhistorystore-breaks-strictmode",
-        "title": "bug(cli): nested setState in useInputHistoryStore breaks StrictMode history",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29313"
-      },
-      {
-        "createdAt": "2026-09-13T13:07:38Z",
-        "id": "github-issue:google-gemini/gemini-cli:29314",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "kind/bug",
-          "priority/p1",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:prompt-processors|title:bug-shellprocessor-ignores-abort-signal-hung",
-        "title": "bug(cli): ShellProcessor ignores abort signal, hung custom command blocks prompt pipeline",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29314"
-      },
-      {
-        "createdAt": "2026-09-13T13:07:41Z",
-        "id": "github-issue:google-gemini/gemini-cli:29315",
-        "labels": [
-          "area/agent",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:a2a-server|title:bug-a2a-server-express-json-registered",
-        "title": "bug(a2a-server): express.json registered after A2A routes, req.body undefined",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29315"
-      },
       {
         "createdAt": "2026-09-13T13:07:44Z",
         "id": "github-issue:google-gemini/gemini-cli:29316",
@@ -271,10 +204,10 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-14T19:27:52.856Z",
+    "observedAt": "2026-09-14T23:12:31.920Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-7ac3daf6d57a2ff4",
   "interfaces": [

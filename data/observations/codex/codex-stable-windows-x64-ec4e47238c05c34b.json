@@ -1,0 +1,391 @@
+{
+  "artifacts": [
+    {
+      "fileName": "unavailable",
+      "format": "unavailable",
+      "id": "artifact:codex:unavailable:26.908.9136.0",
+      "kind": "artifact",
+      "observedAt": "2026-09-14T23:11:52.206Z",
+      "packageVersion": "26.908.9136.0",
+      "sourceHost": "unavailable",
+      "status": "unsupported",
+      "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+      "verification": []
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-09-14T23:11:52.206Z",
+      "kind": "behavior",
+      "observedAt": "2026-09-14T23:11:52.206Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-14T23:11:52.206Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-14T23:11:52.206Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-backend-version"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-14T23:11:52.206Z",
+          "status": "not-applicable",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "unsupported",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45530"
+        ],
+        "signature": "code:app-server|title:desktop-remote-ssh-bootstrap-times-out|version:26.903.61454|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45538"
+        ],
+        "signature": "code:apply_patch|title:freebsd-apply-patch-can-create-files|version:14.4|platform:x64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45532"
+        ],
+        "signature": "code:b89f-9dc38bd7b3db|title:using-playwright|version:26.908.40834|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45523"
+        ],
+        "signature": "code:bac8-f5d755c293b5|title:codex-ran-lexx-than-minutes-out",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45527"
+        ],
+        "signature": "code:codex-cli|title:codex-doctor-omits-spctl-assess-reports|version:0.154.0|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45536"
+        ],
+        "signature": "code:enforceable|title:enforceable-task-budgets-clearer-usage-controls|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45531"
+        ],
+        "signature": "code:extension|title:ide-extension-plugin-detail-page-traps|version:26.5908.31748|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45522"
+        ],
+        "signature": "code:include_image_suggestions|title:images-prompt-catalog-load-desktop-images|version:26.908.40834|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45539"
+        ],
+        "signature": "code:per-project|title:codex-desktop-per-project-session-priority|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45525"
+        ],
+        "signature": "code:settled-pill|title:custom-catalogue-models-render-gray-chevronless|version:26.909.12148|platform:macos",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "fcfa5733f5e1604705e297a9ad2aa6daa49c12dfbb4c45c66175c514589b1a8d",
+      "lookbackHours": 72,
+      "releaseVersion": "26.908.9136.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-09-14T21:39:50Z",
+        "explicitVersion": "26.908.40834",
+        "id": "github-issue:openai/codex:45522",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity",
+          "imagen"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:include_image_suggestions|title:images-prompt-catalog-load-desktop-images|version:26.908.40834|platform:macos",
+        "title": "Images prompt catalog fails to load in desktop app: /images/init and /images/styles return 404",
+        "url": "https://github.com/openai/codex/issues/45522"
+      },
+      {
+        "createdAt": "2026-09-14T21:43:16Z",
+        "id": "github-issue:openai/codex:45523",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:bac8-f5d755c293b5|title:codex-ran-lexx-than-minutes-out",
+        "title": "Codex ran for lexx than 3 minutes out of usage.",
+        "url": "https://github.com/openai/codex/issues/45523"
+      },
+      {
+        "createdAt": "2026-09-14T22:12:49Z",
+        "explicitVersion": "26.909.12148",
+        "id": "github-issue:openai/codex:45525",
+        "labels": [
+          "app",
+          "custom-model",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:settled-pill|title:custom-catalogue-models-render-gray-chevronless|version:26.909.12148|platform:macos",
+        "title": "Custom catalogue models render a gray, chevronless composer pill (parity request custom vs native models)",
+        "url": "https://github.com/openai/codex/issues/45525"
+      },
+      {
+        "createdAt": "2026-09-14T22:28:06Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:45527",
+        "labels": [
+          "bug",
+          "CLI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:codex-cli|title:codex-doctor-omits-spctl-assess-reports|version:0.154.0|platform:macos",
+        "title": "codex doctor omits spctl --assess and reports a false desktop security warning on macOS",
+        "url": "https://github.com/openai/codex/issues/45527"
+      },
+      {
+        "createdAt": "2026-09-14T22:33:23Z",
+        "explicitVersion": "26.903.61454",
+        "id": "github-issue:openai/codex:45530",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "connectivity",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:app-server|title:desktop-remote-ssh-bootstrap-times-out|version:26.903.61454|platform:macos",
+        "title": "Desktop remote SSH bootstrap times out after app-server starts",
+        "url": "https://github.com/openai/codex/issues/45530"
+      },
+      {
+        "createdAt": "2026-09-14T22:38:29Z",
+        "explicitVersion": "26.5908.31748",
+        "id": "github-issue:openai/codex:45531",
+        "labels": [
+          "bug",
+          "extension",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:extension|title:ide-extension-plugin-detail-page-traps|version:26.5908.31748|platform:windows",
+        "title": "[IDE extension] Plugin detail page traps Codex sidebar with no way back to chat",
+        "url": "https://github.com/openai/codex/issues/45531"
+      },
+      {
+        "createdAt": "2026-09-14T22:39:47Z",
+        "explicitVersion": "26.908.40834",
+        "id": "github-issue:openai/codex:45532",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:b89f-9dc38bd7b3db|title:using-playwright|version:26.908.40834|platform:windows",
+        "title": "Using Playwright",
+        "url": "https://github.com/openai/codex/issues/45532"
+      },
+      {
+        "createdAt": "2026-09-14T22:55:27Z",
+        "id": "github-issue:openai/codex:45536",
+        "labels": [
+          "app",
+          "enhancement",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:enforceable|title:enforceable-task-budgets-clearer-usage-controls|platform:windows",
+        "title": "Enforceable task budgets and clearer usage controls in Codex",
+        "url": "https://github.com/openai/codex/issues/45536"
+      },
+      {
+        "createdAt": "2026-09-14T23:08:47Z",
+        "explicitVersion": "14.4",
+        "id": "github-issue:openai/codex:45538",
+        "labels": [
+          "bug",
+          "CLI",
+          "sandbox",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:apply_patch|title:freebsd-apply-patch-can-create-files|version:14.4|platform:x64",
+        "title": "FreeBSD: apply_patch can create files but update/delete fail because filesystem sandbox cannot be enforced",
+        "url": "https://github.com/openai/codex/issues/45538"
+      },
+      {
+        "createdAt": "2026-09-14T23:10:56Z",
+        "id": "github-issue:openai/codex:45539",
+        "labels": [
+          "app",
+          "enhancement",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:per-project|title:codex-desktop-per-project-session-priority|platform:windows",
+        "title": "[Codex desktop] Per-project/session priority scheduling, independent of model and reasoning effort",
+        "url": "https://github.com/openai/codex/issues/45539"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-09-14T23:12:31.034Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "10 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-23fa40ed2cb31215",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-ec4e47238c05c34b",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.908.9136.0",
+    "channel": "stable",
+    "discoveredAt": "2026-09-14T23:11:52.206Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.908.9136.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "4cbdf13b6c896dda7c56b077e812195dd55170c4b52700bfb3b0ccd88f9a8950",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-09-14T23:11:52.259Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "arm64",
+        "error": "Experimental FE3 resolver failed for arm64: FE3 did not return an allowed Microsoft delivery URL."
+      },
+      "id": "microsoft-store:fe3:arm64:unavailable",
+      "kind": "source",
+      "observedAt": "2026-09-14T23:11:52.206Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "warning",
+      "summary": "ARM64 remains catalog-only because the optional experimental FE3 resolver did not return a package."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.908.9136.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.908.9136.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "0d7df0de-3785-4bdd-b385-69debb1819d7"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.908.9136.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-09-14T23:11:52.206Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "warning",
+      "summary": "FE3 x64 package 26.908.9136.0 is ahead of DisplayCatalog 26.908.4834.0; acquisition is vetoed pending metadata convergence. Official rollout signal reports 26.908.9136.0."
+    },
+    {
+      "details": {
+        "buildVersion": "26.908.9136.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-09-14T23:11:52.206Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:codex:unavailable:26.908.9136.0"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-14T23:11:52.206Z"
+        ],
+        "message": "Required behavior codex-msix-identity is unsupported."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-14T23:11:52.206Z"
+        ],
+        "message": "Required behavior codex-backend-version is unsupported."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}
