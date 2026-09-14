@@ -105,13 +105,6 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29305"
-        ],
-        "signature": "code:client-initiated|title:bug-core-client-initiated-tool-calls|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29313"
         ],
         "signature": "code:double-invokes|title:bug-nested-setstate-useinputhistorystore-breaks-strictmode",
@@ -122,6 +115,13 @@
           "github-issue:google-gemini/gemini-cli:29316"
         ],
         "signature": "code:env|title:bug-sdk-agentshelloptions-env-timeoutseconds-silently",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29325"
+        ],
+        "signature": "code:error|title:print-mode-hangs-indefinitely-all-inference|version:1.2.2",
         "strength": "weak"
       },
       {
@@ -189,29 +189,13 @@
       }
     ],
     "details": {
-      "fingerprint": "c0aeb113007e153bc98c41e7faba12e03c2bec25689844bbf9510cb2c50bd194",
+      "fingerprint": "c9345af7151c3bae4f706ef499daebfd2a1fab7470bab486a178cf792d783722",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-13T12:56:28Z",
-        "id": "github-issue:google-gemini/gemini-cli:29305",
-        "labels": [
-          "area/security",
-          "kind/bug",
-          "priority/p2",
-          "status/manual-triage",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:client-initiated|title:bug-core-client-initiated-tool-calls|platform:windows",
-        "title": "bug(core): client-initiated tool calls silently bypass ASK_USER confirmation (scheduler/policy.ts)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29305"
-      },
       {
         "createdAt": "2026-09-13T12:56:43Z",
         "id": "github-issue:google-gemini/gemini-cli:29306",
@@ -425,10 +409,26 @@
         "signature": "code:execution|title:bug-agent-regression-autonomous-skill-execution|version:3.8|platform:windows",
         "title": "[Bug/Agent Regression] Autonomous Skill Execution Failure, Excuse-Making, and Lack of Agentic Initiative in Gemini 3.8 Flash vs Claude 3.5 Sonnet",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29322"
+      },
+      {
+        "createdAt": "2026-09-14T07:35:43Z",
+        "explicitVersion": "1.2.2",
+        "id": "github-issue:google-gemini/gemini-cli:29325",
+        "labels": [
+          "area/agent",
+          "effort/medium",
+          "kind/bug",
+          "priority/p1",
+          "status/manual-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:error|title:print-mode-hangs-indefinitely-all-inference|version:1.2.2",
+        "title": "CLI 1.2.2: -p (print mode) hangs indefinitely on all inference - no error, no response, no timeout",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29325"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-14T06:25:26.594Z",
+    "observedAt": "2026-09-14T14:12:27.407Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "15 recent official GitHub issues observed for google-gemini/gemini-cli."
