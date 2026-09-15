@@ -175,91 +175,98 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:45752"
+          "github-issue:openai/codex:45798"
         ],
-        "signature": "code:brand-new|title:macos-voice-stopped-working-403-voice|version:26.908.70816|platform:arm64",
+        "signature": "code:codex-cli|title:cybersecurity-block-while-testing-own-software|version:0.154.0",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:45743"
+          "github-issue:openai/codex:45790"
         ],
-        "signature": "code:chat-to-work|title:customer-complaint-unsolicited-continue-work-stalls",
+        "signature": "code:codex-cli|title:subagents-start-default-model-then-transition|version:0.154.0",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:45747"
+          "github-issue:openai/codex:45785"
         ],
-        "signature": "code:codex-cli|title:intermittent-zellij-scrollback-loss-transcript-toggle|version:0.154.0|platform:windows",
+        "signature": "code:emulator|title:codex-keeps-rewriting-some-files-over|version:0.154.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:45745"
+          "github-issue:openai/codex:45783"
         ],
-        "signature": "code:effort|title:reasoning-effort-now-only-offers-instant|version:26.908.70816|platform:macos",
+        "signature": "code:error|title:404-issue-codex|version:26.901.51231",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:45738"
+          "github-issue:openai/codex:45795"
         ],
-        "signature": "code:execution|title:customer-complaint-agent-substituted-inefficient-workflow|version:26.908.4834.0|platform:windows",
+        "signature": "code:est|title:codex-desktop-work-lose-project-state|version:26.908.70816|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:45748"
+          "github-issue:openai/codex:45787"
         ],
-        "signature": "code:exhausted|title:usage-misleading-weekly-limit-exhausted-but|platform:windows",
+        "signature": "code:established|title:customer-complaint-unsolicited-renaming-established-chats",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:45750"
+          "github-issue:openai/codex:45792"
         ],
-        "signature": "code:exist|title:codex-desktop-sidebar-ctrl-omit-sept|version:26.901.51231|platform:windows",
+        "signature": "code:even|title:auto-review-runs-becomes-ready-despite",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:45735"
+          "github-issue:openai/codex:45797"
         ],
-        "signature": "code:expected|title:chatgpt-project-visible-web-but-missing|platform:windows",
+        "signature": "code:exactly|title:windows-desktop-first-prompt-succeeds-second|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:45751"
+          "github-issue:openai/codex:45784"
         ],
-        "signature": "code:extensive|title:repeated-cybersecurity-blocks-despite-verified-trusted|version:26.908.9136.0|platform:windows",
+        "signature": "code:example|title:customer-complaint-restore-conversation-titles-chat|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:45753"
+          "github-issue:openai/codex:45788"
         ],
-        "signature": "code:git-related|title:git-features-silently-disappear-xcode-license|version:26.908.70816|platform:arm64",
+        "signature": "code:exec_command|title:windows-exec-command-oversized-powershell-cmd|version:26.908.4834.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:45734"
+          "github-issue:openai/codex:45791"
         ],
-        "signature": "code:helper_sandbox_lock_failed|title:windows-sandbox-setup-helper-sandbox-lock|version:26.908.9136.0|platform:windows",
+        "signature": "code:exec|title:codex-threads-created-codex-exec-can|version:26.908.70816|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:45744"
+          "github-issue:openai/codex:45793"
         ],
-        "signature": "code:user-reported|title:windows-dragging-reorder-tasks-within-custom|version:26.908.4834.0|platform:windows",
+        "signature": "code:execpolicy|title:windows-powershell-execpolicy-blocks-benign-start|version:0.154.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45786"
+        ],
+        "signature": "code:gpt-6|title:gpt-astra-missing-codex-model-picker|version:26.908.70816|platform:windows",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "898dce00bb494a7c7a01732f0f53f27d786ac1de3a9f51cb62cf7d707c42f7f5",
+      "fingerprint": "d79836ca09a2c2e52eec766126b3448ab89ad2400e11117ec06bd84ed6e1c85d",
       "lookbackHours": 72,
       "releaseVersion": "26.908.9136.0",
       "source": "official-github-issues"
@@ -267,157 +274,9 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-15T16:56:32Z",
-        "explicitVersion": "26.908.9136.0",
-        "id": "github-issue:openai/codex:45734",
-        "labels": [
-          "app",
-          "bug",
-          "sandbox",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:helper_sandbox_lock_failed|title:windows-sandbox-setup-helper-sandbox-lock|version:26.908.9136.0|platform:windows",
-        "title": "Windows Sandbox setup fails with helper_sandbox_lock_failed / SetNamedSecurityInfoW failed: 5",
-        "url": "https://github.com/openai/codex/issues/45734"
-      },
-      {
-        "createdAt": "2026-09-15T16:58:56Z",
-        "id": "github-issue:openai/codex:45735",
-        "labels": [
-          "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:expected|title:chatgpt-project-visible-web-but-missing|platform:windows",
-        "title": "ChatGPT project visible on web but missing from Windows desktop app Projects sidebar",
-        "url": "https://github.com/openai/codex/issues/45735"
-      },
-      {
-        "createdAt": "2026-09-15T17:26:19Z",
-        "explicitVersion": "26.908.4834.0",
-        "id": "github-issue:openai/codex:45738",
-        "labels": [
-          "app",
-          "bug",
-          "model-behavior"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:execution|title:customer-complaint-agent-substituted-inefficient-workflow|version:26.908.4834.0|platform:windows",
-        "title": "Customer complaint: agent substituted inefficient workflow, consumed usage for 10m55s, and produced no clone artifacts",
-        "url": "https://github.com/openai/codex/issues/45738"
-      },
-      {
-        "createdAt": "2026-09-15T17:42:50Z",
-        "id": "github-issue:openai/codex:45743",
-        "labels": [
-          "bug",
-          "model-behavior"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:chat-to-work|title:customer-complaint-unsolicited-continue-work-stalls",
-        "title": "Customer complaint: unsolicited “Continue in Work” stalls Chat requests and declining it can trigger false capability denials",
-        "url": "https://github.com/openai/codex/issues/45743"
-      },
-      {
-        "createdAt": "2026-09-15T17:46:59Z",
-        "explicitVersion": "26.908.4834.0",
-        "id": "github-issue:openai/codex:45744",
-        "labels": [
-          "app",
-          "bug",
-          "session",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:user-reported|title:windows-dragging-reorder-tasks-within-custom|version:26.908.4834.0|platform:windows",
-        "title": "[Windows] Dragging to reorder tasks within a custom sidebar section removes them from the section",
-        "url": "https://github.com/openai/codex/issues/45744"
-      },
-      {
-        "createdAt": "2026-09-15T17:47:33Z",
-        "explicitVersion": "26.908.70816",
-        "id": "github-issue:openai/codex:45745",
-        "labels": [
-          "app",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:effort|title:reasoning-effort-now-only-offers-instant|version:26.908.70816|platform:macos",
-        "title": "Reasoning effort now only offers Instant or Pro",
-        "url": "https://github.com/openai/codex/issues/45745"
-      },
-      {
-        "createdAt": "2026-09-15T17:57:27Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:45747",
-        "labels": [
-          "bug",
-          "CLI",
-          "TUI",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:codex-cli|title:intermittent-zellij-scrollback-loss-transcript-toggle|version:0.154.0|platform:windows",
-        "title": "Intermittent Zellij scrollback loss: transcript toggle restores scrolling only for recent output",
-        "url": "https://github.com/openai/codex/issues/45747"
-      },
-      {
-        "createdAt": "2026-09-15T18:02:21Z",
-        "id": "github-issue:openai/codex:45748",
-        "labels": [
-          "app",
-          "enhancement",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:exhausted|title:usage-misleading-weekly-limit-exhausted-but|platform:windows",
-        "title": "Usage UI is misleading when weekly limit is exhausted but the 5-hour meter is full",
-        "url": "https://github.com/openai/codex/issues/45748"
-      },
-      {
-        "createdAt": "2026-09-15T18:13:03Z",
+        "createdAt": "2026-09-15T20:09:03Z",
         "explicitVersion": "26.901.51231",
-        "id": "github-issue:openai/codex:45750",
-        "labels": [
-          "app",
-          "bug",
-          "session",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:exist|title:codex-desktop-sidebar-ctrl-omit-sept|version:26.901.51231|platform:windows",
-        "title": "Codex Desktop sidebar and Ctrl+K omit Sept 14–15 sessions",
-        "url": "https://github.com/openai/codex/issues/45750"
-      },
-      {
-        "createdAt": "2026-09-15T18:15:51Z",
-        "explicitVersion": "26.908.9136.0",
-        "id": "github-issue:openai/codex:45751",
-        "labels": [
-          "app",
-          "bug",
-          "safety-check"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:extensive|title:repeated-cybersecurity-blocks-despite-verified-trusted|version:26.908.9136.0|platform:windows",
-        "title": "Repeated cybersecurity blocks despite verified Trusted Access for Cyber (TAC)",
-        "url": "https://github.com/openai/codex/issues/45751"
-      },
-      {
-        "createdAt": "2026-09-15T18:17:27Z",
-        "explicitVersion": "26.908.70816",
-        "id": "github-issue:openai/codex:45752",
+        "id": "github-issue:openai/codex:45783",
         "labels": [
           "app",
           "auth",
@@ -425,30 +284,196 @@
           "connectivity"
         ],
         "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:brand-new|title:macos-voice-stopped-working-403-voice|version:26.908.70816|platform:arm64",
-        "title": "[macOS] Voice stopped working: 403 \"Voice session access denied\" on /v1/live",
-        "url": "https://github.com/openai/codex/issues/45752"
+        "signature": "code:error|title:404-issue-codex|version:26.901.51231",
+        "title": "404 issue in Codex",
+        "url": "https://github.com/openai/codex/issues/45783"
       },
       {
-        "createdAt": "2026-09-15T18:17:59Z",
-        "explicitVersion": "26.908.70816",
-        "id": "github-issue:openai/codex:45753",
+        "createdAt": "2026-09-15T20:11:26Z",
+        "id": "github-issue:openai/codex:45784",
         "labels": [
-          "app"
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:example|title:customer-complaint-restore-conversation-titles-chat|platform:windows",
+        "title": "Customer complaint: restore conversation titles in Chat headers when the sidebar is hidden",
+        "url": "https://github.com/openai/codex/issues/45784"
+      },
+      {
+        "createdAt": "2026-09-15T20:18:28Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:45785",
+        "labels": [
+          "bug",
+          "CLI",
+          "skills",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:emulator|title:codex-keeps-rewriting-some-files-over|version:0.154.0|platform:windows",
+        "title": "Codex CLI keeps rewriting some files over and over",
+        "url": "https://github.com/openai/codex/issues/45785"
+      },
+      {
+        "createdAt": "2026-09-15T20:33:37Z",
+        "explicitVersion": "26.908.70816",
+        "id": "github-issue:openai/codex:45786",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/45786",
+        "signature": "code:gpt-6|title:gpt-astra-missing-codex-model-picker|version:26.908.70816|platform:windows",
+        "title": "GPT-6 Astra missing from Codex model picker on Pro account, while available in Work",
+        "url": "https://github.com/openai/codex/issues/45786"
+      },
+      {
+        "createdAt": "2026-09-15T20:34:08Z",
+        "id": "github-issue:openai/codex:45787",
+        "labels": [
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:established|title:customer-complaint-unsolicited-renaming-established-chats",
+        "title": "Customer complaint: unsolicited renaming of established chats disrupts identification and continuity",
+        "url": "https://github.com/openai/codex/issues/45787"
+      },
+      {
+        "createdAt": "2026-09-15T20:41:07Z",
+        "explicitVersion": "26.908.4834.0",
+        "id": "github-issue:openai/codex:45788",
+        "labels": [
+          "app",
+          "bug",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:exec_command|title:windows-exec-command-oversized-powershell-cmd|version:26.908.4834.0|platform:windows",
+        "title": "Windows exec_command: oversized PowerShell cmd fails before launch with os error 206",
+        "url": "https://github.com/openai/codex/issues/45788"
+      },
+      {
+        "createdAt": "2026-09-15T20:54:35Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:45790",
+        "labels": [
+          "bug",
+          "CLI",
+          "subagent"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:codex-cli|title:subagents-start-default-model-then-transition|version:0.154.0",
+        "title": "Subagents start in default model, then transition to subagent model",
+        "url": "https://github.com/openai/codex/issues/45790"
+      },
+      {
+        "createdAt": "2026-09-15T21:00:11Z",
+        "explicitVersion": "26.908.70816",
+        "id": "github-issue:openai/codex:45791",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "exec"
         ],
         "maintainerAcknowledged": false,
         "platform": "arm64",
-        "signature": "code:git-related|title:git-features-silently-disappear-xcode-license|version:26.908.70816|platform:arm64",
-        "title": "Git features silently disappear when Xcode license acceptance blocks git",
-        "url": "https://github.com/openai/codex/issues/45753"
+        "signature": "code:exec|title:codex-threads-created-codex-exec-can|version:26.908.70816|platform:arm64",
+        "title": "Codex App: threads created by codex exec can't be pinned or moved to a sidebar section",
+        "url": "https://github.com/openai/codex/issues/45791"
+      },
+      {
+        "createdAt": "2026-09-15T21:04:04Z",
+        "id": "github-issue:openai/codex:45792",
+        "labels": [
+          "bug",
+          "code-review",
+          "codex-web"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:even|title:auto-review-runs-becomes-ready-despite",
+        "title": "Auto code review runs after PR becomes ready despite Auto review being disabled",
+        "url": "https://github.com/openai/codex/issues/45792"
+      },
+      {
+        "createdAt": "2026-09-15T21:05:44Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:45793",
+        "labels": [
+          "bug",
+          "CLI",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/45793",
+        "signature": "code:execpolicy|title:windows-powershell-execpolicy-blocks-benign-start|version:0.154.0|platform:windows",
+        "title": "Windows PowerShell execpolicy blocks benign CLI start subcommand with --server URL",
+        "url": "https://github.com/openai/codex/issues/45793"
+      },
+      {
+        "createdAt": "2026-09-15T21:19:48Z",
+        "explicitVersion": "26.908.70816",
+        "id": "github-issue:openai/codex:45795",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior",
+          "session",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:est|title:codex-desktop-work-lose-project-state|version:26.908.70816|platform:windows",
+        "title": "Codex Desktop and Work lose project state, mix up files, and repeat already completed work",
+        "url": "https://github.com/openai/codex/issues/45795"
+      },
+      {
+        "createdAt": "2026-09-15T21:23:01Z",
+        "id": "github-issue:openai/codex:45797",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/45797",
+        "signature": "code:exactly|title:windows-desktop-first-prompt-succeeds-second|platform:windows",
+        "title": "Windows Desktop: first prompt succeeds, second message cannot be sent; reinstall only fixes it temporarily",
+        "url": "https://github.com/openai/codex/issues/45797"
+      },
+      {
+        "createdAt": "2026-09-15T21:25:30Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:45798",
+        "labels": [
+          "bug",
+          "CLI",
+          "safety-check"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:codex-cli|title:cybersecurity-block-while-testing-own-software|version:0.154.0",
+        "title": "Cybersecurity Block while testing my own software!",
+        "url": "https://github.com/openai/codex/issues/45798"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-15T18:18:08.249Z",
+    "observedAt": "2026-09-15T21:31:30.418Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "12 recent official GitHub issues observed for openai/codex."
+    "summary": "13 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-aa284f4ce3bc859c",
   "interfaces": [],
