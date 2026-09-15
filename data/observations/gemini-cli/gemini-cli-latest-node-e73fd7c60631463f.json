@@ -84,9 +84,9 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29317"
+          "github-issue:google-gemini/gemini-cli:29338"
         ],
-        "signature": "code:a2a-server|title:bug-a2a-server-logger-ignores-log",
+        "signature": "code:eacces|title:rootless-podman-sandbox-hit-eacces-because|version:0.59.0|platform:linux",
         "strength": "weak"
       },
       {
@@ -102,54 +102,16 @@
         ],
         "signature": "code:execution|title:bug-agent-regression-autonomous-skill-execution|version:3.8|platform:windows",
         "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29318"
-        ],
-        "signature": "code:workspace-trust|title:bug-glob-fallback-parses-llm-text",
-        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "44a1a8f75bbedb6531fed1743d30b4ae0d7db9f245a270aee6b241c236574d7d",
+      "fingerprint": "695cb50dcde901b205adf1903c357bc6b481d193b99ec216a2413105e272bacc",
       "lookbackHours": 72,
       "releaseVersion": "0.59.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-13T13:07:49Z",
-        "id": "github-issue:google-gemini/gemini-cli:29317",
-        "labels": [
-          "area/security",
-          "kind/bug",
-          "priority/p1",
-          "status/manual-triage",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:a2a-server|title:bug-a2a-server-logger-ignores-log",
-        "title": "bug(a2a-server): logger ignores LOG_LEVEL and logs request bodies without redaction",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29317"
-      },
-      {
-        "createdAt": "2026-09-13T13:07:52Z",
-        "id": "github-issue:google-gemini/gemini-cli:29318",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:workspace-trust|title:bug-glob-fallback-parses-llm-text",
-        "title": "bug(cli): @ glob fallback parses LLM text and takes only first match",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29318"
-      },
       {
         "createdAt": "2026-09-14T02:54:58Z",
         "explicitVersion": "3.8",
@@ -179,13 +141,27 @@
         "signature": "code:error|title:print-mode-hangs-indefinitely-all-inference|version:1.2.2",
         "title": "CLI 1.2.2: -p (print mode) hangs indefinitely on all inference - no error, no response, no timeout",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29325"
+      },
+      {
+        "createdAt": "2026-09-15T09:16:22Z",
+        "explicitVersion": "0.59.0",
+        "id": "github-issue:google-gemini/gemini-cli:29338",
+        "labels": [
+          "area/platform",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:eacces|title:rootless-podman-sandbox-hit-eacces-because|version:0.59.0|platform:linux",
+        "title": "Rootless podman sandbox hit EACCES because --userns=keep-id is not set",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29338"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-15T01:34:02.049Z",
+    "observedAt": "2026-09-15T18:18:10.278Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "4 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "3 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-7e2fb8ba7bf74fc2",
   "interfaces": [
