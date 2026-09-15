@@ -22,8 +22,8 @@
     },
     {
       "channel": "stable",
-      "discoveredAt": "2026-09-15T01:33:23.515Z",
-      "observationId": "codex-stable-windows-x64-aa284f4ce3bc859c",
+      "discoveredAt": "2026-09-15T07:50:55.090Z",
+      "observationId": "codex-stable-windows-x64-0a159f62aff3b8ec",
       "platform": "windows-x64",
       "productId": "codex",
       "schemaVersion": 1,
@@ -32,23 +32,21 @@
           {
             "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
             "evidenceRefs": [
-              "artifact:codex:unavailable:26.908.9136.0"
+              "artifact:msix:OpenAI.Codex:26.908.9136.0:x64"
             ],
             "message": "Required artifact evidence is missing or did not pass."
           },
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
             "evidenceRefs": [
-              "behavior:codex:2026-09-15T01:33:23.515Z"
+              "behavior:codex:2026-09-15T07:50:55.090Z"
             ],
-            "message": "Required behavior codex-msix-identity is unsupported."
+            "message": "Required behavior codex-msix-identity is fail."
           },
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
-            "evidenceRefs": [
-              "behavior:codex:2026-09-15T01:33:23.515Z"
-            ],
-            "message": "Required behavior codex-backend-version is unsupported."
+            "evidenceRefs": [],
+            "message": "Required behavior codex-backend-version is fail."
           }
         ],
         "severity": "major",
