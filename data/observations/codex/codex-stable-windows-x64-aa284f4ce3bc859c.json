@@ -1,0 +1,426 @@
+{
+  "artifacts": [
+    {
+      "fileName": "unavailable",
+      "format": "unavailable",
+      "id": "artifact:codex:unavailable:26.908.9136.0",
+      "kind": "artifact",
+      "observedAt": "2026-09-15T01:33:23.515Z",
+      "packageVersion": "26.908.9136.0",
+      "sourceHost": "unavailable",
+      "status": "unsupported",
+      "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+      "verification": []
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-09-15T01:33:23.515Z",
+      "kind": "behavior",
+      "observedAt": "2026-09-15T01:33:23.515Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-15T01:33:23.515Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-15T01:33:23.515Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-backend-version"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-15T01:33:23.515Z",
+          "status": "not-applicable",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "unsupported",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45564"
+        ],
+        "signature": "code:elapsed|title:disabling-animations-freezes-working-timer|version:0.154.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45547"
+        ],
+        "signature": "code:embedded|title:codex-desktop-live-voice-delegated-browser|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45562"
+        ],
+        "signature": "code:empty|title:macos-desktop-completed-turn-returns-empty|version:26.908.40834|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45557"
+        ],
+        "signature": "code:enable|title:codex-android-remote-chat-list-incomplete|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45565"
+        ],
+        "signature": "code:enrolls|title:remote-pairing-multiple-phones-while-windows|version:26.903.71938|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45561"
+        ],
+        "signature": "code:git-upload-pack|title:sites-source-retrieval-git-upload-pack|version:0.153.4|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45560"
+        ],
+        "signature": "code:gpt-5|title:business-pro-20x-plan-consumption-rate|version:26.908.9136.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45553"
+        ],
+        "signature": "code:gpt-6-astra|title:gpt-astra-low-repeatedly-hits-cyber|version:0.154.0-alpha.6.2|platform:x64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45555"
+        ],
+        "signature": "code:project-level|title:codex-desktop-local-stdio-mcp-initialize|version:0.154.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45552"
+        ],
+        "signature": "code:project-scoped|title:desktop-add-project-scoped-skills-view",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45551"
+        ],
+        "signature": "code:project-scoped|title:desktop-add-project-scoped-skills-view|version:26.908.40834|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:45563"
+        ],
+        "signature": "code:user-attachments|title:chatgpt-program-codex-suddenly-disappeared-project|platform:windows",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "fd04e044120ecc64030c722341a24f769250ae02aaf0f422d9dd852cdd28da92",
+      "lookbackHours": 72,
+      "releaseVersion": "26.908.9136.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-09-14T23:52:09Z",
+        "id": "github-issue:openai/codex:45547",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "subagent"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:embedded|title:codex-desktop-live-voice-delegated-browser|platform:macos",
+        "title": "Codex desktop live voice: delegated browser agent cannot access the visible embedded tab",
+        "url": "https://github.com/openai/codex/issues/45547"
+      },
+      {
+        "createdAt": "2026-09-14T23:56:53Z",
+        "explicitVersion": "26.908.40834",
+        "id": "github-issue:openai/codex:45551",
+        "labels": [
+          "app",
+          "enhancement",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:project-scoped|title:desktop-add-project-scoped-skills-view|version:26.908.40834|platform:macos",
+        "title": "Desktop: add a project-scoped Skills view for ChatGPT Projects",
+        "url": "https://github.com/openai/codex/issues/45551"
+      },
+      {
+        "createdAt": "2026-09-14T23:57:12Z",
+        "duplicateOf": "#45551",
+        "id": "github-issue:openai/codex:45552",
+        "labels": [
+          "app",
+          "enhancement",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/openai/codex/issues/45552",
+        "signature": "code:project-scoped|title:desktop-add-project-scoped-skills-view",
+        "title": "Desktop: add a project-scoped Skills view for ChatGPT Projects",
+        "url": "https://github.com/openai/codex/issues/45552"
+      },
+      {
+        "createdAt": "2026-09-15T00:05:03Z",
+        "explicitVersion": "0.154.0-alpha.6.2",
+        "id": "github-issue:openai/codex:45553",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior",
+          "safety-check"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "resolutionReference": "https://github.com/openai/codex/issues/45553",
+        "signature": "code:gpt-6-astra|title:gpt-astra-low-repeatedly-hits-cyber|version:0.154.0-alpha.6.2|platform:x64",
+        "title": "gpt-6-astra/low repeatedly hits cyber_policy during benign bug triage; Sol continuation unaffected",
+        "url": "https://github.com/openai/codex/issues/45553"
+      },
+      {
+        "createdAt": "2026-09-15T00:22:04Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:45555",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity",
+          "mcp"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:project-level|title:codex-desktop-local-stdio-mcp-initialize|version:0.154.0|platform:windows",
+        "title": "Codex Desktop local stdio MCP fails initialize while the same config works in Codex CLI",
+        "url": "https://github.com/openai/codex/issues/45555"
+      },
+      {
+        "createdAt": "2026-09-15T00:32:51Z",
+        "id": "github-issue:openai/codex:45557",
+        "labels": [
+          "bug",
+          "remote",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:enable|title:codex-android-remote-chat-list-incomplete|platform:windows",
+        "title": "Codex Android: Remote chat list is incomplete, unstable, and incorrectly sorted",
+        "url": "https://github.com/openai/codex/issues/45557"
+      },
+      {
+        "createdAt": "2026-09-15T00:48:33Z",
+        "explicitVersion": "26.908.9136.0",
+        "id": "github-issue:openai/codex:45560",
+        "labels": [
+          "bug",
+          "CLI",
+          "rate-limits",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:gpt-5|title:business-pro-20x-plan-consumption-rate|version:26.908.9136.0|platform:windows",
+        "title": "Business Pro 20x plan consumption rate increased around 9/1",
+        "url": "https://github.com/openai/codex/issues/45560"
+      },
+      {
+        "createdAt": "2026-09-15T01:01:38Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:45561",
+        "labels": [
+          "bug",
+          "CLI",
+          "connectivity"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "resolutionReference": "https://github.com/openai/codex/issues/45561",
+        "signature": "code:git-upload-pack|title:sites-source-retrieval-git-upload-pack|version:0.153.4|platform:linux",
+        "title": "Sites source retrieval: git-upload-pack returns HTTP 500 after successful authentication (Work and local Codex)",
+        "url": "https://github.com/openai/codex/issues/45561"
+      },
+      {
+        "createdAt": "2026-09-15T01:03:31Z",
+        "explicitVersion": "26.908.40834",
+        "id": "github-issue:openai/codex:45562",
+        "labels": [
+          "app",
+          "app-server",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:empty|title:macos-desktop-completed-turn-returns-empty|version:26.908.40834|platform:arm64",
+        "title": "macOS Desktop: completed turn returns empty items although history DB contains the final answer",
+        "url": "https://github.com/openai/codex/issues/45562"
+      },
+      {
+        "createdAt": "2026-09-15T01:20:34Z",
+        "id": "github-issue:openai/codex:45563",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:user-attachments|title:chatgpt-program-codex-suddenly-disappeared-project|platform:windows",
+        "title": "ChatGPT program / Codex suddenly disappeared project folder section area",
+        "url": "https://github.com/openai/codex/issues/45563"
+      },
+      {
+        "createdAt": "2026-09-15T01:23:49Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:45564",
+        "labels": [
+          "bug",
+          "CLI",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:elapsed|title:disabling-animations-freezes-working-timer|version:0.154.0|platform:linux",
+        "title": "Disabling animations freezes the Working timer",
+        "url": "https://github.com/openai/codex/issues/45564"
+      },
+      {
+        "createdAt": "2026-09-15T01:25:58Z",
+        "explicitVersion": "26.903.71938",
+        "id": "github-issue:openai/codex:45565",
+        "labels": [
+          "app",
+          "bug",
+          "remote",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:enrolls|title:remote-pairing-multiple-phones-while-windows|version:26.903.71938|platform:windows",
+        "title": "Remote pairing fails on multiple phones while Windows host is connected",
+        "url": "https://github.com/openai/codex/issues/45565"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-09-15T01:33:45.972Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "12 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-ec4e47238c05c34b",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-aa284f4ce3bc859c",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.908.9136.0",
+    "channel": "stable",
+    "discoveredAt": "2026-09-15T01:33:23.515Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.908.9136.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "4cbdf13b6c896dda7c56b077e812195dd55170c4b52700bfb3b0ccd88f9a8950",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-09-15T01:33:23.563Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.908.9136.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.908.9136.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "0d7df0de-3785-4bdd-b385-69debb1819d7"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.908.9136.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-09-15T01:33:23.515Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "warning",
+      "summary": "FE3 x64 package 26.908.9136.0 is ahead of DisplayCatalog 26.908.4834.0; acquisition is vetoed pending metadata convergence. Official rollout signal reports 26.908.9136.0."
+    },
+    {
+      "details": {
+        "buildVersion": "26.908.9136.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-09-15T01:33:23.515Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:codex:unavailable:26.908.9136.0"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-15T01:33:23.515Z"
+        ],
+        "message": "Required behavior codex-msix-identity is unsupported."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-15T01:33:23.515Z"
+        ],
+        "message": "Required behavior codex-backend-version is unsupported."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}
