@@ -84,6 +84,13 @@
     "clusters": [
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29355"
+        ],
+        "signature": "code:active-assist|title:geminicli-com-feedback-issue",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29338"
         ],
         "signature": "code:eacces|title:rootless-podman-sandbox-hit-eacces-because|version:0.59.0-nightly.20260825.g812f7a2bc|platform:linux",
@@ -95,10 +102,17 @@
         ],
         "signature": "code:erro|title:repeteadly-configuration-erro|version:0.60.0|platform:windows",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29356"
+        ],
+        "signature": "code:extension|title:extension-gallery-has-indexed-jgs-magic|version:0.3.0",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "cd146174d7f3dd4583df7463bb1401e538932cecf4aac7e26db0b013482750ce",
+      "fingerprint": "f0fd77282b8a765db02369081c23b5cddbd35594ab14357e4623f7dd9db517b8",
       "lookbackHours": 72,
       "releaseVersion": "0.60.0",
       "source": "official-github-issues"
@@ -141,13 +155,40 @@
         "signature": "code:erro|title:repeteadly-configuration-erro|version:0.60.0|platform:windows",
         "title": "Repeteadly configuration erro",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29350"
+      },
+      {
+        "createdAt": "2026-09-16T08:59:09Z",
+        "id": "github-issue:google-gemini/gemini-cli:29355",
+        "labels": [
+          "area/documentation",
+          "kind/bug",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:active-assist|title:geminicli-com-feedback-issue",
+        "title": "GeminiCLI.com Feedback: [ISSUE]",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29355"
+      },
+      {
+        "createdAt": "2026-09-16T11:26:14Z",
+        "explicitVersion": "0.3.0",
+        "id": "github-issue:google-gemini/gemini-cli:29356",
+        "labels": [
+          "area/extensions",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extension|title:extension-gallery-has-indexed-jgs-magic|version:0.3.0",
+        "title": "Extension gallery has not indexed jgs-magic-sysmlv1-read-skills (topic + tag + root manifest present)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29356"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-16T06:07:59.483Z",
+    "observedAt": "2026-09-16T11:45:58.227Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "2 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "4 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-3772bd9e92445429",
   "interfaces": [
