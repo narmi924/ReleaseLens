@@ -2,8 +2,8 @@
   "releases": [
     {
       "channel": "stable",
-      "discoveredAt": "2026-09-15T21:31:00.524Z",
-      "observationId": "claude-code-stable-windows-x64-2a2dc6bc64f18b77",
+      "discoveredAt": "2026-09-16T17:06:11.708Z",
+      "observationId": "claude-code-stable-windows-x64-fffcc05d38811fa0",
       "platform": "windows-x64",
       "productId": "claude-code",
       "schemaVersion": 1,
@@ -56,61 +56,61 @@
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-09-16T06:07:47.989Z",
-      "observationId": "gemini-cli-latest-node-169027d2ba680722",
+      "discoveredAt": "2026-09-16T17:06:42.900Z",
+      "observationId": "gemini-cli-latest-node-f376c063a3b9057b",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
       "verdict": {
         "reasons": [
           {
-            "code": "MATERIAL_EVIDENCE_CHANGED",
+            "code": "REQUIRED_SCOPE_PASSED",
             "evidenceRefs": [],
-            "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+            "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
           }
         ],
-        "severity": "minor",
-        "status": "CHANGED"
+        "severity": "info",
+        "status": "NO_REGRESSION_DETECTED"
       },
       "version": "0.60.0"
     },
     {
       "channel": "nightly",
-      "discoveredAt": "2026-09-16T06:07:47.989Z",
-      "observationId": "gemini-cli-nightly-node-90ec4c0ee0279347",
+      "discoveredAt": "2026-09-16T17:06:42.900Z",
+      "observationId": "gemini-cli-nightly-node-aea623e672c44c4f",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
       "verdict": {
         "reasons": [
           {
-            "code": "MATERIAL_EVIDENCE_CHANGED",
+            "code": "REQUIRED_SCOPE_PASSED",
             "evidenceRefs": [],
-            "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+            "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
           }
         ],
-        "severity": "minor",
-        "status": "CHANGED"
+        "severity": "info",
+        "status": "NO_REGRESSION_DETECTED"
       },
       "version": "0.62.0-nightly.20260916.g6a466a7e2"
     },
     {
       "channel": "preview",
-      "discoveredAt": "2026-09-16T06:07:47.989Z",
-      "observationId": "gemini-cli-preview-node-8ae2f2bb01c31f99",
+      "discoveredAt": "2026-09-16T17:06:42.900Z",
+      "observationId": "gemini-cli-preview-node-9fbd54c5cf7c99ba",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
       "verdict": {
         "reasons": [
           {
-            "code": "MATERIAL_EVIDENCE_CHANGED",
+            "code": "REQUIRED_SCOPE_PASSED",
             "evidenceRefs": [],
-            "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+            "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
           }
         ],
-        "severity": "minor",
-        "status": "CHANGED"
+        "severity": "info",
+        "status": "NO_REGRESSION_DETECTED"
       },
       "version": "0.61.0-preview.0"
     }
