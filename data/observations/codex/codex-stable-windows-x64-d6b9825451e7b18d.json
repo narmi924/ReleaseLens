@@ -1,0 +1,724 @@
+{
+  "artifacts": [
+    {
+      "architecture": "x64",
+      "details": {
+        "application": {
+          "entryPoint": "Windows.FullTrustApplication",
+          "executable": "app/ChatGPT.exe",
+          "id": "App"
+        },
+        "blockMap": {
+          "errors": [
+            "Block-map file is missing from archive: app/resources/app.asar.unpacked/node_modules/@worklouder/device-kit-oai/node_modules/@serialport/bindings-cpp/build/Release/bindings.node.",
+            "Block-map file is missing from archive: app/resources/app.asar.unpacked/node_modules/@worklouder/device-kit-oai/node_modules/node-hid/build/Release/HID.node.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/color.cjs.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/index.d.ts.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/LICENSE.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/package.json.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/README.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/index.cjs.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/index.cjs.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/libvips-42.dll.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/libvips-cpp-8.18.6.dll.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/sharp-win32-x64-0.35.4.node.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/LICENSE.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/package.json.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/README.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/versions.json.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/accessibility.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/api-use-behavior.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/api.json.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/bootstrap-troubleshooting.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/browser-control-interruption.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/browser-safety.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/browser-troubleshooting.md.",
+            "Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/capabilities/browser/management.md.",
+            "1470 additional block-map failure(s) omitted from persisted evidence."
+          ],
+          "status": "fail",
+          "totalFiles": 5382,
+          "verifiedFiles": 3888
+        },
+        "fileCount": 5386,
+        "importantFiles": [
+          "AppxManifest.xml",
+          "AppxBlockMap.xml",
+          "AppxSignature.p7x",
+          "app/ChatGPT.exe"
+        ],
+        "signature": {
+          "status": "unsupported",
+          "summary": "Get-AuthenticodeSignature is unavailable on this runner."
+        },
+        "topLevelDirectories": [
+          "[Content_Types].xml",
+          "app",
+          "AppxBlockMap.xml",
+          "AppxManifest.xml",
+          "AppxMetadata",
+          "AppxSignature.p7x",
+          "assets",
+          "priconfig.xml",
+          "resources.language-is.pri",
+          "resources.language-ms.pri",
+          "resources.language-no.pri",
+          "resources.pri",
+          "resources.scale-200.pri"
+        ]
+      },
+      "fileName": "OpenAI.Codex_26.911.7940.0_x64__2p2nqsd0c76g0.msix",
+      "format": "msix",
+      "id": "artifact:msix:OpenAI.Codex:26.911.7940.0:x64",
+      "kind": "artifact",
+      "observedAt": "2026-09-17T07:46:44.942Z",
+      "packageIdentity": "OpenAI.Codex",
+      "packageVersion": "26.911.7940.0",
+      "sha256": "dd4f6efc9f824cebe79c3dda173db6fb5ac2e37f7106556640f58cb81b73b5d4",
+      "sizeBytes": 789408971,
+      "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+      "status": "fail",
+      "summary": "OpenAI.Codex 26.911.7940.0 MSIX failed verification.",
+      "verification": [
+        {
+          "id": "msix-identity",
+          "kind": "verification",
+          "observedAt": "2026-09-17T07:46:44.942Z",
+          "status": "pass",
+          "summary": "MSIX package identity matches the profile."
+        },
+        {
+          "id": "msix-required-file:app/resources/codex.exe",
+          "kind": "verification",
+          "observedAt": "2026-09-17T07:46:44.942Z",
+          "status": "pass",
+          "summary": "Required MSIX file app/resources/codex.exe exists."
+        },
+        {
+          "id": "msix-architecture",
+          "kind": "verification",
+          "observedAt": "2026-09-17T07:46:44.942Z",
+          "status": "pass",
+          "summary": "MSIX processor architecture matches the profile."
+        },
+        {
+          "id": "msix-version",
+          "kind": "verification",
+          "observedAt": "2026-09-17T07:46:44.942Z",
+          "status": "pass",
+          "summary": "MSIX package version matches the resolved moniker."
+        },
+        {
+          "id": "msix-moniker",
+          "kind": "verification",
+          "observedAt": "2026-09-17T07:46:44.942Z",
+          "status": "pass",
+          "summary": "MSIX manifest agrees with the resolved package moniker."
+        },
+        {
+          "id": "msix-entrypoint",
+          "kind": "verification",
+          "observedAt": "2026-09-17T07:46:44.942Z",
+          "status": "pass",
+          "summary": "MSIX application executable app/ChatGPT.exe exists in the package."
+        },
+        {
+          "id": "msix-signature-file",
+          "kind": "verification",
+          "observedAt": "2026-09-17T07:46:44.942Z",
+          "status": "pass",
+          "summary": "MSIX includes AppxSignature.p7x."
+        },
+        {
+          "id": "msix-block-map",
+          "kind": "verification",
+          "observedAt": "2026-09-17T07:46:44.942Z",
+          "status": "fail",
+          "summary": "Block-map file is missing from archive: app/resources/app.asar.unpacked/node_modules/@worklouder/device-kit-oai/node_modules/@serialport/bindings-cpp/build/Release/bindings.node. Block-map file is missing from archive: app/resources/app.asar.unpacked/node_modules/@worklouder/device-kit-oai/node_modules/node-hid/build/Release/HID.node. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/color.cjs. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/index.d.ts. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/LICENSE.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/package.json. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/README.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/index.cjs. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/colour/index.cjs. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/libvips-42.dll. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/libvips-cpp-8.18.6.dll. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/lib/sharp-win32-x64-0.35.4.node. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/LICENSE. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/package.json. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/README.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@img/sharp-win32-x64/versions.json. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/accessibility.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/api-use-behavior.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/api.json. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/bootstrap-troubleshooting.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/browser-control-interruption.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/browser-safety.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/browser-troubleshooting.md. Block-map file is missing from archive: app/resources/cua_node/bin/node_modules/@oai/browser-desktop/docs/capabilities/browser/management.md. 1470 additional block-map failure(s) omitted from persisted evidence."
+        },
+        {
+          "id": "msix-signature",
+          "kind": "verification",
+          "observedAt": "2026-09-17T07:46:44.942Z",
+          "status": "unsupported",
+          "summary": "Get-AuthenticodeSignature is unavailable on this runner."
+        }
+      ]
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-09-17T07:46:44.942Z",
+      "kind": "behavior",
+      "observedAt": "2026-09-17T07:46:44.942Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-17T07:46:44.942Z",
+          "status": "fail",
+          "summary": "Codex backend was not executed because MSIX verification did not pass.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-09-17T07:46:44.942Z",
+          "status": "not-applicable",
+          "summary": "Codex desktop startup was not attempted because MSIX verification did not pass.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "fail",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46145"
+        ],
+        "signature": "code:app-server|title:remote-sends-local-workspace-roots-remote|version:0.154.0|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46154"
+        ],
+        "signature": "code:auto-update|title:windows-desktop-start-auto-update-stale|version:26.911.7940.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46141"
+        ],
+        "signature": "code:codex-cli|title:selected-model-capacity-please-try-different|version:0.154.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46146"
+        ],
+        "signature": "code:codex-cli|version:0.154.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46147"
+        ],
+        "signature": "code:create_thread|title:windows-desktop-create-thread-absent-tool|version:0.155.0-alpha.2.6|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46136"
+        ],
+        "signature": "code:dac5-72b3-84de-0b056f6651ae|title:selected-model-capacity-please-try-different|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46134"
+        ],
+        "signature": "code:eef9375a791d|title:selected-model-capacity-please-try-different",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46149"
+        ],
+        "signature": "code:emulator|title:codex-models-repeatedly-return-selected-model|version:0.153.4|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46139"
+        ],
+        "signature": "code:emulator|title:ted-model-capacity-only-one-account|version:0.154.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46153"
+        ],
+        "signature": "code:ends|title:codex-intermittently-ends-turn-commentary-before|version:26.908.40834|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46137"
+        ],
+        "signature": "code:environment|title:browser-renders-pages-but-agent-control|version:26.5.2|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46142"
+        ],
+        "signature": "code:exhausted|title:selected-model-capacity",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46150"
+        ],
+        "signature": "code:expected|title:selected-model-capacity-please-try-different",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46143"
+        ],
+        "signature": "code:gpt-5|title:complaint-200-month-pro-user-quota|version:26.911.61220|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46144"
+        ],
+        "signature": "code:gpt-5|title:gpt-quota-shows-100-remaining-but|version:5.3-Codex-Spark",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46138"
+        ],
+        "signature": "code:gpt-5|title:windows-daybreak-side-chat-can-longer|version:26.911.61220|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46152"
+        ],
+        "signature": "code:gpt-6|title:issue-occurred-while-using-codex-recently|version:0.154.0|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46140"
+        ],
+        "signature": "code:long-session|title:astra-long-session-delivery-failure-recorded|version:0.153.4|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46135"
+        ],
+        "signature": "code:three-display|title:macos-pets-pet-becomes-invisible-lock|version:26.911.61220|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46148"
+        ],
+        "signature": "code:user-attachments|title:codex-work-reconnection-issue|version:26.911.61220|platform:macos",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "f89f1993436f44efbb54a071384f9747cae74b193c540671c2d67ca091f32b43",
+      "lookbackHours": 72,
+      "releaseVersion": "26.911.7940.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-09-17T05:47:48Z",
+        "id": "github-issue:openai/codex:46134",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:eef9375a791d|title:selected-model-capacity-please-try-different",
+        "title": "Selected model is at capacity. Please try a different model.",
+        "url": "https://github.com/openai/codex/issues/46134"
+      },
+      {
+        "createdAt": "2026-09-17T05:54:59Z",
+        "explicitVersion": "26.911.61220",
+        "id": "github-issue:openai/codex:46135",
+        "labels": [
+          "app",
+          "bug",
+          "pets"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:three-display|title:macos-pets-pet-becomes-invisible-lock|version:26.911.61220|platform:macos",
+        "title": "[macOS][Pets] Pet becomes invisible after lock/unlock on a three-display setup (26.911.61220)",
+        "url": "https://github.com/openai/codex/issues/46135"
+      },
+      {
+        "createdAt": "2026-09-17T06:02:53Z",
+        "id": "github-issue:openai/codex:46136",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:dac5-72b3-84de-0b056f6651ae|title:selected-model-capacity-please-try-different|platform:macos",
+        "title": "Selected model is at capacity. Please try a different model.",
+        "url": "https://github.com/openai/codex/issues/46136"
+      },
+      {
+        "createdAt": "2026-09-17T06:08:47Z",
+        "explicitVersion": "26.5.2",
+        "id": "github-issue:openai/codex:46137",
+        "labels": [
+          "app",
+          "browser",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:environment|title:browser-renders-pages-but-agent-control|version:26.5.2|platform:macos",
+        "title": "# In-app browser renders pages but agent control times out",
+        "url": "https://github.com/openai/codex/issues/46137"
+      },
+      {
+        "createdAt": "2026-09-17T06:08:58Z",
+        "explicitVersion": "26.911.61220",
+        "id": "github-issue:openai/codex:46138",
+        "labels": [
+          "app",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:gpt-5|title:windows-daybreak-side-chat-can-longer|version:26.911.61220|platform:windows",
+        "title": "[Windows][Daybreak] Side chat can no longer use Daybreak after Daybreak became a toggle",
+        "url": "https://github.com/openai/codex/issues/46138"
+      },
+      {
+        "createdAt": "2026-09-17T06:11:50Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:46139",
+        "labels": [
+          "bug",
+          "CLI",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:emulator|title:ted-model-capacity-only-one-account|version:0.154.0",
+        "title": "ted model is at capacity only on one account across multiple devices and new sessions",
+        "url": "https://github.com/openai/codex/issues/46139"
+      },
+      {
+        "createdAt": "2026-09-17T06:33:56Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:46140",
+        "labels": [
+          "bug",
+          "CLI",
+          "context",
+          "hooks",
+          "model-behavior",
+          "rate-limits",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:long-session|title:astra-long-session-delivery-failure-recorded|version:0.153.4|platform:windows",
+        "title": "Astra long-session delivery failure: 499.7M recorded tokens in one day, lost supervision and goal/stop loops",
+        "url": "https://github.com/openai/codex/issues/46140"
+      },
+      {
+        "createdAt": "2026-09-17T06:35:35Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:46141",
+        "labels": [
+          "bug",
+          "CLI",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:codex-cli|title:selected-model-capacity-please-try-different|version:0.154.0|platform:linux",
+        "title": "⚠ Selected model is at capacity. Please try a different model.",
+        "url": "https://github.com/openai/codex/issues/46141"
+      },
+      {
+        "createdAt": "2026-09-17T06:35:57Z",
+        "id": "github-issue:openai/codex:46142",
+        "labels": [
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:exhausted|title:selected-model-capacity",
+        "title": "Selected model is at capacity",
+        "url": "https://github.com/openai/codex/issues/46142"
+      },
+      {
+        "createdAt": "2026-09-17T06:41:16Z",
+        "explicitVersion": "26.911.61220",
+        "id": "github-issue:openai/codex:46143",
+        "labels": [
+          "app",
+          "bug",
+          "context",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:gpt-5|title:complaint-200-month-pro-user-quota|version:26.911.61220|platform:windows",
+        "title": "Complaint from a $200/month Pro user—99% of quota remains, but Codex keeps reporting “Selected model is at capacity,” severely disrupting normal use",
+        "url": "https://github.com/openai/codex/issues/46143"
+      },
+      {
+        "createdAt": "2026-09-17T07:03:44Z",
+        "explicitVersion": "5.3-Codex-Spark",
+        "id": "github-issue:openai/codex:46144",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:gpt-5|title:gpt-quota-shows-100-remaining-but|version:5.3-Codex-Spark",
+        "title": "GPT-5.3-Codex-Spark quota shows 100% remaining but model is missing from Codex selector",
+        "url": "https://github.com/openai/codex/issues/46144"
+      },
+      {
+        "createdAt": "2026-09-17T07:06:26Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:46145",
+        "labels": [
+          "app-server",
+          "bug",
+          "CLI",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:app-server|title:remote-sends-local-workspace-roots-remote|version:0.154.0|platform:macos",
+        "title": "CLI --remote --cd sends local workspace roots to remote app-server",
+        "url": "https://github.com/openai/codex/issues/46145"
+      },
+      {
+        "createdAt": "2026-09-17T07:12:36Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:46146",
+        "labels": [
+          "bug",
+          "CLI"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:codex-cli|version:0.154.0",
+        "title": "😅",
+        "url": "https://github.com/openai/codex/issues/46146"
+      },
+      {
+        "createdAt": "2026-09-17T07:19:15Z",
+        "explicitVersion": "0.155.0-alpha.2.6",
+        "id": "github-issue:openai/codex:46147",
+        "labels": [
+          "app",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:create_thread|title:windows-desktop-create-thread-absent-tool|version:0.155.0-alpha.2.6|platform:windows",
+        "title": "[Windows Desktop] create_thread absent from tool manifest in a task that instructs agents to use it",
+        "url": "https://github.com/openai/codex/issues/46147"
+      },
+      {
+        "createdAt": "2026-09-17T07:27:34Z",
+        "explicitVersion": "26.911.61220",
+        "id": "github-issue:openai/codex:46148",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:user-attachments|title:codex-work-reconnection-issue|version:26.911.61220|platform:macos",
+        "title": "Codex & Work \"Reconnection\" Issue",
+        "url": "https://github.com/openai/codex/issues/46148"
+      },
+      {
+        "createdAt": "2026-09-17T07:33:19Z",
+        "explicitVersion": "0.153.4",
+        "id": "github-issue:openai/codex:46149",
+        "labels": [
+          "bug",
+          "CLI",
+          "connectivity",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:emulator|title:codex-models-repeatedly-return-selected-model|version:0.153.4|platform:macos",
+        "title": "Codex models repeatedly return \"Selected model is at capacity\" / \"servers are currently overloaded\" on ChatGPT Pro account with usage remaining",
+        "url": "https://github.com/openai/codex/issues/46149"
+      },
+      {
+        "createdAt": "2026-09-17T07:42:06Z",
+        "id": "github-issue:openai/codex:46150",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:expected|title:selected-model-capacity-please-try-different",
+        "title": "Selected model is at capacity. Please try a different model.",
+        "url": "https://github.com/openai/codex/issues/46150"
+      },
+      {
+        "createdAt": "2026-09-17T07:43:18Z",
+        "explicitVersion": "0.154.0",
+        "id": "github-issue:openai/codex:46152",
+        "labels": [
+          "bug",
+          "CLI",
+          "connectivity",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:gpt-6|title:issue-occurred-while-using-codex-recently|version:0.154.0|platform:arm64",
+        "title": "The issue occurred while using Codex. Recently, I often see the prompt \"Selected model is at capacity. Please try a different model.\"",
+        "url": "https://github.com/openai/codex/issues/46152"
+      },
+      {
+        "createdAt": "2026-09-17T07:43:37Z",
+        "explicitVersion": "26.908.40834",
+        "id": "github-issue:openai/codex:46153",
+        "labels": [
+          "agent",
+          "app",
+          "bug",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:ends|title:codex-intermittently-ends-turn-commentary-before|version:26.908.40834|platform:macos",
+        "title": "Codex app intermittently ends a turn after commentary before executing planned tool calls",
+        "url": "https://github.com/openai/codex/issues/46153"
+      },
+      {
+        "createdAt": "2026-09-17T07:47:51Z",
+        "explicitVersion": "26.911.7940.0",
+        "id": "github-issue:openai/codex:46154",
+        "labels": [
+          "app",
+          "app-server",
+          "auth",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:auto-update|title:windows-desktop-start-auto-update-stale|version:26.911.7940.0|platform:windows",
+        "title": "Windows: Desktop fails to start after auto-update - stale per-user backend (CODEX_CLI_PATH) and silently invalidated auth session",
+        "url": "https://github.com/openai/codex/issues/46154"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-09-17T07:48:46.957Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "20 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-33b87f8e10e94900",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-d6b9825451e7b18d",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.911.7940.0",
+    "channel": "stable",
+    "discoveredAt": "2026-09-17T07:46:44.942Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.911.7940.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "37580591b113ae1dc943afae1660f4fb528638e4b7298314fb419618d2ae6c83",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-09-17T07:46:44.975Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.911.7940.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.911.7940.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "ef26e07e-d9bb-47d7-9fd7-1743264e230c"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.911.7940.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-09-17T07:46:44.942Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "pass",
+      "summary": "FE3 resolves x64 package 26.911.7940.0 from the Microsoft delivery host."
+    },
+    {
+      "details": {
+        "buildVersion": "26.911.7940.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-09-17T07:46:44.942Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:msix:OpenAI.Codex:26.911.7940.0:x64"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-09-17T07:46:44.942Z"
+        ],
+        "message": "Required behavior codex-msix-identity is fail."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [],
+        "message": "Required behavior codex-backend-version is fail."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}

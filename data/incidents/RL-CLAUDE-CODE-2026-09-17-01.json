@@ -1,0 +1,46 @@
+{
+  "affectedObservations": [
+    "claude-code-stable-windows-x64-f562bce55b5d9ed8"
+  ],
+  "events": [
+    {
+      "at": "2026-09-17T01:30:41.709Z",
+      "observationId": "claude-code-stable-windows-x64-f562bce55b5d9ed8",
+      "summary": "Opened from SUSPECTED_REGRESSION evidence for 2.1.274.",
+      "type": "opened"
+    }
+  ],
+  "evidenceRefs": [
+    "community:claude-code:official-github",
+    "github-issue:anthropics/claude-code:95061",
+    "github-issue:anthropics/claude-code:95062",
+    "github-issue:anthropics/claude-code:95063",
+    "github-issue:anthropics/claude-code:95064",
+    "github-issue:anthropics/claude-code:95065",
+    "github-issue:anthropics/claude-code:95066",
+    "github-issue:anthropics/claude-code:95067"
+  ],
+  "firstAffectedVersion": "2.1.274",
+  "id": "RL-CLAUDE-CODE-2026-09-17-01",
+  "openedAt": "2026-09-17T01:30:41.709Z",
+  "productId": "claude-code",
+  "regressionSignatures": [
+    {
+      "evidenceRefs": [
+        "community:claude-code:official-github",
+        "github-issue:anthropics/claude-code:95061",
+        "github-issue:anthropics/claude-code:95062",
+        "github-issue:anthropics/claude-code:95063",
+        "github-issue:anthropics/claude-code:95064",
+        "github-issue:anthropics/claude-code:95065",
+        "github-issue:anthropics/claude-code:95066",
+        "github-issue:anthropics/claude-code:95067"
+      ],
+      "id": "community:code:error|title:withdrawn-author",
+      "kind": "community",
+      "summary": "Official GitHub issue cluster: code:error|title:withdrawn-author"
+    }
+  ],
+  "schemaVersion": 1,
+  "status": "open"
+}
