@@ -105,6 +105,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29369"
+        ],
+        "signature": "code:empty|title:remember-mandate-never-return-empty-text|version:0.60.0|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29350"
         ],
         "signature": "code:erro|title:repeteadly-configuration-erro|version:0.60.0|platform:windows",
@@ -140,7 +147,7 @@
       }
     ],
     "details": {
-      "fingerprint": "abf68022bd8923f107e0cbcad200daf2575d844cdb7612584ad7a1faaf14b2a0",
+      "fingerprint": "7ecd5820f526becfc3b4e72ae2404fadd0f6215413f913fe2f44f47f6fffb944",
       "lookbackHours": 72,
       "releaseVersion": "0.60.0",
       "source": "official-github-issues"
@@ -258,6 +265,7 @@
         "id": "github-issue:google-gemini/gemini-cli:29365",
         "labels": [
           "area/core",
+          "effort/small",
           "kind/bug",
           "priority/p1",
           "status/bot-triaged"
@@ -268,13 +276,30 @@
         "signature": "code:every|title:resuming-session-sends-every-tool-result|version:0.60.0|platform:arm64",
         "title": "Resuming a session (-r) sends every tool result twice: toolCalls[].result and the recorded functionResponse turn are both replayed",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29365"
+      },
+      {
+        "createdAt": "2026-09-17T13:03:48Z",
+        "explicitVersion": "0.60.0",
+        "id": "github-issue:google-gemini/gemini-cli:29369",
+        "labels": [
+          "area/agent",
+          "kind/bug",
+          "priority/p1",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29369",
+        "signature": "code:empty|title:remember-mandate-never-return-empty-text|version:0.60.0|platform:macos",
+        "title": "<--- Remember the mandate: Never return an empty text response. Always explain the tool's output!",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29369"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-17T07:49:02.375Z",
+    "observedAt": "2026-09-17T13:34:25.274Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "9 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-34b602626c6056ff",
   "interfaces": [
