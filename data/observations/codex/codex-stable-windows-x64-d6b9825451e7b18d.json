@@ -175,119 +175,63 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:46263"
+          "github-issue:openai/codex:46295"
         ],
-        "signature": "code:app-server|title:bug-100-stream-disconnected-before-completion|version:0.154.0|platform:windows",
+        "signature": "code:built-in|title:chatgpt-desktop-browser-use-attach-admin|version:26.911.61220|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46252"
+          "github-issue:openai/codex:46301"
         ],
-        "signature": "code:app-server|title:server-thread-start-ignores-default-permissions|version:0.154.0|platform:arm64",
+        "signature": "code:editor|title:keep-review-comment-editor-open-while",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46262"
+          "github-issue:openai/codex:46308"
         ],
-        "signature": "code:application-memory|title:macos-desktop-reaches-triggers-application-memory|version:84.47|platform:macos",
+        "signature": "code:emotionally|title:keep|version:5.5",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46261"
+          "github-issue:openai/codex:46298"
         ],
-        "signature": "code:codex-cli|title:distracting|version:0.154.0|platform:linux",
+        "signature": "code:every|title:luna-reserve-hides-other-providers-models|version:26.911.61220|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46255"
+          "github-issue:openai/codex:46296"
         ],
-        "signature": "code:dependency-cache|title:windows-sandbox-provisioning-stale-cua-dependency|version:26.911.7940.0|platform:windows",
+        "signature": "code:extension|title:extension-underreports-diff-line-counts-files|version:26.908.40401|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46260"
+          "github-issue:openai/codex:46299"
         ],
-        "signature": "code:encountered|title:reproducible-windows-system-hang-involving-chatgpt|version:26.911.7940.0|platform:windows",
+        "signature": "code:follow-up|title:windows-desktop-follow-messages-hang-indefinitely|version:26.908.9136.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46251"
+          "github-issue:openai/codex:46304"
         ],
-        "signature": "code:enterprise|title:windows-stuck-work-switching-codex-unable|version:26.911.7940.0|platform:windows",
+        "signature": "code:gpt-5|title:gpt-sol-gpt-astra-rejected-codex|version:5.6|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46265"
+          "github-issue:openai/codex:46307"
         ],
-        "signature": "code:errors|title:persistent-capacity-errors-stream-disconnections-possible|version:0.154.0|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:46259"
-        ],
-        "signature": "code:execute|title:chatgpt-inconsistency-failure-execute|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:46256"
-        ],
-        "signature": "code:execution|title:add-global-disable-local-execution-default",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:46267"
-        ],
-        "signature": "code:expected|title:selected-model-capacity-please-try-different|version:26.908.70816|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:46254"
-        ],
-        "signature": "code:gpt-6-astra|title:pro-100-plan-already-used-weekly",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:46270"
-        ],
-        "signature": "code:html-like|title:bug-report-chatgpt-displays-raw-markup|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:46257"
-        ],
-        "signature": "code:openai-bundled|title:macos-desktop-settings-disable-migrated-sites|version:26.911.61220|platform:arm64",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:46253"
-        ],
-        "signature": "code:site-safety|title:windows-browser-use-supported-revalidation-path|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:46269"
-        ],
-        "signature": "code:state_5|title:sqlite-lock-codex-state-sqlite-codex|version:0.154.0|platform:arm64",
+        "signature": "code:url-not-allowed|title:macos-computer-use-stops-native-yandex|version:26.911.61220|platform:arm64",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "77c0a4a08e4d937f71b848b9e7bfe62744b6ff80a6c80798b00a8df421468384",
+      "fingerprint": "b64dc54c7d01e3d9121fad4f3a86cedf6c31c9274cdaf4c0b23440ace833c137",
       "lookbackHours": 72,
       "releaseVersion": "26.911.7940.0",
       "source": "official-github-issues"
@@ -295,252 +239,129 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-17T16:30:53Z",
-        "explicitVersion": "26.911.7940.0",
-        "id": "github-issue:openai/codex:46251",
-        "labels": [
-          "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:enterprise|title:windows-stuck-work-switching-codex-unable|version:26.911.7940.0|platform:windows",
-        "title": "Windows app stuck in Work after switching from Codex; unable to switch back",
-        "url": "https://github.com/openai/codex/issues/46251"
-      },
-      {
-        "createdAt": "2026-09-17T16:36:38Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:46252",
-        "labels": [
-          "app-server",
-          "bug",
-          "CLI",
-          "sandbox"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:app-server|title:server-thread-start-ignores-default-permissions|version:0.154.0|platform:arm64",
-        "title": "app-server thread/start ignores default_permissions; explicit SandboxMode silently discards the permission profile",
-        "url": "https://github.com/openai/codex/issues/46252"
-      },
-      {
-        "createdAt": "2026-09-17T16:37:01Z",
-        "id": "github-issue:openai/codex:46253",
+        "createdAt": "2026-09-17T19:56:11Z",
+        "explicitVersion": "26.911.61220",
+        "id": "github-issue:openai/codex:46295",
         "labels": [
           "app",
           "browser",
-          "bug",
-          "safety-check",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:site-safety|title:windows-browser-use-supported-revalidation-path|platform:windows",
-        "title": "[Windows][Browser Use] No supported revalidation path after setting air.1688.com to Always allow following a site-safety denial",
-        "url": "https://github.com/openai/codex/issues/46253"
-      },
-      {
-        "createdAt": "2026-09-17T16:59:06Z",
-        "id": "github-issue:openai/codex:46254",
-        "labels": [
-          "bug",
-          "performance",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:gpt-6-astra|title:pro-100-plan-already-used-weekly",
-        "title": "I am PRO $100 plan and it already used the weekly usage so i spent another $100 this morning to buy credits and its gone already???? WHy and how?",
-        "url": "https://github.com/openai/codex/issues/46254"
-      },
-      {
-        "createdAt": "2026-09-17T17:02:36Z",
-        "explicitVersion": "26.911.7940.0",
-        "id": "github-issue:openai/codex:46255",
-        "labels": [
-          "app",
-          "bug",
-          "computer-use",
-          "sandbox",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:dependency-cache|title:windows-sandbox-provisioning-stale-cua-dependency|version:26.911.7940.0|platform:windows",
-        "title": "Windows sandbox provisioning fails on stale CUA dependency-cache paths over 260 characters",
-        "url": "https://github.com/openai/codex/issues/46255"
-      },
-      {
-        "createdAt": "2026-09-17T17:11:09Z",
-        "id": "github-issue:openai/codex:46256",
-        "labels": [
-          "app",
-          "enhancement",
-          "sandbox"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:execution|title:add-global-disable-local-execution-default",
-        "title": "Add a global \"Disable local execution by default\" setting for personal accounts",
-        "url": "https://github.com/openai/codex/issues/46256"
-      },
-      {
-        "createdAt": "2026-09-17T17:12:21Z",
-        "explicitVersion": "26.911.61220",
-        "id": "github-issue:openai/codex:46257",
-        "labels": [
-          "app",
-          "bug",
-          "skills"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:openai-bundled|title:macos-desktop-settings-disable-migrated-sites|version:26.911.61220|platform:arm64",
-        "title": "macOS Desktop Settings cannot disable migrated Sites plugin: targets obsolete sites@openai-bundled",
-        "url": "https://github.com/openai/codex/issues/46257"
-      },
-      {
-        "createdAt": "2026-09-17T17:18:33Z",
-        "id": "github-issue:openai/codex:46259",
-        "labels": [
-          "app",
-          "bug",
-          "model-behavior"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:execute|title:chatgpt-inconsistency-failure-execute|platform:windows",
-        "title": "ChatGPT Inconsistency and Failure to Execute",
-        "url": "https://github.com/openai/codex/issues/46259"
-      },
-      {
-        "createdAt": "2026-09-17T17:20:01Z",
-        "explicitVersion": "26.911.7940.0",
-        "id": "github-issue:openai/codex:46260",
-        "labels": [
-          "app",
-          "bug",
-          "performance",
-          "session",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:encountered|title:reproducible-windows-system-hang-involving-chatgpt|version:26.911.7940.0|platform:windows",
-        "title": "Reproducible Windows system hang involving ChatGPT desktop app and War Robots",
-        "url": "https://github.com/openai/codex/issues/46260"
-      },
-      {
-        "createdAt": "2026-09-17T17:30:11Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:46261",
-        "labels": [
-          "bug",
-          "CLI",
-          "TUI"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:codex-cli|title:distracting|version:0.154.0|platform:linux",
-        "title": "Ux distracting",
-        "url": "https://github.com/openai/codex/issues/46261"
-      },
-      {
-        "createdAt": "2026-09-17T17:32:17Z",
-        "explicitVersion": "84.47",
-        "id": "github-issue:openai/codex:46262",
-        "labels": [
-          "app",
-          "bug",
-          "performance"
+          "bug"
         ],
         "maintainerAcknowledged": false,
         "platform": "macos",
-        "signature": "code:application-memory|title:macos-desktop-reaches-triggers-application-memory|version:84.47|platform:macos",
-        "title": "macOS desktop app reaches 84.47 GB and triggers application-memory exhaustion",
-        "url": "https://github.com/openai/codex/issues/46262"
+        "signature": "code:built-in|title:chatgpt-desktop-browser-use-attach-admin|version:26.911.61220|platform:macos",
+        "title": "ChatGPT desktop Browser Use cannot attach when admin policy verification becomes unavailable",
+        "url": "https://github.com/openai/codex/issues/46295"
       },
       {
-        "createdAt": "2026-09-17T17:34:43Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:46263",
+        "createdAt": "2026-09-17T19:57:30Z",
+        "explicitVersion": "26.908.40401",
+        "id": "github-issue:openai/codex:46296",
         "labels": [
           "bug",
-          "CLI",
-          "connectivity"
+          "extension"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:app-server|title:bug-100-stream-disconnected-before-completion|version:0.154.0|platform:windows",
-        "title": "[Bug]: 100% stream disconnected before completion on specific account after app-server debugging",
-        "url": "https://github.com/openai/codex/issues/46263"
+        "signature": "code:extension|title:extension-underreports-diff-line-counts-files|version:26.908.40401|platform:windows",
+        "title": "VS Code extension underreports diff line counts when files are edited through exec_command",
+        "url": "https://github.com/openai/codex/issues/46296"
       },
       {
-        "createdAt": "2026-09-17T17:40:57Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:46265",
-        "labels": [
-          "bug",
-          "CLI",
-          "connectivity",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:errors|title:persistent-capacity-errors-stream-disconnections-possible|version:0.154.0|platform:linux",
-        "title": "Persistent capacity errors and stream disconnections — possible account-specific issue",
-        "url": "https://github.com/openai/codex/issues/46265"
-      },
-      {
-        "createdAt": "2026-09-17T17:56:19Z",
-        "explicitVersion": "26.908.70816",
-        "id": "github-issue:openai/codex:46267",
+        "createdAt": "2026-09-17T20:06:01Z",
+        "explicitVersion": "26.911.61220",
+        "id": "github-issue:openai/codex:46298",
         "labels": [
           "app",
           "bug",
+          "custom-model",
           "rate-limits"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:expected|title:selected-model-capacity-please-try-different|version:26.908.70816|platform:windows",
-        "title": "Selected model is at capacity. Please try a different model.",
-        "url": "https://github.com/openai/codex/issues/46267"
+        "signature": "code:every|title:luna-reserve-hides-other-providers-models|version:26.911.61220|platform:windows",
+        "title": "Luna Reserve hides other providers' models and rejects every request with a usage-limit error",
+        "url": "https://github.com/openai/codex/issues/46298"
       },
       {
-        "createdAt": "2026-09-17T18:04:11Z",
-        "explicitVersion": "0.154.0",
-        "id": "github-issue:openai/codex:46269",
+        "createdAt": "2026-09-17T20:14:58Z",
+        "explicitVersion": "26.908.9136.0",
+        "id": "github-issue:openai/codex:46299",
         "labels": [
+          "app",
           "app-server",
-          "bug",
-          "CLI"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:state_5|title:sqlite-lock-codex-state-sqlite-codex|version:0.154.0|platform:arm64",
-        "title": "sqlite lock on ~/.codex/state_5.sqlite `Codex couldn't start because another Codex process is using its local data.`",
-        "url": "https://github.com/openai/codex/issues/46269"
-      },
-      {
-        "createdAt": "2026-09-17T18:14:30Z",
-        "id": "github-issue:openai/codex:46270",
-        "labels": [
-          "app",
           "bug",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:html-like|title:bug-report-chatgpt-displays-raw-markup|platform:windows",
-        "title": "Bug report: ChatGPT displays raw markup instead of rendered content.",
-        "url": "https://github.com/openai/codex/issues/46270"
+        "signature": "code:follow-up|title:windows-desktop-follow-messages-hang-indefinitely|version:26.908.9136.0|platform:windows",
+        "title": "Windows Desktop: follow-up messages hang indefinitely after first turn; clean reinstall only fixes it temporarily",
+        "url": "https://github.com/openai/codex/issues/46299"
+      },
+      {
+        "createdAt": "2026-09-17T20:29:02Z",
+        "id": "github-issue:openai/codex:46301",
+        "labels": [
+          "app",
+          "code-review",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:editor|title:keep-review-comment-editor-open-while",
+        "title": "Keep review comment editor open while interacting with the diff",
+        "url": "https://github.com/openai/codex/issues/46301"
+      },
+      {
+        "createdAt": "2026-09-17T21:15:58Z",
+        "explicitVersion": "5.6",
+        "id": "github-issue:openai/codex:46304",
+        "labels": [
+          "app",
+          "auth",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:gpt-5|title:gpt-sol-gpt-astra-rejected-codex|version:5.6|platform:windows",
+        "title": "GPT-5.6 Sol and GPT-6 Astra rejected in Codex on active ChatGPT Pro account",
+        "url": "https://github.com/openai/codex/issues/46304"
+      },
+      {
+        "createdAt": "2026-09-17T21:27:58Z",
+        "explicitVersion": "26.911.61220",
+        "id": "github-issue:openai/codex:46307",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:url-not-allowed|title:macos-computer-use-stops-native-yandex|version:26.911.61220|platform:arm64",
+        "title": "macOS Computer Use stops native Yandex session with URL-not-allowed error after successful use",
+        "url": "https://github.com/openai/codex/issues/46307"
+      },
+      {
+        "createdAt": "2026-09-17T21:34:58Z",
+        "explicitVersion": "5.5",
+        "id": "github-issue:openai/codex:46308",
+        "labels": [
+          "app",
+          "enhancement",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:emotionally|title:keep|version:5.5",
+        "title": "Keep 5.5T",
+        "url": "https://github.com/openai/codex/issues/46308"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-17T18:19:29.739Z",
+    "observedAt": "2026-09-17T22:15:19.198Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "16 recent official GitHub issues observed for openai/codex."
+    "summary": "8 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-33b87f8e10e94900",
   "interfaces": [],

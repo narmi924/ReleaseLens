@@ -84,20 +84,6 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29355"
-        ],
-        "signature": "code:active-assist|title:geminicli-com-feedback-issue",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29357"
-        ],
-        "signature": "code:cli-level|title:feature-request-improve-429-rate-limit",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29363"
         ],
         "signature": "code:either|title:terms-privacy-footer-links-clickable|platform:windows",
@@ -112,9 +98,16 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29350"
+          "github-issue:google-gemini/gemini-cli:29370"
         ],
-        "signature": "code:erro|title:repeteadly-configuration-erro|version:0.60.0|platform:windows",
+        "signature": "code:entire|title:removes-comments-file-making-updates|version:0.60.0|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29381"
+        ],
+        "signature": "code:error|title:created-please-disregard",
         "strength": "weak"
       },
       {
@@ -123,129 +116,16 @@
         ],
         "signature": "code:every|title:resuming-session-sends-every-tool-result|version:0.60.0|platform:arm64",
         "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29361"
-        ],
-        "signature": "code:exported|title:mcp-connection-fail|version:0.60.0|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29356"
-        ],
-        "signature": "code:extension|title:extension-gallery-has-indexed-jgs-magic|version:0.3.0",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29360"
-        ],
-        "signature": "code:web_fetch|title:web-fetch-drops-rows-columns-every|version:9.0.5|platform:macos",
-        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "7ecd5820f526becfc3b4e72ae2404fadd0f6215413f913fe2f44f47f6fffb944",
+      "fingerprint": "4059652b968b1ba719e57224618ed15d84f7b2f53f394ae22e4338452704f32c",
       "lookbackHours": 72,
       "releaseVersion": "0.60.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-16T01:13:16Z",
-        "explicitVersion": "0.60.0",
-        "id": "github-issue:google-gemini/gemini-cli:29350",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29350",
-        "signature": "code:erro|title:repeteadly-configuration-erro|version:0.60.0|platform:windows",
-        "title": "Repeteadly configuration erro",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29350"
-      },
-      {
-        "createdAt": "2026-09-16T08:59:09Z",
-        "id": "github-issue:google-gemini/gemini-cli:29355",
-        "labels": [
-          "area/documentation",
-          "kind/bug",
-          "priority/p3",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:active-assist|title:geminicli-com-feedback-issue",
-        "title": "GeminiCLI.com Feedback: [ISSUE]",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29355"
-      },
-      {
-        "createdAt": "2026-09-16T11:26:14Z",
-        "explicitVersion": "0.3.0",
-        "id": "github-issue:google-gemini/gemini-cli:29356",
-        "labels": [
-          "area/extensions",
-          "effort/medium",
-          "kind/question",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:extension|title:extension-gallery-has-indexed-jgs-magic|version:0.3.0",
-        "title": "Extension gallery has not indexed jgs-magic-sysmlv1-read-skills (topic + tag + root manifest present)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29356"
-      },
-      {
-        "createdAt": "2026-09-16T15:22:46Z",
-        "id": "github-issue:google-gemini/gemini-cli:29357",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:cli-level|title:feature-request-improve-429-rate-limit",
-        "title": "Feature Request: Improve 429 (Rate Limit) UX via CLI-Level \"Cool-Down\" Wrapper & Terminal Countdown",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29357"
-      },
-      {
-        "createdAt": "2026-09-16T17:16:41Z",
-        "explicitVersion": "9.0.5",
-        "id": "github-issue:google-gemini/gemini-cli:29360",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:web_fetch|title:web-fetch-drops-rows-columns-every|version:9.0.5|platform:macos",
-        "title": "web_fetch drops the rows and columns of every table on a page",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29360"
-      },
-      {
-        "createdAt": "2026-09-16T17:25:27Z",
-        "explicitVersion": "0.60.0",
-        "id": "github-issue:google-gemini/gemini-cli:29361",
-        "labels": [
-          "area/agent",
-          "kind/bug",
-          "priority/p1",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:exported|title:mcp-connection-fail|version:0.60.0|platform:macos",
-        "title": "mcp connection fail",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29361"
-      },
       {
         "createdAt": "2026-09-16T19:27:36Z",
         "id": "github-issue:google-gemini/gemini-cli:29363",
@@ -293,13 +173,42 @@
         "signature": "code:empty|title:remember-mandate-never-return-empty-text|version:0.60.0|platform:macos",
         "title": "<--- Remember the mandate: Never return an empty text response. Always explain the tool's output!",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29369"
+      },
+      {
+        "createdAt": "2026-09-17T16:31:03Z",
+        "explicitVersion": "0.60.0",
+        "id": "github-issue:google-gemini/gemini-cli:29370",
+        "labels": [
+          "area/agent",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:entire|title:removes-comments-file-making-updates|version:0.60.0|platform:macos",
+        "title": "Removes comments from a file when making updates",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29370"
+      },
+      {
+        "createdAt": "2026-09-17T21:32:00Z",
+        "id": "github-issue:google-gemini/gemini-cli:29381",
+        "labels": [
+          "area/core",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29381",
+        "signature": "code:error|title:created-please-disregard",
+        "title": "Created in error — please disregard",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29381"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-17T13:34:25.274Z",
+    "observedAt": "2026-09-17T22:15:20.732Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "9 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-34b602626c6056ff",
   "interfaces": [
