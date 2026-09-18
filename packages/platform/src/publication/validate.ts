@@ -699,14 +699,18 @@ export async function validateStaticPublication(options: {
   if (!sameJson(index.products, expectedIndexProducts)) {
     fail("index.json does not match the product summary documents.");
   }
-  const expectedIndexIncidents = Array.from(incidents.values()).map(
-    (incident) => ({
+  const expectedIndexIncidents = Array.from(incidents.values())
+    .map((incident) => ({
       id: incident.id,
       productId: incident.productId,
       status: incident.status,
       openedAt: incident.openedAt,
-    }),
-  );
+    }))
+    .sort(
+      (left, right) =>
+        right.openedAt.localeCompare(left.openedAt) ||
+        left.id.localeCompare(right.id),
+    );
   if (!sameJson(index.incidents, expectedIndexIncidents)) {
     fail("index.json does not match the incident summary documents.");
   }

@@ -79,4 +79,4 @@ discover -> resolve -> atomic temp download -> verify -> inspect -> safe smoke -
 
 ## 自动化拓扑
 
-每小时的 Windows hosted workflow 使用不取消正在运行作业的 concurrency group：相邻小时会排队而不是中断正在进行的分析。它验证 data，再仅对变化的 `data/` 提交；有变化时同一工作流会检出刚推送的 `main` 分支尖端，在 hosted runner 上构建、验证并部署 Pages，因此不会依赖 bot commit 再次触发 `push` 工作流。CI 在 Linux/Windows 上运行质量门，并将真实目标工具 smoke 放入临时 profile/prefix；source discovery 也在 hosted runner 上运行。普通 `main` 推送仍由 Pages workflow 从同一静态构建输出部署。
+Windows hosted workflow 每天运行一次，计划时间为 UTC 00:17（新加坡时间 08:17，cron 为 `17 0 * * *`）；GitHub 实际调度可能延迟。它仍支持手动触发，并使用不取消正在运行作业的 concurrency group，避免中断正在进行的分析。它验证 data，再仅对变化的 `data/` 提交；有变化时同一工作流会检出刚推送的 `main` 分支尖端，在 hosted runner 上构建、验证并部署 Pages，因此不会依赖 bot commit 再次触发 `push` 工作流。CI 在代码推送、PR 或手动触发时运行 Linux/Windows 质量门，并将真实目标工具 smoke 放入临时 profile/prefix；source discovery 也在 hosted runner 上运行。普通 `main` 推送仍由 Pages workflow 从同一静态构建输出部署。
