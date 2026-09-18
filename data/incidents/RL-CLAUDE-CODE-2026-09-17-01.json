@@ -8,6 +8,12 @@
       "observationId": "claude-code-stable-windows-x64-f562bce55b5d9ed8",
       "summary": "Opened from SUSPECTED_REGRESSION evidence for 2.1.274.",
       "type": "opened"
+    },
+    {
+      "at": "2026-09-18T00:28:15.852Z",
+      "observationId": "claude-code-stable-windows-x64-d8f2c8a086ea62cb",
+      "summary": "Resolved by verified 2.1.275.",
+      "type": "resolved"
     }
   ],
   "evidenceRefs": [
@@ -41,6 +47,8 @@
       "summary": "Official GitHub issue cluster: code:error|title:withdrawn-author"
     }
   ],
+  "resolvedAt": "2026-09-18T00:28:15.852Z",
+  "resolvedByVersion": "2.1.275",
   "schemaVersion": 1,
-  "status": "open"
+  "status": "resolved"
 }
