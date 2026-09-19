@@ -26,8 +26,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-18T00:28:15.852Z",
-          "observationId": "claude-code-stable-windows-x64-d8f2c8a086ea62cb",
+          "discoveredAt": "2026-09-19T04:41:31.885Z",
+          "observationId": "claude-code-stable-windows-x64-70694e0fad032661",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
@@ -42,7 +42,7 @@
             "severity": "minor",
             "status": "DISTRIBUTION_DRIFT"
           },
-          "version": "2.1.275"
+          "version": "2.1.278"
         }
       ],
       "name": "Claude Code"
@@ -56,8 +56,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-18T00:28:23.115Z",
-          "observationId": "codex-stable-windows-x64-67295dd5cd96ca24",
+          "discoveredAt": "2026-09-19T04:41:37.642Z",
+          "observationId": "codex-stable-windows-x64-ea9a0f081414f537",
           "platform": "windows-x64",
           "productId": "codex",
           "schemaVersion": 1,
@@ -66,29 +66,27 @@
               {
                 "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
                 "evidenceRefs": [
-                  "artifact:codex:unavailable:26.915.3509.0"
+                  "artifact:msix:OpenAI.Codex:26.915.4065.0:x64"
                 ],
                 "message": "Required artifact evidence is missing or did not pass."
               },
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
                 "evidenceRefs": [
-                  "behavior:codex:2026-09-18T00:28:23.115Z"
+                  "behavior:codex:2026-09-19T04:41:37.642Z"
                 ],
-                "message": "Required behavior codex-msix-identity is unsupported."
+                "message": "Required behavior codex-msix-identity is fail."
               },
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
-                "evidenceRefs": [
-                  "behavior:codex:2026-09-18T00:28:23.115Z"
-                ],
-                "message": "Required behavior codex-backend-version is unsupported."
+                "evidenceRefs": [],
+                "message": "Required behavior codex-backend-version is fail."
               }
             ],
             "severity": "major",
             "status": "UNVERIFIED"
           },
-          "version": "26.915.3509.0"
+          "version": "26.915.4065.0"
         }
       ],
       "name": "Codex"
@@ -103,7 +101,7 @@
       "knownGood": [
         {
           "channel": "latest",
-          "observationId": "gemini-cli-latest-node-367ec2303c5e78dc",
+          "observationId": "gemini-cli-latest-node-eba29280a27ec06f",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -115,12 +113,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-18T00:28:39.171Z",
+          "selectedAt": "2026-09-19T04:42:21.433Z",
           "version": "0.60.0"
         },
         {
           "channel": "nightly",
-          "observationId": "gemini-cli-nightly-node-ce9a5be080f94198",
+          "observationId": "gemini-cli-nightly-node-aff3482a8e22aacd",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -132,12 +130,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-18T00:28:39.171Z",
-          "version": "0.62.0-nightly.20260917.g6a466a7e2"
+          "selectedAt": "2026-09-19T04:42:21.433Z",
+          "version": "0.62.0-nightly.20260919.gcfbcaa8df"
         },
         {
           "channel": "preview",
-          "observationId": "gemini-cli-preview-node-a74f33e0ce6fc775",
+          "observationId": "gemini-cli-preview-node-dc81f29548b9374e",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -149,68 +147,68 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-18T00:28:39.171Z",
+          "selectedAt": "2026-09-19T04:42:21.433Z",
           "version": "0.61.0-preview.0"
         }
       ],
       "latest": [
         {
           "channel": "latest",
-          "discoveredAt": "2026-09-18T00:28:39.171Z",
-          "observationId": "gemini-cli-latest-node-367ec2303c5e78dc",
+          "discoveredAt": "2026-09-19T04:42:21.433Z",
+          "observationId": "gemini-cli-latest-node-eba29280a27ec06f",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "REQUIRED_SCOPE_PASSED",
+                "code": "MATERIAL_EVIDENCE_CHANGED",
                 "evidenceRefs": [],
-                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
+                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
               }
             ],
-            "severity": "info",
-            "status": "NO_REGRESSION_DETECTED"
+            "severity": "minor",
+            "status": "CHANGED"
           },
           "version": "0.60.0"
         },
         {
           "channel": "nightly",
-          "discoveredAt": "2026-09-18T00:28:39.171Z",
-          "observationId": "gemini-cli-nightly-node-ce9a5be080f94198",
+          "discoveredAt": "2026-09-19T04:42:21.433Z",
+          "observationId": "gemini-cli-nightly-node-aff3482a8e22aacd",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "REQUIRED_SCOPE_PASSED",
+                "code": "MATERIAL_EVIDENCE_CHANGED",
                 "evidenceRefs": [],
-                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
+                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
               }
             ],
-            "severity": "info",
-            "status": "NO_REGRESSION_DETECTED"
+            "severity": "minor",
+            "status": "CHANGED"
           },
-          "version": "0.62.0-nightly.20260917.g6a466a7e2"
+          "version": "0.62.0-nightly.20260919.gcfbcaa8df"
         },
         {
           "channel": "preview",
-          "discoveredAt": "2026-09-18T00:28:39.171Z",
-          "observationId": "gemini-cli-preview-node-a74f33e0ce6fc775",
+          "discoveredAt": "2026-09-19T04:42:21.433Z",
+          "observationId": "gemini-cli-preview-node-dc81f29548b9374e",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "REQUIRED_SCOPE_PASSED",
+                "code": "MATERIAL_EVIDENCE_CHANGED",
                 "evidenceRefs": [],
-                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
+                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
               }
             ],
-            "severity": "info",
-            "status": "NO_REGRESSION_DETECTED"
+            "severity": "minor",
+            "status": "CHANGED"
           },
           "version": "0.61.0-preview.0"
         }
