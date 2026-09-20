@@ -173,77 +173,119 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:46586"
+          "github-issue:openai/codex:46746"
         ],
-        "signature": "code:easier|title:desktop-add-advanced-task-conversation-search",
+        "signature": "code:already-open|title:chatgpt-web-ios-data-loss-sending|version:26.915.31945|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46585"
+          "github-issue:openai/codex:46755"
         ],
-        "signature": "code:emits|title:codex-computer-use-regression-custom-gpt|version:26.911.7940|platform:windows",
+        "signature": "code:editor|title:windows-codex-sidebar-turns-solid-grey|version:26.908.40401|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46584"
+          "github-issue:openai/codex:46745"
         ],
-        "signature": "code:event|title:windows-desktop-second-prompt-never-sends|version:26.915.4065.0|platform:windows",
+        "signature": "code:emulator|title:usage-viewed-personal-account-client|version:26.915.4065.0",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46582"
+          "github-issue:openai/codex:46758"
         ],
-        "signature": "code:exec|title:codex-desktop-sessions-get-exec-shell|version:26.915.4065.0|platform:windows",
+        "signature": "code:environment|title:macos-chatgpt-unable-load-sign-requirements|version:26.915.31945|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46590"
+          "github-issue:openai/codex:46743"
         ],
-        "signature": "code:existing|title:windows-desktop-second-message-remains-stuck|platform:windows",
+        "signature": "code:environment|title:windows-codex-desktop-connect-chrome-noderepl|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46588"
+          "github-issue:openai/codex:46753"
         ],
-        "signature": "code:first-class|title:codex-desktop-first-class-file-workspace",
+        "signature": "code:error|title:false-positive-policy-flag-harmless-prompts|version:5.6|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46587"
+          "github-issue:openai/codex:46762"
         ],
-        "signature": "code:multi-select|title:desktop-add-multi-select-bulk-archive",
+        "signature": "code:existing|title:chatgpt-android-file-library-existing-file",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46589"
+          "github-issue:openai/codex:46760"
         ],
-        "signature": "code:new-chat|title:work-appears-website-but-missing-chatgpt|version:26.915.4065.0|platform:windows",
+        "signature": "code:expose|title:expose-thread-session-uuid-codex-desktop",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46576"
+          "github-issue:openai/codex:46757"
         ],
-        "signature": "code:sandbox-exec|title:browser-control-macos-sandbox-exec-unbound|version:14.1.2|platform:arm64",
+        "signature": "code:extension-backed|title:codex-can-open-control-chrome-tab|version:26.911.61220|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:46581"
+          "github-issue:openai/codex:46759"
         ],
-        "signature": "code:voice_disabled|title:voice-chat-ready-voice-disabled",
+        "signature": "code:external|title:inline-sources-visualization-external-volume-invalid|version:26.915.31945|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46761"
+        ],
+        "signature": "code:extremely|title:old-base64-images-occupy-chat-history|version:99.6|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46747"
+        ],
+        "signature": "code:gpt-6|title:regression-gpt-astra-gpt-sol-codex|version:5.6|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46756"
+        ],
+        "signature": "code:gpt-6|title:windows-desktop-gpt-astra-gpt-sol|version:5.6|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46744"
+        ],
+        "signature": "code:openai-bundled|title:windows-codex-load-openai-bundled-plugins|version:26.915.4065.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46748"
+        ],
+        "signature": "code:rename_staging|title:windows-rename-staging-eperm-leaves-browser|version:26.915.4065.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:46754"
+        ],
+        "signature": "code:start_pending|title:windows-codexsandboxservice-stuck-start-pending-pid|version:26.915.4065.0|platform:windows",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "e34fed974063d386b882d67f4bc3c4d2482068835c783df8e4214bdf64ddf4c9",
+      "fingerprint": "679b79fb2646d1ba785e8c435ebb1c592404919511b2fb8612e11a4711219f5d",
       "lookbackHours": 72,
       "releaseVersion": "26.915.4065.0",
       "source": "official-github-issues"
@@ -251,143 +293,155 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-09-19T02:13:39Z",
-        "explicitVersion": "14.1.2",
-        "id": "github-issue:openai/codex:46576",
+        "createdAt": "2026-09-20T01:24:44Z",
+        "id": "github-issue:openai/codex:46743",
         "labels": [
           "app",
           "browser",
           "bug",
-          "sandbox"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:sandbox-exec|title:browser-control-macos-sandbox-exec-unbound|version:14.1.2|platform:arm64",
-        "title": "Browser control fails on macOS 14.1.2: sandbox-exec: unbound variable: TIOCSTI",
-        "url": "https://github.com/openai/codex/issues/46576"
-      },
-      {
-        "createdAt": "2026-09-19T02:48:47Z",
-        "id": "github-issue:openai/codex:46581",
-        "labels": [
-          "app",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:voice_disabled|title:voice-chat-ready-voice-disabled",
-        "title": "Voice chat is not ready (voice_disabled)",
-        "url": "https://github.com/openai/codex/issues/46581"
-      },
-      {
-        "createdAt": "2026-09-19T02:53:20Z",
-        "explicitVersion": "26.915.4065.0",
-        "id": "github-issue:openai/codex:46582",
-        "labels": [
-          "app",
-          "bug",
-          "custom-model",
-          "skills",
-          "tool-calls",
+          "connectivity",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:exec|title:codex-desktop-sessions-get-exec-shell|version:26.915.4065.0|platform:windows",
-        "title": "Codex Desktop sessions get no exec/shell/file-edit tools (only collaboration tools)",
-        "url": "https://github.com/openai/codex/issues/46582"
+        "signature": "code:environment|title:windows-codex-desktop-connect-chrome-noderepl|platform:windows",
+        "title": "Windows Codex desktop cannot connect to Chrome: nodeRepl.fetch request failed",
+        "url": "https://github.com/openai/codex/issues/46743"
       },
       {
-        "createdAt": "2026-09-19T03:04:49Z",
+        "createdAt": "2026-09-20T02:08:45Z",
         "explicitVersion": "26.915.4065.0",
-        "id": "github-issue:openai/codex:46584",
-        "labels": [
-          "app",
-          "app-server",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/46584",
-        "signature": "code:event|title:windows-desktop-second-prompt-never-sends|version:26.915.4065.0|platform:windows",
-        "title": "Windows Desktop: second prompt never sends in a thread inside a registered project; reproduces on fully wiped machine (26.915.4065.0)",
-        "url": "https://github.com/openai/codex/issues/46584"
-      },
-      {
-        "createdAt": "2026-09-19T03:31:39Z",
-        "explicitVersion": "26.911.7940",
-        "id": "github-issue:openai/codex:46585",
+        "id": "github-issue:openai/codex:46744",
         "labels": [
           "app",
           "browser",
           "bug",
           "computer-use",
-          "tool-calls",
+          "imagen",
+          "skills",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:emits|title:codex-computer-use-regression-custom-gpt|version:26.911.7940|platform:windows",
-        "title": "Codex Computer Use regression: Custom GPT file upload no longer emits `filechooser` event",
-        "url": "https://github.com/openai/codex/issues/46585"
+        "signature": "code:openai-bundled|title:windows-codex-load-openai-bundled-plugins|version:26.915.4065.0|platform:windows",
+        "title": "Windows Codex App 26.915.4065.0 fails to load openai-bundled plugins, causing Browser, Computer Use, and Image Gen to be unavailable",
+        "url": "https://github.com/openai/codex/issues/46744"
       },
       {
-        "createdAt": "2026-09-19T03:46:10Z",
-        "id": "github-issue:openai/codex:46586",
-        "labels": [
-          "app",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:easier|title:desktop-add-advanced-task-conversation-search",
-        "title": "[Desktop] Add advanced task/conversation search with date, project, mode, and status filters",
-        "url": "https://github.com/openai/codex/issues/46586"
-      },
-      {
-        "createdAt": "2026-09-19T03:46:12Z",
-        "id": "github-issue:openai/codex:46587",
-        "labels": [
-          "app",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:multi-select|title:desktop-add-multi-select-bulk-archive",
-        "title": "[Desktop] Add multi-select and bulk archive, unarchive, and delete for conversations/tasks",
-        "url": "https://github.com/openai/codex/issues/46587"
-      },
-      {
-        "createdAt": "2026-09-19T03:46:14Z",
-        "id": "github-issue:openai/codex:46588",
-        "labels": [
-          "app",
-          "enhancement",
-          "remote"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:first-class|title:codex-desktop-first-class-file-workspace",
-        "title": "[Codex Desktop] First-class file workspace support for core VS Code-like browse/edit/manage/preview workflows",
-        "url": "https://github.com/openai/codex/issues/46588"
-      },
-      {
-        "createdAt": "2026-09-19T04:32:12Z",
+        "createdAt": "2026-09-20T02:17:38Z",
         "explicitVersion": "26.915.4065.0",
-        "id": "github-issue:openai/codex:46589",
+        "id": "github-issue:openai/codex:46745",
         "labels": [
           "app",
           "bug",
-          "windows-os"
+          "rate-limits"
         ],
         "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:new-chat|title:work-appears-website-but-missing-chatgpt|version:26.915.4065.0|platform:windows",
-        "title": "Work appears on the website but is missing from ChatGPT’s new-chat screen in the Windows desktop app.",
-        "url": "https://github.com/openai/codex/issues/46589"
+        "signature": "code:emulator|title:usage-viewed-personal-account-client|version:26.915.4065.0",
+        "title": "Usage cannot be viewed in the personal account on the client",
+        "url": "https://github.com/openai/codex/issues/46745"
       },
       {
-        "createdAt": "2026-09-19T04:41:41Z",
-        "id": "github-issue:openai/codex:46590",
+        "createdAt": "2026-09-20T02:48:57Z",
+        "explicitVersion": "26.915.31945",
+        "id": "github-issue:openai/codex:46746",
+        "labels": [
+          "bug",
+          "codex-web",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:already-open|title:chatgpt-web-ios-data-loss-sending|version:26.915.31945|platform:arm64",
+        "title": "[ChatGPT Web/iOS][data loss] Sending from a stale desktop tab can make newer mobile and voice turns disappear",
+        "url": "https://github.com/openai/codex/issues/46746"
+      },
+      {
+        "createdAt": "2026-09-20T02:52:54Z",
+        "explicitVersion": "5.6",
+        "id": "github-issue:openai/codex:46747",
+        "labels": [
+          "app",
+          "bug",
+          "context",
+          "model-behavior",
+          "performance"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:gpt-6|title:regression-gpt-astra-gpt-sol-codex|version:5.6|platform:macos",
+        "title": "[Regression] GPT-6 Astra and GPT-5.6 Sol in Codex Desktop show severe output-quality drop and excessive agent overhead",
+        "url": "https://github.com/openai/codex/issues/46747"
+      },
+      {
+        "createdAt": "2026-09-20T02:55:34Z",
+        "explicitVersion": "26.915.4065.0",
+        "id": "github-issue:openai/codex:46748",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "computer-use",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:rename_staging|title:windows-rename-staging-eperm-leaves-browser|version:26.915.4065.0|platform:windows",
+        "title": "[Windows] 26.915.4065.0: rename_staging EPERM leaves Browser / Chrome / Computer Use without node_repl",
+        "url": "https://github.com/openai/codex/issues/46748"
+      },
+      {
+        "createdAt": "2026-09-20T03:23:28Z",
+        "explicitVersion": "5.6",
+        "id": "github-issue:openai/codex:46753",
+        "labels": [
+          "app",
+          "bug",
+          "config",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:error|title:false-positive-policy-flag-harmless-prompts|version:5.6|platform:windows",
+        "title": "False positive policy flag on harmless prompts, automatic model downgrade",
+        "url": "https://github.com/openai/codex/issues/46753"
+      },
+      {
+        "createdAt": "2026-09-20T03:47:30Z",
+        "explicitVersion": "26.915.4065.0",
+        "id": "github-issue:openai/codex:46754",
+        "labels": [
+          "app",
+          "bug",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:start_pending|title:windows-codexsandboxservice-stuck-start-pending-pid|version:26.915.4065.0|platform:windows",
+        "title": "[Windows][26.915.4065.0] CodexSandboxService stuck at START_PENDING with PID 0, causing AppX activation timeout (0x800705B4)",
+        "url": "https://github.com/openai/codex/issues/46754"
+      },
+      {
+        "createdAt": "2026-09-20T03:47:33Z",
+        "explicitVersion": "26.908.40401",
+        "id": "github-issue:openai/codex:46755",
+        "labels": [
+          "bug",
+          "custom-model",
+          "extension",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:editor|title:windows-codex-sidebar-turns-solid-grey|version:26.908.40401|platform:windows",
+        "title": "Windows: Codex sidebar turns solid grey while editor panel and app-server remain active (26.908.40401)",
+        "url": "https://github.com/openai/codex/issues/46755"
+      },
+      {
+        "createdAt": "2026-09-20T03:50:58Z",
+        "explicitVersion": "5.6",
+        "id": "github-issue:openai/codex:46756",
         "labels": [
           "app",
           "bug",
@@ -395,16 +449,103 @@
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:existing|title:windows-desktop-second-message-remains-stuck|platform:windows",
-        "title": "[Windows desktop app] Second message remains stuck loading and is never sent",
-        "url": "https://github.com/openai/codex/issues/46590"
+        "signature": "code:gpt-6|title:windows-desktop-gpt-astra-gpt-sol|version:5.6|platform:windows",
+        "title": "[Windows Desktop] GPT-6 Astra and GPT-5.6 Sol reject harmless prompts with invalid_prompt while Codex Web works",
+        "url": "https://github.com/openai/codex/issues/46756"
+      },
+      {
+        "createdAt": "2026-09-20T04:11:49Z",
+        "explicitVersion": "26.911.61220",
+        "id": "github-issue:openai/codex:46757",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "connectivity"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:extension-backed|title:codex-can-open-control-chrome-tab|version:26.911.61220|platform:macos",
+        "title": "codex can not open or control the chrome tab page",
+        "url": "https://github.com/openai/codex/issues/46757"
+      },
+      {
+        "createdAt": "2026-09-20T04:26:34Z",
+        "explicitVersion": "26.915.31945",
+        "id": "github-issue:openai/codex:46758",
+        "labels": [
+          "app",
+          "auth",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:environment|title:macos-chatgpt-unable-load-sign-requirements|version:26.915.31945|platform:macos",
+        "title": "macOS ChatGPT 26.915.31945: “Unable to load sign in requirements” while ChatGPT Classic works",
+        "url": "https://github.com/openai/codex/issues/46758"
+      },
+      {
+        "createdAt": "2026-09-20T04:32:20Z",
+        "explicitVersion": "26.915.31945",
+        "id": "github-issue:openai/codex:46759",
+        "labels": [
+          "app",
+          "bug",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:external|title:inline-sources-visualization-external-volume-invalid|version:26.915.31945|platform:windows",
+        "title": "Inline Sources visualization on external volume fails with Invalid visualization read request",
+        "url": "https://github.com/openai/codex/issues/46759"
+      },
+      {
+        "createdAt": "2026-09-20T04:33:48Z",
+        "id": "github-issue:openai/codex:46760",
+        "labels": [
+          "app",
+          "enhancement",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:expose|title:expose-thread-session-uuid-codex-desktop",
+        "title": "Expose thread/session UUID in Codex Desktop and resume UI with a copy action",
+        "url": "https://github.com/openai/codex/issues/46760"
+      },
+      {
+        "createdAt": "2026-09-20T04:39:49Z",
+        "explicitVersion": "99.6",
+        "id": "github-issue:openai/codex:46761",
+        "labels": [
+          "app",
+          "bug",
+          "context",
+          "performance",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:extremely|title:old-base64-images-occupy-chat-history|version:99.6|platform:windows",
+        "title": "Old Base64 images occupy 99.6% of chat history, making successive agent loops extremely slow",
+        "url": "https://github.com/openai/codex/issues/46761"
+      },
+      {
+        "createdAt": "2026-09-20T04:56:00Z",
+        "id": "github-issue:openai/codex:46762",
+        "labels": [
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:existing|title:chatgpt-android-file-library-existing-file",
+        "title": "[ChatGPT Android][File Library] Existing file can be selected and added to a Project thread but remains unreadable to the assistant",
+        "url": "https://github.com/openai/codex/issues/46762"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-19T04:42:20.385Z",
+    "observedAt": "2026-09-20T04:57:33.965Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "10 recent official GitHub issues observed for openai/codex."
+    "summary": "16 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-67295dd5cd96ca24",
   "interfaces": [],
