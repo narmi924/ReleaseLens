@@ -1,0 +1,398 @@
+{
+  "artifacts": [
+    {
+      "details": {
+        "bin": {
+          "gemini": "bundle/gemini.js"
+        },
+        "cliEntry": "bundle/gemini.js",
+        "dependencies": [],
+        "engines": {
+          "node": ">=20"
+        },
+        "fileCount": 465,
+        "topLevelDirectories": [
+          "bundle",
+          "LICENSE",
+          "package.json",
+          "README.md"
+        ]
+      },
+      "fileName": "gemini-cli-0.62.0-nightly.20260921.gcfbcaa8df.tgz",
+      "format": "npm-tgz",
+      "id": "artifact:npm:@google/gemini-cli:0.62.0-nightly.20260921.gcfbcaa8df",
+      "kind": "artifact",
+      "observedAt": "2026-09-21T05:01:32.970Z",
+      "packageIdentity": "@google/gemini-cli",
+      "packageVersion": "0.62.0-nightly.20260921.gcfbcaa8df",
+      "sha256": "1ff2446795713e19dab9b5eafcd43547c0ee08be4aa2c8763d343e413bf7e1cb",
+      "sizeBytes": 24913050,
+      "sourceHost": "registry.npmjs.org",
+      "status": "pass",
+      "summary": "@google/gemini-cli@0.62.0-nightly.20260921.gcfbcaa8df tarball passed integrity verification.",
+      "verification": [
+        {
+          "details": {
+            "actual": "dh0iC+/SX9F1Y0z07nUkxpZUmUcDOYUsbUoRG1FlvBYjvD+XcbreR+uxwJB7ka/9HQozeGR76Idh9zR76xIzLQ==",
+            "expected": "dh0iC+/SX9F1Y0z07nUkxpZUmUcDOYUsbUoRG1FlvBYjvD+XcbreR+uxwJB7ka/9HQozeGR76Idh9zR76xIzLQ=="
+          },
+          "id": "npm-integrity",
+          "kind": "verification",
+          "observedAt": "2026-09-21T05:01:32.970Z",
+          "status": "pass",
+          "summary": "Verified npm sha512 Subresource Integrity."
+        }
+      ]
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:gemini-cli:2026-09-21T05:01:32.970Z",
+      "kind": "behavior",
+      "observedAt": "2026-09-21T05:01:32.970Z",
+      "results": [
+        {
+          "durationMs": 2783,
+          "exitCode": 0,
+          "startedAt": "2026-09-21T05:01:32.970Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "gemini-version completed.",
+          "testId": "gemini-version"
+        },
+        {
+          "durationMs": 2752,
+          "exitCode": 0,
+          "startedAt": "2026-09-21T05:01:32.970Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "gemini-help completed.",
+          "testId": "gemini-help"
+        }
+      ],
+      "status": "pass",
+      "summary": "gemini-cli behavior suite produced 2 passing result(s)."
+    }
+  ],
+  "comparedWith": "gemini-cli-nightly-node-1fd26e1d365a9897",
+  "interfaces": [
+    {
+      "cliName": "gemini",
+      "commands": [
+        {
+          "name": "gemini",
+          "options": [],
+          "subcommands": [],
+          "summary": "Launch Gemini CLI  [default]"
+        }
+      ],
+      "configKeys": [],
+      "details": {
+        "globalOptions": [
+          {
+            "names": [
+              "--accept-raw-output-risk",
+              "--raw-output"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--acp"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--acp",
+              "--experimental-acp"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--admin-policy"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--allowed-mcp-server-names"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--allowed-tools"
+            ],
+            "valueHint": "[DEPRECATED: Use Policy Engine instead See https://geminicli.com/docs/core/policy-engine]"
+          },
+          {
+            "names": [
+              "--approval-mode"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--debug",
+              "-d"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--delete-session",
+              "--list-sessions"
+            ],
+            "valueHint": "D"
+          },
+          {
+            "names": [
+              "--extensions",
+              "-e"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--help",
+              "-h"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--include-directories"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--list-extensions",
+              "-l"
+            ],
+            "valueHint": "L"
+          },
+          {
+            "names": [
+              "--list-sessions"
+            ],
+            "valueHint": "L"
+          },
+          {
+            "names": [
+              "--model",
+              "-m"
+            ],
+            "valueHint": "M"
+          },
+          {
+            "names": [
+              "--output-format",
+              "-o"
+            ],
+            "valueHint": "T"
+          },
+          {
+            "names": [
+              "--policy"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--prompt-interactive",
+              "-i"
+            ],
+            "valueHint": "E"
+          },
+          {
+            "names": [
+              "--prompt",
+              "-p"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--raw-output"
+            ],
+            "valueHint": "D"
+          },
+          {
+            "names": [
+              "--resume",
+              "-r"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--sandbox",
+              "-s"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--screen-reader"
+            ],
+            "valueHint": "E"
+          },
+          {
+            "names": [
+              "--session-file"
+            ],
+            "valueHint": "L"
+          },
+          {
+            "names": [
+              "--session-id"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--skip-trust"
+            ],
+            "valueHint": "T"
+          },
+          {
+            "names": [
+              "--version",
+              "-v"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--worktree",
+              "-w"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--yolo",
+              "-y"
+            ],
+            "valueHint": "A"
+          }
+        ]
+      },
+      "environmentKeys": [],
+      "id": "interface:gemini:4853e05d90b9",
+      "kind": "interface",
+      "observedAt": "2026-09-21T05:01:32.970Z",
+      "reportedVersion": "0.62.0-nightly.20260921.gcfbcaa8df",
+      "snapshotHash": "4853e05d90b9768cf2a2de4d254af3eb6456c5ec4071b9db84ae0ec3135aacea",
+      "status": "pass",
+      "summary": "Normalized gemini CLI interface with 1 top-level commands and 29 global options."
+    }
+  ],
+  "observationId": "gemini-cli-nightly-node-bc9082001772c56e",
+  "product": {
+    "id": "gemini-cli",
+    "name": "Gemini CLI"
+  },
+  "release": {
+    "canonicalVersion": "0.62.0-nightly.20260921.gcfbcaa8df",
+    "channel": "nightly",
+    "discoveredAt": "2026-09-21T05:01:32.970Z",
+    "platform": "node",
+    "publishedAt": "2026-09-21T01:36:34.062Z",
+    "sourceVersion": "0.62.0-nightly.20260921.gcfbcaa8df"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "releaseCount": 12,
+        "repository": "google-gemini/gemini-cli"
+      },
+      "fingerprint": "2642da33401cb44facfbcc8b3552d75b8d255aa228a357039cdaa764af6ce00a",
+      "id": "github-repository:snapshot",
+      "kind": "source",
+      "observedAt": "2026-09-21T05:01:32.971Z",
+      "sourceId": "github-repository",
+      "sourceType": "github-release-api",
+      "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "status": "pass",
+      "summary": "12 published GitHub releases observed for google-gemini/gemini-cli."
+    },
+    {
+      "details": {
+        "channels": [
+          {
+            "channel": "latest",
+            "integrity": "sha512-bp6aLytN+beto8sTHIzMyK5Y6Ry5mMZrBdNGx3EiAjqIpS99B8c/Elha6xyYRIabgFs0Q75/xDauNRAqHGY34w==",
+            "publishedAt": "2026-09-15T20:36:40.030Z",
+            "shasum": "4409788ee6be767e66cdb50cd9eaac9a9de63e65",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.60.0"
+          },
+          {
+            "channel": "preview",
+            "integrity": "sha512-OnirqHHQrdeLi4J6MpyxBiMQAtWAdkB2Dv/nA9z8cdcqecml+mDZJSdf2eIWh74f8lNshYxMkZiSf/lgmlscMg==",
+            "publishedAt": "2026-09-15T20:26:46.830Z",
+            "shasum": "ad932ff9d2f7c5ae3e2122c6e7fc42b6d9443f6c",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.61.0-preview.0"
+          },
+          {
+            "channel": "nightly",
+            "integrity": "sha512-dh0iC+/SX9F1Y0z07nUkxpZUmUcDOYUsbUoRG1FlvBYjvD+XcbreR+uxwJB7ka/9HQozeGR76Idh9zR76xIzLQ==",
+            "publishedAt": "2026-09-21T01:36:34.062Z",
+            "shasum": "13970f9439a3f242e007e91059e836dd27ba2525",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.62.0-nightly.20260921.gcfbcaa8df"
+          }
+        ]
+      },
+      "fingerprint": "f3826109c1300b2a18b813088d33a1fe6c7fa8d8789185fc03df211a36185ddd",
+      "id": "npm-registry:dist-tags",
+      "kind": "source",
+      "observedAt": "2026-09-21T05:01:32.970Z",
+      "sourceId": "npm-registry",
+      "sourceType": "npm-registry",
+      "sourceUrl": "https://registry.npmjs.org/%40google%2Fgemini-cli",
+      "status": "pass",
+      "summary": "Observed 3 npm channel tags for @google/gemini-cli."
+    },
+    {
+      "details": {
+        "channel": "nightly",
+        "integrity": "sha512-dh0iC+/SX9F1Y0z07nUkxpZUmUcDOYUsbUoRG1FlvBYjvD+XcbreR+uxwJB7ka/9HQozeGR76Idh9zR76xIzLQ==",
+        "publishedAt": "2026-09-21T01:36:34.062Z",
+        "shasum": "13970f9439a3f242e007e91059e836dd27ba2525",
+        "tarballHost": "registry.npmjs.org",
+        "version": "0.62.0-nightly.20260921.gcfbcaa8df"
+      },
+      "id": "npm-registry:nightly:0.62.0-nightly.20260921.gcfbcaa8df",
+      "kind": "source",
+      "observedAt": "2026-09-21T05:01:32.970Z",
+      "sourceId": "npm-registry",
+      "sourceType": "npm-registry",
+      "status": "pass",
+      "summary": "nightly points to 0.62.0-nightly.20260921.gcfbcaa8df; integrity metadata is present."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "MATERIAL_EVIDENCE_CHANGED",
+        "evidenceRefs": [],
+        "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+      }
+    ],
+    "severity": "minor",
+    "status": "CHANGED"
+  }
+}
