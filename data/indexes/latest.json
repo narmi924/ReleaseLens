@@ -2,8 +2,8 @@
   "releases": [
     {
       "channel": "stable",
-      "discoveredAt": "2026-09-19T04:41:31.885Z",
-      "observationId": "claude-code-stable-windows-x64-70694e0fad032661",
+      "discoveredAt": "2026-09-23T04:48:59.999Z",
+      "observationId": "claude-code-stable-windows-x64-3666b83597e57ae1",
       "platform": "windows-x64",
       "productId": "claude-code",
       "schemaVersion": 1,
@@ -18,12 +18,12 @@
         "severity": "minor",
         "status": "DISTRIBUTION_DRIFT"
       },
-      "version": "2.1.278"
+      "version": "2.1.280"
     },
     {
       "channel": "stable",
-      "discoveredAt": "2026-09-19T04:41:37.642Z",
-      "observationId": "codex-stable-windows-x64-ea9a0f081414f537",
+      "discoveredAt": "2026-09-23T04:49:05.985Z",
+      "observationId": "codex-stable-windows-x64-1094a9227aafcfef",
       "platform": "windows-x64",
       "productId": "codex",
       "schemaVersion": 1,
@@ -32,14 +32,14 @@
           {
             "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
             "evidenceRefs": [
-              "artifact:msix:OpenAI.Codex:26.915.4065.0:x64"
+              "artifact:msix:OpenAI.Codex:26.917.6896.0:x64"
             ],
             "message": "Required artifact evidence is missing or did not pass."
           },
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
             "evidenceRefs": [
-              "behavior:codex:2026-09-19T04:41:37.642Z"
+              "behavior:codex:2026-09-23T04:49:05.985Z"
             ],
             "message": "Required behavior codex-msix-identity is fail."
           },
@@ -52,12 +52,12 @@
         "severity": "major",
         "status": "UNVERIFIED"
       },
-      "version": "26.915.4065.0"
+      "version": "26.917.6896.0"
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-09-22T05:02:11.874Z",
-      "observationId": "gemini-cli-latest-node-89297f8d4094057f",
+      "discoveredAt": "2026-09-23T04:49:55.489Z",
+      "observationId": "gemini-cli-latest-node-b39d1a90c4beba39",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
@@ -76,8 +76,8 @@
     },
     {
       "channel": "nightly",
-      "discoveredAt": "2026-09-22T05:02:11.874Z",
-      "observationId": "gemini-cli-nightly-node-5f54af10eebc233f",
+      "discoveredAt": "2026-09-23T04:49:55.489Z",
+      "observationId": "gemini-cli-nightly-node-bc802c092e5a933c",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
@@ -92,12 +92,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.62.0-nightly.20260922.gd5b3e3acc"
+      "version": "0.62.0-nightly.20260923.g62364cb20"
     },
     {
       "channel": "preview",
-      "discoveredAt": "2026-09-22T05:02:11.874Z",
-      "observationId": "gemini-cli-preview-node-84d61ac62397edf3",
+      "discoveredAt": "2026-09-23T04:49:55.489Z",
+      "observationId": "gemini-cli-preview-node-523c9839dde31c2e",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
