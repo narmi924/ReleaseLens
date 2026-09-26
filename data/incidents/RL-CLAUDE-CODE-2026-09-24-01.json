@@ -8,6 +8,12 @@
       "observationId": "claude-code-stable-windows-x64-52e83f0269ea9c04",
       "summary": "Opened from SUSPECTED_REGRESSION evidence for 2.1.281.",
       "type": "opened"
+    },
+    {
+      "at": "2026-09-26T05:03:49.187Z",
+      "observationId": "claude-code-stable-windows-x64-8dad3663d9372f67",
+      "summary": "Resolved by verified 2.1.283.",
+      "type": "resolved"
     }
   ],
   "evidenceRefs": [
@@ -33,6 +39,8 @@
       "summary": "Official GitHub issue cluster: code:integration-github|title:github-integration"
     }
   ],
+  "resolvedAt": "2026-09-26T05:03:49.187Z",
+  "resolvedByVersion": "2.1.283",
   "schemaVersion": 1,
-  "status": "open"
+  "status": "resolved"
 }

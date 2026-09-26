@@ -1,0 +1,58 @@
+{
+  "artifactChanges": [
+    {
+      "after": "ed58f738c31cfcabd96d072f0657269166e3f47da51c6b3a864b682e30f598e1",
+      "before": "9892383820c5505997456bde8385810afadd6076ae7fff9e3835a48ca0555c98",
+      "material": true,
+      "summary": "Artifact bytes changed for msix:OpenAI.Codex:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 876070899,
+      "before": 830521537,
+      "material": true,
+      "summary": "Artifact size changed for msix:OpenAI.Codex:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "codex-stable-windows-x64-1d894df6050c1849",
+  "createdAt": "2026-09-26T05:03:58.273Z",
+  "diffId": "codex-stable-windows-x64-c80ec3fa1584e4fb-from-codex-stable-windows-x64-1d894df6050c1849",
+  "distributionChanges": [
+    {
+      "after": "26.924.1866.0",
+      "before": "26.917.9434.0",
+      "material": true,
+      "summary": "Distribution state microsoft-store-rollout-signal:build: 26.917.9434.0 → 26.924.1866.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "ed58f738c31cfcabd96d072f0657269166e3f47da51c6b3a864b682e30f598e1",
+      "before": "9892383820c5505997456bde8385810afadd6076ae7fff9e3835a48ca0555c98",
+      "material": true,
+      "summary": "Artifact bytes changed for msix:OpenAI.Codex:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 876070899,
+      "before": 830521537,
+      "material": true,
+      "summary": "Artifact size changed for msix:OpenAI.Codex:x64.",
+      "type": "artifact-size-changed"
+    },
+    {
+      "after": "26.924.1866.0",
+      "before": "26.917.9434.0",
+      "material": true,
+      "summary": "Distribution state microsoft-store-rollout-signal:build: 26.917.9434.0 → 26.924.1866.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "codex-stable-windows-x64-c80ec3fa1584e4fb",
+  "productId": "codex",
+  "schemaVersion": 1
+}
