@@ -64,7 +64,7 @@ ReleaseLens 是面向开发者工具的公开发布情报站。它观察第一�
 | 产品            | 第一方发布面                                                                      | 产品页会明确告诉你什么                                                                                            |
 | --------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | **Codex**       | Microsoft Store DisplayCatalog、实验性 FE3 metadata、已验证的 MSIX artifact       | catalog 可见性与实际可下载性的区别、x64 主分析、ARM64 rollout evidence、artifact identity 与有边界的 smoke 结果。 |
-| **Claude Code** | 官方 native/recommended 分发、Windows WinGet metadata、可选的官方 GitHub metadata | 官方分发状态、Windows 版本漂移、经过验证的隔离 CLI 检查与 community context。                                     |
+| **Claude Code** | 官方 native/recommended 分发、Windows WinGet metadata、可选的官方 GitHub metadata | 官方分发状态、WinGet 滞后与真实漂移的区分、经过验证的隔离 CLI 检查与 community context。                          |
 | **Gemini CLI**  | npm registry 的 `latest`、`preview`、`nightly` dist-tags                          | channel history、SRI integrity、package inspection、CLI snapshots 与 promotion evidence。                         |
 
 ## 看证据，而不只看 verdict

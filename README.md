@@ -71,7 +71,7 @@ ReleaseLens site.
 | Product         | First-party release surfaces                                                                             | What the product view makes clear                                                                                                             |
 | --------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Codex**       | Microsoft Store DisplayCatalog, experimental FE3 metadata, and verified MSIX artifacts                   | Catalog visibility versus actual downloadability, x64 primary analysis, ARM64 rollout evidence, artifact identity, and bounded smoke results. |
-| **Claude Code** | Official native/recommended distribution, Windows WinGet metadata, and optional official GitHub metadata | Official distribution state, Windows drift, verified isolated CLI checks, and community context.                                              |
+| **Claude Code** | Official native/recommended distribution, Windows WinGet metadata, and optional official GitHub metadata | Official distribution state, WinGet lag versus genuine drift, verified isolated CLI checks, and community context.                            |
 | **Gemini CLI**  | npm registry `latest`, `preview`, and `nightly` dist-tags                                                | Channel history, SRI integrity, package inspection, CLI snapshots, and promotion evidence.                                                    |
 
 ## Read the evidence, not just the verdict

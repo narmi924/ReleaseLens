@@ -21,7 +21,7 @@ Claude Code profile 读取供应商安装/发布面取得 recommended/native 版
 
 官方 GitHub repository metadata 是可选的补充来源和社区证据来源。若 GitHub API 限流，核心 official/native 与 WinGet 观察仍会照实落库，source failure 会明确显示。对于验证过的临时 native artifact，ReleaseLens 在临时 HOME/profile 和隔离位置运行 `claude --version`、`claude --help` 和安全诊断；不登录、不调用模型、不改动开发机现有 Claude Code。
 
-当 native/recommended 与 WinGet 版本不同，verdict 是 `DISTRIBUTION_DRIFT`，即使之前的相同版本仍可作为 LKG。
+当 WinGet 版本领先于 native/recommended、或两者无法比较时，verdict 是 `DISTRIBUTION_DRIFT`，即使之前的相同版本仍可作为 LKG。WinGet 落后于 native 是每次发布后持续数日的正常滞后：这时 verdict 不受影响，只附加 `SECONDARY_DISTRIBUTION_LAGGING` 原因并引用两条来源证据，已验证的 native 制品照常可以成为 LKG。
 
 ## Gemini CLI：npm release channels
 

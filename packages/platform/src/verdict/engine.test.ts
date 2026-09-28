@@ -182,9 +182,10 @@ describe("deterministic verdict and Last Known Good", () => {
     );
     const claude = profiles.find((profile) => profile.id === "claude-code")!;
     const beforeClaude = observation("claude-code", "2.0.0");
+    // WinGet ahead of the official native release is a genuine disagreement.
     const afterClaude = observation("claude-code", "2.1.0", {
       nativeVersion: "2.1.0",
-      wingetVersion: "2.0.0",
+      wingetVersion: "2.2.0",
     });
     const drift = buildReleaseDiff(beforeClaude, afterClaude)!;
     expect(
@@ -215,6 +216,55 @@ describe("deterministic verdict and Last Known Good", () => {
         diff: regression,
       }).status,
     ).toBe("CONFIRMED_REGRESSION");
+  });
+
+  it("treats WinGet trailing the official release as propagation lag that does not block Last Known Good", async () => {
+    const claude = (
+      await loadProductProfiles(resolve(process.cwd(), "products"))
+    ).find((candidate) => candidate.id === "claude-code")!;
+    const previous = observation("claude-code", "2.1.268");
+    const lagging = observation("claude-code", "2.1.283", {
+      nativeVersion: "2.1.283",
+      wingetVersion: "2.1.268",
+    });
+    const first = evaluateVerdict({
+      profile: claude,
+      observation: withoutVerdict(lagging),
+    });
+    expect(first.status).toBe("NO_REGRESSION_DETECTED");
+    expect(first.reasons.map((reason) => reason.code)).toEqual([
+      "REQUIRED_SCOPE_PASSED",
+      "SECONDARY_DISTRIBUTION_LAGGING",
+    ]);
+    expect(first.reasons[1]).toMatchObject({
+      message:
+        "WinGet 2.1.268 lags the official native release 2.1.283. The verified official artifact is unaffected.",
+      evidenceRefs: ["source:claude-native", "source:winget"],
+    });
+    const diff = buildReleaseDiff(previous, lagging)!;
+    expect(diff.distributionChanges.map((change) => change.type)).toEqual([
+      "distribution-version-changed",
+      "distribution-lag",
+    ]);
+    expect(diff.materialChanges.map((change) => change.type)).not.toContain(
+      "distribution-lag",
+    );
+    const withDiff = evaluateVerdict({
+      profile: claude,
+      observation: withoutVerdict(lagging),
+      diff,
+    });
+    expect(withDiff.status).toBe("CHANGED");
+    expect(withDiff.reasons.at(-1)?.code).toBe(
+      "SECONDARY_DISTRIBUTION_LAGGING",
+    );
+    const persisted = ReleaseObservationSchema.parse({
+      ...lagging,
+      verdict: withDiff,
+    });
+    expect(
+      selectLastKnownGood(claude, [previous, persisted], "stable"),
+    ).toMatchObject({ version: "2.1.283" });
   });
 
   it("keeps Last Known Good separate from the latest regression verdict", async () => {

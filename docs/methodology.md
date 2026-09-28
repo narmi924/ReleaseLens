@@ -19,7 +19,7 @@ ReleaseLens 的结论由可追溯的结构化证据产生，不使用 LLM 判定
 Verdict 是确定性优先级规则的结果，并引用其原因和 evidence ID：
 
 1. 缺少 required evidence、关键验证失败或必需行为未通过：`UNVERIFIED` 或回归类状态。
-2. 多个相关官方分发面版本不一致：`DISTRIBUTION_DRIFT`。
+2. 多个相关官方分发面版本不一致：`DISTRIBUTION_DRIFT`。次要分发面（如 WinGet）只是落后于官方 native 版本时属于正常的传播滞后：verdict 按其余规则判定，只附加 `SECONDARY_DISTRIBUTION_LAGGING` 原因并引用两条来源证据，且不阻止已验证的 native 制品成为 LKG。
 3. 有结构化行为/接口/社区回归证据：`SUSPECTED_REGRESSION`；强确认条件满足时为 `CONFIRMED_REGRESSION`。
 4. 通过已声明 required scope，且无更高优先级原因：`NO_REGRESSION_DETECTED`。
 5. 有材料性变化但未触发上述情况时：`CHANGED`。
