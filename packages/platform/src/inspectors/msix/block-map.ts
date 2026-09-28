@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { DOMParser } from "@xmldom/xmldom";
 import type { Entry } from "yauzl";
-import type { OpenMsixArchive } from "./zip";
+import { logicalPackagePath, type OpenMsixArchive } from "./zip";
 
 export type BlockMapVerification = {
   status: "pass" | "fail" | "unsupported";
@@ -187,11 +187,16 @@ export async function verifyMsixBlockMap(
   };
   let verifiedFiles = 0;
   // App package paths are interpreted with Windows' case-insensitive file
-  // semantics.  Preserve original entry names for reporting, but resolve the
-  // BlockMap's logical name through a normalized lookup.
+  // semantics, and the physical ZIP item names are OPC percent-encoded while
+  // the BlockMap records the logical file name (`%40scope` versus `@scope`).
+  // Preserve original entry names for reporting, but resolve the BlockMap's
+  // logical name through a decoded, normalized lookup.  The physical name is
+  // kept as a fallback so a non-conforming package is still matched on its
+  // own evidence instead of being reported as missing files.
   const entriesByPackagePath = new Map<string, Entry>();
+  const entriesByPhysicalPath = new Map<string, Entry>();
   for (const [name, entry] of archive.entries) {
-    const key = packagePathKey(name);
+    const key = packagePathKey(logicalPackagePath(name));
     if (entriesByPackagePath.has(key)) {
       appendError(
         `Archive has an ambiguous case-insensitive package path: ${name}.`,
@@ -199,9 +204,13 @@ export async function verifyMsixBlockMap(
     } else {
       entriesByPackagePath.set(key, entry);
     }
+    entriesByPhysicalPath.set(packagePathKey(name), entry);
   }
   for (const file of files) {
-    const entry = entriesByPackagePath.get(packagePathKey(file.name));
+    const logicalKey = packagePathKey(file.name);
+    const entry =
+      entriesByPackagePath.get(logicalKey) ??
+      entriesByPhysicalPath.get(logicalKey);
     if (!entry) {
       appendError(`Block-map file is missing from archive: ${file.name}.`);
       continue;

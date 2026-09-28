@@ -13,6 +13,26 @@ function normalizeZipName(value: string): string {
   return value.replace(/\\/g, "/").replace(/^\/+/, "");
 }
 
+/**
+ * MSIX/Appx is an Open Packaging Conventions container: the physical ZIP item
+ * names are percent-encoded part names (`@scope` is stored as `%40scope`),
+ * while AppxManifest.xml and AppxBlockMap.xml refer to the logical, decoded
+ * file name.  Resolves a ZIP item name to that logical form.  A name that is
+ * not valid percent-encoding is returned unchanged so a non-conforming package
+ * is still judged on its own evidence.
+ */
+export function logicalPackagePath(value: string): string {
+  const normalized = normalizeZipName(value);
+  if (!normalized.includes("%")) {
+    return normalized;
+  }
+  try {
+    return decodeURIComponent(normalized);
+  } catch {
+    return normalized;
+  }
+}
+
 function assertSafeZipName(value: string): void {
   const normalized = normalizeZipName(value);
   if (!normalized || normalized.split("/").some((part) => part === "..")) {

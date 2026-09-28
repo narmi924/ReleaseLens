@@ -19,7 +19,7 @@ import {
   MsixInspector,
   type MsixInspection,
 } from "../inspectors/msix/inspector";
-import { openMsixArchive } from "../inspectors/msix/zip";
+import { logicalPackagePath, openMsixArchive } from "../inspectors/msix/zip";
 import type {
   CatalogPackage,
   StoreProductRef,
@@ -72,8 +72,9 @@ async function extractMsixEntry(
 ): Promise<void> {
   const archive = await openMsixArchive(msixPath);
   try {
+    const wanted = logicalPackagePath(entryName).toLowerCase();
     const target = Array.from(archive.entries.entries()).find(
-      ([name]) => name.toLowerCase() === entryName.toLowerCase(),
+      ([name]) => logicalPackagePath(name).toLowerCase() === wanted,
     );
     if (!target) {
       throw new Error(`Verified MSIX does not contain ${entryName}.`);
@@ -92,7 +93,7 @@ async function extractWholeMsix(msixPath: string, root: string): Promise<void> {
   const archive = await openMsixArchive(msixPath);
   try {
     for (const [name, entry] of archive.entries) {
-      const destination = safePath(root, name);
+      const destination = safePath(root, logicalPackagePath(name));
       await mkdir(resolve(destination, ".."), { recursive: true });
       await pipeline(
         await archive.stream(entry),

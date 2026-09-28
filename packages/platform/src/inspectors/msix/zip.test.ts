@@ -1,11 +1,11 @@
 import { createHash } from "node:crypto";
 import { createWriteStream } from "node:fs";
 import { once } from "node:events";
-import { join } from "node:path";
+import { join, win32 } from "node:path";
 import yazl from "yazl";
 import { describe, expect, it } from "vitest";
 import { withArtifactLease } from "../../artifacts/lease";
-import { openMsixArchive } from "./zip";
+import { logicalPackagePath, openMsixArchive } from "./zip";
 
 async function readAll(stream: NodeJS.ReadableStream): Promise<Buffer> {
   const chunks: Buffer[] = [];
@@ -41,5 +41,17 @@ describe("MSIX ZIP access", () => {
         archive.close();
       }
     });
+  });
+
+  it("resolves OPC percent-encoded item names to their logical package paths", () => {
+    expect(
+      logicalPackagePath(
+        win32.join("app", "node_modules", "%40img", "colour", "index.cjs"),
+      ),
+    ).toBe("app/node_modules/@img/colour/index.cjs");
+    expect(logicalPackagePath("/Assets/Square150x150Logo.png")).toBe(
+      "Assets/Square150x150Logo.png",
+    );
+    expect(logicalPackagePath("app/100%zz.txt")).toBe("app/100%zz.txt");
   });
 });
