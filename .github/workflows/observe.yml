@@ -89,7 +89,9 @@ jobs:
   publish-pages:
     name: Publish changed release data
     needs: observe
-    if: needs.observe.outputs.data_changed == 'true'
+    # A manual run on a branch still records its observation on that branch,
+    # but only main may publish to the production site.
+    if: needs.observe.outputs.data_changed == 'true' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
