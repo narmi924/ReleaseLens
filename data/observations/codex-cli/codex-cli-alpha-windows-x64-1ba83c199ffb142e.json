@@ -1,0 +1,546 @@
+{
+  "artifacts": [
+    {
+      "details": {
+        "bin": {
+          "codex": "bin/codex.js"
+        },
+        "cliEntry": "bin/codex.js",
+        "dependencies": [],
+        "engines": {
+          "node": ">=16"
+        },
+        "fileCount": 3,
+        "topLevelDirectories": [
+          "bin",
+          "package.json",
+          "README.md"
+        ]
+      },
+      "fileName": "codex-0.161.0-alpha.1.tgz",
+      "format": "npm-tgz",
+      "id": "artifact:npm:@openai/codex:0.161.0-alpha.1",
+      "kind": "artifact",
+      "observedAt": "2026-09-29T18:44:22.138Z",
+      "packageIdentity": "@openai/codex",
+      "packageVersion": "0.161.0-alpha.1",
+      "sha256": "d2e93cbe5c6fa1d8edef2dd272f0f3ceefa469908ebf6aec37cda82db6887472",
+      "sizeBytes": 4912,
+      "sourceHost": "registry.npmjs.org",
+      "status": "pass",
+      "summary": "@openai/codex@0.161.0-alpha.1 tarball passed integrity verification.",
+      "verification": [
+        {
+          "details": {
+            "actual": "//2joWTb1UcpmdDJkl6xgJqqD6ZEBvFqQtMo/EVzEnQXlQbonFyoMXDcgWGa8U7Y25KbTzAxLSG2HMg8wj+MIg==",
+            "expected": "//2joWTb1UcpmdDJkl6xgJqqD6ZEBvFqQtMo/EVzEnQXlQbonFyoMXDcgWGa8U7Y25KbTzAxLSG2HMg8wj+MIg=="
+          },
+          "id": "npm-integrity",
+          "kind": "verification",
+          "observedAt": "2026-09-29T18:44:22.138Z",
+          "status": "pass",
+          "summary": "Verified npm sha512 Subresource Integrity."
+        }
+      ]
+    },
+    {
+      "architecture": "x64",
+      "details": {
+        "bin": {},
+        "dependencies": [],
+        "engines": {
+          "node": ">=16"
+        },
+        "fileCount": 47,
+        "topLevelDirectories": [
+          "package.json",
+          "README.md",
+          "vendor"
+        ]
+      },
+      "fileName": "codex-0.161.0-alpha.1-win32-x64.tgz",
+      "format": "npm-tgz",
+      "id": "artifact:npm:@openai/codex:0.161.0-alpha.1-win32-x64",
+      "kind": "artifact",
+      "observedAt": "2026-09-29T18:44:22.138Z",
+      "packageIdentity": "@openai/codex",
+      "packageVersion": "0.161.0-alpha.1-win32-x64",
+      "sha256": "c42d3b1e0897b724b6fafd968be7a4f1c6378fc527a70830eb26ed66d795bde7",
+      "sizeBytes": 162493436,
+      "sourceHost": "registry.npmjs.org",
+      "status": "pass",
+      "summary": "@openai/codex@0.161.0-alpha.1-win32-x64 tarball passed integrity verification.",
+      "verification": [
+        {
+          "details": {
+            "actual": "kkBTcpqUxx7lJTURR4CS+vIPBQgiWmEYCXaCugXyCuwJJ1SvoyojB1aU4DKROcmTFYX90y17l1onGGY1nBhEMw==",
+            "expected": "kkBTcpqUxx7lJTURR4CS+vIPBQgiWmEYCXaCugXyCuwJJ1SvoyojB1aU4DKROcmTFYX90y17l1onGGY1nBhEMw=="
+          },
+          "id": "npm-integrity",
+          "kind": "verification",
+          "observedAt": "2026-09-29T18:44:22.138Z",
+          "status": "pass",
+          "summary": "Verified npm sha512 Subresource Integrity."
+        }
+      ]
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex-cli:2026-09-29T18:44:22.138Z",
+      "kind": "behavior",
+      "observedAt": "2026-09-29T18:44:22.138Z",
+      "results": [
+        {
+          "durationMs": 287,
+          "exitCode": 0,
+          "startedAt": "2026-09-29T18:44:22.138Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "codex-version completed.",
+          "testId": "codex-version"
+        },
+        {
+          "durationMs": 206,
+          "exitCode": 0,
+          "startedAt": "2026-09-29T18:44:22.138Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "codex-help completed.",
+          "testId": "codex-help"
+        }
+      ],
+      "status": "pass",
+      "summary": "codex-cli behavior suite produced 2 passing result(s)."
+    }
+  ],
+  "comparedWith": "codex-cli-alpha-windows-x64-8c0d52b435826850",
+  "interfaces": [
+    {
+      "cliName": "codex",
+      "commands": [
+        {
+          "name": "agents",
+          "options": [],
+          "subcommands": [],
+          "summary": "Browse all agent sessions on the shared local app-server daemon"
+        },
+        {
+          "name": "app",
+          "options": [],
+          "subcommands": [],
+          "summary": "Launch the Desktop app (opens the app installer if missing)"
+        },
+        {
+          "name": "app-server",
+          "options": [],
+          "subcommands": [],
+          "summary": "[experimental] Run the app server or related tooling"
+        },
+        {
+          "name": "apply",
+          "options": [],
+          "subcommands": [],
+          "summary": "Apply the latest diff produced by Codex agent as a `git apply` to your local"
+        },
+        {
+          "name": "archive",
+          "options": [],
+          "subcommands": [],
+          "summary": "Archive a saved session by id or session name"
+        },
+        {
+          "name": "cloud",
+          "options": [],
+          "subcommands": [],
+          "summary": "[EXPERIMENTAL] Browse tasks from Codex Cloud and apply changes locally"
+        },
+        {
+          "name": "completion",
+          "options": [],
+          "subcommands": [],
+          "summary": "Generate shell completion scripts"
+        },
+        {
+          "name": "debug",
+          "options": [],
+          "subcommands": [],
+          "summary": "Debugging tools"
+        },
+        {
+          "name": "delete",
+          "options": [],
+          "subcommands": [],
+          "summary": "Permanently delete a saved session by id or session name"
+        },
+        {
+          "name": "doctor",
+          "options": [],
+          "subcommands": [],
+          "summary": "Diagnose local Codex installation, config, auth, and runtime health"
+        },
+        {
+          "name": "exec",
+          "options": [],
+          "subcommands": [],
+          "summary": "Run Codex non-interactively [aliases: e]"
+        },
+        {
+          "name": "exec-server",
+          "options": [],
+          "subcommands": [],
+          "summary": "[EXPERIMENTAL] Run the standalone exec-server service"
+        },
+        {
+          "name": "features",
+          "options": [],
+          "subcommands": [],
+          "summary": "Inspect feature flags"
+        },
+        {
+          "name": "fork",
+          "options": [],
+          "subcommands": [],
+          "summary": "Fork a previous interactive session (picker by default; use --last to fork the"
+        },
+        {
+          "name": "help",
+          "options": [],
+          "subcommands": [],
+          "summary": "Print this message or the help of the given subcommand(s)"
+        },
+        {
+          "name": "login",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage login"
+        },
+        {
+          "name": "logout",
+          "options": [],
+          "subcommands": [],
+          "summary": "Remove stored authentication credentials"
+        },
+        {
+          "name": "mcp",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage external MCP servers for Codex"
+        },
+        {
+          "name": "migrate-rollouts",
+          "options": [],
+          "subcommands": [],
+          "summary": "Inspect or migrate legacy local sessions to paginated thread history"
+        },
+        {
+          "name": "plugin",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage Codex plugins"
+        },
+        {
+          "name": "queue",
+          "options": [],
+          "subcommands": [],
+          "summary": "Queue a message for an existing session"
+        },
+        {
+          "name": "remote-control",
+          "options": [],
+          "subcommands": [],
+          "summary": "[experimental] Manage the app-server daemon with remote control enabled"
+        },
+        {
+          "name": "resume",
+          "options": [],
+          "subcommands": [],
+          "summary": "Resume a previous interactive session (picker by default; use --last to continue"
+        },
+        {
+          "name": "review",
+          "options": [],
+          "subcommands": [],
+          "summary": "Run a code review non-interactively"
+        },
+        {
+          "name": "sandbox",
+          "options": [],
+          "subcommands": [],
+          "summary": "Run commands within a Codex-provided sandbox"
+        },
+        {
+          "name": "unarchive",
+          "options": [],
+          "subcommands": [],
+          "summary": "Unarchive a saved session by id or session name"
+        },
+        {
+          "name": "update",
+          "options": [],
+          "subcommands": [],
+          "summary": "Update Codex to the latest version"
+        }
+      ],
+      "configKeys": [
+        "CODEX_HOME",
+        "CONFIG_PROFILE_V2"
+      ],
+      "details": {
+        "globalOptions": [
+          {
+            "names": [
+              "--add-dir"
+            ],
+            "valueHint": "<DIR>"
+          },
+          {
+            "names": [
+              "--approve-for-me"
+            ]
+          },
+          {
+            "names": [
+              "--ask-for-approval",
+              "-a"
+            ],
+            "valueHint": "<APPROVAL_POLICY>"
+          },
+          {
+            "names": [
+              "--cd",
+              "-C"
+            ],
+            "valueHint": "<DIR>"
+          },
+          {
+            "names": [
+              "--config",
+              "-c"
+            ],
+            "valueHint": "<key=value>"
+          },
+          {
+            "names": [
+              "--dangerously-bypass-approvals-and-sandbox"
+            ]
+          },
+          {
+            "names": [
+              "--dangerously-bypass-hook-trust"
+            ]
+          },
+          {
+            "names": [
+              "--disable"
+            ],
+            "valueHint": "<FEATURE>"
+          },
+          {
+            "names": [
+              "--enable"
+            ],
+            "valueHint": "<FEATURE>"
+          },
+          {
+            "names": [
+              "--image",
+              "-i"
+            ],
+            "valueHint": "<FILE>"
+          },
+          {
+            "names": [
+              "--local-provider"
+            ],
+            "valueHint": "<OSS_PROVIDER>"
+          },
+          {
+            "names": [
+              "--model",
+              "-m"
+            ],
+            "valueHint": "<MODEL>"
+          },
+          {
+            "names": [
+              "--oss"
+            ]
+          },
+          {
+            "names": [
+              "--profile",
+              "-p"
+            ],
+            "valueHint": "<CONFIG_PROFILE_V2>"
+          },
+          {
+            "names": [
+              "--remote"
+            ],
+            "valueHint": "<ADDR>"
+          },
+          {
+            "names": [
+              "--remote-auth-token-env"
+            ],
+            "valueHint": "<ENV_VAR>"
+          },
+          {
+            "names": [
+              "--sandbox",
+              "-s"
+            ],
+            "valueHint": "<SANDBOX_MODE>"
+          },
+          {
+            "names": [
+              "--strict-config"
+            ]
+          },
+          {
+            "names": [
+              "--worktree"
+            ]
+          },
+          {
+            "names": [
+              "-c"
+            ]
+          }
+        ]
+      },
+      "environmentKeys": [
+        "DANGEROUS",
+        "ENV_VAR"
+      ],
+      "id": "interface:codex:c3256db11fa7",
+      "kind": "interface",
+      "observedAt": "2026-09-29T18:44:22.138Z",
+      "reportedVersion": "0.161.0-alpha.1",
+      "snapshotHash": "c3256db11fa775b38d6ae7ea5854e4b66afbc68b91a763b85f26afeb80a76fb8",
+      "status": "pass",
+      "summary": "Normalized codex CLI interface with 27 top-level commands and 20 global options."
+    }
+  ],
+  "observationId": "codex-cli-alpha-windows-x64-1ba83c199ffb142e",
+  "product": {
+    "id": "codex-cli",
+    "name": "Codex CLI"
+  },
+  "release": {
+    "canonicalVersion": "0.161.0-alpha.1",
+    "channel": "alpha",
+    "discoveredAt": "2026-09-29T18:44:22.138Z",
+    "platform": "windows-x64",
+    "publishedAt": "2026-09-29T16:37:40.876Z",
+    "sourceVersion": "0.161.0-alpha.1"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "releaseCount": 12,
+        "repository": "openai/codex"
+      },
+      "fingerprint": "d672b9eeb6cbfc012fd924336e1f0ce26066ba19004813fa210d179198c26602",
+      "id": "github-repository:snapshot",
+      "kind": "source",
+      "observedAt": "2026-09-29T18:44:22.140Z",
+      "sourceId": "github-repository",
+      "sourceType": "github-release-api",
+      "sourceUrl": "https://github.com/openai/codex/releases",
+      "status": "pass",
+      "summary": "12 published GitHub releases observed for openai/codex."
+    },
+    {
+      "details": {
+        "channel": "alpha",
+        "integrity": "sha512-//2joWTb1UcpmdDJkl6xgJqqD6ZEBvFqQtMo/EVzEnQXlQbonFyoMXDcgWGa8U7Y25KbTzAxLSG2HMg8wj+MIg==",
+        "platformPackage": {
+          "dependency": "@openai/codex-win32-x64",
+          "integrity": "sha512-kkBTcpqUxx7lJTURR4CS+vIPBQgiWmEYCXaCugXyCuwJJ1SvoyojB1aU4DKROcmTFYX90y17l1onGGY1nBhEMw==",
+          "packageName": "@openai/codex",
+          "shasum": "760d34b543eb47b93202959d82e29c3a39a6c359",
+          "tarballHost": "registry.npmjs.org",
+          "version": "0.161.0-alpha.1-win32-x64"
+        },
+        "publishedAt": "2026-09-29T16:37:40.876Z",
+        "shasum": "6f7b3c60ecb62e1ca9c6fa004c231741cf274575",
+        "tarballHost": "registry.npmjs.org",
+        "version": "0.161.0-alpha.1"
+      },
+      "id": "npm-registry:alpha:0.161.0-alpha.1",
+      "kind": "source",
+      "observedAt": "2026-09-29T18:44:22.138Z",
+      "sourceId": "npm-registry",
+      "sourceType": "npm-registry",
+      "status": "pass",
+      "summary": "alpha points to 0.161.0-alpha.1; integrity metadata is present."
+    },
+    {
+      "details": {
+        "channels": [
+          {
+            "channel": "latest",
+            "integrity": "sha512-nQWxAkzn+Rhr8TgtIhVhSlqvCytrMoqe+P8xoo4xxhCIBnzOfRs6SEmkMJfTPjkU3BYlsplwDOY2dbSp4+514g==",
+            "platformPackage": {
+              "dependency": "@openai/codex-win32-x64",
+              "integrity": "sha512-Fp+TghoUzxOguHj/WAxOIZCIJpTOb4pB9p90tf6+g2PSTWSCvqpawwxPmDuCMxKs8Sn1gO5zP621PoCkBt5cuQ==",
+              "packageName": "@openai/codex",
+              "shasum": "f083751d66aae95c4a0c5708291db6a27bc22987",
+              "tarballHost": "registry.npmjs.org",
+              "version": "0.159.0-win32-x64"
+            },
+            "publishedAt": "2026-09-29T08:10:59.170Z",
+            "shasum": "a0fa080a493abaec519b4b1e46fb7eefb7e797f7",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.159.0"
+          },
+          {
+            "channel": "alpha",
+            "integrity": "sha512-//2joWTb1UcpmdDJkl6xgJqqD6ZEBvFqQtMo/EVzEnQXlQbonFyoMXDcgWGa8U7Y25KbTzAxLSG2HMg8wj+MIg==",
+            "platformPackage": {
+              "dependency": "@openai/codex-win32-x64",
+              "integrity": "sha512-kkBTcpqUxx7lJTURR4CS+vIPBQgiWmEYCXaCugXyCuwJJ1SvoyojB1aU4DKROcmTFYX90y17l1onGGY1nBhEMw==",
+              "packageName": "@openai/codex",
+              "shasum": "760d34b543eb47b93202959d82e29c3a39a6c359",
+              "tarballHost": "registry.npmjs.org",
+              "version": "0.161.0-alpha.1-win32-x64"
+            },
+            "publishedAt": "2026-09-29T16:37:40.876Z",
+            "shasum": "6f7b3c60ecb62e1ca9c6fa004c231741cf274575",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.161.0-alpha.1"
+          }
+        ]
+      },
+      "fingerprint": "9f067fb2626048e8687e6b8a10fbc0b6ab02396020f8163cb3192252c8b4a066",
+      "id": "npm-registry:dist-tags",
+      "kind": "source",
+      "observedAt": "2026-09-29T18:44:22.138Z",
+      "sourceId": "npm-registry",
+      "sourceType": "npm-registry",
+      "sourceUrl": "https://registry.npmjs.org/%40openai%2Fcodex",
+      "status": "pass",
+      "summary": "Observed 2 npm channel tags for @openai/codex."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "MATERIAL_EVIDENCE_CHANGED",
+        "evidenceRefs": [],
+        "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+      }
+    ],
+    "severity": "minor",
+    "status": "CHANGED"
+  }
+}
