@@ -108,6 +108,34 @@ This makes ReleaseLens useful both as a human-readable observatory and as a
 source for an upgrade checklist, an internal dashboard, or a notification
 workflow.
 
+### Ask your agent
+
+ReleaseLens also ships a Model Context Protocol server, so Claude Code,
+Codex, Gemini CLI, or any other MCP-capable agent can check a version before
+it upgrades a tool. The server only reads the published JSON API; it never
+downloads or executes anything itself.
+
+```jsonc
+{
+  "mcpServers": {
+    "releaselens": {
+      "command": "pnpm",
+      "args": ["--dir", "/path/to/ReleaseLens", "mcp"],
+      "env": {
+        "RELEASELENS_BASE_URL": "https://narmi924.github.io/ReleaseLens",
+      },
+    },
+  },
+}
+```
+
+It exposes five read-only tools: `list_products`, `get_release_status`,
+`check_version`, `get_release_evidence`, and `list_incidents`. Every answer
+carries the same caveat as the site: a verdict describes the declared test
+scope, and Last Known Good is not an upgrade recommendation. Point
+`RELEASELENS_BASE_URL` (or `--base-url`) at your own deployment to query it
+instead.
+
 ## Run your own observer
 
 This section is for contributors and operators—not required to use the public

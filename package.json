@@ -10,6 +10,7 @@
   },
   "scripts": {
     "rl": "tsx apps/cli/src/index.ts",
+    "mcp": "tsx apps/mcp/src/index.ts",
     "bootstrap": "pnpm rl bootstrap",
     "observe": "pnpm rl observe --all",
     "discover": "pnpm rl discover --all",

@@ -1,0 +1,15 @@
+{
+  "name": "@releaselens/mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Model Context Protocol server that answers release-verification questions from a published ReleaseLens site.",
+  "bin": {
+    "releaselens-mcp": "./src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "@releaselens/core": "workspace:*",
+    "zod": "^3.25.76"
+  }
+}

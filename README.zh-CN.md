@@ -96,6 +96,26 @@ ReleaseLens 是面向开发者工具的公开发布情报站。它观察第一�
 
 因此 ReleaseLens 既可作为人可读的观察站，也可作为升级 checklist、内部 dashboard 或通知工作流的数据源。
 
+### 让 agent 来问
+
+ReleaseLens 还提供一个 Model Context Protocol server，Claude Code、Codex、Gemini CLI 或任何支持 MCP 的 agent 都可以在升级工具之前先查一下版本。它只读取已发布的 JSON API，自己不会下载或执行任何东西。
+
+```jsonc
+{
+  "mcpServers": {
+    "releaselens": {
+      "command": "pnpm",
+      "args": ["--dir", "/path/to/ReleaseLens", "mcp"],
+      "env": {
+        "RELEASELENS_BASE_URL": "https://narmi924.github.io/ReleaseLens",
+      },
+    },
+  },
+}
+```
+
+它暴露五个只读工具：`list_products`、`get_release_status`、`check_version`、`get_release_evidence` 与 `list_incidents`。每个回答都带着与站点相同的免责说明：verdict 只描述声明的测试范围，LKG 不是升级建议。把 `RELEASELENS_BASE_URL`（或 `--base-url`）指向你自己的部署即可查询它。
+
 ## 运行自己的 observer
 
 本节面向贡献者与运营者；使用公开站点不需要执行这些命令。要求 Node.js 22+ 与 pnpm 9+：
