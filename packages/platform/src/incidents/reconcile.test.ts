@@ -125,6 +125,27 @@ describe("incident reconciliation", () => {
     ]);
   });
 
+  it("replays persisted observations without reopening an incident it already resolved", () => {
+    const failed = observation("1.0.0", "SUSPECTED_REGRESSION", "fail", stamp);
+    const fixed = observation(
+      "1.0.1",
+      "NO_REGRESSION_DETECTED",
+      "pass",
+      "2026-08-28T13:00:00.000Z",
+    );
+    const first = reconcileIncidents([], [failed, fixed]);
+    expect(first.map((incident) => incident.status)).toEqual(["resolved"]);
+    const replayed = reconcileIncidents(first, [failed, fixed]);
+    expect(replayed).toEqual(first);
+    const later = observation(
+      "1.0.2",
+      "NO_REGRESSION_DETECTED",
+      "pass",
+      "2026-08-28T14:00:00.000Z",
+    );
+    expect(reconcileIncidents(replayed, [failed, fixed, later])).toEqual(first);
+  });
+
   it("retains a single incident when matching regression evidence persists", () => {
     const first = observation("1.0.0", "SUSPECTED_REGRESSION", "fail", stamp);
     const second = observation(

@@ -201,7 +201,8 @@ export async function discoverProfile(
         ]),
       };
     }
-    case "gemini-cli": {
+    case "gemini-cli":
+    case "codex-cli": {
       const npm = sourceConfig(profile, "npm-registry");
       const repository = sourceConfig(profile, "github-repository");
       const npmSource = new NpmSource({
@@ -210,6 +211,9 @@ export async function discoverProfile(
         channels: profile.releaseModel.channels,
         ...(typeof npm.registryUrl === "string"
           ? { registryUrl: npm.registryUrl }
+          : {}),
+        ...(typeof npm.platformDependency === "string"
+          ? { platformDependency: npm.platformDependency }
           : {}),
       });
       const githubSource = new GitHubReleaseSource({

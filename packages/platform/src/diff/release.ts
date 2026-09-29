@@ -1,4 +1,5 @@
 import {
+  compareVersions,
   type ArtifactEvidence,
   type BehaviorResult,
   type Change,
@@ -216,10 +217,34 @@ function distributionState(
   return state;
 }
 
-function currentDistributionDrift(state: Map<string, string>): Change[] {
+/**
+ * A secondary official distribution that is merely behind the official native
+ * release is propagation lag, the normal state for days after every Claude
+ * Code release.  Only a WinGet version that is ahead of, or not comparable
+ * with, the native release is a genuine disagreement between distributions.
+ */
+function nativeWingetRelation(
+  native: string,
+  winget: string,
+): "drift" | "lag" | undefined {
+  if (native === winget) {
+    return undefined;
+  }
+  try {
+    return compareVersions(winget, native, "semver") < 0 ? "lag" : "drift";
+  } catch {
+    return "drift";
+  }
+}
+
+function currentDistributionChanges(state: Map<string, string>): Change[] {
   const native = state.get("claude-native");
   const winget = state.get("winget");
-  if (native && winget && native !== winget) {
+  if (!native || !winget) {
+    return [];
+  }
+  const relation = nativeWingetRelation(native, winget);
+  if (relation === "drift") {
     return [
       {
         type: "distribution-drift",
@@ -230,6 +255,17 @@ function currentDistributionDrift(state: Map<string, string>): Change[] {
       },
     ];
   }
+  if (relation === "lag") {
+    return [
+      {
+        type: "distribution-lag",
+        summary: `WinGet ${winget} lags the official native release ${native}.`,
+        before: { native, winget },
+        after: { native, winget },
+        material: false,
+      },
+    ];
+  }
   return [];
 }
 
@@ -237,7 +273,18 @@ function currentDistributionDrift(state: Map<string, string>): Change[] {
 export function detectCurrentDistributionDrift(
   observation: ReleaseObservation,
 ): Change[] {
-  return currentDistributionDrift(distributionState(observation));
+  return currentDistributionChanges(distributionState(observation)).filter(
+    (change) => change.type === "distribution-drift",
+  );
+}
+
+/** Detects a secondary distribution that is behind the official release without disagreeing with it. */
+export function detectCurrentDistributionLag(
+  observation: ReleaseObservation,
+): Change[] {
+  return currentDistributionChanges(distributionState(observation)).filter(
+    (change) => change.type === "distribution-lag",
+  );
 }
 
 export function diffDistribution(
@@ -262,7 +309,7 @@ export function diffDistribution(
       });
     }
   }
-  return [...changes, ...currentDistributionDrift(next)];
+  return [...changes, ...currentDistributionChanges(next)];
 }
 
 export function buildReleaseDiff(

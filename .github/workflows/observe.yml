@@ -2,8 +2,11 @@ name: Observe upstream releases
 
 on:
   schedule:
-    # Daily at 00:17 UTC / 08:17 Asia/Singapore.
-    - cron: "17 0 * * *"
+    # Twice daily so a release is caught within roughly half a day.  GitHub
+    # queues schedules that start near the top of an hour, so both slots sit
+    # away from it: 01:23 UTC / 09:23 Asia/Singapore and 13:23 UTC / 21:23.
+    - cron: "23 1 * * *"
+    - cron: "23 13 * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -86,7 +89,9 @@ jobs:
   publish-pages:
     name: Publish changed release data
     needs: observe
-    if: needs.observe.outputs.data_changed == 'true'
+    # A manual run on a branch still records its observation on that branch,
+    # but only main may publish to the production site.
+    if: needs.observe.outputs.data_changed == 'true' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:

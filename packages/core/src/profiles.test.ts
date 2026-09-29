@@ -7,12 +7,14 @@ import {
 } from "./profiles";
 
 describe("product profiles", () => {
-  it("validates the three V1 product profiles", async () => {
+  it("validates the four shipped product profiles", async () => {
     const profiles = await loadProductProfiles(
       resolve(process.cwd(), "products"),
     );
+    // Profiles load in locale order of their file names.
     expect(profiles.map((profile) => profile.id)).toEqual([
       "claude-code",
+      "codex-cli",
       "codex",
       "gemini-cli",
     ]);

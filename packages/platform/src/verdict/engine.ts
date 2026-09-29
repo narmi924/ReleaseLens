@@ -9,7 +9,10 @@ import {
   type VerdictStatus,
   SCHEMA_VERSION,
 } from "@releaselens/core";
-import { detectCurrentDistributionDrift } from "../diff/release";
+import {
+  detectCurrentDistributionDrift,
+  detectCurrentDistributionLag,
+} from "../diff/release";
 
 export type VerdictInput = {
   profile: ProductProfile;
@@ -151,6 +154,45 @@ function verdict(
   return { status, severity, reasons: [{ code, message, evidenceRefs }] };
 }
 
+const secondaryDistributionSources = new Set(["claude-native", "winget"]);
+
+/**
+ * WinGet trailing the official native release is propagation lag rather than a
+ * disagreement: the verified native artifact is unaffected, so the verdict is
+ * decided by the remaining rules and the lag is recorded as an additional,
+ * evidence-linked reason instead of blocking Last Known Good.
+ */
+function secondaryDistributionLagReasons(
+  input: VerdictInput,
+): ReleaseVerdict["reasons"] {
+  const lag =
+    input.diff?.distributionChanges.find(
+      (change) => change.type === "distribution-lag",
+    ) ??
+    detectCurrentDistributionLag(input.observation as ReleaseObservation)[0];
+  if (!lag) {
+    return [];
+  }
+  return [
+    {
+      code: "SECONDARY_DISTRIBUTION_LAGGING",
+      message: `${lag.summary} The verified official artifact is unaffected.`,
+      evidenceRefs: input.observation.sources
+        .filter((source) => secondaryDistributionSources.has(source.sourceId))
+        .map((source) => source.id),
+    },
+  ];
+}
+
+function withSecondaryReasons(
+  result: ReleaseVerdict,
+  reasons: ReleaseVerdict["reasons"],
+): ReleaseVerdict {
+  return reasons.length === 0
+    ? result
+    : { ...result, reasons: [...result.reasons, ...reasons] };
+}
+
 export function evaluateVerdict(input: VerdictInput): ReleaseVerdict {
   // A failed smoke is evidence of a possible regression, not a missing artifact or
   // provenance record.  Keep it out of the foundational-evidence gate so the
@@ -232,6 +274,7 @@ export function evaluateVerdict(input: VerdictInput): ReleaseVerdict {
       [],
     );
   }
+  const lagReasons = secondaryDistributionLagReasons(input);
   if ((input.diff?.materialChanges.length ?? 0) > 0) {
     if (behaviorFailures.length > 0) {
       return {
@@ -240,12 +283,15 @@ export function evaluateVerdict(input: VerdictInput): ReleaseVerdict {
         reasons: behaviorFailures,
       };
     }
-    return verdict(
-      "CHANGED",
-      "minor",
-      "MATERIAL_EVIDENCE_CHANGED",
-      "Verified material artifact, interface, behavior, or distribution evidence changed.",
-      [],
+    return withSecondaryReasons(
+      verdict(
+        "CHANGED",
+        "minor",
+        "MATERIAL_EVIDENCE_CHANGED",
+        "Verified material artifact, interface, behavior, or distribution evidence changed.",
+        [],
+      ),
+      lagReasons,
     );
   }
   if (behaviorFailures.length > 0) {
@@ -255,12 +301,15 @@ export function evaluateVerdict(input: VerdictInput): ReleaseVerdict {
       reasons: behaviorFailures,
     };
   }
-  return verdict(
-    "NO_REGRESSION_DETECTED",
-    "info",
-    "REQUIRED_SCOPE_PASSED",
-    "Required verification and declared behavior checks passed; this is not a safety guarantee.",
-    [],
+  return withSecondaryReasons(
+    verdict(
+      "NO_REGRESSION_DETECTED",
+      "info",
+      "REQUIRED_SCOPE_PASSED",
+      "Required verification and declared behavior checks passed; this is not a safety guarantee.",
+      [],
+    ),
+    lagReasons,
   );
 }
 

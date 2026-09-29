@@ -112,6 +112,23 @@ function groupKey(observation: ReleaseObservation): string {
   return `${observation.product.id}\u0000${observation.release.channel}\u0000${observation.release.platform ?? ""}`;
 }
 
+/**
+ * Orders pointers by product, then channel, then platform, comparing each
+ * component on its own.  Comparing a joined string would let a separator sort
+ * ahead of a product id that extends another one (`codex` and `codex-cli`),
+ * and the published product documents are ordered by product id alone.
+ */
+function comparePointers(
+  left: { productId: string; channel: string; platform?: string | undefined },
+  right: { productId: string; channel: string; platform?: string | undefined },
+): number {
+  return (
+    left.productId.localeCompare(right.productId) ||
+    left.channel.localeCompare(right.channel) ||
+    (left.platform ?? "").localeCompare(right.platform ?? "")
+  );
+}
+
 function latestInGroup(
   profile: ProductProfile,
   observations: ReleaseObservation[],
@@ -341,11 +358,7 @@ export class ReleaseLensDataRepository {
             ]
           : [];
       })
-      .sort((left, right) =>
-        `${left.productId}:${left.channel}:${left.platform ?? ""}`.localeCompare(
-          `${right.productId}:${right.channel}:${right.platform ?? ""}`,
-        ),
-      );
+      .sort(comparePointers);
     const pointers = profiles
       .flatMap((profile) => {
         const profileObservations = observations.filter(
@@ -368,11 +381,7 @@ export class ReleaseLensDataRepository {
           return pointer ? [pointer] : [];
         });
       })
-      .sort((left, right) =>
-        `${left.productId}:${left.channel}:${left.platform ?? ""}`.localeCompare(
-          `${right.productId}:${right.channel}:${right.platform ?? ""}`,
-        ),
-      );
+      .sort(comparePointers);
     const products = profiles
       .map((profile) => ({
         id: profile.id,

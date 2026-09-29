@@ -1,0 +1,65 @@
+{
+  "name": "@openai/codex",
+  "dist-tags": {
+    "latest": "0.158.0",
+    "alpha": "0.159.0-alpha.12",
+    "win32-x64": "0.158.0-win32-x64"
+  },
+  "time": {
+    "0.158.0": "2026-09-24T12:00:00.000Z",
+    "0.158.0-win32-x64": "2026-09-24T11:55:00.000Z",
+    "0.159.0-alpha.12": "2026-09-27T12:00:00.000Z",
+    "0.159.0-alpha.12-win32-x64": "2026-09-27T11:55:00.000Z"
+  },
+  "versions": {
+    "0.158.0": {
+      "name": "@openai/codex",
+      "version": "0.158.0",
+      "bin": { "codex": "bin/codex.js" },
+      "optionalDependencies": {
+        "@openai/codex-linux-x64": "npm:@openai/codex@0.158.0-linux-x64",
+        "@openai/codex-win32-x64": "npm:@openai/codex@0.158.0-win32-x64"
+      },
+      "dist": {
+        "integrity": "sha512-fixturewrapperlatest",
+        "shasum": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.158.0.tgz"
+      }
+    },
+    "0.158.0-win32-x64": {
+      "name": "@openai/codex",
+      "version": "0.158.0-win32-x64",
+      "os": ["win32"],
+      "cpu": ["x64"],
+      "dist": {
+        "integrity": "sha512-fixtureplatformlatest",
+        "shasum": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.158.0-win32-x64.tgz"
+      }
+    },
+    "0.159.0-alpha.12": {
+      "name": "@openai/codex",
+      "version": "0.159.0-alpha.12",
+      "bin": { "codex": "bin/codex.js" },
+      "optionalDependencies": {
+        "@openai/codex-win32-x64": "npm:@openai/codex@0.159.0-alpha.12-win32-x64"
+      },
+      "dist": {
+        "integrity": "sha512-fixturewrapperalpha",
+        "shasum": "cccccccccccccccccccccccccccccccccccccccc",
+        "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.159.0-alpha.12.tgz"
+      }
+    },
+    "0.159.0-alpha.12-win32-x64": {
+      "name": "@openai/codex",
+      "version": "0.159.0-alpha.12-win32-x64",
+      "os": ["win32"],
+      "cpu": ["x64"],
+      "dist": {
+        "integrity": "sha512-fixtureplatformalpha",
+        "shasum": "dddddddddddddddddddddddddddddddddddddddd",
+        "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.159.0-alpha.12-win32-x64.tgz"
+      }
+    }
+  }
+}

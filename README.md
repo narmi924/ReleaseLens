@@ -6,7 +6,7 @@
 
 <p align="center">
   Know what changed before you update a developer tool.<br>
-  First-party release evidence for Codex, Claude Code, and Gemini CLI.
+  First-party release evidence for Codex, Codex CLI, Claude Code, and Gemini CLI.
 </p>
 
 <p align="center">
@@ -58,20 +58,22 @@ ReleaseLens site.
 
 ## Practical situations
 
-| If you are…                                   | ReleaseLens helps you…                                                                                                                                                   |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Using Codex from the Windows Store            | Distinguish a Store catalog version from a verified downloadable x64 package, while keeping ARM64 rollout evidence visible without blocking the primary result.          |
-| Maintaining Windows machines with Claude Code | See whether the official/native recommendation and WinGet package have drifted before treating them as the same release.                                                 |
-| Trying Gemini CLI `preview` or `nightly`      | Check the channel version, registry integrity, package identity, and recorded CLI-interface changes before moving scripts or documentation forward.                      |
-| Reviewing an upgrade or incident              | Link a concrete version change to first-party provenance, a deterministic verdict, and any related incident rather than relying on a screenshot or an unverified repost. |
-| Building your own release monitor             | Consume versioned JSON, RSS, or Atom instead of scraping the website.                                                                                                    |
+| If you are…                                   | ReleaseLens helps you…                                                                                                                                                                       |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Using Codex from the Windows Store            | Distinguish a Store catalog version from a verified downloadable x64 package, while keeping ARM64 rollout evidence visible without blocking the primary result.                              |
+| Maintaining Windows machines with Claude Code | See whether the official/native recommendation and WinGet package have drifted before treating them as the same release.                                                                     |
+| Trying Gemini CLI `preview` or `nightly`      | Check the channel version, registry integrity, package identity, and recorded CLI-interface changes before moving scripts or documentation forward.                                          |
+| Installing Codex CLI from npm                 | See whether `@openai/codex` and the pinned `win32-x64` platform package it resolves both verified and passed isolated `codex --version` and `--help` checks before you run `npm install -g`. |
+| Reviewing an upgrade or incident              | Link a concrete version change to first-party provenance, a deterministic verdict, and any related incident rather than relying on a screenshot or an unverified repost.                     |
+| Building your own release monitor             | Consume versioned JSON, RSS, or Atom instead of scraping the website.                                                                                                                        |
 
 ## What it watches today
 
 | Product         | First-party release surfaces                                                                             | What the product view makes clear                                                                                                             |
 | --------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Codex**       | Microsoft Store DisplayCatalog, experimental FE3 metadata, and verified MSIX artifacts                   | Catalog visibility versus actual downloadability, x64 primary analysis, ARM64 rollout evidence, artifact identity, and bounded smoke results. |
-| **Claude Code** | Official native/recommended distribution, Windows WinGet metadata, and optional official GitHub metadata | Official distribution state, Windows drift, verified isolated CLI checks, and community context.                                              |
+| **Codex CLI**   | npm registry `latest` and `alpha` dist-tags and the pinned `@openai/codex-win32-x64` platform package    | Wrapper and platform-package integrity, CLI snapshots, and isolated smoke results that do not depend on the Microsoft Store pipeline.         |
+| **Claude Code** | Official native/recommended distribution, Windows WinGet metadata, and optional official GitHub metadata | Official distribution state, WinGet lag versus genuine drift, verified isolated CLI checks, and community context.                            |
 | **Gemini CLI**  | npm registry `latest`, `preview`, and `nightly` dist-tags                                                | Channel history, SRI integrity, package inspection, CLI snapshots, and promotion evidence.                                                    |
 
 ## Read the evidence, not just the verdict
@@ -106,6 +108,34 @@ This makes ReleaseLens useful both as a human-readable observatory and as a
 source for an upgrade checklist, an internal dashboard, or a notification
 workflow.
 
+### Ask your agent
+
+ReleaseLens also ships a Model Context Protocol server, so Claude Code,
+Codex, Gemini CLI, or any other MCP-capable agent can check a version before
+it upgrades a tool. The server only reads the published JSON API; it never
+downloads or executes anything itself.
+
+```jsonc
+{
+  "mcpServers": {
+    "releaselens": {
+      "command": "pnpm",
+      "args": ["--dir", "/path/to/ReleaseLens", "mcp"],
+      "env": {
+        "RELEASELENS_BASE_URL": "https://narmi924.github.io/ReleaseLens",
+      },
+    },
+  },
+}
+```
+
+It exposes five read-only tools: `list_products`, `get_release_status`,
+`check_version`, `get_release_evidence`, and `list_incidents`. Every answer
+carries the same caveat as the site: a verdict describes the declared test
+scope, and Last Known Good is not an upgrade recommendation. Point
+`RELEASELENS_BASE_URL` (or `--base-url`) at your own deployment to query it
+instead.
+
 ## Run your own observer
 
 This section is for contributors and operators—not required to use the public
@@ -119,7 +149,7 @@ pnpm build
 ```
 
 Observations use temporary directories, a temporary HOME/profile, and an
-isolated npm prefix. Existing Codex, Claude Code, and Gemini CLI installations
+isolated npm prefix. Existing Codex, Codex CLI, Claude Code, and Gemini CLI installations
 on the machine are not installed, updated, downgraded, or removed. Large
 artifacts are verified before execution and discarded after the observation.
 

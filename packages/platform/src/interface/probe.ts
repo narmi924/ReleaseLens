@@ -105,6 +105,10 @@ export const productCliProbePlans = {
     executable: string,
     environment: NodeJS.ProcessEnv,
   ): CliProbePlan => ({ cliName: "codex", executable, env: environment }),
+  "codex-cli": (
+    executable: string,
+    environment: NodeJS.ProcessEnv,
+  ): CliProbePlan => ({ cliName: "codex", executable, env: environment }),
   "claude-code": (
     executable: string,
     environment: NodeJS.ProcessEnv,

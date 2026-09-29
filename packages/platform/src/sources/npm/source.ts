@@ -25,6 +25,8 @@ export type NpmVersionMetadata = {
   };
   bin?: string | Record<string, string>;
   engines?: Record<string, string>;
+  dependencies?: Record<string, string>;
+  optionalDependencies?: Record<string, string>;
 };
 
 export type NpmRegistryMetadata = {
@@ -39,6 +41,30 @@ export type NpmSourceConfig = {
   channels: string[];
   registryUrl?: string;
   sourceId?: string;
+  /**
+   * Optional dependency of the published package that carries the platform
+   * binary ReleaseLens verifies and executes, for example
+   * `@openai/codex-win32-x64`.  The wrapper manifest pins it either to an
+   * exact version or to an `npm:<package>@<version>` alias.
+   */
+  platformDependency?: string;
+};
+
+export type NpmPlatformPackageState = {
+  dependency: string;
+  packageName: string;
+  version: string;
+  integrity: string;
+  shasum: string;
+  tarballHost?: string;
+};
+
+export type NpmPlatformRuntimeArtifact = {
+  dependency: string;
+  packageName: string;
+  version: string;
+  integrity: string;
+  runtimeArtifact: ResolvedArtifactRuntime;
 };
 
 export type NpmChannelState = {
@@ -49,6 +75,7 @@ export type NpmChannelState = {
   gitHead?: string;
   publishedAt?: string;
   tarballHost?: string;
+  platformPackage?: NpmPlatformPackageState;
 };
 
 export type NpmSourceState = {
@@ -62,10 +89,15 @@ export type NpmRuntimeArtifact = {
   packageName: string;
   integrity: string;
   runtimeArtifact: ResolvedArtifactRuntime;
+  platform?: NpmPlatformRuntimeArtifact;
 };
 
 export type NpmSourceSnapshot = SourceSnapshot<NpmSourceState> & {
   runtimeArtifacts: Map<string, NpmRuntimeArtifact>;
+};
+
+type DistVersionMetadata = NpmVersionMetadata & {
+  dist: { integrity: string; shasum: string; tarball: string };
 };
 
 function registryPackageUrl(registry: string, packageName: string): string {
@@ -82,6 +114,60 @@ function tarballHost(metadata: NpmVersionMetadata): string | undefined {
   } catch {
     return undefined;
   }
+}
+
+function distVersionMetadata(
+  metadata: NpmRegistryMetadata,
+  version: string,
+  packageName: string,
+): DistVersionMetadata {
+  const versionMetadata = metadata.versions[version];
+  if (
+    !versionMetadata?.dist?.integrity ||
+    !versionMetadata.dist.shasum ||
+    !versionMetadata.dist.tarball
+  ) {
+    throw new Error(
+      `npm metadata for ${packageName}@${version} lacks required dist integrity fields.`,
+    );
+  }
+  return versionMetadata as DistVersionMetadata;
+}
+
+function runtimeArtifactFor(
+  packageName: string,
+  versionMetadata: DistVersionMetadata,
+): ResolvedArtifactRuntime {
+  const runtimeUrl = new URL(versionMetadata.dist.tarball);
+  const fileName =
+    runtimeUrl.pathname.split("/").at(-1) ||
+    `${packageName.replace("/", "-")}-${versionMetadata.version}.tgz`;
+  return {
+    temporaryUrl: runtimeUrl,
+    expectedFileName: fileName,
+    sourceHost: runtimeUrl.host,
+  };
+}
+
+/**
+ * Resolves the manifest spec of a platform dependency to the exact package
+ * and version it pins.  Only an exact pin is acceptable: a range would let the
+ * observed binary drift away from what the wrapper actually published.
+ */
+export function parsePlatformDependencySpec(
+  dependency: string,
+  spec: string,
+): { packageName: string; version: string } {
+  const alias = /^npm:(@?[^@]+)@(.+)$/.exec(spec.trim());
+  const target = alias
+    ? { packageName: alias[1]!, version: alias[2]! }
+    : { packageName: dependency, version: spec.trim() };
+  if (!/^[0-9]/.test(target.version)) {
+    throw new Error(
+      `Platform dependency ${dependency} is not pinned to an exact version (${spec}).`,
+    );
+  }
+  return target;
 }
 
 export class NpmSource implements ReleaseSource<NpmSourceState> {
@@ -104,41 +190,41 @@ export class NpmSource implements ReleaseSource<NpmSourceState> {
       );
     }
     const runtimeArtifacts = new Map<string, NpmRuntimeArtifact>();
-    const states: NpmChannelState[] = this.config.channels.map((channel) => {
+    const documents = new Map<string, NpmRegistryMetadata>([
+      [metadata.name, metadata],
+    ]);
+    const states: NpmChannelState[] = [];
+    for (const channel of this.config.channels) {
       const version = metadata["dist-tags"][channel];
       if (!version) {
         throw new Error(
           `npm dist-tag ${channel} is missing for ${this.config.packageName}.`,
         );
       }
-      const versionMetadata = metadata.versions[version];
-      if (
-        !versionMetadata?.dist?.integrity ||
-        !versionMetadata.dist.shasum ||
-        !versionMetadata.dist.tarball
-      ) {
-        throw new Error(
-          `npm metadata for ${this.config.packageName}@${version} lacks required dist integrity fields.`,
-        );
-      }
+      const versionMetadata = distVersionMetadata(
+        metadata,
+        version,
+        this.config.packageName,
+      );
       const host = tarballHost(versionMetadata);
-      const tarball = versionMetadata.dist.tarball;
-      const runtimeUrl = new URL(tarball);
-      const fileName =
-        runtimeUrl.pathname.split("/").at(-1) ||
-        `${metadata.name.replace("/", "-")}-${version}.tgz`;
+      const platform = this.config.platformDependency
+        ? await this.resolvePlatformPackage(
+            context,
+            registry,
+            documents,
+            versionMetadata,
+            this.config.platformDependency,
+          )
+        : undefined;
       runtimeArtifacts.set(`${channel}:${version}`, {
         channel,
         version,
         packageName: metadata.name,
         integrity: versionMetadata.dist.integrity,
-        runtimeArtifact: {
-          temporaryUrl: runtimeUrl,
-          expectedFileName: fileName,
-          sourceHost: runtimeUrl.host,
-        },
+        runtimeArtifact: runtimeArtifactFor(metadata.name, versionMetadata),
+        ...(platform ? { platform: platform.runtime } : {}),
       });
-      return {
+      states.push({
         channel,
         version,
         integrity: versionMetadata.dist.integrity,
@@ -150,8 +236,9 @@ export class NpmSource implements ReleaseSource<NpmSourceState> {
           ? { publishedAt: metadata.time[version] }
           : {}),
         ...(host ? { tarballHost: host } : {}),
-      };
-    });
+        ...(platform ? { platformPackage: platform.state } : {}),
+      });
+    }
     const state: NpmSourceState = {
       packageName: metadata.name,
       channels: states,
@@ -201,6 +288,72 @@ export class NpmSource implements ReleaseSource<NpmSourceState> {
       evidence,
       state,
       runtimeArtifacts,
+    };
+  }
+
+  /**
+   * Resolves the platform binary package a wrapper version pins through its
+   * optional dependencies.  A same-package alias (`npm:@openai/codex@<v>-win32-x64`)
+   * is served from the document already in hand; a separate package name is
+   * fetched once per discovery and cached across channels.
+   */
+  private async resolvePlatformPackage(
+    context: SourceContext,
+    registry: string,
+    documents: Map<string, NpmRegistryMetadata>,
+    versionMetadata: DistVersionMetadata,
+    dependency: string,
+  ): Promise<{
+    runtime: NpmPlatformRuntimeArtifact;
+    state: NpmPlatformPackageState;
+  }> {
+    const spec =
+      versionMetadata.optionalDependencies?.[dependency] ??
+      versionMetadata.dependencies?.[dependency];
+    if (!spec) {
+      throw new Error(
+        `${this.config.packageName}@${versionMetadata.version} does not declare the platform dependency ${dependency}.`,
+      );
+    }
+    const target = parsePlatformDependencySpec(dependency, spec);
+    let document = documents.get(target.packageName);
+    if (!document) {
+      document = await requestJson<NpmRegistryMetadata>(
+        context,
+        registryPackageUrl(registry, target.packageName),
+      );
+      if (document.name !== target.packageName) {
+        throw new Error(
+          `npm registry returned ${document.name} when ${target.packageName} was requested.`,
+        );
+      }
+      documents.set(target.packageName, document);
+    }
+    const platformMetadata = distVersionMetadata(
+      document,
+      target.version,
+      target.packageName,
+    );
+    const host = tarballHost(platformMetadata);
+    return {
+      runtime: {
+        dependency,
+        packageName: target.packageName,
+        version: target.version,
+        integrity: platformMetadata.dist.integrity,
+        runtimeArtifact: runtimeArtifactFor(
+          target.packageName,
+          platformMetadata,
+        ),
+      },
+      state: {
+        dependency,
+        packageName: target.packageName,
+        version: target.version,
+        integrity: platformMetadata.dist.integrity,
+        shasum: platformMetadata.dist.shasum,
+        ...(host ? { tarballHost: host } : {}),
+      },
     };
   }
 }

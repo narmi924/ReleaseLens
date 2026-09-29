@@ -16,20 +16,21 @@ pnpm rl doctor
 
 ## 常用命令
 
-| 命令                                     | 作用                                                 |
-| ---------------------------------------- | ---------------------------------------------------- |
-| `pnpm rl doctor`                         | 校验 product profiles 和宿主基本能力。               |
-| `pnpm rl discover --all`                 | 只读地探测所有第一方 source。                        |
-| `pnpm rl observe --all`                  | 运行完整、可幂等的当前观察；可能临时获取新的制品。   |
-| `pnpm rl observe --product <id> --force` | 对一个 profile 强制重新观察。                        |
-| `pnpm rl refresh-community --recent 72h` | 仅刷新官方 GitHub community metadata，不下载制品。   |
-| `pnpm rl validate-data`                  | 校验 canonical data、schema、关联和索引。            |
-| `pnpm rl build-public`                   | 生成 `/api/v1` 与 Feed。                             |
-| `pnpm rl validate-public`                | 校验已生成静态 API 与 RSS/Atom。                     |
-| `pnpm test`                              | 单元、fixture、integration 测试。                    |
-| `pnpm lint` / `pnpm typecheck`           | 静态质量门。                                         |
-| `pnpm build`                             | 生成公开数据并执行 production static build。         |
-| `pnpm e2e`                               | 对 production static export 运行 Playwright 主流程。 |
+| 命令                                     | 作用                                                                                                         |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `pnpm rl doctor`                         | 校验 product profiles 和宿主基本能力。                                                                       |
+| `pnpm rl discover --all`                 | 只读地探测所有第一方 source。                                                                                |
+| `pnpm rl observe --all`                  | 运行完整、可幂等的当前观察；可能临时获取新的制品。                                                           |
+| `pnpm rl observe --product <id> --force` | 对一个 profile 强制重新观察。                                                                                |
+| `pnpm rl refresh-community --recent 72h` | 仅刷新官方 GitHub community metadata，不下载制品。                                                           |
+| `pnpm rl validate-data`                  | 校验 canonical data、schema、关联和索引。                                                                    |
+| `pnpm rl build-public`                   | 生成 `/api/v1` 与 Feed。                                                                                     |
+| `pnpm rl validate-public`                | 校验已生成静态 API 与 RSS/Atom。                                                                             |
+| `pnpm test`                              | 单元、fixture、integration 测试。                                                                            |
+| `pnpm lint` / `pnpm typecheck`           | 静态质量门。                                                                                                 |
+| `pnpm build`                             | 生成公开数据并执行 production static build。                                                                 |
+| `pnpm e2e`                               | 对 production static export 运行 Playwright 主流程。                                                         |
+| `pnpm mcp`                               | 以 stdio 启动只读的 MCP server，默认读取公开站点；可用 `--base-url` 或 `RELEASELENS_BASE_URL` 指向别的部署。 |
 
 可使用 `pnpm tsx scripts/serve-static.ts` 在本机提供 `apps/web/out` 的静态预览；必须先运行 `pnpm build`。
 

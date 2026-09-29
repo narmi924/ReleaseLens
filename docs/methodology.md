@@ -19,7 +19,7 @@ ReleaseLens 的结论由可追溯的结构化证据产生，不使用 LLM 判定
 Verdict 是确定性优先级规则的结果，并引用其原因和 evidence ID：
 
 1. 缺少 required evidence、关键验证失败或必需行为未通过：`UNVERIFIED` 或回归类状态。
-2. 多个相关官方分发面版本不一致：`DISTRIBUTION_DRIFT`。
+2. 多个相关官方分发面版本不一致：`DISTRIBUTION_DRIFT`。次要分发面（如 WinGet）只是落后于官方 native 版本时属于正常的传播滞后：verdict 按其余规则判定，只附加 `SECONDARY_DISTRIBUTION_LAGGING` 原因并引用两条来源证据，且不阻止已验证的 native 制品成为 LKG。
 3. 有结构化行为/接口/社区回归证据：`SUSPECTED_REGRESSION`；强确认条件满足时为 `CONFIRMED_REGRESSION`。
 4. 通过已声明 required scope，且无更高优先级原因：`NO_REGRESSION_DETECTED`。
 5. 有材料性变化但未触发上述情况时：`CHANGED`。
@@ -37,6 +37,7 @@ Latest 和 LKG 是不同的东西。Latest 是按产品 profile 的版本规则�
 - Codex DisplayCatalog 是 Store 的目录表面；FE3 是未文档化、实验性的下载元数据解析器。两者在 rollout 中可以暂时不一致。
 - Claude Code 的官方安装页/native release 与 WinGet 是不同分发面；二者不一致是有价值的 drift 事实，而不是自动判定任一方错误。
 - Gemini CLI 的 npm registry dist-tags 是通道的 source of truth；`gitHead` 等可选元数据只用于增强 promotion lineage，缺失时明确标记未知。
+- Codex CLI 的 npm wrapper 通过 `optionalDependencies` 别名固定引用平台二进制包；ReleaseLens 只解析并执行 `win32-x64` 平台包，wrapper 与平台包分别作为独立的 artifact evidence 持久化，别名不是精确版本时 discovery 失败而不是猜测。
 - 官方 GitHub API 是社区证据来源之一，但它可能限流；限流只降低可观察性，不能演绎成没有回归。
 
 ## 明确不宣称的能力

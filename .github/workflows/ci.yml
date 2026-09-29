@@ -79,6 +79,8 @@ jobs:
             product: gemini-cli
           - os: windows-latest
             product: claude-code
+          - os: windows-latest
+            product: codex-cli
     steps:
       - uses: actions/checkout@v4
 

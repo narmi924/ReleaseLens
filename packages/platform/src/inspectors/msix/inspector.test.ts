@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { createWriteStream } from "node:fs";
 import { once } from "node:events";
-import { join } from "node:path";
+import { join, win32 } from "node:path";
 import yazl from "yazl";
 import { describe, expect, it } from "vitest";
 import { withArtifactLease } from "../../artifacts/lease";
@@ -15,6 +15,7 @@ type FixtureOptions = {
   corruptStoredBlockSize?: boolean;
   caseMismatchedBlockMapNames?: boolean;
   includeEmptyFile?: boolean;
+  includePercentEncodedEntry?: boolean;
 };
 
 function block(
@@ -40,6 +41,16 @@ async function writeMsix(
     `<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"><Identity Name="Fixture.App" Publisher="CN=Fixture" Version="1.2.3.4" ProcessorArchitecture="${architecture}" /><Applications><Application Id="App" Executable="${executable}" EntryPoint="Fixture.App" /></Applications></Package>`,
   );
   const executableData = Buffer.from("fixture executable bytes");
+  // OPC percent-encodes the physical ZIP item name while the block map keeps
+  // the logical file name, exactly like `@scope` packages inside a Store MSIX.
+  const scopedData = Buffer.from("scoped package entry bytes");
+  const scopedLogicalName = win32.join(
+    "node_modules",
+    "@scope",
+    "pkg",
+    "index.js",
+  );
+  const scopedPhysicalName = "node_modules/%40scope/pkg/index.js";
   const manifestBlockName = options.caseMismatchedBlockMapNames
     ? "appxmanifest.xml"
     : "AppxManifest.xml";
@@ -56,6 +67,10 @@ async function writeMsix(
       options.includeExecutable === false
         ? ""
         : block(executableBlockName, executableData)
+    }${
+      options.includePercentEncodedEntry
+        ? block(scopedLogicalName, scopedData)
+        : ""
     }${options.includeEmptyFile ? '<File Name="empty.d.ts" Size="0" />' : ""}</BlockMap>`,
   );
   const zip = new yazl.ZipFile();
@@ -69,6 +84,9 @@ async function writeMsix(
   }
   if (options.includeEmptyFile) {
     zip.addBuffer(Buffer.alloc(0), "empty.d.ts", { compress: false });
+  }
+  if (options.includePercentEncodedEntry) {
+    zip.addBuffer(scopedData, scopedPhysicalName, { compress: false });
   }
   const output = createWriteStream(path);
   zip.outputStream.pipe(output);
@@ -93,6 +111,7 @@ describe("MSIX inspector", () => {
       await writeMsix(msix, {
         includeEmptyFile: true,
         caseMismatchedBlockMapNames: true,
+        includePercentEncodedEntry: true,
       });
       const inspection = await new MsixInspector(signatureVerifier).inspect(
         msix,
@@ -107,7 +126,7 @@ describe("MSIX inspector", () => {
       expect(inspection.validForExecution).toBe(true);
       expect(inspection.blockMap).toMatchObject({
         status: "pass",
-        verifiedFiles: 3,
+        verifiedFiles: 4,
       });
       expect(inspection.signature.status).toBe("pass");
     });

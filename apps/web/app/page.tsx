@@ -3,6 +3,24 @@ import { ToolCard } from "../components/tool-card";
 import { getAllProducts, getApiIndex, getObservation } from "../lib/data";
 import { dateTime } from "../lib/format";
 
+const numberWords = [
+  "Zero",
+  "One",
+  "Two",
+  "Three",
+  "Four",
+  "Five",
+  "Six",
+  "Seven",
+  "Eight",
+  "Nine",
+  "Ten",
+];
+
+function toolCountLabel(count: number): string {
+  return numberWords[count] ?? String(count);
+}
+
 export default function HomePage(): React.ReactElement {
   const index = getApiIndex();
   const products = getAllProducts();
@@ -29,7 +47,8 @@ export default function HomePage(): React.ReactElement {
         </div>
         <p className="eyebrow">ReleaseLens observatory</p>
         <h2>
-          Three tools. Their real distribution models. No black-box score.
+          {toolCountLabel(products.length)} tools. Their real distribution
+          models. No black-box score.
         </h2>
         <p>
           Verdicts are deterministic: source provenance, artifact verification,

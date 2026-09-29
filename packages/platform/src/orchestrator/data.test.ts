@@ -107,6 +107,21 @@ function observation(
   });
 }
 
+function observationFor(
+  productId: string,
+  channel: string,
+  platform: string,
+  version: string,
+  id: string,
+): ReleaseObservation {
+  const base = observation(version, id);
+  return ReleaseObservationSchema.parse({
+    ...base,
+    product: { id: productId, name: productId },
+    release: { ...base.release, channel, platform },
+  });
+}
+
 afterEach(async () => {
   await Promise.all(
     roots.splice(0).map((root) => rm(root, { recursive: true, force: true })),
@@ -151,6 +166,49 @@ describe("canonical data repository", () => {
     const indexes = await data.indexes();
     expect(indexes.latest?.releases).toMatchObject([{ version: "1.1.0" }]);
     expect(indexes.knownGood?.pointers).toMatchObject([{ version: "1.1.0" }]);
+  });
+
+  it("orders index pointers by product before channel so they match the product documents", async () => {
+    const data = await repository();
+    const profiles = (
+      await loadProductProfiles(resolve(process.cwd(), "products"))
+    ).filter((candidate) => ["codex", "codex-cli"].includes(candidate.id));
+    for (const entry of [
+      observationFor(
+        "codex-cli",
+        "alpha",
+        "windows-x64",
+        "1.1.0-alpha.1",
+        "codex-cli-alpha",
+      ),
+      observationFor(
+        "codex-cli",
+        "latest",
+        "windows-x64",
+        "1.0.0",
+        "codex-cli-latest",
+      ),
+      observationFor(
+        "codex",
+        "stable",
+        "windows-x64",
+        "26.1.0.0",
+        "codex-stable",
+      ),
+    ]) {
+      expect(await data.writeObservation(entry)).toBe(true);
+    }
+    expect(await data.rebuildIndexes(profiles)).toBe(true);
+    const indexes = await data.indexes();
+    const fromProducts = indexes.products!.products.flatMap(
+      (product) => product.latest,
+    );
+    expect(indexes.latest?.releases).toEqual(fromProducts);
+    expect(
+      indexes.latest?.releases.map(
+        (release) => `${release.productId}:${release.channel}`,
+      ),
+    ).toEqual(["codex:stable", "codex-cli:alpha", "codex-cli:latest"]);
   });
 
   it("refuses unsafe runtime strings before writing data", async () => {

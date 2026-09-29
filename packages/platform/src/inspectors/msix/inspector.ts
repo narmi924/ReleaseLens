@@ -6,7 +6,7 @@ import {
   type MsixSignatureVerifier,
   type SignatureVerification,
 } from "./signature";
-import { findZipEntry, openMsixArchive } from "./zip";
+import { findZipEntry, logicalPackagePath, openMsixArchive } from "./zip";
 
 export type MsixExpectation = {
   packageIdentity: string;
@@ -111,7 +111,7 @@ function parseManifest(xml: string): {
 }
 
 function normalizedEntry(value: string): string {
-  return value.replace(/\\/g, "/").replace(/^\/+/, "").toLowerCase();
+  return logicalPackagePath(value).toLowerCase();
 }
 
 function check(
@@ -282,7 +282,7 @@ export class MsixInspector {
       const topLevelDirectories = Array.from(
         new Set(
           Array.from(archive.entries.keys())
-            .map((entry) => entry.split("/")[0]!)
+            .map((entry) => logicalPackagePath(entry).split("/")[0]!)
             .filter(Boolean),
         ),
       )
