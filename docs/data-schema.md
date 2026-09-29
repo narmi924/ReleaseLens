@@ -9,7 +9,7 @@ data/
   observations/<product>/<observationId>.json
   diffs/<product>/<diffId>.json
   incidents/<incidentId>.json
-  channel-history/gemini-cli/<sourceFingerprint>.json
+  channel-history/<npm-product>/<sourceFingerprint>.json
   indexes/products.json
   indexes/latest.json
   indexes/known-good.json
@@ -19,14 +19,14 @@ data/
 
 ## 主要文档
 
-| 文档                     | 必需身份字段                                                                 | 核心内容                                                      |
-| ------------------------ | ---------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| `ReleaseObservation`     | `observationId`、产品、canonical/source version、channel、platform、发现时间 | 五类 evidence、可选 `comparedWith`、deterministic verdict     |
-| `ReleaseDiff`            | `diffId`、产品、observation/previous observation                             | artifact/interface/behavior/distribution/material changes     |
-| `Incident`               | incident ID、产品、状态、受影响 observation                                  | signature、evidence refs、opened/monitoring/resolved timeline |
-| `LatestIndex`            | product/channel/platform、observation ID、version                            | 当前观察状态与 verdict                                        |
-| `KnownGoodIndex`         | product/channel/platform、observation ID、version                            | 满足 profile policy 的最近 observation                        |
-| `ChannelHistorySnapshot` | product、observedAt、source fingerprint                                      | Gemini channel version/integrity/git identity 变化            |
+| 文档                     | 必需身份字段                                                                 | 核心内容                                                                        |
+| ------------------------ | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `ReleaseObservation`     | `observationId`、产品、canonical/source version、channel、platform、发现时间 | 五类 evidence、可选 `comparedWith`、deterministic verdict                       |
+| `ReleaseDiff`            | `diffId`、产品、observation/previous observation                             | artifact/interface/behavior/distribution/material changes                       |
+| `Incident`               | incident ID、产品、状态、受影响 observation                                  | signature、evidence refs、opened/monitoring/resolved timeline                   |
+| `LatestIndex`            | product/channel/platform、observation ID、version                            | 当前观察状态与 verdict                                                          |
+| `KnownGoodIndex`         | product/channel/platform、observation ID、version                            | 满足 profile policy 的最近 observation                                          |
+| `ChannelHistorySnapshot` | product、observedAt、source fingerprint                                      | npm 产品（Gemini CLI、Codex CLI）的 channel version/integrity/git identity 变化 |
 
 Evidence item 统一携带 `id`、`kind`、`status`、`summary`、可选结构化 `details`、`observedAt`。Artifact、source、interface、behavior 和 community evidence 各自有额外严格字段；详细 runtime schema 位于 `packages/core/src/models.ts`。
 

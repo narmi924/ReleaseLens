@@ -20,7 +20,7 @@ test("dashboard surfaces real current release state", async ({ page }) => {
   await expect(
     page.getByRole("heading", { name: /Release intelligence/i }),
   ).toBeVisible();
-  for (const tool of ["Codex", "Claude Code", "Gemini CLI"]) {
+  for (const tool of ["Codex", "Codex CLI", "Claude Code", "Gemini CLI"]) {
     await expect(
       page.getByRole("heading", { name: tool, exact: true }),
     ).toBeVisible();

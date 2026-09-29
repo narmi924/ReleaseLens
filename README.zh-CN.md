@@ -6,7 +6,7 @@
 
 <p align="center">
   在更新开发工具前，先弄清楚到底变了什么。<br>
-  为 Codex、Claude Code 与 Gemini CLI 提供可追溯的第一方发布证据。
+  为 Codex、Codex CLI、Claude Code 与 Gemini CLI 提供可追溯的第一方发布证据。
 </p>
 
 <p align="center">
@@ -51,21 +51,23 @@ ReleaseLens 是面向开发者工具的公开发布情报站。它观察第一�
 
 ## 实际使用场景
 
-| 当你…                                     | ReleaseLens 可以帮你…                                                                                          |
-| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| 通过 Windows Store 使用 Codex             | 区分 Store catalog 版本与已验证的可下载 x64 package；同时展示 ARM64 rollout 证据而不阻塞主结论。               |
-| 维护安装了 Claude Code 的 Windows 设备    | 在把它们当成同一个 release 之前，先看到官方/native recommendation 与 WinGet package 是否出现版本漂移。         |
-| 尝试 Gemini CLI 的 `preview` 或 `nightly` | 在更新脚本或文档前，核对 channel version、registry integrity、package identity 与已记录的 CLI interface 变化。 |
-| 审核一次升级或 incident                   | 将具体版本变化关联到第一方来源、确定性 verdict 与相关 incident，而不是依赖截图或未经验证的转述。               |
-| 构建自己的 release monitor                | 直接消费带版本的 JSON、RSS 或 Atom，而不是抓取网页。                                                           |
+| 当你…                                     | ReleaseLens 可以帮你…                                                                                                                                   |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 通过 Windows Store 使用 Codex             | 区分 Store catalog 版本与已验证的可下载 x64 package；同时展示 ARM64 rollout 证据而不阻塞主结论。                                                        |
+| 维护安装了 Claude Code 的 Windows 设备    | 在把它们当成同一个 release 之前，先看到官方/native recommendation 与 WinGet package 是否出现版本漂移。                                                  |
+| 尝试 Gemini CLI 的 `preview` 或 `nightly` | 在更新脚本或文档前，核对 channel version、registry integrity、package identity 与已记录的 CLI interface 变化。                                          |
+| 通过 npm 安装 Codex CLI                   | 在 `npm install -g` 之前，确认 `@openai/codex` 与它固定引用的 `win32-x64` 平台包都通过了验证，并在隔离环境中通过了 `codex --version` 与 `--help` 检查。 |
+| 审核一次升级或 incident                   | 将具体版本变化关联到第一方来源、确定性 verdict 与相关 incident，而不是依赖截图或未经验证的转述。                                                        |
+| 构建自己的 release monitor                | 直接消费带版本的 JSON、RSS 或 Atom，而不是抓取网页。                                                                                                    |
 
 ## 当前观察哪些发布面
 
-| 产品            | 第一方发布面                                                                      | 产品页会明确告诉你什么                                                                                            |
-| --------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Codex**       | Microsoft Store DisplayCatalog、实验性 FE3 metadata、已验证的 MSIX artifact       | catalog 可见性与实际可下载性的区别、x64 主分析、ARM64 rollout evidence、artifact identity 与有边界的 smoke 结果。 |
-| **Claude Code** | 官方 native/recommended 分发、Windows WinGet metadata、可选的官方 GitHub metadata | 官方分发状态、WinGet 滞后与真实漂移的区分、经过验证的隔离 CLI 检查与 community context。                          |
-| **Gemini CLI**  | npm registry 的 `latest`、`preview`、`nightly` dist-tags                          | channel history、SRI integrity、package inspection、CLI snapshots 与 promotion evidence。                         |
+| 产品            | 第一方发布面                                                                              | 产品页会明确告诉你什么                                                                                            |
+| --------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Codex**       | Microsoft Store DisplayCatalog、实验性 FE3 metadata、已验证的 MSIX artifact               | catalog 可见性与实际可下载性的区别、x64 主分析、ARM64 rollout evidence、artifact identity 与有边界的 smoke 结果。 |
+| **Claude Code** | 官方 native/recommended 分发、Windows WinGet metadata、可选的官方 GitHub metadata         | 官方分发状态、WinGet 滞后与真实漂移的区分、经过验证的隔离 CLI 检查与 community context。                          |
+| **Codex CLI**   | npm registry 的 `latest`、`alpha` dist-tags 与固定引用的 `@openai/codex-win32-x64` 平台包 | wrapper 与平台包的 integrity、CLI snapshots，以及不依赖 Microsoft Store 管线的隔离 smoke 结果。                   |
+| **Gemini CLI**  | npm registry 的 `latest`、`preview`、`nightly` dist-tags                                  | channel history、SRI integrity、package inspection、CLI snapshots 与 promotion evidence。                         |
 
 ## 看证据，而不只看 verdict
 
@@ -105,7 +107,7 @@ pnpm rl observe --all
 pnpm build
 ```
 
-观察过程只使用临时目录、临时 HOME/profile 与隔离的 npm prefix。它不会安装、更新、降级或卸载机器上已有的 Codex、Claude Code 或 Gemini CLI。大制品会在执行前验证，并在本次观察后删除。
+观察过程只使用临时目录、临时 HOME/profile 与隔离的 npm prefix。它不会安装、更新、降级或卸载机器上已有的 Codex、Codex CLI、Claude Code 或 Gemini CLI。大制品会在执行前验证，并在本次观察后删除。
 
 命令、本地测试规则与清理方式见[本地开发](docs/local-development.md)。数据流与产品边界见[架构](docs/architecture.md)、[方法学](docs/methodology.md)、[产品配置](docs/product-profiles.md)与[数据模式](docs/data-schema.md)。
 

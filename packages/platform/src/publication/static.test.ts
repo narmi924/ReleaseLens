@@ -116,7 +116,7 @@ describe("static publication", () => {
     await expect(
       validateStaticPublication({ publicDirectory: directory }),
     ).resolves.toMatchObject({
-      products: 3,
+      products: 4,
       observations: expect.any(Number),
       rssItems: expect.any(Number),
       atomEntries: expect.any(Number),

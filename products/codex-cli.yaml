@@ -1,0 +1,64 @@
+id: codex-cli
+name: Codex CLI
+releaseModel:
+  versionScheme: semver
+  channels:
+    - latest
+    - alpha
+sources:
+  - id: npm-registry
+    type: npm
+    required: true
+    config:
+      packageName: "@openai/codex"
+      registryUrl: https://registry.npmjs.org
+      platformDependency: "@openai/codex-win32-x64"
+  - id: github-repository
+    type: github
+    required: false
+    config:
+      repository: openai/codex
+platforms:
+  - id: windows-x64
+    os: windows
+    architecture: x64
+    required: true
+inspectors:
+  - id: npm-package
+    type: npm-package
+    required: true
+  - id: cli
+    type: cli
+    required: true
+tests:
+  - id: codex-version
+    level: L2
+    requiredForKnownGood: true
+    requiredCapabilities:
+      - shell
+      - node
+      - windows
+  - id: codex-help
+    level: L2
+    requiredForKnownGood: true
+    requiredCapabilities:
+      - shell
+      - node
+      - windows
+knownGoodPolicy:
+  requiredEvidenceKinds:
+    - source
+    - artifact
+    - interface
+    - behavior
+  requiredBehaviorTests:
+    - codex-version
+    - codex-help
+  acceptedVerdicts:
+    - NO_REGRESSION_DETECTED
+    - CHANGED
+metadata:
+  sourceAuthority: npm registry dist-tags, wrapper manifest, and the pinned win32-x64 platform package
+community:
+  repository: openai/codex
+  lookbackHours: 72

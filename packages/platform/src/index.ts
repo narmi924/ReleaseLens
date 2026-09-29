@@ -29,6 +29,7 @@ export * from "./runners/cli-smoke";
 export * from "./runners/gemini";
 export * from "./runners/claude";
 export * from "./runners/codex";
+export * from "./runners/codex-cli";
 export * from "./diff/release";
 export * from "./verdict/engine";
 export * from "./community/github";

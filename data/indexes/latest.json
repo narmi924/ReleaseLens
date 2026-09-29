@@ -55,6 +55,46 @@
       "version": "26.924.2738.0"
     },
     {
+      "channel": "alpha",
+      "discoveredAt": "2026-09-28T16:07:04.820Z",
+      "observationId": "codex-cli-alpha-windows-x64-8c0d52b435826850",
+      "platform": "windows-x64",
+      "productId": "codex-cli",
+      "schemaVersion": 1,
+      "verdict": {
+        "reasons": [
+          {
+            "code": "REQUIRED_SCOPE_PASSED",
+            "evidenceRefs": [],
+            "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
+          }
+        ],
+        "severity": "info",
+        "status": "NO_REGRESSION_DETECTED"
+      },
+      "version": "0.159.0-alpha.13"
+    },
+    {
+      "channel": "latest",
+      "discoveredAt": "2026-09-28T16:07:04.820Z",
+      "observationId": "codex-cli-latest-windows-x64-572074297b91633d",
+      "platform": "windows-x64",
+      "productId": "codex-cli",
+      "schemaVersion": 1,
+      "verdict": {
+        "reasons": [
+          {
+            "code": "REQUIRED_SCOPE_PASSED",
+            "evidenceRefs": [],
+            "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
+          }
+        ],
+        "severity": "info",
+        "status": "NO_REGRESSION_DETECTED"
+      },
+      "version": "0.158.0"
+    },
+    {
       "channel": "latest",
       "discoveredAt": "2026-09-28T05:29:10.142Z",
       "observationId": "gemini-cli-latest-node-61c598481a0a2060",

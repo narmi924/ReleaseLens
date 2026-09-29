@@ -29,7 +29,15 @@ Gemini CLI profile 以 npm registry 的 `latest`、`preview`、`nightly` dist-ta
 
 针对新版本，适配器读取版本、tarball、SRI integrity、shasum、published time 和可用的 `gitHead`；下载后必须通过 integrity、package name/version 和 `package.json` 检查才可执行。它以临时 npm prefix/HOME 运行 `gemini --version` 与 `gemini --help`，生成接口快照，不触发登录或模型调用。只有通道实际推进时才写入 Gemini channel-history；可用 source identity 支持 promotion evidence，缺失时不会猜测。
 
-## 添加第四个产品
+## Codex CLI：npm wrapper 与固定引用的平台二进制包
+
+`@openai/codex` 在 npm 上只是一个 launcher wrapper：它通过 `optionalDependencies` 的 `npm:@openai/codex@<version>-<platform>` 别名固定引用真正的平台二进制包。Codex CLI profile 以 `latest` 与 `alpha` dist-tags 为通道 source of truth，并为每个通道解析 wrapper manifest 里固定引用的 `@openai/codex-win32-x64`；别名若不是精确版本，discovery 会直接失败，而不是猜测一个范围内的版本。
+
+观察时 wrapper 与平台包各自下载、各自校验 SRI integrity 与 package identity，然后按 npm 的布局解压到临时目录（`node_modules/@openai/codex` 与 `node_modules/@openai/codex-win32-x64` 并列），再通过观察者自己的 Node 运行已发布的 launcher 执行 `codex --version` 与 `codex --help`。不安装全局包，不运行 registry 客户端；launcher 用与用户相同的 `require.resolve` 查找平台二进制。两个包分别作为独立的 artifact evidence 持久化，平台包带有 `x64` 架构标记。
+
+这条轨道刻意独立于 Codex 桌面版的 Microsoft Store 管线：即使 FE3 实验协议出现变化，npm 分发的 Codex CLI 仍然有可验证的 latest 与 LKG。
+
+## 添加新的产品
 
 新增产品不应复制一个巨大的流程。应当：
 

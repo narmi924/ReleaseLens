@@ -20,6 +20,7 @@ import { runClaudeNativeSmoke } from "../runners/claude";
 import { detectRunnerCapabilities } from "../runners/capabilities";
 import { behaviorEvidence } from "../runners/framework";
 import { runCodexMsixSmoke } from "../runners/codex";
+import { runCodexCliSmoke } from "../runners/codex-cli";
 import { runGeminiSmoke } from "../runners/gemini";
 import type { SourceContext } from "../sources/contracts";
 import {
@@ -60,9 +61,23 @@ type CandidateWork = {
 
 type EvidenceBundle = {
   artifact: ArtifactEvidence;
+  /** Every artifact the runner verified when a release ships as more than one package. */
+  artifacts?: ArtifactEvidence[];
   behavior: BehaviorEvidence;
   interface?: InterfaceEvidence;
 };
+
+/** Products whose release surface is an npm registry package with dist-tag channels. */
+function npmRegistryProfile(profile: ProductProfile): boolean {
+  return profile.sources.some(
+    (source) => source.id === "npm-registry" && source.type === "npm",
+  );
+}
+
+/** The first declared channel is the one community evidence and current-state views follow. */
+function primaryChannel(profile: ProductProfile): string {
+  return profile.releaseModel.channels[0]!;
+}
 
 /** Converts arbitrary transport/runtime failures into text safe for canonical public evidence. */
 export function redactPersistableErrorMessage(error: unknown): string {
@@ -216,14 +231,18 @@ function candidateWork(
   profile: ProductProfile,
   discovery: ProductDiscovery,
 ): CandidateWork[] {
-  if (profile.id === "gemini-cli") {
+  if (npmRegistryProfile(profile)) {
     const snapshot = firstSnapshot<NpmSourceSnapshot>(
       discovery,
       "npm-registry",
     );
     if (!snapshot) return [];
+    const platform =
+      profile.platforms.find((entry) => entry.required)?.id ??
+      profile.platforms[0]?.id ??
+      "node";
     return snapshot.candidates.map((candidate) => ({
-      candidate: { ...candidate, platform: "node" },
+      candidate: { ...candidate, platform },
       runtime: snapshot.runtimeArtifacts.get(
         `${candidate.channel}:${candidate.sourceVersion}`,
       ),
@@ -347,7 +366,7 @@ async function runWork(
 ): Promise<EvidenceBundle> {
   const capabilities = detectRunnerCapabilities();
   try {
-    if (profile.id === "gemini-cli") {
+    if (profile.id === "gemini-cli" || profile.id === "codex-cli") {
       if (!work.runtime)
         return unavailableBundle(
           profile,
@@ -355,6 +374,19 @@ async function runWork(
           observedAt,
           "npm registry metadata did not supply a temporary runtime artifact.",
         );
+      if (profile.id === "codex-cli") {
+        const outcome = await runCodexCliSmoke(
+          work.runtime as NpmRuntimeArtifact,
+          observedAt,
+          capabilities,
+        );
+        return {
+          artifact: outcome.artifacts[0]!,
+          artifacts: outcome.artifacts,
+          behavior: outcome.behavior,
+          ...(outcome.interface ? { interface: outcome.interface } : {}),
+        };
+      }
       const outcome = await runGeminiSmoke(
         work.runtime as NpmRuntimeArtifact,
         observedAt,
@@ -433,8 +465,7 @@ async function refreshCommunity(
   warnings: string[],
   lookbackHours?: number,
 ): Promise<CommunityEvidence | undefined> {
-  if (profile.id === "gemini-cli" && candidate.channel !== "latest")
-    return undefined;
+  if (candidate.channel !== primaryChannel(profile)) return undefined;
   try {
     const communityProfile =
       lookbackHours && profile.community
@@ -476,7 +507,7 @@ function profileChannelHistory(
 ):
   | { sourceFingerprint: string; channels: unknown[]; observedAt: string }
   | undefined {
-  if (profile.id !== "gemini-cli") return undefined;
+  if (!npmRegistryProfile(profile)) return undefined;
   const snapshot = firstSnapshot<NpmSourceSnapshot>(discovery, "npm-registry");
   if (!snapshot) return undefined;
   return {
@@ -604,7 +635,7 @@ async function observeProduct(
         discoveredAt: observedAt,
       },
       sources,
-      artifacts: [evidence.artifact],
+      artifacts: evidence.artifacts ?? [evidence.artifact],
       interfaces: evidence.interface ? [evidence.interface] : [],
       behavior: [evidence.behavior],
       ...(community ? { community } : {}),
@@ -694,8 +725,7 @@ function currentObservations(
   for (const observation of observations.filter(
     (candidate) => candidate.product.id === profile.id,
   )) {
-    if (profile.id === "gemini-cli" && observation.release.channel !== "latest")
-      continue;
+    if (observation.release.channel !== primaryChannel(profile)) continue;
     const key = `${observation.release.channel}\u0000${observation.release.platform ?? ""}`;
     const current = grouped.get(key);
     if (
