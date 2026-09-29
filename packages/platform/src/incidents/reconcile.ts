@@ -281,12 +281,22 @@ export function reconcileIncidents(
           incident.status !== "resolved" &&
           sharesSignature(incident, signatures),
       );
+      // Reconciliation replays every persisted observation on each run.  A
+      // regression that an earlier run already recorded, and later resolved,
+      // must not open a fresh incident every time it is replayed.
+      const alreadyRecorded = incidents.some(
+        (incident) =>
+          incident.productId === observation.product.id &&
+          hasObservation(incident, observation.observationId),
+      );
       if (activeIndex >= 0) {
         incidents[activeIndex] = mergeRegression(
           incidents[activeIndex] as ActiveIncident,
           observation,
           signatures,
         );
+      } else if (alreadyRecorded) {
+        continue;
       } else {
         const openedAt = observation.release.discoveredAt;
         const incident: Incident = IncidentSchema.parse({
