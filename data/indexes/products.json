@@ -8,7 +8,7 @@
       "knownGood": [
         {
           "channel": "stable",
-          "observationId": "claude-code-stable-windows-x64-736d87b1a22309cc",
+          "observationId": "claude-code-stable-windows-x64-ac2ea6c239f7ae59",
           "platform": "windows-x64",
           "productId": "claude-code",
           "requirementsSatisfied": [
@@ -19,24 +19,24 @@
             "claude-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-30T06:49:54.808Z",
+          "selectedAt": "2026-09-30T18:29:30.555Z",
           "version": "2.1.285"
         }
       ],
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-30T06:49:54.808Z",
-          "observationId": "claude-code-stable-windows-x64-736d87b1a22309cc",
+          "discoveredAt": "2026-09-30T18:29:30.555Z",
+          "observationId": "claude-code-stable-windows-x64-ac2ea6c239f7ae59",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "MATERIAL_EVIDENCE_CHANGED",
+                "code": "REQUIRED_SCOPE_PASSED",
                 "evidenceRefs": [],
-                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
               },
               {
                 "code": "SECONDARY_DISTRIBUTION_LAGGING",
@@ -47,8 +47,8 @@
                 "message": "WinGet 2.1.283 lags the official native release 2.1.285. The verified official artifact is unaffected."
               }
             ],
-            "severity": "minor",
-            "status": "CHANGED"
+            "severity": "info",
+            "status": "NO_REGRESSION_DETECTED"
           },
           "version": "2.1.285"
         }
@@ -64,8 +64,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-09-30T06:50:43.739Z",
-          "observationId": "codex-stable-windows-x64-a60aedef7226e2ac",
+          "discoveredAt": "2026-09-30T18:30:14.082Z",
+          "observationId": "codex-stable-windows-x64-dd0553c80247cd98",
           "platform": "windows-x64",
           "productId": "codex",
           "schemaVersion": 1,
@@ -74,14 +74,14 @@
               {
                 "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
                 "evidenceRefs": [
-                  "artifact:msix:OpenAI.Codex:26.928.1915.0:x64"
+                  "artifact:msix:OpenAI.Codex:26.928.2636.0:x64"
                 ],
                 "message": "Required artifact evidence is missing or did not pass."
               },
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
                 "evidenceRefs": [
-                  "behavior:codex:2026-09-30T06:50:43.739Z"
+                  "behavior:codex:2026-09-30T18:30:14.082Z"
                 ],
                 "message": "Required behavior codex-msix-identity is fail."
               },
@@ -94,7 +94,7 @@
             "severity": "major",
             "status": "UNVERIFIED"
           },
-          "version": "26.928.1915.0"
+          "version": "26.928.2636.0"
         }
       ],
       "name": "Codex"
@@ -108,7 +108,7 @@
       "knownGood": [
         {
           "channel": "alpha",
-          "observationId": "codex-cli-alpha-windows-x64-9febe16bd5555517",
+          "observationId": "codex-cli-alpha-windows-x64-56c157cf5738cbe7",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "requirementsSatisfied": [
@@ -120,12 +120,12 @@
             "codex-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-30T06:50:01.676Z",
-          "version": "0.161.0-alpha.3"
+          "selectedAt": "2026-09-30T18:29:39.065Z",
+          "version": "0.161.0-alpha.4"
         },
         {
           "channel": "latest",
-          "observationId": "codex-cli-latest-windows-x64-d349d24b32e8d341",
+          "observationId": "codex-cli-latest-windows-x64-dd0230fcec57b7d2",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "requirementsSatisfied": [
@@ -137,15 +137,15 @@
             "codex-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-09-30T06:50:01.676Z",
+          "selectedAt": "2026-09-30T18:29:39.065Z",
           "version": "0.159.2"
         }
       ],
       "latest": [
         {
           "channel": "alpha",
-          "discoveredAt": "2026-09-30T06:50:01.676Z",
-          "observationId": "codex-cli-alpha-windows-x64-9febe16bd5555517",
+          "discoveredAt": "2026-09-30T18:29:39.065Z",
+          "observationId": "codex-cli-alpha-windows-x64-56c157cf5738cbe7",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "schemaVersion": 1,
@@ -160,12 +160,12 @@
             "severity": "minor",
             "status": "CHANGED"
           },
-          "version": "0.161.0-alpha.3"
+          "version": "0.161.0-alpha.4"
         },
         {
           "channel": "latest",
-          "discoveredAt": "2026-09-30T06:50:01.676Z",
-          "observationId": "codex-cli-latest-windows-x64-d349d24b32e8d341",
+          "discoveredAt": "2026-09-30T18:29:39.065Z",
+          "observationId": "codex-cli-latest-windows-x64-dd0230fcec57b7d2",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "schemaVersion": 1,

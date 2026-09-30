@@ -112,6 +112,20 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29579"
+        ],
+        "signature": "code:execution|title:bug-core-massive-false-positives-untrusted|version:0.62.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29577"
+        ],
+        "signature": "code:refresh_token|title:bug-mcp-mcp-oauth-obtain-refresh|version:0.62.0|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29576"
         ],
         "signature": "code:tos_violation|title:appeal-submitted-but-tos-violation-suspension",
@@ -119,7 +133,7 @@
       }
     ],
     "details": {
-      "fingerprint": "26813a3edbe7ed3fbfdd08d226b8fd9f014eb8b2c025332a54a876511efbf47d",
+      "fingerprint": "43f8dd8988841d7748a31c44b0c3c280a0423db1f7b75c70db8a8c5be18ba55a",
       "lookbackHours": 72,
       "releaseVersion": "0.62.0",
       "source": "official-github-issues"
@@ -194,13 +208,40 @@
         "signature": "code:tos_violation|title:appeal-submitted-but-tos-violation-suspension",
         "title": "Appeal submitted but TOS_VIOLATION suspension persists (request for private follow-up)",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29576"
+      },
+      {
+        "createdAt": "2026-09-30T08:59:08Z",
+        "explicitVersion": "0.62.0",
+        "id": "github-issue:google-gemini/gemini-cli:29577",
+        "labels": [
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:refresh_token|title:bug-mcp-mcp-oauth-obtain-refresh|version:0.62.0|platform:arm64",
+        "title": "bug(mcp): MCP OAuth fails to obtain refresh_token and drops client_secret during background token refresh",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29577"
+      },
+      {
+        "createdAt": "2026-09-30T14:57:30Z",
+        "explicitVersion": "0.62.0",
+        "id": "github-issue:google-gemini/gemini-cli:29579",
+        "labels": [
+          "area/security",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:execution|title:bug-core-massive-false-positives-untrusted|version:0.62.0|platform:linux",
+        "title": "bug(core): massive false positives with \"Untrusted Command Flags Detected\" security warning after PR #29250",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29579"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-09-30T06:51:52.864Z",
+    "observedAt": "2026-09-30T18:31:19.768Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-3967af18cd504df2",
   "interfaces": [
