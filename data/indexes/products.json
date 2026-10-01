@@ -26,23 +26,45 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-10-01T07:14:30.619Z",
-          "observationId": "claude-code-stable-windows-x64-a9364917bbf40a5b",
+          "discoveredAt": "2026-10-01T18:57:13.408Z",
+          "observationId": "claude-code-stable-windows-x64-5c79454451fdda8e",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "MATERIAL_EVIDENCE_CHANGED",
-                "evidenceRefs": [],
-                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+                "code": "STRONG_OFFICIAL_GITHUB_CLUSTER",
+                "evidenceRefs": [
+                  "community:claude-code:official-github",
+                  "github-issue:anthropics/claude-code:98769",
+                  "github-issue:anthropics/claude-code:98770",
+                  "github-issue:anthropics/claude-code:98771",
+                  "github-issue:anthropics/claude-code:98772",
+                  "github-issue:anthropics/claude-code:98773",
+                  "github-issue:anthropics/claude-code:98774",
+                  "github-issue:anthropics/claude-code:98775",
+                  "github-issue:anthropics/claude-code:98776",
+                  "github-issue:anthropics/claude-code:98777",
+                  "github-issue:anthropics/claude-code:98778",
+                  "github-issue:anthropics/claude-code:98779",
+                  "github-issue:anthropics/claude-code:98780",
+                  "github-issue:anthropics/claude-code:98781",
+                  "github-issue:anthropics/claude-code:98782",
+                  "github-issue:anthropics/claude-code:98783",
+                  "github-issue:anthropics/claude-code:98784",
+                  "github-issue:anthropics/claude-code:98785",
+                  "github-issue:anthropics/claude-code:98786",
+                  "github-issue:anthropics/claude-code:98787",
+                  "github-issue:anthropics/claude-code:98788"
+                ],
+                "message": "A strong official-GitHub issue cluster is associated with this release."
               }
             ],
-            "severity": "minor",
-            "status": "CHANGED"
+            "severity": "major",
+            "status": "SUSPECTED_REGRESSION"
           },
-          "version": "2.1.286"
+          "version": "2.1.287"
         }
       ],
       "name": "Claude Code"
@@ -100,7 +122,7 @@
       "knownGood": [
         {
           "channel": "alpha",
-          "observationId": "codex-cli-alpha-windows-x64-a6a283a571c8a487",
+          "observationId": "codex-cli-alpha-windows-x64-7c72c964ef46bf39",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "requirementsSatisfied": [
@@ -112,12 +134,12 @@
             "codex-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-01T07:14:37.819Z",
-          "version": "0.161.0-alpha.8"
+          "selectedAt": "2026-10-01T18:57:20.643Z",
+          "version": "0.161.0-alpha.13"
         },
         {
           "channel": "latest",
-          "observationId": "codex-cli-latest-windows-x64-8299e2032c86fe26",
+          "observationId": "codex-cli-latest-windows-x64-1b7b8c7f988057f9",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "requirementsSatisfied": [
@@ -129,15 +151,15 @@
             "codex-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-01T07:14:37.819Z",
+          "selectedAt": "2026-10-01T18:57:20.643Z",
           "version": "0.159.3"
         }
       ],
       "latest": [
         {
           "channel": "alpha",
-          "discoveredAt": "2026-10-01T07:14:37.819Z",
-          "observationId": "codex-cli-alpha-windows-x64-a6a283a571c8a487",
+          "discoveredAt": "2026-10-01T18:57:20.643Z",
+          "observationId": "codex-cli-alpha-windows-x64-7c72c964ef46bf39",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "schemaVersion": 1,
@@ -152,12 +174,12 @@
             "severity": "minor",
             "status": "CHANGED"
           },
-          "version": "0.161.0-alpha.8"
+          "version": "0.161.0-alpha.13"
         },
         {
           "channel": "latest",
-          "discoveredAt": "2026-10-01T07:14:37.819Z",
-          "observationId": "codex-cli-latest-windows-x64-8299e2032c86fe26",
+          "discoveredAt": "2026-10-01T18:57:20.643Z",
+          "observationId": "codex-cli-latest-windows-x64-1b7b8c7f988057f9",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "schemaVersion": 1,

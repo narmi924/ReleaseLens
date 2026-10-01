@@ -98,23 +98,23 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29571"
-        ],
-        "signature": "code:even|title:custom-theme-validation-rejects-focus-active|version:0.63.0-preview.0|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29572"
-        ],
-        "signature": "code:every|title:parseimagename-misparses-sandbox-image-reference-whose|version:0.63.0-preview.0|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29579"
         ],
         "signature": "code:execution|title:bug-core-massive-false-positives-untrusted|version:0.62.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29591"
+        ],
+        "signature": "code:experience|title:high-memory-usage-detected-you-experience|version:0.62.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29589"
+        ],
+        "signature": "code:read_file|title:bug-core-striptoolcallidprefixes-drops-functionresponse-parts|version:0.62.0|platform:linux",
         "strength": "weak"
       },
       {
@@ -126,6 +126,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29592"
+        ],
+        "signature": "code:token-free|title:macos-pty-master-leak-persists-completed|version:0.62.0|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29576"
         ],
         "signature": "code:tos_violation|title:appeal-submitted-but-tos-violation-suspension",
@@ -133,42 +140,13 @@
       }
     ],
     "details": {
-      "fingerprint": "db1aecbb5faf1e5e8b63ec3cd20c370ab0fe098e0169d29f413e29492dc66121",
+      "fingerprint": "6da7fd8233ad9122a49b8eefa6f2c25338244b2d49e380186fa9de7d9210a424",
       "lookbackHours": 72,
       "releaseVersion": "0.62.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-09-29T22:04:23Z",
-        "explicitVersion": "0.63.0-preview.0",
-        "id": "github-issue:google-gemini/gemini-cli:29571",
-        "labels": [
-          "area/core",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29571",
-        "signature": "code:even|title:custom-theme-validation-rejects-focus-active|version:0.63.0-preview.0|platform:macos",
-        "title": "Custom theme validation rejects ui.focus and ui.active, which the theme resolver already reads",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29571"
-      },
-      {
-        "createdAt": "2026-09-29T22:27:04Z",
-        "explicitVersion": "0.63.0-preview.0",
-        "id": "github-issue:google-gemini/gemini-cli:29572",
-        "labels": [
-          "area/platform",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:every|title:parseimagename-misparses-sandbox-image-reference-whose|version:0.63.0-preview.0|platform:macos",
-        "title": "parseImageName misparses a sandbox image reference whose registry carries a port",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29572"
-      },
       {
         "createdAt": "2026-09-30T00:49:21Z",
         "explicitVersion": "24.04",
@@ -230,6 +208,8 @@
         "labels": [
           "area/core",
           "effort/medium",
+          "kind/bug",
+          "priority/p1",
           "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
@@ -237,13 +217,57 @@
         "signature": "code:ctrl-c|title:ink-raw-mode-ctrl-unawaited-cancellation|version:0.62.0|platform:linux",
         "title": "Ink raw mode Ctrl-C unawaited cancellation causes hung interrupts, state rollbacks, and session poisoning (\"Requests ending with a model turn are not         supported\")",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29588"
+      },
+      {
+        "createdAt": "2026-10-01T12:31:06Z",
+        "explicitVersion": "0.62.0",
+        "id": "github-issue:google-gemini/gemini-cli:29589",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:read_file|title:bug-core-striptoolcallidprefixes-drops-functionresponse-parts|version:0.62.0|platform:linux",
+        "title": "bug(core): stripToolCallIdPrefixes drops functionResponse.parts, so images read with read_file never reach the model",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29589"
+      },
+      {
+        "createdAt": "2026-10-01T14:51:34Z",
+        "explicitVersion": "0.62.0",
+        "id": "github-issue:google-gemini/gemini-cli:29591",
+        "labels": [
+          "area/core",
+          "effort/large",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:experience|title:high-memory-usage-detected-you-experience|version:0.62.0",
+        "title": "⚠  High memory usage detected: 7.28 GB. If you experience a crash, please file a bug report by running /bug",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29591"
+      },
+      {
+        "createdAt": "2026-10-01T15:14:48Z",
+        "explicitVersion": "0.62.0",
+        "id": "github-issue:google-gemini/gemini-cli:29592",
+        "labels": [
+          "area/core",
+          "effort/large",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:token-free|title:macos-pty-master-leak-persists-completed|version:0.62.0|platform:arm64",
+        "title": "macOS PTY master leak persists in 0.62.0 after completed shell commands (token-free repro)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29592"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-01T07:16:22.613Z",
+    "observedAt": "2026-10-01T18:58:14.590Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-0657223315edb366",
   "interfaces": [

@@ -174,120 +174,105 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:49908"
+          "github-issue:openai/codex:50051"
         ],
-        "signature": "code:already-completed|title:mode-list-already-completed-tool-calls|version:0.159.3",
+        "signature": "code:cmd-k|title:show-date-recent-conversations-picker-cmd",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49914"
+          "github-issue:openai/codex:50067"
         ],
-        "signature": "code:codex-app-tools|title:macos-12404-mcp-status-returns-32601|version:26.928.21956|platform:macos",
+        "signature": "code:deb13-amd64|title:codex-drops-messages-over-remote-ssh|version:26.928.31416|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49899"
+          "github-issue:openai/codex:50060"
         ],
-        "signature": "code:data-pm-slice|title:bug|version:0.159.2|platform:windows",
+        "signature": "code:edit|title:codex-can-longer-edit-files",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49895"
+          "github-issue:openai/codex:50063"
         ],
-        "signature": "code:each|title:codex-show-relative-timestamps-directly-project",
+        "signature": "code:environment|title:chatgpt-desktop-opening-one-long-local|version:26.928|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49897"
+          "github-issue:openai/codex:50064"
         ],
-        "signature": "code:edit|title:windows-shell-node-repl-tools-fail|version:26.905.11957|platform:windows",
+        "signature": "code:environment|title:codex-desktop-scheduled-automation-interrupts-active|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49906"
+          "github-issue:openai/codex:50070"
         ],
-        "signature": "code:emails|title:mode-let-scripts-call-small-model|version:0.159.3",
+        "signature": "code:error|title:codex-browser-control-crashes-tiocsti-macos|version:26.928.31416|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49902",
-          "github-issue:openai/codex:49903"
+          "github-issue:openai/codex:50071"
         ],
-        "signature": "code:environment|title:desktop-sidebar-unpin-remote-threads-while|platform:windows",
-        "strength": "moderate"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:49907"
-        ],
-        "signature": "code:exec|title:mode-save-full-output-truncated-exec|version:0.159.3",
+        "signature": "code:every|title:codex-crashing-every-few-minutes-thousands|version:26.928.31416|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49904"
+          "github-issue:openai/codex:50053"
         ],
-        "signature": "code:execution|title:windows-wsl-agent-shell-execution-desktop|version:26.928.3736.0|platform:windows",
+        "signature": "code:exec|title:exec-json-web-search-items-carry|version:0.159.0|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49905"
+          "github-issue:openai/codex:50057"
         ],
-        "signature": "code:exist|title:mode-persist-store-load-values-across|version:0.159.3",
+        "signature": "code:extension|title:bitwarden-extension-work-dot-computer|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49900"
+          "github-issue:openai/codex:50056"
         ],
-        "signature": "code:exiting|title:windows-unc-workspace-regression-conversation-messages|version:26.928.31416|platform:windows",
+        "signature": "code:follow-up|title:follow-prompts-consistently-cancel-immediately-initial|version:26.928.31416|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49911"
+          "github-issue:openai/codex:50055"
         ],
-        "signature": "code:extension|title:opening-image-codex|version:26.917.62051|platform:windows",
+        "signature": "code:full-page|title:macos-review-stuck-loading-review-unavailable|version:26.928.31416|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49913"
+          "github-issue:openai/codex:50065"
         ],
-        "signature": "code:extension|title:ubuntu-lts-codex-extension-send-button|version:24.04.4|platform:linux",
+        "signature": "code:real-time|title:desktop-live-progress-summaries-clipped-one",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49901"
+          "github-issue:openai/codex:50069"
         ],
-        "signature": "code:extra|title:unexpected-extra-codex-sidebar-entry-web",
+        "signature": "code:sandbox_approval|title:macos-sites-publishing-blocked-granular-sandbox|version:27.0.0|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:49909"
+          "github-issue:openai/codex:50068"
         ],
-        "signature": "code:restricted-network|title:macos-restricted-network-ssh-failure-surfaces|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:49896"
-        ],
-        "signature": "code:user-attachments|title:dot-connect-computer|platform:windows",
+        "signature": "code:skill-name|title:support-skill-name-invocation-codex-match",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "27d8ac500ce9be8cb32b7d18795993322ab388dc4cb326247a5e15a2cfc363cf",
+      "fingerprint": "9cb050419e910d5d36d3afc41b359b694e06857519c9e59f4b9c906901d3b461",
       "lookbackHours": 72,
       "releaseVersion": "26.928.3736.0",
       "source": "official-github-issues"
@@ -295,270 +280,217 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-10-01T06:17:17Z",
-        "id": "github-issue:openai/codex:49895",
+        "createdAt": "2026-10-01T17:49:47Z",
+        "id": "github-issue:openai/codex:50051",
         "labels": [
           "app",
           "enhancement",
           "session"
         ],
         "maintainerAcknowledged": false,
-        "signature": "code:each|title:codex-show-relative-timestamps-directly-project",
-        "title": "[Codex App] Show relative timestamps directly in project thread lists",
-        "url": "https://github.com/openai/codex/issues/49895"
+        "signature": "code:cmd-k|title:show-date-recent-conversations-picker-cmd",
+        "title": "Show date in recent conversations picker (Cmd-K)",
+        "url": "https://github.com/openai/codex/issues/50051"
       },
       {
-        "createdAt": "2026-10-01T06:22:51Z",
-        "id": "github-issue:openai/codex:49896",
-        "labels": [
-          "app",
-          "bug",
-          "connectivity",
-          "remote",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:user-attachments|title:dot-connect-computer|platform:windows",
-        "title": "My dot cannot connect to my computer",
-        "url": "https://github.com/openai/codex/issues/49896"
-      },
-      {
-        "createdAt": "2026-10-01T06:28:00Z",
-        "explicitVersion": "26.905.11957",
-        "id": "github-issue:openai/codex:49897",
-        "labels": [
-          "app",
-          "bug",
-          "sandbox",
-          "tool-calls",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:edit|title:windows-shell-node-repl-tools-fail|version:26.905.11957|platform:windows",
-        "title": "Windows app: shell and Node REPL tools fail with a WSL workspace path",
-        "url": "https://github.com/openai/codex/issues/49897"
-      },
-      {
-        "createdAt": "2026-10-01T06:32:44Z",
-        "explicitVersion": "0.159.2",
-        "id": "github-issue:openai/codex:49899",
+        "createdAt": "2026-10-01T17:52:44Z",
+        "explicitVersion": "0.159.0",
+        "id": "github-issue:openai/codex:50053",
         "labels": [
           "bug",
           "CLI",
-          "TUI",
-          "windows-os"
+          "exec"
         ],
         "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/49899",
-        "signature": "code:data-pm-slice|title:bug|version:0.159.2|platform:windows",
-        "title": "BUG",
-        "url": "https://github.com/openai/codex/issues/49899"
+        "platform": "arm64",
+        "signature": "code:exec|title:exec-json-web-search-items-carry|version:0.159.0|platform:arm64",
+        "title": "exec --json: web_search items carry the `id` member twice",
+        "url": "https://github.com/openai/codex/issues/50053"
       },
       {
-        "createdAt": "2026-10-01T06:34:46Z",
+        "createdAt": "2026-10-01T18:02:51Z",
         "explicitVersion": "26.928.31416",
-        "id": "github-issue:openai/codex:49900",
+        "id": "github-issue:openai/codex:50055",
         "labels": [
           "app",
           "bug",
+          "code-review"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:full-page|title:macos-review-stuck-loading-review-unavailable|version:26.928.31416|platform:arm64",
+        "title": "macOS Code Review stuck loading: “Code Review is unavailable / Reopen Code Review to try again” before PR search",
+        "url": "https://github.com/openai/codex/issues/50055"
+      },
+      {
+        "createdAt": "2026-10-01T18:03:13Z",
+        "explicitVersion": "26.928.31416",
+        "id": "github-issue:openai/codex:50056",
+        "labels": [
+          "bug",
+          "extension",
           "session",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:exiting|title:windows-unc-workspace-regression-conversation-messages|version:26.928.31416|platform:windows",
-        "title": "Windows UNC workspace regression: conversation messages are not persisted and disappear after app restart",
-        "url": "https://github.com/openai/codex/issues/49900"
+        "resolutionReference": "https://github.com/openai/codex/issues/50056",
+        "signature": "code:follow-up|title:follow-prompts-consistently-cancel-immediately-initial|version:26.928.31416|platform:windows",
+        "title": "Follow-up prompts consistently cancel immediately after initial task completes",
+        "url": "https://github.com/openai/codex/issues/50056"
       },
       {
-        "createdAt": "2026-10-01T06:39:49Z",
-        "id": "github-issue:openai/codex:49901",
+        "createdAt": "2026-10-01T18:04:19Z",
+        "id": "github-issue:openai/codex:50057",
         "labels": [
-          "app",
-          "bug",
-          "mcp",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:extra|title:unexpected-extra-codex-sidebar-entry-web",
-        "title": "Unexpected extra Codex sidebar entry after web Chat/Pro uses a custom MCP plugin",
-        "url": "https://github.com/openai/codex/issues/49901"
-      },
-      {
-        "createdAt": "2026-10-01T06:41:08Z",
-        "id": "github-issue:openai/codex:49902",
-        "labels": [
-          "app",
-          "app-server",
-          "bug",
-          "remote"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/49902",
-        "signature": "code:environment|title:desktop-sidebar-unpin-remote-threads-while|platform:windows",
-        "title": "Desktop sidebar: cannot unpin remote threads while their host is offline",
-        "url": "https://github.com/openai/codex/issues/49902"
-      },
-      {
-        "createdAt": "2026-10-01T06:43:56Z",
-        "id": "github-issue:openai/codex:49903",
-        "labels": [
-          "app",
-          "app-server",
-          "bug",
-          "remote"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:environment|title:desktop-sidebar-unpin-remote-threads-while|platform:windows",
-        "title": "Desktop sidebar: cannot unpin remote threads while their host is offline",
-        "url": "https://github.com/openai/codex/issues/49903"
-      },
-      {
-        "createdAt": "2026-10-01T06:49:04Z",
-        "explicitVersion": "26.928.3736.0",
-        "id": "github-issue:openai/codex:49904",
-        "labels": [
-          "app",
-          "bug",
-          "tool-calls",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:execution|title:windows-wsl-agent-shell-execution-desktop|version:26.928.3736.0|platform:windows",
-        "title": "Windows + WSL: agent shell execution fails with os error 2 after desktop app update",
-        "url": "https://github.com/openai/codex/issues/49904"
-      },
-      {
-        "createdAt": "2026-10-01T06:49:10Z",
-        "explicitVersion": "0.159.3",
-        "id": "github-issue:openai/codex:49905",
-        "labels": [
-          "CLI",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:exist|title:mode-persist-store-load-values-across|version:0.159.3",
-        "title": "Code Mode: persist store/load values across session resume and fork",
-        "url": "https://github.com/openai/codex/issues/49905"
-      },
-      {
-        "createdAt": "2026-10-01T06:49:12Z",
-        "explicitVersion": "0.159.3",
-        "id": "github-issue:openai/codex:49906",
-        "labels": [
-          "CLI",
-          "config",
-          "enhancement",
-          "tool-calls"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:emails|title:mode-let-scripts-call-small-model|version:0.159.3",
-        "title": "Code Mode: let scripts call a small model to classify or summarize items",
-        "url": "https://github.com/openai/codex/issues/49906"
-      },
-      {
-        "createdAt": "2026-10-01T06:49:14Z",
-        "explicitVersion": "0.159.3",
-        "id": "github-issue:openai/codex:49907",
-        "labels": [
-          "CLI",
-          "enhancement",
-          "tool-calls"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:exec|title:mode-save-full-output-truncated-exec|version:0.159.3",
-        "title": "Code Mode: save the full output of a truncated exec cell where the model can read it",
-        "url": "https://github.com/openai/codex/issues/49907"
-      },
-      {
-        "createdAt": "2026-10-01T06:49:17Z",
-        "explicitVersion": "0.159.3",
-        "id": "github-issue:openai/codex:49908",
-        "labels": [
-          "CLI",
-          "enhancement",
-          "tool-calls"
-        ],
-        "maintainerAcknowledged": false,
-        "resolutionReference": "https://github.com/openai/codex/issues/49908",
-        "signature": "code:already-completed|title:mode-list-already-completed-tool-calls|version:0.159.3",
-        "title": "Code Mode: list already-completed tool calls when an exec script fails",
-        "url": "https://github.com/openai/codex/issues/49908"
-      },
-      {
-        "createdAt": "2026-10-01T06:52:33Z",
-        "id": "github-issue:openai/codex:49909",
-        "labels": [
-          "connectivity",
-          "enhancement",
-          "remote",
-          "sandbox"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:restricted-network|title:macos-restricted-network-ssh-failure-surfaces|platform:macos",
-        "title": "macOS: restricted-network SSH failure surfaces as DNS error (-65563) without clear policy/recovery diagnostics",
-        "url": "https://github.com/openai/codex/issues/49909"
-      },
-      {
-        "createdAt": "2026-10-01T07:03:32Z",
-        "explicitVersion": "26.917.62051",
-        "id": "github-issue:openai/codex:49911",
-        "labels": [
-          "bug",
-          "extension",
-          "imagen",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:extension|title:opening-image-codex|version:26.917.62051|platform:windows",
-        "title": "Opening image on codex CLI with VC code.",
-        "url": "https://github.com/openai/codex/issues/49911"
-      },
-      {
-        "createdAt": "2026-10-01T07:11:49Z",
-        "explicitVersion": "24.04.4",
-        "id": "github-issue:openai/codex:49913",
-        "labels": [
-          "bug",
-          "extension"
+          "browser",
+          "bug"
         ],
         "maintainerAcknowledged": false,
         "platform": "linux",
-        "signature": "code:extension|title:ubuntu-lts-codex-extension-send-button|version:24.04.4|platform:linux",
-        "title": "Ubuntu 24.04.4 LTS Codex VS Code extension: Send button keeps spinning and prompts are never submitted",
-        "url": "https://github.com/openai/codex/issues/49913"
+        "signature": "code:extension|title:bitwarden-extension-work-dot-computer|platform:linux",
+        "title": "Bitwarden extension does not work on dot’s computer",
+        "url": "https://github.com/openai/codex/issues/50057"
       },
       {
-        "createdAt": "2026-10-01T07:15:19Z",
-        "explicitVersion": "26.928.21956",
-        "id": "github-issue:openai/codex:49914",
+        "createdAt": "2026-10-01T18:06:29Z",
+        "id": "github-issue:openai/codex:50060",
+        "labels": [
+          "bug",
+          "sandbox"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:edit|title:codex-can-longer-edit-files",
+        "title": "Codex can no longer edit files",
+        "url": "https://github.com/openai/codex/issues/50060"
+      },
+      {
+        "createdAt": "2026-10-01T18:18:51Z",
+        "explicitVersion": "26.928",
+        "id": "github-issue:openai/codex:50063",
         "labels": [
           "app",
-          "app-server",
           "bug",
-          "mcp"
+          "performance",
+          "session"
         ],
         "maintainerAcknowledged": false,
         "platform": "macos",
-        "signature": "code:codex-app-tools|title:macos-12404-mcp-status-returns-32601|version:26.928.21956|platform:macos",
-        "title": "[macOS 26.928.21956 / 12404] MCP status returns -32601 after restart; task read/send tools remain unavailable",
-        "url": "https://github.com/openai/codex/issues/49914"
+        "signature": "code:environment|title:chatgpt-desktop-opening-one-long-local|version:26.928|platform:macos",
+        "title": "ChatGPT desktop 26.928: opening one long local chat repeatedly pegs renderer CPU and freezes the UI",
+        "url": "https://github.com/openai/codex/issues/50063"
+      },
+      {
+        "createdAt": "2026-10-01T18:26:29Z",
+        "id": "github-issue:openai/codex:50064",
+        "labels": [
+          "app",
+          "automations",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:environment|title:codex-desktop-scheduled-automation-interrupts-active|platform:macos",
+        "title": "Codex desktop: scheduled automation interrupts active voice input and loses spoken request",
+        "url": "https://github.com/openai/codex/issues/50064"
+      },
+      {
+        "createdAt": "2026-10-01T18:26:57Z",
+        "id": "github-issue:openai/codex:50065",
+        "labels": [
+          "app",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:real-time|title:desktop-live-progress-summaries-clipped-one",
+        "title": "Desktop live progress summaries are clipped to one line, preventing real-time review",
+        "url": "https://github.com/openai/codex/issues/50065"
+      },
+      {
+        "createdAt": "2026-10-01T18:29:55Z",
+        "explicitVersion": "26.928.31416",
+        "id": "github-issue:openai/codex:50067",
+        "labels": [
+          "app",
+          "bug",
+          "extension",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:deb13-amd64|title:codex-drops-messages-over-remote-ssh|version:26.928.31416|platform:arm64",
+        "title": "VS Code Codex 26.928.31416 drops messages over Remote–SSH",
+        "url": "https://github.com/openai/codex/issues/50067"
+      },
+      {
+        "createdAt": "2026-10-01T18:31:48Z",
+        "id": "github-issue:openai/codex:50068",
+        "labels": [
+          "CLI",
+          "enhancement",
+          "skills",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:skill-name|title:support-skill-name-invocation-codex-match",
+        "title": "Support /skill-name invocation in Codex CLI to match the desktop app",
+        "url": "https://github.com/openai/codex/issues/50068"
+      },
+      {
+        "createdAt": "2026-10-01T18:33:13Z",
+        "explicitVersion": "27.0.0",
+        "id": "github-issue:openai/codex:50069",
+        "labels": [
+          "app",
+          "bug",
+          "sandbox",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:sandbox_approval|title:macos-sites-publishing-blocked-granular-sandbox|version:27.0.0|platform:arm64",
+        "title": "[macOS] Sites publishing blocked by granular sandbox_approval=false despite Full access enabled",
+        "url": "https://github.com/openai/codex/issues/50069"
+      },
+      {
+        "createdAt": "2026-10-01T18:38:18Z",
+        "explicitVersion": "26.928.31416",
+        "id": "github-issue:openai/codex:50070",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "sandbox",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "resolutionReference": "https://github.com/openai/codex/issues/50070",
+        "signature": "code:error|title:codex-browser-control-crashes-tiocsti-macos|version:26.928.31416|platform:arm64",
+        "title": "Codex App browser control crashes with TIOCSTI error on macOS",
+        "url": "https://github.com/openai/codex/issues/50070"
+      },
+      {
+        "createdAt": "2026-10-01T18:47:55Z",
+        "explicitVersion": "26.928.31416",
+        "id": "github-issue:openai/codex:50071",
+        "labels": [
+          "app",
+          "bug",
+          "performance"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:every|title:codex-crashing-every-few-minutes-thousands|version:26.928.31416|platform:linux",
+        "title": "Codex crashing every few minutes with thousands of ResizeObserver errors",
+        "url": "https://github.com/openai/codex/issues/50071"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-01T07:16:07.230Z",
+    "observedAt": "2026-10-01T18:58:13.712Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "17 recent official GitHub issues observed for openai/codex."
+    "summary": "14 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-dd0553c80247cd98",
   "interfaces": [],
