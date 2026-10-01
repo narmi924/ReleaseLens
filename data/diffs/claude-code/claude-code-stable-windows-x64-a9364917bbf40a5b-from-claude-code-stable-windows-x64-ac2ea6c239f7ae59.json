@@ -1,0 +1,65 @@
+{
+  "artifactChanges": [
+    {
+      "after": "0b6ecec8edef1ce3069682f696c894d1553239faa6b84e56e167a3ced88fa333",
+      "before": "121fc8151ed40bd9c144d68aa1cea23427803628ffab65e23da1cceda155697e",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 245092000,
+      "before": 243751072,
+      "material": false,
+      "summary": "Artifact size changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "claude-code-stable-windows-x64-ac2ea6c239f7ae59",
+  "createdAt": "2026-10-01T07:14:30.619Z",
+  "diffId": "claude-code-stable-windows-x64-a9364917bbf40a5b-from-claude-code-stable-windows-x64-ac2ea6c239f7ae59",
+  "distributionChanges": [
+    {
+      "after": "2.1.286",
+      "before": "2.1.285",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.285 → 2.1.286.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "2.1.286",
+      "before": "2.1.283",
+      "material": true,
+      "summary": "Distribution state winget: 2.1.283 → 2.1.286.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "0b6ecec8edef1ce3069682f696c894d1553239faa6b84e56e167a3ced88fa333",
+      "before": "121fc8151ed40bd9c144d68aa1cea23427803628ffab65e23da1cceda155697e",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "2.1.286",
+      "before": "2.1.285",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.285 → 2.1.286.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "2.1.286",
+      "before": "2.1.283",
+      "material": true,
+      "summary": "Distribution state winget: 2.1.283 → 2.1.286.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "claude-code-stable-windows-x64-a9364917bbf40a5b",
+  "productId": "claude-code",
+  "schemaVersion": 1
+}

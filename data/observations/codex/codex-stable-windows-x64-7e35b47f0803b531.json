@@ -1,0 +1,653 @@
+{
+  "artifacts": [
+    {
+      "architecture": "x64",
+      "details": {
+        "application": {
+          "entryPoint": "Windows.FullTrustApplication",
+          "executable": "app/ChatGPT.exe",
+          "id": "App"
+        },
+        "blockMap": {
+          "errors": [
+            "Block-map stored size did not match for uncompressed file app/resources/cua_node/bin/node_modules/playwright-core/lib/server/chromium/appIcon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/default_app/icon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/browser.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/composer-icon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/google-chrome.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome-composer.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/computer-use/assets/app-icon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/latex/assets/latex.png.",
+            "Block-map stored size did not match for uncompressed file assets/icon.png.",
+            "Block-map stored size did not match for uncompressed file assets/LockScreenLogo.scale-200.png.",
+            "Block-map stored size did not match for uncompressed file assets/SplashScreen.scale-200.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square150x150Logo.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square150x150Logo.scale-200.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.scale-200.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-16_altform-lightunplated.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-16_altform-unplated.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-20_altform-lightunplated.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-20_altform-unplated.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-24_altform-lightunplated.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-24_altform-unplated.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-256_altform-lightunplated.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-256_altform-unplated.png.",
+            "23 additional block-map failure(s) omitted from persisted evidence."
+          ],
+          "status": "fail",
+          "totalFiles": 3639,
+          "verifiedFiles": 3592
+        },
+        "fileCount": 3643,
+        "importantFiles": [
+          "AppxManifest.xml",
+          "AppxBlockMap.xml",
+          "AppxSignature.p7x",
+          "app/ChatGPT.exe"
+        ],
+        "signature": {
+          "signer": "CN=50BDFD77-8903-4850-9FFE-6E8522F64D5B",
+          "status": "pass",
+          "summary": "Windows reported a valid Authenticode signature."
+        },
+        "topLevelDirectories": [
+          "[Content_Types].xml",
+          "app",
+          "AppxBlockMap.xml",
+          "AppxManifest.xml",
+          "AppxMetadata",
+          "AppxSignature.p7x",
+          "assets",
+          "priconfig.xml",
+          "resources.language-is.pri",
+          "resources.pri",
+          "resources.scale-200.pri"
+        ]
+      },
+      "fileName": "OpenAI.Codex_26.928.3736.0_x64__2p2nqsd0c76g0.msix",
+      "format": "msix",
+      "id": "artifact:msix:OpenAI.Codex:26.928.3736.0:x64",
+      "kind": "artifact",
+      "observedAt": "2026-10-01T07:15:10.888Z",
+      "packageIdentity": "OpenAI.Codex",
+      "packageVersion": "26.928.3736.0",
+      "sha256": "36a36149f7004c5d4619a4df7882931cc0fccb4d86b065fae2c49d7b179bfa8d",
+      "sizeBytes": 905762116,
+      "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+      "status": "fail",
+      "summary": "OpenAI.Codex 26.928.3736.0 MSIX failed verification.",
+      "verification": [
+        {
+          "id": "msix-identity",
+          "kind": "verification",
+          "observedAt": "2026-10-01T07:15:10.888Z",
+          "status": "pass",
+          "summary": "MSIX package identity matches the profile."
+        },
+        {
+          "id": "msix-required-file:app/resources/codex.exe",
+          "kind": "verification",
+          "observedAt": "2026-10-01T07:15:10.888Z",
+          "status": "pass",
+          "summary": "Required MSIX file app/resources/codex.exe exists."
+        },
+        {
+          "id": "msix-architecture",
+          "kind": "verification",
+          "observedAt": "2026-10-01T07:15:10.888Z",
+          "status": "pass",
+          "summary": "MSIX processor architecture matches the profile."
+        },
+        {
+          "id": "msix-version",
+          "kind": "verification",
+          "observedAt": "2026-10-01T07:15:10.888Z",
+          "status": "pass",
+          "summary": "MSIX package version matches the resolved moniker."
+        },
+        {
+          "id": "msix-moniker",
+          "kind": "verification",
+          "observedAt": "2026-10-01T07:15:10.888Z",
+          "status": "pass",
+          "summary": "MSIX manifest agrees with the resolved package moniker."
+        },
+        {
+          "id": "msix-entrypoint",
+          "kind": "verification",
+          "observedAt": "2026-10-01T07:15:10.888Z",
+          "status": "pass",
+          "summary": "MSIX application executable app/ChatGPT.exe exists in the package."
+        },
+        {
+          "id": "msix-signature-file",
+          "kind": "verification",
+          "observedAt": "2026-10-01T07:15:10.888Z",
+          "status": "pass",
+          "summary": "MSIX includes AppxSignature.p7x."
+        },
+        {
+          "id": "msix-block-map",
+          "kind": "verification",
+          "observedAt": "2026-10-01T07:15:10.888Z",
+          "status": "fail",
+          "summary": "Block-map stored size did not match for uncompressed file app/resources/cua_node/bin/node_modules/playwright-core/lib/server/chromium/appIcon.png. Block-map stored size did not match for uncompressed file app/resources/default_app/icon.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/browser.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/composer-icon.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/google-chrome.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome-composer.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/computer-use/assets/app-icon.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/latex/assets/latex.png. Block-map stored size did not match for uncompressed file assets/icon.png. Block-map stored size did not match for uncompressed file assets/LockScreenLogo.scale-200.png. Block-map stored size did not match for uncompressed file assets/SplashScreen.scale-200.png. Block-map stored size did not match for uncompressed file assets/Square150x150Logo.png. Block-map stored size did not match for uncompressed file assets/Square150x150Logo.scale-200.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.scale-200.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-16_altform-lightunplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-16_altform-unplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-20_altform-lightunplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-20_altform-unplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-24_altform-lightunplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-24_altform-unplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-256_altform-lightunplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-256_altform-unplated.png. 23 additional block-map failure(s) omitted from persisted evidence."
+        },
+        {
+          "id": "msix-signature",
+          "kind": "verification",
+          "observedAt": "2026-10-01T07:15:10.888Z",
+          "status": "pass",
+          "summary": "Windows reported a valid Authenticode signature."
+        }
+      ]
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-10-01T07:15:10.888Z",
+      "kind": "behavior",
+      "observedAt": "2026-10-01T07:15:10.888Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-10-01T07:15:10.888Z",
+          "status": "fail",
+          "summary": "Codex backend was not executed because MSIX verification did not pass.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-10-01T07:15:10.888Z",
+          "status": "not-applicable",
+          "summary": "Codex desktop startup was not attempted because MSIX verification did not pass.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "fail",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49908"
+        ],
+        "signature": "code:already-completed|title:mode-list-already-completed-tool-calls|version:0.159.3",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49914"
+        ],
+        "signature": "code:codex-app-tools|title:macos-12404-mcp-status-returns-32601|version:26.928.21956|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49899"
+        ],
+        "signature": "code:data-pm-slice|title:bug|version:0.159.2|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49895"
+        ],
+        "signature": "code:each|title:codex-show-relative-timestamps-directly-project",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49897"
+        ],
+        "signature": "code:edit|title:windows-shell-node-repl-tools-fail|version:26.905.11957|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49906"
+        ],
+        "signature": "code:emails|title:mode-let-scripts-call-small-model|version:0.159.3",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49902",
+          "github-issue:openai/codex:49903"
+        ],
+        "signature": "code:environment|title:desktop-sidebar-unpin-remote-threads-while|platform:windows",
+        "strength": "moderate"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49907"
+        ],
+        "signature": "code:exec|title:mode-save-full-output-truncated-exec|version:0.159.3",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49904"
+        ],
+        "signature": "code:execution|title:windows-wsl-agent-shell-execution-desktop|version:26.928.3736.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49905"
+        ],
+        "signature": "code:exist|title:mode-persist-store-load-values-across|version:0.159.3",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49900"
+        ],
+        "signature": "code:exiting|title:windows-unc-workspace-regression-conversation-messages|version:26.928.31416|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49911"
+        ],
+        "signature": "code:extension|title:opening-image-codex|version:26.917.62051|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49913"
+        ],
+        "signature": "code:extension|title:ubuntu-lts-codex-extension-send-button|version:24.04.4|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49901"
+        ],
+        "signature": "code:extra|title:unexpected-extra-codex-sidebar-entry-web",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49909"
+        ],
+        "signature": "code:restricted-network|title:macos-restricted-network-ssh-failure-surfaces|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:49896"
+        ],
+        "signature": "code:user-attachments|title:dot-connect-computer|platform:windows",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "27d8ac500ce9be8cb32b7d18795993322ab388dc4cb326247a5e15a2cfc363cf",
+      "lookbackHours": 72,
+      "releaseVersion": "26.928.3736.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-10-01T06:17:17Z",
+        "id": "github-issue:openai/codex:49895",
+        "labels": [
+          "app",
+          "enhancement",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:each|title:codex-show-relative-timestamps-directly-project",
+        "title": "[Codex App] Show relative timestamps directly in project thread lists",
+        "url": "https://github.com/openai/codex/issues/49895"
+      },
+      {
+        "createdAt": "2026-10-01T06:22:51Z",
+        "id": "github-issue:openai/codex:49896",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity",
+          "remote",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:user-attachments|title:dot-connect-computer|platform:windows",
+        "title": "My dot cannot connect to my computer",
+        "url": "https://github.com/openai/codex/issues/49896"
+      },
+      {
+        "createdAt": "2026-10-01T06:28:00Z",
+        "explicitVersion": "26.905.11957",
+        "id": "github-issue:openai/codex:49897",
+        "labels": [
+          "app",
+          "bug",
+          "sandbox",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:edit|title:windows-shell-node-repl-tools-fail|version:26.905.11957|platform:windows",
+        "title": "Windows app: shell and Node REPL tools fail with a WSL workspace path",
+        "url": "https://github.com/openai/codex/issues/49897"
+      },
+      {
+        "createdAt": "2026-10-01T06:32:44Z",
+        "explicitVersion": "0.159.2",
+        "id": "github-issue:openai/codex:49899",
+        "labels": [
+          "bug",
+          "CLI",
+          "TUI",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/49899",
+        "signature": "code:data-pm-slice|title:bug|version:0.159.2|platform:windows",
+        "title": "BUG",
+        "url": "https://github.com/openai/codex/issues/49899"
+      },
+      {
+        "createdAt": "2026-10-01T06:34:46Z",
+        "explicitVersion": "26.928.31416",
+        "id": "github-issue:openai/codex:49900",
+        "labels": [
+          "app",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:exiting|title:windows-unc-workspace-regression-conversation-messages|version:26.928.31416|platform:windows",
+        "title": "Windows UNC workspace regression: conversation messages are not persisted and disappear after app restart",
+        "url": "https://github.com/openai/codex/issues/49900"
+      },
+      {
+        "createdAt": "2026-10-01T06:39:49Z",
+        "id": "github-issue:openai/codex:49901",
+        "labels": [
+          "app",
+          "bug",
+          "mcp",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extra|title:unexpected-extra-codex-sidebar-entry-web",
+        "title": "Unexpected extra Codex sidebar entry after web Chat/Pro uses a custom MCP plugin",
+        "url": "https://github.com/openai/codex/issues/49901"
+      },
+      {
+        "createdAt": "2026-10-01T06:41:08Z",
+        "id": "github-issue:openai/codex:49902",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/49902",
+        "signature": "code:environment|title:desktop-sidebar-unpin-remote-threads-while|platform:windows",
+        "title": "Desktop sidebar: cannot unpin remote threads while their host is offline",
+        "url": "https://github.com/openai/codex/issues/49902"
+      },
+      {
+        "createdAt": "2026-10-01T06:43:56Z",
+        "id": "github-issue:openai/codex:49903",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:environment|title:desktop-sidebar-unpin-remote-threads-while|platform:windows",
+        "title": "Desktop sidebar: cannot unpin remote threads while their host is offline",
+        "url": "https://github.com/openai/codex/issues/49903"
+      },
+      {
+        "createdAt": "2026-10-01T06:49:04Z",
+        "explicitVersion": "26.928.3736.0",
+        "id": "github-issue:openai/codex:49904",
+        "labels": [
+          "app",
+          "bug",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:execution|title:windows-wsl-agent-shell-execution-desktop|version:26.928.3736.0|platform:windows",
+        "title": "Windows + WSL: agent shell execution fails with os error 2 after desktop app update",
+        "url": "https://github.com/openai/codex/issues/49904"
+      },
+      {
+        "createdAt": "2026-10-01T06:49:10Z",
+        "explicitVersion": "0.159.3",
+        "id": "github-issue:openai/codex:49905",
+        "labels": [
+          "CLI",
+          "enhancement",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:exist|title:mode-persist-store-load-values-across|version:0.159.3",
+        "title": "Code Mode: persist store/load values across session resume and fork",
+        "url": "https://github.com/openai/codex/issues/49905"
+      },
+      {
+        "createdAt": "2026-10-01T06:49:12Z",
+        "explicitVersion": "0.159.3",
+        "id": "github-issue:openai/codex:49906",
+        "labels": [
+          "CLI",
+          "config",
+          "enhancement",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:emails|title:mode-let-scripts-call-small-model|version:0.159.3",
+        "title": "Code Mode: let scripts call a small model to classify or summarize items",
+        "url": "https://github.com/openai/codex/issues/49906"
+      },
+      {
+        "createdAt": "2026-10-01T06:49:14Z",
+        "explicitVersion": "0.159.3",
+        "id": "github-issue:openai/codex:49907",
+        "labels": [
+          "CLI",
+          "enhancement",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:exec|title:mode-save-full-output-truncated-exec|version:0.159.3",
+        "title": "Code Mode: save the full output of a truncated exec cell where the model can read it",
+        "url": "https://github.com/openai/codex/issues/49907"
+      },
+      {
+        "createdAt": "2026-10-01T06:49:17Z",
+        "explicitVersion": "0.159.3",
+        "id": "github-issue:openai/codex:49908",
+        "labels": [
+          "CLI",
+          "enhancement",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/openai/codex/issues/49908",
+        "signature": "code:already-completed|title:mode-list-already-completed-tool-calls|version:0.159.3",
+        "title": "Code Mode: list already-completed tool calls when an exec script fails",
+        "url": "https://github.com/openai/codex/issues/49908"
+      },
+      {
+        "createdAt": "2026-10-01T06:52:33Z",
+        "id": "github-issue:openai/codex:49909",
+        "labels": [
+          "connectivity",
+          "enhancement",
+          "remote",
+          "sandbox"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:restricted-network|title:macos-restricted-network-ssh-failure-surfaces|platform:macos",
+        "title": "macOS: restricted-network SSH failure surfaces as DNS error (-65563) without clear policy/recovery diagnostics",
+        "url": "https://github.com/openai/codex/issues/49909"
+      },
+      {
+        "createdAt": "2026-10-01T07:03:32Z",
+        "explicitVersion": "26.917.62051",
+        "id": "github-issue:openai/codex:49911",
+        "labels": [
+          "bug",
+          "extension",
+          "imagen",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:extension|title:opening-image-codex|version:26.917.62051|platform:windows",
+        "title": "Opening image on codex CLI with VC code.",
+        "url": "https://github.com/openai/codex/issues/49911"
+      },
+      {
+        "createdAt": "2026-10-01T07:11:49Z",
+        "explicitVersion": "24.04.4",
+        "id": "github-issue:openai/codex:49913",
+        "labels": [
+          "bug",
+          "extension"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:extension|title:ubuntu-lts-codex-extension-send-button|version:24.04.4|platform:linux",
+        "title": "Ubuntu 24.04.4 LTS Codex VS Code extension: Send button keeps spinning and prompts are never submitted",
+        "url": "https://github.com/openai/codex/issues/49913"
+      },
+      {
+        "createdAt": "2026-10-01T07:15:19Z",
+        "explicitVersion": "26.928.21956",
+        "id": "github-issue:openai/codex:49914",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "mcp"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:codex-app-tools|title:macos-12404-mcp-status-returns-32601|version:26.928.21956|platform:macos",
+        "title": "[macOS 26.928.21956 / 12404] MCP status returns -32601 after restart; task read/send tools remain unavailable",
+        "url": "https://github.com/openai/codex/issues/49914"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-10-01T07:16:07.230Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "17 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-dd0553c80247cd98",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-7e35b47f0803b531",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.928.3736.0",
+    "channel": "stable",
+    "discoveredAt": "2026-10-01T07:15:10.888Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.928.3736.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "3a6799d8fd5b345c82c7a89afa43f7c2bb2230709e5afd4299a99f72c98a5fbb",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-10-01T07:15:10.961Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.928.3736.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.928.3736.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "84924026-dbfb-44ac-9e7b-6d54b9047a57"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.928.3736.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-10-01T07:15:10.888Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "pass",
+      "summary": "FE3 resolves x64 package 26.928.3736.0 from the Microsoft delivery host."
+    },
+    {
+      "details": {
+        "buildVersion": "26.928.3736.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-10-01T07:15:10.888Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:msix:OpenAI.Codex:26.928.3736.0:x64"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-10-01T07:15:10.888Z"
+        ],
+        "message": "Required behavior codex-msix-identity is fail."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [],
+        "message": "Required behavior codex-backend-version is fail."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}
