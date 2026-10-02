@@ -10,42 +10,28 @@
       "verdict": {
         "reasons": [
           {
-            "code": "STRONG_OFFICIAL_GITHUB_CLUSTER",
+            "code": "MATERIAL_EVIDENCE_CHANGED",
+            "evidenceRefs": [],
+            "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+          },
+          {
+            "code": "SECONDARY_DISTRIBUTION_LAGGING",
             "evidenceRefs": [
-              "community:claude-code:official-github",
-              "github-issue:anthropics/claude-code:98769",
-              "github-issue:anthropics/claude-code:98770",
-              "github-issue:anthropics/claude-code:98771",
-              "github-issue:anthropics/claude-code:98772",
-              "github-issue:anthropics/claude-code:98773",
-              "github-issue:anthropics/claude-code:98774",
-              "github-issue:anthropics/claude-code:98775",
-              "github-issue:anthropics/claude-code:98776",
-              "github-issue:anthropics/claude-code:98777",
-              "github-issue:anthropics/claude-code:98778",
-              "github-issue:anthropics/claude-code:98779",
-              "github-issue:anthropics/claude-code:98780",
-              "github-issue:anthropics/claude-code:98781",
-              "github-issue:anthropics/claude-code:98782",
-              "github-issue:anthropics/claude-code:98783",
-              "github-issue:anthropics/claude-code:98784",
-              "github-issue:anthropics/claude-code:98785",
-              "github-issue:anthropics/claude-code:98786",
-              "github-issue:anthropics/claude-code:98787",
-              "github-issue:anthropics/claude-code:98788"
+              "claude-native:release:2.1.287",
+              "winget:manifest:2.1.286"
             ],
-            "message": "A strong official-GitHub issue cluster is associated with this release."
+            "message": "WinGet 2.1.286 lags the official native release 2.1.287. The verified official artifact is unaffected."
           }
         ],
-        "severity": "major",
-        "status": "SUSPECTED_REGRESSION"
+        "severity": "minor",
+        "status": "CHANGED"
       },
       "version": "2.1.287"
     },
     {
       "channel": "stable",
-      "discoveredAt": "2026-10-01T07:15:10.888Z",
-      "observationId": "codex-stable-windows-x64-7e35b47f0803b531",
+      "discoveredAt": "2026-10-02T07:05:07.026Z",
+      "observationId": "codex-stable-windows-x64-0e5cb9cbb979537d",
       "platform": "windows-x64",
       "productId": "codex",
       "schemaVersion": 1,
@@ -54,14 +40,14 @@
           {
             "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
             "evidenceRefs": [
-              "artifact:msix:OpenAI.Codex:26.928.3736.0:x64"
+              "artifact:msix:OpenAI.Codex:26.930.2377.0:x64"
             ],
             "message": "Required artifact evidence is missing or did not pass."
           },
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
             "evidenceRefs": [
-              "behavior:codex:2026-10-01T07:15:10.888Z"
+              "behavior:codex:2026-10-02T07:05:07.026Z"
             ],
             "message": "Required behavior codex-msix-identity is fail."
           },
@@ -74,12 +60,12 @@
         "severity": "major",
         "status": "UNVERIFIED"
       },
-      "version": "26.928.3736.0"
+      "version": "26.930.2377.0"
     },
     {
       "channel": "alpha",
-      "discoveredAt": "2026-10-01T18:57:20.643Z",
-      "observationId": "codex-cli-alpha-windows-x64-7c72c964ef46bf39",
+      "discoveredAt": "2026-10-02T07:04:33.062Z",
+      "observationId": "codex-cli-alpha-windows-x64-7d51768302ffa4b4",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
@@ -94,12 +80,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.161.0-alpha.13"
+      "version": "0.162.0-alpha.4"
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-10-01T18:57:20.643Z",
-      "observationId": "codex-cli-latest-windows-x64-1b7b8c7f988057f9",
+      "discoveredAt": "2026-10-02T07:04:33.062Z",
+      "observationId": "codex-cli-latest-windows-x64-f7865907bda656de",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
@@ -114,12 +100,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.159.3"
+      "version": "0.160.0"
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-10-01T07:16:08.898Z",
-      "observationId": "gemini-cli-latest-node-7667fc036daefe7b",
+      "discoveredAt": "2026-10-02T07:06:06.229Z",
+      "observationId": "gemini-cli-latest-node-bc396c3a917c14ce",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
@@ -138,8 +124,8 @@
     },
     {
       "channel": "nightly",
-      "discoveredAt": "2026-10-01T07:16:08.898Z",
-      "observationId": "gemini-cli-nightly-node-d01ce2cbf09740b8",
+      "discoveredAt": "2026-10-02T07:06:06.229Z",
+      "observationId": "gemini-cli-nightly-node-65e2685f9c10cd5d",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
@@ -154,12 +140,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.64.0-nightly.20261001.gc6bccb7ec"
+      "version": "0.64.0-nightly.20261002.gc9096a847"
     },
     {
       "channel": "preview",
-      "discoveredAt": "2026-10-01T07:16:08.898Z",
-      "observationId": "gemini-cli-preview-node-273491b46d7061b4",
+      "discoveredAt": "2026-10-02T07:06:06.229Z",
+      "observationId": "gemini-cli-preview-node-ab52e100b4313b60",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
