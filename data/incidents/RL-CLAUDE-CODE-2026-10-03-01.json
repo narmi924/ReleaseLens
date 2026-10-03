@@ -1,6 +1,7 @@
 {
   "affectedObservations": [
-    "claude-code-stable-windows-x64-b8cf5684462f5e47"
+    "claude-code-stable-windows-x64-b8cf5684462f5e47",
+    "claude-code-stable-windows-x64-52e83f0269ea9c04"
   ],
   "events": [
     {
@@ -8,10 +9,19 @@
       "observationId": "claude-code-stable-windows-x64-b8cf5684462f5e47",
       "summary": "Opened from SUSPECTED_REGRESSION evidence for 2.1.288.",
       "type": "opened"
+    },
+    {
+      "at": "2026-09-24T04:56:28.623Z",
+      "observationId": "claude-code-stable-windows-x64-52e83f0269ea9c04",
+      "summary": "Regression evidence remained present in 2.1.281.",
+      "type": "affected"
     }
   ],
   "evidenceRefs": [
     "community:claude-code:official-github",
+    "github-issue:anthropics/claude-code:96582",
+    "github-issue:anthropics/claude-code:96598",
+    "github-issue:anthropics/claude-code:96599",
     "github-issue:anthropics/claude-code:99147",
     "github-issue:anthropics/claude-code:99149",
     "github-issue:anthropics/claude-code:99158"
@@ -24,6 +34,9 @@
     {
       "evidenceRefs": [
         "community:claude-code:official-github",
+        "github-issue:anthropics/claude-code:96582",
+        "github-issue:anthropics/claude-code:96598",
+        "github-issue:anthropics/claude-code:96599",
         "github-issue:anthropics/claude-code:99147",
         "github-issue:anthropics/claude-code:99149",
         "github-issue:anthropics/claude-code:99158"

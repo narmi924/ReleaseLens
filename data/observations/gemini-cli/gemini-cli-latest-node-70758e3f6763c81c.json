@@ -105,13 +105,6 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29602"
-        ],
-        "signature": "code:gemini_cli_custom_headers|title:bug-core-gemini-custom-headers-splits|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29603"
         ],
         "signature": "code:gemini-cli|title:gemini-githubstarmate",
@@ -133,27 +126,13 @@
       }
     ],
     "details": {
-      "fingerprint": "e40bcb2587bdcf088188cc4fa9443153fe51b3704bacd5c11d8ef4e87b9cd508",
+      "fingerprint": "c856b3f1afdffcaf1ca120a85fb59b2d9974dbcb82250a7b56a017ac776c62a0",
       "lookbackHours": 72,
       "releaseVersion": "0.62.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-02T04:46:44Z",
-        "id": "github-issue:google-gemini/gemini-cli:29602",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:gemini_cli_custom_headers|title:bug-core-gemini-custom-headers-splits|platform:linux",
-        "title": "bug(core): GEMINI_CLI_CUSTOM_HEADERS splits header values that contain \", <text>:\" (JSON, Link URLs) into invalid headers",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29602"
-      },
       {
         "createdAt": "2026-10-02T05:03:03Z",
         "id": "github-issue:google-gemini/gemini-cli:29603",
@@ -241,10 +220,10 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-03T06:39:09.336Z",
+    "observedAt": "2026-10-03T17:28:43.782Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-bc396c3a917c14ce",
   "interfaces": [

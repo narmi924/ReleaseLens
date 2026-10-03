@@ -15,6 +15,12 @@
       "observationId": "claude-code-stable-windows-x64-bde953114ba7f157",
       "summary": "Regression evidence remained present in 2.1.282.",
       "type": "affected"
+    },
+    {
+      "at": "2026-10-03T06:37:22.066Z",
+      "observationId": "claude-code-stable-windows-x64-b8cf5684462f5e47",
+      "summary": "Resolved by verified 2.1.288.",
+      "type": "resolved"
     }
   ],
   "evidenceRefs": [
@@ -48,6 +54,8 @@
       "summary": "Official GitHub issue cluster: code:user-attachments|title:github-integration"
     }
   ],
+  "resolvedAt": "2026-10-03T06:37:22.066Z",
+  "resolvedByVersion": "2.1.288",
   "schemaVersion": 1,
-  "status": "open"
+  "status": "resolved"
 }

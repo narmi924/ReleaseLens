@@ -1,173 +1,123 @@
 {
   "artifacts": [
     {
-      "architecture": "x64",
       "details": {
-        "application": {
-          "entryPoint": "Windows.FullTrustApplication",
-          "executable": "app/ChatGPT.exe",
-          "id": "App"
+        "bin": {
+          "codex": "bin/codex.js"
         },
-        "blockMap": {
-          "errors": [
-            "Block-map stored size did not match for uncompressed file app/resources/cua_node/bin/node_modules/playwright-core/lib/server/chromium/appIcon.png.",
-            "Block-map stored size did not match for uncompressed file app/resources/default_app/icon.png.",
-            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/browser.png.",
-            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/composer-icon.png.",
-            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/google-chrome.png.",
-            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome-composer.png.",
-            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome.png.",
-            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/computer-use/assets/app-icon.png.",
-            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/latex/assets/latex.png.",
-            "Block-map stored size did not match for uncompressed file assets/icon.png.",
-            "Block-map stored size did not match for uncompressed file assets/LockScreenLogo.scale-200.png.",
-            "Block-map stored size did not match for uncompressed file assets/SplashScreen.scale-200.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square150x150Logo.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square150x150Logo.scale-200.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.scale-200.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-16_altform-lightunplated.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-16_altform-unplated.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-20_altform-lightunplated.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-20_altform-unplated.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-24_altform-lightunplated.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-24_altform-unplated.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-256_altform-lightunplated.png.",
-            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-256_altform-unplated.png.",
-            "23 additional block-map failure(s) omitted from persisted evidence."
-          ],
-          "status": "fail",
-          "totalFiles": 3639,
-          "verifiedFiles": 3592
+        "cliEntry": "bin/codex.js",
+        "dependencies": [],
+        "engines": {
+          "node": ">=16"
         },
-        "fileCount": 3643,
-        "importantFiles": [
-          "AppxManifest.xml",
-          "AppxBlockMap.xml",
-          "AppxSignature.p7x",
-          "app/ChatGPT.exe"
-        ],
-        "signature": {
-          "signer": "CN=50BDFD77-8903-4850-9FFE-6E8522F64D5B",
-          "status": "pass",
-          "summary": "Windows reported a valid Authenticode signature."
-        },
+        "fileCount": 3,
         "topLevelDirectories": [
-          "[Content_Types].xml",
-          "app",
-          "AppxBlockMap.xml",
-          "AppxManifest.xml",
-          "AppxMetadata",
-          "AppxSignature.p7x",
-          "assets",
-          "priconfig.xml",
-          "resources.language-is.pri",
-          "resources.pri",
-          "resources.scale-200.pri"
+          "bin",
+          "package.json",
+          "README.md"
         ]
       },
-      "fileName": "OpenAI.Codex_26.930.3930.0_x64__2p2nqsd0c76g0.msix",
-      "format": "msix",
-      "id": "artifact:msix:OpenAI.Codex:26.930.3930.0:x64",
+      "fileName": "codex-0.160.0.tgz",
+      "format": "npm-tgz",
+      "id": "artifact:npm:@openai/codex:0.160.0",
       "kind": "artifact",
-      "observedAt": "2026-10-03T06:37:59.377Z",
-      "packageIdentity": "OpenAI.Codex",
-      "packageVersion": "26.930.3930.0",
-      "sha256": "f7b0266d6c00d4743da01d62bc82488f7ec5560c642501758119cb9885f67c87",
-      "sizeBytes": 911998170,
-      "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
-      "status": "fail",
-      "summary": "OpenAI.Codex 26.930.3930.0 MSIX failed verification.",
+      "observedAt": "2026-10-03T17:27:44.281Z",
+      "packageIdentity": "@openai/codex",
+      "packageVersion": "0.160.0",
+      "sha256": "373517768e912eeb5054024ae9215e2c90a1420957b66fe134ef745a00948d4a",
+      "sizeBytes": 4902,
+      "sourceHost": "registry.npmjs.org",
+      "status": "pass",
+      "summary": "@openai/codex@0.160.0 tarball passed integrity verification.",
       "verification": [
         {
-          "id": "msix-identity",
+          "details": {
+            "actual": "kEtVGzjRAYAMOwJxN39bGcna7LT3IDQgq64NNJ/dDTfu4OzZaocJcyNb5/gGJ/IVF/Vj7oK7E2m3nmTan7lpjg==",
+            "expected": "kEtVGzjRAYAMOwJxN39bGcna7LT3IDQgq64NNJ/dDTfu4OzZaocJcyNb5/gGJ/IVF/Vj7oK7E2m3nmTan7lpjg=="
+          },
+          "id": "npm-integrity",
           "kind": "verification",
-          "observedAt": "2026-10-03T06:37:59.377Z",
+          "observedAt": "2026-10-03T17:27:44.281Z",
           "status": "pass",
-          "summary": "MSIX package identity matches the profile."
+          "summary": "Verified npm sha512 Subresource Integrity."
+        }
+      ]
+    },
+    {
+      "architecture": "x64",
+      "details": {
+        "bin": {},
+        "dependencies": [],
+        "engines": {
+          "node": ">=16"
         },
+        "fileCount": 47,
+        "topLevelDirectories": [
+          "package.json",
+          "README.md",
+          "vendor"
+        ]
+      },
+      "fileName": "codex-0.160.0-win32-x64.tgz",
+      "format": "npm-tgz",
+      "id": "artifact:npm:@openai/codex:0.160.0-win32-x64",
+      "kind": "artifact",
+      "observedAt": "2026-10-03T17:27:44.281Z",
+      "packageIdentity": "@openai/codex",
+      "packageVersion": "0.160.0-win32-x64",
+      "sha256": "1f4c46470317bf5fabb308ed3e39a80ff544069cedc2cb477005545e694058b9",
+      "sizeBytes": 162643563,
+      "sourceHost": "registry.npmjs.org",
+      "status": "pass",
+      "summary": "@openai/codex@0.160.0-win32-x64 tarball passed integrity verification.",
+      "verification": [
         {
-          "id": "msix-required-file:app/resources/codex.exe",
+          "details": {
+            "actual": "/gCFcuOmGlQkgGivWCtY8BNEDixh70Pue0HZOk9S8bj2vUIE1GLD9zcNB/KqqDJmn0S+lIttauLpzQnw6HOCHA==",
+            "expected": "/gCFcuOmGlQkgGivWCtY8BNEDixh70Pue0HZOk9S8bj2vUIE1GLD9zcNB/KqqDJmn0S+lIttauLpzQnw6HOCHA=="
+          },
+          "id": "npm-integrity",
           "kind": "verification",
-          "observedAt": "2026-10-03T06:37:59.377Z",
+          "observedAt": "2026-10-03T17:27:44.281Z",
           "status": "pass",
-          "summary": "Required MSIX file app/resources/codex.exe exists."
-        },
-        {
-          "id": "msix-architecture",
-          "kind": "verification",
-          "observedAt": "2026-10-03T06:37:59.377Z",
-          "status": "pass",
-          "summary": "MSIX processor architecture matches the profile."
-        },
-        {
-          "id": "msix-version",
-          "kind": "verification",
-          "observedAt": "2026-10-03T06:37:59.377Z",
-          "status": "pass",
-          "summary": "MSIX package version matches the resolved moniker."
-        },
-        {
-          "id": "msix-moniker",
-          "kind": "verification",
-          "observedAt": "2026-10-03T06:37:59.377Z",
-          "status": "pass",
-          "summary": "MSIX manifest agrees with the resolved package moniker."
-        },
-        {
-          "id": "msix-entrypoint",
-          "kind": "verification",
-          "observedAt": "2026-10-03T06:37:59.377Z",
-          "status": "pass",
-          "summary": "MSIX application executable app/ChatGPT.exe exists in the package."
-        },
-        {
-          "id": "msix-signature-file",
-          "kind": "verification",
-          "observedAt": "2026-10-03T06:37:59.377Z",
-          "status": "pass",
-          "summary": "MSIX includes AppxSignature.p7x."
-        },
-        {
-          "id": "msix-block-map",
-          "kind": "verification",
-          "observedAt": "2026-10-03T06:37:59.377Z",
-          "status": "fail",
-          "summary": "Block-map stored size did not match for uncompressed file app/resources/cua_node/bin/node_modules/playwright-core/lib/server/chromium/appIcon.png. Block-map stored size did not match for uncompressed file app/resources/default_app/icon.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/browser.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/composer-icon.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/google-chrome.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome-composer.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/computer-use/assets/app-icon.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/latex/assets/latex.png. Block-map stored size did not match for uncompressed file assets/icon.png. Block-map stored size did not match for uncompressed file assets/LockScreenLogo.scale-200.png. Block-map stored size did not match for uncompressed file assets/SplashScreen.scale-200.png. Block-map stored size did not match for uncompressed file assets/Square150x150Logo.png. Block-map stored size did not match for uncompressed file assets/Square150x150Logo.scale-200.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.scale-200.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-16_altform-lightunplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-16_altform-unplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-20_altform-lightunplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-20_altform-unplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-24_altform-lightunplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-24_altform-unplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-256_altform-lightunplated.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.targetsize-256_altform-unplated.png. 23 additional block-map failure(s) omitted from persisted evidence."
-        },
-        {
-          "id": "msix-signature",
-          "kind": "verification",
-          "observedAt": "2026-10-03T06:37:59.377Z",
-          "status": "pass",
-          "summary": "Windows reported a valid Authenticode signature."
+          "summary": "Verified npm sha512 Subresource Integrity."
         }
       ]
     }
   ],
   "behavior": [
     {
-      "id": "behavior:codex:2026-10-03T06:37:59.377Z",
+      "id": "behavior:codex-cli:2026-10-03T17:27:44.281Z",
       "kind": "behavior",
-      "observedAt": "2026-10-03T06:37:59.377Z",
+      "observedAt": "2026-10-03T17:27:44.281Z",
       "results": [
         {
-          "durationMs": 0,
-          "startedAt": "2026-10-03T06:37:59.377Z",
-          "status": "fail",
-          "summary": "Codex backend was not executed because MSIX verification did not pass.",
-          "testId": "codex-msix-identity"
+          "durationMs": 151,
+          "exitCode": 0,
+          "startedAt": "2026-10-03T17:27:44.281Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "codex-version completed.",
+          "testId": "codex-version"
         },
         {
-          "durationMs": 0,
-          "startedAt": "2026-10-03T06:37:59.377Z",
-          "status": "not-applicable",
-          "summary": "Codex desktop startup was not attempted because MSIX verification did not pass.",
-          "testId": "codex-desktop-start"
+          "durationMs": 146,
+          "exitCode": 0,
+          "startedAt": "2026-10-03T17:27:44.281Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "codex-help completed.",
+          "testId": "codex-help"
         }
       ],
-      "status": "fail",
-      "summary": "codex behavior suite produced 0 passing result(s)."
+      "status": "pass",
+      "summary": "codex-cli behavior suite produced 2 passing result(s)."
     }
   ],
   "community": {
@@ -176,7 +126,7 @@
         "issueIds": [
           "github-issue:openai/codex:50667"
         ],
-        "signature": "code:0x80000003|title:windows-chatgpt-codex-crashes-shortly-startup|version:26.930.3930.0|platform:windows",
+        "signature": "code:0x80000003|title:windows-chatgpt-codex-crashes-shortly-startup|version:26.727.4816.0|platform:windows",
         "strength": "weak"
       },
       {
@@ -197,7 +147,7 @@
         "issueIds": [
           "github-issue:openai/codex:50676"
         ],
-        "signature": "code:codex_26|title:windows-cloud-thread-local-markdown-chat|version:26.930.3930.0|platform:windows",
+        "signature": "code:codex_26|title:windows-cloud-thread-local-markdown-chat|version:930.3930|platform:windows",
         "strength": "weak"
       },
       {
@@ -253,7 +203,7 @@
         "issueIds": [
           "github-issue:openai/codex:50660"
         ],
-        "signature": "code:existing|title:allow-dot-use-additional-owned-computers|version:24.04.4|platform:linux",
+        "signature": "code:existing|title:allow-dot-use-additional-owned-computers|version:0.160.0|platform:linux",
         "strength": "weak"
       },
       {
@@ -314,12 +264,12 @@
       }
     ],
     "details": {
-      "fingerprint": "803a740e0e9e77594718139b0dffd57c2b974ed2eb8fb058a469c6cc5f482598",
+      "fingerprint": "d94c98771182054f6c99aca40b091485eba4589b95be9c00999ba23817cfd91a",
       "lookbackHours": 72,
-      "releaseVersion": "26.930.3930.0",
+      "releaseVersion": "0.160.0",
       "source": "official-github-issues"
     },
-    "id": "community:codex:official-github",
+    "id": "community:codex-cli:official-github",
     "issues": [
       {
         "createdAt": "2026-10-03T15:45:39Z",
@@ -338,7 +288,7 @@
       },
       {
         "createdAt": "2026-10-03T15:49:13Z",
-        "explicitVersion": "24.04.4",
+        "explicitVersion": "0.160.0",
         "id": "github-issue:openai/codex:50660",
         "labels": [
           "dots",
@@ -347,7 +297,7 @@
         ],
         "maintainerAcknowledged": false,
         "platform": "linux",
-        "signature": "code:existing|title:allow-dot-use-additional-owned-computers|version:24.04.4|platform:linux",
+        "signature": "code:existing|title:allow-dot-use-additional-owned-computers|version:0.160.0|platform:linux",
         "title": "Allow a dot to use additional owned computers, including existing headless Linux Codex Remotes",
         "url": "https://github.com/openai/codex/issues/50660"
       },
@@ -443,7 +393,7 @@
       },
       {
         "createdAt": "2026-10-03T16:15:47Z",
-        "explicitVersion": "26.930.3930.0",
+        "explicitVersion": "26.727.4816.0",
         "id": "github-issue:openai/codex:50667",
         "labels": [
           "app",
@@ -452,7 +402,7 @@
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:0x80000003|title:windows-chatgpt-codex-crashes-shortly-startup|version:26.930.3930.0|platform:windows",
+        "signature": "code:0x80000003|title:windows-chatgpt-codex-crashes-shortly-startup|version:26.727.4816.0|platform:windows",
         "title": "[Windows 11] ChatGPT/Codex crashes shortly after startup — 0x80000003 in chrome.dll",
         "url": "https://github.com/openai/codex/issues/50667"
       },
@@ -586,7 +536,7 @@
       },
       {
         "createdAt": "2026-10-03T17:12:10Z",
-        "explicitVersion": "26.930.3930.0",
+        "explicitVersion": "930.3930",
         "id": "github-issue:openai/codex:50676",
         "labels": [
           "app",
@@ -595,7 +545,7 @@
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:codex_26|title:windows-cloud-thread-local-markdown-chat|version:26.930.3930.0|platform:windows",
+        "signature": "code:codex_26|title:windows-cloud-thread-local-markdown-chat|version:930.3930|platform:windows",
         "title": "[Windows][Cloud thread] Local Markdown chat links are rewritten to file:///%00/bad/path and rejected",
         "url": "https://github.com/openai/codex/issues/50676"
       },
@@ -631,99 +581,432 @@
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-03T17:28:41.568Z",
+    "observedAt": "2026-10-03T17:28:05.529Z",
     "repository": "openai/codex",
     "status": "pass",
     "summary": "20 recent official GitHub issues observed for openai/codex."
   },
-  "comparedWith": "codex-stable-windows-x64-0e5cb9cbb979537d",
-  "interfaces": [],
-  "observationId": "codex-stable-windows-x64-f63ad01324bdd1e3",
+  "comparedWith": "codex-cli-latest-windows-x64-6b0060ded440dcc7",
+  "interfaces": [
+    {
+      "cliName": "codex",
+      "commands": [
+        {
+          "name": "agents",
+          "options": [],
+          "subcommands": [],
+          "summary": "Browse all agent sessions on the shared local app-server daemon"
+        },
+        {
+          "name": "app",
+          "options": [],
+          "subcommands": [],
+          "summary": "Launch the Desktop app (opens the app installer if missing)"
+        },
+        {
+          "name": "app-server",
+          "options": [],
+          "subcommands": [],
+          "summary": "[experimental] Run the app server or related tooling"
+        },
+        {
+          "name": "apply",
+          "options": [],
+          "subcommands": [],
+          "summary": "Apply the latest diff produced by Codex agent as a `git apply` to your local"
+        },
+        {
+          "name": "archive",
+          "options": [],
+          "subcommands": [],
+          "summary": "Archive a saved session by id or session name"
+        },
+        {
+          "name": "cloud",
+          "options": [],
+          "subcommands": [],
+          "summary": "[EXPERIMENTAL] Browse tasks from Codex Cloud and apply changes locally"
+        },
+        {
+          "name": "completion",
+          "options": [],
+          "subcommands": [],
+          "summary": "Generate shell completion scripts"
+        },
+        {
+          "name": "debug",
+          "options": [],
+          "subcommands": [],
+          "summary": "Debugging tools"
+        },
+        {
+          "name": "delete",
+          "options": [],
+          "subcommands": [],
+          "summary": "Permanently delete a saved session by id or session name"
+        },
+        {
+          "name": "doctor",
+          "options": [],
+          "subcommands": [],
+          "summary": "Diagnose local Codex installation, config, auth, and runtime health"
+        },
+        {
+          "name": "exec",
+          "options": [],
+          "subcommands": [],
+          "summary": "Run Codex non-interactively [aliases: e]"
+        },
+        {
+          "name": "exec-server",
+          "options": [],
+          "subcommands": [],
+          "summary": "[EXPERIMENTAL] Run the standalone exec-server service"
+        },
+        {
+          "name": "features",
+          "options": [],
+          "subcommands": [],
+          "summary": "Inspect feature flags"
+        },
+        {
+          "name": "fork",
+          "options": [],
+          "subcommands": [],
+          "summary": "Fork a previous interactive session (picker by default; use --last to fork the"
+        },
+        {
+          "name": "help",
+          "options": [],
+          "subcommands": [],
+          "summary": "Print this message or the help of the given subcommand(s)"
+        },
+        {
+          "name": "login",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage login"
+        },
+        {
+          "name": "logout",
+          "options": [],
+          "subcommands": [],
+          "summary": "Remove stored authentication credentials"
+        },
+        {
+          "name": "mcp",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage external MCP servers for Codex"
+        },
+        {
+          "name": "migrate-rollouts",
+          "options": [],
+          "subcommands": [],
+          "summary": "Inspect or migrate legacy local sessions to paginated thread history"
+        },
+        {
+          "name": "plugin",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage Codex plugins"
+        },
+        {
+          "name": "queue",
+          "options": [],
+          "subcommands": [],
+          "summary": "Queue a message for an existing session"
+        },
+        {
+          "name": "remote-control",
+          "options": [],
+          "subcommands": [],
+          "summary": "[experimental] Manage the app-server daemon with remote control enabled"
+        },
+        {
+          "name": "resume",
+          "options": [],
+          "subcommands": [],
+          "summary": "Resume a previous interactive session (picker by default; use --last to continue"
+        },
+        {
+          "name": "review",
+          "options": [],
+          "subcommands": [],
+          "summary": "Run a code review non-interactively"
+        },
+        {
+          "name": "sandbox",
+          "options": [],
+          "subcommands": [],
+          "summary": "Run commands within a Codex-provided sandbox"
+        },
+        {
+          "name": "unarchive",
+          "options": [],
+          "subcommands": [],
+          "summary": "Unarchive a saved session by id or session name"
+        },
+        {
+          "name": "update",
+          "options": [],
+          "subcommands": [],
+          "summary": "Update Codex to the latest version"
+        }
+      ],
+      "configKeys": [
+        "CODEX_HOME",
+        "CONFIG_PROFILE_V2"
+      ],
+      "details": {
+        "globalOptions": [
+          {
+            "names": [
+              "--add-dir"
+            ],
+            "valueHint": "<DIR>"
+          },
+          {
+            "names": [
+              "--approve-for-me"
+            ]
+          },
+          {
+            "names": [
+              "--ask-for-approval",
+              "-a"
+            ],
+            "valueHint": "<APPROVAL_POLICY>"
+          },
+          {
+            "names": [
+              "--cd",
+              "-C"
+            ],
+            "valueHint": "<DIR>"
+          },
+          {
+            "names": [
+              "--config",
+              "-c"
+            ],
+            "valueHint": "<key=value>"
+          },
+          {
+            "names": [
+              "--dangerously-bypass-approvals-and-sandbox"
+            ]
+          },
+          {
+            "names": [
+              "--dangerously-bypass-hook-trust"
+            ]
+          },
+          {
+            "names": [
+              "--disable"
+            ],
+            "valueHint": "<FEATURE>"
+          },
+          {
+            "names": [
+              "--enable"
+            ],
+            "valueHint": "<FEATURE>"
+          },
+          {
+            "names": [
+              "--image",
+              "-i"
+            ],
+            "valueHint": "<FILE>"
+          },
+          {
+            "names": [
+              "--local-provider"
+            ],
+            "valueHint": "<OSS_PROVIDER>"
+          },
+          {
+            "names": [
+              "--model",
+              "-m"
+            ],
+            "valueHint": "<MODEL>"
+          },
+          {
+            "names": [
+              "--oss"
+            ]
+          },
+          {
+            "names": [
+              "--profile",
+              "-p"
+            ],
+            "valueHint": "<CONFIG_PROFILE_V2>"
+          },
+          {
+            "names": [
+              "--remote"
+            ],
+            "valueHint": "<ADDR>"
+          },
+          {
+            "names": [
+              "--remote-auth-token-env"
+            ],
+            "valueHint": "<ENV_VAR>"
+          },
+          {
+            "names": [
+              "--sandbox",
+              "-s"
+            ],
+            "valueHint": "<SANDBOX_MODE>"
+          },
+          {
+            "names": [
+              "--strict-config"
+            ]
+          },
+          {
+            "names": [
+              "--worktree"
+            ]
+          },
+          {
+            "names": [
+              "-c"
+            ]
+          }
+        ]
+      },
+      "environmentKeys": [
+        "DANGEROUS",
+        "ENV_VAR"
+      ],
+      "id": "interface:codex:34d58e365833",
+      "kind": "interface",
+      "observedAt": "2026-10-03T17:27:44.281Z",
+      "reportedVersion": "0.160.0",
+      "snapshotHash": "34d58e365833454c8ff3ab550b19787dea24401ae00fa99cf9134261cb0ffb95",
+      "status": "pass",
+      "summary": "Normalized codex CLI interface with 27 top-level commands and 20 global options."
+    }
+  ],
+  "observationId": "codex-cli-latest-windows-x64-9855b683eb8ddf14",
   "product": {
-    "id": "codex",
-    "name": "Codex"
+    "id": "codex-cli",
+    "name": "Codex CLI"
   },
   "release": {
-    "canonicalVersion": "26.930.3930.0",
-    "channel": "stable",
-    "discoveredAt": "2026-10-03T06:37:59.377Z",
+    "canonicalVersion": "0.160.0",
+    "channel": "latest",
+    "discoveredAt": "2026-10-03T17:27:44.281Z",
     "platform": "windows-x64",
-    "sourceVersion": "26.930.3930.0"
+    "publishedAt": "2026-10-01T20:26:19.286Z",
+    "sourceVersion": "0.160.0"
   },
   "schemaVersion": 1,
   "sources": [
     {
       "details": {
-        "packageCount": 4,
-        "productId": "9PLM9XGG6VKS",
-        "wuCategoryIdPresent": true
+        "releaseCount": 12,
+        "repository": "openai/codex"
       },
-      "fingerprint": "38d3143e2af365d0728db3cfd3b212467bbc7717b0efb125c729c42f9b5391eb",
-      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "fingerprint": "7dccdf2a93dbf876cfc10de3271577d89c81a23e5e746ae0bb71f77ad543e4d3",
+      "id": "github-repository:snapshot",
       "kind": "source",
-      "observedAt": "2026-10-03T06:37:59.449Z",
-      "sourceId": "microsoft-store",
-      "sourceType": "microsoft-store-display-catalog",
-      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "observedAt": "2026-10-03T17:27:44.283Z",
+      "sourceId": "github-repository",
+      "sourceType": "github-release-api",
+      "sourceUrl": "https://github.com/openai/codex/releases",
       "status": "pass",
-      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+      "summary": "12 published GitHub releases observed for openai/codex."
     },
     {
       "details": {
-        "architecture": "x64",
-        "packageMoniker": "OpenAI.Codex_26.930.3930.0_x64__2p2nqsd0c76g0",
-        "packageVersion": "26.930.3930.0",
-        "revisionNumber": "1",
-        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
-        "updateId": "c0c6b4eb-1cc0-4747-b1be-faced545778f"
+        "channels": [
+          {
+            "channel": "latest",
+            "integrity": "sha512-kEtVGzjRAYAMOwJxN39bGcna7LT3IDQgq64NNJ/dDTfu4OzZaocJcyNb5/gGJ/IVF/Vj7oK7E2m3nmTan7lpjg==",
+            "platformPackage": {
+              "dependency": "@openai/codex-win32-x64",
+              "integrity": "sha512-/gCFcuOmGlQkgGivWCtY8BNEDixh70Pue0HZOk9S8bj2vUIE1GLD9zcNB/KqqDJmn0S+lIttauLpzQnw6HOCHA==",
+              "packageName": "@openai/codex",
+              "shasum": "050b9462c37177db0e7a543d5b1abb16f182a101",
+              "tarballHost": "registry.npmjs.org",
+              "version": "0.160.0-win32-x64"
+            },
+            "publishedAt": "2026-10-01T20:26:19.286Z",
+            "shasum": "62ab3e7bd1cb858135374c25674f6a92d51289a6",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.160.0"
+          },
+          {
+            "channel": "alpha",
+            "integrity": "sha512-juqgWQNFfrDlSmwxol2VO8iaIQjC8/KmZdzzDND64/lTbmrdp2nBnZonbpMgzyqaWlGK1mdy8aF5i2l+D/gtmQ==",
+            "platformPackage": {
+              "dependency": "@openai/codex-win32-x64",
+              "integrity": "sha512-FDDmvQFM2cCd8N5QPbeEzvM/9haLRMxeQqc3tw/VCTVTUaQW06AYvcoz64CP1p2EappDGJ8hHnNqnBmIAiuAkw==",
+              "packageName": "@openai/codex",
+              "shasum": "101e7f697b32b2f70eb9b6942ede2341ad54bdcb",
+              "tarballHost": "registry.npmjs.org",
+              "version": "0.162.0-alpha.10-win32-x64"
+            },
+            "publishedAt": "2026-10-03T10:11:30.883Z",
+            "shasum": "f8df9b5423521598139aa5456100dbea298d5ff8",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.162.0-alpha.10"
+          }
+        ]
       },
-      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.930.3930.0_x64__2p2nqsd0c76g0",
+      "fingerprint": "d21d2559d606743a109ea6699a086d732d55d2c195f0b0f47eb7a7a3d6f183c0",
+      "id": "npm-registry:dist-tags",
       "kind": "source",
-      "observedAt": "2026-10-03T06:37:59.377Z",
-      "sourceId": "microsoft-store",
-      "sourceType": "microsoft-store-fe3-experimental",
+      "observedAt": "2026-10-03T17:27:44.281Z",
+      "sourceId": "npm-registry",
+      "sourceType": "npm-registry",
+      "sourceUrl": "https://registry.npmjs.org/%40openai%2Fcodex",
       "status": "pass",
-      "summary": "FE3 resolves x64 package 26.930.3930.0 from the Microsoft delivery host."
+      "summary": "Observed 2 npm channel tags for @openai/codex."
     },
     {
       "details": {
-        "buildVersion": "26.930.3930.0",
-        "packageIdentity": "OpenAI.Codex",
-        "storeProductId": "9PLM9XGG6VKS"
+        "channel": "latest",
+        "integrity": "sha512-kEtVGzjRAYAMOwJxN39bGcna7LT3IDQgq64NNJ/dDTfu4OzZaocJcyNb5/gGJ/IVF/Vj7oK7E2m3nmTan7lpjg==",
+        "platformPackage": {
+          "dependency": "@openai/codex-win32-x64",
+          "integrity": "sha512-/gCFcuOmGlQkgGivWCtY8BNEDixh70Pue0HZOk9S8bj2vUIE1GLD9zcNB/KqqDJmn0S+lIttauLpzQnw6HOCHA==",
+          "packageName": "@openai/codex",
+          "shasum": "050b9462c37177db0e7a543d5b1abb16f182a101",
+          "tarballHost": "registry.npmjs.org",
+          "version": "0.160.0-win32-x64"
+        },
+        "publishedAt": "2026-10-01T20:26:19.286Z",
+        "shasum": "62ab3e7bd1cb858135374c25674f6a92d51289a6",
+        "tarballHost": "registry.npmjs.org",
+        "version": "0.160.0"
       },
-      "id": "microsoft-store:rollout-signal",
+      "id": "npm-registry:latest:0.160.0",
       "kind": "source",
-      "observedAt": "2026-10-03T06:37:59.377Z",
-      "sourceId": "microsoft-store-rollout-signal",
-      "sourceType": "official-rollout-signal",
-      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
-      "status": "info",
-      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+      "observedAt": "2026-10-03T17:27:44.281Z",
+      "sourceId": "npm-registry",
+      "sourceType": "npm-registry",
+      "status": "pass",
+      "summary": "latest points to 0.160.0; integrity metadata is present."
     }
   ],
   "verdict": {
     "reasons": [
       {
-        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
-        "evidenceRefs": [
-          "artifact:msix:OpenAI.Codex:26.930.3930.0:x64"
-        ],
-        "message": "Required artifact evidence is missing or did not pass."
-      },
-      {
-        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
-        "evidenceRefs": [
-          "behavior:codex:2026-10-03T06:37:59.377Z"
-        ],
-        "message": "Required behavior codex-msix-identity is fail."
-      },
-      {
-        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "code": "MATERIAL_EVIDENCE_CHANGED",
         "evidenceRefs": [],
-        "message": "Required behavior codex-backend-version is fail."
+        "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
       }
     ],
-    "severity": "major",
-    "status": "UNVERIFIED"
+    "severity": "minor",
+    "status": "CHANGED"
   }
 }
