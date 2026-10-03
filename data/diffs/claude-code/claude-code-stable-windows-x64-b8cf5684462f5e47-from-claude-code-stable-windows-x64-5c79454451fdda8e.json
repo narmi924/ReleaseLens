@@ -1,0 +1,77 @@
+{
+  "artifactChanges": [
+    {
+      "after": "84304f7d4b0cd0ebcbe8318695a260151b48991a6659c3366fdd5da290c0ab91",
+      "before": "6d5be51f0edfe3429cd1a9885950db31c1e59eb9a2c9a30a47e64179d2ff98b4",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 249149600,
+      "before": 247736480,
+      "material": false,
+      "summary": "Artifact size changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "claude-code-stable-windows-x64-5c79454451fdda8e",
+  "createdAt": "2026-10-03T06:37:22.066Z",
+  "diffId": "claude-code-stable-windows-x64-b8cf5684462f5e47-from-claude-code-stable-windows-x64-5c79454451fdda8e",
+  "distributionChanges": [
+    {
+      "after": "2.1.288",
+      "before": "2.1.287",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.287 → 2.1.288.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": {
+        "native": "2.1.288",
+        "winget": "2.1.286"
+      },
+      "before": {
+        "native": "2.1.288",
+        "winget": "2.1.286"
+      },
+      "material": false,
+      "summary": "WinGet 2.1.286 lags the official native release 2.1.288.",
+      "type": "distribution-lag"
+    }
+  ],
+  "interfaceChanges": [
+    {
+      "before": "project",
+      "material": true,
+      "summary": "Command removed: project.",
+      "type": "command-removed"
+    }
+  ],
+  "materialChanges": [
+    {
+      "after": "84304f7d4b0cd0ebcbe8318695a260151b48991a6659c3366fdd5da290c0ab91",
+      "before": "6d5be51f0edfe3429cd1a9885950db31c1e59eb9a2c9a30a47e64179d2ff98b4",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "before": "project",
+      "material": true,
+      "summary": "Command removed: project.",
+      "type": "command-removed"
+    },
+    {
+      "after": "2.1.288",
+      "before": "2.1.287",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.287 → 2.1.288.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "claude-code-stable-windows-x64-b8cf5684462f5e47",
+  "productId": "claude-code",
+  "schemaVersion": 1
+}

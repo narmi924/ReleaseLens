@@ -1,0 +1,51 @@
+{
+  "artifactChanges": [
+    {
+      "after": "f7b0266d6c00d4743da01d62bc82488f7ec5560c642501758119cb9885f67c87",
+      "before": "4c70df5417fcee1f004a1356f6d48f6b084abdcf1da349e154a7f593f2360b19",
+      "material": true,
+      "summary": "Artifact bytes changed for msix:OpenAI.Codex:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 911998170,
+      "before": 910607781,
+      "material": false,
+      "summary": "Artifact size changed for msix:OpenAI.Codex:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "codex-stable-windows-x64-0e5cb9cbb979537d",
+  "createdAt": "2026-10-03T06:37:59.377Z",
+  "diffId": "codex-stable-windows-x64-f63ad01324bdd1e3-from-codex-stable-windows-x64-0e5cb9cbb979537d",
+  "distributionChanges": [
+    {
+      "after": "26.930.3930.0",
+      "before": "26.930.2377.0",
+      "material": true,
+      "summary": "Distribution state microsoft-store-rollout-signal:build: 26.930.2377.0 → 26.930.3930.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "f7b0266d6c00d4743da01d62bc82488f7ec5560c642501758119cb9885f67c87",
+      "before": "4c70df5417fcee1f004a1356f6d48f6b084abdcf1da349e154a7f593f2360b19",
+      "material": true,
+      "summary": "Artifact bytes changed for msix:OpenAI.Codex:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "26.930.3930.0",
+      "before": "26.930.2377.0",
+      "material": true,
+      "summary": "Distribution state microsoft-store-rollout-signal:build: 26.930.2377.0 → 26.930.3930.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "codex-stable-windows-x64-f63ad01324bdd1e3",
+  "productId": "codex",
+  "schemaVersion": 1
+}
