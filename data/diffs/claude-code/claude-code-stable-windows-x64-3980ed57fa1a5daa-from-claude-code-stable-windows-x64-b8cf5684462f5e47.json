@@ -1,0 +1,64 @@
+{
+  "artifactChanges": [
+    {
+      "after": "bcc6d9117aec30ad9414490302a25414359c871f5647e32e49b055c92bf84e0b",
+      "before": "84304f7d4b0cd0ebcbe8318695a260151b48991a6659c3366fdd5da290c0ab91",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 249522848,
+      "before": 249149600,
+      "material": false,
+      "summary": "Artifact size changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "claude-code-stable-windows-x64-b8cf5684462f5e47",
+  "createdAt": "2026-10-04T07:00:53.372Z",
+  "diffId": "claude-code-stable-windows-x64-3980ed57fa1a5daa-from-claude-code-stable-windows-x64-b8cf5684462f5e47",
+  "distributionChanges": [
+    {
+      "after": "2.1.289",
+      "before": "2.1.288",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.288 → 2.1.289.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": {
+        "native": "2.1.289",
+        "winget": "2.1.286"
+      },
+      "before": {
+        "native": "2.1.289",
+        "winget": "2.1.286"
+      },
+      "material": false,
+      "summary": "WinGet 2.1.286 lags the official native release 2.1.289.",
+      "type": "distribution-lag"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "bcc6d9117aec30ad9414490302a25414359c871f5647e32e49b055c92bf84e0b",
+      "before": "84304f7d4b0cd0ebcbe8318695a260151b48991a6659c3366fdd5da290c0ab91",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "2.1.289",
+      "before": "2.1.288",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.288 → 2.1.289.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "claude-code-stable-windows-x64-3980ed57fa1a5daa",
+  "productId": "claude-code",
+  "schemaVersion": 1
+}
