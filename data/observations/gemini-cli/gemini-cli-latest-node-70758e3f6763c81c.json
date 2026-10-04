@@ -91,6 +91,20 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29627"
+        ],
+        "signature": "code:command-line|title:bug-command-line-option-injection-vulnerability|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29625"
+        ],
+        "signature": "code:editor|title:bug-windows-path-quoting-argument-sanitization|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29613"
         ],
         "signature": "code:enterprise|title:add-developer-login-studio-oauth-individual",
@@ -105,9 +119,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29603"
+          "github-issue:google-gemini/gemini-cli:29623"
         ],
-        "signature": "code:gemini-cli|title:gemini-githubstarmate",
+        "signature": "code:extension|title:geminicli-com-feedback-valid-tagged-extension",
         "strength": "weak"
       },
       {
@@ -119,48 +133,27 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29605"
+          "github-issue:google-gemini/gemini-cli:29624"
         ],
-        "signature": "title:pull-request-29482-waiting-review",
+        "signature": "code:nightly-release|title:nightly-failed-2026",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29628"
+        ],
+        "signature": "code:user-attachments|title:gemini-flickers",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "c856b3f1afdffcaf1ca120a85fb59b2d9974dbcb82250a7b56a017ac776c62a0",
+      "fingerprint": "635fa11c5000213be1d95038f1b0cbae9e33b706810de8716348642c046aed21",
       "lookbackHours": 72,
       "releaseVersion": "0.62.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-02T05:03:03Z",
-        "id": "github-issue:google-gemini/gemini-cli:29603",
-        "labels": [
-          "area/unknown",
-          "kind/question",
-          "priority/p3",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:gemini-cli|title:gemini-githubstarmate",
-        "title": "邀请 gemini-cli 加入 GithubStarMate，让更多人发现你的作品",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29603"
-      },
-      {
-        "createdAt": "2026-10-02T05:43:59Z",
-        "id": "github-issue:google-gemini/gemini-cli:29605",
-        "labels": [
-          "area/unknown",
-          "kind/question",
-          "priority/p3",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "title:pull-request-29482-waiting-review",
-        "title": "Pull request 29482 is waiting for a review",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29605"
-      },
       {
         "createdAt": "2026-10-02T13:03:39Z",
         "id": "github-issue:google-gemini/gemini-cli:29610",
@@ -217,13 +210,84 @@
         "signature": "code:client_id|title:bug-mcp-oauth-dynamic-client-registration|version:0.62.0|platform:arm64",
         "title": "[BUG] MCP OAuth Dynamic Client Registration: client_id is not persisted and strict RFC 9207 iss check breaks authorization",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29620"
+      },
+      {
+        "createdAt": "2026-10-03T17:54:09Z",
+        "id": "github-issue:google-gemini/gemini-cli:29623",
+        "labels": [
+          "area/extensions",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extension|title:geminicli-com-feedback-valid-tagged-extension",
+        "title": "GeminiCLI.com Feedback: valid tagged extension missing from gallery — objekts-production-desk",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29623"
+      },
+      {
+        "createdAt": "2026-10-04T02:11:26Z",
+        "id": "github-issue:google-gemini/gemini-cli:29624",
+        "labels": [
+          "area/platform",
+          "kind/bug",
+          "priority/p1",
+          "release-failure",
+          "status/manual-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:nightly-release|title:nightly-failed-2026",
+        "title": "Nightly Release Failed for  on 2026-10-04",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29624"
+      },
+      {
+        "createdAt": "2026-10-04T06:13:23Z",
+        "id": "github-issue:google-gemini/gemini-cli:29625",
+        "labels": [
+          "area/core",
+          "effort/large",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:editor|title:bug-windows-path-quoting-argument-sanitization|platform:windows",
+        "title": "[Bug] Windows path quoting and argument sanitization for editor diff command",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29625"
+      },
+      {
+        "createdAt": "2026-10-04T12:05:41Z",
+        "id": "github-issue:google-gemini/gemini-cli:29627",
+        "labels": [
+          "area/security",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:command-line|title:bug-command-line-option-injection-vulnerability|platform:windows",
+        "title": "[Bug] Command-line option injection vulnerability in grep tool via leading-hyphen search patterns",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29627"
+      },
+      {
+        "createdAt": "2026-10-04T12:38:43Z",
+        "id": "github-issue:google-gemini/gemini-cli:29628",
+        "labels": [
+          "area/core",
+          "effort/medium",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:user-attachments|title:gemini-flickers",
+        "title": "Gemini CLI flickers",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29628"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-03T17:28:43.782Z",
+    "observedAt": "2026-10-04T17:43:15.106Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "9 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-bc396c3a917c14ce",
   "interfaces": [
