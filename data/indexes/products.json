@@ -8,7 +8,7 @@
       "knownGood": [
         {
           "channel": "stable",
-          "observationId": "claude-code-stable-windows-x64-3980ed57fa1a5daa",
+          "observationId": "claude-code-stable-windows-x64-b8cf5684462f5e47",
           "platform": "windows-x64",
           "productId": "claude-code",
           "requirementsSatisfied": [
@@ -19,8 +19,8 @@
             "claude-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-04T07:00:53.372Z",
-          "version": "2.1.289"
+          "selectedAt": "2026-10-03T06:37:22.066Z",
+          "version": "2.1.288"
         }
       ],
       "latest": [
@@ -34,21 +34,35 @@
           "verdict": {
             "reasons": [
               {
-                "code": "MATERIAL_EVIDENCE_CHANGED",
-                "evidenceRefs": [],
-                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
-              },
-              {
-                "code": "SECONDARY_DISTRIBUTION_LAGGING",
+                "code": "STRONG_OFFICIAL_GITHUB_CLUSTER",
                 "evidenceRefs": [
-                  "claude-native:release:2.1.289",
-                  "winget:manifest:2.1.286"
+                  "community:claude-code:official-github",
+                  "github-issue:anthropics/claude-code:99566",
+                  "github-issue:anthropics/claude-code:99567",
+                  "github-issue:anthropics/claude-code:99568",
+                  "github-issue:anthropics/claude-code:99569",
+                  "github-issue:anthropics/claude-code:99570",
+                  "github-issue:anthropics/claude-code:99571",
+                  "github-issue:anthropics/claude-code:99572",
+                  "github-issue:anthropics/claude-code:99573",
+                  "github-issue:anthropics/claude-code:99574",
+                  "github-issue:anthropics/claude-code:99575",
+                  "github-issue:anthropics/claude-code:99576",
+                  "github-issue:anthropics/claude-code:99577",
+                  "github-issue:anthropics/claude-code:99578",
+                  "github-issue:anthropics/claude-code:99579",
+                  "github-issue:anthropics/claude-code:99580",
+                  "github-issue:anthropics/claude-code:99581",
+                  "github-issue:anthropics/claude-code:99582",
+                  "github-issue:anthropics/claude-code:99583",
+                  "github-issue:anthropics/claude-code:99584",
+                  "github-issue:anthropics/claude-code:99585"
                 ],
-                "message": "WinGet 2.1.286 lags the official native release 2.1.289. The verified official artifact is unaffected."
+                "message": "A strong official-GitHub issue cluster is associated with this release."
               }
             ],
-            "severity": "minor",
-            "status": "CHANGED"
+            "severity": "major",
+            "status": "SUSPECTED_REGRESSION"
           },
           "version": "2.1.289"
         }
@@ -64,8 +78,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-10-04T07:01:37.270Z",
-          "observationId": "codex-stable-windows-x64-cade9d76d2022e38",
+          "discoveredAt": "2026-10-05T07:11:31.116Z",
+          "observationId": "codex-stable-windows-x64-4984dac440531f81",
           "platform": "windows-x64",
           "productId": "codex",
           "schemaVersion": 1,
@@ -74,14 +88,14 @@
               {
                 "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
                 "evidenceRefs": [
-                  "artifact:msix:OpenAI.Codex:26.930.3930.0:x64"
+                  "artifact:msix:OpenAI.Codex:26.930.4958.0:x64"
                 ],
                 "message": "Required artifact evidence is missing or did not pass."
               },
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
                 "evidenceRefs": [
-                  "behavior:codex:2026-10-04T07:01:37.270Z"
+                  "behavior:codex:2026-10-05T07:11:31.116Z"
                 ],
                 "message": "Required behavior codex-msix-identity is fail."
               },
@@ -94,7 +108,7 @@
             "severity": "major",
             "status": "UNVERIFIED"
           },
-          "version": "26.930.3930.0"
+          "version": "26.930.4958.0"
         }
       ],
       "name": "Codex"
@@ -108,7 +122,7 @@
       "knownGood": [
         {
           "channel": "alpha",
-          "observationId": "codex-cli-alpha-windows-x64-f9919a4311bdbbaa",
+          "observationId": "codex-cli-alpha-windows-x64-604a7ad107874672",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "requirementsSatisfied": [
@@ -120,12 +134,12 @@
             "codex-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-04T17:42:14.215Z",
-          "version": "0.162.0-alpha.13"
+          "selectedAt": "2026-10-05T07:10:49.002Z",
+          "version": "0.162.0-alpha.14"
         },
         {
           "channel": "latest",
-          "observationId": "codex-cli-latest-windows-x64-999b238d3cd93c51",
+          "observationId": "codex-cli-latest-windows-x64-cb9d8a3e6a8cd76e",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "requirementsSatisfied": [
@@ -137,15 +151,15 @@
             "codex-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-04T17:42:14.215Z",
+          "selectedAt": "2026-10-05T07:10:49.002Z",
           "version": "0.160.0"
         }
       ],
       "latest": [
         {
           "channel": "alpha",
-          "discoveredAt": "2026-10-04T17:42:14.215Z",
-          "observationId": "codex-cli-alpha-windows-x64-f9919a4311bdbbaa",
+          "discoveredAt": "2026-10-05T07:10:49.002Z",
+          "observationId": "codex-cli-alpha-windows-x64-604a7ad107874672",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "schemaVersion": 1,
@@ -160,12 +174,12 @@
             "severity": "minor",
             "status": "CHANGED"
           },
-          "version": "0.162.0-alpha.13"
+          "version": "0.162.0-alpha.14"
         },
         {
           "channel": "latest",
-          "discoveredAt": "2026-10-04T17:42:14.215Z",
-          "observationId": "codex-cli-latest-windows-x64-999b238d3cd93c51",
+          "discoveredAt": "2026-10-05T07:10:49.002Z",
+          "observationId": "codex-cli-latest-windows-x64-cb9d8a3e6a8cd76e",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "schemaVersion": 1,
@@ -195,7 +209,7 @@
       "knownGood": [
         {
           "channel": "latest",
-          "observationId": "gemini-cli-latest-node-385418f326f57fd9",
+          "observationId": "gemini-cli-latest-node-c9afb4b7a1351497",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -207,12 +221,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-04T07:02:37.195Z",
+          "selectedAt": "2026-10-05T07:12:44.065Z",
           "version": "0.62.0"
         },
         {
           "channel": "nightly",
-          "observationId": "gemini-cli-nightly-node-e373f1e66cb2446c",
+          "observationId": "gemini-cli-nightly-node-025a02e04d577fc2",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -224,12 +238,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-04T07:02:37.195Z",
-          "version": "0.64.0-nightly.20261003.gfb972b2f8"
+          "selectedAt": "2026-10-05T07:12:44.065Z",
+          "version": "0.64.0-nightly.20261005.gfb972b2f8"
         },
         {
           "channel": "preview",
-          "observationId": "gemini-cli-preview-node-3c33b80117a99440",
+          "observationId": "gemini-cli-preview-node-3fcda4a094c1eb7e",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -241,68 +255,68 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-04T07:02:37.195Z",
+          "selectedAt": "2026-10-05T07:12:44.065Z",
           "version": "0.63.0-preview.0"
         }
       ],
       "latest": [
         {
           "channel": "latest",
-          "discoveredAt": "2026-10-04T07:02:37.195Z",
-          "observationId": "gemini-cli-latest-node-385418f326f57fd9",
+          "discoveredAt": "2026-10-05T07:12:44.065Z",
+          "observationId": "gemini-cli-latest-node-c9afb4b7a1351497",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "REQUIRED_SCOPE_PASSED",
+                "code": "MATERIAL_EVIDENCE_CHANGED",
                 "evidenceRefs": [],
-                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
+                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
               }
             ],
-            "severity": "info",
-            "status": "NO_REGRESSION_DETECTED"
+            "severity": "minor",
+            "status": "CHANGED"
           },
           "version": "0.62.0"
         },
         {
           "channel": "nightly",
-          "discoveredAt": "2026-10-04T07:02:37.195Z",
-          "observationId": "gemini-cli-nightly-node-e373f1e66cb2446c",
+          "discoveredAt": "2026-10-05T07:12:44.065Z",
+          "observationId": "gemini-cli-nightly-node-025a02e04d577fc2",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "REQUIRED_SCOPE_PASSED",
+                "code": "MATERIAL_EVIDENCE_CHANGED",
                 "evidenceRefs": [],
-                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
+                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
               }
             ],
-            "severity": "info",
-            "status": "NO_REGRESSION_DETECTED"
+            "severity": "minor",
+            "status": "CHANGED"
           },
-          "version": "0.64.0-nightly.20261003.gfb972b2f8"
+          "version": "0.64.0-nightly.20261005.gfb972b2f8"
         },
         {
           "channel": "preview",
-          "discoveredAt": "2026-10-04T07:02:37.195Z",
-          "observationId": "gemini-cli-preview-node-3c33b80117a99440",
+          "discoveredAt": "2026-10-05T07:12:44.065Z",
+          "observationId": "gemini-cli-preview-node-3fcda4a094c1eb7e",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "REQUIRED_SCOPE_PASSED",
+                "code": "MATERIAL_EVIDENCE_CHANGED",
                 "evidenceRefs": [],
-                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
+                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
               }
             ],
-            "severity": "info",
-            "status": "NO_REGRESSION_DETECTED"
+            "severity": "minor",
+            "status": "CHANGED"
           },
           "version": "0.63.0-preview.0"
         }

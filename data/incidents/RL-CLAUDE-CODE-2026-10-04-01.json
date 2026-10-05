@@ -1,0 +1,38 @@
+{
+  "affectedObservations": [
+    "claude-code-stable-windows-x64-3980ed57fa1a5daa"
+  ],
+  "events": [
+    {
+      "at": "2026-10-04T07:00:53.372Z",
+      "observationId": "claude-code-stable-windows-x64-3980ed57fa1a5daa",
+      "summary": "Opened from SUSPECTED_REGRESSION evidence for 2.1.289.",
+      "type": "opened"
+    }
+  ],
+  "evidenceRefs": [
+    "community:claude-code:official-github",
+    "github-issue:anthropics/claude-code:99574",
+    "github-issue:anthropics/claude-code:99575",
+    "github-issue:anthropics/claude-code:99584"
+  ],
+  "firstAffectedVersion": "2.1.289",
+  "id": "RL-CLAUDE-CODE-2026-10-04-01",
+  "openedAt": "2026-10-04T07:00:53.372Z",
+  "productId": "claude-code",
+  "regressionSignatures": [
+    {
+      "evidenceRefs": [
+        "community:claude-code:official-github",
+        "github-issue:anthropics/claude-code:99574",
+        "github-issue:anthropics/claude-code:99575",
+        "github-issue:anthropics/claude-code:99584"
+      ],
+      "id": "community:code:integration-github|title:github-integration",
+      "kind": "community",
+      "summary": "Official GitHub issue cluster: code:integration-github|title:github-integration"
+    }
+  ],
+  "schemaVersion": 1,
+  "status": "open"
+}
