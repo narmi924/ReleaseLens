@@ -1,0 +1,96 @@
+{
+  "artifactChanges": [
+    {
+      "after": "70052a17e06561a4563597f79570e81ccc0772474c3c6ac522aa5ccc71773013",
+      "before": "bcc6d9117aec30ad9414490302a25414359c871f5647e32e49b055c92bf84e0b",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 253042848,
+      "before": 249522848,
+      "material": true,
+      "summary": "Artifact size changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "claude-code-stable-windows-x64-3980ed57fa1a5daa",
+  "createdAt": "2026-10-06T07:38:42.325Z",
+  "diffId": "claude-code-stable-windows-x64-e48342582c9a58ef-from-claude-code-stable-windows-x64-3980ed57fa1a5daa",
+  "distributionChanges": [
+    {
+      "after": "2.1.291",
+      "before": "2.1.289",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.289 → 2.1.291.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": {
+        "native": "2.1.291",
+        "winget": "2.1.286"
+      },
+      "before": {
+        "native": "2.1.291",
+        "winget": "2.1.286"
+      },
+      "material": false,
+      "summary": "WinGet 2.1.286 lags the official native release 2.1.291.",
+      "type": "distribution-lag"
+    }
+  ],
+  "interfaceChanges": [
+    {
+      "after": "too",
+      "material": true,
+      "summary": "Command added: too.",
+      "type": "command-added"
+    },
+    {
+      "before": "lists",
+      "material": true,
+      "summary": "Command removed: lists.",
+      "type": "command-removed"
+    }
+  ],
+  "materialChanges": [
+    {
+      "after": "70052a17e06561a4563597f79570e81ccc0772474c3c6ac522aa5ccc71773013",
+      "before": "bcc6d9117aec30ad9414490302a25414359c871f5647e32e49b055c92bf84e0b",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 253042848,
+      "before": 249522848,
+      "material": true,
+      "summary": "Artifact size changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-size-changed"
+    },
+    {
+      "after": "too",
+      "material": true,
+      "summary": "Command added: too.",
+      "type": "command-added"
+    },
+    {
+      "before": "lists",
+      "material": true,
+      "summary": "Command removed: lists.",
+      "type": "command-removed"
+    },
+    {
+      "after": "2.1.291",
+      "before": "2.1.289",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.289 → 2.1.291.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "claude-code-stable-windows-x64-e48342582c9a58ef",
+  "productId": "claude-code",
+  "schemaVersion": 1
+}
