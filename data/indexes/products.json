@@ -8,7 +8,7 @@
       "knownGood": [
         {
           "channel": "stable",
-          "observationId": "claude-code-stable-windows-x64-e48342582c9a58ef",
+          "observationId": "claude-code-stable-windows-x64-69d2fa2e55dd0b7d",
           "platform": "windows-x64",
           "productId": "claude-code",
           "requirementsSatisfied": [
@@ -19,24 +19,24 @@
             "claude-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-06T07:38:42.325Z",
+          "selectedAt": "2026-10-06T18:57:41.598Z",
           "version": "2.1.291"
         }
       ],
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-10-06T07:38:42.325Z",
-          "observationId": "claude-code-stable-windows-x64-e48342582c9a58ef",
+          "discoveredAt": "2026-10-06T18:57:41.598Z",
+          "observationId": "claude-code-stable-windows-x64-69d2fa2e55dd0b7d",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "MATERIAL_EVIDENCE_CHANGED",
+                "code": "REQUIRED_SCOPE_PASSED",
                 "evidenceRefs": [],
-                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
               },
               {
                 "code": "SECONDARY_DISTRIBUTION_LAGGING",
@@ -47,8 +47,8 @@
                 "message": "WinGet 2.1.286 lags the official native release 2.1.291. The verified official artifact is unaffected."
               }
             ],
-            "severity": "minor",
-            "status": "CHANGED"
+            "severity": "info",
+            "status": "NO_REGRESSION_DETECTED"
           },
           "version": "2.1.291"
         }
@@ -195,7 +195,7 @@
       "knownGood": [
         {
           "channel": "latest",
-          "observationId": "gemini-cli-latest-node-b533ae11888512c7",
+          "observationId": "gemini-cli-latest-node-140fe7b6aa3c6862",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -207,12 +207,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-06T07:40:17.692Z",
+          "selectedAt": "2026-10-06T18:58:12.564Z",
           "version": "0.62.0"
         },
         {
           "channel": "nightly",
-          "observationId": "gemini-cli-nightly-node-f2cd06b4bfe615d8",
+          "observationId": "gemini-cli-nightly-node-a925ef0f04630bcc",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -224,12 +224,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-06T07:40:17.692Z",
+          "selectedAt": "2026-10-06T18:58:12.564Z",
           "version": "0.64.0-nightly.20261006.gfb972b2f8"
         },
         {
           "channel": "preview",
-          "observationId": "gemini-cli-preview-node-fd7e346f3386303e",
+          "observationId": "gemini-cli-preview-node-fcfe31c2fbac02b7",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -241,68 +241,68 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-06T07:40:17.692Z",
+          "selectedAt": "2026-10-06T18:58:12.564Z",
           "version": "0.63.0-preview.0"
         }
       ],
       "latest": [
         {
           "channel": "latest",
-          "discoveredAt": "2026-10-06T07:40:17.692Z",
-          "observationId": "gemini-cli-latest-node-b533ae11888512c7",
+          "discoveredAt": "2026-10-06T18:58:12.564Z",
+          "observationId": "gemini-cli-latest-node-140fe7b6aa3c6862",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "MATERIAL_EVIDENCE_CHANGED",
+                "code": "REQUIRED_SCOPE_PASSED",
                 "evidenceRefs": [],
-                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
               }
             ],
-            "severity": "minor",
-            "status": "CHANGED"
+            "severity": "info",
+            "status": "NO_REGRESSION_DETECTED"
           },
           "version": "0.62.0"
         },
         {
           "channel": "nightly",
-          "discoveredAt": "2026-10-06T07:40:17.692Z",
-          "observationId": "gemini-cli-nightly-node-f2cd06b4bfe615d8",
+          "discoveredAt": "2026-10-06T18:58:12.564Z",
+          "observationId": "gemini-cli-nightly-node-a925ef0f04630bcc",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "MATERIAL_EVIDENCE_CHANGED",
+                "code": "REQUIRED_SCOPE_PASSED",
                 "evidenceRefs": [],
-                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
               }
             ],
-            "severity": "minor",
-            "status": "CHANGED"
+            "severity": "info",
+            "status": "NO_REGRESSION_DETECTED"
           },
           "version": "0.64.0-nightly.20261006.gfb972b2f8"
         },
         {
           "channel": "preview",
-          "discoveredAt": "2026-10-06T07:40:17.692Z",
-          "observationId": "gemini-cli-preview-node-fd7e346f3386303e",
+          "discoveredAt": "2026-10-06T18:58:12.564Z",
+          "observationId": "gemini-cli-preview-node-fcfe31c2fbac02b7",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "MATERIAL_EVIDENCE_CHANGED",
+                "code": "REQUIRED_SCOPE_PASSED",
                 "evidenceRefs": [],
-                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
               }
             ],
-            "severity": "minor",
-            "status": "CHANGED"
+            "severity": "info",
+            "status": "NO_REGRESSION_DETECTED"
           },
           "version": "0.63.0-preview.0"
         }

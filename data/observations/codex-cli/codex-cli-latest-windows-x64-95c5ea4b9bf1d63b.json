@@ -120,6 +120,311 @@
       "summary": "codex-cli behavior suite produced 2 passing result(s)."
     }
   ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51445"
+        ],
+        "signature": "code:active-thread-01a11271-942b-7ff1-b5cd-65f8231b70d5|title:resetting-usage-limit-getting-drained-only|version:26.915.31029|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51448"
+        ],
+        "signature": "code:auto-compaction|title:dots-let-users-set-context-windows|version:0.160.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51444"
+        ],
+        "signature": "code:english|title:android-remote-thread-unrelated-english-reasoning|version:6.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51443"
+        ],
+        "signature": "code:environment|title:windows-wsl2-codex-writes-messages-rollout|version:26.930.51102|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51436"
+        ],
+        "signature": "code:error|title:codex-mac-refresh-bug|version:26.930.61225|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51437"
+        ],
+        "signature": "code:error|title:voice-chat-start-voice-chat-took|version:26.930.7945.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51446"
+        ],
+        "signature": "code:expanded|title:macos-quick-chat-spacebar-insert-spaces|version:26.930.61225|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51454"
+        ],
+        "signature": "code:expected|title:localization-turkish-macos-ncellemeleri-genetle-typo|version:26.930.61225|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51435"
+        ],
+        "signature": "code:explicit|title:chatgpt-android-web-search-explicit-google|version:1.2026.272",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51453"
+        ],
+        "signature": "code:follow-up|title:queued-follow-inputs-text-copyable|version:0.160.0-alpha.6|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51438"
+        ],
+        "signature": "code:gpt-6-astra|title:repeated-streaming-disconnects-long-periods-without|version:0.160.1|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51447"
+        ],
+        "signature": "code:signed-in|title:browser-download-workflow-storyblocks-download-times|version:10.6",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51442"
+        ],
+        "signature": "code:signed-in|title:windows-browser-control-timeout-documented-diagnostics|version:26.930.4958.0|platform:windows",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "7c4b704f3d575360642f95a15aebe1fed7d0a28bc93d49b20df3add8b69d4c1d",
+      "lookbackHours": 72,
+      "releaseVersion": "0.160.1",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex-cli:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-10-06T17:58:50Z",
+        "explicitVersion": "1.2026.272",
+        "id": "github-issue:openai/codex:51435",
+        "labels": [
+          "bug",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:explicit|title:chatgpt-android-web-search-explicit-google|version:1.2026.272",
+        "title": "[ChatGPT Android][Web Search] Explicit Google query cannot access the Google SERP and returns materially different results",
+        "url": "https://github.com/openai/codex/issues/51435"
+      },
+      {
+        "createdAt": "2026-10-06T18:02:40Z",
+        "explicitVersion": "26.930.61225",
+        "id": "github-issue:openai/codex:51436",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:error|title:codex-mac-refresh-bug|version:26.930.61225|platform:arm64",
+        "title": "Codex Mac OS App Refresh Bug",
+        "url": "https://github.com/openai/codex/issues/51436"
+      },
+      {
+        "createdAt": "2026-10-06T18:07:46Z",
+        "explicitVersion": "26.930.7945.0",
+        "id": "github-issue:openai/codex:51437",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:error|title:voice-chat-start-voice-chat-took|version:26.930.7945.0|platform:windows",
+        "title": "Voice chat fails to start: \"Voice chat took too long to start\"",
+        "url": "https://github.com/openai/codex/issues/51437"
+      },
+      {
+        "createdAt": "2026-10-06T18:15:49Z",
+        "explicitVersion": "0.160.1",
+        "id": "github-issue:openai/codex:51438",
+        "labels": [
+          "bug",
+          "CLI",
+          "connectivity",
+          "performance"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:gpt-6-astra|title:repeated-streaming-disconnects-long-periods-without|version:0.160.1|platform:macos",
+        "title": "Repeated streaming disconnects and long periods without visible progress",
+        "url": "https://github.com/openai/codex/issues/51438"
+      },
+      {
+        "createdAt": "2026-10-06T18:24:23Z",
+        "explicitVersion": "26.930.4958.0",
+        "id": "github-issue:openai/codex:51442",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:signed-in|title:windows-browser-control-timeout-documented-diagnostics|version:26.930.4958.0|platform:windows",
+        "title": "Windows browser control timeout — documented diagnostics and recovery preserving signed-in sessions",
+        "url": "https://github.com/openai/codex/issues/51442"
+      },
+      {
+        "createdAt": "2026-10-06T18:26:03Z",
+        "explicitVersion": "26.930.51102",
+        "id": "github-issue:openai/codex:51443",
+        "labels": [
+          "app",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:environment|title:windows-wsl2-codex-writes-messages-rollout|version:26.930.51102|platform:windows",
+        "title": "Windows / WSL2 — Codex 26.930.51102 writes messages to rollout JSONL but loses them from Desktop history after restart",
+        "url": "https://github.com/openai/codex/issues/51443"
+      },
+      {
+        "createdAt": "2026-10-06T18:27:00Z",
+        "explicitVersion": "6.1",
+        "id": "github-issue:openai/codex:51444",
+        "labels": [
+          "bug",
+          "remote",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:english|title:android-remote-thread-unrelated-english-reasoning|version:6.1|platform:windows",
+        "title": "[Android][Remote thread] Unrelated English reasoning/summary stream appears only on mobile; absent on desktop",
+        "url": "https://github.com/openai/codex/issues/51444"
+      },
+      {
+        "createdAt": "2026-10-06T18:33:54Z",
+        "explicitVersion": "26.915.31029",
+        "id": "github-issue:openai/codex:51445",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:active-thread-01a11271-942b-7ff1-b5cd-65f8231b70d5|title:resetting-usage-limit-getting-drained-only|version:26.915.31029|platform:windows",
+        "title": "Resetting the usage limit and getting it drained only in 5 minutes",
+        "url": "https://github.com/openai/codex/issues/51445"
+      },
+      {
+        "createdAt": "2026-10-06T18:35:49Z",
+        "explicitVersion": "26.930.61225",
+        "id": "github-issue:openai/codex:51446",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:expanded|title:macos-quick-chat-spacebar-insert-spaces|version:26.930.61225|platform:arm64",
+        "title": "[macOS][Quick Chat] Spacebar does not insert spaces in mini window — words run together (\"sounds good\" becomes \"soundsgood\")",
+        "url": "https://github.com/openai/codex/issues/51446"
+      },
+      {
+        "createdAt": "2026-10-06T18:38:54Z",
+        "explicitVersion": "10.6",
+        "id": "github-issue:openai/codex:51447",
+        "labels": [
+          "browser",
+          "bug",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:signed-in|title:browser-download-workflow-storyblocks-download-times|version:10.6",
+        "title": "Browser download workflow: Storyblocks download times out, then tab access rejected for URL protocol",
+        "url": "https://github.com/openai/codex/issues/51447"
+      },
+      {
+        "createdAt": "2026-10-06T18:45:45Z",
+        "explicitVersion": "0.160.1",
+        "id": "github-issue:openai/codex:51448",
+        "labels": [
+          "app",
+          "context",
+          "dots",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:auto-compaction|title:dots-let-users-set-context-windows|version:0.160.1|platform:windows",
+        "title": "[Dots] Let users set context windows and auto-compaction limits",
+        "url": "https://github.com/openai/codex/issues/51448"
+      },
+      {
+        "createdAt": "2026-10-06T18:55:47Z",
+        "explicitVersion": "0.160.0-alpha.6",
+        "id": "github-issue:openai/codex:51453",
+        "labels": [
+          "bug",
+          "CLI",
+          "TUI",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:follow-up|title:queued-follow-inputs-text-copyable|version:0.160.0-alpha.6|platform:windows",
+        "title": "Queued follow-up inputs: Text is not copyable",
+        "url": "https://github.com/openai/codex/issues/51453"
+      },
+      {
+        "createdAt": "2026-10-06T18:57:32Z",
+        "explicitVersion": "26.930.61225",
+        "id": "github-issue:openai/codex:51454",
+        "labels": [
+          "app"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:expected|title:localization-turkish-macos-ncellemeleri-genetle-typo|version:26.930.61225|platform:arm64",
+        "title": "[Localization][Turkish][macOS] \"Güncellemeleri Genetle...\" typo in ChatGPT menu",
+        "url": "https://github.com/openai/codex/issues/51454"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-10-06T18:57:52.086Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "13 recent official GitHub issues observed for openai/codex."
+  },
   "comparedWith": "codex-cli-latest-windows-x64-cb9d8a3e6a8cd76e",
   "interfaces": [
     {
