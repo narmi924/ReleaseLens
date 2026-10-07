@@ -1,6 +1,8 @@
 {
   "affectedObservations": [
-    "claude-code-stable-windows-x64-020d38cba291b1a9"
+    "claude-code-stable-windows-x64-020d38cba291b1a9",
+    "claude-code-stable-windows-x64-52e83f0269ea9c04",
+    "claude-code-stable-windows-x64-3980ed57fa1a5daa"
   ],
   "events": [
     {
@@ -8,13 +10,37 @@
       "observationId": "claude-code-stable-windows-x64-020d38cba291b1a9",
       "summary": "Opened from SUSPECTED_REGRESSION evidence for 2.1.292.",
       "type": "opened"
+    },
+    {
+      "at": "2026-09-24T04:56:28.623Z",
+      "observationId": "claude-code-stable-windows-x64-52e83f0269ea9c04",
+      "summary": "Regression evidence remained present in 2.1.281.",
+      "type": "affected"
+    },
+    {
+      "at": "2026-10-04T07:00:53.372Z",
+      "observationId": "claude-code-stable-windows-x64-3980ed57fa1a5daa",
+      "summary": "Regression evidence remained present in 2.1.289.",
+      "type": "affected"
+    },
+    {
+      "at": "2026-10-07T19:25:01.183Z",
+      "observationId": "claude-code-stable-windows-x64-d82a562b8606948b",
+      "summary": "A later observation did not yet provide sufficient clearing evidence.",
+      "type": "monitoring"
     }
   ],
   "evidenceRefs": [
     "community:claude-code:official-github",
     "github-issue:anthropics/claude-code:100133",
     "github-issue:anthropics/claude-code:100144",
-    "github-issue:anthropics/claude-code:100147"
+    "github-issue:anthropics/claude-code:100147",
+    "github-issue:anthropics/claude-code:96582",
+    "github-issue:anthropics/claude-code:96598",
+    "github-issue:anthropics/claude-code:96599",
+    "github-issue:anthropics/claude-code:99574",
+    "github-issue:anthropics/claude-code:99575",
+    "github-issue:anthropics/claude-code:99584"
   ],
   "firstAffectedVersion": "2.1.292",
   "id": "RL-CLAUDE-CODE-2026-10-07-01",
@@ -26,7 +52,13 @@
         "community:claude-code:official-github",
         "github-issue:anthropics/claude-code:100133",
         "github-issue:anthropics/claude-code:100144",
-        "github-issue:anthropics/claude-code:100147"
+        "github-issue:anthropics/claude-code:100147",
+        "github-issue:anthropics/claude-code:96582",
+        "github-issue:anthropics/claude-code:96598",
+        "github-issue:anthropics/claude-code:96599",
+        "github-issue:anthropics/claude-code:99574",
+        "github-issue:anthropics/claude-code:99575",
+        "github-issue:anthropics/claude-code:99584"
       ],
       "id": "community:code:integration-github|title:github-integration",
       "kind": "community",
@@ -34,5 +66,5 @@
     }
   ],
   "schemaVersion": 1,
-  "status": "open"
+  "status": "monitoring"
 }

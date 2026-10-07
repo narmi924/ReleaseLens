@@ -1,0 +1,684 @@
+{
+  "artifacts": [
+    {
+      "architecture": "x64",
+      "details": {
+        "application": {
+          "entryPoint": "Windows.FullTrustApplication",
+          "executable": "app/ChatGPT.exe",
+          "id": "App"
+        },
+        "blockMap": {
+          "errors": [
+            "Block-map stored size did not match for uncompressed file app/resources/cua_node/bin/node_modules/playwright-core/lib/server/chromium/appIcon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/default_app/icon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/browser/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/chrome/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/code-review/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/codex-app-tools/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/deep-research/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/computer-use/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/latex/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/unified-computer-use/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/visualize/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/browser.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/composer-icon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/google-chrome.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome-composer.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/computer-use/assets/app-icon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/latex/assets/latex.png.",
+            "Block-map stored size did not match for uncompressed file assets/icon.png.",
+            "Block-map stored size did not match for uncompressed file assets/LockScreenLogo.scale-200.png.",
+            "Block-map stored size did not match for uncompressed file assets/SplashScreen.scale-200.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square150x150Logo.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square150x150Logo.scale-200.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.scale-200.png.",
+            "32 additional block-map failure(s) omitted from persisted evidence."
+          ],
+          "status": "fail",
+          "totalFiles": 3635,
+          "verifiedFiles": 3579
+        },
+        "fileCount": 3639,
+        "importantFiles": [
+          "AppxManifest.xml",
+          "AppxBlockMap.xml",
+          "AppxSignature.p7x",
+          "app/ChatGPT.exe"
+        ],
+        "signature": {
+          "signer": "CN=50BDFD77-8903-4850-9FFE-6E8522F64D5B",
+          "status": "pass",
+          "summary": "Windows reported a valid Authenticode signature."
+        },
+        "topLevelDirectories": [
+          "[Content_Types].xml",
+          "app",
+          "AppxBlockMap.xml",
+          "AppxManifest.xml",
+          "AppxMetadata",
+          "AppxSignature.p7x",
+          "assets",
+          "priconfig.xml",
+          "resources.language-is.pri",
+          "resources.pri",
+          "resources.scale-200.pri"
+        ]
+      },
+      "fileName": "OpenAI.Codex_26.1002.7124.0_x64__2p2nqsd0c76g0.msix",
+      "format": "msix",
+      "id": "artifact:msix:OpenAI.Codex:26.1002.7124.0:x64",
+      "kind": "artifact",
+      "observedAt": "2026-10-07T19:25:40.181Z",
+      "packageIdentity": "OpenAI.Codex",
+      "packageVersion": "26.1002.7124.0",
+      "sha256": "f2913fdf027a0924ef42198222e325ac8f6331580cbffc51c7a8d18d8ce73c78",
+      "sizeBytes": 941254056,
+      "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+      "status": "fail",
+      "summary": "OpenAI.Codex 26.1002.7124.0 MSIX failed verification.",
+      "verification": [
+        {
+          "id": "msix-identity",
+          "kind": "verification",
+          "observedAt": "2026-10-07T19:25:40.181Z",
+          "status": "pass",
+          "summary": "MSIX package identity matches the profile."
+        },
+        {
+          "id": "msix-required-file:app/resources/codex.exe",
+          "kind": "verification",
+          "observedAt": "2026-10-07T19:25:40.181Z",
+          "status": "pass",
+          "summary": "Required MSIX file app/resources/codex.exe exists."
+        },
+        {
+          "id": "msix-architecture",
+          "kind": "verification",
+          "observedAt": "2026-10-07T19:25:40.181Z",
+          "status": "pass",
+          "summary": "MSIX processor architecture matches the profile."
+        },
+        {
+          "id": "msix-version",
+          "kind": "verification",
+          "observedAt": "2026-10-07T19:25:40.181Z",
+          "status": "pass",
+          "summary": "MSIX package version matches the resolved moniker."
+        },
+        {
+          "id": "msix-moniker",
+          "kind": "verification",
+          "observedAt": "2026-10-07T19:25:40.181Z",
+          "status": "pass",
+          "summary": "MSIX manifest agrees with the resolved package moniker."
+        },
+        {
+          "id": "msix-entrypoint",
+          "kind": "verification",
+          "observedAt": "2026-10-07T19:25:40.181Z",
+          "status": "pass",
+          "summary": "MSIX application executable app/ChatGPT.exe exists in the package."
+        },
+        {
+          "id": "msix-signature-file",
+          "kind": "verification",
+          "observedAt": "2026-10-07T19:25:40.181Z",
+          "status": "pass",
+          "summary": "MSIX includes AppxSignature.p7x."
+        },
+        {
+          "id": "msix-block-map",
+          "kind": "verification",
+          "observedAt": "2026-10-07T19:25:40.181Z",
+          "status": "fail",
+          "summary": "Block-map stored size did not match for uncompressed file app/resources/cua_node/bin/node_modules/playwright-core/lib/server/chromium/appIcon.png. Block-map stored size did not match for uncompressed file app/resources/default_app/icon.png. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/browser/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/chrome/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/code-review/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/codex-app-tools/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/deep-research/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/computer-use/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/latex/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/unified-computer-use/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/visualize/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/browser.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/composer-icon.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/google-chrome.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome-composer.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/computer-use/assets/app-icon.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/latex/assets/latex.png. Block-map stored size did not match for uncompressed file assets/icon.png. Block-map stored size did not match for uncompressed file assets/LockScreenLogo.scale-200.png. Block-map stored size did not match for uncompressed file assets/SplashScreen.scale-200.png. Block-map stored size did not match for uncompressed file assets/Square150x150Logo.png. Block-map stored size did not match for uncompressed file assets/Square150x150Logo.scale-200.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.scale-200.png. 32 additional block-map failure(s) omitted from persisted evidence."
+        },
+        {
+          "id": "msix-signature",
+          "kind": "verification",
+          "observedAt": "2026-10-07T19:25:40.181Z",
+          "status": "pass",
+          "summary": "Windows reported a valid Authenticode signature."
+        }
+      ]
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-10-07T19:25:40.181Z",
+      "kind": "behavior",
+      "observedAt": "2026-10-07T19:25:40.181Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-10-07T19:25:40.181Z",
+          "status": "fail",
+          "summary": "Codex backend was not executed because MSIX verification did not pass.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-10-07T19:25:40.181Z",
+          "status": "not-applicable",
+          "summary": "Codex desktop startup was not attempted because MSIX verification did not pass.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "fail",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51802"
+        ],
+        "signature": "code:af9e8d8d-07c2-4418-9f4e-8af93df067df|title:chatgpt-unresponsive-one-chat-while-responsive",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51795"
+        ],
+        "signature": "code:agent-owned|title:chrome-plugin-close-listed-agent-owned|version:26.930.61225|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51791"
+        ],
+        "signature": "code:browser-test|title:windows-desktop-compound-local-browser-test|version:26.1002.7124.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51799"
+        ],
+        "signature": "code:elevated|title:windows-codex-repeatedly-prompts-approvals-reports|version:26.1002.7124.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51787"
+        ],
+        "signature": "code:enable|title:daemon-restart-accepts-enable-but-preserves|version:0.161.0|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51801"
+        ],
+        "signature": "code:environment|title:remote-ssh-minute-turn-215-000|version:26.930.61225-linux-x64|platform:x64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51797"
+        ],
+        "signature": "code:even|title:dots-unnecessary-native-codex-task-handoff",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51807"
+        ],
+        "signature": "code:events|title:desktop-pets-customize-which-events-trigger|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51805"
+        ],
+        "signature": "code:existing|title:chatgpt-regression-existing-chat-local-execution|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51792"
+        ],
+        "signature": "code:existing|title:windows-codex-sites-connector-unavailable-deploy|version:26.930.31730|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51793"
+        ],
+        "signature": "code:existing|title:windows-desktop-choose-installation-data-locations|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51798"
+        ],
+        "signature": "code:exposes|title:dots-docs-document-desktop-reboot-behavior|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51806"
+        ],
+        "signature": "code:gpt-6|title:codex-wont-start|version:0.161.0|platform:x64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51789"
+        ],
+        "signature": "code:gpt-sol-6|title:cyber-security-check-triggered-random-correctness|version:0.161.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51803"
+        ],
+        "signature": "code:log_dir|title:mcp-stdio-server-initialize-unless-codex|version:0.161.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51796"
+        ],
+        "signature": "code:primary-renderer|title:windows-arm64-build-13536-repeated-primary|version:26.1002.7124.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51790"
+        ],
+        "signature": "code:send_message_to_thread|title:codex-desktop-send-message-thread-sendrequest|version:26.1002.51308|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51804"
+        ],
+        "signature": "code:system-wide|title:bug-clicking-chatgpt-desktop-notification-causes|version:26.04.1|platform:linux",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "3bacdd1bfebcf66dc3d032b472376925705d5fa96f3b164d900ec9fe437b8835",
+      "lookbackHours": 72,
+      "releaseVersion": "26.1002.7124.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-10-07T18:06:42Z",
+        "explicitVersion": "0.161.0",
+        "id": "github-issue:openai/codex:51787",
+        "labels": [
+          "app-server",
+          "bug",
+          "CLI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:enable|title:daemon-restart-accepts-enable-but-preserves|version:0.161.0|platform:arm64",
+        "title": "daemon restart accepts --enable but preserves a conflicting saved feature override",
+        "url": "https://github.com/openai/codex/issues/51787"
+      },
+      {
+        "createdAt": "2026-10-07T18:17:42Z",
+        "explicitVersion": "0.161.0",
+        "id": "github-issue:openai/codex:51789",
+        "labels": [
+          "bug",
+          "CLI",
+          "safety-check"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:gpt-sol-6|title:cyber-security-check-triggered-random-correctness|version:0.161.0|platform:linux",
+        "title": "Cyber security check triggered with random correctness testing (simulation testing)",
+        "url": "https://github.com/openai/codex/issues/51789"
+      },
+      {
+        "createdAt": "2026-10-07T18:18:34Z",
+        "explicitVersion": "26.1002.51308",
+        "id": "github-issue:openai/codex:51790",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:send_message_to_thread|title:codex-desktop-send-message-thread-sendrequest|version:26.1002.51308|platform:arm64",
+        "title": "Codex desktop: send_message_to_thread fails with \"'sendRequest.bind' is not a function\"",
+        "url": "https://github.com/openai/codex/issues/51790"
+      },
+      {
+        "createdAt": "2026-10-07T18:22:56Z",
+        "explicitVersion": "26.1002.7124.0",
+        "id": "github-issue:openai/codex:51791",
+        "labels": [
+          "app",
+          "bug",
+          "sandbox",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/51791",
+        "signature": "code:browser-test|title:windows-desktop-compound-local-browser-test|version:26.1002.7124.0|platform:windows",
+        "title": "Windows desktop: compound local browser-test command rejected before execution without policy rationale",
+        "url": "https://github.com/openai/codex/issues/51791"
+      },
+      {
+        "createdAt": "2026-10-07T18:22:57Z",
+        "explicitVersion": "26.930.31730",
+        "id": "github-issue:openai/codex:51792",
+        "labels": [
+          "app",
+          "bug",
+          "skills",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:existing|title:windows-codex-sites-connector-unavailable-deploy|version:26.930.31730|platform:windows",
+        "title": "[Windows][Codex App] Sites connector unavailable; cannot deploy existing Site",
+        "url": "https://github.com/openai/codex/issues/51792"
+      },
+      {
+        "createdAt": "2026-10-07T18:31:46Z",
+        "id": "github-issue:openai/codex:51793",
+        "labels": [
+          "app",
+          "enhancement",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:existing|title:windows-desktop-choose-installation-data-locations|platform:windows",
+        "title": "[Windows desktop] Choose installation and data locations during setup, and provide an official migration tool",
+        "url": "https://github.com/openai/codex/issues/51793"
+      },
+      {
+        "createdAt": "2026-10-07T18:43:49Z",
+        "explicitVersion": "26.930.61225",
+        "id": "github-issue:openai/codex:51795",
+        "labels": [
+          "browser",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:agent-owned|title:chrome-plugin-close-listed-agent-owned|version:26.930.61225|platform:windows",
+        "title": "Chrome plugin cannot close listed agent-owned tab after debugger detach",
+        "url": "https://github.com/openai/codex/issues/51795"
+      },
+      {
+        "createdAt": "2026-10-07T18:47:13Z",
+        "explicitVersion": "26.1002.7124.0",
+        "id": "github-issue:openai/codex:51796",
+        "labels": [
+          "app",
+          "bug",
+          "performance",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/51796",
+        "signature": "code:primary-renderer|title:windows-arm64-build-13536-repeated-primary|version:26.1002.7124.0|platform:windows",
+        "title": "[Windows ARM64][26.1002.52244 / build 13536] Repeated primary-renderer OOM resets to splash/Home with 32-40 GB RAM free",
+        "url": "https://github.com/openai/codex/issues/51796"
+      },
+      {
+        "createdAt": "2026-10-07T18:48:09Z",
+        "id": "github-issue:openai/codex:51797",
+        "labels": [
+          "bug",
+          "dots",
+          "mcp",
+          "subagent"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:even|title:dots-unnecessary-native-codex-task-handoff",
+        "title": "[Dots] Unnecessary native Codex task handoff instead of directly using authorized MCP tools",
+        "url": "https://github.com/openai/codex/issues/51797"
+      },
+      {
+        "createdAt": "2026-10-07T18:49:41Z",
+        "id": "github-issue:openai/codex:51798",
+        "labels": [
+          "app",
+          "documentation",
+          "dots",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:exposes|title:dots-docs-document-desktop-reboot-behavior|platform:windows",
+        "title": "[Dots docs] Document desktop Reboot behavior and distinguish it from Reset/Delete",
+        "url": "https://github.com/openai/codex/issues/51798"
+      },
+      {
+        "createdAt": "2026-10-07T18:54:10Z",
+        "explicitVersion": "26.1002.7124.0",
+        "id": "github-issue:openai/codex:51799",
+        "labels": [
+          "bug",
+          "CLI",
+          "sandbox",
+          "subagent",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:elevated|title:windows-codex-repeatedly-prompts-approvals-reports|version:26.1002.7124.0|platform:windows",
+        "title": "Windows Codex repeatedly prompts for approvals and reports elevated sandbox provisioning failure",
+        "url": "https://github.com/openai/codex/issues/51799"
+      },
+      {
+        "createdAt": "2026-10-07T19:06:48Z",
+        "duplicateOf": "#50368",
+        "explicitVersion": "26.930.61225-linux-x64",
+        "id": "github-issue:openai/codex:51801",
+        "labels": [
+          "bug",
+          "extension",
+          "model-behavior",
+          "performance",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:environment|title:remote-ssh-minute-turn-215-000|version:26.930.61225-linux-x64|platform:x64",
+        "title": "VS Code Remote SSH: 26-minute turn with ~215,000-character malformed tool call, then recovery",
+        "url": "https://github.com/openai/codex/issues/51801"
+      },
+      {
+        "createdAt": "2026-10-07T19:08:32Z",
+        "id": "github-issue:openai/codex:51802",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:af9e8d8d-07c2-4418-9f4e-8af93df067df|title:chatgpt-unresponsive-one-chat-while-responsive",
+        "title": "chatgpt unresponsive in one chat while responsive in other chats",
+        "url": "https://github.com/openai/codex/issues/51802"
+      },
+      {
+        "createdAt": "2026-10-07T19:12:03Z",
+        "explicitVersion": "0.161.0",
+        "id": "github-issue:openai/codex:51803",
+        "labels": [
+          "bug",
+          "CLI",
+          "config",
+          "mcp",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:log_dir|title:mcp-stdio-server-initialize-unless-codex|version:0.161.0|platform:windows",
+        "title": "MCP stdio server fails to initialize unless Codex is started with a -c log_dir=... override on Windows",
+        "url": "https://github.com/openai/codex/issues/51803"
+      },
+      {
+        "createdAt": "2026-10-07T19:12:55Z",
+        "explicitVersion": "26.04.1",
+        "id": "github-issue:openai/codex:51804",
+        "labels": [
+          "app",
+          "bug",
+          "performance"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:system-wide|title:bug-clicking-chatgpt-desktop-notification-causes|version:26.04.1|platform:linux",
+        "title": "Bug: Clicking a ChatGPT desktop notification causes the whole PC to lag",
+        "url": "https://github.com/openai/codex/issues/51804"
+      },
+      {
+        "createdAt": "2026-10-07T19:13:05Z",
+        "id": "github-issue:openai/codex:51805",
+        "labels": [
+          "agent",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:existing|title:chatgpt-regression-existing-chat-local-execution|platform:windows",
+        "title": "[ChatGPT][Regression] Existing Chat local execution is blocked and redirected to separately-metered Work",
+        "url": "https://github.com/openai/codex/issues/51805"
+      },
+      {
+        "createdAt": "2026-10-07T19:15:07Z",
+        "explicitVersion": "0.161.0",
+        "id": "github-issue:openai/codex:51806",
+        "labels": [
+          "app-server",
+          "bug",
+          "CLI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "x64",
+        "signature": "code:gpt-6|title:codex-wont-start|version:0.161.0|platform:x64",
+        "title": "codex wont start",
+        "url": "https://github.com/openai/codex/issues/51806"
+      },
+      {
+        "createdAt": "2026-10-07T19:18:53Z",
+        "id": "github-issue:openai/codex:51807",
+        "labels": [
+          "app",
+          "enhancement",
+          "pets"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:events|title:desktop-pets-customize-which-events-trigger|platform:windows",
+        "title": "[Desktop][Pets] Customize which events trigger pet pop-ups, with a completion-only option",
+        "url": "https://github.com/openai/codex/issues/51807"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-10-07T19:26:33.968Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "18 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-2d7cc52afb5a607c",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-06aac6be9f4c00ed",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.1002.7124.0",
+    "channel": "stable",
+    "discoveredAt": "2026-10-07T19:25:40.181Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.1002.7124.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "10528911cad1fb5659f73118f0e2c4c466dfe6c07408ffb6e4bcad288cbf2cba",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-10-07T19:25:40.232Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.1002.7124.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.1002.7124.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "9c406fa5-746a-4fc4-bfb3-49735492f665"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.1002.7124.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-10-07T19:25:40.181Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "pass",
+      "summary": "FE3 resolves x64 package 26.1002.7124.0 from the Microsoft delivery host."
+    },
+    {
+      "details": {
+        "buildVersion": "26.1002.7124.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-10-07T19:25:40.181Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:msix:OpenAI.Codex:26.1002.7124.0:x64"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-10-07T19:25:40.181Z"
+        ],
+        "message": "Required behavior codex-msix-identity is fail."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [],
+        "message": "Required behavior codex-backend-version is fail."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}

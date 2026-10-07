@@ -1,0 +1,87 @@
+{
+  "artifactChanges": [
+    {
+      "before": {},
+      "material": true,
+      "summary": "Artifact removed: unavailable:unknown:unknown.",
+      "type": "artifact-removed"
+    },
+    {
+      "after": {
+        "sha256": "f2913fdf027a0924ef42198222e325ac8f6331580cbffc51c7a8d18d8ce73c78",
+        "sizeBytes": 941254056
+      },
+      "material": true,
+      "summary": "Artifact added: msix:OpenAI.Codex:x64.",
+      "type": "artifact-added"
+    }
+  ],
+  "behaviorChanges": [
+    {
+      "after": "fail",
+      "before": "unsupported",
+      "material": true,
+      "summary": "Behavior codex-msix-identity: unsupported → fail.",
+      "type": "behavior-status-changed"
+    },
+    {
+      "before": "unsupported",
+      "material": true,
+      "summary": "Behavior test removed: codex-backend-version.",
+      "type": "behavior-test-removed"
+    }
+  ],
+  "comparedWith": "codex-stable-windows-x64-2d7cc52afb5a607c",
+  "createdAt": "2026-10-07T19:25:40.181Z",
+  "diffId": "codex-stable-windows-x64-06aac6be9f4c00ed-from-codex-stable-windows-x64-2d7cc52afb5a607c",
+  "distributionChanges": [
+    {
+      "after": "26.1002.7124.0",
+      "before": "26.1002.6548.0",
+      "material": true,
+      "summary": "Distribution state microsoft-store-rollout-signal:build: 26.1002.6548.0 → 26.1002.7124.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "before": {},
+      "material": true,
+      "summary": "Artifact removed: unavailable:unknown:unknown.",
+      "type": "artifact-removed"
+    },
+    {
+      "after": {
+        "sha256": "f2913fdf027a0924ef42198222e325ac8f6331580cbffc51c7a8d18d8ce73c78",
+        "sizeBytes": 941254056
+      },
+      "material": true,
+      "summary": "Artifact added: msix:OpenAI.Codex:x64.",
+      "type": "artifact-added"
+    },
+    {
+      "after": "fail",
+      "before": "unsupported",
+      "material": true,
+      "summary": "Behavior codex-msix-identity: unsupported → fail.",
+      "type": "behavior-status-changed"
+    },
+    {
+      "before": "unsupported",
+      "material": true,
+      "summary": "Behavior test removed: codex-backend-version.",
+      "type": "behavior-test-removed"
+    },
+    {
+      "after": "26.1002.7124.0",
+      "before": "26.1002.6548.0",
+      "material": true,
+      "summary": "Distribution state microsoft-store-rollout-signal:build: 26.1002.6548.0 → 26.1002.7124.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "codex-stable-windows-x64-06aac6be9f4c00ed",
+  "productId": "codex",
+  "schemaVersion": 1
+}
