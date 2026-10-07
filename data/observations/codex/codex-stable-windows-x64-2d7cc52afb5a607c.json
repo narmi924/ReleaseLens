@@ -1,0 +1,566 @@
+{
+  "artifacts": [
+    {
+      "fileName": "unavailable",
+      "format": "unavailable",
+      "id": "artifact:codex:unavailable:26.1002.6548.0",
+      "kind": "artifact",
+      "observedAt": "2026-10-07T07:19:54.898Z",
+      "packageVersion": "26.1002.6548.0",
+      "sourceHost": "unavailable",
+      "status": "unsupported",
+      "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+      "verification": []
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-10-07T07:19:54.898Z",
+      "kind": "behavior",
+      "observedAt": "2026-10-07T07:19:54.898Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-10-07T07:19:54.898Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-10-07T07:19:54.898Z",
+          "status": "unsupported",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-backend-version"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-10-07T07:19:54.898Z",
+          "status": "not-applicable",
+          "summary": "Codex x64 is catalog-only or inconsistent; no verified FE3 artifact may be acquired.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "unsupported",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51588"
+        ],
+        "signature": "code:0x800700e9|title:windows-repeated-update-failure-successful-staging|version:26.1002.6548.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51598"
+        ],
+        "signature": "code:codex-cli|title:text-gets-pasted-whole-soon-user|version:0.160.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51606"
+        ],
+        "signature": "code:cross-account|title:dots-cloud-firefox-restoration-requires-manual|version:157.0.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51591"
+        ],
+        "signature": "code:empty|title:windows-desktop-historical-images-fail-render|version:26.930.61225|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51587"
+        ],
+        "signature": "code:enable|title:codex-linear-installed-linear-enable-links",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51596"
+        ],
+        "signature": "code:environment|title:windows-sandbox-bundled-sharing-violation-separate|version:26.1002.6548.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51589"
+        ],
+        "signature": "code:esxi|title:windows-computer-use-capture-times-out|version:26.930.51102|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51605"
+        ],
+        "signature": "code:every|title:windows-sandbox-before-every-shell-command|version:26.1002.51308|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51601"
+        ],
+        "signature": "code:execution|title:windows-sandbox-setup-sharing-violation-validating|version:26.1002.51308|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51597"
+        ],
+        "signature": "code:existing|title:windows-new-work-chats-send-home|version:26.1002.6548.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51594"
+        ],
+        "signature": "code:existing|title:windows-new-work-first-prompt-disabled|version:26.1002.6548.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51592"
+        ],
+        "signature": "code:explicit|title:allow-plugin-install-defer-oauth-discovery|version:0.160.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51600"
+        ],
+        "signature": "code:extension|title:chrome-extension-read-1688-pages|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51590"
+        ],
+        "signature": "code:node_repl|title:windows-sandbox-opening-running-node-repl|version:10.0.26200|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51604"
+        ],
+        "signature": "code:prompt-cache|title:macos-codex-desktop-sudden-increase-quota|version:26.930.61225|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51603"
+        ],
+        "signature": "code:restart_required|title:windows-desktop-blue-update-arrow-persists|version:26.930.61225|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51593"
+        ],
+        "signature": "code:two-machine|title:windows-desktop-local-task-replies-approvals|version:26.930.7945.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:51599"
+        ],
+        "signature": "code:up_to_date|title:macos-local-skill-try-now-leaves|version:26.930.61225|platform:macos",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "83896f5c7bd4774c21f11b5218c0af83069d33766f35fa8f23d0eaf459798dd8",
+      "lookbackHours": 72,
+      "releaseVersion": "26.1002.6548.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-10-07T05:20:16Z",
+        "id": "github-issue:openai/codex:51587",
+        "labels": [
+          "bug",
+          "codex-web"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:enable|title:codex-linear-installed-linear-enable-links",
+        "title": "Codex for Linear cannot be installed: Linear's Enable links to chatgpt.com/codex/settings/connectors, which redirects to the ChatGPT home page",
+        "url": "https://github.com/openai/codex/issues/51587"
+      },
+      {
+        "createdAt": "2026-10-07T05:22:34Z",
+        "explicitVersion": "26.1002.6548.0",
+        "id": "github-issue:openai/codex:51588",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:0x800700e9|title:windows-repeated-update-failure-successful-staging|version:26.1002.6548.0|platform:windows",
+        "title": "[Windows] Repeated in-app update failure after successful staging: 0x800700E9 / app still running (target 26.1002.6548.0)",
+        "url": "https://github.com/openai/codex/issues/51588"
+      },
+      {
+        "createdAt": "2026-10-07T05:27:12Z",
+        "explicitVersion": "26.930.51102",
+        "id": "github-issue:openai/codex:51589",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:esxi|title:windows-computer-use-capture-times-out|version:26.930.51102|platform:windows",
+        "title": "Windows 10 Computer Use capture times out in ESXi VM via both RDP and VMware console",
+        "url": "https://github.com/openai/codex/issues/51589"
+      },
+      {
+        "createdAt": "2026-10-07T05:36:39Z",
+        "explicitVersion": "10.0.26200",
+        "id": "github-issue:openai/codex:51590",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/51590",
+        "signature": "code:node_repl|title:windows-sandbox-opening-running-node-repl|version:10.0.26200|platform:windows",
+        "title": "Windows sandbox fails opening running node_repl.exe for ACL update (error 32); Computer Use and shell blocked",
+        "url": "https://github.com/openai/codex/issues/51590"
+      },
+      {
+        "createdAt": "2026-10-07T05:39:31Z",
+        "explicitVersion": "26.930.61225",
+        "id": "github-issue:openai/codex:51591",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/51591",
+        "signature": "code:empty|title:windows-desktop-historical-images-fail-render|version:26.930.61225|platform:windows",
+        "title": "[Windows desktop 26.930.61225] Historical images fail to render; empty assetPointer/fileId causes HTTP 422 No file_id provided",
+        "url": "https://github.com/openai/codex/issues/51591"
+      },
+      {
+        "createdAt": "2026-10-07T05:41:54Z",
+        "explicitVersion": "0.160.0",
+        "id": "github-issue:openai/codex:51592",
+        "labels": [
+          "app-server",
+          "auth",
+          "enhancement",
+          "mcp",
+          "performance",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/51592",
+        "signature": "code:explicit|title:allow-plugin-install-defer-oauth-discovery|version:0.160.0|platform:windows",
+        "title": "Allow plugin/install to defer OAuth discovery and browser authorization until explicit login",
+        "url": "https://github.com/openai/codex/issues/51592"
+      },
+      {
+        "createdAt": "2026-10-07T05:58:13Z",
+        "explicitVersion": "26.930.7945.0",
+        "id": "github-issue:openai/codex:51593",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:two-machine|title:windows-desktop-local-task-replies-approvals|version:26.930.7945.0|platform:windows",
+        "title": "[Windows Desktop 26.930.7945.0] Local task replies/approvals fail with AbsolutePathBuf; two-machine setup",
+        "url": "https://github.com/openai/codex/issues/51593"
+      },
+      {
+        "createdAt": "2026-10-07T06:02:08Z",
+        "explicitVersion": "26.1002.6548.0",
+        "id": "github-issue:openai/codex:51594",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:existing|title:windows-new-work-first-prompt-disabled|version:26.1002.6548.0|platform:windows",
+        "title": "[Windows 26.1002.51308] New Work first prompt disabled after update; existing Work chats and Codex still work",
+        "url": "https://github.com/openai/codex/issues/51594"
+      },
+      {
+        "createdAt": "2026-10-07T06:11:51Z",
+        "explicitVersion": "26.1002.6548.0",
+        "id": "github-issue:openai/codex:51596",
+        "labels": [
+          "app",
+          "bug",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:environment|title:windows-sandbox-bundled-sharing-violation-separate|version:26.1002.6548.0|platform:windows",
+        "title": "Windows sandbox: bundled 0.162.0-alpha.2 fails with sharing violation; separate stable 0.160.1 starts",
+        "url": "https://github.com/openai/codex/issues/51596"
+      },
+      {
+        "createdAt": "2026-10-07T06:14:31Z",
+        "explicitVersion": "26.1002.6548.0",
+        "id": "github-issue:openai/codex:51597",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:existing|title:windows-new-work-chats-send-home|version:26.1002.6548.0|platform:windows",
+        "title": "[Windows][26.1002.51308] New Work chats cannot send from home after update; existing chats still work",
+        "url": "https://github.com/openai/codex/issues/51597"
+      },
+      {
+        "createdAt": "2026-10-07T06:23:13Z",
+        "explicitVersion": "0.160.1",
+        "id": "github-issue:openai/codex:51598",
+        "labels": [
+          "bug",
+          "CLI",
+          "TUI",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:codex-cli|title:text-gets-pasted-whole-soon-user|version:0.160.1|platform:windows",
+        "title": "Text gets pasted(as a whole) as soon as user copies the text",
+        "url": "https://github.com/openai/codex/issues/51598"
+      },
+      {
+        "createdAt": "2026-10-07T06:24:27Z",
+        "explicitVersion": "26.930.61225",
+        "id": "github-issue:openai/codex:51599",
+        "labels": [
+          "app",
+          "bug",
+          "skills"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:up_to_date|title:macos-local-skill-try-now-leaves|version:26.930.61225|platform:macos",
+        "title": "[macOS] Local skill Try now leaves detail dialog undismissable over composer",
+        "url": "https://github.com/openai/codex/issues/51599"
+      },
+      {
+        "createdAt": "2026-10-07T06:28:07Z",
+        "id": "github-issue:openai/codex:51600",
+        "labels": [
+          "app",
+          "browser",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:extension|title:chrome-extension-read-1688-pages|platform:macos",
+        "title": "Chrome extension cannot read 1688 pages",
+        "url": "https://github.com/openai/codex/issues/51600"
+      },
+      {
+        "createdAt": "2026-10-07T06:33:31Z",
+        "explicitVersion": "26.1002.51308",
+        "id": "github-issue:openai/codex:51601",
+        "labels": [
+          "app",
+          "bug",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/51601",
+        "signature": "code:execution|title:windows-sandbox-setup-sharing-violation-validating|version:26.1002.51308|platform:windows",
+        "title": "Windows app 26.1002.51308: sandbox setup fails with sharing violation when validating its own active runtime",
+        "url": "https://github.com/openai/codex/issues/51601"
+      },
+      {
+        "createdAt": "2026-10-07T06:38:57Z",
+        "explicitVersion": "26.930.61225",
+        "id": "github-issue:openai/codex:51603",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:restart_required|title:windows-desktop-blue-update-arrow-persists|version:26.930.61225|platform:windows",
+        "title": "Windows desktop: blue update arrow persists after 5–6 update restarts; updater still reports restart_required",
+        "url": "https://github.com/openai/codex/issues/51603"
+      },
+      {
+        "createdAt": "2026-10-07T06:50:45Z",
+        "explicitVersion": "26.930.61225",
+        "id": "github-issue:openai/codex:51604",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:prompt-cache|title:macos-codex-desktop-sudden-increase-quota|version:26.930.61225|platform:arm64",
+        "title": "[macOS][Codex Desktop] Sudden ~60% increase in 5h quota usage overnight; large prompt-cache miss on small turn",
+        "url": "https://github.com/openai/codex/issues/51604"
+      },
+      {
+        "createdAt": "2026-10-07T07:04:33Z",
+        "explicitVersion": "26.1002.51308",
+        "id": "github-issue:openai/codex:51605",
+        "labels": [
+          "app",
+          "bug",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:every|title:windows-sandbox-before-every-shell-command|version:26.1002.51308|platform:windows",
+        "title": "Windows sandbox fails before every shell command: deny_read_acl_state.json contains null bytes",
+        "url": "https://github.com/openai/codex/issues/51605"
+      },
+      {
+        "createdAt": "2026-10-07T07:15:33Z",
+        "explicitVersion": "157.0.1",
+        "id": "github-issue:openai/codex:51606",
+        "labels": [
+          "browser",
+          "bug",
+          "connectivity",
+          "dots"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:cross-account|title:dots-cloud-firefox-restoration-requires-manual|version:157.0.1|platform:windows",
+        "title": "[Dots] Cloud Firefox CA restoration requires manual takeover; reported cross-account inconsistency",
+        "url": "https://github.com/openai/codex/issues/51606"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-10-07T07:20:16.853Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "18 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-82c389e87dbb114c",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-2d7cc52afb5a607c",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.1002.6548.0",
+    "channel": "stable",
+    "discoveredAt": "2026-10-07T07:19:54.898Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.1002.6548.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "98709699bc399e617aa6ea6dc108a6a240cd0e44426239fcf68e3c91399e2080",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-10-07T07:19:54.966Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.1002.6548.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.1002.6548.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "202e3270-1417-4ca1-b311-8ae896662bb7"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.1002.6548.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-10-07T07:19:54.898Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "warning",
+      "summary": "FE3 x64 package 26.1002.6548.0 is ahead of DisplayCatalog 26.930.7945.0; acquisition is vetoed pending metadata convergence. Official rollout signal reports 26.1002.6548.0."
+    },
+    {
+      "details": {
+        "buildVersion": "26.1002.6548.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-10-07T07:19:54.898Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:codex:unavailable:26.1002.6548.0"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-10-07T07:19:54.898Z"
+        ],
+        "message": "Required behavior codex-msix-identity is unsupported."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-10-07T07:19:54.898Z"
+        ],
+        "message": "Required behavior codex-backend-version is unsupported."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}

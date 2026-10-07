@@ -1,0 +1,79 @@
+{
+  "artifactChanges": [
+    {
+      "after": "f135f405baf2e1df53c7389a01ea47d526eb4be268f5239b311800c9688b7b11",
+      "before": "000f0a5d0d29f9afde15c2cb7fbae5a20ddfedcf5b2d0ca898d82262834d3694",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@openai/codex:unknown.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "c37a8d6b1411264cc762f3c90c055e5d328b5f0b398dbac6166df65e6907b138",
+      "before": "adfb48b28bb50ca2160e5da032a170655efbb110f2d2e437471fe225422a0e5d",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@openai/codex:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 165144751,
+      "before": 164607746,
+      "material": false,
+      "summary": "Artifact size changed for npm-tgz:@openai/codex:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "codex-cli-alpha-windows-x64-d81912b9b258ef59",
+  "createdAt": "2026-10-07T07:19:20.212Z",
+  "diffId": "codex-cli-alpha-windows-x64-d7e31e033f05257f-from-codex-cli-alpha-windows-x64-d81912b9b258ef59",
+  "distributionChanges": [
+    {
+      "after": "0.162.0-alpha.18",
+      "before": "0.162.0-alpha.16",
+      "material": true,
+      "summary": "Distribution state npm-registry: 0.162.0-alpha.16 → 0.162.0-alpha.18.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "0.162.0-alpha.18",
+      "before": "0.162.0-alpha.16",
+      "material": true,
+      "summary": "Distribution state npm-registry:alpha: 0.162.0-alpha.16 → 0.162.0-alpha.18.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "f135f405baf2e1df53c7389a01ea47d526eb4be268f5239b311800c9688b7b11",
+      "before": "000f0a5d0d29f9afde15c2cb7fbae5a20ddfedcf5b2d0ca898d82262834d3694",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@openai/codex:unknown.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "c37a8d6b1411264cc762f3c90c055e5d328b5f0b398dbac6166df65e6907b138",
+      "before": "adfb48b28bb50ca2160e5da032a170655efbb110f2d2e437471fe225422a0e5d",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@openai/codex:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "0.162.0-alpha.18",
+      "before": "0.162.0-alpha.16",
+      "material": true,
+      "summary": "Distribution state npm-registry: 0.162.0-alpha.16 → 0.162.0-alpha.18.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "0.162.0-alpha.18",
+      "before": "0.162.0-alpha.16",
+      "material": true,
+      "summary": "Distribution state npm-registry:alpha: 0.162.0-alpha.16 → 0.162.0-alpha.18.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "codex-cli-alpha-windows-x64-d7e31e033f05257f",
+  "productId": "codex-cli",
+  "schemaVersion": 1
+}
