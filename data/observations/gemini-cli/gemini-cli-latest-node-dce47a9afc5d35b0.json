@@ -98,14 +98,49 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29687"
+        ],
+        "signature": "code:every|title:fix-security-sessionmodifiedbuildfiles-warning-triggered-repeatedly|version:0.63.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29680"
         ],
         "signature": "code:exported|title:recent-untrusted-command-flags-security-warning|version:0.63.0|platform:windows",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29682"
+        ],
+        "signature": "code:external|title:gemini-breaks-yolo-mode|version:0.63.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29681"
+        ],
+        "signature": "code:opt-in|title:bug-mcp-oauth-strict-rfc-9207|version:2.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29686"
+        ],
+        "signature": "code:per-command|title:sandbox-per-command-rules-sandbox-toml|version:9.7.1-bin|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29685"
+        ],
+        "signature": "code:shell-utils|title:bug-command-substitution-guard-bypass-via|version:0.58.0|platform:windows",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "7e1ee80f82995a45515e854d405d2420de082f6b79514f92e80a64a778167aab",
+      "fingerprint": "e09a0e0aaef9acf6611deb1085a8e7fd391fa777b8be2a0a08db0824443de201",
       "lookbackHours": 72,
       "releaseVersion": "0.63.0",
       "source": "official-github-issues"
@@ -153,13 +188,80 @@
         "signature": "code:exported|title:recent-untrusted-command-flags-security-warning|version:0.63.0|platform:windows",
         "title": "The recent 'Untrusted Command Flags' security warning completely breaks YOLO mode and makes the CLI unproductive compared to Claude Code, as it constantly interrupts for basic file operations when using MCP servers.",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29680"
+      },
+      {
+        "createdAt": "2026-10-08T10:23:10Z",
+        "explicitVersion": "2.0",
+        "id": "github-issue:google-gemini/gemini-cli:29681",
+        "labels": [
+          "area/security",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:opt-in|title:bug-mcp-oauth-strict-rfc-9207|version:2.0|platform:windows",
+        "title": "[BUG] MCP OAuth: Strict RFC 9207 check blocks providers without \"iss\" support (e.g. Atlassian) — Propose opt-in config",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29681"
+      },
+      {
+        "createdAt": "2026-10-08T14:53:01Z",
+        "explicitVersion": "0.63.0",
+        "id": "github-issue:google-gemini/gemini-cli:29682",
+        "labels": [
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:external|title:gemini-breaks-yolo-mode|version:0.63.0|platform:windows",
+        "title": "Gemini CLI v0.63.0 - breaks yolo mode",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29682"
+      },
+      {
+        "createdAt": "2026-10-08T15:16:32Z",
+        "explicitVersion": "0.58.0",
+        "id": "github-issue:google-gemini/gemini-cli:29685",
+        "labels": [
+          "area/security",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:shell-utils|title:bug-command-substitution-guard-bypass-via|version:0.58.0|platform:windows",
+        "title": "[Bug] Command Substitution Guard Bypass via Intermediate Shell Flags in shell-utils",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29685"
+      },
+      {
+        "createdAt": "2026-10-08T16:37:23Z",
+        "explicitVersion": "9.7.1-bin",
+        "id": "github-issue:google-gemini/gemini-cli:29686",
+        "labels": [
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:per-command|title:sandbox-per-command-rules-sandbox-toml|version:9.7.1-bin|platform:macos",
+        "title": "Sandbox: per-command rules in `sandbox.toml` never apply on Linux/macOS (command name is always `trap`)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29686"
+      },
+      {
+        "createdAt": "2026-10-08T17:11:17Z",
+        "explicitVersion": "0.63.0",
+        "id": "github-issue:google-gemini/gemini-cli:29687",
+        "labels": [
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:every|title:fix-security-sessionmodifiedbuildfiles-warning-triggered-repeatedly|version:0.63.0|platform:linux",
+        "title": "fix(security): sessionModifiedBuildFiles warning is triggered repeatedly on every build command without being cleared",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29687"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-08T07:31:54.838Z",
+    "observedAt": "2026-10-08T19:21:07.882Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "3 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-ef50ba208b1ddba7",
   "interfaces": [

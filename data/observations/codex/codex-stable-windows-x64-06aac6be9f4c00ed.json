@@ -174,140 +174,98 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:51986"
+          "github-issue:openai/codex:52237"
         ],
-        "signature": "code:auto-updated|title:windows-sandbox-stopped-working-microsoft-store|version:26.1002.7124.0|platform:windows",
+        "signature": "code:account-specific|title:windows-account-specific-crash-windows-updater|version:26.1002.7124.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51971"
+          "github-issue:openai/codex:52224"
         ],
-        "signature": "code:elevated|title:windows-elevated-sandbox-blocked-maximum-allowed|version:26.1002.7124.0|platform:windows",
+        "signature": "code:built-in|title:add-persistent-mute-browser-tabs-default|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51988"
+          "github-issue:openai/codex:52229"
         ],
-        "signature": "code:ends|title:codex-desktop-ends-correction-turns-unexecuted|version:0.160.1|platform:arm64",
+        "signature": "code:codex-cli|title:windows-codex-server-exits-during-initialize|version:0.160.1|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51980"
+          "github-issue:openai/codex:52231"
         ],
-        "signature": "code:english|title:codex-falls-back-english-older-launched|platform:windows",
+        "signature": "code:dot-created|title:windows-dot-created-local-tasks-appear|version:26.1002.52244|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51984"
+          "github-issue:openai/codex:52239"
         ],
-        "signature": "code:environment|title:macos-browser-use-url-policy-blocks|platform:windows",
+        "signature": "code:ends|title:dots-cloud-desktop-firefox-connect-verified|version:157.0.1|platform:linux",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51982"
+          "github-issue:openai/codex:52230"
         ],
-        "signature": "code:environment|title:migrated-personal-codex-cloud-environment-becomes|platform:windows",
+        "signature": "code:environment|title:desktop-difficulty-switching-chatgpt-business-workspace|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51972"
+          "github-issue:openai/codex:52233"
         ],
-        "signature": "code:eperm|title:windows-browser-bootstrap-eperm-realpath-sandbox|version:26.1002.7124.0|platform:windows",
+        "signature": "code:error|title:windows-codex-node-repl-exe-blocks|version:26.1002.52244|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51991"
+          "github-issue:openai/codex:52222"
         ],
-        "signature": "code:erroneous|title:suspected-erroneous-cyber-access-gating-blocks|version:26.1002.52244|platform:arm64",
+        "signature": "code:existing|title:dot-continue-existing-local-codex-chat|version:26.1002.7124.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51990"
+          "github-issue:openai/codex:52221"
         ],
-        "signature": "code:error|title:macos-dot-calls-fail-internal-server|version:26.1002.52244|platform:arm64",
+        "signature": "code:follow-ups|title:desktop-follow-ups-question-card-replies|version:26.1002.52244|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51978"
+          "github-issue:openai/codex:52227"
         ],
-        "signature": "code:error|title:windows-feedback-upload-verification-consistently-months|version:26.1002.52244|platform:windows",
+        "signature": "code:helper_unknown_error|title:windows-local-commands-fail-helper-unknown|version:26.1002.52244|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51981"
+          "github-issue:openai/codex:52238"
         ],
-        "signature": "code:error|title:windows-runtime-acl-validation-node-repl|version:26.1002.7124.0|platform:windows",
+        "signature": "code:mid-run|title:windows-dot-computer-stays-offline-allow|version:26.1002.7124.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51989"
+          "github-issue:openai/codex:52236"
         ],
-        "signature": "code:execution|title:windows-sandbox-path-resolve-strict-true|version:3.14.4|platform:windows",
+        "signature": "code:network_access|title:windows-codex-desktop-durable-network-access|version:26.1002.7124.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:51973"
+          "github-issue:openai/codex:52232"
         ],
-        "signature": "code:follow-up|title:chatgpt-work-web-interrupted-stream-stays|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:51983"
-        ],
-        "signature": "code:follow-up|title:feature-request-message-bookmarks-limited-inbox|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:51976"
-        ],
-        "signature": "code:long-running|title:feature-request-automatically-pause-goals-configurable",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:51977"
-        ],
-        "signature": "code:node_repl|title:windows-codex-desktop-node-repl-sharing|version:26.1002.7124.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:51975"
-        ],
-        "signature": "code:user-attachments|title:projects-missing-windows-desktop-upgrade-still|version:26.1002.52244|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:51985"
-        ],
-        "signature": "code:wfr_01a11a475ca7778c9e1a9779c16297cb|title:dot-task-failed-start",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:51987"
-        ],
-        "signature": "code:x86_64|title:appshots-fail-intel-macos-bundled-skycomputeruseservice|version:26.1002.52244|platform:arm64",
+        "signature": "code:request-header|title:windows-browser-control-unable-load-browser|version:26.1002.52244|platform:windows",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "03acb9cbeedb1378dfb9dcf615920364ce8a428d09fe6c6c98c7f13937ebd82a",
+      "fingerprint": "6b9083a86a19d70d1dab087f0dcfd618d4e050e63f3a40d57fe0cacd87380a8d",
       "lookbackHours": 72,
       "releaseVersion": "26.1002.7124.0",
       "source": "official-github-issues"
@@ -315,87 +273,55 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-10-08T06:10:23Z",
-        "explicitVersion": "26.1002.7124.0",
-        "id": "github-issue:openai/codex:51971",
+        "createdAt": "2026-10-08T18:47:23Z",
+        "explicitVersion": "26.1002.52244",
+        "id": "github-issue:openai/codex:52221",
         "labels": [
           "app",
           "bug",
-          "sandbox",
+          "connectivity"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:follow-ups|title:desktop-follow-ups-question-card-replies|version:26.1002.52244|platform:arm64",
+        "title": "Desktop follow-ups and question-card replies fail with HTTP 400: Responses WebSocket messages must have type response.create",
+        "url": "https://github.com/openai/codex/issues/52221"
+      },
+      {
+        "createdAt": "2026-10-08T18:51:42Z",
+        "explicitVersion": "26.1002.7124.0",
+        "id": "github-issue:openai/codex:52222",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "dots",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/51971",
-        "signature": "code:elevated|title:windows-elevated-sandbox-blocked-maximum-allowed|version:26.1002.7124.0|platform:windows",
-        "title": "[Windows] Elevated sandbox blocked by MAXIMUM_ALLOWED on live runtime files; access-mask comparison and verified local recovery",
-        "url": "https://github.com/openai/codex/issues/51971"
+        "signature": "code:existing|title:dot-continue-existing-local-codex-chat|version:26.1002.7124.0|platform:windows",
+        "title": "Dot cannot continue an existing local Codex chat on a connected Windows computer",
+        "url": "https://github.com/openai/codex/issues/52222"
       },
       {
-        "createdAt": "2026-10-08T06:10:55Z",
-        "explicitVersion": "26.1002.7124.0",
-        "id": "github-issue:openai/codex:51972",
+        "createdAt": "2026-10-08T18:54:04Z",
+        "id": "github-issue:openai/codex:52224",
         "labels": [
           "app",
           "browser",
-          "bug",
-          "sandbox",
-          "windows-os"
+          "enhancement"
         ],
         "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:eperm|title:windows-browser-bootstrap-eperm-realpath-sandbox|version:26.1002.7124.0|platform:windows",
-        "title": "[Windows][26.1002] Browser bootstrap fails with EPERM realpath; sandbox provisioning locks its own runtime",
-        "url": "https://github.com/openai/codex/issues/51972"
+        "platform": "macos",
+        "signature": "code:built-in|title:add-persistent-mute-browser-tabs-default|platform:macos",
+        "title": "[App] Add persistent “Mute browser tabs by default” setting",
+        "url": "https://github.com/openai/codex/issues/52224"
       },
       {
-        "createdAt": "2026-10-08T06:12:59Z",
-        "id": "github-issue:openai/codex:51973",
-        "labels": [
-          "bug",
-          "codex-web",
-          "connectivity",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:follow-up|title:chatgpt-work-web-interrupted-stream-stays|platform:windows",
-        "title": "ChatGPT Work web: interrupted stream stays stale while new progress persists; follow-up disappears after reload",
-        "url": "https://github.com/openai/codex/issues/51973"
-      },
-      {
-        "createdAt": "2026-10-08T06:36:59Z",
+        "createdAt": "2026-10-08T18:56:16Z",
         "explicitVersion": "26.1002.52244",
-        "id": "github-issue:openai/codex:51975",
-        "labels": [
-          "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:user-attachments|title:projects-missing-windows-desktop-upgrade-still|version:26.1002.52244|platform:windows",
-        "title": "Projects missing from Windows desktop app after upgrade, still visible in browser",
-        "url": "https://github.com/openai/codex/issues/51975"
-      },
-      {
-        "createdAt": "2026-10-08T06:41:22Z",
-        "id": "github-issue:openai/codex:51976",
-        "labels": [
-          "agent",
-          "CLI",
-          "enhancement",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:long-running|title:feature-request-automatically-pause-goals-configurable",
-        "title": "Feature Request: Automatically pause goals at configurable plan usage thresholds (5-hour / weekly)",
-        "url": "https://github.com/openai/codex/issues/51976"
-      },
-      {
-        "createdAt": "2026-10-08T06:42:48Z",
-        "explicitVersion": "26.1002.7124.0",
-        "id": "github-issue:openai/codex:51977",
+        "id": "github-issue:openai/codex:52227",
         "labels": [
           "app",
           "bug",
@@ -405,163 +331,69 @@
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:node_repl|title:windows-codex-desktop-node-repl-sharing|version:26.1002.7124.0|platform:windows",
-        "title": "Windows Codex Desktop: node_repl fails with SHARING VIOLATION during sandbox ACL initialization (os error 32)",
-        "url": "https://github.com/openai/codex/issues/51977"
+        "signature": "code:helper_unknown_error|title:windows-local-commands-fail-helper-unknown|version:26.1002.52244|platform:windows",
+        "title": "Windows: local commands fail with “helper_unknown_error: setup refresh had errors”",
+        "url": "https://github.com/openai/codex/issues/52227"
       },
       {
-        "createdAt": "2026-10-08T06:43:53Z",
-        "explicitVersion": "26.1002.52244",
-        "id": "github-issue:openai/codex:51978",
-        "labels": [
-          "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:error|title:windows-feedback-upload-verification-consistently-months|version:26.1002.52244|platform:windows",
-        "title": "[Windows] Feedback upload verification fails consistently for ~2 months",
-        "url": "https://github.com/openai/codex/issues/51978"
-      },
-      {
-        "createdAt": "2026-10-08T06:59:56Z",
-        "id": "github-issue:openai/codex:51980",
-        "labels": [
-          "app",
-          "bug",
-          "connectivity",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:english|title:codex-falls-back-english-older-launched|platform:windows",
-        "title": "Codex falls back to English/older UI when launched on Windows without a proxy enabled",
-        "url": "https://github.com/openai/codex/issues/51980"
-      },
-      {
-        "createdAt": "2026-10-08T07:01:32Z",
-        "explicitVersion": "26.1002.7124.0",
-        "id": "github-issue:openai/codex:51981",
-        "labels": [
-          "app",
-          "browser",
-          "bug",
-          "sandbox",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:error|title:windows-runtime-acl-validation-node-repl|version:26.1002.7124.0|platform:windows",
-        "title": "[Windows] Runtime ACL validation fails with os error 32 on node_repl.exe, blocking Chrome control and shell commands",
-        "url": "https://github.com/openai/codex/issues/51981"
-      },
-      {
-        "createdAt": "2026-10-08T07:01:46Z",
-        "id": "github-issue:openai/codex:51982",
-        "labels": [
-          "bug",
-          "codex-web"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/51982",
-        "signature": "code:environment|title:migrated-personal-codex-cloud-environment-becomes|platform:windows",
-        "title": "Migrated personal Codex Cloud environment becomes workspace-managed and cannot be edited or deleted",
-        "url": "https://github.com/openai/codex/issues/51982"
-      },
-      {
-        "createdAt": "2026-10-08T07:01:52Z",
-        "id": "github-issue:openai/codex:51983",
-        "labels": [
-          "app",
-          "enhancement",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:follow-up|title:feature-request-message-bookmarks-limited-inbox|platform:macos",
-        "title": "Feature Request: Message Bookmarks with a Limited Inbox for Follow-up Ideas",
-        "url": "https://github.com/openai/codex/issues/51983"
-      },
-      {
-        "createdAt": "2026-10-08T07:05:25Z",
-        "id": "github-issue:openai/codex:51984",
-        "labels": [
-          "app",
-          "browser",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:environment|title:macos-browser-use-url-policy-blocks|platform:windows",
-        "title": "[macOS] Browser Use URL policy blocks close() on the app's internal data: crash page",
-        "url": "https://github.com/openai/codex/issues/51984"
-      },
-      {
-        "createdAt": "2026-10-08T07:07:58Z",
-        "id": "github-issue:openai/codex:51985",
-        "labels": [
-          "app-server",
-          "bug",
-          "codex-web",
-          "dots"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:wfr_01a11a475ca7778c9e1a9779c16297cb|title:dot-task-failed-start",
-        "title": "dot task failed to start",
-        "url": "https://github.com/openai/codex/issues/51985"
-      },
-      {
-        "createdAt": "2026-10-08T07:11:19Z",
-        "explicitVersion": "26.1002.7124.0",
-        "id": "github-issue:openai/codex:51986",
-        "labels": [
-          "app",
-          "bug",
-          "sandbox",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:auto-updated|title:windows-sandbox-stopped-working-microsoft-store|version:26.1002.7124.0|platform:windows",
-        "title": "[Windows] Sandbox stopped working after Microsoft Store auto-updated Codex from 26.1002.6548.0 to 26.1002.7124.0",
-        "url": "https://github.com/openai/codex/issues/51986"
-      },
-      {
-        "createdAt": "2026-10-08T07:15:06Z",
-        "explicitVersion": "26.1002.52244",
-        "id": "github-issue:openai/codex:51987",
-        "labels": [
-          "app",
-          "bug",
-          "computer-use"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:x86_64|title:appshots-fail-intel-macos-bundled-skycomputeruseservice|version:26.1002.52244|platform:arm64",
-        "title": "Appshots fail on Intel macOS: bundled SkyComputerUseService is missing",
-        "url": "https://github.com/openai/codex/issues/51987"
-      },
-      {
-        "createdAt": "2026-10-08T07:19:18Z",
+        "createdAt": "2026-10-08T19:04:18Z",
         "explicitVersion": "0.160.1",
-        "id": "github-issue:openai/codex:51988",
+        "id": "github-issue:openai/codex:52229",
+        "labels": [],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:codex-cli|title:windows-codex-server-exits-during-initialize|version:0.160.1|platform:windows",
+        "title": "Windows codex-cli 0.160.1: app-server exits during initialize with SQLite state-runtime/backfill symptoms",
+        "url": "https://github.com/openai/codex/issues/52229"
+      },
+      {
+        "createdAt": "2026-10-08T19:05:57Z",
+        "id": "github-issue:openai/codex:52230",
+        "labels": [],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:environment|title:desktop-difficulty-switching-chatgpt-business-workspace|platform:windows",
+        "title": "Desktop app: difficulty switching from ChatGPT Business workspace to Personal workspace",
+        "url": "https://github.com/openai/codex/issues/52230"
+      },
+      {
+        "createdAt": "2026-10-08T19:10:01Z",
+        "explicitVersion": "26.1002.52244",
+        "id": "github-issue:openai/codex:52231",
         "labels": [
           "app",
           "bug",
-          "model-behavior"
+          "dots",
+          "session",
+          "windows-os"
         ],
         "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:ends|title:codex-desktop-ends-correction-turns-unexecuted|version:0.160.1|platform:arm64",
-        "title": "Codex Desktop ends correction turns with unexecuted final promises; next-day admission confirms omission",
-        "url": "https://github.com/openai/codex/issues/51988"
+        "platform": "windows",
+        "signature": "code:dot-created|title:windows-dot-created-local-tasks-appear|version:26.1002.52244|platform:windows",
+        "title": "Windows dot-created local tasks appear in sidebar only after opening from Completed",
+        "url": "https://github.com/openai/codex/issues/52231"
       },
       {
-        "createdAt": "2026-10-08T07:20:35Z",
-        "explicitVersion": "3.14.4",
-        "id": "github-issue:openai/codex:51989",
+        "createdAt": "2026-10-08T19:12:45Z",
+        "explicitVersion": "26.1002.52244",
+        "id": "github-issue:openai/codex:52232",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:request-header|title:windows-browser-control-unable-load-browser|version:26.1002.52244|platform:windows",
+        "title": "Windows browser control fails with “Unable to load browser request-header policy” in Chrome and Edge",
+        "url": "https://github.com/openai/codex/issues/52232"
+      },
+      {
+        "createdAt": "2026-10-08T19:13:54Z",
+        "explicitVersion": "26.1002.52244",
+        "id": "github-issue:openai/codex:52233",
         "labels": [
           "app",
           "bug",
@@ -570,48 +402,83 @@
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/51989",
-        "signature": "code:execution|title:windows-sandbox-path-resolve-strict-true|version:3.14.4|platform:windows",
-        "title": "Windows sandbox: Path.resolve(strict=True) fails with WinError 5 in default execution, succeeds in approved outside execution",
-        "url": "https://github.com/openai/codex/issues/51989"
+        "signature": "code:error|title:windows-codex-node-repl-exe-blocks|version:26.1002.52244|platform:windows",
+        "title": "[Windows] Codex 26.1002.52244: error 32 on node_repl.exe blocks all local execution",
+        "url": "https://github.com/openai/codex/issues/52233"
       },
       {
-        "createdAt": "2026-10-08T07:23:59Z",
-        "explicitVersion": "26.1002.52244",
-        "id": "github-issue:openai/codex:51990",
+        "createdAt": "2026-10-08T19:16:39Z",
+        "explicitVersion": "26.1002.7124.0",
+        "id": "github-issue:openai/codex:52236",
         "labels": [
           "app",
+          "app-server",
+          "connectivity",
+          "documentation",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/52236",
+        "signature": "code:network_access|title:windows-codex-desktop-durable-network-access|version:26.1002.7124.0|platform:windows",
+        "title": "[Windows][Codex Desktop][durable] network_access=true but executor reports network restricted; hosted apps helper cannot connect",
+        "url": "https://github.com/openai/codex/issues/52236"
+      },
+      {
+        "createdAt": "2026-10-08T19:17:26Z",
+        "explicitVersion": "26.1002.7124.0",
+        "id": "github-issue:openai/codex:52237",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/52237",
+        "signature": "code:account-specific|title:windows-account-specific-crash-windows-updater|version:26.1002.7124.0|platform:windows",
+        "title": "[Windows] Account-specific crash in windows-updater.node – 0xC0000005",
+        "url": "https://github.com/openai/codex/issues/52237"
+      },
+      {
+        "createdAt": "2026-10-08T19:18:51Z",
+        "explicitVersion": "26.1002.7124.0",
+        "id": "github-issue:openai/codex:52238",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity",
+          "dots",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:mid-run|title:windows-dot-computer-stays-offline-allow|version:26.1002.7124.0|platform:windows",
+        "title": "Windows: dot computer stays Offline, “Allow access” button disabled; Codex tasks stop mid-run",
+        "url": "https://github.com/openai/codex/issues/52238"
+      },
+      {
+        "createdAt": "2026-10-08T19:18:55Z",
+        "explicitVersion": "157.0.1",
+        "id": "github-issue:openai/codex:52239",
+        "labels": [
           "bug",
           "connectivity",
           "dots"
         ],
         "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:error|title:macos-dot-calls-fail-internal-server|version:26.1002.52244|platform:arm64",
-        "title": "macOS dot calls fail with Internal Server Error; Reboot gives no visible response",
-        "url": "https://github.com/openai/codex/issues/51990"
-      },
-      {
-        "createdAt": "2026-10-08T07:24:15Z",
-        "explicitVersion": "26.1002.52244",
-        "id": "github-issue:openai/codex:51991",
-        "labels": [
-          "app",
-          "bug",
-          "safety-check"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:erroneous|title:suspected-erroneous-cyber-access-gating-blocks|version:26.1002.52244|platform:arm64",
-        "title": "Suspected erroneous cyber-access gating blocks authorized defensive repository repair",
-        "url": "https://github.com/openai/codex/issues/51991"
+        "platform": "linux",
+        "signature": "code:ends|title:dots-cloud-desktop-firefox-connect-verified|version:157.0.1|platform:linux",
+        "title": "[Dots] Cloud desktop Firefox cannot connect after verified CA restoration and full restart; native TCP access also fails",
+        "url": "https://github.com/openai/codex/issues/52239"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-08T07:31:33.072Z",
+    "observedAt": "2026-10-08T19:21:06.819Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "19 recent official GitHub issues observed for openai/codex."
+    "summary": "13 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-2d7cc52afb5a607c",
   "interfaces": [],
