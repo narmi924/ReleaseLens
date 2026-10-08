@@ -1,0 +1,57 @@
+{
+  "artifactChanges": [
+    {
+      "after": "1f6471eb5a1c21a1f8b54a7827329d64433424dcce51717a54e837adb542163a",
+      "before": "8693c4a02dde7441d0066ede68af8ddfc408bb982d77e12b506286268224e6fa",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "claude-code-stable-windows-x64-d82a562b8606948b",
+  "createdAt": "2026-10-08T07:30:26.033Z",
+  "diffId": "claude-code-stable-windows-x64-fb08cdf19c015d5b-from-claude-code-stable-windows-x64-d82a562b8606948b",
+  "distributionChanges": [
+    {
+      "after": "2.1.294",
+      "before": "2.1.293",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.293 → 2.1.294.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": {
+        "native": "2.1.294",
+        "winget": "2.1.292"
+      },
+      "before": {
+        "native": "2.1.294",
+        "winget": "2.1.292"
+      },
+      "material": false,
+      "summary": "WinGet 2.1.292 lags the official native release 2.1.294.",
+      "type": "distribution-lag"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "1f6471eb5a1c21a1f8b54a7827329d64433424dcce51717a54e837adb542163a",
+      "before": "8693c4a02dde7441d0066ede68af8ddfc408bb982d77e12b506286268224e6fa",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "2.1.294",
+      "before": "2.1.293",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.293 → 2.1.294.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "claude-code-stable-windows-x64-fb08cdf19c015d5b",
+  "productId": "claude-code",
+  "schemaVersion": 1
+}
