@@ -98,6 +98,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29690"
+        ],
+        "signature": "code:environments|title:bug-core-filediscoveryservice-symlink-test-windows|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29687"
         ],
         "signature": "code:every|title:fix-security-sessionmodifiedbuildfiles-warning-triggered-repeatedly|version:0.63.0|platform:linux",
@@ -115,6 +122,20 @@
           "github-issue:google-gemini/gemini-cli:29682"
         ],
         "signature": "code:external|title:gemini-breaks-yolo-mode|version:0.63.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29694"
+        ],
+        "signature": "code:gemini-cli|title:geminicli-com-feedback-issue",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29693"
+        ],
+        "signature": "code:long-thinking|title:make-api-headers-timeout-configurable-long|version:0.62.0",
         "strength": "weak"
       },
       {
@@ -140,7 +161,7 @@
       }
     ],
     "details": {
-      "fingerprint": "03e079c0a80fc72e2edc1b83373d754d2d2d34ae7f476a4c4d214bdbd169fda7",
+      "fingerprint": "6780f8cc581346d4b42320caa08477b6a2cb85b343576b63dc5da875b6e783f7",
       "lookbackHours": 72,
       "releaseVersion": "0.63.0",
       "source": "official-github-issues"
@@ -252,13 +273,52 @@
         "signature": "code:enterprise|title:feat-models-support-gemini-argon-gemini|version:3.8-flash",
         "title": "feat(models): Support Gemini 4 Argon / Gemini 4 Pro for Enterprise Gemini CLI users",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29689"
+      },
+      {
+        "createdAt": "2026-10-09T07:58:30Z",
+        "id": "github-issue:google-gemini/gemini-cli:29690",
+        "labels": [
+          "area/platform",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:environments|title:bug-core-filediscoveryservice-symlink-test-windows|platform:windows",
+        "title": "bug(core): fileDiscoveryService.symlink.test.ts fails on Windows environments without symlink creation privileges",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29690"
+      },
+      {
+        "createdAt": "2026-10-09T09:55:09Z",
+        "explicitVersion": "0.62.0",
+        "id": "github-issue:google-gemini/gemini-cli:29693",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:long-thinking|title:make-api-headers-timeout-configurable-long|version:0.62.0",
+        "title": "Make the 60 s API headers timeout configurable (long-thinking requests are dropped and replayed)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29693"
+      },
+      {
+        "createdAt": "2026-10-09T14:56:45Z",
+        "id": "github-issue:google-gemini/gemini-cli:29694",
+        "labels": [
+          "area/documentation",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:gemini-cli|title:geminicli-com-feedback-issue",
+        "title": "GeminiCLI.com Feedback: [ISSUE]",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29694"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-09T07:30:11.108Z",
+    "observedAt": "2026-10-09T18:54:59.116Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "11 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-ef50ba208b1ddba7",
   "interfaces": [

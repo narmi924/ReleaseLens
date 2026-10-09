@@ -30,8 +30,8 @@
     },
     {
       "channel": "stable",
-      "discoveredAt": "2026-10-09T07:29:15.830Z",
-      "observationId": "codex-stable-windows-x64-5723dfd6edbb9a28",
+      "discoveredAt": "2026-10-09T18:53:54.703Z",
+      "observationId": "codex-stable-windows-x64-fe9d71f37ac46856",
       "platform": "windows-x64",
       "productId": "codex",
       "schemaVersion": 1,
@@ -40,14 +40,14 @@
           {
             "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
             "evidenceRefs": [
-              "artifact:msix:OpenAI.Codex:26.1002.7124.0:x64"
+              "artifact:msix:OpenAI.Codex:26.1007.2314.0:x64"
             ],
             "message": "Required artifact evidence is missing or did not pass."
           },
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
             "evidenceRefs": [
-              "behavior:codex:2026-10-09T07:29:15.830Z"
+              "behavior:codex:2026-10-09T18:53:54.703Z"
             ],
             "message": "Required behavior codex-msix-identity is fail."
           },
@@ -60,12 +60,12 @@
         "severity": "major",
         "status": "UNVERIFIED"
       },
-      "version": "26.1002.7124.0"
+      "version": "26.1007.2314.0"
     },
     {
       "channel": "alpha",
-      "discoveredAt": "2026-10-09T07:28:42.512Z",
-      "observationId": "codex-cli-alpha-windows-x64-70b8938be75cefac",
+      "discoveredAt": "2026-10-09T18:53:22.508Z",
+      "observationId": "codex-cli-alpha-windows-x64-289190ea8fa54917",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
@@ -80,12 +80,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.163.0-alpha.2"
+      "version": "0.163.0-alpha.4"
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-10-09T07:28:42.512Z",
-      "observationId": "codex-cli-latest-windows-x64-012ddd3099aad6d9",
+      "discoveredAt": "2026-10-09T18:53:22.508Z",
+      "observationId": "codex-cli-latest-windows-x64-4a255d0d92ba55d3",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
