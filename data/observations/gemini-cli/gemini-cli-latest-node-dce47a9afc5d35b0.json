@@ -91,9 +91,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29669"
+          "github-issue:google-gemini/gemini-cli:29689"
         ],
-        "signature": "code:error|title:met-while-login-gemini-try-login|version:0.63.0|platform:windows",
+        "signature": "code:enterprise|title:feat-models-support-gemini-argon-gemini|version:3.8-flash",
         "strength": "weak"
       },
       {
@@ -140,29 +140,13 @@
       }
     ],
     "details": {
-      "fingerprint": "e09a0e0aaef9acf6611deb1085a8e7fd391fa777b8be2a0a08db0824443de201",
+      "fingerprint": "03e079c0a80fc72e2edc1b83373d754d2d2d34ae7f476a4c4d214bdbd169fda7",
       "lookbackHours": 72,
       "releaseVersion": "0.63.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-07T06:40:05Z",
-        "explicitVersion": "0.63.0",
-        "id": "github-issue:google-gemini/gemini-cli:29669",
-        "labels": [
-          "area/security",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:error|title:met-while-login-gemini-try-login|version:0.63.0|platform:windows",
-        "title": "i met a error while login in gemini cli. when i try to login with google i cant. it is saying that authentication succeeded. but i cant able to access the cli. please clear that",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29669"
-      },
       {
         "createdAt": "2026-10-08T02:04:40Z",
         "explicitVersion": "0.63.0",
@@ -255,10 +239,23 @@
         "signature": "code:every|title:fix-security-sessionmodifiedbuildfiles-warning-triggered-repeatedly|version:0.63.0|platform:linux",
         "title": "fix(security): sessionModifiedBuildFiles warning is triggered repeatedly on every build command without being cleared",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29687"
+      },
+      {
+        "createdAt": "2026-10-09T04:24:00Z",
+        "explicitVersion": "3.8-flash",
+        "id": "github-issue:google-gemini/gemini-cli:29689",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:enterprise|title:feat-models-support-gemini-argon-gemini|version:3.8-flash",
+        "title": "feat(models): Support Gemini 4 Argon / Gemini 4 Pro for Enterprise Gemini CLI users",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29689"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-08T19:21:07.882Z",
+    "observedAt": "2026-10-09T07:30:11.108Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."

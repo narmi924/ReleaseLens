@@ -2,8 +2,8 @@
   "releases": [
     {
       "channel": "stable",
-      "discoveredAt": "2026-10-08T07:30:26.033Z",
-      "observationId": "claude-code-stable-windows-x64-fb08cdf19c015d5b",
+      "discoveredAt": "2026-10-09T07:28:36.877Z",
+      "observationId": "claude-code-stable-windows-x64-e0492bf56126bd55",
       "platform": "windows-x64",
       "productId": "claude-code",
       "schemaVersion": 1,
@@ -17,21 +17,21 @@
           {
             "code": "SECONDARY_DISTRIBUTION_LAGGING",
             "evidenceRefs": [
-              "claude-native:release:2.1.294",
+              "claude-native:release:2.1.295",
               "winget:manifest:2.1.292"
             ],
-            "message": "WinGet 2.1.292 lags the official native release 2.1.294. The verified official artifact is unaffected."
+            "message": "WinGet 2.1.292 lags the official native release 2.1.295. The verified official artifact is unaffected."
           }
         ],
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "2.1.294"
+      "version": "2.1.295"
     },
     {
       "channel": "stable",
-      "discoveredAt": "2026-10-07T19:25:40.181Z",
-      "observationId": "codex-stable-windows-x64-06aac6be9f4c00ed",
+      "discoveredAt": "2026-10-09T07:29:15.830Z",
+      "observationId": "codex-stable-windows-x64-5723dfd6edbb9a28",
       "platform": "windows-x64",
       "productId": "codex",
       "schemaVersion": 1,
@@ -47,7 +47,7 @@
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
             "evidenceRefs": [
-              "behavior:codex:2026-10-07T19:25:40.181Z"
+              "behavior:codex:2026-10-09T07:29:15.830Z"
             ],
             "message": "Required behavior codex-msix-identity is fail."
           },
@@ -64,8 +64,8 @@
     },
     {
       "channel": "alpha",
-      "discoveredAt": "2026-10-08T19:20:13.448Z",
-      "observationId": "codex-cli-alpha-windows-x64-4c0504f43ef78b5d",
+      "discoveredAt": "2026-10-09T07:28:42.512Z",
+      "observationId": "codex-cli-alpha-windows-x64-70b8938be75cefac",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
@@ -80,12 +80,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.162.0-alpha.20"
+      "version": "0.163.0-alpha.2"
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-10-08T19:20:13.448Z",
-      "observationId": "codex-cli-latest-windows-x64-2d27d5525c560f7b",
+      "discoveredAt": "2026-10-09T07:28:42.512Z",
+      "observationId": "codex-cli-latest-windows-x64-012ddd3099aad6d9",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
