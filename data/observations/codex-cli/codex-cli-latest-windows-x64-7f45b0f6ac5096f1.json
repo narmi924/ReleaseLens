@@ -120,6 +120,451 @@
       "summary": "codex-cli behavior suite produced 2 passing result(s)."
     }
   ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53042"
+        ],
+        "signature": "code:about-dialog|title:macos-quick-chat-longer-launches-former|version:26.1007.30912|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53040"
+        ],
+        "signature": "code:browser-use|title:browser-use-subsystem-leaks-mcp-worker|version:26.1007.21159|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53053"
+        ],
+        "signature": "code:computer-use|title:windows-computer-use-determine-chrome-url|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53056"
+        ],
+        "signature": "code:edge|title:windows-browser-control-across-chrome-edge|version:26.1007.21434|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53051"
+        ],
+        "signature": "code:empty|title:windows-mxc-empty-multi-slot-card|version:26.1007.21434|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53055"
+        ],
+        "signature": "code:environment|title:windows-desktop-repeated-workspace-routing-discovery|version:26.1007.2314.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53045"
+        ],
+        "signature": "code:eperm|title:windows-browser-tool-load-mxc-realpath|version:26.1007.21434|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53060"
+        ],
+        "signature": "code:exec|title:codex-create-unified-exec-process-windows|version:0.162.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53046"
+        ],
+        "signature": "code:exhausted|title:sol-ultra-hour-codex-allowance-exhausted|version:26.1007.21434|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53047"
+        ],
+        "signature": "code:exist|title:macos-remote-control-project-added-client|version:27.0.1|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53044"
+        ],
+        "signature": "code:existing|title:support-request-computer-tasks-fail-before",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53054"
+        ],
+        "signature": "code:explicit|title:macos-delegated-tasks-created-explicit-local|version:26.1007.30912|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53058"
+        ],
+        "signature": "code:extension|title:desktop-browser-runtime-discover-chrome-restart|version:26.1007.30912|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53057"
+        ],
+        "signature": "code:externally|title:left-arrow-agents-stops-working-displayed|version:0.162.1|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53041"
+        ],
+        "signature": "code:extraction|title:allow-native-memory-use-without-startup|version:0.160.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53048"
+        ],
+        "signature": "code:request-header|title:browser-control-unable-load-browser-request|version:26.1007.21434|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53050"
+        ],
+        "signature": "code:review_threshold|title:guardian-review-threshold-inert-every-value|version:1.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53052"
+        ],
+        "signature": "code:sites_save_version_and_deploy_private|title:01a12547-3338-7090-9126-a1f2cf077f85|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:53059"
+        ],
+        "signature": "code:ssh-host|title:desktop-local-pinned-chats-mislabeled-ssh|version:26.1007.21159|platform:macos",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "4ecdd5439cf44fd7ea5f1c6d82250b3d64387eb933566b8359dd5c6398b89272",
+      "lookbackHours": 72,
+      "releaseVersion": "0.162.1",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex-cli:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-10-11T04:17:57Z",
+        "explicitVersion": "26.1007.21159",
+        "id": "github-issue:openai/codex:53040",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "mcp",
+          "performance"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:browser-use|title:browser-use-subsystem-leaks-mcp-worker|version:26.1007.21159|platform:arm64",
+        "title": "browser-use subsystem leaks MCP worker processes and IPC sockets; @Browser calls queue until timeout",
+        "url": "https://github.com/openai/codex/issues/53040"
+      },
+      {
+        "createdAt": "2026-10-11T04:50:49Z",
+        "explicitVersion": "0.160.0",
+        "id": "github-issue:openai/codex:53041",
+        "labels": [
+          "CLI",
+          "config",
+          "enhancement",
+          "memory"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extraction|title:allow-native-memory-use-without-startup|version:0.160.0",
+        "title": "Allow native memory use without startup extraction, consolidation or retention",
+        "url": "https://github.com/openai/codex/issues/53041"
+      },
+      {
+        "createdAt": "2026-10-11T04:59:08Z",
+        "explicitVersion": "26.1007.30912",
+        "id": "github-issue:openai/codex:53042",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:about-dialog|title:macos-quick-chat-longer-launches-former|version:26.1007.30912|platform:arm64",
+        "title": "[macOS 26.1007.30912] Quick Chat no longer launches; former command and native window service absent",
+        "url": "https://github.com/openai/codex/issues/53042"
+      },
+      {
+        "createdAt": "2026-10-11T05:18:06Z",
+        "id": "github-issue:openai/codex:53044",
+        "labels": [
+          "bug",
+          "computer-use"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:existing|title:support-request-computer-tasks-fail-before",
+        "title": "Support request — computer tasks fail before starting",
+        "url": "https://github.com/openai/codex/issues/53044"
+      },
+      {
+        "createdAt": "2026-10-11T05:24:50Z",
+        "explicitVersion": "26.1007.21434",
+        "id": "github-issue:openai/codex:53045",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:eperm|title:windows-browser-tool-load-mxc-realpath|version:26.1007.21434|platform:windows",
+        "title": "Windows: Browser tool fails to load in MXC (realpath EPERM), neither Chrome nor Edge works",
+        "url": "https://github.com/openai/codex/issues/53045"
+      },
+      {
+        "createdAt": "2026-10-11T05:39:26Z",
+        "explicitVersion": "26.1007.21434",
+        "id": "github-issue:openai/codex:53046",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:exhausted|title:sol-ultra-hour-codex-allowance-exhausted|version:26.1007.21434|platform:windows",
+        "title": "Sol Ultra 5-hour Codex allowance exhausted within 2–3 minutes",
+        "url": "https://github.com/openai/codex/issues/53046"
+      },
+      {
+        "createdAt": "2026-10-11T05:51:18Z",
+        "explicitVersion": "27.0.1",
+        "id": "github-issue:openai/codex:53047",
+        "labels": [
+          "app",
+          "bug",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:exist|title:macos-remote-control-project-added-client|version:27.0.1|platform:macos",
+        "title": "[macOS Remote Control] Project added from the client appears only on the client; host has no saved project record",
+        "url": "https://github.com/openai/codex/issues/53047"
+      },
+      {
+        "createdAt": "2026-10-11T06:03:28Z",
+        "explicitVersion": "26.1007.21434",
+        "id": "github-issue:openai/codex:53048",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "connectivity",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:request-header|title:browser-control-unable-load-browser-request|version:26.1007.21434|platform:windows",
+        "title": "Browser control fails with “Unable to load browser request-header policy” in Chrome and Edge on Windows",
+        "url": "https://github.com/openai/codex/issues/53048"
+      },
+      {
+        "createdAt": "2026-10-11T06:21:06Z",
+        "explicitVersion": "1.0",
+        "id": "github-issue:openai/codex:53050",
+        "labels": [
+          "bug",
+          "config",
+          "safety-check"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:review_threshold|title:guardian-review-threshold-inert-every-value|version:1.0",
+        "title": "Guardian v2 review_threshold is inert for every value in (0, 1]",
+        "url": "https://github.com/openai/codex/issues/53050"
+      },
+      {
+        "createdAt": "2026-10-11T06:22:14Z",
+        "explicitVersion": "26.1007.21434",
+        "id": "github-issue:openai/codex:53051",
+        "labels": [
+          "app",
+          "bug",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:empty|title:windows-mxc-empty-multi-slot-card|version:26.1007.21434|platform:windows",
+        "title": "Windows MXC: empty multi-slot card reader prevents commands from starting (OS error 433)",
+        "url": "https://github.com/openai/codex/issues/53051"
+      },
+      {
+        "createdAt": "2026-10-11T06:25:57Z",
+        "id": "github-issue:openai/codex:53052",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:sites_save_version_and_deploy_private|title:01a12547-3338-7090-9126-a1f2cf077f85|platform:windows",
+        "title": "01a12547-3338-7090-9126-a1f2cf077f85",
+        "url": "https://github.com/openai/codex/issues/53052"
+      },
+      {
+        "createdAt": "2026-10-11T06:29:53Z",
+        "id": "github-issue:openai/codex:53053",
+        "labels": [
+          "bug",
+          "computer-use",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:computer-use|title:windows-computer-use-determine-chrome-url|platform:windows",
+        "title": "Windows computer-use cannot determine Chrome URL",
+        "url": "https://github.com/openai/codex/issues/53053"
+      },
+      {
+        "createdAt": "2026-10-11T06:32:25Z",
+        "explicitVersion": "26.1007.30912",
+        "id": "github-issue:openai/codex:53054",
+        "labels": [
+          "app",
+          "app-server",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:explicit|title:macos-delegated-tasks-created-explicit-local|version:26.1007.30912|platform:macos",
+        "title": "macOS: delegated tasks created with explicit local project show zero tasks in project sidebar while threads remain readable",
+        "url": "https://github.com/openai/codex/issues/53054"
+      },
+      {
+        "createdAt": "2026-10-11T06:36:59Z",
+        "explicitVersion": "26.1007.2314.0",
+        "id": "github-issue:openai/codex:53055",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:environment|title:windows-desktop-repeated-workspace-routing-discovery|version:26.1007.2314.0|platform:windows",
+        "title": "Windows desktop: repeated workspace routing discovery failures and durable WebSocket 403 reconnect loop",
+        "url": "https://github.com/openai/codex/issues/53055"
+      },
+      {
+        "createdAt": "2026-10-11T06:43:58Z",
+        "explicitVersion": "26.1007.21434",
+        "id": "github-issue:openai/codex:53056",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "connectivity",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:edge|title:windows-browser-control-across-chrome-edge|version:26.1007.21434|platform:windows",
+        "title": "Windows browser control fails across Chrome, Edge and in-app browser after update; nodeRepl.fetch request failed",
+        "url": "https://github.com/openai/codex/issues/53056"
+      },
+      {
+        "createdAt": "2026-10-11T06:44:22Z",
+        "explicitVersion": "0.162.1",
+        "id": "github-issue:openai/codex:53057",
+        "labels": [
+          "bug",
+          "CLI",
+          "session",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:externally|title:left-arrow-agents-stops-working-displayed|version:0.162.1|platform:arm64",
+        "title": "CLI: Left Arrow \"for agents\" stops working after the displayed thread is archived externally",
+        "url": "https://github.com/openai/codex/issues/53057"
+      },
+      {
+        "createdAt": "2026-10-11T06:58:22Z",
+        "explicitVersion": "26.1007.30912",
+        "id": "github-issue:openai/codex:53058",
+        "labels": [
+          "app",
+          "browser",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:extension|title:desktop-browser-runtime-discover-chrome-restart|version:26.1007.30912|platform:macos",
+        "title": "Desktop browser runtime cannot discover Chrome after restart despite passing extension diagnostics",
+        "url": "https://github.com/openai/codex/issues/53058"
+      },
+      {
+        "createdAt": "2026-10-11T07:03:59Z",
+        "explicitVersion": "26.1007.21159",
+        "id": "github-issue:openai/codex:53059",
+        "labels": [
+          "app",
+          "bug",
+          "remote",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:ssh-host|title:desktop-local-pinned-chats-mislabeled-ssh|version:26.1007.21159|platform:macos",
+        "title": "Desktop: local pinned chats mislabeled as SSH-host threads with transient thread not found",
+        "url": "https://github.com/openai/codex/issues/53059"
+      },
+      {
+        "createdAt": "2026-10-11T07:09:31Z",
+        "explicitVersion": "0.162.1",
+        "id": "github-issue:openai/codex:53060",
+        "labels": [
+          "bug",
+          "CLI",
+          "sandbox",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:exec|title:codex-create-unified-exec-process-windows|version:0.162.1|platform:windows",
+        "title": "Codex CLI fails to create unified exec process on Windows",
+        "url": "https://github.com/openai/codex/issues/53060"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-10-11T07:18:14.467Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "19 recent official GitHub issues observed for openai/codex."
+  },
   "comparedWith": "codex-cli-latest-windows-x64-4a255d0d92ba55d3",
   "interfaces": [
     {

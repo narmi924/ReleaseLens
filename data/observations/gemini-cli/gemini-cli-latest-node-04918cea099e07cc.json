@@ -84,16 +84,30 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29689"
+          "github-issue:google-gemini/gemini-cli:29707"
         ],
-        "signature": "code:enterprise|title:feat-models-support-gemini-argon-gemini|version:3.8-flash",
+        "signature": "code:each|title:acp-session-load-responds-before-history|version:0.63.0|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29690"
+          "github-issue:google-gemini/gemini-cli:29710"
         ],
-        "signature": "code:environments|title:bug-core-filediscoveryservice-symlink-test-windows|platform:windows",
+        "signature": "code:emit|title:support-osc-7501-program-status-interactive",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29704"
+        ],
+        "signature": "code:error|title:antigravity-responce|version:1.3.3",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29706"
+        ],
+        "signature": "code:error|title:sign",
         "strength": "weak"
       },
       {
@@ -105,9 +119,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29687"
+          "github-issue:google-gemini/gemini-cli:29711"
         ],
-        "signature": "code:every|title:fix-security-sessionmodifiedbuildfiles-warning-triggered-repeatedly|version:0.63.0|platform:linux",
+        "signature": "code:expect|title:geminicli-com-feedback-issue",
         "strength": "weak"
       },
       {
@@ -126,20 +140,6 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29686"
-        ],
-        "signature": "code:per-command|title:sandbox-per-command-rules-sandbox-toml|version:9.7.1-bin|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29685"
-        ],
-        "signature": "code:shell-utils|title:bug-command-substitution-guard-bypass-via|version:0.58.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29702"
         ],
         "signature": "code:write_file|title:write-file-replace-fail-enametoolong-file|version:0.65.0-nightly.20261006|platform:macos",
@@ -147,79 +147,13 @@
       }
     ],
     "details": {
-      "fingerprint": "b2c2dd50f7d2a5201686efe2b2afaf618347902217b0cd3485649aafb068a60d",
+      "fingerprint": "6e44a5033a732e76ed6aa4764ec8c3fda28bf6c2d0ab9603244d623ca2801b7e",
       "lookbackHours": 72,
       "releaseVersion": "0.63.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-08T15:16:32Z",
-        "explicitVersion": "0.58.0",
-        "id": "github-issue:google-gemini/gemini-cli:29685",
-        "labels": [
-          "area/security",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:shell-utils|title:bug-command-substitution-guard-bypass-via|version:0.58.0|platform:windows",
-        "title": "[Bug] Command Substitution Guard Bypass via Intermediate Shell Flags in shell-utils",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29685"
-      },
-      {
-        "createdAt": "2026-10-08T16:37:23Z",
-        "explicitVersion": "9.7.1-bin",
-        "id": "github-issue:google-gemini/gemini-cli:29686",
-        "labels": [
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:per-command|title:sandbox-per-command-rules-sandbox-toml|version:9.7.1-bin|platform:macos",
-        "title": "Sandbox: per-command rules in `sandbox.toml` never apply on Linux/macOS (command name is always `trap`)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29686"
-      },
-      {
-        "createdAt": "2026-10-08T17:11:17Z",
-        "explicitVersion": "0.63.0",
-        "id": "github-issue:google-gemini/gemini-cli:29687",
-        "labels": [
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:every|title:fix-security-sessionmodifiedbuildfiles-warning-triggered-repeatedly|version:0.63.0|platform:linux",
-        "title": "fix(security): sessionModifiedBuildFiles warning is triggered repeatedly on every build command without being cleared",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29687"
-      },
-      {
-        "createdAt": "2026-10-09T04:24:00Z",
-        "explicitVersion": "3.8-flash",
-        "id": "github-issue:google-gemini/gemini-cli:29689",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:enterprise|title:feat-models-support-gemini-argon-gemini|version:3.8-flash",
-        "title": "feat(models): Support Gemini 4 Argon / Gemini 4 Pro for Enterprise Gemini CLI users",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29689"
-      },
-      {
-        "createdAt": "2026-10-09T07:58:30Z",
-        "id": "github-issue:google-gemini/gemini-cli:29690",
-        "labels": [
-          "area/platform",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:environments|title:bug-core-filediscoveryservice-symlink-test-windows|platform:windows",
-        "title": "bug(core): fileDiscoveryService.symlink.test.ts fails on Windows environments without symlink creation privileges",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29690"
-      },
       {
         "createdAt": "2026-10-09T09:55:09Z",
         "explicitVersion": "0.62.0",
@@ -274,10 +208,86 @@
         "signature": "code:write_file|title:write-file-replace-fail-enametoolong-file|version:0.65.0-nightly.20261006|platform:macos",
         "title": "write_file / replace fail with ENAMETOOLONG on file names of 215–255 bytes (temp file name exceeds NAME_MAX)",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29702"
+      },
+      {
+        "createdAt": "2026-10-10T07:36:39Z",
+        "explicitVersion": "1.3.3",
+        "id": "github-issue:google-gemini/gemini-cli:29704",
+        "labels": [
+          "area/enterprise",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:error|title:antigravity-responce|version:1.3.3",
+        "title": "Error on Antigravity responce",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29704"
+      },
+      {
+        "createdAt": "2026-10-10T21:02:06Z",
+        "id": "github-issue:google-gemini/gemini-cli:29706",
+        "labels": [
+          "area/security",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged",
+          "status/need-information"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:error|title:sign",
+        "title": "Sign in Error",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29706"
+      },
+      {
+        "createdAt": "2026-10-10T21:03:53Z",
+        "explicitVersion": "0.63.0",
+        "id": "github-issue:google-gemini/gemini-cli:29707",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:each|title:acp-session-load-responds-before-history|version:0.63.0|platform:macos",
+        "title": "ACP: session/load responds before the history replay is sent",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29707"
+      },
+      {
+        "createdAt": "2026-10-10T23:43:55Z",
+        "id": "github-issue:google-gemini/gemini-cli:29710",
+        "labels": [
+          "area/core",
+          "effort/medium",
+          "kind/enhancement",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:emit|title:support-osc-7501-program-status-interactive",
+        "title": "Support OSC 7501 program status in the interactive CLI",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29710"
+      },
+      {
+        "createdAt": "2026-10-11T01:58:52Z",
+        "id": "github-issue:google-gemini/gemini-cli:29711",
+        "labels": [
+          "area/agent",
+          "kind/question",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:expect|title:geminicli-com-feedback-issue",
+        "title": "GeminiCLI.com Feedback: [ISSUE]",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29711"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-10T07:17:44.491Z",
+    "observedAt": "2026-10-11T07:18:37.584Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "9 recent official GitHub issues observed for google-gemini/gemini-cli."
