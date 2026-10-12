@@ -84,9 +84,9 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29707"
+          "github-issue:google-gemini/gemini-cli:29729"
         ],
-        "signature": "code:each|title:acp-session-load-responds-before-history|version:0.63.0|platform:macos",
+        "signature": "code:earns|title:separate-agentic-harness-llm-subscription-remove",
         "strength": "weak"
       },
       {
@@ -101,27 +101,6 @@
           "github-issue:google-gemini/gemini-cli:29712"
         ],
         "signature": "code:enterprise|title:question-impact-gemini-assist-standard-enterprise",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29704"
-        ],
-        "signature": "code:error|title:antigravity-responce|version:1.3.3",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29706"
-        ],
-        "signature": "code:error|title:sign",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29698"
-        ],
-        "signature": "code:ever|title:loading|version:0.59.0|platform:linux",
         "strength": "weak"
       },
       {
@@ -147,96 +126,34 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29702"
+          "github-issue:google-gemini/gemini-cli:29716"
         ],
-        "signature": "code:write_file|title:write-file-replace-fail-enametoolong-file|version:0.65.0-nightly.20261006|platform:macos",
+        "signature": "code:mid-stream|title:cancelling-request-during-mid-stream-retry|version:0.63.0|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29721"
+        ],
+        "signature": "code:read-only|title:atomic-writetextfile-overwrites-read-only-files|version:22.23.3|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29717"
+        ],
+        "signature": "title:googlecli",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "3051101b034ed2e84e197045174bea8d02faf843dd27a6e58f98e848b5127b08",
+      "fingerprint": "4b800fccb475a6386b62c887eca402f04934346e97c61f7bd388c1c4d73fd819",
       "lookbackHours": 72,
       "releaseVersion": "0.63.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-09T21:05:39Z",
-        "explicitVersion": "0.59.0",
-        "id": "github-issue:google-gemini/gemini-cli:29698",
-        "labels": [
-          "area/core",
-          "effort/medium",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:ever|title:loading|version:0.59.0|platform:linux",
-        "title": "loading",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29698"
-      },
-      {
-        "createdAt": "2026-10-10T02:55:31Z",
-        "explicitVersion": "0.65.0-nightly.20261006",
-        "id": "github-issue:google-gemini/gemini-cli:29702",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:write_file|title:write-file-replace-fail-enametoolong-file|version:0.65.0-nightly.20261006|platform:macos",
-        "title": "write_file / replace fail with ENAMETOOLONG on file names of 215–255 bytes (temp file name exceeds NAME_MAX)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29702"
-      },
-      {
-        "createdAt": "2026-10-10T07:36:39Z",
-        "explicitVersion": "1.3.3",
-        "id": "github-issue:google-gemini/gemini-cli:29704",
-        "labels": [
-          "area/enterprise",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:error|title:antigravity-responce|version:1.3.3",
-        "title": "Error on Antigravity responce",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29704"
-      },
-      {
-        "createdAt": "2026-10-10T21:02:06Z",
-        "id": "github-issue:google-gemini/gemini-cli:29706",
-        "labels": [
-          "area/security",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged",
-          "status/need-information"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:error|title:sign",
-        "title": "Sign in Error",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29706"
-      },
-      {
-        "createdAt": "2026-10-10T21:03:53Z",
-        "explicitVersion": "0.63.0",
-        "id": "github-issue:google-gemini/gemini-cli:29707",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:each|title:acp-session-load-responds-before-history|version:0.63.0|platform:macos",
-        "title": "ACP: session/load responds before the history replay is sent",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29707"
-      },
       {
         "createdAt": "2026-10-10T23:43:55Z",
         "id": "github-issue:google-gemini/gemini-cli:29710",
@@ -307,13 +224,67 @@
         "signature": "code:extension|title:geminicli-com-feedback-pulse-verity-extension|version:1.3.1",
         "title": "GeminiCLI.com Feedback: Pulse Verity extension missing from gallery despite discovery prerequisites",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29715"
+      },
+      {
+        "createdAt": "2026-10-12T08:56:22Z",
+        "explicitVersion": "0.63.0",
+        "id": "github-issue:google-gemini/gemini-cli:29716",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:mid-stream|title:cancelling-request-during-mid-stream-retry|version:0.63.0|platform:macos",
+        "title": "Cancelling a request during a mid-stream retry does not stop the retry loop",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29716"
+      },
+      {
+        "createdAt": "2026-10-12T10:45:07Z",
+        "id": "github-issue:google-gemini/gemini-cli:29717",
+        "labels": [
+          "area/unknown",
+          "kind/question",
+          "priority/unknown",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "title:googlecli",
+        "title": "googlecli",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29717"
+      },
+      {
+        "createdAt": "2026-10-12T15:33:26Z",
+        "explicitVersion": "22.23.3",
+        "id": "github-issue:google-gemini/gemini-cli:29721",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:read-only|title:atomic-writetextfile-overwrites-read-only-files|version:22.23.3|platform:linux",
+        "title": "Atomic writeTextFile overwrites read-only files and splits hard links",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29721"
+      },
+      {
+        "createdAt": "2026-10-12T21:27:11Z",
+        "id": "github-issue:google-gemini/gemini-cli:29729",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:earns|title:separate-agentic-harness-llm-subscription-remove",
+        "title": "Separate the agentic harness from the LLM subscription to remove the conflict of interest",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29729"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-12T07:28:07.867Z",
+    "observedAt": "2026-10-12T21:48:10.408Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "10 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "9 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-cc477545d59556dc",
   "interfaces": [
