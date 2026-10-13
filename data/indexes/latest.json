@@ -2,17 +2,17 @@
   "releases": [
     {
       "channel": "stable",
-      "discoveredAt": "2026-10-10T07:15:43.859Z",
-      "observationId": "claude-code-stable-windows-x64-b2688fe5841ae8b0",
+      "discoveredAt": "2026-10-13T19:54:31.969Z",
+      "observationId": "claude-code-stable-windows-x64-b6ecae7b5c708d61",
       "platform": "windows-x64",
       "productId": "claude-code",
       "schemaVersion": 1,
       "verdict": {
         "reasons": [
           {
-            "code": "MATERIAL_EVIDENCE_CHANGED",
+            "code": "REQUIRED_SCOPE_PASSED",
             "evidenceRefs": [],
-            "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+            "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
           },
           {
             "code": "SECONDARY_DISTRIBUTION_LAGGING",
@@ -23,8 +23,8 @@
             "message": "WinGet 2.1.292 lags the official native release 2.1.296. The verified official artifact is unaffected."
           }
         ],
-        "severity": "minor",
-        "status": "CHANGED"
+        "severity": "info",
+        "status": "NO_REGRESSION_DETECTED"
       },
       "version": "2.1.296"
     },
@@ -64,8 +64,8 @@
     },
     {
       "channel": "alpha",
-      "discoveredAt": "2026-10-10T07:15:50.468Z",
-      "observationId": "codex-cli-alpha-windows-x64-0bdf7c08b5248af1",
+      "discoveredAt": "2026-10-13T19:54:39.230Z",
+      "observationId": "codex-cli-alpha-windows-x64-b463a38d5ecb5743",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
@@ -80,12 +80,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.163.0-alpha.5"
+      "version": "0.163.0-alpha.10"
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-10-10T07:15:50.468Z",
-      "observationId": "codex-cli-latest-windows-x64-7f45b0f6ac5096f1",
+      "discoveredAt": "2026-10-13T19:54:39.230Z",
+      "observationId": "codex-cli-latest-windows-x64-48383b4edcde60a3",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,

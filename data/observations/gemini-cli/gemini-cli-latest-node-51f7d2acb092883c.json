@@ -91,30 +91,16 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29712"
+          "github-issue:google-gemini/gemini-cli:29738"
         ],
-        "signature": "code:enterprise|title:question-impact-gemini-assist-standard-enterprise",
+        "signature": "code:executed|title:bug-windows-detectpowershellsubstitution-false-positives-command|version:0.63.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29711"
+          "github-issue:google-gemini/gemini-cli:29733"
         ],
-        "signature": "code:expect|title:geminicli-com-feedback-issue",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29715"
-        ],
-        "signature": "code:extension|title:geminicli-com-feedback-pulse-verity-extension|version:1.3.1",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29713"
-        ],
-        "signature": "code:list_directory|title:list-directory-silently-omits-existing-files|platform:linux",
+        "signature": "code:extensions|title:let-extensions-render-fenced-blocks-their",
         "strength": "weak"
       },
       {
@@ -140,69 +126,13 @@
       }
     ],
     "details": {
-      "fingerprint": "4d890bc855bc30236baf39f7108be5c4a82683901533815ec2ee33a671c6f7df",
+      "fingerprint": "e1ed307c0172743df11674fd482bd88acf1d9a8afc6893dce9237e051a07ee54",
       "lookbackHours": 72,
       "releaseVersion": "0.63.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-11T01:58:52Z",
-        "id": "github-issue:google-gemini/gemini-cli:29711",
-        "labels": [
-          "area/agent",
-          "kind/question",
-          "priority/p3",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:expect|title:geminicli-com-feedback-issue",
-        "title": "GeminiCLI.com Feedback: [ISSUE]",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29711"
-      },
-      {
-        "createdAt": "2026-10-11T09:43:23Z",
-        "id": "github-issue:google-gemini/gemini-cli:29712",
-        "labels": [
-          "area/enterprise",
-          "kind/question",
-          "priority/p3",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:enterprise|title:question-impact-gemini-assist-standard-enterprise",
-        "title": "[Question] Impact of Gemini Code Assist Standard/Enterprise subscription sunset on Gemini CLI authentication",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29712"
-      },
-      {
-        "createdAt": "2026-10-11T22:56:55Z",
-        "id": "github-issue:google-gemini/gemini-cli:29713",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29713",
-        "signature": "code:list_directory|title:list-directory-silently-omits-existing-files|platform:linux",
-        "title": "list_directory silently omits existing files rejected by path validation",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29713"
-      },
-      {
-        "createdAt": "2026-10-12T05:36:46Z",
-        "explicitVersion": "1.3.1",
-        "id": "github-issue:google-gemini/gemini-cli:29715",
-        "labels": [
-          "area/extensions",
-          "effort/small",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:extension|title:geminicli-com-feedback-pulse-verity-extension|version:1.3.1",
-        "title": "GeminiCLI.com Feedback: Pulse Verity extension missing from gallery despite discovery prerequisites",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29715"
-      },
       {
         "createdAt": "2026-10-12T08:56:22Z",
         "explicitVersion": "0.63.0",
@@ -256,13 +186,40 @@
         "signature": "code:earns|title:separate-agentic-harness-llm-subscription-remove",
         "title": "Separate the agentic harness from the LLM subscription to remove the conflict of interest",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29729"
+      },
+      {
+        "createdAt": "2026-10-13T14:46:47Z",
+        "id": "github-issue:google-gemini/gemini-cli:29733",
+        "labels": [
+          "area/extensions",
+          "effort/large",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extensions|title:let-extensions-render-fenced-blocks-their",
+        "title": "Let extensions render fenced code blocks of their own language",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29733"
+      },
+      {
+        "createdAt": "2026-10-13T19:39:55Z",
+        "explicitVersion": "0.63.0",
+        "id": "github-issue:google-gemini/gemini-cli:29738",
+        "labels": [
+          "area/core",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:executed|title:bug-windows-detectpowershellsubstitution-false-positives-command|version:0.63.0|platform:windows",
+        "title": "bug(windows): detectPowerShellSubstitution false positives and command flag handling break shell commands in v0.63.0",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29738"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-13T07:49:11.266Z",
+    "observedAt": "2026-10-13T19:55:30.212Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "6 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-fcbc4aa947cdd977",
   "interfaces": [

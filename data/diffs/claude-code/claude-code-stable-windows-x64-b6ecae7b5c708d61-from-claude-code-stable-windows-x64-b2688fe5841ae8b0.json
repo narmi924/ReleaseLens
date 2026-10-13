@@ -1,0 +1,27 @@
+{
+  "artifactChanges": [],
+  "behaviorChanges": [],
+  "comparedWith": "claude-code-stable-windows-x64-b2688fe5841ae8b0",
+  "createdAt": "2026-10-13T19:54:31.969Z",
+  "diffId": "claude-code-stable-windows-x64-b6ecae7b5c708d61-from-claude-code-stable-windows-x64-b2688fe5841ae8b0",
+  "distributionChanges": [
+    {
+      "after": {
+        "native": "2.1.296",
+        "winget": "2.1.292"
+      },
+      "before": {
+        "native": "2.1.296",
+        "winget": "2.1.292"
+      },
+      "material": false,
+      "summary": "WinGet 2.1.292 lags the official native release 2.1.296.",
+      "type": "distribution-lag"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [],
+  "observationId": "claude-code-stable-windows-x64-b6ecae7b5c708d61",
+  "productId": "claude-code",
+  "schemaVersion": 1
+}
