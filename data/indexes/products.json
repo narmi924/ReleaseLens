@@ -8,7 +8,7 @@
       "knownGood": [
         {
           "channel": "stable",
-          "observationId": "claude-code-stable-windows-x64-ac65f56391cb2918",
+          "observationId": "claude-code-stable-windows-x64-21029d5e4d985290",
           "platform": "windows-x64",
           "productId": "claude-code",
           "requirementsSatisfied": [
@@ -19,24 +19,24 @@
             "claude-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-14T06:13:27.900Z",
+          "selectedAt": "2026-10-14T18:05:11.309Z",
           "version": "2.1.299"
         }
       ],
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-10-14T06:13:27.900Z",
-          "observationId": "claude-code-stable-windows-x64-ac65f56391cb2918",
+          "discoveredAt": "2026-10-14T18:05:11.309Z",
+          "observationId": "claude-code-stable-windows-x64-21029d5e4d985290",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "MATERIAL_EVIDENCE_CHANGED",
+                "code": "REQUIRED_SCOPE_PASSED",
                 "evidenceRefs": [],
-                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
               },
               {
                 "code": "SECONDARY_DISTRIBUTION_LAGGING",
@@ -47,8 +47,8 @@
                 "message": "WinGet 2.1.292 lags the official native release 2.1.299. The verified official artifact is unaffected."
               }
             ],
-            "severity": "minor",
-            "status": "CHANGED"
+            "severity": "info",
+            "status": "NO_REGRESSION_DETECTED"
           },
           "version": "2.1.299"
         }
@@ -64,8 +64,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-10-14T06:14:23.204Z",
-          "observationId": "codex-stable-windows-x64-784201c5fa637b07",
+          "discoveredAt": "2026-10-14T18:06:05.332Z",
+          "observationId": "codex-stable-windows-x64-9ba07ce467429785",
           "platform": "windows-x64",
           "productId": "codex",
           "schemaVersion": 1,
@@ -81,7 +81,7 @@
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
                 "evidenceRefs": [
-                  "behavior:codex:2026-10-14T06:14:23.204Z"
+                  "behavior:codex:2026-10-14T18:06:05.332Z"
                 ],
                 "message": "Required behavior codex-msix-identity is fail."
               },
@@ -108,7 +108,7 @@
       "knownGood": [
         {
           "channel": "alpha",
-          "observationId": "codex-cli-alpha-windows-x64-b6dec6ec31f80b42",
+          "observationId": "codex-cli-alpha-windows-x64-c76ad890047d509a",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "requirementsSatisfied": [
@@ -120,12 +120,12 @@
             "codex-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-14T06:13:40.258Z",
+          "selectedAt": "2026-10-14T18:05:21.539Z",
           "version": "0.163.0-alpha.11"
         },
         {
           "channel": "latest",
-          "observationId": "codex-cli-latest-windows-x64-37f10562b4fb555a",
+          "observationId": "codex-cli-latest-windows-x64-ec0a9682c3801320",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "requirementsSatisfied": [
@@ -137,48 +137,48 @@
             "codex-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-14T06:13:40.258Z",
+          "selectedAt": "2026-10-14T18:05:21.539Z",
           "version": "0.162.1"
         }
       ],
       "latest": [
         {
           "channel": "alpha",
-          "discoveredAt": "2026-10-14T06:13:40.258Z",
-          "observationId": "codex-cli-alpha-windows-x64-b6dec6ec31f80b42",
+          "discoveredAt": "2026-10-14T18:05:21.539Z",
+          "observationId": "codex-cli-alpha-windows-x64-c76ad890047d509a",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "MATERIAL_EVIDENCE_CHANGED",
+                "code": "REQUIRED_SCOPE_PASSED",
                 "evidenceRefs": [],
-                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
               }
             ],
-            "severity": "minor",
-            "status": "CHANGED"
+            "severity": "info",
+            "status": "NO_REGRESSION_DETECTED"
           },
           "version": "0.163.0-alpha.11"
         },
         {
           "channel": "latest",
-          "discoveredAt": "2026-10-14T06:13:40.258Z",
-          "observationId": "codex-cli-latest-windows-x64-37f10562b4fb555a",
+          "discoveredAt": "2026-10-14T18:05:21.539Z",
+          "observationId": "codex-cli-latest-windows-x64-ec0a9682c3801320",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "schemaVersion": 1,
           "verdict": {
             "reasons": [
               {
-                "code": "MATERIAL_EVIDENCE_CHANGED",
+                "code": "REQUIRED_SCOPE_PASSED",
                 "evidenceRefs": [],
-                "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+                "message": "Required verification and declared behavior checks passed; this is not a safety guarantee."
               }
             ],
-            "severity": "minor",
-            "status": "CHANGED"
+            "severity": "info",
+            "status": "NO_REGRESSION_DETECTED"
           },
           "version": "0.162.1"
         }

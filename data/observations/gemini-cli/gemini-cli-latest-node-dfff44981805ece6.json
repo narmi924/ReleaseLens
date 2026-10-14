@@ -91,9 +91,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29729"
+          "github-issue:google-gemini/gemini-cli:29754"
         ],
-        "signature": "code:earns|title:separate-agentic-harness-llm-subscription-remove",
+        "signature": "code:engineers|title:absolutely-terrible-false-advertisment-along|version:0.64.0|platform:linux",
         "strength": "weak"
       },
       {
@@ -109,28 +109,23 @@
         ],
         "signature": "code:extensions|title:let-extensions-render-fenced-blocks-their",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29751"
+        ],
+        "signature": "code:single-byte|title:gemini-corrupts-single-byte-encoded-files|version:0.63.0|platform:windows",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "86b034d2e92397ef7e0838b7ba7c821711b7827aafd3d477d7051ce6f3e5e4a1",
+      "fingerprint": "378e91f342d1ea542200e350d5eed913a885d607c4b3cdb871c23ba0cc50be91",
       "lookbackHours": 72,
       "releaseVersion": "0.64.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-12T21:27:11Z",
-        "id": "github-issue:google-gemini/gemini-cli:29729",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:earns|title:separate-agentic-harness-llm-subscription-remove",
-        "title": "Separate the agentic harness from the LLM subscription to remove the conflict of interest",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29729"
-      },
       {
         "createdAt": "2026-10-13T14:46:47Z",
         "id": "github-issue:google-gemini/gemini-cli:29733",
@@ -173,13 +168,43 @@
         "signature": "code:api-key|title:body-timeout-fixed-300-api-key|version:0.64.0|platform:linux",
         "title": "Body timeout is fixed at 300 s for API-key auth; a long silent tool call is dropped and replayed",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29747"
+      },
+      {
+        "createdAt": "2026-10-14T12:53:43Z",
+        "explicitVersion": "0.63.0",
+        "id": "github-issue:google-gemini/gemini-cli:29751",
+        "labels": [
+          "area/agent",
+          "kind/enhancement",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:single-byte|title:gemini-corrupts-single-byte-encoded-files|version:0.63.0|platform:windows",
+        "title": "Gemini corrupts single-byte encoded files while editing them.",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29751"
+      },
+      {
+        "createdAt": "2026-10-14T15:52:03Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29754",
+        "labels": [
+          "area/core",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:engineers|title:absolutely-terrible-false-advertisment-along|version:0.64.0|platform:linux",
+        "title": "Absolutely terrible UX and false advertisment along!",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29754"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-14T06:15:34.645Z",
+    "observedAt": "2026-10-14T18:07:01.782Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "4 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-51f7d2acb092883c",
   "interfaces": [
