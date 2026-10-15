@@ -98,16 +98,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29738"
+          "github-issue:google-gemini/gemini-cli:29758"
         ],
-        "signature": "code:executed|title:bug-windows-detectpowershellsubstitution-false-positives-command|version:0.63.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29733"
-        ],
-        "signature": "code:extensions|title:let-extensions-render-fenced-blocks-their",
+        "signature": "code:nightly-release|title:nightly-failed-2026",
         "strength": "weak"
       },
       {
@@ -116,44 +109,23 @@
         ],
         "signature": "code:single-byte|title:gemini-corrupts-single-byte-encoded-files|version:0.63.0|platform:windows",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29759"
+        ],
+        "signature": "code:user-attachments|title:service-has-been-disable-this-account",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "378e91f342d1ea542200e350d5eed913a885d607c4b3cdb871c23ba0cc50be91",
+      "fingerprint": "9dd651b23000751faa6fefc48ecd5df01689f394a16dea12089316d32c4f4bca",
       "lookbackHours": 72,
       "releaseVersion": "0.64.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-13T14:46:47Z",
-        "id": "github-issue:google-gemini/gemini-cli:29733",
-        "labels": [
-          "area/extensions",
-          "effort/large",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:extensions|title:let-extensions-render-fenced-blocks-their",
-        "title": "Let extensions render fenced code blocks of their own language",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29733"
-      },
-      {
-        "createdAt": "2026-10-13T19:39:55Z",
-        "explicitVersion": "0.63.0",
-        "id": "github-issue:google-gemini/gemini-cli:29738",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:executed|title:bug-windows-detectpowershellsubstitution-false-positives-command|version:0.63.0|platform:windows",
-        "title": "bug(windows): detectPowerShellSubstitution false positives and command flag handling break shell commands in v0.63.0",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29738"
-      },
       {
         "createdAt": "2026-10-14T03:37:44Z",
         "explicitVersion": "0.64.0",
@@ -191,17 +163,47 @@
         "id": "github-issue:google-gemini/gemini-cli:29754",
         "labels": [
           "area/core",
-          "status/need-triage"
+          "effort/small",
+          "status/bot-triaged"
         ],
         "maintainerAcknowledged": false,
         "platform": "linux",
         "signature": "code:engineers|title:absolutely-terrible-false-advertisment-along|version:0.64.0|platform:linux",
         "title": "Absolutely terrible UX and false advertisment along!",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29754"
+      },
+      {
+        "createdAt": "2026-10-15T01:15:19Z",
+        "id": "github-issue:google-gemini/gemini-cli:29758",
+        "labels": [
+          "area/platform",
+          "kind/bug",
+          "priority/p1",
+          "release-failure",
+          "status/manual-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:nightly-release|title:nightly-failed-2026",
+        "title": "Nightly Release Failed for  on 2026-10-15",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29758"
+      },
+      {
+        "createdAt": "2026-10-15T01:58:55Z",
+        "id": "github-issue:google-gemini/gemini-cli:29759",
+        "labels": [
+          "area/unknown",
+          "kind/question",
+          "priority/p3",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:user-attachments|title:service-has-been-disable-this-account",
+        "title": "The service has been disable in this account of violation of Terms of Service. Please submit an appeal to continue using this product",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29759"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-14T18:07:01.782Z",
+    "observedAt": "2026-10-15T05:58:07.051Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."

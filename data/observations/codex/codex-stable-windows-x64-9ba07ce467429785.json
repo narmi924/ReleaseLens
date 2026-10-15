@@ -170,6 +170,468 @@
       "summary": "codex behavior suite produced 0 passing result(s)."
     }
   ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54201"
+        ],
+        "signature": "code:app-server|title:windows-desktop-server-deletes-codex-security|version:26.1007.9446.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54202"
+        ],
+        "signature": "code:built-in|title:macos-chatgpt-desktop-built-chinese-pinyin|version:1.2026.160|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54187"
+        ],
+        "signature": "code:chatgpt-26|title:linux-desktop-chinese-ibus-input-fedora|version:26.1007.71326-1.|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54198"
+        ],
+        "signature": "code:computer-use|title:integrated-browser-unavailable-macos-native-pipe|version:26.1007.71326|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54191"
+        ],
+        "signature": "code:current-dir|title:feature-request-let-status-line-follow",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54192"
+        ],
+        "signature": "code:disable-gpu|title:windows-repeated-native-renderer-oom-reloads|version:26.1007.9446.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54200"
+        ],
+        "signature": "code:electron|title:codex-windows-desktop-crashes-during-thinking|version:26.1007.9446.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54183"
+        ],
+        "signature": "code:entering|title:windows-computer-use-screenshot-capture-times|version:26.1007.71326|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54184"
+        ],
+        "signature": "code:error|title:account-read-failed-load-workspace-requirements|version:0.162.1|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54197"
+        ],
+        "signature": "code:every|title:web-404-model-found-every-desktop|version:26.1007.9446.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54188"
+        ],
+        "signature": "code:existing|title:repeated-biological-safety-banner-prevents-further|version:0.162.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54190"
+        ],
+        "signature": "code:expected|title:mobile-codex-loads-indefinitely-shows-chats",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54186"
+        ],
+        "signature": "code:follow-ups|title:macos-about-11m43s-silence-tools-returned|version:26.1007.30912|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54195"
+        ],
+        "signature": "code:gpt-6|title:astra-became-dumb",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54196"
+        ],
+        "signature": "code:gpt-6|title:gpt-sol-ultrafast-available-web-using|version:6.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54194"
+        ],
+        "signature": "code:microsoft-standard-wsl2|title:reference-directories-via|version:0.162.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54193"
+        ],
+        "signature": "code:new-thread|title:new-thread-startup-blocks-124-thread|version:0.160.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54189"
+        ],
+        "signature": "code:saved-permission|title:macos-browser-use-saved-permission-denial|version:26.1007.71326|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54199"
+        ],
+        "signature": "code:task-resume|title:macos-dots-repeated-computer-disconnects-task|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:54185"
+        ],
+        "signature": "code:user-owned|title:windows-daybreak-notice-interrupts-authorized-guidos|platform:windows",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "81f356e84c9f9d6bbaef356e354a490726a43a81f0f1a3e52e542270f5d52a67",
+      "lookbackHours": 72,
+      "releaseVersion": "26.1007.9446.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-10-15T04:18:29Z",
+        "explicitVersion": "26.1007.71326",
+        "id": "github-issue:openai/codex:54183",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:entering|title:windows-computer-use-screenshot-capture-times|version:26.1007.71326|platform:windows",
+        "title": "Windows Computer Use screenshot capture times out in Notepad and DaVinci Resolve",
+        "url": "https://github.com/openai/codex/issues/54183"
+      },
+      {
+        "createdAt": "2026-10-15T04:19:07Z",
+        "explicitVersion": "0.162.1",
+        "id": "github-issue:openai/codex:54184",
+        "labels": [
+          "app-server",
+          "auth",
+          "bug",
+          "CLI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:error|title:account-read-failed-load-workspace-requirements|version:0.162.1|platform:arm64",
+        "title": "account/read fails with \"failed to load workspace requirements (-32603)\" when the real error is 401 token_revoked",
+        "url": "https://github.com/openai/codex/issues/54184"
+      },
+      {
+        "createdAt": "2026-10-15T04:25:29Z",
+        "id": "github-issue:openai/codex:54185",
+        "labels": [
+          "app",
+          "bug",
+          "safety-check",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:user-owned|title:windows-daybreak-notice-interrupts-authorized-guidos|platform:windows",
+        "title": "[Windows] Daybreak notice interrupts authorized GuidOS isolation testing across chats",
+        "url": "https://github.com/openai/codex/issues/54185"
+      },
+      {
+        "createdAt": "2026-10-15T04:25:47Z",
+        "explicitVersion": "26.1007.30912",
+        "id": "github-issue:openai/codex:54186",
+        "labels": [
+          "app",
+          "bug",
+          "performance"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:follow-ups|title:macos-about-11m43s-silence-tools-returned|version:26.1007.30912|platform:arm64",
+        "title": "[macOS App] About 11m43s of silence after app tools returned; recovery delayed until repeated follow-ups",
+        "url": "https://github.com/openai/codex/issues/54186"
+      },
+      {
+        "createdAt": "2026-10-15T04:29:04Z",
+        "explicitVersion": "26.1007.71326-1.",
+        "id": "github-issue:openai/codex:54187",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:chatgpt-26|title:linux-desktop-chinese-ibus-input-fedora|version:26.1007.71326-1.|platform:linux",
+        "title": "[Linux Desktop] Chinese IBus input fails on Fedora KDE XWayland; native Wayland IME flags restore input",
+        "url": "https://github.com/openai/codex/issues/54187"
+      },
+      {
+        "createdAt": "2026-10-15T04:36:02Z",
+        "explicitVersion": "0.162.1",
+        "id": "github-issue:openai/codex:54188",
+        "labels": [
+          "bug",
+          "CLI",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:existing|title:repeated-biological-safety-banner-prevents-further|version:0.162.1|platform:windows",
+        "title": "Repeated biological safety banner prevents further responses in an existing Codex CLI session",
+        "url": "https://github.com/openai/codex/issues/54188"
+      },
+      {
+        "createdAt": "2026-10-15T04:39:57Z",
+        "explicitVersion": "26.1007.71326",
+        "id": "github-issue:openai/codex:54189",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "config"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:saved-permission|title:macos-browser-use-saved-permission-denial|version:26.1007.71326|platform:macos",
+        "title": "[macOS 26.1007.71326] Browser Use saved-permission denial contradicts Always allow and explicit origin allow",
+        "url": "https://github.com/openai/codex/issues/54189"
+      },
+      {
+        "createdAt": "2026-10-15T04:42:39Z",
+        "id": "github-issue:openai/codex:54190",
+        "labels": [
+          "bug",
+          "iOS",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:expected|title:mobile-codex-loads-indefinitely-shows-chats",
+        "title": "[Mobile] Codex loads indefinitely, shows no chats, and makes Remote unusable",
+        "url": "https://github.com/openai/codex/issues/54190"
+      },
+      {
+        "createdAt": "2026-10-15T04:54:29Z",
+        "id": "github-issue:openai/codex:54191",
+        "labels": [
+          "CLI",
+          "enhancement",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:current-dir|title:feature-request-let-status-line-follow",
+        "title": "[CLI][Feature Request] Let the status line follow the implementation worktree during an active turn",
+        "url": "https://github.com/openai/codex/issues/54191"
+      },
+      {
+        "createdAt": "2026-10-15T05:03:21Z",
+        "explicitVersion": "26.1007.9446.0",
+        "id": "github-issue:openai/codex:54192",
+        "labels": [
+          "app",
+          "bug",
+          "performance",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:disable-gpu|title:windows-repeated-native-renderer-oom-reloads|version:26.1007.9446.0|platform:windows",
+        "title": "[Windows 26.1007.71326] Repeated native V8 renderer OOM reloads despite --disable-gpu and propagated 8192 MB old-space flag",
+        "url": "https://github.com/openai/codex/issues/54192"
+      },
+      {
+        "createdAt": "2026-10-15T05:03:50Z",
+        "explicitVersion": "0.160.0",
+        "id": "github-issue:openai/codex:54193",
+        "labels": [
+          "bug",
+          "CLI",
+          "performance",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:new-thread|title:new-thread-startup-blocks-124-thread|version:0.160.0|platform:linux",
+        "title": "New-thread startup blocks 35–124 s: `thread_name_lookup` misses, then falls back to a fuzzy `file_search::run` walk of `~/.codex/sessions` that follows symlinks",
+        "url": "https://github.com/openai/codex/issues/54193"
+      },
+      {
+        "createdAt": "2026-10-15T05:04:32Z",
+        "explicitVersion": "0.162.1",
+        "id": "github-issue:openai/codex:54194",
+        "labels": [
+          "bug",
+          "CLI",
+          "enhancement",
+          "TUI"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:microsoft-standard-wsl2|title:reference-directories-via|version:0.162.1|platform:windows",
+        "title": "Reference directories via @",
+        "url": "https://github.com/openai/codex/issues/54194"
+      },
+      {
+        "createdAt": "2026-10-15T05:19:02Z",
+        "id": "github-issue:openai/codex:54195",
+        "labels": [
+          "bug",
+          "model-behavior",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:gpt-6|title:astra-became-dumb",
+        "title": "Astra 6 became dumb",
+        "url": "https://github.com/openai/codex/issues/54195"
+      },
+      {
+        "createdAt": "2026-10-15T05:21:25Z",
+        "explicitVersion": "6.1",
+        "id": "github-issue:openai/codex:54196",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:gpt-6|title:gpt-sol-ultrafast-available-web-using|version:6.1|platform:windows",
+        "title": "GPT-6.1 SOL Ultrafast is available on web using my account, but missing in Codex Windows Desktop. Astra still offers Ultrafast. Updating, restarting, and signing out and back in did not resolve it.",
+        "url": "https://github.com/openai/codex/issues/54196"
+      },
+      {
+        "createdAt": "2026-10-15T05:23:55Z",
+        "explicitVersion": "26.1007.9446.0",
+        "id": "github-issue:openai/codex:54197",
+        "labels": [
+          "bug",
+          "codex-web",
+          "connectivity"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:every|title:web-404-model-found-every-desktop|version:26.1007.9446.0|platform:windows",
+        "title": "[Web] 404 \"Model not found\" on every desktop client while mobile works — payload sends model \"gpt-6\"",
+        "url": "https://github.com/openai/codex/issues/54197"
+      },
+      {
+        "createdAt": "2026-10-15T05:36:06Z",
+        "explicitVersion": "26.1007.71326",
+        "id": "github-issue:openai/codex:54198",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "computer-use"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:computer-use|title:integrated-browser-unavailable-macos-native-pipe|version:26.1007.71326|platform:macos",
+        "title": "Integrated browser unavailable on macOS: native pipe startup fails",
+        "url": "https://github.com/openai/codex/issues/54198"
+      },
+      {
+        "createdAt": "2026-10-15T05:37:37Z",
+        "id": "github-issue:openai/codex:54199",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "connectivity",
+          "dots"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:task-resume|title:macos-dots-repeated-computer-disconnects-task|platform:macos",
+        "title": "[macOS][dots] Repeated computer disconnects and task-resume failures despite connected status; restarts do not help",
+        "url": "https://github.com/openai/codex/issues/54199"
+      },
+      {
+        "createdAt": "2026-10-15T05:45:42Z",
+        "explicitVersion": "26.1007.9446.0",
+        "id": "github-issue:openai/codex:54200",
+        "labels": [
+          "app",
+          "bug",
+          "mcp",
+          "performance",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:electron|title:codex-windows-desktop-crashes-during-thinking|version:26.1007.9446.0|platform:windows",
+        "title": "Codex Windows Desktop crashes during \"Thinking\" — Electron browser crash and tools/list timeout",
+        "url": "https://github.com/openai/codex/issues/54200"
+      },
+      {
+        "createdAt": "2026-10-15T05:55:17Z",
+        "explicitVersion": "26.1007.9446.0",
+        "id": "github-issue:openai/codex:54201",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "skills",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:app-server|title:windows-desktop-server-deletes-codex-security|version:26.1007.9446.0|platform:windows",
+        "title": "Windows: desktop app-server deletes Codex Security Cloud plugin cache after successful native materialization",
+        "url": "https://github.com/openai/codex/issues/54201"
+      },
+      {
+        "createdAt": "2026-10-15T05:56:33Z",
+        "explicitVersion": "1.2026.160",
+        "id": "github-issue:openai/codex:54202",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:built-in|title:macos-chatgpt-desktop-built-chinese-pinyin|version:1.2026.160|platform:arm64",
+        "title": "[macOS 27][ChatGPT Desktop] Built-in Chinese Pinyin IME candidate window invisible in Option+Space overlay over full-screen apps",
+        "url": "https://github.com/openai/codex/issues/54202"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-10-15T05:58:05.308Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "20 recent official GitHub issues observed for openai/codex."
+  },
   "comparedWith": "codex-stable-windows-x64-784201c5fa637b07",
   "interfaces": [],
   "observationId": "codex-stable-windows-x64-9ba07ce467429785",
