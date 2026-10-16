@@ -1,0 +1,78 @@
+{
+  "artifactChanges": [
+    {
+      "after": "84d61feeb1a07e5a5b3354d68432591cac18a5d38a419a30d86d0f3ad8cba397",
+      "before": "56810a111c01dcd218b42727c23fd8763be42320038b1adcac93cf599fac2de2",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 271840416,
+      "before": 270863520,
+      "material": false,
+      "summary": "Artifact size changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "claude-code-stable-windows-x64-189dfe24b4624248",
+  "createdAt": "2026-10-16T05:55:52.066Z",
+  "diffId": "claude-code-stable-windows-x64-724bcb04264dc4e2-from-claude-code-stable-windows-x64-189dfe24b4624248",
+  "distributionChanges": [
+    {
+      "after": "2.1.301",
+      "before": "2.1.300",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.300 → 2.1.301.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "2.1.296",
+      "before": "2.1.292",
+      "material": true,
+      "summary": "Distribution state winget: 2.1.292 → 2.1.296.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": {
+        "native": "2.1.301",
+        "winget": "2.1.296"
+      },
+      "before": {
+        "native": "2.1.301",
+        "winget": "2.1.296"
+      },
+      "material": false,
+      "summary": "WinGet 2.1.296 lags the official native release 2.1.301.",
+      "type": "distribution-lag"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "84d61feeb1a07e5a5b3354d68432591cac18a5d38a419a30d86d0f3ad8cba397",
+      "before": "56810a111c01dcd218b42727c23fd8763be42320038b1adcac93cf599fac2de2",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "2.1.301",
+      "before": "2.1.300",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.300 → 2.1.301.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "2.1.296",
+      "before": "2.1.292",
+      "material": true,
+      "summary": "Distribution state winget: 2.1.292 → 2.1.296.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "claude-code-stable-windows-x64-724bcb04264dc4e2",
+  "productId": "claude-code",
+  "schemaVersion": 1
+}
