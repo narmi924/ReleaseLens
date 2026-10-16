@@ -91,6 +91,20 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29781"
+        ],
+        "signature": "code:extension|title:chatway-extension-missing-gallery-despite-meeting|version:0.64.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29791"
+        ],
+        "signature": "code:holt-os|title:geminicli-com-feedback-holt-holt-missing|version:0.64.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29772"
         ],
         "signature": "code:resource_exhausted|title:persistent-429-resource-exhausted-gemini-assist|version:0.64.0|platform:windows",
@@ -98,7 +112,7 @@
       }
     ],
     "details": {
-      "fingerprint": "8179d0fa47f850697d8dd778c3497e30c12d532aca5a270fd542ad2e0bb5fad6",
+      "fingerprint": "4baae5ba4a2ec94a66dfffd964ab3d1613fbcd142fc86a1034014616ab4764b2",
       "lookbackHours": 72,
       "releaseVersion": "0.64.0",
       "source": "official-github-issues"
@@ -132,13 +146,45 @@
         "signature": "code:exceeds|title:acp-mode-truncate-tool-output-truncatetooloutputthreshold|version:0.64.0|platform:linux",
         "title": "ACP mode does not truncate tool output (truncateToolOutputThreshold ignored); large shell output exceeds the model's input limit",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29777"
+      },
+      {
+        "createdAt": "2026-10-16T09:23:21Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29781",
+        "labels": [
+          "area/extensions",
+          "effort/small",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extension|title:chatway-extension-missing-gallery-despite-meeting|version:0.64.0",
+        "title": "Chatway extension missing from gallery despite meeting publishing requirements",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29781"
+      },
+      {
+        "createdAt": "2026-10-16T16:41:30Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29791",
+        "labels": [
+          "area/extensions",
+          "effort/medium",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:holt-os|title:geminicli-com-feedback-holt-holt-missing|version:0.64.0",
+        "title": "GeminiCLI.com Feedback: holt-os/holt missing from Extensions Gallery after a crawl that ran with it code-indexed",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29791"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-16T05:57:43.968Z",
+    "observedAt": "2026-10-16T17:34:25.211Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "2 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "4 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-dfff44981805ece6",
   "interfaces": [
