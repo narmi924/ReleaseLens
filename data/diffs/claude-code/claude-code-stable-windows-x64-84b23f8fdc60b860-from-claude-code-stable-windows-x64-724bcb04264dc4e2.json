@@ -1,0 +1,72 @@
+{
+  "artifactChanges": [
+    {
+      "after": "3ab075f78998efef8b87f491c2e4a39c309dddf44e51d0103eba4f3713d2a0ae",
+      "before": "84d61feeb1a07e5a5b3354d68432591cac18a5d38a419a30d86d0f3ad8cba397",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 290211488,
+      "before": 271840416,
+      "material": true,
+      "summary": "Artifact size changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "claude-code-stable-windows-x64-724bcb04264dc4e2",
+  "createdAt": "2026-10-17T05:40:33.954Z",
+  "diffId": "claude-code-stable-windows-x64-84b23f8fdc60b860-from-claude-code-stable-windows-x64-724bcb04264dc4e2",
+  "distributionChanges": [
+    {
+      "after": "2.1.302",
+      "before": "2.1.301",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.301 → 2.1.302.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "2.1.302",
+      "before": "2.1.296",
+      "material": true,
+      "summary": "Distribution state winget: 2.1.296 → 2.1.302.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "after": "3ab075f78998efef8b87f491c2e4a39c309dddf44e51d0103eba4f3713d2a0ae",
+      "before": "84d61feeb1a07e5a5b3354d68432591cac18a5d38a419a30d86d0f3ad8cba397",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 290211488,
+      "before": 271840416,
+      "material": true,
+      "summary": "Artifact size changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-size-changed"
+    },
+    {
+      "after": "2.1.302",
+      "before": "2.1.301",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.301 → 2.1.302.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "2.1.302",
+      "before": "2.1.296",
+      "material": true,
+      "summary": "Distribution state winget: 2.1.296 → 2.1.302.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "claude-code-stable-windows-x64-84b23f8fdc60b860",
+  "productId": "claude-code",
+  "schemaVersion": 1
+}
