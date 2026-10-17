@@ -91,6 +91,13 @@
       },
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29796"
+        ],
+        "signature": "code:ecosystem|title:regression-broken-ecosystem-workflow-deprecating-oauth|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29794"
         ],
         "signature": "code:error|title:api-400-invalid-argument-using-rea|version:0.64.0|platform:windows",
@@ -98,16 +105,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29777"
+          "github-issue:google-gemini/gemini-cli:29803"
         ],
-        "signature": "code:exceeds|title:acp-mode-truncate-tool-output-truncatetooloutputthreshold|version:0.64.0|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29781"
-        ],
-        "signature": "code:extension|title:chatway-extension-missing-gallery-despite-meeting|version:0.64.0",
+        "signature": "code:extension|title:extension-submission-aem-mcp|version:2.0",
         "strength": "weak"
       },
       {
@@ -119,43 +119,13 @@
       }
     ],
     "details": {
-      "fingerprint": "bf923be76c169eee933bf30ad5cc0c187cc1dc1918320d7a3e18ebbf8bf3f4f5",
+      "fingerprint": "1e91c0bdae9949cd01f550dd3102676aa358d6eae351ead212c44ac8c9652f98",
       "lookbackHours": 72,
       "releaseVersion": "0.64.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-16T02:38:08Z",
-        "explicitVersion": "0.64.0",
-        "id": "github-issue:google-gemini/gemini-cli:29777",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:exceeds|title:acp-mode-truncate-tool-output-truncatetooloutputthreshold|version:0.64.0|platform:linux",
-        "title": "ACP mode does not truncate tool output (truncateToolOutputThreshold ignored); large shell output exceeds the model's input limit",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29777"
-      },
-      {
-        "createdAt": "2026-10-16T09:23:21Z",
-        "explicitVersion": "0.64.0",
-        "id": "github-issue:google-gemini/gemini-cli:29781",
-        "labels": [
-          "area/extensions",
-          "effort/small",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:extension|title:chatway-extension-missing-gallery-despite-meeting|version:0.64.0",
-        "title": "Chatway extension missing from gallery despite meeting publishing requirements",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29781"
-      },
       {
         "createdAt": "2026-10-16T16:41:30Z",
         "explicitVersion": "0.64.0",
@@ -199,10 +169,36 @@
         "signature": "code:error|title:api-400-invalid-argument-using-rea|version:0.64.0|platform:windows",
         "title": "API Error: 400 'INVALID_ARGUMENT' when using REA (Reverse Engineer Anything) skill.",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29794"
+      },
+      {
+        "createdAt": "2026-10-17T10:06:17Z",
+        "id": "github-issue:google-gemini/gemini-cli:29796",
+        "labels": [
+          "area/platform",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:ecosystem|title:regression-broken-ecosystem-workflow-deprecating-oauth|platform:windows",
+        "title": "Regression & Broken Ecosystem Workflow: Deprecating OAuth for Google AI Pro / Individual Accounts Leaves No Public Quota API for Developers",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29796"
+      },
+      {
+        "createdAt": "2026-10-17T15:38:58Z",
+        "explicitVersion": "2.0",
+        "id": "github-issue:google-gemini/gemini-cli:29803",
+        "labels": [
+          "area/extensions",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extension|title:extension-submission-aem-mcp|version:2.0",
+        "title": "[Extension Submission]: aem-mcp",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29803"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-17T05:42:23.035Z",
+    "observedAt": "2026-10-17T16:33:25.437Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
