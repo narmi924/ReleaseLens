@@ -1,0 +1,584 @@
+{
+  "artifacts": [
+    {
+      "details": {
+        "bin": {
+          "gemini": "bundle/gemini.js"
+        },
+        "cliEntry": "bundle/gemini.js",
+        "dependencies": [],
+        "engines": {
+          "node": ">=20"
+        },
+        "fileCount": 449,
+        "topLevelDirectories": [
+          "bundle",
+          "LICENSE",
+          "package.json",
+          "README.md"
+        ]
+      },
+      "fileName": "gemini-cli-0.64.0.tgz",
+      "format": "npm-tgz",
+      "id": "artifact:npm:@google/gemini-cli:0.64.0",
+      "kind": "artifact",
+      "observedAt": "2026-10-18T06:02:15.227Z",
+      "packageIdentity": "@google/gemini-cli",
+      "packageVersion": "0.64.0",
+      "sha256": "891a794e55c8319b6b78f6f8f13d6b8b2782a4709dfd2fcabf3a1f63ae8365e6",
+      "sizeBytes": 20841287,
+      "sourceHost": "registry.npmjs.org",
+      "status": "pass",
+      "summary": "@google/gemini-cli@0.64.0 tarball passed integrity verification.",
+      "verification": [
+        {
+          "details": {
+            "actual": "FHrZ1NPf9QszyVMaa/BP3SsPy40ogBLnbZNWkv/PMi1Uz2zoDNMLGiBzBGmx4Bl7iLRq01K9PY/5kmloXFTpsA==",
+            "expected": "FHrZ1NPf9QszyVMaa/BP3SsPy40ogBLnbZNWkv/PMi1Uz2zoDNMLGiBzBGmx4Bl7iLRq01K9PY/5kmloXFTpsA=="
+          },
+          "id": "npm-integrity",
+          "kind": "verification",
+          "observedAt": "2026-10-18T06:02:15.227Z",
+          "status": "pass",
+          "summary": "Verified npm sha512 Subresource Integrity."
+        }
+      ]
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:gemini-cli:2026-10-18T06:02:15.227Z",
+      "kind": "behavior",
+      "observedAt": "2026-10-18T06:02:15.227Z",
+      "results": [
+        {
+          "durationMs": 1455,
+          "exitCode": 0,
+          "startedAt": "2026-10-18T06:02:15.227Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "gemini-version completed.",
+          "testId": "gemini-version"
+        },
+        {
+          "durationMs": 1452,
+          "exitCode": 0,
+          "startedAt": "2026-10-18T06:02:15.227Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "gemini-help completed.",
+          "testId": "gemini-help"
+        }
+      ],
+      "status": "pass",
+      "summary": "gemini-cli behavior suite produced 2 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29793"
+        ],
+        "signature": "code:antevo-ch|title:geminicli-com-feedback-antevo-antevo-mcp|version:0.64.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29796"
+        ],
+        "signature": "code:ecosystem|title:regression-broken-ecosystem-workflow-deprecating-oauth|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29794"
+        ],
+        "signature": "code:error|title:api-400-invalid-argument-using-rea|version:0.64.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29803"
+        ],
+        "signature": "code:extension|title:extension-submission-aem-mcp|version:2.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29804"
+        ],
+        "signature": "code:flash-lite|title:customaliases-generatecontentconfig-dropped-alias-model-tier|version:0.64.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29791"
+        ],
+        "signature": "code:holt-os|title:geminicli-com-feedback-holt-holt-missing|version:0.64.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29805"
+        ],
+        "signature": "code:quota-exhausted|title:acp-retries-invisible-client-quota-exhausted|version:0.64.0|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29811"
+        ],
+        "signature": "code:timed-out|title:ripgreptool-timed-out-search-returns-partial",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "2c92d5b34df84b7c7d78e131096a181dc5171dbc27778c64fe51997428cf9a03",
+      "lookbackHours": 72,
+      "releaseVersion": "0.64.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:gemini-cli:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-10-16T16:41:30Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29791",
+        "labels": [
+          "area/extensions",
+          "effort/medium",
+          "kind/bug",
+          "priority/p2",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:holt-os|title:geminicli-com-feedback-holt-holt-missing|version:0.64.0",
+        "title": "GeminiCLI.com Feedback: holt-os/holt missing from Extensions Gallery after a crawl that ran with it code-indexed",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29791"
+      },
+      {
+        "createdAt": "2026-10-16T23:16:43Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29793",
+        "labels": [
+          "area/extensions",
+          "effort/large",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:antevo-ch|title:geminicli-com-feedback-antevo-antevo-mcp|version:0.64.0",
+        "title": "GeminiCLI.com Feedback: ANTEVO-CH/antevo-mcp missing from the Extensions Gallery (topic + root manifest since Sept)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29793"
+      },
+      {
+        "createdAt": "2026-10-16T23:29:05Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29794",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:error|title:api-400-invalid-argument-using-rea|version:0.64.0|platform:windows",
+        "title": "API Error: 400 'INVALID_ARGUMENT' when using REA (Reverse Engineer Anything) skill.",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29794"
+      },
+      {
+        "createdAt": "2026-10-17T10:06:17Z",
+        "id": "github-issue:google-gemini/gemini-cli:29796",
+        "labels": [
+          "area/platform",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:ecosystem|title:regression-broken-ecosystem-workflow-deprecating-oauth|platform:windows",
+        "title": "Regression & Broken Ecosystem Workflow: Deprecating OAuth for Google AI Pro / Individual Accounts Leaves No Public Quota API for Developers",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29796"
+      },
+      {
+        "createdAt": "2026-10-17T15:38:58Z",
+        "explicitVersion": "2.0",
+        "id": "github-issue:google-gemini/gemini-cli:29803",
+        "labels": [
+          "area/extensions",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extension|title:extension-submission-aem-mcp|version:2.0",
+        "title": "[Extension Submission]: aem-mcp",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29803"
+      },
+      {
+        "createdAt": "2026-10-17T18:26:20Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29804",
+        "labels": [
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29804",
+        "signature": "code:flash-lite|title:customaliases-generatecontentconfig-dropped-alias-model-tier|version:0.64.0|platform:linux",
+        "title": "customAliases generateContentConfig is dropped when the alias model is a tier name (flash-lite)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29804"
+      },
+      {
+        "createdAt": "2026-10-17T18:26:21Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29805",
+        "labels": [
+          "area/non-interactive",
+          "effort/medium",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:quota-exhausted|title:acp-retries-invisible-client-quota-exhausted|version:0.64.0|platform:linux",
+        "title": "ACP: retries are invisible to the client, and a quota-exhausted 429 is retried for hours",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29805"
+      },
+      {
+        "createdAt": "2026-10-18T05:04:58Z",
+        "id": "github-issue:google-gemini/gemini-cli:29811",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:timed-out|title:ripgreptool-timed-out-search-returns-partial",
+        "title": "RipGrepTool: a timed-out search returns partial or empty results with no error",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29811"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-10-18T06:02:25.251Z",
+    "repository": "google-gemini/gemini-cli",
+    "status": "pass",
+    "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
+  },
+  "comparedWith": "gemini-cli-latest-node-6b0767a41f4aee86",
+  "interfaces": [
+    {
+      "cliName": "gemini",
+      "commands": [
+        {
+          "name": "gemini",
+          "options": [],
+          "subcommands": [],
+          "summary": "Launch Gemini CLI  [default]"
+        }
+      ],
+      "configKeys": [],
+      "details": {
+        "globalOptions": [
+          {
+            "names": [
+              "--accept-raw-output-risk",
+              "--raw-output"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--acp"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--acp",
+              "--experimental-acp"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--admin-policy"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--allowed-mcp-server-names"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--allowed-tools"
+            ],
+            "valueHint": "[DEPRECATED: Use Policy Engine instead See https://geminicli.com/docs/core/policy-engine]"
+          },
+          {
+            "names": [
+              "--approval-mode"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--debug",
+              "-d"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--delete-session",
+              "--list-sessions"
+            ],
+            "valueHint": "D"
+          },
+          {
+            "names": [
+              "--extensions",
+              "-e"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--help",
+              "-h"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--include-directories"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--list-extensions",
+              "-l"
+            ],
+            "valueHint": "L"
+          },
+          {
+            "names": [
+              "--list-sessions"
+            ],
+            "valueHint": "L"
+          },
+          {
+            "names": [
+              "--model",
+              "-m"
+            ],
+            "valueHint": "M"
+          },
+          {
+            "names": [
+              "--output-format",
+              "-o"
+            ],
+            "valueHint": "T"
+          },
+          {
+            "names": [
+              "--policy"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--prompt-interactive",
+              "-i"
+            ],
+            "valueHint": "E"
+          },
+          {
+            "names": [
+              "--prompt",
+              "-p"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--raw-output"
+            ],
+            "valueHint": "D"
+          },
+          {
+            "names": [
+              "--resume",
+              "-r"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--sandbox",
+              "-s"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--screen-reader"
+            ],
+            "valueHint": "E"
+          },
+          {
+            "names": [
+              "--session-file"
+            ],
+            "valueHint": "L"
+          },
+          {
+            "names": [
+              "--session-id"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--skip-trust"
+            ],
+            "valueHint": "T"
+          },
+          {
+            "names": [
+              "--version",
+              "-v"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--worktree",
+              "-w"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--yolo",
+              "-y"
+            ],
+            "valueHint": "A"
+          }
+        ]
+      },
+      "environmentKeys": [],
+      "id": "interface:gemini:d36a6ba045ea",
+      "kind": "interface",
+      "observedAt": "2026-10-18T06:02:15.227Z",
+      "reportedVersion": "0.64.0",
+      "snapshotHash": "d36a6ba045eae0c1dc397b33579fd93fd9ab5ff396a1a7b7d00c6f1b019fedc8",
+      "status": "pass",
+      "summary": "Normalized gemini CLI interface with 1 top-level commands and 29 global options."
+    }
+  ],
+  "observationId": "gemini-cli-latest-node-ddd293b67c887f54",
+  "product": {
+    "id": "gemini-cli",
+    "name": "Gemini CLI"
+  },
+  "release": {
+    "canonicalVersion": "0.64.0",
+    "channel": "latest",
+    "discoveredAt": "2026-10-18T06:02:15.227Z",
+    "platform": "node",
+    "publishedAt": "2026-10-13T20:48:24.183Z",
+    "sourceVersion": "0.64.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "releaseCount": 12,
+        "repository": "google-gemini/gemini-cli"
+      },
+      "fingerprint": "6cb961434d1bdcea624f1a7ae8cc56680f29b2bad34e97d2b9733b993cf9b328",
+      "id": "github-repository:snapshot",
+      "kind": "source",
+      "observedAt": "2026-10-18T06:02:15.227Z",
+      "sourceId": "github-repository",
+      "sourceType": "github-release-api",
+      "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "status": "pass",
+      "summary": "12 published GitHub releases observed for google-gemini/gemini-cli."
+    },
+    {
+      "details": {
+        "channels": [
+          {
+            "channel": "latest",
+            "integrity": "sha512-FHrZ1NPf9QszyVMaa/BP3SsPy40ogBLnbZNWkv/PMi1Uz2zoDNMLGiBzBGmx4Bl7iLRq01K9PY/5kmloXFTpsA==",
+            "publishedAt": "2026-10-13T20:48:24.183Z",
+            "shasum": "ba011a7ced78fc6b28b0a5e3534894e185a3662b",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.64.0"
+          },
+          {
+            "channel": "preview",
+            "integrity": "sha512-YcQg6wo9Bs4K49XtDAaJ4YjQ3kpy4fByWJGMcEscsJCnDcxGwk+hJsyOBZDVDtxPjrqTW0vcKRb3ylyXe3xX5Q==",
+            "publishedAt": "2026-10-13T20:31:28.212Z",
+            "shasum": "c5dd051ee50be4b556fafd18f588422ba785906f",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.65.0-preview.0"
+          },
+          {
+            "channel": "nightly",
+            "integrity": "sha512-nTQ8Yg1Kci60rEZW1nBnG8db3XnoQKw/D6168Cmo2aZhziJwuK2ZHwC0DIWdsKUt4q0kGHzBRwhmBdbPoPSmBA==",
+            "publishedAt": "2026-10-18T01:43:23.842Z",
+            "shasum": "d1cabbfacd5a1fe6913ae1979cd843ef51b7ae9d",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.66.0-nightly.20261018.ged96faedf"
+          }
+        ]
+      },
+      "fingerprint": "66c3b699e639e5ed07491869bd1a60dcf8773eec8760d1e389798ebda98719b5",
+      "id": "npm-registry:dist-tags",
+      "kind": "source",
+      "observedAt": "2026-10-18T06:02:15.227Z",
+      "sourceId": "npm-registry",
+      "sourceType": "npm-registry",
+      "sourceUrl": "https://registry.npmjs.org/%40google%2Fgemini-cli",
+      "status": "pass",
+      "summary": "Observed 3 npm channel tags for @google/gemini-cli."
+    },
+    {
+      "details": {
+        "channel": "latest",
+        "integrity": "sha512-FHrZ1NPf9QszyVMaa/BP3SsPy40ogBLnbZNWkv/PMi1Uz2zoDNMLGiBzBGmx4Bl7iLRq01K9PY/5kmloXFTpsA==",
+        "publishedAt": "2026-10-13T20:48:24.183Z",
+        "shasum": "ba011a7ced78fc6b28b0a5e3534894e185a3662b",
+        "tarballHost": "registry.npmjs.org",
+        "version": "0.64.0"
+      },
+      "id": "npm-registry:latest:0.64.0",
+      "kind": "source",
+      "observedAt": "2026-10-18T06:02:15.227Z",
+      "sourceId": "npm-registry",
+      "sourceType": "npm-registry",
+      "status": "pass",
+      "summary": "latest points to 0.64.0; integrity metadata is present."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "MATERIAL_EVIDENCE_CHANGED",
+        "evidenceRefs": [],
+        "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+      }
+    ],
+    "severity": "minor",
+    "status": "CHANGED"
+  }
+}
