@@ -112,16 +112,16 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29804"
+          "github-issue:google-gemini/gemini-cli:29814"
         ],
-        "signature": "code:flash-lite|title:customaliases-generatecontentconfig-dropped-alias-model-tier|version:0.64.0|platform:linux",
+        "signature": "code:extensions|title:geminicli-com-feedback-issue",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29791"
+          "github-issue:google-gemini/gemini-cli:29804"
         ],
-        "signature": "code:holt-os|title:geminicli-com-feedback-holt-holt-missing|version:0.64.0",
+        "signature": "code:flash-lite|title:customaliases-generatecontentconfig-dropped-alias-model-tier|version:0.64.0|platform:linux",
         "strength": "weak"
       },
       {
@@ -140,29 +140,13 @@
       }
     ],
     "details": {
-      "fingerprint": "2c92d5b34df84b7c7d78e131096a181dc5171dbc27778c64fe51997428cf9a03",
+      "fingerprint": "0a4196a4b12454cd8396f674f9104787ceaf2883c8105437408b5634d761b439",
       "lookbackHours": 72,
       "releaseVersion": "0.64.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-16T16:41:30Z",
-        "explicitVersion": "0.64.0",
-        "id": "github-issue:google-gemini/gemini-cli:29791",
-        "labels": [
-          "area/extensions",
-          "effort/medium",
-          "kind/bug",
-          "priority/p2",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:holt-os|title:geminicli-com-feedback-holt-holt-missing|version:0.64.0",
-        "title": "GeminiCLI.com Feedback: holt-os/holt missing from Extensions Gallery after a crawl that ran with it code-indexed",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29791"
-      },
       {
         "createdAt": "2026-10-16T23:16:43Z",
         "explicitVersion": "0.64.0",
@@ -258,10 +242,22 @@
         "signature": "code:timed-out|title:ripgreptool-timed-out-search-returns-partial",
         "title": "RipGrepTool: a timed-out search returns partial or empty results with no error",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29811"
+      },
+      {
+        "createdAt": "2026-10-18T16:25:26Z",
+        "id": "github-issue:google-gemini/gemini-cli:29814",
+        "labels": [
+          "area/extensions",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extensions|title:geminicli-com-feedback-issue",
+        "title": "GeminiCLI.com Feedback: [ISSUE]",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29814"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-18T06:02:25.251Z",
+    "observedAt": "2026-10-18T16:38:23.295Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "8 recent official GitHub issues observed for google-gemini/gemini-cli."
