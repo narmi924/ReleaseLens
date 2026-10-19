@@ -8,7 +8,7 @@
       "knownGood": [
         {
           "channel": "stable",
-          "observationId": "claude-code-stable-windows-x64-84b23f8fdc60b860",
+          "observationId": "claude-code-stable-windows-x64-7ed0178073870f68",
           "platform": "windows-x64",
           "productId": "claude-code",
           "requirementsSatisfied": [
@@ -19,15 +19,15 @@
             "claude-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-17T05:40:33.954Z",
-          "version": "2.1.302"
+          "selectedAt": "2026-10-19T06:18:34.834Z",
+          "version": "2.1.303"
         }
       ],
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-10-17T05:40:33.954Z",
-          "observationId": "claude-code-stable-windows-x64-84b23f8fdc60b860",
+          "discoveredAt": "2026-10-19T06:18:34.834Z",
+          "observationId": "claude-code-stable-windows-x64-7ed0178073870f68",
           "platform": "windows-x64",
           "productId": "claude-code",
           "schemaVersion": 1,
@@ -37,12 +37,20 @@
                 "code": "MATERIAL_EVIDENCE_CHANGED",
                 "evidenceRefs": [],
                 "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+              },
+              {
+                "code": "SECONDARY_DISTRIBUTION_LAGGING",
+                "evidenceRefs": [
+                  "claude-native:release:2.1.303",
+                  "winget:manifest:2.1.302"
+                ],
+                "message": "WinGet 2.1.302 lags the official native release 2.1.303. The verified official artifact is unaffected."
               }
             ],
             "severity": "minor",
             "status": "CHANGED"
           },
-          "version": "2.1.302"
+          "version": "2.1.303"
         }
       ],
       "name": "Claude Code"
@@ -187,7 +195,7 @@
       "knownGood": [
         {
           "channel": "latest",
-          "observationId": "gemini-cli-latest-node-ddd293b67c887f54",
+          "observationId": "gemini-cli-latest-node-8df0ba8c01d0895b",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -199,12 +207,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-18T06:02:15.227Z",
+          "selectedAt": "2026-10-19T06:19:06.938Z",
           "version": "0.64.0"
         },
         {
           "channel": "nightly",
-          "observationId": "gemini-cli-nightly-node-d5c40b6c0d872926",
+          "observationId": "gemini-cli-nightly-node-fab179ec9990cca4",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -216,12 +224,12 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-18T06:02:15.227Z",
-          "version": "0.66.0-nightly.20261018.ged96faedf"
+          "selectedAt": "2026-10-19T06:19:06.938Z",
+          "version": "0.66.0-nightly.20261019.ged96faedf"
         },
         {
           "channel": "preview",
-          "observationId": "gemini-cli-preview-node-91a70ec42109c1db",
+          "observationId": "gemini-cli-preview-node-5d67699e20ce78a8",
           "platform": "node",
           "productId": "gemini-cli",
           "requirementsSatisfied": [
@@ -233,15 +241,15 @@
             "gemini-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-18T06:02:15.227Z",
+          "selectedAt": "2026-10-19T06:19:06.938Z",
           "version": "0.65.0-preview.0"
         }
       ],
       "latest": [
         {
           "channel": "latest",
-          "discoveredAt": "2026-10-18T06:02:15.227Z",
-          "observationId": "gemini-cli-latest-node-ddd293b67c887f54",
+          "discoveredAt": "2026-10-19T06:19:06.938Z",
+          "observationId": "gemini-cli-latest-node-8df0ba8c01d0895b",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
@@ -260,8 +268,8 @@
         },
         {
           "channel": "nightly",
-          "discoveredAt": "2026-10-18T06:02:15.227Z",
-          "observationId": "gemini-cli-nightly-node-d5c40b6c0d872926",
+          "discoveredAt": "2026-10-19T06:19:06.938Z",
+          "observationId": "gemini-cli-nightly-node-fab179ec9990cca4",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
@@ -276,12 +284,12 @@
             "severity": "minor",
             "status": "CHANGED"
           },
-          "version": "0.66.0-nightly.20261018.ged96faedf"
+          "version": "0.66.0-nightly.20261019.ged96faedf"
         },
         {
           "channel": "preview",
-          "discoveredAt": "2026-10-18T06:02:15.227Z",
-          "observationId": "gemini-cli-preview-node-91a70ec42109c1db",
+          "discoveredAt": "2026-10-19T06:19:06.938Z",
+          "observationId": "gemini-cli-preview-node-5d67699e20ce78a8",
           "platform": "node",
           "productId": "gemini-cli",
           "schemaVersion": 1,
