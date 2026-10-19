@@ -84,9 +84,23 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29803"
+          "github-issue:google-gemini/gemini-cli:29825"
         ],
-        "signature": "code:extension|title:extension-submission-aem-mcp|version:2.0",
+        "signature": "code:ed96faedfd5571f055c44f2c9509d62321d1138d|title:mcp-tool-discovery-ignores-nextcursor-silently|version:1.23.0|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29830"
+        ],
+        "signature": "code:error|title:crash-fatal-reached-heap-limit-allocation|version:0.64.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29829"
+        ],
+        "signature": "code:even|title:freezing-randomly-even-fresh-chats|version:0.64.0|platform:windows",
         "strength": "weak"
       },
       {
@@ -94,13 +108,6 @@
           "github-issue:google-gemini/gemini-cli:29814"
         ],
         "signature": "code:extensions|title:geminicli-com-feedback-issue",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29804"
-        ],
-        "signature": "code:flash-lite|title:customaliases-generatecontentconfig-dropped-alias-model-tier|version:0.64.0|platform:linux",
         "strength": "weak"
       },
       {
@@ -133,16 +140,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29805"
+          "github-issue:google-gemini/gemini-cli:29826"
         ],
-        "signature": "code:quota-exhausted|title:acp-retries-invisible-client-quota-exhausted|version:0.64.0|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29811"
-        ],
-        "signature": "code:timed-out|title:ripgreptool-timed-out-search-returns-partial",
+        "signature": "code:read_many_files|title:gitignoreparser-ignores-files-included-nested-gitignore",
         "strength": "weak"
       },
       {
@@ -154,68 +154,13 @@
       }
     ],
     "details": {
-      "fingerprint": "f196bc29286daa6ccfd02a4d0e1b9543b450516ebb2b44d0fe19093898caa81c",
+      "fingerprint": "ae81ec56bd0d7bb8dcbc86670746a63ae5a088b951c54abb8bab811e0ea4f1de",
       "lookbackHours": 72,
       "releaseVersion": "0.64.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-17T15:38:58Z",
-        "explicitVersion": "2.0",
-        "id": "github-issue:google-gemini/gemini-cli:29803",
-        "labels": [
-          "area/extensions",
-          "effort/small",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:extension|title:extension-submission-aem-mcp|version:2.0",
-        "title": "[Extension Submission]: aem-mcp",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29803"
-      },
-      {
-        "createdAt": "2026-10-17T18:26:20Z",
-        "explicitVersion": "0.64.0",
-        "id": "github-issue:google-gemini/gemini-cli:29804",
-        "labels": [
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29804",
-        "signature": "code:flash-lite|title:customaliases-generatecontentconfig-dropped-alias-model-tier|version:0.64.0|platform:linux",
-        "title": "customAliases generateContentConfig is dropped when the alias model is a tier name (flash-lite)",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29804"
-      },
-      {
-        "createdAt": "2026-10-17T18:26:21Z",
-        "explicitVersion": "0.64.0",
-        "id": "github-issue:google-gemini/gemini-cli:29805",
-        "labels": [
-          "area/non-interactive",
-          "effort/medium",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "signature": "code:quota-exhausted|title:acp-retries-invisible-client-quota-exhausted|version:0.64.0|platform:linux",
-        "title": "ACP: retries are invisible to the client, and a quota-exhausted 429 is retried for hours",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29805"
-      },
-      {
-        "createdAt": "2026-10-18T05:04:58Z",
-        "id": "github-issue:google-gemini/gemini-cli:29811",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:timed-out|title:ripgreptool-timed-out-search-returns-partial",
-        "title": "RipGrepTool: a timed-out search returns partial or empty results with no error",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29811"
-      },
       {
         "createdAt": "2026-10-18T16:25:26Z",
         "id": "github-issue:google-gemini/gemini-cli:29814",
@@ -301,10 +246,67 @@
         "signature": "code:package-lock|title:bug-build-workspace-package-json-dependencies|version:7.5.8|platform:linux",
         "title": "bug(build): workspace package.json dependencies desynchronized from package-lock.json breaking offline/hermetic builds",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29820"
+      },
+      {
+        "createdAt": "2026-10-19T12:56:32Z",
+        "explicitVersion": "1.23.0",
+        "id": "github-issue:google-gemini/gemini-cli:29825",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:ed96faedfd5571f055c44f2c9509d62321d1138d|title:mcp-tool-discovery-ignores-nextcursor-silently|version:1.23.0|platform:arm64",
+        "title": "MCP tool discovery ignores nextCursor and silently omits tools after the first page",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29825"
+      },
+      {
+        "createdAt": "2026-10-19T13:47:26Z",
+        "id": "github-issue:google-gemini/gemini-cli:29826",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:read_many_files|title:gitignoreparser-ignores-files-included-nested-gitignore",
+        "title": "GitIgnoreParser ignores files re-included by a nested .gitignore under a `dir/**` pattern",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29826"
+      },
+      {
+        "createdAt": "2026-10-19T15:23:02Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29829",
+        "labels": [
+          "area/core",
+          "effort/large",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:even|title:freezing-randomly-even-fresh-chats|version:0.64.0|platform:windows",
+        "title": "CLI Freezing randomly, even on the fresh chats",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29829"
+      },
+      {
+        "createdAt": "2026-10-19T17:08:30Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29830",
+        "labels": [
+          "area/core",
+          "effort/large",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:error|title:crash-fatal-reached-heap-limit-allocation|version:0.64.0|platform:windows",
+        "title": "[Crash]: FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory (V8 Heap Limit Exceeded at ~8.3GB)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29830"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-19T06:19:18.965Z",
+    "observedAt": "2026-10-19T19:24:26.573Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
     "summary": "10 recent official GitHub issues observed for google-gemini/gemini-cli."
