@@ -91,9 +91,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29825"
+          "github-issue:google-gemini/gemini-cli:29842"
         ],
-        "signature": "code:ed96faedfd5571f055c44f2c9509d62321d1138d|title:mcp-tool-discovery-ignores-nextcursor-silently|version:1.23.0|platform:arm64",
+        "signature": "code:error|title:connection-cut-functioncall-chunk-tool-still|version:0.64.0|platform:linux",
         "strength": "weak"
       },
       {
@@ -112,91 +112,20 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29820"
+          "github-issue:google-gemini/gemini-cli:29840"
         ],
-        "signature": "code:package-lock|title:bug-build-workspace-package-json-dependencies|version:7.5.8|platform:linux",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29819"
-        ],
-        "signature": "code:penny-gemini|title:geminicli-com-feedback-helperlabs-penny-gemini|version:0.64.0|platform:macos",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29826"
-        ],
-        "signature": "code:read_many_files|title:gitignoreparser-ignores-files-included-nested-gitignore",
+        "signature": "code:extensions|title:geminicli-com-feedback-gallery-index-freshness|version:0.64.0",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "0e59a9f7d1b811b5f2cb3cdb27fc9c180950a2d74eca2f68f487530bed668f0f",
+      "fingerprint": "803f28b7059b0b95c4e26c43f9bc099a255e8f81bd5fb7f4e11863ae7a210e47",
       "lookbackHours": 72,
       "releaseVersion": "0.64.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-18T21:53:57Z",
-        "explicitVersion": "0.64.0",
-        "id": "github-issue:google-gemini/gemini-cli:29819",
-        "labels": [
-          "area/extensions",
-          "effort/small",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "macos",
-        "signature": "code:penny-gemini|title:geminicli-com-feedback-helperlabs-penny-gemini|version:0.64.0|platform:macos",
-        "title": "GeminiCLI.com Feedback: HelperLabs/penny-gemini missing from Extensions Gallery despite meeting listing requirements",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29819"
-      },
-      {
-        "createdAt": "2026-10-18T23:50:26Z",
-        "explicitVersion": "7.5.8",
-        "id": "github-issue:google-gemini/gemini-cli:29820",
-        "labels": [
-          "area/platform",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "linux",
-        "resolutionReference": "https://github.com/google-gemini/gemini-cli/issues/29820",
-        "signature": "code:package-lock|title:bug-build-workspace-package-json-dependencies|version:7.5.8|platform:linux",
-        "title": "bug(build): workspace package.json dependencies desynchronized from package-lock.json breaking offline/hermetic builds",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29820"
-      },
-      {
-        "createdAt": "2026-10-19T12:56:32Z",
-        "explicitVersion": "1.23.0",
-        "id": "github-issue:google-gemini/gemini-cli:29825",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "signature": "code:ed96faedfd5571f055c44f2c9509d62321d1138d|title:mcp-tool-discovery-ignores-nextcursor-silently|version:1.23.0|platform:arm64",
-        "title": "MCP tool discovery ignores nextCursor and silently omits tools after the first page",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29825"
-      },
-      {
-        "createdAt": "2026-10-19T13:47:26Z",
-        "id": "github-issue:google-gemini/gemini-cli:29826",
-        "labels": [
-          "area/core",
-          "effort/small",
-          "status/bot-triaged"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:read_many_files|title:gitignoreparser-ignores-files-included-nested-gitignore",
-        "title": "GitIgnoreParser ignores files re-included by a nested .gitignore under a `dir/**` pattern",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29826"
-      },
       {
         "createdAt": "2026-10-19T15:23:02Z",
         "explicitVersion": "0.64.0",
@@ -240,13 +169,41 @@
         "signature": "code:camunda-8-get-started|title:humanity",
         "title": "humanity",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29836"
+      },
+      {
+        "createdAt": "2026-10-20T06:39:18Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29840",
+        "labels": [
+          "area/extensions",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extensions|title:geminicli-com-feedback-gallery-index-freshness|version:0.64.0",
+        "title": "GeminiCLI.com Feedback: gallery index freshness and Cloady discovery",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29840"
+      },
+      {
+        "createdAt": "2026-10-20T10:46:16Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29842",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:error|title:connection-cut-functioncall-chunk-tool-still|version:0.64.0|platform:linux",
+        "title": "Connection cut after a `functionCall` chunk: the tool still runs, but history is rolled back and the next request carries an orphaned `functionResponse`",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29842"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-20T06:08:14.033Z",
+    "observedAt": "2026-10-20T18:03:25.265Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "7 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-8df0ba8c01d0895b",
   "interfaces": [

@@ -1,0 +1,854 @@
+{
+  "artifacts": [
+    {
+      "details": {
+        "bin": {
+          "codex": "bin/codex.js"
+        },
+        "cliEntry": "bin/codex.js",
+        "dependencies": [],
+        "engines": {
+          "node": ">=16"
+        },
+        "fileCount": 3,
+        "topLevelDirectories": [
+          "bin",
+          "package.json",
+          "README.md"
+        ]
+      },
+      "fileName": "codex-0.163.0.tgz",
+      "format": "npm-tgz",
+      "id": "artifact:npm:@openai/codex:0.163.0",
+      "kind": "artifact",
+      "observedAt": "2026-10-20T18:02:27.971Z",
+      "packageIdentity": "@openai/codex",
+      "packageVersion": "0.163.0",
+      "sha256": "1a71db36560bb446d2c2e63ae675c4a3018c38ace38ca533f8d1b25d3e6555b4",
+      "sizeBytes": 4902,
+      "sourceHost": "registry.npmjs.org",
+      "status": "pass",
+      "summary": "@openai/codex@0.163.0 tarball passed integrity verification.",
+      "verification": [
+        {
+          "details": {
+            "actual": "HNd7vR9oTK6M2ikxFnvNDCdYUgAsyo9VVnd5KnEd2ON0GYI++7MiX9XNPUkhtdgGKFPsWS+CEppQ1UU63uVhUw==",
+            "expected": "HNd7vR9oTK6M2ikxFnvNDCdYUgAsyo9VVnd5KnEd2ON0GYI++7MiX9XNPUkhtdgGKFPsWS+CEppQ1UU63uVhUw=="
+          },
+          "id": "npm-integrity",
+          "kind": "verification",
+          "observedAt": "2026-10-20T18:02:27.971Z",
+          "status": "pass",
+          "summary": "Verified npm sha512 Subresource Integrity."
+        }
+      ]
+    },
+    {
+      "architecture": "x64",
+      "details": {
+        "bin": {},
+        "dependencies": [],
+        "engines": {
+          "node": ">=16"
+        },
+        "fileCount": 47,
+        "topLevelDirectories": [
+          "package.json",
+          "README.md",
+          "vendor"
+        ]
+      },
+      "fileName": "codex-0.163.0-win32-x64.tgz",
+      "format": "npm-tgz",
+      "id": "artifact:npm:@openai/codex:0.163.0-win32-x64",
+      "kind": "artifact",
+      "observedAt": "2026-10-20T18:02:27.971Z",
+      "packageIdentity": "@openai/codex",
+      "packageVersion": "0.163.0-win32-x64",
+      "sha256": "81377fd73b502a9e7208e32a4da2d468cdb3fc978e0b818c4707d846ad94eb1e",
+      "sizeBytes": 167618721,
+      "sourceHost": "registry.npmjs.org",
+      "status": "pass",
+      "summary": "@openai/codex@0.163.0-win32-x64 tarball passed integrity verification.",
+      "verification": [
+        {
+          "details": {
+            "actual": "QQGQ/q9dCJ5C5jqhgFrwycpWG3szIyFNThMiKl6hYtu6N/eM3Qd7StesgnCFAfzVED8IkE3N3oH71szzcludqw==",
+            "expected": "QQGQ/q9dCJ5C5jqhgFrwycpWG3szIyFNThMiKl6hYtu6N/eM3Qd7StesgnCFAfzVED8IkE3N3oH71szzcludqw=="
+          },
+          "id": "npm-integrity",
+          "kind": "verification",
+          "observedAt": "2026-10-20T18:02:27.971Z",
+          "status": "pass",
+          "summary": "Verified npm sha512 Subresource Integrity."
+        }
+      ]
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex-cli:2026-10-20T18:02:27.971Z",
+      "kind": "behavior",
+      "observedAt": "2026-10-20T18:02:27.971Z",
+      "results": [
+        {
+          "durationMs": 3720,
+          "exitCode": 0,
+          "startedAt": "2026-10-20T18:02:27.971Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "codex-version completed.",
+          "testId": "codex-version"
+        },
+        {
+          "durationMs": 3719,
+          "exitCode": 0,
+          "startedAt": "2026-10-20T18:02:27.971Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "codex-help completed.",
+          "testId": "codex-help"
+        }
+      ],
+      "status": "pass",
+      "summary": "codex-cli behavior suite produced 2 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55639"
+        ],
+        "signature": "code:a870-1698e468a972|title:work-threads-hanging|version:26.1013.40934",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55629"
+        ],
+        "signature": "code:emfile|title:codex-intermittent-emfile-failures-during-turn|version:26.6.2|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55624"
+        ],
+        "signature": "code:environment|title:cloud-environment-stuck-starting-published",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55634"
+        ],
+        "signature": "code:error|title:some-tools-temporarily-unavailable",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55638"
+        ],
+        "signature": "code:exc_breakpoint|title:chatgpt-desktop-com-openai-codex-crashes|version:26.6.2|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55640"
+        ],
+        "signature": "code:excessive|title:codex-desktop-excessive-weekly-usage-during|version:26.1013.4894.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55642"
+        ],
+        "signature": "code:execution|title:windows-bounded-icacls-snapshot-test-rejected|version:0.163.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55625"
+        ],
+        "signature": "code:exhausts|title:restore-manual-automation-creation-without-requiring",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55626"
+        ],
+        "signature": "code:gpt-6|title:chatgpt-work-long-thread-stops-progressing|version:6.1",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55641"
+        ],
+        "signature": "code:gpt-6|title:free-usage-reset-consumed-but-hour|version:0.163.0|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55630"
+        ],
+        "signature": "code:one-time|title:codex-remote-android-one-time-approvals|version:0.163.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55628"
+        ],
+        "signature": "code:thread-stream-state-changed|title:windows-desktop-oversized-thread-stream-state|version:26.1013.40934|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:55632"
+        ],
+        "signature": "code:x86_64|title:blank-remote-ssh-composer-uses-local|version:0.163.0|platform:arm64",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "14907f3cc5f5c528aecdba9cb82692e28aa00ed36f7d9b6943acc5dc93395af9",
+      "lookbackHours": 72,
+      "releaseVersion": "0.163.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex-cli:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-10-20T16:35:14Z",
+        "id": "github-issue:openai/codex:55624",
+        "labels": [
+          "app",
+          "bug",
+          "codex-web"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:environment|title:cloud-environment-stuck-starting-published",
+        "title": "Cloud environment stuck in “starting” and cannot be published",
+        "url": "https://github.com/openai/codex/issues/55624"
+      },
+      {
+        "createdAt": "2026-10-20T16:38:07Z",
+        "id": "github-issue:openai/codex:55625",
+        "labels": [
+          "app",
+          "automations",
+          "enhancement",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:exhausts|title:restore-manual-automation-creation-without-requiring",
+        "title": "Restore manual automation creation without requiring AI messages",
+        "url": "https://github.com/openai/codex/issues/55625"
+      },
+      {
+        "createdAt": "2026-10-20T16:39:49Z",
+        "explicitVersion": "6.1",
+        "id": "github-issue:openai/codex:55626",
+        "labels": [
+          "bug",
+          "model-behavior",
+          "subagent"
+        ],
+        "maintainerAcknowledged": false,
+        "resolutionReference": "https://github.com/openai/codex/issues/55626",
+        "signature": "code:gpt-6|title:chatgpt-work-long-thread-stops-progressing|version:6.1",
+        "title": "ChatGPT Work long thread stops progressing under GPT-6 Astra; resumes after switching to Sol",
+        "url": "https://github.com/openai/codex/issues/55626"
+      },
+      {
+        "createdAt": "2026-10-20T16:43:51Z",
+        "explicitVersion": "26.1013.40934",
+        "id": "github-issue:openai/codex:55628",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "performance",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:thread-stream-state-changed|title:windows-desktop-oversized-thread-stream-state|version:26.1013.40934|platform:windows",
+        "title": "Windows desktop: oversized thread-stream-state-changed updates dropped, repeated crashes and concurrent voice stalls",
+        "url": "https://github.com/openai/codex/issues/55628"
+      },
+      {
+        "createdAt": "2026-10-20T16:49:53Z",
+        "explicitVersion": "26.6.2",
+        "id": "github-issue:openai/codex:55629",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "CLI",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:emfile|title:codex-intermittent-emfile-failures-during-turn|version:26.6.2|platform:arm64",
+        "title": "Codex: Intermittent EMFILE failures during turn startup and shell execution",
+        "url": "https://github.com/openai/codex/issues/55629"
+      },
+      {
+        "createdAt": "2026-10-20T16:55:17Z",
+        "explicitVersion": "0.163.0",
+        "id": "github-issue:openai/codex:55630",
+        "labels": [
+          "app",
+          "bug",
+          "remote",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:one-time|title:codex-remote-android-one-time-approvals|version:0.163.0|platform:windows",
+        "title": "Codex Remote Android: One-time approvals unexpectedly create persistent allow rules",
+        "url": "https://github.com/openai/codex/issues/55630"
+      },
+      {
+        "createdAt": "2026-10-20T17:13:43Z",
+        "explicitVersion": "0.163.0",
+        "id": "github-issue:openai/codex:55632",
+        "labels": [
+          "app",
+          "bug",
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "resolutionReference": "https://github.com/openai/codex/issues/55632",
+        "signature": "code:x86_64|title:blank-remote-ssh-composer-uses-local|version:0.163.0|platform:arm64",
+        "title": "Blank Remote SSH composer uses the local model catalog until a project chat is created",
+        "url": "https://github.com/openai/codex/issues/55632"
+      },
+      {
+        "createdAt": "2026-10-20T17:16:15Z",
+        "id": "github-issue:openai/codex:55634",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity",
+          "mcp"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:error|title:some-tools-temporarily-unavailable",
+        "title": "Some tools are temporarily unavailable error.",
+        "url": "https://github.com/openai/codex/issues/55634"
+      },
+      {
+        "createdAt": "2026-10-20T17:38:24Z",
+        "explicitVersion": "26.6.2",
+        "id": "github-issue:openai/codex:55638",
+        "labels": [
+          "app",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:exc_breakpoint|title:chatgpt-desktop-com-openai-codex-crashes|version:26.6.2|platform:macos",
+        "title": "ChatGPT desktop app (com.openai.codex) crashes ~14 seconds after launch on macOS 26.6.2 (M1 Max) — EXC_BREAKPOINT (SIGTRAP)",
+        "url": "https://github.com/openai/codex/issues/55638"
+      },
+      {
+        "createdAt": "2026-10-20T17:38:35Z",
+        "explicitVersion": "26.1013.40934",
+        "id": "github-issue:openai/codex:55639",
+        "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:a870-1698e468a972|title:work-threads-hanging|version:26.1013.40934",
+        "title": "Work threads hanging up",
+        "url": "https://github.com/openai/codex/issues/55639"
+      },
+      {
+        "createdAt": "2026-10-20T17:40:31Z",
+        "explicitVersion": "26.1013.4894.0",
+        "id": "github-issue:openai/codex:55640",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:excessive|title:codex-desktop-excessive-weekly-usage-during|version:26.1013.4894.0|platform:windows",
+        "title": "Codex Desktop excessive weekly usage during repeated tool and verification loops",
+        "url": "https://github.com/openai/codex/issues/55640"
+      },
+      {
+        "createdAt": "2026-10-20T17:52:50Z",
+        "explicitVersion": "0.163.0",
+        "id": "github-issue:openai/codex:55641",
+        "labels": [
+          "app",
+          "bug",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:gpt-6|title:free-usage-reset-consumed-but-hour|version:0.163.0|platform:arm64",
+        "title": "Free usage reset consumed but 5‑hour limit not refreshed (still 0% left) — Codex macOS v0.163.0",
+        "url": "https://github.com/openai/codex/issues/55641"
+      },
+      {
+        "createdAt": "2026-10-20T17:53:23Z",
+        "explicitVersion": "0.163.0",
+        "id": "github-issue:openai/codex:55642",
+        "labels": [
+          "app",
+          "bug",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/55642",
+        "signature": "code:execution|title:windows-bounded-icacls-snapshot-test-rejected|version:0.163.0|platform:windows",
+        "title": "Windows app: bounded icacls snapshot test rejected before execution with no policy reason or supported resolution",
+        "url": "https://github.com/openai/codex/issues/55642"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-10-20T18:02:45.864Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "13 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-cli-latest-windows-x64-f056f15b0f2a9105",
+  "interfaces": [
+    {
+      "cliName": "codex",
+      "commands": [
+        {
+          "name": "agents",
+          "options": [],
+          "subcommands": [],
+          "summary": "Browse all agent sessions on the shared local app-server daemon"
+        },
+        {
+          "name": "app",
+          "options": [],
+          "subcommands": [],
+          "summary": "Launch the Desktop app (opens the app installer if missing)"
+        },
+        {
+          "name": "app-server",
+          "options": [],
+          "subcommands": [],
+          "summary": "[experimental] Run the app server or related tooling"
+        },
+        {
+          "name": "apply",
+          "options": [],
+          "subcommands": [],
+          "summary": "Apply the latest diff produced by Codex agent as a `git apply` to your local"
+        },
+        {
+          "name": "archive",
+          "options": [],
+          "subcommands": [],
+          "summary": "Archive a saved session by id or session name"
+        },
+        {
+          "name": "cloud",
+          "options": [],
+          "subcommands": [],
+          "summary": "[EXPERIMENTAL] Browse tasks from Codex Cloud and apply changes locally"
+        },
+        {
+          "name": "completion",
+          "options": [],
+          "subcommands": [],
+          "summary": "Generate shell completion scripts"
+        },
+        {
+          "name": "debug",
+          "options": [],
+          "subcommands": [],
+          "summary": "Debugging tools"
+        },
+        {
+          "name": "delete",
+          "options": [],
+          "subcommands": [],
+          "summary": "Permanently delete a saved session by id or session name"
+        },
+        {
+          "name": "doctor",
+          "options": [],
+          "subcommands": [],
+          "summary": "Diagnose local Codex installation, config, auth, and runtime health"
+        },
+        {
+          "name": "exec",
+          "options": [],
+          "subcommands": [],
+          "summary": "Run Codex non-interactively [aliases: e]"
+        },
+        {
+          "name": "exec-server",
+          "options": [],
+          "subcommands": [],
+          "summary": "[EXPERIMENTAL] Run the standalone exec-server service"
+        },
+        {
+          "name": "features",
+          "options": [],
+          "subcommands": [],
+          "summary": "Inspect feature flags"
+        },
+        {
+          "name": "fork",
+          "options": [],
+          "subcommands": [],
+          "summary": "Fork a previous interactive session (picker by default; use --last to fork the"
+        },
+        {
+          "name": "help",
+          "options": [],
+          "subcommands": [],
+          "summary": "Print this message or the help of the given subcommand(s)"
+        },
+        {
+          "name": "login",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage login"
+        },
+        {
+          "name": "logout",
+          "options": [],
+          "subcommands": [],
+          "summary": "Remove stored authentication credentials"
+        },
+        {
+          "name": "mcp",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage external MCP servers for Codex"
+        },
+        {
+          "name": "migrate-rollouts",
+          "options": [],
+          "subcommands": [],
+          "summary": "Inspect or migrate legacy local sessions to paginated thread history"
+        },
+        {
+          "name": "plugin",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage Codex plugins"
+        },
+        {
+          "name": "queue",
+          "options": [],
+          "subcommands": [],
+          "summary": "Queue a message for an existing session"
+        },
+        {
+          "name": "remote-control",
+          "options": [],
+          "subcommands": [],
+          "summary": "[experimental] Manage the app-server daemon with remote control enabled"
+        },
+        {
+          "name": "resume",
+          "options": [],
+          "subcommands": [],
+          "summary": "Resume a previous interactive session (picker by default; use --last to continue"
+        },
+        {
+          "name": "review",
+          "options": [],
+          "subcommands": [],
+          "summary": "Run a code review non-interactively"
+        },
+        {
+          "name": "sandbox",
+          "options": [],
+          "subcommands": [],
+          "summary": "Run commands within a Codex-provided sandbox"
+        },
+        {
+          "name": "unarchive",
+          "options": [],
+          "subcommands": [],
+          "summary": "Unarchive a saved session by id or session name"
+        },
+        {
+          "name": "update",
+          "options": [],
+          "subcommands": [],
+          "summary": "Update Codex to the latest version"
+        }
+      ],
+      "configKeys": [
+        "CODEX_HOME",
+        "CONFIG_PROFILE_V2"
+      ],
+      "details": {
+        "globalOptions": [
+          {
+            "names": [
+              "--add-dir"
+            ],
+            "valueHint": "<DIR>"
+          },
+          {
+            "names": [
+              "--approve-for-me"
+            ]
+          },
+          {
+            "names": [
+              "--ask-for-approval",
+              "-a"
+            ],
+            "valueHint": "<APPROVAL_POLICY>"
+          },
+          {
+            "names": [
+              "--cd",
+              "-C"
+            ],
+            "valueHint": "<DIR>"
+          },
+          {
+            "names": [
+              "--config",
+              "-c"
+            ],
+            "valueHint": "<key=value>"
+          },
+          {
+            "names": [
+              "--dangerously-bypass-approvals-and-sandbox"
+            ]
+          },
+          {
+            "names": [
+              "--dangerously-bypass-hook-trust"
+            ]
+          },
+          {
+            "names": [
+              "--disable"
+            ],
+            "valueHint": "<FEATURE>"
+          },
+          {
+            "names": [
+              "--enable"
+            ],
+            "valueHint": "<FEATURE>"
+          },
+          {
+            "names": [
+              "--image",
+              "-i"
+            ],
+            "valueHint": "<FILE>"
+          },
+          {
+            "names": [
+              "--local-provider"
+            ],
+            "valueHint": "<OSS_PROVIDER>"
+          },
+          {
+            "names": [
+              "--model",
+              "-m"
+            ],
+            "valueHint": "<MODEL>"
+          },
+          {
+            "names": [
+              "--oss"
+            ]
+          },
+          {
+            "names": [
+              "--profile",
+              "-p"
+            ],
+            "valueHint": "<CONFIG_PROFILE_V2>"
+          },
+          {
+            "names": [
+              "--remote"
+            ],
+            "valueHint": "<ADDR>"
+          },
+          {
+            "names": [
+              "--remote-auth-token-env"
+            ],
+            "valueHint": "<ENV_VAR>"
+          },
+          {
+            "names": [
+              "--sandbox",
+              "-s"
+            ],
+            "valueHint": "<SANDBOX_MODE>"
+          },
+          {
+            "names": [
+              "--strict-config"
+            ]
+          },
+          {
+            "names": [
+              "--worktree"
+            ]
+          },
+          {
+            "names": [
+              "-c"
+            ]
+          }
+        ]
+      },
+      "environmentKeys": [
+        "DANGEROUS",
+        "ENV_VAR"
+      ],
+      "id": "interface:codex:0ae88917bfea",
+      "kind": "interface",
+      "observedAt": "2026-10-20T18:02:27.971Z",
+      "reportedVersion": "0.163.0",
+      "snapshotHash": "0ae88917bfeabe9fdc95ad7f1012f3e6df9747b82f830e733df1d33ce4c02481",
+      "status": "pass",
+      "summary": "Normalized codex CLI interface with 27 top-level commands and 20 global options."
+    }
+  ],
+  "observationId": "codex-cli-latest-windows-x64-af9f1ea4ef31f667",
+  "product": {
+    "id": "codex-cli",
+    "name": "Codex CLI"
+  },
+  "release": {
+    "canonicalVersion": "0.163.0",
+    "channel": "latest",
+    "discoveredAt": "2026-10-20T18:02:27.971Z",
+    "platform": "windows-x64",
+    "publishedAt": "2026-10-15T21:37:11.083Z",
+    "sourceVersion": "0.163.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "releaseCount": 12,
+        "repository": "openai/codex"
+      },
+      "fingerprint": "c2baf905ae70103e87a572c69a0b217f87d34573e7eb2074c1457f0c64d59408",
+      "id": "github-repository:snapshot",
+      "kind": "source",
+      "observedAt": "2026-10-20T18:02:27.972Z",
+      "sourceId": "github-repository",
+      "sourceType": "github-release-api",
+      "sourceUrl": "https://github.com/openai/codex/releases",
+      "status": "pass",
+      "summary": "12 published GitHub releases observed for openai/codex."
+    },
+    {
+      "details": {
+        "channels": [
+          {
+            "channel": "latest",
+            "integrity": "sha512-HNd7vR9oTK6M2ikxFnvNDCdYUgAsyo9VVnd5KnEd2ON0GYI++7MiX9XNPUkhtdgGKFPsWS+CEppQ1UU63uVhUw==",
+            "platformPackage": {
+              "dependency": "@openai/codex-win32-x64",
+              "integrity": "sha512-QQGQ/q9dCJ5C5jqhgFrwycpWG3szIyFNThMiKl6hYtu6N/eM3Qd7StesgnCFAfzVED8IkE3N3oH71szzcludqw==",
+              "packageName": "@openai/codex",
+              "shasum": "9c00d88c8f3aea54ec7129e9256fd4401726ec75",
+              "tarballHost": "registry.npmjs.org",
+              "version": "0.163.0-win32-x64"
+            },
+            "publishedAt": "2026-10-15T21:37:11.083Z",
+            "shasum": "31d62f44cde7c24ac700178c99d3a84530a141f6",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.163.0"
+          },
+          {
+            "channel": "alpha",
+            "integrity": "sha512-vL7dUv8ugYeHczJM7edXziXc8VCfkuwTjJMHm8M1qe6xDqoPsL5no3UwWpvOwvgdlB0fYlFm9eINyeJHmRjfXg==",
+            "platformPackage": {
+              "dependency": "@openai/codex-win32-x64",
+              "integrity": "sha512-Xxzt0l0tE6kzZKVYL8ebUBia03MRaaEU/fGFt2wnTedsc8NhFhuHgbgDX6acDY59B1DVnznGEaG7k/svtEFz7A==",
+              "packageName": "@openai/codex",
+              "shasum": "be108b520b43d5920d5ac185e4364865a4a8dc2d",
+              "tarballHost": "registry.npmjs.org",
+              "version": "0.164.0-alpha.7-win32-x64"
+            },
+            "publishedAt": "2026-10-20T13:58:56.308Z",
+            "shasum": "2a3b6f027a252abc0e35c63dff4d3e0ff1a7a9cc",
+            "tarballHost": "registry.npmjs.org",
+            "version": "0.164.0-alpha.7"
+          }
+        ]
+      },
+      "fingerprint": "94ed56587cef9d9205ed3366d0ca58c449a718cba304cebb4be90903c4b29eda",
+      "id": "npm-registry:dist-tags",
+      "kind": "source",
+      "observedAt": "2026-10-20T18:02:27.971Z",
+      "sourceId": "npm-registry",
+      "sourceType": "npm-registry",
+      "sourceUrl": "https://registry.npmjs.org/%40openai%2Fcodex",
+      "status": "pass",
+      "summary": "Observed 2 npm channel tags for @openai/codex."
+    },
+    {
+      "details": {
+        "channel": "latest",
+        "integrity": "sha512-HNd7vR9oTK6M2ikxFnvNDCdYUgAsyo9VVnd5KnEd2ON0GYI++7MiX9XNPUkhtdgGKFPsWS+CEppQ1UU63uVhUw==",
+        "platformPackage": {
+          "dependency": "@openai/codex-win32-x64",
+          "integrity": "sha512-QQGQ/q9dCJ5C5jqhgFrwycpWG3szIyFNThMiKl6hYtu6N/eM3Qd7StesgnCFAfzVED8IkE3N3oH71szzcludqw==",
+          "packageName": "@openai/codex",
+          "shasum": "9c00d88c8f3aea54ec7129e9256fd4401726ec75",
+          "tarballHost": "registry.npmjs.org",
+          "version": "0.163.0-win32-x64"
+        },
+        "publishedAt": "2026-10-15T21:37:11.083Z",
+        "shasum": "31d62f44cde7c24ac700178c99d3a84530a141f6",
+        "tarballHost": "registry.npmjs.org",
+        "version": "0.163.0"
+      },
+      "id": "npm-registry:latest:0.163.0",
+      "kind": "source",
+      "observedAt": "2026-10-20T18:02:27.971Z",
+      "sourceId": "npm-registry",
+      "sourceType": "npm-registry",
+      "status": "pass",
+      "summary": "latest points to 0.163.0; integrity metadata is present."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "MATERIAL_EVIDENCE_CHANGED",
+        "evidenceRefs": [],
+        "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+      }
+    ],
+    "severity": "minor",
+    "status": "CHANGED"
+  }
+}

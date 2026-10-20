@@ -174,127 +174,98 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:openai/codex:55468"
+          "github-issue:openai/codex:55639"
         ],
-        "signature": "code:auto-review|title:windows-desktop-auto-review-rejects-tool|version:26.1013.4894.0|platform:windows",
+        "signature": "code:a870-1698e468a972|title:work-threads-hanging|version:26.1013.40934",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55467"
+          "github-issue:openai/codex:55629"
         ],
-        "signature": "code:chrome_iothread|title:macos-desktop-five-chrome-iothread-sigtrap|version:26.1013.40934|platform:arm64",
+        "signature": "code:emfile|title:codex-intermittent-emfile-failures-during-turn|version:26.6.2|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55451"
+          "github-issue:openai/codex:55624"
         ],
-        "signature": "code:codex-cli|title:windows-automation-run-now-configrequirements-read|version:26.1013.4894.0|platform:windows",
+        "signature": "code:environment|title:cloud-environment-stuck-starting-published",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55469"
+          "github-issue:openai/codex:55634"
         ],
-        "signature": "code:edge|title:windows-chrome-edge-disabled-organization-region|version:26.1013.40934|platform:windows",
+        "signature": "code:error|title:some-tools-temporarily-unavailable",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55459",
-          "github-issue:openai/codex:55462"
+          "github-issue:openai/codex:55638"
         ],
-        "signature": "code:error|platform:x64",
-        "strength": "moderate"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:55461"
-        ],
-        "signature": "code:error|title:codex-repeatedly-send-messages-times-out|platform:windows",
+        "signature": "code:exc_breakpoint|title:chatgpt-desktop-com-openai-codex-crashes|version:26.6.2|platform:macos",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55452"
+          "github-issue:openai/codex:55640"
         ],
-        "signature": "code:error|title:codex-web-windows-unable-send-messages|platform:windows",
+        "signature": "code:excessive|title:codex-desktop-excessive-weekly-usage-during|version:26.1013.4894.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55460"
+          "github-issue:openai/codex:55642"
         ],
-        "signature": "code:event|title:codex-working-calendar-connector-displaced-browser",
+        "signature": "code:execution|title:windows-bounded-icacls-snapshot-test-rejected|version:26.1013.4894.0|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55455"
+          "github-issue:openai/codex:55625"
         ],
-        "signature": "code:every|title:macos-incomplete-project-sidebar-persists-restart|version:26.1013.40934|platform:macos",
+        "signature": "code:exhausts|title:restore-manual-automation-creation-without-requiring",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55464"
+          "github-issue:openai/codex:55626"
         ],
-        "signature": "code:evidence|title:macos-browser-delayed-iframe-root-breaks|version:26.1013.40934|platform:arm64",
+        "signature": "code:gpt-6|title:chatgpt-work-long-thread-stops-progressing|version:6.1",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55465"
+          "github-issue:openai/codex:55641"
         ],
-        "signature": "code:existing|title:macos-codex-desktop-local-projects-intermittently|platform:windows",
+        "signature": "code:gpt-6|title:free-usage-reset-consumed-but-hour|version:0.163.0|platform:arm64",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55453"
+          "github-issue:openai/codex:55630"
         ],
-        "signature": "code:extension|title:windows-extension-account-read-workspace-routing|version:26.1007.21434|platform:windows",
+        "signature": "code:one-time|title:codex-remote-android-one-time-approvals|version:26.1013.40934|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55470"
+          "github-issue:openai/codex:55628"
         ],
-        "signature": "code:gpt-6|title:persistent-selected-model-capacity-gpt-sol|version:6.1",
+        "signature": "code:thread-stream-state-changed|title:windows-desktop-oversized-thread-stream-state|version:26.1013.40934|platform:windows",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:openai/codex:55454"
+          "github-issue:openai/codex:55632"
         ],
-        "signature": "code:pipe-in|title:windows-ssh-approve-causes-15s-sandbox|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:55466"
-        ],
-        "signature": "code:remote-ssh|title:remote-ssh-archived-conversations-permanently-lose|version:1.142.0|platform:windows",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:55457"
-        ],
-        "signature": "code:usage-limit|title:usage-limit-message-asks-add-credits",
-        "strength": "weak"
-      },
-      {
-        "issueIds": [
-          "github-issue:openai/codex:55458"
-        ],
-        "signature": "code:utc-08:00|title:chatgpt-message-timestamps-hour-behind-windows|version:26.1013.31256|platform:windows",
+        "signature": "code:x86_64|title:blank-remote-ssh-composer-uses-local|version:26.1013.31256|platform:arm64",
         "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "7facead1e2d668a03ba962b41eccb0d2efca5bf644c7ec79bf6c6bdb4778e064",
+      "fingerprint": "f2dfb93adfa5a93ebc095ac0b92502d0ec86e64680bbc70ca8db86baaaa3ed02",
       "lookbackHours": 72,
       "releaseVersion": "26.1013.4894.0",
       "source": "official-github-issues"
@@ -302,235 +273,191 @@
     "id": "community:codex:official-github",
     "issues": [
       {
-        "createdAt": "2026-10-20T03:52:10Z",
-        "explicitVersion": "26.1013.4894.0",
-        "id": "github-issue:openai/codex:55451",
+        "createdAt": "2026-10-20T16:35:14Z",
+        "id": "github-issue:openai/codex:55624",
         "labels": [
           "app",
-          "app-server",
+          "bug",
+          "codex-web"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:environment|title:cloud-environment-stuck-starting-published",
+        "title": "Cloud environment stuck in “starting” and cannot be published",
+        "url": "https://github.com/openai/codex/issues/55624"
+      },
+      {
+        "createdAt": "2026-10-20T16:38:07Z",
+        "id": "github-issue:openai/codex:55625",
+        "labels": [
+          "app",
           "automations",
-          "bug",
-          "windows-os"
+          "enhancement",
+          "rate-limits"
         ],
         "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:codex-cli|title:windows-automation-run-now-configrequirements-read|version:26.1013.4894.0|platform:windows",
-        "title": "Windows: automation Run now fails with configRequirements/read timeout until app restart (26.1013.4894.0)",
-        "url": "https://github.com/openai/codex/issues/55451"
+        "signature": "code:exhausts|title:restore-manual-automation-creation-without-requiring",
+        "title": "Restore manual automation creation without requiring AI messages",
+        "url": "https://github.com/openai/codex/issues/55625"
       },
       {
-        "createdAt": "2026-10-20T03:56:29Z",
-        "id": "github-issue:openai/codex:55452",
+        "createdAt": "2026-10-20T16:39:49Z",
+        "explicitVersion": "6.1",
+        "id": "github-issue:openai/codex:55626",
         "labels": [
           "bug",
-          "codex-web",
-          "windows-os"
+          "model-behavior",
+          "subagent"
         ],
         "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:error|title:codex-web-windows-unable-send-messages|platform:windows",
-        "title": "Codex web and Windows app unable to send messages; CSP error across independent accounts/networks (Oct 19, 2026)",
-        "url": "https://github.com/openai/codex/issues/55452"
+        "resolutionReference": "https://github.com/openai/codex/issues/55626",
+        "signature": "code:gpt-6|title:chatgpt-work-long-thread-stops-progressing|version:6.1",
+        "title": "ChatGPT Work long thread stops progressing under GPT-6 Astra; resumes after switching to Sol",
+        "url": "https://github.com/openai/codex/issues/55626"
       },
       {
-        "createdAt": "2026-10-20T04:06:51Z",
-        "explicitVersion": "26.1007.21434",
-        "id": "github-issue:openai/codex:55453",
+        "createdAt": "2026-10-20T16:43:51Z",
+        "explicitVersion": "26.1013.40934",
+        "id": "github-issue:openai/codex:55628",
         "labels": [
           "app",
           "app-server",
-          "auth",
           "bug",
-          "connectivity",
-          "extension",
+          "performance",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:extension|title:windows-extension-account-read-workspace-routing|version:26.1007.21434|platform:windows",
-        "title": "[Windows 11] VS Code extension fails account/read: workspace routing discovery failed; TLS and WebSocket errors",
-        "url": "https://github.com/openai/codex/issues/55453"
+        "signature": "code:thread-stream-state-changed|title:windows-desktop-oversized-thread-stream-state|version:26.1013.40934|platform:windows",
+        "title": "Windows desktop: oversized thread-stream-state-changed updates dropped, repeated crashes and concurrent voice stalls",
+        "url": "https://github.com/openai/codex/issues/55628"
       },
       {
-        "createdAt": "2026-10-20T04:18:25Z",
-        "id": "github-issue:openai/codex:55454",
+        "createdAt": "2026-10-20T16:49:53Z",
+        "explicitVersion": "26.6.2",
+        "id": "github-issue:openai/codex:55629",
         "labels": [
+          "app",
+          "app-server",
           "bug",
           "CLI",
+          "tool-calls"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:emfile|title:codex-intermittent-emfile-failures-during-turn|version:26.6.2|platform:arm64",
+        "title": "Codex: Intermittent EMFILE failures during turn startup and shell execution",
+        "url": "https://github.com/openai/codex/issues/55629"
+      },
+      {
+        "createdAt": "2026-10-20T16:55:17Z",
+        "explicitVersion": "26.1013.40934",
+        "id": "github-issue:openai/codex:55630",
+        "labels": [
+          "app",
+          "bug",
           "remote",
           "sandbox",
           "windows-os"
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:pipe-in|title:windows-ssh-approve-causes-15s-sandbox|platform:windows",
-        "title": "[Windows SSH] \"Approve for me\" causes 15s sandbox runner pipe-in timeout; manual approval allows file operations",
-        "url": "https://github.com/openai/codex/issues/55454"
+        "signature": "code:one-time|title:codex-remote-android-one-time-approvals|version:26.1013.40934|platform:windows",
+        "title": "Codex Remote Android: One-time approvals unexpectedly create persistent allow rules",
+        "url": "https://github.com/openai/codex/issues/55630"
       },
       {
-        "createdAt": "2026-10-20T04:44:09Z",
-        "explicitVersion": "26.1013.40934",
-        "id": "github-issue:openai/codex:55455",
+        "createdAt": "2026-10-20T17:13:43Z",
+        "explicitVersion": "26.1013.31256",
+        "id": "github-issue:openai/codex:55632",
         "labels": [
           "app",
           "bug",
-          "session"
+          "remote"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "resolutionReference": "https://github.com/openai/codex/issues/55632",
+        "signature": "code:x86_64|title:blank-remote-ssh-composer-uses-local|version:26.1013.31256|platform:arm64",
+        "title": "Blank Remote SSH composer uses the local model catalog until a project chat is created",
+        "url": "https://github.com/openai/codex/issues/55632"
+      },
+      {
+        "createdAt": "2026-10-20T17:16:15Z",
+        "id": "github-issue:openai/codex:55634",
+        "labels": [
+          "app",
+          "bug",
+          "connectivity",
+          "mcp"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:error|title:some-tools-temporarily-unavailable",
+        "title": "Some tools are temporarily unavailable error.",
+        "url": "https://github.com/openai/codex/issues/55634"
+      },
+      {
+        "createdAt": "2026-10-20T17:38:24Z",
+        "explicitVersion": "26.6.2",
+        "id": "github-issue:openai/codex:55638",
+        "labels": [
+          "app",
+          "bug"
         ],
         "maintainerAcknowledged": false,
         "platform": "macos",
-        "signature": "code:every|title:macos-incomplete-project-sidebar-persists-restart|version:26.1013.40934|platform:macos",
-        "title": "macOS: incomplete project sidebar persists after restart; 189 legacy chat assignments remain pending",
-        "url": "https://github.com/openai/codex/issues/55455"
+        "signature": "code:exc_breakpoint|title:chatgpt-desktop-com-openai-codex-crashes|version:26.6.2|platform:macos",
+        "title": "ChatGPT desktop app (com.openai.codex) crashes ~14 seconds after launch on macOS 26.6.2 (M1 Max) — EXC_BREAKPOINT (SIGTRAP)",
+        "url": "https://github.com/openai/codex/issues/55638"
       },
       {
-        "createdAt": "2026-10-20T04:49:29Z",
-        "id": "github-issue:openai/codex:55457",
+        "createdAt": "2026-10-20T17:38:35Z",
+        "explicitVersion": "26.1013.40934",
+        "id": "github-issue:openai/codex:55639",
         "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:a870-1698e468a972|title:work-threads-hanging|version:26.1013.40934",
+        "title": "Work threads hanging up",
+        "url": "https://github.com/openai/codex/issues/55639"
+      },
+      {
+        "createdAt": "2026-10-20T17:40:31Z",
+        "explicitVersion": "26.1013.4894.0",
+        "id": "github-issue:openai/codex:55640",
+        "labels": [
+          "app",
+          "bug",
+          "model-behavior",
+          "rate-limits"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:excessive|title:codex-desktop-excessive-weekly-usage-during|version:26.1013.4894.0|platform:windows",
+        "title": "Codex Desktop excessive weekly usage during repeated tool and verification loops",
+        "url": "https://github.com/openai/codex/issues/55640"
+      },
+      {
+        "createdAt": "2026-10-20T17:52:50Z",
+        "explicitVersion": "0.163.0",
+        "id": "github-issue:openai/codex:55641",
+        "labels": [
+          "app",
           "bug",
           "rate-limits"
         ],
         "maintainerAcknowledged": false,
-        "signature": "code:usage-limit|title:usage-limit-message-asks-add-credits",
-        "title": "Usage-limit message asks to add credits while Credits panel shows an available balance",
-        "url": "https://github.com/openai/codex/issues/55457"
-      },
-      {
-        "createdAt": "2026-10-20T05:00:19Z",
-        "explicitVersion": "26.1013.31256",
-        "id": "github-issue:openai/codex:55458",
-        "labels": [
-          "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:utc-08:00|title:chatgpt-message-timestamps-hour-behind-windows|version:26.1013.31256|platform:windows",
-        "title": "ChatGPT message timestamps 1 hour behind when Windows time zone is “Pacific Time (British Columbia)” (UTC‑07:00) vs Pacific Time (US & Canada) (UTC-08:00)",
-        "url": "https://github.com/openai/codex/issues/55458"
-      },
-      {
-        "createdAt": "2026-10-20T05:12:51Z",
-        "id": "github-issue:openai/codex:55459",
-        "labels": [
-          "app",
-          "bug",
-          "connectivity",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "x64",
-        "resolutionReference": "https://github.com/openai/codex/issues/55459",
-        "signature": "code:error|platform:x64",
-        "title": "error",
-        "url": "https://github.com/openai/codex/issues/55459"
-      },
-      {
-        "createdAt": "2026-10-20T05:15:11Z",
-        "id": "github-issue:openai/codex:55460",
-        "labels": [
-          "app",
-          "automations",
-          "bug",
-          "model-behavior"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:event|title:codex-working-calendar-connector-displaced-browser",
-        "title": "Codex: Working Calendar connector is displaced by browser authentication and setup detours",
-        "url": "https://github.com/openai/codex/issues/55460"
-      },
-      {
-        "createdAt": "2026-10-20T05:17:51Z",
-        "id": "github-issue:openai/codex:55461",
-        "labels": [
-          "bug",
-          "connectivity"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:error|title:codex-repeatedly-send-messages-times-out|platform:windows",
-        "title": "Codex repeatedly fails to send messages, times out, and UI goes completely dark (Oct 2026)",
-        "url": "https://github.com/openai/codex/issues/55461"
-      },
-      {
-        "createdAt": "2026-10-20T05:19:51Z",
-        "id": "github-issue:openai/codex:55462",
-        "labels": [
-          "app",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "x64",
-        "signature": "code:error|platform:x64",
-        "title": "error",
-        "url": "https://github.com/openai/codex/issues/55462"
-      },
-      {
-        "createdAt": "2026-10-20T05:31:40Z",
-        "explicitVersion": "26.1013.40934",
-        "id": "github-issue:openai/codex:55464",
-        "labels": [
-          "app",
-          "browser",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
         "platform": "arm64",
-        "signature": "code:evidence|title:macos-browser-delayed-iframe-root-breaks|version:26.1013.40934|platform:arm64",
-        "title": "[macOS][In-app browser] delayed iframe root breaks native Annotate after load",
-        "url": "https://github.com/openai/codex/issues/55464"
+        "signature": "code:gpt-6|title:free-usage-reset-consumed-but-hour|version:0.163.0|platform:arm64",
+        "title": "Free usage reset consumed but 5‑hour limit not refreshed (still 0% left) — Codex macOS v0.163.0",
+        "url": "https://github.com/openai/codex/issues/55641"
       },
       {
-        "createdAt": "2026-10-20T05:38:18Z",
-        "id": "github-issue:openai/codex:55465",
-        "labels": [
-          "app",
-          "bug"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "resolutionReference": "https://github.com/openai/codex/issues/55465",
-        "signature": "code:existing|title:macos-codex-desktop-local-projects-intermittently|platform:windows",
-        "title": "[macOS][Codex Desktop] Local projects intermittently unavailable / disappear from project list until restart",
-        "url": "https://github.com/openai/codex/issues/55465"
-      },
-      {
-        "createdAt": "2026-10-20T05:39:29Z",
-        "explicitVersion": "1.142.0",
-        "id": "github-issue:openai/codex:55466",
-        "labels": [
-          "bug",
-          "extension",
-          "remote",
-          "session"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:remote-ssh|title:remote-ssh-archived-conversations-permanently-lose|version:1.142.0|platform:windows",
-        "title": "[VS Code][Remote-SSH] Archived conversations permanently lose rollout JSONL files while SQLite history remains intact",
-        "url": "https://github.com/openai/codex/issues/55466"
-      },
-      {
-        "createdAt": "2026-10-20T05:40:19Z",
-        "explicitVersion": "26.1013.40934",
-        "id": "github-issue:openai/codex:55467",
-        "labels": [
-          "app",
-          "bug",
-          "performance"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "arm64",
-        "resolutionReference": "https://github.com/openai/codex/issues/55467",
-        "signature": "code:chrome_iothread|title:macos-desktop-five-chrome-iothread-sigtrap|version:26.1013.40934|platform:arm64",
-        "title": "[macOS Desktop 26.1013.40934] Five Chrome_IOThread SIGTRAP crashes; navigation lag persists after restart and MCP isolation",
-        "url": "https://github.com/openai/codex/issues/55467"
-      },
-      {
-        "createdAt": "2026-10-20T05:45:22Z",
+        "createdAt": "2026-10-20T17:53:23Z",
         "explicitVersion": "26.1013.4894.0",
-        "id": "github-issue:openai/codex:55468",
+        "id": "github-issue:openai/codex:55642",
         "labels": [
           "app",
           "bug",
@@ -539,46 +466,17 @@
         ],
         "maintainerAcknowledged": false,
         "platform": "windows",
-        "signature": "code:auto-review|title:windows-desktop-auto-review-rejects-tool|version:26.1013.4894.0|platform:windows",
-        "title": "[Windows Desktop] Auto-review rejects tool invocation but exposes no native reconsideration action",
-        "url": "https://github.com/openai/codex/issues/55468"
-      },
-      {
-        "createdAt": "2026-10-20T05:57:56Z",
-        "explicitVersion": "26.1013.40934",
-        "id": "github-issue:openai/codex:55469",
-        "labels": [
-          "app",
-          "browser",
-          "bug",
-          "windows-os"
-        ],
-        "maintainerAcknowledged": false,
-        "platform": "windows",
-        "signature": "code:edge|title:windows-chrome-edge-disabled-organization-region|version:26.1013.40934|platform:windows",
-        "title": "[Windows] Chrome and Edge disabled with organization/region message on Pro account",
-        "url": "https://github.com/openai/codex/issues/55469"
-      },
-      {
-        "createdAt": "2026-10-20T06:04:20Z",
-        "explicitVersion": "6.1",
-        "id": "github-issue:openai/codex:55470",
-        "labels": [
-          "bug",
-          "CLI",
-          "rate-limits"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:gpt-6|title:persistent-selected-model-capacity-gpt-sol|version:6.1",
-        "title": "Persistent \"Selected model is at capacity\" on GPT-6.1 Sol / GPT-6 Sol (Codex CLI, Pro)",
-        "url": "https://github.com/openai/codex/issues/55470"
+        "resolutionReference": "https://github.com/openai/codex/issues/55642",
+        "signature": "code:execution|title:windows-bounded-icacls-snapshot-test-rejected|version:26.1013.4894.0|platform:windows",
+        "title": "Windows app: bounded icacls snapshot test rejected before execution with no policy reason or supported resolution",
+        "url": "https://github.com/openai/codex/issues/55642"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-20T06:08:01.836Z",
+    "observedAt": "2026-10-20T18:03:24.356Z",
     "repository": "openai/codex",
     "status": "pass",
-    "summary": "18 recent official GitHub issues observed for openai/codex."
+    "summary": "13 recent official GitHub issues observed for openai/codex."
   },
   "comparedWith": "codex-stable-windows-x64-bcb8804138e9bfa4",
   "interfaces": [],
