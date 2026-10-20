@@ -2,8 +2,8 @@
   "releases": [
     {
       "channel": "stable",
-      "discoveredAt": "2026-10-19T06:18:34.834Z",
-      "observationId": "claude-code-stable-windows-x64-7ed0178073870f68",
+      "discoveredAt": "2026-10-20T06:07:01.368Z",
+      "observationId": "claude-code-stable-windows-x64-5109320935e795cd",
       "platform": "windows-x64",
       "productId": "claude-code",
       "schemaVersion": 1,
@@ -17,16 +17,16 @@
           {
             "code": "SECONDARY_DISTRIBUTION_LAGGING",
             "evidenceRefs": [
-              "claude-native:release:2.1.303",
+              "claude-native:release:2.1.304",
               "winget:manifest:2.1.302"
             ],
-            "message": "WinGet 2.1.302 lags the official native release 2.1.303. The verified official artifact is unaffected."
+            "message": "WinGet 2.1.302 lags the official native release 2.1.304. The verified official artifact is unaffected."
           }
         ],
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "2.1.303"
+      "version": "2.1.304"
     },
     {
       "channel": "stable",
@@ -64,8 +64,8 @@
     },
     {
       "channel": "alpha",
-      "discoveredAt": "2026-10-19T19:23:35.004Z",
-      "observationId": "codex-cli-alpha-windows-x64-2b5ef48c51f7450e",
+      "discoveredAt": "2026-10-20T06:07:08.862Z",
+      "observationId": "codex-cli-alpha-windows-x64-903adf6226e1a92d",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
@@ -80,12 +80,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.164.0-alpha.5"
+      "version": "0.164.0-alpha.6"
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-10-19T19:23:35.004Z",
-      "observationId": "codex-cli-latest-windows-x64-104219b02c7b5b70",
+      "discoveredAt": "2026-10-20T06:07:08.862Z",
+      "observationId": "codex-cli-latest-windows-x64-f056f15b0f2a9105",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
@@ -104,8 +104,8 @@
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-10-19T06:19:06.938Z",
-      "observationId": "gemini-cli-latest-node-8df0ba8c01d0895b",
+      "discoveredAt": "2026-10-20T06:08:02.561Z",
+      "observationId": "gemini-cli-latest-node-dabee91e48a8b750",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
@@ -124,8 +124,8 @@
     },
     {
       "channel": "nightly",
-      "discoveredAt": "2026-10-19T06:19:06.938Z",
-      "observationId": "gemini-cli-nightly-node-fab179ec9990cca4",
+      "discoveredAt": "2026-10-20T06:08:02.561Z",
+      "observationId": "gemini-cli-nightly-node-beae0ce9ee7c6f41",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
@@ -140,12 +140,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.66.0-nightly.20261019.ged96faedf"
+      "version": "0.66.0-nightly.20261020.g76e4d7c04"
     },
     {
       "channel": "preview",
-      "discoveredAt": "2026-10-19T06:19:06.938Z",
-      "observationId": "gemini-cli-preview-node-5d67699e20ce78a8",
+      "discoveredAt": "2026-10-20T06:08:02.561Z",
+      "observationId": "gemini-cli-preview-node-6bf52c4e971033b2",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,

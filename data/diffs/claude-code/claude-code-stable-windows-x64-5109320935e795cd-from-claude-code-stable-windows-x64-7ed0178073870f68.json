@@ -1,0 +1,444 @@
+{
+  "artifactChanges": [
+    {
+      "after": "019e5174d5d954585edb1a946fe280e44a973050b4897034adf0e16306f85fdd",
+      "before": "1787c60619bad78543c67e4d9d8a868869c35a904f2a85eb9ea46c4808af196b",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 293227168,
+      "before": 290228384,
+      "material": true,
+      "summary": "Artifact size changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "claude-code-stable-windows-x64-7ed0178073870f68",
+  "createdAt": "2026-10-20T06:07:01.368Z",
+  "diffId": "claude-code-stable-windows-x64-5109320935e795cd-from-claude-code-stable-windows-x64-7ed0178073870f68",
+  "distributionChanges": [
+    {
+      "after": "2.1.304",
+      "before": "2.1.303",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.303 → 2.1.304.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": {
+        "native": "2.1.304",
+        "winget": "2.1.302"
+      },
+      "before": {
+        "native": "2.1.304",
+        "winget": "2.1.302"
+      },
+      "material": false,
+      "summary": "WinGet 2.1.302 lags the official native release 2.1.304.",
+      "type": "distribution-lag"
+    }
+  ],
+  "interfaceChanges": [
+    {
+      "before": "available",
+      "material": true,
+      "summary": "Command removed: available.",
+      "type": "command-removed"
+    },
+    {
+      "before": "--max-budget-usd",
+      "material": true,
+      "summary": "Flag removed: --max-budget-usd.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--model",
+      "material": true,
+      "summary": "Flag removed: --model.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--name",
+      "material": true,
+      "summary": "Flag removed: --name.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--no-chrome",
+      "material": true,
+      "summary": "Flag removed: --no-chrome.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--no-session-persistence",
+      "material": true,
+      "summary": "Flag removed: --no-session-persistence.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--permission-mode",
+      "material": true,
+      "summary": "Flag removed: --permission-mode.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--permission-prompt-tool",
+      "material": true,
+      "summary": "Flag removed: --permission-prompt-tool.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--permission-prompts",
+      "material": true,
+      "summary": "Flag removed: --permission-prompts.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--plugin-url",
+      "material": true,
+      "summary": "Flag removed: --plugin-url.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--prompt-suggestions",
+      "material": true,
+      "summary": "Flag removed: --prompt-suggestions.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--remote-control",
+      "material": true,
+      "summary": "Flag removed: --remote-control.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--remote-control-session-name-prefix",
+      "material": true,
+      "summary": "Flag removed: --remote-control-session-name-prefix.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--replay-user-messages",
+      "material": true,
+      "summary": "Flag removed: --replay-user-messages.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--restricted",
+      "material": true,
+      "summary": "Flag removed: --restricted.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--safe-mode",
+      "material": true,
+      "summary": "Flag removed: --safe-mode.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--session-id",
+      "material": true,
+      "summary": "Flag removed: --session-id.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--setting-sources",
+      "material": true,
+      "summary": "Flag removed: --setting-sources.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--strict-mcp-config",
+      "material": true,
+      "summary": "Flag removed: --strict-mcp-config.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--system-prompt-snapshot",
+      "material": true,
+      "summary": "Flag removed: --system-prompt-snapshot.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--teleport",
+      "material": true,
+      "summary": "Flag removed: --teleport.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--tmux",
+      "material": true,
+      "summary": "Flag removed: --tmux.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--tools",
+      "material": true,
+      "summary": "Flag removed: --tools.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--verbose",
+      "material": true,
+      "summary": "Flag removed: --verbose.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--version",
+      "material": true,
+      "summary": "Flag removed: --version.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--worktree",
+      "material": true,
+      "summary": "Flag removed: --worktree.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "-n",
+      "material": true,
+      "summary": "Flag removed: -n.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "-p",
+      "material": true,
+      "summary": "Flag removed: -p.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "-r",
+      "material": true,
+      "summary": "Flag removed: -r.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "-v",
+      "material": true,
+      "summary": "Flag removed: -v.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "-w",
+      "material": true,
+      "summary": "Flag removed: -w.",
+      "type": "flag-removed"
+    }
+  ],
+  "materialChanges": [
+    {
+      "after": "019e5174d5d954585edb1a946fe280e44a973050b4897034adf0e16306f85fdd",
+      "before": "1787c60619bad78543c67e4d9d8a868869c35a904f2a85eb9ea46c4808af196b",
+      "material": true,
+      "summary": "Artifact bytes changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 293227168,
+      "before": 290228384,
+      "material": true,
+      "summary": "Artifact size changed for windows-exe:Anthropic.ClaudeCode:x64.",
+      "type": "artifact-size-changed"
+    },
+    {
+      "before": "available",
+      "material": true,
+      "summary": "Command removed: available.",
+      "type": "command-removed"
+    },
+    {
+      "before": "--max-budget-usd",
+      "material": true,
+      "summary": "Flag removed: --max-budget-usd.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--model",
+      "material": true,
+      "summary": "Flag removed: --model.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--name",
+      "material": true,
+      "summary": "Flag removed: --name.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--no-chrome",
+      "material": true,
+      "summary": "Flag removed: --no-chrome.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--no-session-persistence",
+      "material": true,
+      "summary": "Flag removed: --no-session-persistence.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--permission-mode",
+      "material": true,
+      "summary": "Flag removed: --permission-mode.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--permission-prompt-tool",
+      "material": true,
+      "summary": "Flag removed: --permission-prompt-tool.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--permission-prompts",
+      "material": true,
+      "summary": "Flag removed: --permission-prompts.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--plugin-url",
+      "material": true,
+      "summary": "Flag removed: --plugin-url.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--prompt-suggestions",
+      "material": true,
+      "summary": "Flag removed: --prompt-suggestions.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--remote-control",
+      "material": true,
+      "summary": "Flag removed: --remote-control.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--remote-control-session-name-prefix",
+      "material": true,
+      "summary": "Flag removed: --remote-control-session-name-prefix.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--replay-user-messages",
+      "material": true,
+      "summary": "Flag removed: --replay-user-messages.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--restricted",
+      "material": true,
+      "summary": "Flag removed: --restricted.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--safe-mode",
+      "material": true,
+      "summary": "Flag removed: --safe-mode.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--session-id",
+      "material": true,
+      "summary": "Flag removed: --session-id.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--setting-sources",
+      "material": true,
+      "summary": "Flag removed: --setting-sources.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--strict-mcp-config",
+      "material": true,
+      "summary": "Flag removed: --strict-mcp-config.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--system-prompt-snapshot",
+      "material": true,
+      "summary": "Flag removed: --system-prompt-snapshot.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--teleport",
+      "material": true,
+      "summary": "Flag removed: --teleport.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--tmux",
+      "material": true,
+      "summary": "Flag removed: --tmux.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--tools",
+      "material": true,
+      "summary": "Flag removed: --tools.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--verbose",
+      "material": true,
+      "summary": "Flag removed: --verbose.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--version",
+      "material": true,
+      "summary": "Flag removed: --version.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "--worktree",
+      "material": true,
+      "summary": "Flag removed: --worktree.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "-n",
+      "material": true,
+      "summary": "Flag removed: -n.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "-p",
+      "material": true,
+      "summary": "Flag removed: -p.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "-r",
+      "material": true,
+      "summary": "Flag removed: -r.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "-v",
+      "material": true,
+      "summary": "Flag removed: -v.",
+      "type": "flag-removed"
+    },
+    {
+      "before": "-w",
+      "material": true,
+      "summary": "Flag removed: -w.",
+      "type": "flag-removed"
+    },
+    {
+      "after": "2.1.304",
+      "before": "2.1.303",
+      "material": true,
+      "summary": "Distribution state claude-native: 2.1.303 → 2.1.304.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "claude-code-stable-windows-x64-5109320935e795cd",
+  "productId": "claude-code",
+  "schemaVersion": 1
+}
