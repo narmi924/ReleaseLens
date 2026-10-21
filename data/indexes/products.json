@@ -64,8 +64,8 @@
       "latest": [
         {
           "channel": "stable",
-          "discoveredAt": "2026-10-21T06:07:38.000Z",
-          "observationId": "codex-stable-windows-x64-1b3eea5da6cdddbd",
+          "discoveredAt": "2026-10-21T18:10:10.481Z",
+          "observationId": "codex-stable-windows-x64-801a6c328806935b",
           "platform": "windows-x64",
           "productId": "codex",
           "schemaVersion": 1,
@@ -74,23 +74,21 @@
               {
                 "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
                 "evidenceRefs": [
-                  "artifact:codex:unavailable:26.1016.6573.0"
+                  "artifact:msix:OpenAI.Codex:26.1016.6573.0:x64"
                 ],
                 "message": "Required artifact evidence is missing or did not pass."
               },
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
                 "evidenceRefs": [
-                  "behavior:codex:2026-10-21T06:07:38.000Z"
+                  "behavior:codex:2026-10-21T18:10:10.481Z"
                 ],
-                "message": "Required behavior codex-msix-identity is unsupported."
+                "message": "Required behavior codex-msix-identity is fail."
               },
               {
                 "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
-                "evidenceRefs": [
-                  "behavior:codex:2026-10-21T06:07:38.000Z"
-                ],
-                "message": "Required behavior codex-backend-version is unsupported."
+                "evidenceRefs": [],
+                "message": "Required behavior codex-backend-version is fail."
               }
             ],
             "severity": "major",
@@ -110,7 +108,7 @@
       "knownGood": [
         {
           "channel": "alpha",
-          "observationId": "codex-cli-alpha-windows-x64-8f46b7d54a10ce18",
+          "observationId": "codex-cli-alpha-windows-x64-86d85a1c71633e48",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "requirementsSatisfied": [
@@ -122,12 +120,12 @@
             "codex-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-21T06:06:55.715Z",
-          "version": "0.164.0-alpha.8"
+          "selectedAt": "2026-10-21T18:09:06.655Z",
+          "version": "0.164.0-alpha.9"
         },
         {
           "channel": "latest",
-          "observationId": "codex-cli-latest-windows-x64-bf30bb649b4c76ac",
+          "observationId": "codex-cli-latest-windows-x64-0de50e292553472c",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "requirementsSatisfied": [
@@ -139,15 +137,15 @@
             "codex-help:pass"
           ],
           "schemaVersion": 1,
-          "selectedAt": "2026-10-21T06:06:55.715Z",
+          "selectedAt": "2026-10-21T18:09:06.655Z",
           "version": "0.163.0"
         }
       ],
       "latest": [
         {
           "channel": "alpha",
-          "discoveredAt": "2026-10-21T06:06:55.715Z",
-          "observationId": "codex-cli-alpha-windows-x64-8f46b7d54a10ce18",
+          "discoveredAt": "2026-10-21T18:09:06.655Z",
+          "observationId": "codex-cli-alpha-windows-x64-86d85a1c71633e48",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "schemaVersion": 1,
@@ -162,12 +160,12 @@
             "severity": "minor",
             "status": "CHANGED"
           },
-          "version": "0.164.0-alpha.8"
+          "version": "0.164.0-alpha.9"
         },
         {
           "channel": "latest",
-          "discoveredAt": "2026-10-21T06:06:55.715Z",
-          "observationId": "codex-cli-latest-windows-x64-bf30bb649b4c76ac",
+          "discoveredAt": "2026-10-21T18:09:06.655Z",
+          "observationId": "codex-cli-latest-windows-x64-0de50e292553472c",
           "platform": "windows-x64",
           "productId": "codex-cli",
           "schemaVersion": 1,

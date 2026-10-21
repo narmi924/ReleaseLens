@@ -84,9 +84,23 @@
     "clusters": [
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29864"
+        ],
+        "signature": "code:exist|title:make-session-resume-restore-workspace-directories",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29861"
         ],
         "signature": "code:extension|title:geminicli-com-feedback-branco-extension-missing|version:0.63.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29863"
+        ],
+        "signature": "code:list_directory|title:bug-list-directory-file-tools-report|version:0.66.0-nightly.20261020.g76e4d7c04|platform:linux",
         "strength": "weak"
       },
       {
@@ -98,7 +112,7 @@
       }
     ],
     "details": {
-      "fingerprint": "ca569bbb3e283f98f0880c4745eba2cb258b7ab98f2bca200e2fffb3da2a9bfa",
+      "fingerprint": "0064c4dde2bf01fd2e99c852f537358e8d198573643c1c9dd158325147982218",
       "lookbackHours": 72,
       "releaseVersion": "0.65.0",
       "source": "official-github-issues"
@@ -131,13 +145,40 @@
         "signature": "code:extension|title:geminicli-com-feedback-branco-extension-missing|version:0.63.0",
         "title": "GeminiCLI.com Feedback: BRANCO extension missing from the Extensions Gallery",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29861"
+      },
+      {
+        "createdAt": "2026-10-21T08:27:37Z",
+        "explicitVersion": "0.66.0-nightly.20261020.g76e4d7c04",
+        "id": "github-issue:google-gemini/gemini-cli:29863",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:list_directory|title:bug-list-directory-file-tools-report|version:0.66.0-nightly.20261020.g76e4d7c04|platform:linux",
+        "title": "[BUG] list_directory and file tools report misleading \"resolves outside allowed workspace directories\" when path contains node_modules",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29863"
+      },
+      {
+        "createdAt": "2026-10-21T15:30:44Z",
+        "id": "github-issue:google-gemini/gemini-cli:29864",
+        "labels": [
+          "area/core",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:exist|title:make-session-resume-restore-workspace-directories",
+        "title": "Make session resume restore workspace directories only after resumed chat succeeds",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29864"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-21T06:08:14.621Z",
+    "observedAt": "2026-10-21T18:12:02.108Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "2 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "4 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-dabee91e48a8b750",
   "interfaces": [
