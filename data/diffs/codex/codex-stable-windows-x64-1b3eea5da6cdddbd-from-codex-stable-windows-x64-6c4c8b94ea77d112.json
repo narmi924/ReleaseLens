@@ -1,0 +1,74 @@
+{
+  "artifactChanges": [
+    {
+      "before": {
+        "sha256": "e2d892e6c22310e4b1a2928b0d3a29a066e0863d3a333754d6585c77cdafbe7f",
+        "sizeBytes": 948993815
+      },
+      "material": true,
+      "summary": "Artifact removed: msix:OpenAI.Codex:x64.",
+      "type": "artifact-removed"
+    },
+    {
+      "after": {},
+      "material": true,
+      "summary": "Artifact added: unavailable:unknown:unknown.",
+      "type": "artifact-added"
+    }
+  ],
+  "behaviorChanges": [
+    {
+      "after": "unsupported",
+      "before": "fail",
+      "material": false,
+      "summary": "Behavior codex-msix-identity: fail → unsupported.",
+      "type": "behavior-status-changed"
+    },
+    {
+      "after": "unsupported",
+      "material": false,
+      "summary": "Behavior test added: codex-backend-version.",
+      "type": "behavior-test-added"
+    }
+  ],
+  "comparedWith": "codex-stable-windows-x64-6c4c8b94ea77d112",
+  "createdAt": "2026-10-21T06:07:38.000Z",
+  "diffId": "codex-stable-windows-x64-1b3eea5da6cdddbd-from-codex-stable-windows-x64-6c4c8b94ea77d112",
+  "distributionChanges": [
+    {
+      "after": "26.1016.6573.0",
+      "before": "26.1013.4894.0",
+      "material": true,
+      "summary": "Distribution state microsoft-store-rollout-signal:build: 26.1013.4894.0 → 26.1016.6573.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "interfaceChanges": [],
+  "materialChanges": [
+    {
+      "before": {
+        "sha256": "e2d892e6c22310e4b1a2928b0d3a29a066e0863d3a333754d6585c77cdafbe7f",
+        "sizeBytes": 948993815
+      },
+      "material": true,
+      "summary": "Artifact removed: msix:OpenAI.Codex:x64.",
+      "type": "artifact-removed"
+    },
+    {
+      "after": {},
+      "material": true,
+      "summary": "Artifact added: unavailable:unknown:unknown.",
+      "type": "artifact-added"
+    },
+    {
+      "after": "26.1016.6573.0",
+      "before": "26.1013.4894.0",
+      "material": true,
+      "summary": "Distribution state microsoft-store-rollout-signal:build: 26.1013.4894.0 → 26.1016.6573.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "codex-stable-windows-x64-1b3eea5da6cdddbd",
+  "productId": "codex",
+  "schemaVersion": 1
+}

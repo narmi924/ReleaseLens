@@ -1,0 +1,1028 @@
+{
+  "artifacts": [
+    {
+      "architecture": "x64",
+      "fileName": "claude-2.1.306-win32-x64.exe",
+      "format": "windows-exe",
+      "id": "artifact:claude-native:2.1.306",
+      "kind": "artifact",
+      "observedAt": "2026-10-21T06:06:49.022Z",
+      "packageIdentity": "Anthropic.ClaudeCode",
+      "packageVersion": "2.1.306",
+      "sha256": "f6bc9de38f507c36c9a3bb0085a59a27e32156e2208252bf1707c4e3ef309114",
+      "sizeBytes": 295628960,
+      "sourceHost": "downloads.claude.ai",
+      "status": "pass",
+      "summary": "Claude Code native 2.1.306 executable matched the official release manifest SHA-256.",
+      "verification": [
+        {
+          "id": "claude-manifest-sha256",
+          "kind": "verification",
+          "observedAt": "2026-10-21T06:06:49.022Z",
+          "status": "pass",
+          "summary": "Downloaded native executable matches Anthropic's manifest SHA-256."
+        }
+      ]
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:claude-code:2026-10-21T06:06:49.022Z",
+      "kind": "behavior",
+      "observedAt": "2026-10-21T06:06:49.022Z",
+      "results": [
+        {
+          "durationMs": 68,
+          "exitCode": 0,
+          "startedAt": "2026-10-21T06:06:49.022Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "claude-version completed.",
+          "testId": "claude-version"
+        },
+        {
+          "durationMs": 222,
+          "exitCode": 0,
+          "startedAt": "2026-10-21T06:06:49.022Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "claude-help completed.",
+          "testId": "claude-help"
+        },
+        {
+          "durationMs": 2003,
+          "exitCode": 0,
+          "startedAt": "2026-10-21T06:06:49.022Z",
+          "status": "pass",
+          "structuredDetails": {
+            "attempts": 1,
+            "timedOut": false
+          },
+          "summary": "claude-diagnostics completed.",
+          "testId": "claude-diagnostics"
+        }
+      ],
+      "status": "pass",
+      "summary": "claude-code behavior suite produced 3 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103905"
+        ],
+        "signature": "code:acknowledgment-only|title:bug-background-job-classified-working-result|version:2.1.306|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103916"
+        ],
+        "signature": "code:auto-mode|title:auto-mode-classifier-hard-refuses-explicitly|version:25.6.0|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103913"
+        ],
+        "signature": "code:claude-opus-5-5|title:model-told-its-user-deploy-would|version:2.1.303",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103918"
+        ],
+        "signature": "code:context-window|title:desktop-context-window-usage-longer-shown|version:3.1623.0|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103911"
+        ],
+        "signature": "code:embedded|title:bash-tool-grep-shim-embedded-ugrep|version:2.1.304|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103915"
+        ],
+        "signature": "code:engine|title:bug-claude-plugin-validate-passes-hooks|version:2.1.304|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103921"
+        ],
+        "signature": "code:environment|title:bug-claude-ignores-voice-doc-instructions|version:2.1.302|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103920"
+        ],
+        "signature": "code:eof|title:bug-bash-commands-fail-line-unexpected|version:2.1.305|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103908"
+        ],
+        "signature": "code:evaluator|title:bug-goal-evaluator-rejects-satisfied-condition|version:2.1.305|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103917"
+        ],
+        "signature": "code:even|title:desktop-delivers-queued-user-messages-out|version:35.287|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103907"
+        ],
+        "signature": "code:exe|title:bug-windows-desktop-terminal-wsl-sessions|version:1.2.0-beta.14|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103912"
+        ],
+        "signature": "code:exist|title:github-integration",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103909"
+        ],
+        "signature": "code:existing|title:bug-cloud-projects-threads-ignore-repo|version:2.1.306|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103914"
+        ],
+        "signature": "code:existing|title:bug-macos-startup-can-block-timeout|version:2.1.306|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103910"
+        ],
+        "signature": "code:existing|title:bug-windows-hooks-intermittently-fail-spawn|version:2.1.306|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103923"
+        ],
+        "signature": "code:extension|title:bug-extension-rtl-messages-persian-arabic|version:2.1.304|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103906"
+        ],
+        "signature": "code:extension|title:subagent-tool-calls-render-inline-main|version:2.1.301|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103919"
+        ],
+        "signature": "code:mcp__cg__cg_run|title:bug-plan-mode-prompts-allowlisted-mcp|version:2.1.302|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103922"
+        ],
+        "signature": "code:one-time|title:desktop-one-time-sign-typed-into|version:2.37337.1|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:anthropics/claude-code:103904"
+        ],
+        "signature": "code:worktree-isolation|title:bug-worktree-isolation-guard-refuses-git|version:2.1.306|platform:linux",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "064f94a0af4b44942812e1af12b4a8db8b73cb7be5efab5ba5224129288cce9b",
+      "lookbackHours": 72,
+      "releaseVersion": "2.1.306",
+      "source": "official-github-issues"
+    },
+    "id": "community:claude-code:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-10-21T04:00:34Z",
+        "explicitVersion": "2.1.306",
+        "id": "github-issue:anthropics/claude-code:103904",
+        "labels": [
+          "area:bash",
+          "area:sandbox",
+          "bug",
+          "has repro",
+          "platform:linux"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:worktree-isolation|title:bug-worktree-isolation-guard-refuses-git|version:2.1.306|platform:linux",
+        "title": "[BUG] Worktree-isolation guard refuses git revision ranges using @{...} (git log @{u}..HEAD) as too complex to verify",
+        "url": "https://github.com/anthropics/claude-code/issues/103904"
+      },
+      {
+        "createdAt": "2026-10-21T04:11:38Z",
+        "explicitVersion": "2.1.306",
+        "id": "github-issue:anthropics/claude-code:103905",
+        "labels": [
+          "area:agent-view",
+          "bug",
+          "has repro",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:acknowledgment-only|title:bug-background-job-classified-working-result|version:2.1.306|platform:macos",
+        "title": "[BUG] Background job classified \"working\" when a `result:` line is followed by a trailing \"Next:\" line",
+        "url": "https://github.com/anthropics/claude-code/issues/103905"
+      },
+      {
+        "createdAt": "2026-10-21T04:11:41Z",
+        "explicitVersion": "2.1.301",
+        "id": "github-issue:anthropics/claude-code:103906",
+        "labels": [
+          "area:agents",
+          "area:ide",
+          "bug",
+          "platform:vscode",
+          "platform:wsl"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:extension|title:subagent-tool-calls-render-inline-main|version:2.1.301|platform:windows",
+        "title": "[VS Code] Subagent tool calls render inline in the main conversation, indistinguishable from the main agent's",
+        "url": "https://github.com/anthropics/claude-code/issues/103906"
+      },
+      {
+        "createdAt": "2026-10-21T04:13:29Z",
+        "explicitVersion": "1.2.0-beta.14",
+        "id": "github-issue:anthropics/claude-code:103907",
+        "labels": [
+          "area:desktop",
+          "bug",
+          "has repro",
+          "platform:windows",
+          "platform:wsl"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:exe|title:bug-windows-desktop-terminal-wsl-sessions|version:1.2.0-beta.14|platform:windows",
+        "title": "[BUG] Windows desktop: terminal on WSL sessions always fails with \"Failed to spawn shell\" (bare wsl.exe + System32 working directory)",
+        "url": "https://github.com/anthropics/claude-code/issues/103907"
+      },
+      {
+        "createdAt": "2026-10-21T04:13:37Z",
+        "explicitVersion": "2.1.305",
+        "id": "github-issue:anthropics/claude-code:103908",
+        "labels": [
+          "area:hooks",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/103908",
+        "signature": "code:evaluator|title:bug-goal-evaluator-rejects-satisfied-condition|version:2.1.305|platform:macos",
+        "title": "[BUG] /goal evaluator rejects a satisfied OR condition (\"until no findings OR 4 rounds\") after the round cap is reached",
+        "url": "https://github.com/anthropics/claude-code/issues/103908"
+      },
+      {
+        "createdAt": "2026-10-21T04:16:45Z",
+        "explicitVersion": "2.1.306",
+        "id": "github-issue:anthropics/claude-code:103909",
+        "labels": [
+          "area:claude-code-web",
+          "bug",
+          "platform:web",
+          "regression"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/103909",
+        "signature": "code:existing|title:bug-cloud-projects-threads-ignore-repo|version:2.1.306|platform:windows",
+        "title": "[BUG] Cloud Projects threads ignore repo .claude config (hooks, permissions.deny, agents, skills, .mcp.json) since 2.1.306",
+        "url": "https://github.com/anthropics/claude-code/issues/103909"
+      },
+      {
+        "createdAt": "2026-10-21T04:19:56Z",
+        "explicitVersion": "2.1.306",
+        "id": "github-issue:anthropics/claude-code:103910",
+        "labels": [
+          "area:hooks",
+          "bug",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/103910",
+        "signature": "code:existing|title:bug-windows-hooks-intermittently-fail-spawn|version:2.1.306|platform:windows",
+        "title": "[BUG] Windows: hooks intermittently fail to spawn powershell with \"Permission denied\" (Git Bash) — clusters in 2.1.283 and 2.1.304–2.1.305",
+        "url": "https://github.com/anthropics/claude-code/issues/103910"
+      },
+      {
+        "createdAt": "2026-10-21T04:26:08Z",
+        "explicitVersion": "2.1.304",
+        "id": "github-issue:anthropics/claude-code:103911",
+        "labels": [
+          "area:bash",
+          "bug",
+          "has repro",
+          "platform:linux",
+          "platform:wsl"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "resolutionReference": "https://github.com/anthropics/claude-code/issues/103911",
+        "signature": "code:embedded|title:bash-tool-grep-shim-embedded-ugrep|version:2.1.304|platform:linux",
+        "title": "Bash tool grep shim (embedded ugrep) prints matches from multiple files in a nondeterministic order, unlike GNU grep",
+        "url": "https://github.com/anthropics/claude-code/issues/103911"
+      },
+      {
+        "createdAt": "2026-10-21T04:27:43Z",
+        "id": "github-issue:anthropics/claude-code:103912",
+        "labels": [
+          "bug",
+          "github-integration",
+          "platform:web"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:exist|title:github-integration",
+        "title": "[GitHub integration]",
+        "url": "https://github.com/anthropics/claude-code/issues/103912"
+      },
+      {
+        "createdAt": "2026-10-21T04:30:50Z",
+        "explicitVersion": "2.1.303",
+        "id": "github-issue:anthropics/claude-code:103913",
+        "labels": [
+          "area:model",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:claude-opus-5-5|title:model-told-its-user-deploy-would|version:2.1.303",
+        "title": "[MODEL] Told its user a deploy would remove old links, from a line it misread, without checking",
+        "url": "https://github.com/anthropics/claude-code/issues/103913"
+      },
+      {
+        "createdAt": "2026-10-21T04:32:37Z",
+        "explicitVersion": "2.1.306",
+        "id": "github-issue:anthropics/claude-code:103914",
+        "labels": [],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:existing|title:bug-macos-startup-can-block-timeout|version:2.1.306|platform:macos",
+        "title": "[BUG] macOS: startup can block with no timeout on a folder named in a Read deny rule or sandbox denyRead",
+        "url": "https://github.com/anthropics/claude-code/issues/103914"
+      },
+      {
+        "createdAt": "2026-10-21T05:19:38Z",
+        "explicitVersion": "2.1.304",
+        "id": "github-issue:anthropics/claude-code:103915",
+        "labels": [],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:engine|title:bug-claude-plugin-validate-passes-hooks|version:2.1.304|platform:macos",
+        "title": "[BUG] claude plugin validate passes a hooks module that the engine refuses to load ($ passed with a spread argument)",
+        "url": "https://github.com/anthropics/claude-code/issues/103915"
+      },
+      {
+        "createdAt": "2026-10-21T05:28:42Z",
+        "explicitVersion": "25.6.0",
+        "id": "github-issue:anthropics/claude-code:103916",
+        "labels": [
+          "area:permissions",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:auto-mode|title:auto-mode-classifier-hard-refuses-explicitly|version:25.6.0|platform:macos",
+        "title": "Auto-mode classifier hard-refuses explicitly authorised actions, with no route to an approval prompt or an allow rule",
+        "url": "https://github.com/anthropics/claude-code/issues/103916"
+      },
+      {
+        "createdAt": "2026-10-21T05:30:21Z",
+        "explicitVersion": "35.287",
+        "id": "github-issue:anthropics/claude-code:103917",
+        "labels": [
+          "area:core",
+          "area:desktop",
+          "bug",
+          "has repro",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:even|title:desktop-delivers-queued-user-messages-out|version:35.287|platform:macos",
+        "title": "Desktop app delivers queued user messages out of order (second message answered before the first), even when idle",
+        "url": "https://github.com/anthropics/claude-code/issues/103917"
+      },
+      {
+        "createdAt": "2026-10-21T05:35:29Z",
+        "explicitVersion": "3.1623.0",
+        "id": "github-issue:anthropics/claude-code:103918",
+        "labels": [
+          "area:desktop",
+          "area:ui",
+          "bug",
+          "platform:macos",
+          "regression"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:context-window|title:desktop-context-window-usage-longer-shown|version:3.1623.0|platform:macos",
+        "title": "Desktop app: context-window usage no longer shown in the usage ring (Code tab)",
+        "url": "https://github.com/anthropics/claude-code/issues/103918"
+      },
+      {
+        "createdAt": "2026-10-21T05:40:15Z",
+        "explicitVersion": "2.1.302",
+        "id": "github-issue:anthropics/claude-code:103919",
+        "labels": [
+          "area:mcp",
+          "area:permissions",
+          "bug",
+          "has repro",
+          "platform:macos",
+          "regression"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:mcp__cg__cg_run|title:bug-plan-mode-prompts-allowlisted-mcp|version:2.1.302|platform:macos",
+        "title": "[Bug] Plan mode prompts for allowlisted MCP tools, ignoring permissions.allow and PreToolUse allow hook (regression since 2.1.302)",
+        "url": "https://github.com/anthropics/claude-code/issues/103919"
+      },
+      {
+        "createdAt": "2026-10-21T05:53:20Z",
+        "explicitVersion": "2.1.305",
+        "id": "github-issue:anthropics/claude-code:103920",
+        "labels": [
+          "area:bash",
+          "bug",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:eof|title:bug-bash-commands-fail-line-unexpected|version:2.1.305|platform:windows",
+        "title": "[Bug] Bash commands fail with \"line 76: unexpected EOF\" mid-session on Windows Git Bash",
+        "url": "https://github.com/anthropics/claude-code/issues/103920"
+      },
+      {
+        "createdAt": "2026-10-21T05:53:42Z",
+        "explicitVersion": "2.1.302",
+        "id": "github-issue:anthropics/claude-code:103921",
+        "labels": [
+          "area:model",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:environment|title:bug-claude-ignores-voice-doc-instructions|version:2.1.302|platform:macos",
+        "title": "[Bug] Claude ignores voice doc instructions and copies text instead of writing new content based on the voice doc",
+        "url": "https://github.com/anthropics/claude-code/issues/103921"
+      },
+      {
+        "createdAt": "2026-10-21T05:54:00Z",
+        "explicitVersion": "2.37337.1",
+        "id": "github-issue:anthropics/claude-code:103922",
+        "labels": [
+          "area:desktop",
+          "area:security",
+          "bug",
+          "platform:macos"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:one-time|title:desktop-one-time-sign-typed-into|version:2.37337.1|platform:macos",
+        "title": "Desktop app: a one-time sign-in code typed into the Chrome code prompt becomes the session's title",
+        "url": "https://github.com/anthropics/claude-code/issues/103922"
+      },
+      {
+        "createdAt": "2026-10-21T05:59:25Z",
+        "explicitVersion": "2.1.304",
+        "id": "github-issue:anthropics/claude-code:103923",
+        "labels": [
+          "area:a11y",
+          "area:vscode",
+          "bug",
+          "platform:vscode",
+          "platform:windows"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:extension|title:bug-extension-rtl-messages-persian-arabic|version:2.1.304|platform:windows",
+        "title": "[BUG] VS Code extension: RTL messages (Persian/Arabic/Hebrew) get right-aligned text but left-side list markers and indentation — set an explicit block direction instead of relying only on `unicode-bidi: plaintext`",
+        "url": "https://github.com/anthropics/claude-code/issues/103923"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-10-21T06:06:54.971Z",
+    "repository": "anthropics/claude-code",
+    "status": "pass",
+    "summary": "20 recent official GitHub issues observed for anthropics/claude-code."
+  },
+  "comparedWith": "claude-code-stable-windows-x64-5109320935e795cd",
+  "interfaces": [
+    {
+      "cliName": "claude",
+      "commands": [
+        {
+          "name": "agents",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage background agents"
+        },
+        {
+          "name": "attach",
+          "options": [],
+          "subcommands": [],
+          "summary": "Open a background session in this"
+        },
+        {
+          "name": "auth",
+          "options": [],
+          "subcommands": [],
+          "summary": "Manage authentication"
+        },
+        {
+          "name": "auto-mode",
+          "options": [],
+          "subcommands": [],
+          "summary": "Inspect or reset auto mode classifier"
+        },
+        {
+          "name": "configuration",
+          "options": [],
+          "subcommands": []
+        },
+        {
+          "name": "doctor",
+          "options": [],
+          "subcommands": [],
+          "summary": "Check the health of your Claude Code"
+        },
+        {
+          "name": "findings",
+          "options": [],
+          "subcommands": []
+        },
+        {
+          "name": "gateway",
+          "options": [],
+          "subcommands": [],
+          "summary": "Run the enterprise auth/telemetry"
+        },
+        {
+          "name": "logs",
+          "options": [],
+          "subcommands": [],
+          "summary": "Print a background session's recent"
+        },
+        {
+          "name": "mcp",
+          "options": [],
+          "subcommands": [],
+          "summary": "Configure and manage MCP servers"
+        },
+        {
+          "name": "rm",
+          "options": [],
+          "subcommands": [],
+          "summary": "Delete a background session, and its"
+        },
+        {
+          "name": "setup-token",
+          "options": [],
+          "subcommands": [],
+          "summary": "Set up a long-lived authentication token"
+        },
+        {
+          "name": "too",
+          "options": [],
+          "subcommands": []
+        }
+      ],
+      "configKeys": [
+        "CLAUDE",
+        "JSON",
+        "MCP"
+      ],
+      "details": {
+        "globalOptions": [
+          {
+            "names": [
+              "--add-dir"
+            ],
+            "valueHint": "<directories...>"
+          },
+          {
+            "names": [
+              "--add-dir",
+              "--append-system-prompt",
+              "-file"
+            ]
+          },
+          {
+            "names": [
+              "--agent"
+            ],
+            "valueHint": "<agent>"
+          },
+          {
+            "names": [
+              "--agents"
+            ],
+            "valueHint": "<json-or-file>"
+          },
+          {
+            "names": [
+              "--agents",
+              "--plugin-dir",
+              "--settings"
+            ]
+          },
+          {
+            "names": [
+              "--allow-dangerously-skip-permissions"
+            ],
+            "valueHint": "E"
+          },
+          {
+            "names": [
+              "--allowed-tools",
+              "--allowedTools"
+            ],
+            "valueHint": "<tools...>"
+          },
+          {
+            "names": [
+              "--append-system-prompt"
+            ],
+            "valueHint": "<prompt>"
+          },
+          {
+            "names": [
+              "--autocompact"
+            ],
+            "valueHint": "<auto|tokens>"
+          },
+          {
+            "names": [
+              "--ax-screen-reader"
+            ],
+            "valueHint": "R"
+          },
+          {
+            "names": [
+              "--background",
+              "--bg"
+            ],
+            "valueHint": "S"
+          },
+          {
+            "names": [
+              "--bare"
+            ],
+            "valueHint": "M"
+          },
+          {
+            "names": [
+              "--betas"
+            ],
+            "valueHint": "<betas...>"
+          },
+          {
+            "names": [
+              "--brief"
+            ],
+            "valueHint": "E"
+          },
+          {
+            "names": [
+              "--chrome"
+            ],
+            "valueHint": "E"
+          },
+          {
+            "names": [
+              "--cloud"
+            ],
+            "valueHint": "[description|session_id|url]"
+          },
+          {
+            "names": [
+              "--continue"
+            ]
+          },
+          {
+            "names": [
+              "--continue",
+              "--resume"
+            ]
+          },
+          {
+            "names": [
+              "--continue",
+              "-c"
+            ],
+            "valueHint": "C"
+          },
+          {
+            "names": [
+              "--dangerously-skip-permissions"
+            ],
+            "valueHint": "B"
+          },
+          {
+            "names": [
+              "--debug"
+            ]
+          },
+          {
+            "names": [
+              "--debug-file"
+            ],
+            "valueHint": "<path>"
+          },
+          {
+            "names": [
+              "--debug",
+              "-d"
+            ],
+            "valueHint": "[filter]"
+          },
+          {
+            "names": [
+              "--desktop"
+            ],
+            "valueHint": "O"
+          },
+          {
+            "names": [
+              "--disable-slash-commands"
+            ],
+            "valueHint": "D"
+          },
+          {
+            "names": [
+              "--disallowed-tools",
+              "--disallowedTools"
+            ],
+            "valueHint": "<tools...>"
+          },
+          {
+            "names": [
+              "--effort"
+            ],
+            "valueHint": "<level>"
+          },
+          {
+            "names": [
+              "--environment"
+            ],
+            "valueHint": "<environment_id>"
+          },
+          {
+            "names": [
+              "--exclude-dynamic-system-prompt-sections"
+            ]
+          },
+          {
+            "names": [
+              "--fallback-model"
+            ],
+            "valueHint": "<model>"
+          },
+          {
+            "names": [
+              "--file"
+            ],
+            "valueHint": "<specs...>"
+          },
+          {
+            "names": [
+              "--fork-session"
+            ],
+            "valueHint": "W"
+          },
+          {
+            "names": [
+              "--forward-subagent-text"
+            ],
+            "valueHint": "F"
+          },
+          {
+            "names": [
+              "--from-pr"
+            ],
+            "valueHint": "[value]"
+          },
+          {
+            "names": [
+              "--help",
+              "-h"
+            ],
+            "valueHint": "D"
+          },
+          {
+            "names": [
+              "--ide"
+            ],
+            "valueHint": "A"
+          },
+          {
+            "names": [
+              "--include-hook-events"
+            ],
+            "valueHint": "I"
+          },
+          {
+            "names": [
+              "--include-partial-messages"
+            ],
+            "valueHint": "I"
+          },
+          {
+            "names": [
+              "--input-format",
+              "--print"
+            ],
+            "valueHint": "<format>"
+          },
+          {
+            "names": [
+              "--json-schema"
+            ],
+            "valueHint": "<schema>"
+          },
+          {
+            "names": [
+              "--mcp-config"
+            ]
+          },
+          {
+            "names": [
+              "--output-format"
+            ]
+          },
+          {
+            "names": [
+              "--output-format",
+              "--print"
+            ]
+          },
+          {
+            "names": [
+              "--print"
+            ]
+          },
+          {
+            "names": [
+              "--resume"
+            ],
+            "valueHint": "<session-id>"
+          },
+          {
+            "names": [
+              "--settings"
+            ]
+          },
+          {
+            "names": [
+              "--system-prompt"
+            ]
+          },
+          {
+            "names": [
+              "--system-prompt",
+              "-file"
+            ]
+          }
+        ]
+      },
+      "environmentKeys": [],
+      "id": "interface:claude:8fb66e3c09a0",
+      "kind": "interface",
+      "observedAt": "2026-10-21T06:06:49.022Z",
+      "reportedVersion": "2.1.306",
+      "snapshotHash": "8fb66e3c09a0ae54dc727be45f6144b478d3d421de8753669aef10c788373072",
+      "status": "pass",
+      "summary": "Normalized claude CLI interface with 13 top-level commands and 48 global options."
+    }
+  ],
+  "observationId": "claude-code-stable-windows-x64-d011ed7ae109335f",
+  "product": {
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "release": {
+    "canonicalVersion": "2.1.306",
+    "channel": "stable",
+    "discoveredAt": "2026-10-21T06:06:49.022Z",
+    "platform": "windows-x64",
+    "sourceVersion": "2.1.306"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "checksum": "f6bc9de38f507c36c9a3bb0085a59a27e32156e2208252bf1707c4e3ef309114",
+        "installScriptSha256": "cd17c6b555f761d60373659824bf805e1510538226e4c7028e19d7494937a333",
+        "platform": "win32-x64",
+        "version": "2.1.306"
+      },
+      "fingerprint": "6ae2aff20de0f574eef8f247c8b74b2caf2c1ad23c949c35857966b75c6bb491",
+      "id": "claude-native:release:2.1.306",
+      "kind": "source",
+      "observedAt": "2026-10-21T06:06:49.022Z",
+      "sourceId": "claude-native",
+      "sourceType": "claude-native-release",
+      "sourceUrl": "https://downloads.claude.ai/claude-code-releases/2.1.306/manifest.json",
+      "status": "pass",
+      "summary": "Anthropic's native Windows win32-x64 release is 2.1.306 with a manifest SHA-256."
+    },
+    {
+      "details": {
+        "releaseCount": 12,
+        "repository": "anthropics/claude-code"
+      },
+      "fingerprint": "5d4357af0951d8293a904d53ff0c5881131b03d6e972fc5bfcaf45a68925f081",
+      "id": "github-repository:snapshot",
+      "kind": "source",
+      "observedAt": "2026-10-21T06:06:49.069Z",
+      "sourceId": "github-repository",
+      "sourceType": "github-release-api",
+      "sourceUrl": "https://github.com/anthropics/claude-code/releases",
+      "status": "pass",
+      "summary": "12 published GitHub releases observed for anthropics/claude-code."
+    },
+    {
+      "details": {
+        "discoveryMethod": "github-api",
+        "installers": [
+          {
+            "architecture": "x64",
+            "sha256": "3ab075f78998efef8b87f491c2e4a39c309dddf44e51d0103eba4f3713d2a0ae",
+            "sourceHost": "downloads.claude.ai"
+          },
+          {
+            "architecture": "arm64",
+            "sha256": "e2c445a4fa8a8c92b64f29bf56dc7addd1770764214ed18023bab8f544f584ed",
+            "sourceHost": "downloads.claude.ai"
+          }
+        ],
+        "packageId": "Anthropic.ClaudeCode",
+        "version": "2.1.302"
+      },
+      "fingerprint": "9e3628576b28476ed5b97c5d2f815f0fbca64a4a8e617c6a84153ce5c738c2f2",
+      "id": "winget:manifest:2.1.302",
+      "kind": "source",
+      "observedAt": "2026-10-21T06:06:49.066Z",
+      "sourceId": "winget",
+      "sourceType": "winget-manifest",
+      "sourceUrl": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Anthropic/ClaudeCode/2.1.302/Anthropic.ClaudeCode.installer.yaml",
+      "status": "pass",
+      "summary": "WinGet Anthropic.ClaudeCode exposes 2.1.302 with 2 installer entries."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "MATERIAL_EVIDENCE_CHANGED",
+        "evidenceRefs": [],
+        "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+      },
+      {
+        "code": "SECONDARY_DISTRIBUTION_LAGGING",
+        "evidenceRefs": [
+          "claude-native:release:2.1.306",
+          "winget:manifest:2.1.302"
+        ],
+        "message": "WinGet 2.1.302 lags the official native release 2.1.306. The verified official artifact is unaffected."
+      }
+    ],
+    "severity": "minor",
+    "status": "CHANGED"
+  }
+}
