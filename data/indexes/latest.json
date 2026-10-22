@@ -10,28 +10,42 @@
       "verdict": {
         "reasons": [
           {
-            "code": "MATERIAL_EVIDENCE_CHANGED",
-            "evidenceRefs": [],
-            "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
-          },
-          {
-            "code": "SECONDARY_DISTRIBUTION_LAGGING",
+            "code": "STRONG_OFFICIAL_GITHUB_CLUSTER",
             "evidenceRefs": [
-              "claude-native:release:2.1.308",
-              "winget:manifest:2.1.302"
+              "community:claude-code:official-github",
+              "github-issue:anthropics/claude-code:104335",
+              "github-issue:anthropics/claude-code:104336",
+              "github-issue:anthropics/claude-code:104337",
+              "github-issue:anthropics/claude-code:104338",
+              "github-issue:anthropics/claude-code:104339",
+              "github-issue:anthropics/claude-code:104340",
+              "github-issue:anthropics/claude-code:104341",
+              "github-issue:anthropics/claude-code:104342",
+              "github-issue:anthropics/claude-code:104343",
+              "github-issue:anthropics/claude-code:104344",
+              "github-issue:anthropics/claude-code:104345",
+              "github-issue:anthropics/claude-code:104346",
+              "github-issue:anthropics/claude-code:104347",
+              "github-issue:anthropics/claude-code:104348",
+              "github-issue:anthropics/claude-code:104349",
+              "github-issue:anthropics/claude-code:104350",
+              "github-issue:anthropics/claude-code:104351",
+              "github-issue:anthropics/claude-code:104352",
+              "github-issue:anthropics/claude-code:104353",
+              "github-issue:anthropics/claude-code:104354"
             ],
-            "message": "WinGet 2.1.302 lags the official native release 2.1.308. The verified official artifact is unaffected."
+            "message": "A strong official-GitHub issue cluster is associated with this release."
           }
         ],
-        "severity": "minor",
-        "status": "CHANGED"
+        "severity": "major",
+        "status": "SUSPECTED_REGRESSION"
       },
       "version": "2.1.308"
     },
     {
       "channel": "stable",
-      "discoveredAt": "2026-10-22T06:11:05.568Z",
-      "observationId": "codex-stable-windows-x64-ca4d967640395fdc",
+      "discoveredAt": "2026-10-22T18:04:28.670Z",
+      "observationId": "codex-stable-windows-x64-e530891dbc15d1c8",
       "platform": "windows-x64",
       "productId": "codex",
       "schemaVersion": 1,
@@ -40,14 +54,14 @@
           {
             "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
             "evidenceRefs": [
-              "artifact:msix:OpenAI.Codex:26.1016.6573.0:x64"
+              "artifact:msix:OpenAI.Codex:26.1016.8120.0:x64"
             ],
             "message": "Required artifact evidence is missing or did not pass."
           },
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
             "evidenceRefs": [
-              "behavior:codex:2026-10-22T06:11:05.568Z"
+              "behavior:codex:2026-10-22T18:04:28.670Z"
             ],
             "message": "Required behavior codex-msix-identity is fail."
           },
@@ -60,12 +74,12 @@
         "severity": "major",
         "status": "UNVERIFIED"
       },
-      "version": "26.1016.6573.0"
+      "version": "26.1016.8120.0"
     },
     {
       "channel": "alpha",
-      "discoveredAt": "2026-10-22T06:10:33.723Z",
-      "observationId": "codex-cli-alpha-windows-x64-5d4adb0581b89d94",
+      "discoveredAt": "2026-10-22T18:03:52.879Z",
+      "observationId": "codex-cli-alpha-windows-x64-07db2eee073e6967",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
@@ -80,12 +94,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.164.0-alpha.11"
+      "version": "0.164.0-alpha.12"
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-10-22T06:10:33.723Z",
-      "observationId": "codex-cli-latest-windows-x64-31ca21afbb203aba",
+      "discoveredAt": "2026-10-22T18:03:52.879Z",
+      "observationId": "codex-cli-latest-windows-x64-c7c7d6236db3a5ec",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
