@@ -2,50 +2,36 @@
   "releases": [
     {
       "channel": "stable",
-      "discoveredAt": "2026-10-22T06:10:26.554Z",
-      "observationId": "claude-code-stable-windows-x64-75981b9e07554bd0",
+      "discoveredAt": "2026-10-23T06:05:39.450Z",
+      "observationId": "claude-code-stable-windows-x64-c92c2a7f862db566",
       "platform": "windows-x64",
       "productId": "claude-code",
       "schemaVersion": 1,
       "verdict": {
         "reasons": [
           {
-            "code": "STRONG_OFFICIAL_GITHUB_CLUSTER",
+            "code": "MATERIAL_EVIDENCE_CHANGED",
+            "evidenceRefs": [],
+            "message": "Verified material artifact, interface, behavior, or distribution evidence changed."
+          },
+          {
+            "code": "SECONDARY_DISTRIBUTION_LAGGING",
             "evidenceRefs": [
-              "community:claude-code:official-github",
-              "github-issue:anthropics/claude-code:104335",
-              "github-issue:anthropics/claude-code:104336",
-              "github-issue:anthropics/claude-code:104337",
-              "github-issue:anthropics/claude-code:104338",
-              "github-issue:anthropics/claude-code:104339",
-              "github-issue:anthropics/claude-code:104340",
-              "github-issue:anthropics/claude-code:104341",
-              "github-issue:anthropics/claude-code:104342",
-              "github-issue:anthropics/claude-code:104343",
-              "github-issue:anthropics/claude-code:104344",
-              "github-issue:anthropics/claude-code:104345",
-              "github-issue:anthropics/claude-code:104346",
-              "github-issue:anthropics/claude-code:104347",
-              "github-issue:anthropics/claude-code:104348",
-              "github-issue:anthropics/claude-code:104349",
-              "github-issue:anthropics/claude-code:104350",
-              "github-issue:anthropics/claude-code:104351",
-              "github-issue:anthropics/claude-code:104352",
-              "github-issue:anthropics/claude-code:104353",
-              "github-issue:anthropics/claude-code:104354"
+              "claude-native:release:2.1.309",
+              "winget:manifest:2.1.302"
             ],
-            "message": "A strong official-GitHub issue cluster is associated with this release."
+            "message": "WinGet 2.1.302 lags the official native release 2.1.309. The verified official artifact is unaffected."
           }
         ],
-        "severity": "major",
-        "status": "SUSPECTED_REGRESSION"
+        "severity": "minor",
+        "status": "CHANGED"
       },
-      "version": "2.1.308"
+      "version": "2.1.309"
     },
     {
       "channel": "stable",
-      "discoveredAt": "2026-10-22T18:04:28.670Z",
-      "observationId": "codex-stable-windows-x64-e530891dbc15d1c8",
+      "discoveredAt": "2026-10-23T06:06:38.769Z",
+      "observationId": "codex-stable-windows-x64-4a5b7711c826a59f",
       "platform": "windows-x64",
       "productId": "codex",
       "schemaVersion": 1,
@@ -54,14 +40,14 @@
           {
             "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
             "evidenceRefs": [
-              "artifact:msix:OpenAI.Codex:26.1016.8120.0:x64"
+              "artifact:msix:OpenAI.Codex:26.1016.8622.0:x64"
             ],
             "message": "Required artifact evidence is missing or did not pass."
           },
           {
             "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
             "evidenceRefs": [
-              "behavior:codex:2026-10-22T18:04:28.670Z"
+              "behavior:codex:2026-10-23T06:06:38.769Z"
             ],
             "message": "Required behavior codex-msix-identity is fail."
           },
@@ -74,12 +60,12 @@
         "severity": "major",
         "status": "UNVERIFIED"
       },
-      "version": "26.1016.8120.0"
+      "version": "26.1016.8622.0"
     },
     {
       "channel": "alpha",
-      "discoveredAt": "2026-10-22T18:03:52.879Z",
-      "observationId": "codex-cli-alpha-windows-x64-07db2eee073e6967",
+      "discoveredAt": "2026-10-23T06:05:51.870Z",
+      "observationId": "codex-cli-alpha-windows-x64-996da5c133bfd270",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
@@ -98,8 +84,8 @@
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-10-22T18:03:52.879Z",
-      "observationId": "codex-cli-latest-windows-x64-c7c7d6236db3a5ec",
+      "discoveredAt": "2026-10-23T06:05:51.870Z",
+      "observationId": "codex-cli-latest-windows-x64-6377d78ab68006d5",
       "platform": "windows-x64",
       "productId": "codex-cli",
       "schemaVersion": 1,
@@ -114,12 +100,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.163.0"
+      "version": "0.164.0"
     },
     {
       "channel": "latest",
-      "discoveredAt": "2026-10-22T06:12:04.069Z",
-      "observationId": "gemini-cli-latest-node-05bce6c59a88629f",
+      "discoveredAt": "2026-10-23T06:07:40.234Z",
+      "observationId": "gemini-cli-latest-node-bf04d8af9c7d4da2",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
@@ -138,8 +124,8 @@
     },
     {
       "channel": "nightly",
-      "discoveredAt": "2026-10-22T06:12:04.069Z",
-      "observationId": "gemini-cli-nightly-node-40c614f4ec1bb8fc",
+      "discoveredAt": "2026-10-23T06:07:40.234Z",
+      "observationId": "gemini-cli-nightly-node-5e32c786a5006e49",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,
@@ -154,12 +140,12 @@
         "severity": "minor",
         "status": "CHANGED"
       },
-      "version": "0.67.0-nightly.20261022.g09d81bf11"
+      "version": "0.67.0-nightly.20261023.ga713410ab"
     },
     {
       "channel": "preview",
-      "discoveredAt": "2026-10-22T06:12:04.069Z",
-      "observationId": "gemini-cli-preview-node-fb3b99a07af6e692",
+      "discoveredAt": "2026-10-23T06:07:40.234Z",
+      "observationId": "gemini-cli-preview-node-14d0829d9fa44091",
       "platform": "node",
       "productId": "gemini-cli",
       "schemaVersion": 1,

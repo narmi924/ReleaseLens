@@ -1,0 +1,111 @@
+{
+  "artifactChanges": [
+    {
+      "after": "afb117ec0d382744583dd13154ba0ca6b0f1980f8ed6a23bffb3aaadb6226e30",
+      "before": "1a71db36560bb446d2c2e63ae675c4a3018c38ace38ca533f8d1b25d3e6555b4",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@openai/codex:unknown.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "4fbd23473a2fc223396cdd8490d3f658d368438134c12a3f1dac9d1e2041a65b",
+      "before": "81377fd73b502a9e7208e32a4da2d468cdb3fc978e0b818c4707d846ad94eb1e",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@openai/codex:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 172854349,
+      "before": 167618721,
+      "material": true,
+      "summary": "Artifact size changed for npm-tgz:@openai/codex:x64.",
+      "type": "artifact-size-changed"
+    }
+  ],
+  "behaviorChanges": [],
+  "comparedWith": "codex-cli-latest-windows-x64-c7c7d6236db3a5ec",
+  "createdAt": "2026-10-23T06:05:51.870Z",
+  "diffId": "codex-cli-latest-windows-x64-6377d78ab68006d5-from-codex-cli-latest-windows-x64-c7c7d6236db3a5ec",
+  "distributionChanges": [
+    {
+      "after": "0.164.0",
+      "before": "0.163.0",
+      "material": true,
+      "summary": "Distribution state npm-registry:latest: 0.163.0 → 0.164.0.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "0.164.0",
+      "before": "0.163.0",
+      "material": true,
+      "summary": "Distribution state npm-registry: 0.163.0 → 0.164.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "interfaceChanges": [
+    {
+      "after": "migrate-nfs-db",
+      "material": true,
+      "summary": "Command added: migrate-nfs-db.",
+      "type": "command-added"
+    },
+    {
+      "after": "DELETE",
+      "material": true,
+      "summary": "Config key added: DELETE.",
+      "type": "config-key-added"
+    }
+  ],
+  "materialChanges": [
+    {
+      "after": "afb117ec0d382744583dd13154ba0ca6b0f1980f8ed6a23bffb3aaadb6226e30",
+      "before": "1a71db36560bb446d2c2e63ae675c4a3018c38ace38ca533f8d1b25d3e6555b4",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@openai/codex:unknown.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": "4fbd23473a2fc223396cdd8490d3f658d368438134c12a3f1dac9d1e2041a65b",
+      "before": "81377fd73b502a9e7208e32a4da2d468cdb3fc978e0b818c4707d846ad94eb1e",
+      "material": true,
+      "summary": "Artifact bytes changed for npm-tgz:@openai/codex:x64.",
+      "type": "artifact-sha256-changed"
+    },
+    {
+      "after": 172854349,
+      "before": 167618721,
+      "material": true,
+      "summary": "Artifact size changed for npm-tgz:@openai/codex:x64.",
+      "type": "artifact-size-changed"
+    },
+    {
+      "after": "migrate-nfs-db",
+      "material": true,
+      "summary": "Command added: migrate-nfs-db.",
+      "type": "command-added"
+    },
+    {
+      "after": "DELETE",
+      "material": true,
+      "summary": "Config key added: DELETE.",
+      "type": "config-key-added"
+    },
+    {
+      "after": "0.164.0",
+      "before": "0.163.0",
+      "material": true,
+      "summary": "Distribution state npm-registry:latest: 0.163.0 → 0.164.0.",
+      "type": "distribution-version-changed"
+    },
+    {
+      "after": "0.164.0",
+      "before": "0.163.0",
+      "material": true,
+      "summary": "Distribution state npm-registry: 0.163.0 → 0.164.0.",
+      "type": "distribution-version-changed"
+    }
+  ],
+  "observationId": "codex-cli-latest-windows-x64-6377d78ab68006d5",
+  "productId": "codex-cli",
+  "schemaVersion": 1
+}
