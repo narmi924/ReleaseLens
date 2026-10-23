@@ -84,16 +84,44 @@
     "clusters": [
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29873"
+          "github-issue:google-gemini/gemini-cli:29892"
         ],
-        "signature": "code:expect|title:geminicli-com-feedback-issue",
+        "signature": "code:error|title:headless-mode-prints-object-object-instead|version:0.65.0",
         "strength": "weak"
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29874"
+          "github-issue:google-gemini/gemini-cli:29894"
         ],
-        "signature": "code:just-in-time|title:allow-turning-off-just-time-context|version:0.64.0",
+        "signature": "code:every|title:metricreader-deprecation-warning-printed-every-run|version:0.65.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29893"
+        ],
+        "signature": "code:everything|title:telemetry-service-node|version:0.65.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29891"
+        ],
+        "signature": "code:exports|title:telemetry-exports-prompt-process-command-args|version:0.65.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29897"
+        ],
+        "signature": "code:mid-stream|title:acp-mid-stream-retry-geminieventtype-retry|version:0.65.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29900"
+        ],
+        "signature": "code:mid-turn|title:acp-let-clients-steer-running-turn",
         "strength": "weak"
       },
       {
@@ -105,9 +133,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29872"
+          "github-issue:google-gemini/gemini-cli:29898"
         ],
-        "signature": "code:pre-execution|title:veltra-pre-execution-security-guardrails-your",
+        "signature": "code:read_file|title:read-file-windows-node-file-device|version:0.65.0|platform:windows",
         "strength": "weak"
       },
       {
@@ -116,53 +144,23 @@
         ],
         "signature": "code:signed-in|title:usage-statistics-include-signed-google-account",
         "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29896"
+        ],
+        "signature": "code:web_fetch|title:web-fetch-keeps-trailing-comma-urls|version:0.64.0|platform:macos",
+        "strength": "weak"
       }
     ],
     "details": {
-      "fingerprint": "57a5e7850b0919242c2e27379dab3959961d31d8dd1358aa6e26e850b429ec18",
+      "fingerprint": "04715d614bcf90c3d98aea6ef5371436fd4e51dbdf97012512e63f1f8911e1bf",
       "lookbackHours": 72,
       "releaseVersion": "0.65.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-22T05:25:18Z",
-        "id": "github-issue:google-gemini/gemini-cli:29872",
-        "labels": [
-          "area/security",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:pre-execution|title:veltra-pre-execution-security-guardrails-your",
-        "title": "veltra pre-execution security guardrails for your agent execution loops",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29872"
-      },
-      {
-        "createdAt": "2026-10-22T05:49:24Z",
-        "id": "github-issue:google-gemini/gemini-cli:29873",
-        "labels": [
-          "area/unknown",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:expect|title:geminicli-com-feedback-issue",
-        "title": "GeminiCLI.com Feedback: [ISSUE]",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29873"
-      },
-      {
-        "createdAt": "2026-10-22T05:54:41Z",
-        "explicitVersion": "0.64.0",
-        "id": "github-issue:google-gemini/gemini-cli:29874",
-        "labels": [
-          "area/agent",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:just-in-time|title:allow-turning-off-just-time-context|version:0.64.0",
-        "title": "Allow turning off just-in-time context files, and let context.fileName replace GEMINI.md",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29874"
-      },
       {
         "createdAt": "2026-10-22T21:15:56Z",
         "id": "github-issue:google-gemini/gemini-cli:29885",
@@ -187,13 +185,122 @@
         "signature": "code:policy-engine|title:docs-note-that-commandprefix-deny-rules|version:0.65.0",
         "title": "Docs: note that commandPrefix deny rules match a name, and suggest allow rules for unattended runs",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29889"
+      },
+      {
+        "createdAt": "2026-10-23T11:08:02Z",
+        "explicitVersion": "0.65.0",
+        "id": "github-issue:google-gemini/gemini-cli:29891",
+        "labels": [
+          "area/enterprise",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:exports|title:telemetry-exports-prompt-process-command-args|version:0.65.0",
+        "title": "Telemetry exports the -p prompt in process.command_args even with logPrompts: false",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29891"
+      },
+      {
+        "createdAt": "2026-10-23T11:08:03Z",
+        "explicitVersion": "0.65.0",
+        "id": "github-issue:google-gemini/gemini-cli:29892",
+        "labels": [
+          "area/non-interactive",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:error|title:headless-mode-prints-object-object-instead|version:0.65.0",
+        "title": "Headless mode prints [object Object] instead of the API error (looks like #13553 again)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29892"
+      },
+      {
+        "createdAt": "2026-10-23T11:08:05Z",
+        "explicitVersion": "0.65.0",
+        "id": "github-issue:google-gemini/gemini-cli:29893",
+        "labels": [
+          "area/enterprise",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:everything|title:telemetry-service-node|version:0.65.0",
+        "title": "Telemetry service.version is the Node.js version, not the CLI version",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29893"
+      },
+      {
+        "createdAt": "2026-10-23T11:08:06Z",
+        "explicitVersion": "0.65.0",
+        "id": "github-issue:google-gemini/gemini-cli:29894",
+        "labels": [
+          "area/enterprise",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:every|title:metricreader-deprecation-warning-printed-every-run|version:0.65.0",
+        "title": "'metricReader' deprecation warning printed on every run with telemetry on",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29894"
+      },
+      {
+        "createdAt": "2026-10-23T13:12:09Z",
+        "explicitVersion": "0.64.0",
+        "id": "github-issue:google-gemini/gemini-cli:29896",
+        "labels": [
+          "area/agent",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:web_fetch|title:web-fetch-keeps-trailing-comma-urls|version:0.64.0|platform:macos",
+        "title": "web_fetch keeps a trailing comma on URLs in a comma-separated list",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29896"
+      },
+      {
+        "createdAt": "2026-10-23T14:41:36Z",
+        "explicitVersion": "0.65.0",
+        "id": "github-issue:google-gemini/gemini-cli:29897",
+        "labels": [
+          "area/non-interactive",
+          "effort/medium",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:mid-stream|title:acp-mid-stream-retry-geminieventtype-retry|version:0.65.0|platform:windows",
+        "title": "ACP: mid-stream retry (GeminiEventType.Retry) is dropped, so partial text of abandoned attempts is concatenated in the client and in the saved session",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29897"
+      },
+      {
+        "createdAt": "2026-10-23T15:36:57Z",
+        "explicitVersion": "0.65.0",
+        "id": "github-issue:google-gemini/gemini-cli:29898",
+        "labels": [
+          "area/core",
+          "effort/medium",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:read_file|title:read-file-windows-node-file-device|version:0.65.0|platform:windows",
+        "title": "read_file fails on Windows with Node 22.12-22.16, \"File device or inode changed during read\"",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29898"
+      },
+      {
+        "createdAt": "2026-10-23T17:15:31Z",
+        "id": "github-issue:google-gemini/gemini-cli:29900",
+        "labels": [
+          "area/non-interactive",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:mid-turn|title:acp-let-clients-steer-running-turn",
+        "title": "ACP: let clients steer a running turn (mid-turn user hints)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29900"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-23T06:07:55.359Z",
+    "observedAt": "2026-10-23T17:56:13.676Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "5 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "10 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-05bce6c59a88629f",
   "interfaces": [
