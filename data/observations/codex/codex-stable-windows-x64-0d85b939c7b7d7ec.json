@@ -1,0 +1,733 @@
+{
+  "artifacts": [
+    {
+      "architecture": "x64",
+      "details": {
+        "application": {
+          "entryPoint": "Windows.FullTrustApplication",
+          "executable": "app/ChatGPT.exe",
+          "id": "App"
+        },
+        "blockMap": {
+          "errors": [
+            "Block-map stored size did not match for uncompressed file app/resources/cua_node/bin/node_modules/playwright-core/lib/server/chromium/appIcon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/default_app/icon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/browser/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/codex-app-tools/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/chrome/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/computer-use/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/deep-research/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/image-guided-assets/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/latex/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/unified-computer-use/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/visualize/plugin.tar.gz.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/browser.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/composer-icon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/google-chrome.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome-composer.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/computer-use/assets/app-icon.png.",
+            "Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/latex/assets/latex.png.",
+            "Block-map stored size did not match for uncompressed file assets/icon.png.",
+            "Block-map stored size did not match for uncompressed file assets/LockScreenLogo.scale-200.png.",
+            "Block-map stored size did not match for uncompressed file assets/SplashScreen.scale-200.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square150x150Logo.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square150x150Logo.scale-200.png.",
+            "Block-map stored size did not match for uncompressed file assets/Square44x44Logo.png.",
+            "32 additional block-map failure(s) omitted from persisted evidence."
+          ],
+          "status": "fail",
+          "totalFiles": 3661,
+          "verifiedFiles": 3605
+        },
+        "fileCount": 3665,
+        "importantFiles": [
+          "AppxManifest.xml",
+          "AppxBlockMap.xml",
+          "AppxSignature.p7x",
+          "app/ChatGPT.exe"
+        ],
+        "signature": {
+          "signer": "CN=50BDFD77-8903-4850-9FFE-6E8522F64D5B",
+          "status": "pass",
+          "summary": "Windows reported a valid Authenticode signature."
+        },
+        "topLevelDirectories": [
+          "[Content_Types].xml",
+          "app",
+          "AppxBlockMap.xml",
+          "AppxManifest.xml",
+          "AppxMetadata",
+          "AppxSignature.p7x",
+          "assets",
+          "priconfig.xml",
+          "resources.language-is.pri",
+          "resources.pri",
+          "resources.scale-200.pri"
+        ]
+      },
+      "fileName": "OpenAI.Codex_26.1021.3705.0_x64__2p2nqsd0c76g0.msix",
+      "format": "msix",
+      "id": "artifact:msix:OpenAI.Codex:26.1021.3705.0:x64",
+      "kind": "artifact",
+      "observedAt": "2026-10-24T16:44:50.187Z",
+      "packageIdentity": "OpenAI.Codex",
+      "packageVersion": "26.1021.3705.0",
+      "sha256": "0024ecd081b1187c51de45e983dc3e0bfb3b923faea7526ef2233c9ec8e8b7ac",
+      "sizeBytes": 979994720,
+      "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+      "status": "fail",
+      "summary": "OpenAI.Codex 26.1021.3705.0 MSIX failed verification.",
+      "verification": [
+        {
+          "id": "msix-identity",
+          "kind": "verification",
+          "observedAt": "2026-10-24T16:44:50.187Z",
+          "status": "pass",
+          "summary": "MSIX package identity matches the profile."
+        },
+        {
+          "id": "msix-required-file:app/resources/codex.exe",
+          "kind": "verification",
+          "observedAt": "2026-10-24T16:44:50.187Z",
+          "status": "pass",
+          "summary": "Required MSIX file app/resources/codex.exe exists."
+        },
+        {
+          "id": "msix-architecture",
+          "kind": "verification",
+          "observedAt": "2026-10-24T16:44:50.187Z",
+          "status": "pass",
+          "summary": "MSIX processor architecture matches the profile."
+        },
+        {
+          "id": "msix-version",
+          "kind": "verification",
+          "observedAt": "2026-10-24T16:44:50.187Z",
+          "status": "pass",
+          "summary": "MSIX package version matches the resolved moniker."
+        },
+        {
+          "id": "msix-moniker",
+          "kind": "verification",
+          "observedAt": "2026-10-24T16:44:50.187Z",
+          "status": "pass",
+          "summary": "MSIX manifest agrees with the resolved package moniker."
+        },
+        {
+          "id": "msix-entrypoint",
+          "kind": "verification",
+          "observedAt": "2026-10-24T16:44:50.187Z",
+          "status": "pass",
+          "summary": "MSIX application executable app/ChatGPT.exe exists in the package."
+        },
+        {
+          "id": "msix-signature-file",
+          "kind": "verification",
+          "observedAt": "2026-10-24T16:44:50.187Z",
+          "status": "pass",
+          "summary": "MSIX includes AppxSignature.p7x."
+        },
+        {
+          "id": "msix-block-map",
+          "kind": "verification",
+          "observedAt": "2026-10-24T16:44:50.187Z",
+          "status": "fail",
+          "summary": "Block-map stored size did not match for uncompressed file app/resources/cua_node/bin/node_modules/playwright-core/lib/server/chromium/appIcon.png. Block-map stored size did not match for uncompressed file app/resources/default_app/icon.png. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/browser/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/codex-app-tools/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/chrome/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/computer-use/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/deep-research/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/image-guided-assets/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/latex/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/unified-computer-use/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugin-signatures/openai-bundled/visualize/plugin.tar.gz. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/browser.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/composer-icon.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/browser/assets/google-chrome.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome-composer.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/chrome/assets/google-chrome.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/computer-use/assets/app-icon.png. Block-map stored size did not match for uncompressed file app/resources/plugins/openai-bundled/plugins/latex/assets/latex.png. Block-map stored size did not match for uncompressed file assets/icon.png. Block-map stored size did not match for uncompressed file assets/LockScreenLogo.scale-200.png. Block-map stored size did not match for uncompressed file assets/SplashScreen.scale-200.png. Block-map stored size did not match for uncompressed file assets/Square150x150Logo.png. Block-map stored size did not match for uncompressed file assets/Square150x150Logo.scale-200.png. Block-map stored size did not match for uncompressed file assets/Square44x44Logo.png. 32 additional block-map failure(s) omitted from persisted evidence."
+        },
+        {
+          "id": "msix-signature",
+          "kind": "verification",
+          "observedAt": "2026-10-24T16:44:50.187Z",
+          "status": "pass",
+          "summary": "Windows reported a valid Authenticode signature."
+        }
+      ]
+    }
+  ],
+  "behavior": [
+    {
+      "id": "behavior:codex:2026-10-24T16:44:50.187Z",
+      "kind": "behavior",
+      "observedAt": "2026-10-24T16:44:50.187Z",
+      "results": [
+        {
+          "durationMs": 0,
+          "startedAt": "2026-10-24T16:44:50.187Z",
+          "status": "fail",
+          "summary": "Codex backend was not executed because MSIX verification did not pass.",
+          "testId": "codex-msix-identity"
+        },
+        {
+          "durationMs": 0,
+          "startedAt": "2026-10-24T16:44:50.187Z",
+          "status": "not-applicable",
+          "summary": "Codex desktop startup was not attempted because MSIX verification did not pass.",
+          "testId": "codex-desktop-start"
+        }
+      ],
+      "status": "fail",
+      "summary": "codex behavior suite produced 0 passing result(s)."
+    }
+  ],
+  "community": {
+    "clusters": [
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56751"
+        ],
+        "signature": "code:active-writer|title:macos-desktop-transient-active-writer-conflict|version:8.6|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56755"
+        ],
+        "signature": "code:built-in|title:windows-iab-page-renders-but-cua|version:26.1021.3705.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56747"
+        ],
+        "signature": "code:computer-use|title:windows-desktop-browser-computer-use-initialization|version:26.1007.9446.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56744"
+        ],
+        "signature": "code:edge|title:windows-computer-use-edge-url-verification|version:26.1021.3705.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56750"
+        ],
+        "signature": "code:element|title:windows-browser-annotation-element-picking-becomes|version:26.1021.3705.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56743"
+        ],
+        "signature": "code:enumerate|title:windows-inserting-dvd-prevents-codex-tools|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56738"
+        ],
+        "signature": "code:env|title:bug-linux-codex-stucks-codex-env|version:0.164.0|platform:arm64",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56741"
+        ],
+        "signature": "code:environment|title:duplicate-local-projects-same-folder-removing|version:26.1007.21434|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56749"
+        ],
+        "signature": "code:environment|title:windows-codex-starts-main-process-but|version:26.1021.3705.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56753"
+        ],
+        "signature": "code:explicar|title:linking-displaying-project-settings-codes|version:26.1016.61520|platform:linux",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56740"
+        ],
+        "signature": "code:explicitly|title:computer-use-completely-cooked-stunted-productivity|version:10.0.26300.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56742"
+        ],
+        "signature": "code:explicitly|title:windows-desktop-previously-working-scoped-git|version:24.713|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56739"
+        ],
+        "signature": "code:explorer|title:windows-screenshots-time-out-explorer-sunbrowser|version:26.1021.3705.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56757"
+        ],
+        "signature": "code:extension|title:chrome-extension-archiving-conversation-update-its",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56746"
+        ],
+        "signature": "code:extension|title:windows-chrome-extension-can-navigate-read|version:26.1021.3705.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56754"
+        ],
+        "signature": "code:main-process|title:windows-recurrent-freezes-rapid-main-process|version:26.1021.3705.0|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56745"
+        ],
+        "signature": "code:opt-in|title:feature-request-supervised-user-opt-non",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56756"
+        ],
+        "signature": "code:remove_destination|title:windows-wsl-startup-bundled-runtime-relocation|version:0.164.0-alpha.11.1|platform:windows",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56752"
+        ],
+        "signature": "code:self-introduced|title:agent-behavior-instruction-drift-self-introduced|version:26.1016.62342|platform:macos",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
+          "github-issue:openai/codex:56748"
+        ],
+        "signature": "code:topic-based|title:bug-goal-tasks-receive-generic-conversation|version:26.1021.31345|platform:windows",
+        "strength": "weak"
+      }
+    ],
+    "details": {
+      "fingerprint": "d404547e174847395ea371e90438b45cfe96432796f13f333f5abcb8a7416dfa",
+      "lookbackHours": 72,
+      "releaseVersion": "26.1021.3705.0",
+      "source": "official-github-issues"
+    },
+    "id": "community:codex:official-github",
+    "issues": [
+      {
+        "createdAt": "2026-10-24T15:01:08Z",
+        "explicitVersion": "0.164.0",
+        "id": "github-issue:openai/codex:56738",
+        "labels": [
+          "bug",
+          "CLI",
+          "config",
+          "performance"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "arm64",
+        "signature": "code:env|title:bug-linux-codex-stucks-codex-env|version:0.164.0|platform:arm64",
+        "title": "[BUG] Linux codex stucks when ~/.codex/.env is a directory.",
+        "url": "https://github.com/openai/codex/issues/56738"
+      },
+      {
+        "createdAt": "2026-10-24T15:01:10Z",
+        "explicitVersion": "26.1021.3705.0",
+        "id": "github-issue:openai/codex:56739",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:explorer|title:windows-screenshots-time-out-explorer-sunbrowser|version:26.1021.3705.0|platform:windows",
+        "title": "Windows 10: screenshots time out in Explorer and SunBrowser while Explorer accessibility works",
+        "url": "https://github.com/openai/codex/issues/56739"
+      },
+      {
+        "createdAt": "2026-10-24T15:10:08Z",
+        "explicitVersion": "10.0.26300.0",
+        "id": "github-issue:openai/codex:56740",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:explicitly|title:computer-use-completely-cooked-stunted-productivity|version:10.0.26300.0|platform:windows",
+        "title": "Computer Use is completely cooked and it's stunted my productivity for 4 days",
+        "url": "https://github.com/openai/codex/issues/56740"
+      },
+      {
+        "createdAt": "2026-10-24T15:24:06Z",
+        "explicitVersion": "26.1007.21434",
+        "id": "github-issue:openai/codex:56741",
+        "labels": [
+          "app",
+          "bug",
+          "session",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "resolutionReference": "https://github.com/openai/codex/issues/56741",
+        "signature": "code:environment|title:duplicate-local-projects-same-folder-removing|version:26.1007.21434|platform:windows",
+        "title": "Duplicate local projects for the same folder; removing one makes both disappear after restart",
+        "url": "https://github.com/openai/codex/issues/56741"
+      },
+      {
+        "createdAt": "2026-10-24T15:27:32Z",
+        "explicitVersion": "24.713",
+        "id": "github-issue:openai/codex:56742",
+        "labels": [
+          "app",
+          "bug",
+          "config",
+          "sandbox",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:explicitly|title:windows-desktop-previously-working-scoped-git|version:24.713|platform:windows",
+        "title": "Windows desktop: previously working scoped Git approvals unavailable in later chat without user permission change",
+        "url": "https://github.com/openai/codex/issues/56742"
+      },
+      {
+        "createdAt": "2026-10-24T15:31:30Z",
+        "id": "github-issue:openai/codex:56743",
+        "labels": [
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:enumerate|title:windows-inserting-dvd-prevents-codex-tools|platform:windows",
+        "title": "Windows: inserting a DVD prevents Codex tools from starting",
+        "url": "https://github.com/openai/codex/issues/56743"
+      },
+      {
+        "createdAt": "2026-10-24T15:33:30Z",
+        "explicitVersion": "26.1021.3705.0",
+        "id": "github-issue:openai/codex:56744",
+        "labels": [
+          "app",
+          "bug",
+          "computer-use",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:edge|title:windows-computer-use-edge-url-verification|version:26.1021.3705.0|platform:windows",
+        "title": "Windows Computer Use: Edge URL verification still stops after package update to 26.1021.3705.0",
+        "url": "https://github.com/openai/codex/issues/56744"
+      },
+      {
+        "createdAt": "2026-10-24T15:34:42Z",
+        "id": "github-issue:openai/codex:56745",
+        "labels": [
+          "agent",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:opt-in|title:feature-request-supervised-user-opt-non",
+        "title": "Feature request: supervised user opt-in for non-financial accounts, passwords, CAPTCHAs and verification",
+        "url": "https://github.com/openai/codex/issues/56745"
+      },
+      {
+        "createdAt": "2026-10-24T15:39:33Z",
+        "explicitVersion": "26.1021.3705.0",
+        "id": "github-issue:openai/codex:56746",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "tool-calls",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:extension|title:windows-chrome-extension-can-navigate-read|version:26.1021.3705.0|platform:windows",
+        "title": "[Windows] Chrome extension can navigate and read tab metadata, but DOM and screenshot operations time out",
+        "url": "https://github.com/openai/codex/issues/56746"
+      },
+      {
+        "createdAt": "2026-10-24T15:43:12Z",
+        "explicitVersion": "26.1007.9446.0",
+        "id": "github-issue:openai/codex:56747",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "computer-use",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:computer-use|title:windows-desktop-browser-computer-use-initialization|version:26.1007.9446.0|platform:windows",
+        "title": "Windows desktop: browser and computer-use initialization fail with kernel-assets path error (26.1007.9446.0)",
+        "url": "https://github.com/openai/codex/issues/56747"
+      },
+      {
+        "createdAt": "2026-10-24T15:47:27Z",
+        "explicitVersion": "26.1021.31345",
+        "id": "github-issue:openai/codex:56748",
+        "labels": [
+          "app",
+          "bug",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:topic-based|title:bug-goal-tasks-receive-generic-conversation|version:26.1021.31345|platform:windows",
+        "title": "[Bug] /goal tasks receive generic conversation titles instead of topic-based titles",
+        "url": "https://github.com/openai/codex/issues/56748"
+      },
+      {
+        "createdAt": "2026-10-24T15:48:07Z",
+        "explicitVersion": "26.1021.3705.0",
+        "id": "github-issue:openai/codex:56749",
+        "labels": [
+          "app",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:environment|title:windows-codex-starts-main-process-but|version:26.1021.3705.0|platform:windows",
+        "title": "Windows: Codex 26.1021.3705.0 starts main process but never creates a window (no renderer process)",
+        "url": "https://github.com/openai/codex/issues/56749"
+      },
+      {
+        "createdAt": "2026-10-24T15:51:16Z",
+        "explicitVersion": "26.1021.3705.0",
+        "id": "github-issue:openai/codex:56750",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "performance",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:element|title:windows-browser-annotation-element-picking-becomes|version:26.1021.3705.0|platform:windows",
+        "title": "[Windows 26.1021.3705.0] In-app browser annotation element picking becomes laggy on dense React pages",
+        "url": "https://github.com/openai/codex/issues/56750"
+      },
+      {
+        "createdAt": "2026-10-24T15:55:05Z",
+        "explicitVersion": "8.6",
+        "id": "github-issue:openai/codex:56751",
+        "labels": [
+          "app",
+          "app-server",
+          "bug"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "resolutionReference": "https://github.com/openai/codex/issues/56751",
+        "signature": "code:active-writer|title:macos-desktop-transient-active-writer-conflict|version:8.6|platform:macos",
+        "title": "[macOS Desktop] Transient active-writer conflict stops resume retries and offers fork despite original recovering seconds later",
+        "url": "https://github.com/openai/codex/issues/56751"
+      },
+      {
+        "createdAt": "2026-10-24T15:59:13Z",
+        "explicitVersion": "26.1016.62342",
+        "id": "github-issue:openai/codex:56752",
+        "labels": [
+          "bug",
+          "model-behavior"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "macos",
+        "signature": "code:self-introduced|title:agent-behavior-instruction-drift-self-introduced|version:26.1016.62342|platform:macos",
+        "title": "Agent behavior: instruction drift and self-introduced test rework prolong a five-hour coding session",
+        "url": "https://github.com/openai/codex/issues/56752"
+      },
+      {
+        "createdAt": "2026-10-24T16:07:52Z",
+        "explicitVersion": "26.1016.61520",
+        "id": "github-issue:openai/codex:56753",
+        "labels": [
+          "app",
+          "config",
+          "enhancement"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "linux",
+        "signature": "code:explicar|title:linking-displaying-project-settings-codes|version:26.1016.61520|platform:linux",
+        "title": "Linking and displaying Project Settings in CODES",
+        "url": "https://github.com/openai/codex/issues/56753"
+      },
+      {
+        "createdAt": "2026-10-24T16:16:37Z",
+        "explicitVersion": "26.1021.3705.0",
+        "id": "github-issue:openai/codex:56754",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "performance",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:main-process|title:windows-recurrent-freezes-rapid-main-process|version:26.1021.3705.0|platform:windows",
+        "title": "[Windows] Recurrent UI freezes and rapid main-process private-memory growth on 26.1021.3705.0; possible browser restoration trigger",
+        "url": "https://github.com/openai/codex/issues/56754"
+      },
+      {
+        "createdAt": "2026-10-24T16:20:28Z",
+        "explicitVersion": "26.1021.3705.0",
+        "id": "github-issue:openai/codex:56755",
+        "labels": [
+          "app",
+          "browser",
+          "bug",
+          "computer-use",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:built-in|title:windows-iab-page-renders-but-cua|version:26.1021.3705.0|platform:windows",
+        "title": "[Windows][26.1021.31345] IAB page renders, but CUA reports Browser is not available: iab in fresh chats",
+        "url": "https://github.com/openai/codex/issues/56755"
+      },
+      {
+        "createdAt": "2026-10-24T16:38:59Z",
+        "explicitVersion": "0.164.0-alpha.11.1",
+        "id": "github-issue:openai/codex:56756",
+        "labels": [
+          "app",
+          "app-server",
+          "bug",
+          "windows-os"
+        ],
+        "maintainerAcknowledged": false,
+        "platform": "windows",
+        "signature": "code:remove_destination|title:windows-wsl-startup-bundled-runtime-relocation|version:0.164.0-alpha.11.1|platform:windows",
+        "title": "[Windows][WSL] Startup fails on bundled runtime relocation `remove_destination` EPERM; misleading organization-settings dialog",
+        "url": "https://github.com/openai/codex/issues/56756"
+      },
+      {
+        "createdAt": "2026-10-24T16:43:09Z",
+        "id": "github-issue:openai/codex:56757",
+        "labels": [
+          "bug",
+          "extension",
+          "session"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extension|title:chrome-extension-archiving-conversation-update-its",
+        "title": "Chrome extension: archiving a conversation does not update its state in another open view",
+        "url": "https://github.com/openai/codex/issues/56757"
+      }
+    ],
+    "kind": "community",
+    "observedAt": "2026-10-24T16:45:49.507Z",
+    "repository": "openai/codex",
+    "status": "pass",
+    "summary": "20 recent official GitHub issues observed for openai/codex."
+  },
+  "comparedWith": "codex-stable-windows-x64-f645209c4e0fcb88",
+  "interfaces": [],
+  "observationId": "codex-stable-windows-x64-0d85b939c7b7d7ec",
+  "product": {
+    "id": "codex",
+    "name": "Codex"
+  },
+  "release": {
+    "canonicalVersion": "26.1021.3705.0",
+    "channel": "stable",
+    "discoveredAt": "2026-10-24T16:44:50.187Z",
+    "platform": "windows-x64",
+    "sourceVersion": "26.1021.3705.0"
+  },
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "details": {
+        "packageCount": 4,
+        "productId": "9PLM9XGG6VKS",
+        "wuCategoryIdPresent": true
+      },
+      "fingerprint": "b0c29ab5adc961505402277778aa39f75a68b31a885a880d04ba0376a9117ec2",
+      "id": "microsoft-store:catalog:9PLM9XGG6VKS",
+      "kind": "source",
+      "observedAt": "2026-10-24T16:44:50.299Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-display-catalog",
+      "sourceUrl": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+      "status": "pass",
+      "summary": "DisplayCatalog exposes 4 packages for Store product 9PLM9XGG6VKS."
+    },
+    {
+      "details": {
+        "architecture": "x64",
+        "packageMoniker": "OpenAI.Codex_26.1021.3705.0_x64__2p2nqsd0c76g0",
+        "packageVersion": "26.1021.3705.0",
+        "revisionNumber": "1",
+        "sourceHost": "tlu.dl.delivery.mp.microsoft.com",
+        "updateId": "fa082cca-a3fc-4d97-bee4-436ed77ee786"
+      },
+      "id": "microsoft-store:fe3:x64:OpenAI.Codex_26.1021.3705.0_x64__2p2nqsd0c76g0",
+      "kind": "source",
+      "observedAt": "2026-10-24T16:44:50.187Z",
+      "sourceId": "microsoft-store",
+      "sourceType": "microsoft-store-fe3-experimental",
+      "status": "pass",
+      "summary": "FE3 resolves x64 package 26.1021.3705.0 from the Microsoft delivery host."
+    },
+    {
+      "details": {
+        "buildVersion": "26.1021.3705.0",
+        "packageIdentity": "OpenAI.Codex",
+        "storeProductId": "9PLM9XGG6VKS"
+      },
+      "id": "microsoft-store:rollout-signal",
+      "kind": "source",
+      "observedAt": "2026-10-24T16:44:50.187Z",
+      "sourceId": "microsoft-store-rollout-signal",
+      "sourceType": "official-rollout-signal",
+      "sourceUrl": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
+      "status": "info",
+      "summary": "Observed OpenAI's supplementary Windows rollout signal; FE3 remains the downloadability authority."
+    }
+  ],
+  "verdict": {
+    "reasons": [
+      {
+        "code": "REQUIRED_EVIDENCE_MISSING_OR_INVALID",
+        "evidenceRefs": [
+          "artifact:msix:OpenAI.Codex:26.1021.3705.0:x64"
+        ],
+        "message": "Required artifact evidence is missing or did not pass."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [
+          "behavior:codex:2026-10-24T16:44:50.187Z"
+        ],
+        "message": "Required behavior codex-msix-identity is fail."
+      },
+      {
+        "code": "REQUIRED_BEHAVIOR_NOT_PASSING",
+        "evidenceRefs": [],
+        "message": "Required behavior codex-backend-version is fail."
+      }
+    ],
+    "severity": "major",
+    "status": "UNVERIFIED"
+  }
+}

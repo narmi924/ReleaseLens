@@ -84,6 +84,13 @@
     "clusters": [
       {
         "issueIds": [
+          "github-issue:google-gemini/gemini-cli:29911"
+        ],
+        "signature": "code:casafari-mcp|title:geminicli-com-feedback-casafari-casafari-mcp|version:0.1.0",
+        "strength": "weak"
+      },
+      {
+        "issueIds": [
           "github-issue:google-gemini/gemini-cli:29892"
         ],
         "signature": "code:error|title:headless-mode-prints-object-object-instead|version:0.65.0",
@@ -105,9 +112,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29891"
+          "github-issue:google-gemini/gemini-cli:29909"
         ],
-        "signature": "code:exports|title:telemetry-exports-prompt-process-command-args|version:0.65.0",
+        "signature": "code:extension|title:geminicli-com-feedback-listed-extension-logospell|version:5.1.1",
         "strength": "weak"
       },
       {
@@ -133,9 +140,9 @@
       },
       {
         "issueIds": [
-          "github-issue:google-gemini/gemini-cli:29889"
+          "github-issue:google-gemini/gemini-cli:29908"
         ],
-        "signature": "code:policy-engine|title:docs-note-that-commandprefix-deny-rules|version:0.65.0",
+        "signature": "code:quota-and-pricing|title:shiva-competition-hub",
         "strength": "weak"
       },
       {
@@ -154,39 +161,13 @@
       }
     ],
     "details": {
-      "fingerprint": "609f415081f49b83f0e988e3e4d9963ffc6ef6a13fbd6b2fe3b4a2bf69c2f0ae",
+      "fingerprint": "062618112460a1e80f82e7c8fc947a77534712ff8234f90b5af5b4b7660b8d38",
       "lookbackHours": 72,
       "releaseVersion": "0.65.0",
       "source": "official-github-issues"
     },
     "id": "community:gemini-cli:official-github",
     "issues": [
-      {
-        "createdAt": "2026-10-23T04:00:44Z",
-        "explicitVersion": "0.65.0",
-        "id": "github-issue:google-gemini/gemini-cli:29889",
-        "labels": [
-          "area/documentation",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:policy-engine|title:docs-note-that-commandprefix-deny-rules|version:0.65.0",
-        "title": "Docs: note that commandPrefix deny rules match a name, and suggest allow rules for unattended runs",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29889"
-      },
-      {
-        "createdAt": "2026-10-23T11:08:02Z",
-        "explicitVersion": "0.65.0",
-        "id": "github-issue:google-gemini/gemini-cli:29891",
-        "labels": [
-          "area/enterprise",
-          "status/need-triage"
-        ],
-        "maintainerAcknowledged": false,
-        "signature": "code:exports|title:telemetry-exports-prompt-process-command-args|version:0.65.0",
-        "title": "Telemetry exports the -p prompt in process.command_args even with logPrompts: false",
-        "url": "https://github.com/google-gemini/gemini-cli/issues/29891"
-      },
       {
         "createdAt": "2026-10-23T11:08:03Z",
         "explicitVersion": "0.65.0",
@@ -297,13 +278,53 @@
         "signature": "code:extensions|title:extensions-gallery-tagged-solaris-extension-has|version:0.65.0",
         "title": "Extensions gallery: tagged Solaris extension has no visible validation disposition",
         "url": "https://github.com/google-gemini/gemini-cli/issues/29903"
+      },
+      {
+        "createdAt": "2026-10-24T06:19:51Z",
+        "id": "github-issue:google-gemini/gemini-cli:29908",
+        "labels": [
+          "area/unknown",
+          "status/need-triage"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:quota-and-pricing|title:shiva-competition-hub",
+        "title": "Shiva competition hub",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29908"
+      },
+      {
+        "createdAt": "2026-10-24T08:55:08Z",
+        "explicitVersion": "5.1.1",
+        "id": "github-issue:google-gemini/gemini-cli:29909",
+        "labels": [
+          "area/extensions",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:extension|title:geminicli-com-feedback-listed-extension-logospell|version:5.1.1",
+        "title": "GeminiCLI.com Feedback: listed extension logospell/logospell-mcp-server stuck at 5.1.1 since Oct 7 (manifest 6.2.0; index unchanged since Oct 16)",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29909"
+      },
+      {
+        "createdAt": "2026-10-24T11:43:05Z",
+        "explicitVersion": "0.1.0",
+        "id": "github-issue:google-gemini/gemini-cli:29911",
+        "labels": [
+          "area/extensions",
+          "effort/small",
+          "status/bot-triaged"
+        ],
+        "maintainerAcknowledged": false,
+        "signature": "code:casafari-mcp|title:geminicli-com-feedback-casafari-casafari-mcp|version:0.1.0",
+        "title": "GeminiCLI.com Feedback: casafari/casafari-mcp not indexed in the Extensions Gallery",
+        "url": "https://github.com/google-gemini/gemini-cli/issues/29911"
       }
     ],
     "kind": "community",
-    "observedAt": "2026-10-24T06:01:31.131Z",
+    "observedAt": "2026-10-24T16:45:51.602Z",
     "repository": "google-gemini/gemini-cli",
     "status": "pass",
-    "summary": "10 recent official GitHub issues observed for google-gemini/gemini-cli."
+    "summary": "11 recent official GitHub issues observed for google-gemini/gemini-cli."
   },
   "comparedWith": "gemini-cli-latest-node-bf04d8af9c7d4da2",
   "interfaces": [
