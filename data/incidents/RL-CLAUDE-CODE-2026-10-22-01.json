@@ -41,6 +41,18 @@
       "observationId": "claude-code-stable-windows-x64-c92c2a7f862db566",
       "summary": "A later observation did not yet provide sufficient clearing evidence.",
       "type": "monitoring"
+    },
+    {
+      "at": "2026-10-23T06:05:39.450Z",
+      "observationId": "claude-code-stable-windows-x64-c92c2a7f862db566",
+      "summary": "A later observation did not yet provide sufficient clearing evidence.",
+      "type": "monitoring"
+    },
+    {
+      "at": "2026-10-24T05:59:46.786Z",
+      "observationId": "claude-code-stable-windows-x64-eed55754c0afc975",
+      "summary": "Resolved by verified 2.1.310.",
+      "type": "resolved"
     }
   ],
   "evidenceRefs": [
@@ -84,6 +96,8 @@
       "summary": "Official GitHub issue cluster: code:integration-github|title:github-integration"
     }
   ],
+  "resolvedAt": "2026-10-24T05:59:46.786Z",
+  "resolvedByVersion": "2.1.310",
   "schemaVersion": 1,
-  "status": "monitoring"
+  "status": "resolved"
 }
